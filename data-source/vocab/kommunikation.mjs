@@ -1,0 +1,60 @@
+export default {
+  key: 'kommunikation',
+  label: { de: 'Meinung & Diskussion', en: 'Opinion & discussion' },
+  icon: '\u{1F5E3}️',
+  payoff: {
+    de: 'Der Kern von Sprechen Teil 1 und 3: vorschlagen, zustimmen, widersprechen.',
+    en: 'The core of Sprechen parts 1 and 3: suggesting, agreeing, disagreeing.',
+  },
+
+  nouns: [
+    ['der Vorschlag', '-¨e', 'suggestion', 'Dein Vorschlag gefällt mir gut.', 'I like your suggestion.'],
+    ['die Idee', '-n', 'idea', 'Das ist eine gute Idee, machen wir das so.', 'That is a good idea, let us do it that way.'],
+    ['der Grund', '-¨e', 'reason', 'Nenn mir einen guten Grund dafür.', 'Give me one good reason for it.'],
+    ['das Argument', '-e', 'argument, point', 'Dein Argument überzeugt mich nicht ganz.', 'Your point does not entirely convince me.'],
+    ['der Vorteil', '-e', 'advantage', 'Ein Vorteil wäre, dass es billiger ist.', 'One advantage would be that it is cheaper.'],
+    ['der Nachteil', '-e', 'disadvantage', 'Der Nachteil ist die weite Anfahrt.', 'The disadvantage is the long journey.'],
+    ['die Entscheidung', '-en', 'decision', 'Die Entscheidung fällt nächste Woche.', 'The decision will be made next week.'],
+    ['das Gespräch', '-e', 'conversation', 'Das Gespräch hat viel geklärt.', 'The conversation clarified a lot.'],
+    ['die Diskussion', '-en', 'discussion', 'Die Diskussion wurde ziemlich laut.', 'The discussion got quite loud.'],
+    ['der Kompromiss', '-e', 'compromise', 'Am Ende haben wir einen Kompromiss gefunden.', 'In the end we found a compromise.'],
+    ['die Absprache', '-n', 'arrangement, agreement', 'Nach Absprache ist auch Samstag möglich.', 'By arrangement Saturday is possible too.'],
+    ['die Bitte', '-n', 'request', 'Ich hätte eine Bitte an dich.', 'I have a request for you.'],
+    ['die Antwort', '-en', 'answer, reply', 'Über eine kurze Antwort würde ich mich freuen.', 'I would be glad of a brief reply.'],
+    ['die Zusage', '-n', 'acceptance, confirmation', 'Die Zusage kam schon am nächsten Tag.', 'The confirmation came the very next day.'],
+    ['die Absage', '-n', 'cancellation, rejection', 'Nach der Absage habe ich mich woanders beworben.', 'After the rejection I applied elsewhere.'],
+    ['das Missverständnis', '-se', 'misunderstanding', 'Das war wohl ein Missverständnis.', 'That was probably a misunderstanding.'],
+  ],
+
+  verbs: [
+    ['vorschlagen', 'schlägt vor · schlug vor · hat vorgeschlagen', 'to suggest', 'Ich schlage vor, dass wir uns um sieben treffen.', 'I suggest that we meet at seven.'],
+    ['zustimmen', null, 'to agree', 'Da stimme ich dir völlig zu.', 'I completely agree with you there.'],
+    ['widersprechen', 'widerspricht · widersprach · hat widersprochen', 'to contradict, to disagree', 'Ich muss dir da leider widersprechen.', 'I am afraid I have to disagree with you there.'],
+    ['begründen', null, 'to justify, to give reasons', 'Kannst du deine Meinung kurz begründen?', 'Can you briefly justify your opinion?'],
+    ['diskutieren', null, 'to discuss', 'Wir haben eine Stunde darüber diskutiert.', 'We discussed it for an hour.'],
+    ['sich einigen', null, 'to reach agreement', 'Wir haben uns auf Samstag geeinigt.', 'We agreed on Saturday.'],
+    ['überzeugen', null, 'to convince', 'Dein Argument hat mich überzeugt.', 'Your argument convinced me.'],
+    ['empfehlen', 'empfiehlt · empfahl · hat empfohlen', 'to recommend', 'Ich kann dir das Café wirklich empfehlen.', 'I can really recommend the café to you.'],
+    ['bitten um', 'bittet · bat · hat gebeten', 'to ask for', 'Ich bitte Sie um eine kurze Rückmeldung.', 'I ask you for a brief reply.'],
+    ['sich bedanken', null, 'to say thank you', 'Ich möchte mich herzlich bei euch bedanken.', 'I would like to thank you warmly.'],
+    ['sich entschuldigen', null, 'to apologise', 'Ich entschuldige mich für die späte Antwort.', 'I apologise for the late reply.'],
+    ['nachfragen', null, 'to ask, to follow up', 'Wenn etwas unklar ist, frag einfach nach.', 'If something is unclear, just ask.'],
+  ],
+
+  adjectives: [
+    ['einverstanden', null, 'in agreement', 'Bist du damit einverstanden?', 'Are you in agreement with that?'],
+    ['höflich', null, 'polite', 'Eine höfliche Absage ist besser als keine.', 'A polite refusal is better than none.'],
+    ['deutlich', null, 'clear, distinct', 'Sagen Sie es bitte etwas deutlicher.', 'Please say it a little more clearly.'],
+    ['sinnvoll', null, 'sensible, useful', 'Es wäre sinnvoll, vorher anzurufen.', 'It would be sensible to call beforehand.'],
+    ['überzeugend', null, 'convincing', 'Das klingt für mich überzeugend.', 'That sounds convincing to me.'],
+    ['umstritten', null, 'controversial', 'Das Thema ist bei uns umstritten.', 'The topic is controversial among us.'],
+  ],
+
+  connectors: [
+    ['einerseits … andererseits', null, 'on the one hand … on the other', 'Einerseits ist es teuer, andererseits spart man Zeit.', 'On the one hand it is expensive, on the other you save time.'],
+    ['meiner Meinung nach', null, 'in my opinion', 'Meiner Meinung nach lohnt sich das nicht.', 'In my opinion that is not worth it.'],
+    ['im Gegensatz dazu', null, 'in contrast to that', 'Im Gegensatz dazu ist der Bus viel billiger.', 'In contrast to that, the bus is much cheaper.'],
+    ['zum Beispiel', null, 'for example', 'Man könnte zum Beispiel früher anfangen.', 'You could, for example, start earlier.'],
+    ['das heißt', null, 'that is to say', 'Er kommt später, das heißt gegen acht.', 'He is coming later, that is to say around eight.'],
+  ],
+};

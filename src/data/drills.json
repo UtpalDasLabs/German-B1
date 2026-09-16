@@ -1,0 +1,2990 @@
+[
+ {
+  "id": "g.perfekt.01",
+  "topic": "perfekt",
+  "kind": "grammar",
+  "prompt": "Gestern ___ ich mit dem Zug nach Hamburg gefahren.",
+  "promptEn": null,
+  "options": [
+   "bin",
+   "habe",
+   "war",
+   "hatte"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "fahren ist eine Bewegung von A nach B: Perfekt mit sein.",
+   "en": "fahren is movement from A to B, so the Perfekt uses sein."
+  }
+ },
+ {
+  "id": "g.perfekt.02",
+  "topic": "perfekt",
+  "kind": "grammar",
+  "prompt": "Wir ___ den ganzen Tag gearbeitet.",
+  "promptEn": null,
+  "options": [
+   "haben",
+   "sind",
+   "waren",
+   "werden"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "arbeiten ist keine Bewegung und keine Zustandsänderung: Perfekt mit haben.",
+   "en": "arbeiten is neither movement nor change of state, so the Perfekt uses haben."
+  }
+ },
+ {
+  "id": "g.perfekt.03",
+  "topic": "perfekt",
+  "kind": "grammar",
+  "prompt": "Sie hat mich gestern ___.",
+  "promptEn": null,
+  "options": [
+   "angerufen",
+   "geanrufen",
+   "anrufen",
+   "angeruft"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "anrufen ist trennbar und stark: an + ge + rufen = angerufen.",
+   "en": "anrufen is separable and strong: an + ge + rufen = angerufen."
+  }
+ },
+ {
+  "id": "g.perfekt.04",
+  "topic": "perfekt",
+  "kind": "grammar",
+  "prompt": "Ich habe drei Jahre in Köln ___.",
+  "promptEn": null,
+  "options": [
+   "studiert",
+   "gestudiert",
+   "studieren",
+   "gestudiere"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Verben auf -ieren bilden das Partizip ohne ge-.",
+   "en": "Verbs ending in -ieren form the participle without ge-."
+  }
+ },
+ {
+  "id": "g.perfekt.05",
+  "topic": "perfekt",
+  "kind": "grammar",
+  "prompt": "Der Vertrag ___ gestern angekommen.",
+  "promptEn": null,
+  "options": [
+   "ist",
+   "hat",
+   "war",
+   "wird"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "ankommen ist eine Bewegung an ein Ziel: Perfekt mit sein.",
+   "en": "ankommen is movement to a destination, so the Perfekt uses sein."
+  }
+ },
+ {
+  "id": "g.perfekt.06",
+  "topic": "perfekt",
+  "kind": "grammar",
+  "prompt": "Nach dem Umzug ___ wir eine Woche lang nichts gefunden.",
+  "promptEn": null,
+  "options": [
+   "haben",
+   "sind",
+   "waren",
+   "hatten"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "finden nimmt haben; sind wäre nur bei Bewegung oder Zustandsänderung richtig.",
+   "en": "finden takes haben; sind would only be right for movement or change of state."
+  }
+ },
+ {
+  "id": "g.perfekt.07",
+  "topic": "perfekt",
+  "kind": "grammar",
+  "prompt": "Er ___ letztes Jahr Vater geworden.",
+  "promptEn": null,
+  "options": [
+   "ist",
+   "hat",
+   "wurde",
+   "war"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "werden gehört zu den drei Verben, die immer sein nehmen.",
+   "en": "werden is one of the three verbs that always take sein."
+  }
+ },
+ {
+  "id": "g.perfekt.08",
+  "topic": "perfekt",
+  "kind": "grammar",
+  "prompt": "Wir haben uns im Sprachkurs ___.",
+  "promptEn": null,
+  "options": [
+   "kennengelernt",
+   "kennenlernt",
+   "gekennenlernt",
+   "kennengelernen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "kennenlernen ist trennbar: kennen + ge + lernt.",
+   "en": "kennenlernen is separable: kennen + ge + lernt."
+  }
+ },
+ {
+  "id": "g.perfekt.09",
+  "topic": "perfekt",
+  "kind": "grammar",
+  "prompt": "Ich ___ den Termin leider vergessen.",
+  "promptEn": null,
+  "options": [
+   "habe",
+   "bin",
+   "war",
+   "hatte"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "vergessen ist untrennbar und nimmt haben; das Partizip hat kein ge-.",
+   "en": "vergessen is inseparable and takes haben; the participle has no ge-."
+  }
+ },
+ {
+  "id": "g.perfekt.10",
+  "topic": "perfekt",
+  "kind": "grammar",
+  "prompt": "Wie lange ___ ihr in der Schlange gestanden?",
+  "promptEn": null,
+  "options": [
+   "habt",
+   "seid",
+   "wart",
+   "hattet"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "stehen beschreibt keinen Ortswechsel: im Hochdeutschen mit haben.",
+   "en": "stehen describes no change of place, so standard German uses haben."
+  }
+ },
+ {
+  "id": "g.praeteritum.01",
+  "topic": "praeteritum",
+  "kind": "grammar",
+  "prompt": "Als ich klein ___, wohnten wir in Izmir.",
+  "promptEn": null,
+  "options": [
+   "war",
+   "bin gewesen",
+   "wäre",
+   "bin"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sein steht in der Vergangenheit im Präteritum: war.",
+   "en": "sein goes in the Präteritum in the past: war."
+  }
+ },
+ {
+  "id": "g.praeteritum.02",
+  "topic": "praeteritum",
+  "kind": "grammar",
+  "prompt": "Ich ___ gestern leider länger arbeiten.",
+  "promptEn": null,
+  "options": [
+   "musste",
+   "habe gemusst",
+   "muss",
+   "müsste"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Modalverben nimmt man in der Vergangenheit im Präteritum.",
+   "en": "Modal verbs go in the Präteritum in the past."
+  }
+ },
+ {
+  "id": "g.praeteritum.03",
+  "topic": "praeteritum",
+  "kind": "grammar",
+  "prompt": "Damals ___ es hier noch keine Straßenbahn.",
+  "promptEn": null,
+  "options": [
+   "gab",
+   "gibt",
+   "hat gegeben",
+   "gäbe"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "es gab ist die Präteritumform von es gibt.",
+   "en": "es gab is the Präteritum of es gibt."
+  }
+ },
+ {
+  "id": "g.praeteritum.04",
+  "topic": "praeteritum",
+  "kind": "grammar",
+  "prompt": "Wir ___ 2019 nach Deutschland.",
+  "promptEn": null,
+  "options": [
+   "kamen",
+   "kommen",
+   "kämen",
+   "gekommen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "kommen ist stark: ich kam, wir kamen.",
+   "en": "kommen is strong: ich kam, wir kamen."
+  }
+ },
+ {
+  "id": "g.praeteritum.05",
+  "topic": "praeteritum",
+  "kind": "grammar",
+  "prompt": "Die Firma ___ im Frühjahr zwanzig Leute ein.",
+  "promptEn": null,
+  "options": [
+   "stellte",
+   "stellt",
+   "gestellt",
+   "stellen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "einstellen ist schwach und trennbar: stellte … ein.",
+   "en": "einstellen is weak and separable: stellte … ein."
+  }
+ },
+ {
+  "id": "g.praeteritum.06",
+  "topic": "praeteritum",
+  "kind": "grammar",
+  "prompt": "Er ___ keine Zeit, sich zu melden.",
+  "promptEn": null,
+  "options": [
+   "hatte",
+   "hat gehabt",
+   "hätte",
+   "haben"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "haben benutzt man in der Vergangenheit meist im Präteritum: hatte.",
+   "en": "haben mostly uses the Präteritum in the past: hatte."
+  }
+ },
+ {
+  "id": "g.praeteritum.07",
+  "topic": "praeteritum",
+  "kind": "grammar",
+  "prompt": "Sie ___ erst mit dreißig Deutsch zu lernen.",
+  "promptEn": null,
+  "options": [
+   "begann",
+   "beginnt",
+   "begonnen",
+   "begänne"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "beginnen ist stark: ich begann, wir begannen.",
+   "en": "beginnen is strong: ich begann, wir begannen."
+  }
+ },
+ {
+  "id": "g.praeteritum.08",
+  "topic": "praeteritum",
+  "kind": "grammar",
+  "prompt": "Der Bericht ___, dass die Mieten stark gestiegen sind.",
+  "promptEn": null,
+  "options": [
+   "zeigte",
+   "zeigt hat",
+   "gezeigt",
+   "zeigen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "In einem Bericht steht die Vergangenheit im Präteritum: zeigte.",
+   "en": "In a report the past goes in the Präteritum: zeigte."
+  }
+ },
+ {
+  "id": "g.plusquamperfekt.01",
+  "topic": "plusquamperfekt",
+  "kind": "grammar",
+  "prompt": "Nachdem wir die Wohnung besichtigt ___, haben wir sofort zugesagt.",
+  "promptEn": null,
+  "options": [
+   "hatten",
+   "haben",
+   "sind",
+   "waren"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "nachdem verlangt die frühere Zeit: Plusquamperfekt mit hatten.",
+   "en": "nachdem requires the earlier tense: Plusquamperfekt with hatten."
+  }
+ },
+ {
+  "id": "g.plusquamperfekt.02",
+  "topic": "plusquamperfekt",
+  "kind": "grammar",
+  "prompt": "Nachdem sie nach Berlin gezogen ___, fand sie schnell Arbeit.",
+  "promptEn": null,
+  "options": [
+   "war",
+   "hatte",
+   "ist",
+   "hat"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "ziehen im Sinn von umziehen nimmt sein: war gezogen.",
+   "en": "ziehen in the sense of moving takes sein: war gezogen."
+  }
+ },
+ {
+  "id": "g.plusquamperfekt.03",
+  "topic": "plusquamperfekt",
+  "kind": "grammar",
+  "prompt": "___ ich das Formular abgeschickt hatte, fiel mir der Fehler auf.",
+  "promptEn": null,
+  "options": [
+   "Nachdem",
+   "Bevor",
+   "Während",
+   "Seit"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Das Plusquamperfekt im Nebensatz zeigt: dieses Ereignis war zuerst - also nachdem.",
+   "en": "The Plusquamperfekt in the subordinate clause shows this event came first, so nachdem."
+  }
+ },
+ {
+  "id": "g.plusquamperfekt.04",
+  "topic": "plusquamperfekt",
+  "kind": "grammar",
+  "prompt": "Bevor ich zum Amt ___, habe ich alle Unterlagen kopiert.",
+  "promptEn": null,
+  "options": [
+   "ging",
+   "gegangen war",
+   "gehe",
+   "gehen würde"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Nach bevor steht dieselbe Zeit wie im Hauptsatz, kein Plusquamperfekt.",
+   "en": "After bevor the same tense as the main clause is used, not the Plusquamperfekt."
+  }
+ },
+ {
+  "id": "g.plusquamperfekt.05",
+  "topic": "plusquamperfekt",
+  "kind": "grammar",
+  "prompt": "Als der Bus endlich kam, ___ wir schon eine Stunde gewartet.",
+  "promptEn": null,
+  "options": [
+   "hatten",
+   "haben",
+   "waren",
+   "sind"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Das Warten lag vor dem Kommen des Busses: Plusquamperfekt.",
+   "en": "The waiting came before the bus arrived: Plusquamperfekt."
+  }
+ },
+ {
+  "id": "g.plusquamperfekt.06",
+  "topic": "plusquamperfekt",
+  "kind": "grammar",
+  "prompt": "Nachdem der Arzt mich untersucht ___, bekam ich ein Rezept.",
+  "promptEn": null,
+  "options": [
+   "hatte",
+   "war",
+   "ist",
+   "hat"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "untersuchen nimmt haben, und nachdem verlangt das Plusquamperfekt.",
+   "en": "untersuchen takes haben, and nachdem requires the Plusquamperfekt."
+  }
+ },
+ {
+  "id": "g.futur.01",
+  "topic": "futur",
+  "kind": "grammar",
+  "prompt": "Keine Sorge, ich ___ mich darum kümmern.",
+  "promptEn": null,
+  "options": [
+   "werde",
+   "wurde",
+   "würde",
+   "bin"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Ein Versprechen steht im Futur I: werden + Infinitiv.",
+   "en": "A promise goes in Futur I: werden + infinitive."
+  }
+ },
+ {
+  "id": "g.futur.02",
+  "topic": "futur",
+  "kind": "grammar",
+  "prompt": "Nächsten Montag ___ ich meinen neuen Job.",
+  "promptEn": null,
+  "options": [
+   "beginne",
+   "werde begonnen",
+   "begann",
+   "hätte begonnen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Fester Plan mit Zeitangabe: Präsens genügt.",
+   "en": "A fixed plan with a time expression: the present is enough."
+  }
+ },
+ {
+  "id": "g.futur.03",
+  "topic": "futur",
+  "kind": "grammar",
+  "prompt": "Wo ist Ali? – Er ___ wohl noch im Stau stehen.",
+  "promptEn": null,
+  "options": [
+   "wird",
+   "würde",
+   "wurde",
+   "ist"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Futur I mit wohl drückt eine Vermutung über die Gegenwart aus.",
+   "en": "Futur I with wohl expresses an assumption about the present."
+  }
+ },
+ {
+  "id": "g.futur.04",
+  "topic": "futur",
+  "kind": "grammar",
+  "prompt": "Die Mieten ___ auch nächstes Jahr weiter steigen.",
+  "promptEn": null,
+  "options": [
+   "werden",
+   "wurden",
+   "würden",
+   "sind"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Prognose über die Zukunft: Futur I mit werden.",
+   "en": "A prediction about the future: Futur I with werden."
+  }
+ },
+ {
+  "id": "g.futur.05",
+  "topic": "futur",
+  "kind": "grammar",
+  "prompt": "___ du mir bitte Bescheid geben, wenn du ankommst?",
+  "promptEn": null,
+  "options": [
+   "Wirst",
+   "Wurdest",
+   "Bist",
+   "Hast"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "werden + Infinitiv, hier als höfliche Bitte um ein Versprechen.",
+   "en": "werden + infinitive, here a polite request for a commitment."
+  }
+ },
+ {
+  "id": "g.nebensaetze.01",
+  "topic": "nebensaetze",
+  "kind": "grammar",
+  "prompt": "Ich kann nicht kommen, weil ich noch ___.",
+  "promptEn": null,
+  "options": [
+   "arbeiten muss",
+   "muss arbeiten",
+   "arbeite muss",
+   "muss arbeite"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Im Nebensatz steht das Modalverb ganz hinten, der Infinitiv davor.",
+   "en": "In a subordinate clause the modal verb goes last, with the infinitive before it."
+  }
+ },
+ {
+  "id": "g.nebensaetze.02",
+  "topic": "nebensaetze",
+  "kind": "grammar",
+  "prompt": "Weil der Zug Verspätung hatte, ___ ich zu spät.",
+  "promptEn": null,
+  "options": [
+   "kam",
+   "ich kam",
+   "bin gekommen ich",
+   "ich bin gekommen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Der Nebensatz ist Position eins, also folgt direkt das Verb.",
+   "en": "The subordinate clause is position one, so the verb comes directly after."
+  }
+ },
+ {
+  "id": "g.nebensaetze.03",
+  "topic": "nebensaetze",
+  "kind": "grammar",
+  "prompt": "Ich weiß noch nicht, ___ ich am Samstag Zeit habe.",
+  "promptEn": null,
+  "options": [
+   "ob",
+   "wenn",
+   "dass",
+   "als"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "ob steht für whether nach Ausdrücken des Nichtwissens.",
+   "en": "ob is used for whether after expressions of not knowing."
+  }
+ },
+ {
+  "id": "g.nebensaetze.04",
+  "topic": "nebensaetze",
+  "kind": "grammar",
+  "prompt": "Obwohl es geregnet ___, sind wir spazieren gegangen.",
+  "promptEn": null,
+  "options": [
+   "hat",
+   "hatte es",
+   "es hat",
+   "haben"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Das Hilfsverb geht im Nebensatz ans Ende: geregnet hat.",
+   "en": "The auxiliary goes to the end in a subordinate clause: geregnet hat."
+  }
+ },
+ {
+  "id": "g.nebensaetze.05",
+  "topic": "nebensaetze",
+  "kind": "grammar",
+  "prompt": "Er sagt, dass er den Termin ___.",
+  "promptEn": null,
+  "options": [
+   "vergessen hat",
+   "hat vergessen",
+   "vergisst hat",
+   "hat vergisst"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Im Nebensatz steht das konjugierte hat nach dem Partizip.",
+   "en": "In a subordinate clause the conjugated hat comes after the participle."
+  }
+ },
+ {
+  "id": "g.nebensaetze.06",
+  "topic": "nebensaetze",
+  "kind": "grammar",
+  "prompt": "Ich lerne jeden Tag, ___ ich die Prüfung bestehe.",
+  "promptEn": null,
+  "options": [
+   "damit",
+   "um",
+   "weil",
+   "obwohl"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "damit nennt den Zweck und leitet einen Nebensatz mit Verb am Ende ein.",
+   "en": "damit states the purpose and introduces a subordinate clause with the verb at the end."
+  }
+ },
+ {
+  "id": "g.nebensaetze.07",
+  "topic": "nebensaetze",
+  "kind": "grammar",
+  "prompt": "Sobald der Bescheid ___, rufe ich dich an.",
+  "promptEn": null,
+  "options": [
+   "kommt",
+   "kommen",
+   "gekommen",
+   "kommt an"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Einfaches Verb im Nebensatz: konjugiert und am Ende.",
+   "en": "A simple verb in a subordinate clause: conjugated and at the end."
+  }
+ },
+ {
+  "id": "g.nebensaetze.08",
+  "topic": "nebensaetze",
+  "kind": "grammar",
+  "prompt": "Sie hat mir erzählt, dass sie nächsten Monat ___.",
+  "promptEn": null,
+  "options": [
+   "umzieht",
+   "zieht um",
+   "um zieht",
+   "umziehen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Trennbare Verben wachsen im Nebensatz wieder zusammen: umzieht.",
+   "en": "Separable verbs rejoin in a subordinate clause: umzieht."
+  }
+ },
+ {
+  "id": "g.nebensaetze.09",
+  "topic": "nebensaetze",
+  "kind": "grammar",
+  "prompt": "Falls es morgen ___, bleiben wir zu Hause.",
+  "promptEn": null,
+  "options": [
+   "regnet",
+   "regnen",
+   "geregnet",
+   "es regnet"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "falls leitet einen Nebensatz ein: Verb am Ende, kein zweites Subjekt.",
+   "en": "falls introduces a subordinate clause: verb at the end, no second subject."
+  }
+ },
+ {
+  "id": "g.konnektoren.01",
+  "topic": "konnektoren",
+  "kind": "grammar",
+  "prompt": "Es hat geregnet, deshalb ___ wir zu Hause geblieben.",
+  "promptEn": null,
+  "options": [
+   "sind",
+   "wir sind",
+   "haben",
+   "wir haben"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "deshalb besetzt Position eins, das Verb folgt direkt.",
+   "en": "deshalb fills position one, so the verb follows immediately."
+  }
+ },
+ {
+  "id": "g.konnektoren.02",
+  "topic": "konnektoren",
+  "kind": "grammar",
+  "prompt": "Ich komme später, ___ ich noch einen Termin habe.",
+  "promptEn": null,
+  "options": [
+   "weil",
+   "denn ich",
+   "deshalb",
+   "trotzdem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Am Ende steht habe, also ist es ein Nebensatz mit weil.",
+   "en": "habe stands at the end, so this is a subordinate clause with weil."
+  }
+ },
+ {
+  "id": "g.konnektoren.03",
+  "topic": "konnektoren",
+  "kind": "grammar",
+  "prompt": "Die Miete ist hoch, ___ die Lage ist perfekt.",
+  "promptEn": null,
+  "options": [
+   "aber",
+   "obwohl",
+   "weil",
+   "damit"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "aber steht auf Position null und lässt die Wortstellung unverändert.",
+   "en": "aber sits in position zero and leaves the word order unchanged."
+  }
+ },
+ {
+  "id": "g.konnektoren.04",
+  "topic": "konnektoren",
+  "kind": "grammar",
+  "prompt": "___ es sehr kalt war, sind wir schwimmen gegangen.",
+  "promptEn": null,
+  "options": [
+   "Obwohl",
+   "Trotzdem",
+   "Deshalb",
+   "Denn"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Vor dem Komma steht ein Nebensatz mit Verb am Ende: obwohl.",
+   "en": "Before the comma there is a subordinate clause with the verb at the end: obwohl."
+  }
+ },
+ {
+  "id": "g.konnektoren.05",
+  "topic": "konnektoren",
+  "kind": "grammar",
+  "prompt": "Er hat wenig Zeit, ___ hilft er uns jedes Wochenende.",
+  "promptEn": null,
+  "options": [
+   "trotzdem",
+   "obwohl",
+   "weil",
+   "damit"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "trotzdem steht auf Position eins und das Verb folgt.",
+   "en": "trotzdem sits in position one and the verb follows."
+  }
+ },
+ {
+  "id": "g.konnektoren.06",
+  "topic": "konnektoren",
+  "kind": "grammar",
+  "prompt": "Nimm einen Schirm mit, ___ wirst du nass.",
+  "promptEn": null,
+  "options": [
+   "sonst",
+   "damit",
+   "weil",
+   "obwohl"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sonst nennt die unerwünschte Folge und steht auf Position eins.",
+   "en": "sonst names the unwanted consequence and sits in position one."
+  }
+ },
+ {
+  "id": "g.konnektoren.07",
+  "topic": "konnektoren",
+  "kind": "grammar",
+  "prompt": "Wir haben abgesagt, ___ das Wetter zu schlecht war.",
+  "promptEn": null,
+  "options": [
+   "weil",
+   "denn das",
+   "deshalb",
+   "sonst"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "war steht am Ende: Nebensatz, also weil.",
+   "en": "war is at the end: a subordinate clause, so weil."
+  }
+ },
+ {
+  "id": "g.konnektoren.08",
+  "topic": "konnektoren",
+  "kind": "grammar",
+  "prompt": "Der Kurs ist voll, ___ melde dich für den nächsten an.",
+  "promptEn": null,
+  "options": [
+   "deshalb",
+   "weil",
+   "obwohl",
+   "damit"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "deshalb zieht die Folge und lässt das Verb auf Position zwei stehen.",
+   "en": "deshalb draws the consequence and keeps the verb in position two."
+  }
+ },
+ {
+  "id": "g.relativsaetze.01",
+  "topic": "relativsaetze",
+  "kind": "grammar",
+  "prompt": "Das ist der Kollege, ___ mir geholfen hat.",
+  "promptEn": null,
+  "options": [
+   "der",
+   "den",
+   "dem",
+   "dessen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Er ist Subjekt von hat geholfen: Nominativ der.",
+   "en": "He is the subject of hat geholfen: nominative der."
+  }
+ },
+ {
+  "id": "g.relativsaetze.02",
+  "topic": "relativsaetze",
+  "kind": "grammar",
+  "prompt": "Der Film, ___ wir gestern gesehen haben, war spannend.",
+  "promptEn": null,
+  "options": [
+   "den",
+   "der",
+   "dem",
+   "das"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Film ist maskulin und hier Akkusativobjekt von sehen: den.",
+   "en": "Film is masculine and here the accusative object of sehen: den."
+  }
+ },
+ {
+  "id": "g.relativsaetze.03",
+  "topic": "relativsaetze",
+  "kind": "grammar",
+  "prompt": "Die Frau, ___ ich das Paket gegeben habe, wohnt oben.",
+  "promptEn": null,
+  "options": [
+   "der",
+   "die",
+   "den",
+   "deren"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "geben verlangt für die Person den Dativ; feminin Dativ ist der.",
+   "en": "geben takes the dative for the person; feminine dative is der."
+  }
+ },
+ {
+  "id": "g.relativsaetze.04",
+  "topic": "relativsaetze",
+  "kind": "grammar",
+  "prompt": "Das Formular, ___ Sie ausfüllen müssen, liegt am Eingang.",
+  "promptEn": null,
+  "options": [
+   "das",
+   "der",
+   "dem",
+   "den"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Formular ist neutrum und Akkusativobjekt: das.",
+   "en": "Formular is neuter and the accusative object: das."
+  }
+ },
+ {
+  "id": "g.relativsaetze.05",
+  "topic": "relativsaetze",
+  "kind": "grammar",
+  "prompt": "Die Nachbarn, ___ wir den Schlüssel gegeben haben, sind sehr nett.",
+  "promptEn": null,
+  "options": [
+   "denen",
+   "die",
+   "der",
+   "deren"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Dativ Plural im Relativsatz ist immer denen.",
+   "en": "Dative plural in a relative clause is always denen."
+  }
+ },
+ {
+  "id": "g.relativsaetze.06",
+  "topic": "relativsaetze",
+  "kind": "grammar",
+  "prompt": "Die Kollegin, mit ___ ich das Projekt mache, kommt aus Polen.",
+  "promptEn": null,
+  "options": [
+   "der",
+   "die",
+   "dem",
+   "denen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "mit verlangt Dativ, feminin also der.",
+   "en": "mit takes the dative, so feminine is der."
+  }
+ },
+ {
+  "id": "g.relativsaetze.07",
+  "topic": "relativsaetze",
+  "kind": "grammar",
+  "prompt": "Das Haus, in ___ wir wohnen, wird renoviert.",
+  "promptEn": null,
+  "options": [
+   "dem",
+   "das",
+   "den",
+   "der"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "in + Ort ohne Bewegung verlangt Dativ; neutrum Dativ ist dem.",
+   "en": "in + location without movement takes the dative; neuter dative is dem."
+  }
+ },
+ {
+  "id": "g.relativsaetze.08",
+  "topic": "relativsaetze",
+  "kind": "grammar",
+  "prompt": "Der Mann, ___ Auto hier steht, ist mein Vermieter.",
+  "promptEn": null,
+  "options": [
+   "dessen",
+   "deren",
+   "der",
+   "den"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Besitz wird mit dem Genitiv ausgedrückt: maskulin dessen.",
+   "en": "Possession is expressed with the genitive: masculine dessen."
+  }
+ },
+ {
+  "id": "g.wortstellung.01",
+  "topic": "wortstellung",
+  "kind": "grammar",
+  "prompt": "Wähle den richtigen Satz.",
+  "promptEn": null,
+  "options": [
+   "Nächste Woche fahre ich nach Wien.",
+   "Nächste Woche ich fahre nach Wien.",
+   "Nächste Woche fahren ich nach Wien.",
+   "Nächste Woche nach Wien fahre ich."
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Das konjugierte Verb steht auf Position zwei, das Subjekt danach.",
+   "en": "The conjugated verb takes position two and the subject follows."
+  }
+ },
+ {
+  "id": "g.wortstellung.02",
+  "topic": "wortstellung",
+  "kind": "grammar",
+  "prompt": "Wähle den richtigen Satz.",
+  "promptEn": null,
+  "options": [
+   "Ich gehe heute Abend mit Freunden ins Kino.",
+   "Ich gehe ins Kino heute Abend mit Freunden.",
+   "Ich gehe mit Freunden heute Abend ins Kino.",
+   "Heute Abend ich gehe mit Freunden ins Kino."
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Te-Ka-Mo-Lo: Zeit vor Art und Weise vor Ort.",
+   "en": "Te-Ka-Mo-Lo: time before manner before place."
+  }
+ },
+ {
+  "id": "g.wortstellung.03",
+  "topic": "wortstellung",
+  "kind": "grammar",
+  "prompt": "Wähle den richtigen Satz.",
+  "promptEn": null,
+  "options": [
+   "Ich habe es ihm schon gesagt.",
+   "Ich habe ihm es schon gesagt.",
+   "Ich habe schon es ihm gesagt.",
+   "Ich es habe ihm schon gesagt."
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Ist der Akkusativ ein Pronomen, steht er vor dem Dativ.",
+   "en": "If the accusative is a pronoun, it comes before the dative."
+  }
+ },
+ {
+  "id": "g.wortstellung.04",
+  "topic": "wortstellung",
+  "kind": "grammar",
+  "prompt": "Wähle den richtigen Satz.",
+  "promptEn": null,
+  "options": [
+   "Ich rufe dich heute nicht an.",
+   "Ich rufe dich heute an nicht.",
+   "Ich nicht rufe dich heute an.",
+   "Ich rufe nicht dich heute an."
+  ],
+  "answer": 0,
+  "why": {
+   "de": "nicht steht vor der trennbaren Vorsilbe am Satzende.",
+   "en": "nicht goes before the separable prefix at the end of the sentence."
+  }
+ },
+ {
+  "id": "g.wortstellung.05",
+  "topic": "wortstellung",
+  "kind": "grammar",
+  "prompt": "Wähle den richtigen Satz.",
+  "promptEn": null,
+  "options": [
+   "Wegen des Sturms fällt der Zug heute aus.",
+   "Wegen des Sturms der Zug fällt heute aus.",
+   "Wegen des Sturms fällt heute der Zug aus nicht.",
+   "Fällt wegen des Sturms der Zug heute aus."
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Die kausale Angabe steht vorn, das Verb bleibt auf Position zwei.",
+   "en": "The causal phrase goes first and the verb stays in position two."
+  }
+ },
+ {
+  "id": "g.wortstellung.06",
+  "topic": "wortstellung",
+  "kind": "grammar",
+  "prompt": "Wähle den richtigen Satz.",
+  "promptEn": null,
+  "options": [
+   "Sie hat ihrer Schwester das Auto geliehen.",
+   "Sie hat das Auto ihrer Schwester geliehen geliehen.",
+   "Sie hat geliehen ihrer Schwester das Auto.",
+   "Sie ihrer Schwester hat das Auto geliehen."
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Zwei Nomen als Objekte: Dativ vor Akkusativ.",
+   "en": "Two nouns as objects: dative before accusative."
+  }
+ },
+ {
+  "id": "g.passiv.01",
+  "topic": "passiv",
+  "kind": "grammar",
+  "prompt": "Das Formular ___ am Schalter abgegeben.",
+  "promptEn": null,
+  "options": [
+   "wird",
+   "ist",
+   "hat",
+   "wurde sein"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Passiv Präsens: wird + Partizip II.",
+   "en": "Present passive: wird + Partizip II."
+  }
+ },
+ {
+  "id": "g.passiv.02",
+  "topic": "passiv",
+  "kind": "grammar",
+  "prompt": "Die Straße ___ letztes Jahr gesperrt.",
+  "promptEn": null,
+  "options": [
+   "wurde",
+   "ist",
+   "hat",
+   "wird worden"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Passiv Präteritum: wurde + Partizip II.",
+   "en": "Past passive: wurde + Partizip II."
+  }
+ },
+ {
+  "id": "g.passiv.03",
+  "topic": "passiv",
+  "kind": "grammar",
+  "prompt": "Der Antrag ist schon bearbeitet ___.",
+  "promptEn": null,
+  "options": [
+   "worden",
+   "geworden",
+   "werden",
+   "gewesen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Im Perfekt Passiv steht worden, nicht geworden.",
+   "en": "In the perfect passive it is worden, not geworden."
+  }
+ },
+ {
+  "id": "g.passiv.04",
+  "topic": "passiv",
+  "kind": "grammar",
+  "prompt": "Die Rechnung muss bis Freitag bezahlt ___.",
+  "promptEn": null,
+  "options": [
+   "werden",
+   "worden",
+   "wird",
+   "sein"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Modalverb + Partizip II + Infinitiv werden.",
+   "en": "Modal + Partizip II + the infinitive werden."
+  }
+ },
+ {
+  "id": "g.passiv.05",
+  "topic": "passiv",
+  "kind": "grammar",
+  "prompt": "Der Antrag wurde ___ der Sachbearbeiterin geprüft.",
+  "promptEn": null,
+  "options": [
+   "von",
+   "durch",
+   "mit",
+   "bei"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Handelnde Personen stehen mit von + Dativ.",
+   "en": "The acting person is introduced with von + dative."
+  }
+ },
+ {
+  "id": "g.passiv.06",
+  "topic": "passiv",
+  "kind": "grammar",
+  "prompt": "Das Dach wurde ___ den Sturm beschädigt.",
+  "promptEn": null,
+  "options": [
+   "durch",
+   "von",
+   "mit",
+   "für"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Ursachen und Mittel stehen mit durch + Akkusativ.",
+   "en": "Causes and means are introduced with durch + accusative."
+  }
+ },
+ {
+  "id": "g.passiv.07",
+  "topic": "passiv",
+  "kind": "grammar",
+  "prompt": "Hier ___ nicht geraucht.",
+  "promptEn": null,
+  "options": [
+   "wird",
+   "ist",
+   "hat",
+   "werden"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Unpersönliches Passiv im Präsens: wird + Partizip II.",
+   "en": "Impersonal passive in the present: wird + Partizip II."
+  }
+ },
+ {
+  "id": "g.passiv.08",
+  "topic": "passiv",
+  "kind": "grammar",
+  "prompt": "Die Ergebnisse ___ nächste Woche veröffentlicht.",
+  "promptEn": null,
+  "options": [
+   "werden",
+   "wird",
+   "sind",
+   "haben"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Plural-Subjekt verlangt werden.",
+   "en": "A plural subject requires werden."
+  }
+ },
+ {
+  "id": "g.konjunktiv2.01",
+  "topic": "konjunktiv2",
+  "kind": "grammar",
+  "prompt": "___ Sie mir bitte kurz helfen?",
+  "promptEn": null,
+  "options": [
+   "Könnten",
+   "Konnten",
+   "Können würde",
+   "Hätten"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Höfliche Bitte mit der Konjunktiv-II-Form von können.",
+   "en": "A polite request with the Konjunktiv II form of können."
+  }
+ },
+ {
+  "id": "g.konjunktiv2.02",
+  "topic": "konjunktiv2",
+  "kind": "grammar",
+  "prompt": "Ich ___ gern einen Termin am Dienstag.",
+  "promptEn": null,
+  "options": [
+   "hätte",
+   "würde haben",
+   "habe",
+   "hatte"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Bei haben nimmt man hätte statt würde haben.",
+   "en": "With haben you use hätte rather than würde haben."
+  }
+ },
+ {
+  "id": "g.konjunktiv2.03",
+  "topic": "konjunktiv2",
+  "kind": "grammar",
+  "prompt": "Wenn ich mehr Zeit ___, würde ich einen Kurs besuchen.",
+  "promptEn": null,
+  "options": [
+   "hätte",
+   "habe",
+   "hatte",
+   "haben würde"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Irreale Bedingung in der Gegenwart: hätte.",
+   "en": "An unreal condition in the present: hätte."
+  }
+ },
+ {
+  "id": "g.konjunktiv2.04",
+  "topic": "konjunktiv2",
+  "kind": "grammar",
+  "prompt": "Das ___ wirklich nett von Ihnen.",
+  "promptEn": null,
+  "options": [
+   "wäre",
+   "würde sein",
+   "war",
+   "ist gewesen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Bei sein nimmt man wäre, nicht würde sein.",
+   "en": "With sein you use wäre, not würde sein."
+  }
+ },
+ {
+  "id": "g.konjunktiv2.05",
+  "topic": "konjunktiv2",
+  "kind": "grammar",
+  "prompt": "An deiner Stelle ___ ich noch einmal nachfragen.",
+  "promptEn": null,
+  "options": [
+   "würde",
+   "werde",
+   "wurde",
+   "wäre"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Ratschlag mit würde + Infinitiv.",
+   "en": "Advice with würde + infinitive."
+  }
+ },
+ {
+  "id": "g.konjunktiv2.06",
+  "topic": "konjunktiv2",
+  "kind": "grammar",
+  "prompt": "Wenn ich das gewusst hätte, ___ ich früher gekommen.",
+  "promptEn": null,
+  "options": [
+   "wäre",
+   "hätte",
+   "würde",
+   "war"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "kommen nimmt sein, in der irrealen Vergangenheit also wäre + Partizip.",
+   "en": "kommen takes sein, so the unreal past is wäre + participle."
+  }
+ },
+ {
+  "id": "g.konjunktiv2.07",
+  "topic": "konjunktiv2",
+  "kind": "grammar",
+  "prompt": "Du ___ dich unbedingt beim Amt melden.",
+  "promptEn": null,
+  "options": [
+   "solltest",
+   "sollst",
+   "wolltest",
+   "würdest sollen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Ratschlag mit der Konjunktiv-II-Form von sollen.",
+   "en": "Advice with the Konjunktiv II form of sollen."
+  }
+ },
+ {
+  "id": "g.konjunktiv2.08",
+  "topic": "konjunktiv2",
+  "kind": "grammar",
+  "prompt": "___ ich Sie kurz stören?",
+  "promptEn": null,
+  "options": [
+   "Dürfte",
+   "Durfte",
+   "Würde dürfen",
+   "Darf würde"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Sehr höfliche Bitte um Erlaubnis: dürfte.",
+   "en": "A very polite request for permission: dürfte."
+  }
+ },
+ {
+  "id": "g.modalverben.01",
+  "topic": "modalverben",
+  "kind": "grammar",
+  "prompt": "Hier ist ein Kinderspielplatz. Sie ___ hier nicht rauchen.",
+  "promptEn": null,
+  "options": [
+   "dürfen",
+   "müssen",
+   "können",
+   "sollen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Ein Verbot wird mit nicht dürfen ausgedrückt.",
+   "en": "A prohibition is expressed with nicht dürfen."
+  }
+ },
+ {
+  "id": "g.modalverben.02",
+  "topic": "modalverben",
+  "kind": "grammar",
+  "prompt": "Der Bescheid kommt per Post. Sie ___ nicht extra herkommen.",
+  "promptEn": null,
+  "options": [
+   "müssen",
+   "dürfen",
+   "sollen",
+   "wollen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "nicht müssen heißt: es ist nicht nötig.",
+   "en": "nicht müssen means: it is not necessary."
+  }
+ },
+ {
+  "id": "g.modalverben.03",
+  "topic": "modalverben",
+  "kind": "grammar",
+  "prompt": "Ich ___ mich laut Vermieter beim Hausmeister melden.",
+  "promptEn": null,
+  "options": [
+   "soll",
+   "will",
+   "darf",
+   "mag"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sollen gibt den Auftrag einer anderen Person wieder.",
+   "en": "sollen reports an instruction from someone else."
+  }
+ },
+ {
+  "id": "g.modalverben.04",
+  "topic": "modalverben",
+  "kind": "grammar",
+  "prompt": "Als Kind ___ ich noch nicht schwimmen.",
+  "promptEn": null,
+  "options": [
+   "konnte",
+   "könnte",
+   "habe gekonnt",
+   "kann"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Modalverben stehen in der Vergangenheit im Präteritum.",
+   "en": "Modal verbs go in the Präteritum in the past."
+  }
+ },
+ {
+  "id": "g.modalverben.05",
+  "topic": "modalverben",
+  "kind": "grammar",
+  "prompt": "___ ich Sie kurz etwas fragen?",
+  "promptEn": null,
+  "options": [
+   "Darf",
+   "Soll",
+   "Muss",
+   "Will"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Um Erlaubnis bittet man mit dürfen.",
+   "en": "You ask for permission with dürfen."
+  }
+ },
+ {
+  "id": "g.modalverben.06",
+  "topic": "modalverben",
+  "kind": "grammar",
+  "prompt": "Wir ___ am Samstag in die Berge fahren, wenn das Wetter passt.",
+  "promptEn": null,
+  "options": [
+   "wollen",
+   "sollen",
+   "dürfen",
+   "müssen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Eigene Absicht: wollen.",
+   "en": "Your own intention: wollen."
+  }
+ },
+ {
+  "id": "g.modalverben.07",
+  "topic": "modalverben",
+  "kind": "grammar",
+  "prompt": "Sie ___ das Formular unterschreiben, sonst wird es nicht bearbeitet.",
+  "promptEn": null,
+  "options": [
+   "müssen",
+   "dürfen",
+   "mögen",
+   "können"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Notwendigkeit mit Konsequenz: müssen.",
+   "en": "A necessity with a consequence: müssen."
+  }
+ },
+ {
+  "id": "g.modalverben.08",
+  "topic": "modalverben",
+  "kind": "grammar",
+  "prompt": "Ich ___ bitte einen Kaffee mit Milch.",
+  "promptEn": null,
+  "options": [
+   "möchte",
+   "mag",
+   "will haben",
+   "muss"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "möchte ist die höfliche Form für einen Wunsch.",
+   "en": "möchte is the polite form for a wish."
+  }
+ },
+ {
+  "id": "g.infinitivsaetze.01",
+  "topic": "infinitivsaetze",
+  "kind": "grammar",
+  "prompt": "Ich habe vergessen, dich ___.",
+  "promptEn": null,
+  "options": [
+   "anzurufen",
+   "zu anrufen",
+   "anrufen zu",
+   "anrufen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Trennbares Verb: das zu steht in der Mitte.",
+   "en": "Separable verb: the zu goes in the middle."
+  }
+ },
+ {
+  "id": "g.infinitivsaetze.02",
+  "topic": "infinitivsaetze",
+  "kind": "grammar",
+  "prompt": "Ich fahre mit dem Rad, ___ Geld zu sparen.",
+  "promptEn": null,
+  "options": [
+   "um",
+   "damit",
+   "für",
+   "dass"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Gleiches Subjekt und Zweck: um … zu.",
+   "en": "Same subject and a purpose: um … zu."
+  }
+ },
+ {
+  "id": "g.infinitivsaetze.03",
+  "topic": "infinitivsaetze",
+  "kind": "grammar",
+  "prompt": "Ich spreche langsam, ___ mich alle verstehen.",
+  "promptEn": null,
+  "options": [
+   "damit",
+   "um",
+   "ohne",
+   "statt"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Die Subjekte sind verschieden, also damit.",
+   "en": "The subjects differ, so damit."
+  }
+ },
+ {
+  "id": "g.infinitivsaetze.04",
+  "topic": "infinitivsaetze",
+  "kind": "grammar",
+  "prompt": "Es ist wichtig, die Frist ___.",
+  "promptEn": null,
+  "options": [
+   "einzuhalten",
+   "zu einhalten",
+   "einhalten",
+   "einhalten zu"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "einhalten ist trennbar: ein-zu-halten.",
+   "en": "einhalten is separable: ein-zu-halten."
+  }
+ },
+ {
+  "id": "g.infinitivsaetze.05",
+  "topic": "infinitivsaetze",
+  "kind": "grammar",
+  "prompt": "Er ging, ohne sich ___.",
+  "promptEn": null,
+  "options": [
+   "zu verabschieden",
+   "verabschieden zu",
+   "verabschieden",
+   "zu verabschiedet"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "ohne … zu verlangt den zu-Infinitiv am Ende.",
+   "en": "ohne … zu requires the zu-infinitive at the end."
+  }
+ },
+ {
+  "id": "g.infinitivsaetze.06",
+  "topic": "infinitivsaetze",
+  "kind": "grammar",
+  "prompt": "Ich lasse das Auto morgen ___.",
+  "promptEn": null,
+  "options": [
+   "reparieren",
+   "zu reparieren",
+   "repariert",
+   "zu reparieren zu"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Nach lassen steht der reine Infinitiv ohne zu.",
+   "en": "After lassen comes the bare infinitive without zu."
+  }
+ },
+ {
+  "id": "g.infinitivsaetze.07",
+  "topic": "infinitivsaetze",
+  "kind": "grammar",
+  "prompt": "Hast du Lust, heute Abend ___?",
+  "promptEn": null,
+  "options": [
+   "essen zu gehen",
+   "zu essen gehen",
+   "essen gehen",
+   "zu essen zu gehen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Lust haben verlangt zu; bei essen gehen steht das zu vor gehen.",
+   "en": "Lust haben requires zu; with essen gehen the zu goes before gehen."
+  }
+ },
+ {
+  "id": "g.infinitivsaetze.08",
+  "topic": "infinitivsaetze",
+  "kind": "grammar",
+  "prompt": "Statt ___, sollten wir handeln.",
+  "promptEn": null,
+  "options": [
+   "zu diskutieren",
+   "diskutieren zu",
+   "diskutieren",
+   "zu diskutiert"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "statt … zu bildet man wie ohne … zu.",
+   "en": "statt … zu is formed like ohne … zu."
+  }
+ },
+ {
+  "id": "g.reflexiv.01",
+  "topic": "reflexiv",
+  "kind": "grammar",
+  "prompt": "Ich freue ___ sehr auf deinen Besuch.",
+  "promptEn": null,
+  "options": [
+   "mich",
+   "mir",
+   "sich",
+   "dich"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sich freuen steht mit dem Akkusativ: mich.",
+   "en": "sich freuen takes the accusative: mich."
+  }
+ },
+ {
+  "id": "g.reflexiv.02",
+  "topic": "reflexiv",
+  "kind": "grammar",
+  "prompt": "Bitte melden Sie ___ bis Freitag.",
+  "promptEn": null,
+  "options": [
+   "sich",
+   "Ihnen",
+   "euch",
+   "ihn"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Die Sie-Form des Reflexivpronomens ist sich.",
+   "en": "The Sie-form of the reflexive pronoun is sich."
+  }
+ },
+ {
+  "id": "g.reflexiv.03",
+  "topic": "reflexiv",
+  "kind": "grammar",
+  "prompt": "Ich kann ___ den Namen einfach nicht merken.",
+  "promptEn": null,
+  "options": [
+   "mir",
+   "mich",
+   "sich",
+   "meiner"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "den Namen ist Akkusativ, also steht das Reflexivpronomen im Dativ.",
+   "en": "den Namen is accusative, so the reflexive pronoun is dative."
+  }
+ },
+ {
+  "id": "g.reflexiv.04",
+  "topic": "reflexiv",
+  "kind": "grammar",
+  "prompt": "Er interessiert sich sehr ___ Geschichte.",
+  "promptEn": null,
+  "options": [
+   "für",
+   "auf",
+   "über",
+   "an"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sich interessieren steht fest mit für.",
+   "en": "sich interessieren goes with für."
+  }
+ },
+ {
+  "id": "g.reflexiv.05",
+  "topic": "reflexiv",
+  "kind": "grammar",
+  "prompt": "Wir haben ___ im Kurs kennengelernt.",
+  "promptEn": null,
+  "options": [
+   "uns",
+   "sich",
+   "euch",
+   "unser"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "wir-Form des Reflexivpronomens ist uns.",
+   "en": "The wir-form of the reflexive pronoun is uns."
+  }
+ },
+ {
+  "id": "g.reflexiv.06",
+  "topic": "reflexiv",
+  "kind": "grammar",
+  "prompt": "Sie kümmert sich ___ ihre kranke Mutter.",
+  "promptEn": null,
+  "options": [
+   "um",
+   "für",
+   "an",
+   "über"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sich kümmern steht fest mit um + Akkusativ.",
+   "en": "sich kümmern goes with um + accusative."
+  }
+ },
+ {
+  "id": "g.reflexiv.07",
+  "topic": "reflexiv",
+  "kind": "grammar",
+  "prompt": "Ich ärgere mich ___ den Fehler im Formular.",
+  "promptEn": null,
+  "options": [
+   "über",
+   "auf",
+   "für",
+   "von"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sich ärgern steht mit über + Akkusativ.",
+   "en": "sich ärgern goes with über + accusative."
+  }
+ },
+ {
+  "id": "g.reflexiv.08",
+  "topic": "reflexiv",
+  "kind": "grammar",
+  "prompt": "Erinnerst du ___ noch an unseren ersten Tag?",
+  "promptEn": null,
+  "options": [
+   "dich",
+   "dir",
+   "sich",
+   "du"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sich erinnern steht mit dem Akkusativ: dich.",
+   "en": "sich erinnern takes the accusative: dich."
+  }
+ },
+ {
+  "id": "g.adjektivdeklination.01",
+  "topic": "adjektivdeklination",
+  "kind": "grammar",
+  "prompt": "Wir suchen eine ruhig___ Wohnung.",
+  "promptEn": null,
+  "options": [
+   "ruhige",
+   "ruhigen",
+   "ruhiger",
+   "ruhiges"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "eine + feminin Akkusativ: das Adjektiv bekommt -e.",
+   "en": "eine + feminine accusative: the adjective takes -e."
+  }
+ },
+ {
+  "id": "g.adjektivdeklination.02",
+  "topic": "adjektivdeklination",
+  "kind": "grammar",
+  "prompt": "Der neu___ Kollege spricht drei Sprachen.",
+  "promptEn": null,
+  "options": [
+   "neue",
+   "neuen",
+   "neuer",
+   "neues"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Nach dem bestimmten Artikel im Nominativ Singular steht -e.",
+   "en": "After a definite article in the nominative singular the ending is -e."
+  }
+ },
+ {
+  "id": "g.adjektivdeklination.03",
+  "topic": "adjektivdeklination",
+  "kind": "grammar",
+  "prompt": "Nach einem lang___ Tag bin ich müde.",
+  "promptEn": null,
+  "options": [
+   "langen",
+   "langem",
+   "lange",
+   "langer"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Dativ nach Artikel: immer -en.",
+   "en": "Dative after an article: always -en."
+  }
+ },
+ {
+  "id": "g.adjektivdeklination.04",
+  "topic": "adjektivdeklination",
+  "kind": "grammar",
+  "prompt": "Ich hätte gern ein groß___ Bier.",
+  "promptEn": null,
+  "options": [
+   "großes",
+   "großen",
+   "große",
+   "großer"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "ein + neutrum zeigt nichts, das Adjektiv übernimmt: -es.",
+   "en": "ein + neuter shows nothing, so the adjective takes over: -es."
+  }
+ },
+ {
+  "id": "g.adjektivdeklination.05",
+  "topic": "adjektivdeklination",
+  "kind": "grammar",
+  "prompt": "Das ist ein sehr gut___ Vorschlag.",
+  "promptEn": null,
+  "options": [
+   "guter",
+   "guten",
+   "gutes",
+   "gute"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "ein + maskulin Nominativ: das Adjektiv bekommt -er.",
+   "en": "ein + masculine nominative: the adjective takes -er."
+  }
+ },
+ {
+  "id": "g.adjektivdeklination.06",
+  "topic": "adjektivdeklination",
+  "kind": "grammar",
+  "prompt": "Die neu___ Regeln gelten ab Januar.",
+  "promptEn": null,
+  "options": [
+   "neuen",
+   "neue",
+   "neuer",
+   "neues"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Plural nach bestimmtem Artikel: -en.",
+   "en": "Plural after a definite article: -en."
+  }
+ },
+ {
+  "id": "g.adjektivdeklination.07",
+  "topic": "adjektivdeklination",
+  "kind": "grammar",
+  "prompt": "Frisch___ Brot riecht am besten.",
+  "promptEn": null,
+  "options": [
+   "Frisches",
+   "Frischer",
+   "Frische",
+   "Frischen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Ohne Artikel trägt das Adjektiv die Artikelendung: neutrum -es.",
+   "en": "With no article the adjective carries the article ending: neuter -es."
+  }
+ },
+ {
+  "id": "g.adjektivdeklination.08",
+  "topic": "adjektivdeklination",
+  "kind": "grammar",
+  "prompt": "Ich fahre mit dem alt___ Fahrrad zur Arbeit.",
+  "promptEn": null,
+  "options": [
+   "alten",
+   "alte",
+   "altem",
+   "alter"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Dativ nach dem: -en.",
+   "en": "Dative after dem: -en."
+  }
+ },
+ {
+  "id": "g.adjektivdeklination.09",
+  "topic": "adjektivdeklination",
+  "kind": "grammar",
+  "prompt": "Sie hat einen interessant___ Beruf.",
+  "promptEn": null,
+  "options": [
+   "interessanten",
+   "interessanter",
+   "interessantes",
+   "interessante"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "einen zeigt Akkusativ maskulin, das Adjektiv folgt mit -en.",
+   "en": "einen shows masculine accusative, so the adjective follows with -en."
+  }
+ },
+ {
+  "id": "g.komparativ.01",
+  "topic": "komparativ",
+  "kind": "grammar",
+  "prompt": "Die Bahn ist teurer ___ der Bus.",
+  "promptEn": null,
+  "options": [
+   "als",
+   "wie",
+   "wenn",
+   "so"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Nach dem Komparativ steht immer als.",
+   "en": "After a comparative it is always als."
+  }
+ },
+ {
+  "id": "g.komparativ.02",
+  "topic": "komparativ",
+  "kind": "grammar",
+  "prompt": "Die neue Wohnung ist genauso groß ___ die alte.",
+  "promptEn": null,
+  "options": [
+   "wie",
+   "als",
+   "denn",
+   "so"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Gleichheit wird mit so … wie ausgedrückt.",
+   "en": "Equality is expressed with so … wie."
+  }
+ },
+ {
+  "id": "g.komparativ.03",
+  "topic": "komparativ",
+  "kind": "grammar",
+  "prompt": "Von allen Angeboten ist dieses ___.",
+  "promptEn": null,
+  "options": [
+   "am günstigsten",
+   "der günstigste",
+   "am günstigste",
+   "günstigsten"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Allein nach dem Verb steht der Superlativ als am …sten.",
+   "en": "Standing alone after the verb the superlative is am …sten."
+  }
+ },
+ {
+  "id": "g.komparativ.04",
+  "topic": "komparativ",
+  "kind": "grammar",
+  "prompt": "Das ist das ___ Angebot von allen.",
+  "promptEn": null,
+  "options": [
+   "beste",
+   "am besten",
+   "bessere",
+   "gutste"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Vor einem Nomen bekommt der Superlativ eine Adjektivendung.",
+   "en": "Before a noun the superlative takes an adjective ending."
+  }
+ },
+ {
+  "id": "g.komparativ.05",
+  "topic": "komparativ",
+  "kind": "grammar",
+  "prompt": "Ich trinke ___ Tee als Kaffee.",
+  "promptEn": null,
+  "options": [
+   "lieber",
+   "gerner",
+   "mehr gern",
+   "am liebsten"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Der Komparativ von gern ist lieber.",
+   "en": "The comparative of gern is lieber."
+  }
+ },
+ {
+  "id": "g.komparativ.06",
+  "topic": "komparativ",
+  "kind": "grammar",
+  "prompt": "Mein Bruder ist zwei Jahre ___ als ich.",
+  "promptEn": null,
+  "options": [
+   "älter",
+   "alter",
+   "am ältesten",
+   "mehr alt"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "alt bekommt im Komparativ einen Umlaut: älter.",
+   "en": "alt takes an umlaut in the comparative: älter."
+  }
+ },
+ {
+  "id": "g.komparativ.07",
+  "topic": "komparativ",
+  "kind": "grammar",
+  "prompt": "___ mehr ich übe, desto sicherer werde ich.",
+  "promptEn": null,
+  "options": [
+   "Je",
+   "Wie",
+   "So",
+   "Als"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Das Paar heißt je … desto.",
+   "en": "The pair is je … desto."
+  }
+ },
+ {
+  "id": "g.komparativ.08",
+  "topic": "komparativ",
+  "kind": "grammar",
+  "prompt": "Die Mieten werden ___ höher.",
+  "promptEn": null,
+  "options": [
+   "immer",
+   "mehr",
+   "am",
+   "sehr"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "immer + Komparativ drückt eine laufende Steigerung aus.",
+   "en": "immer + comparative expresses an ongoing increase."
+  }
+ },
+ {
+  "id": "g.genitiv.01",
+  "topic": "genitiv",
+  "kind": "grammar",
+  "prompt": "Wegen ___ Sturms fällt der Zug aus.",
+  "promptEn": null,
+  "options": [
+   "des",
+   "dem",
+   "den",
+   "der"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "wegen verlangt den Genitiv: des Sturms.",
+   "en": "wegen takes the genitive: des Sturms."
+  }
+ },
+ {
+  "id": "g.genitiv.02",
+  "topic": "genitiv",
+  "kind": "grammar",
+  "prompt": "Während ___ Kurses sprechen wir nur Deutsch.",
+  "promptEn": null,
+  "options": [
+   "des",
+   "dem",
+   "der",
+   "den"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "während steht mit dem Genitiv, Kurs ist maskulin.",
+   "en": "während takes the genitive and Kurs is masculine."
+  }
+ },
+ {
+  "id": "g.genitiv.03",
+  "topic": "genitiv",
+  "kind": "grammar",
+  "prompt": "Die Höhe ___ Miete steht im Vertrag.",
+  "promptEn": null,
+  "options": [
+   "der",
+   "des",
+   "dem",
+   "die"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Miete ist feminin: Genitiv der Miete.",
+   "en": "Miete is feminine: genitive der Miete."
+  }
+ },
+ {
+  "id": "g.genitiv.04",
+  "topic": "genitiv",
+  "kind": "grammar",
+  "prompt": "Trotz ___ schlechten Wetters kamen viele.",
+  "promptEn": null,
+  "options": [
+   "des",
+   "dem",
+   "der",
+   "das"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "trotz verlangt den Genitiv, Wetter ist neutrum.",
+   "en": "trotz takes the genitive and Wetter is neuter."
+  }
+ },
+ {
+  "id": "g.genitiv.05",
+  "topic": "genitiv",
+  "kind": "grammar",
+  "prompt": "Innerhalb ___ Woche bekommen Sie Antwort.",
+  "promptEn": null,
+  "options": [
+   "einer",
+   "eines",
+   "einem",
+   "eine"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Woche ist feminin: Genitiv einer Woche.",
+   "en": "Woche is feminine: genitive einer Woche."
+  }
+ },
+ {
+  "id": "g.genitiv.06",
+  "topic": "genitiv",
+  "kind": "grammar",
+  "prompt": "Das ist das Büro ___ Chefin.",
+  "promptEn": null,
+  "options": [
+   "der",
+   "des",
+   "dem",
+   "die"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Chefin ist feminin: Genitiv der Chefin.",
+   "en": "Chefin is feminine: genitive der Chefin."
+  }
+ },
+ {
+  "id": "g.genitiv.07",
+  "topic": "genitiv",
+  "kind": "grammar",
+  "prompt": "Am Ende ___ Monats ist die Miete fällig.",
+  "promptEn": null,
+  "options": [
+   "des",
+   "dem",
+   "der",
+   "den"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Monat ist maskulin: des Monats.",
+   "en": "Monat is masculine: des Monats."
+  }
+ },
+ {
+  "id": "g.wechselpraepositionen.01",
+  "topic": "wechselpraepositionen",
+  "kind": "grammar",
+  "prompt": "Ich gehe jetzt ___ Küche.",
+  "promptEn": null,
+  "options": [
+   "in die",
+   "in der",
+   "an die",
+   "auf der"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Bewegung zu einem Ziel: wohin, also Akkusativ.",
+   "en": "Movement to a destination: wohin, so accusative."
+  }
+ },
+ {
+  "id": "g.wechselpraepositionen.02",
+  "topic": "wechselpraepositionen",
+  "kind": "grammar",
+  "prompt": "Das Formular liegt ___ Tisch.",
+  "promptEn": null,
+  "options": [
+   "auf dem",
+   "auf den",
+   "an den",
+   "in den"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Position ohne Bewegung: wo, also Dativ.",
+   "en": "A position without movement: wo, so dative."
+  }
+ },
+ {
+  "id": "g.wechselpraepositionen.03",
+  "topic": "wechselpraepositionen",
+  "kind": "grammar",
+  "prompt": "Häng die Jacke bitte ___ Haken.",
+  "promptEn": null,
+  "options": [
+   "an den",
+   "an dem",
+   "auf dem",
+   "in dem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "hängen mit Ziel: Akkusativ.",
+   "en": "hängen with a destination: accusative."
+  }
+ },
+ {
+  "id": "g.wechselpraepositionen.04",
+  "topic": "wechselpraepositionen",
+  "kind": "grammar",
+  "prompt": "Wir treffen uns ___ Bahnhof.",
+  "promptEn": null,
+  "options": [
+   "vor dem",
+   "vor den",
+   "auf den",
+   "in den"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Treffpunkt, keine Bewegung: Dativ.",
+   "en": "A meeting point, no movement: dative."
+  }
+ },
+ {
+  "id": "g.wechselpraepositionen.05",
+  "topic": "wechselpraepositionen",
+  "kind": "grammar",
+  "prompt": "Stell die Flaschen bitte ___ Keller.",
+  "promptEn": null,
+  "options": [
+   "in den",
+   "in dem",
+   "im",
+   "an dem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "stellen verlangt ein Ziel: Akkusativ in den Keller.",
+   "en": "stellen requires a destination: accusative in den Keller."
+  }
+ },
+ {
+  "id": "g.wechselpraepositionen.06",
+  "topic": "wechselpraepositionen",
+  "kind": "grammar",
+  "prompt": "Die Kinder spielen ___ Garten.",
+  "promptEn": null,
+  "options": [
+   "im",
+   "in den",
+   "ins",
+   "an den"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Spielen findet innerhalb des Gartens statt: wo, also Dativ.",
+   "en": "Playing happens inside the garden: wo, so dative."
+  }
+ },
+ {
+  "id": "g.wechselpraepositionen.07",
+  "topic": "wechselpraepositionen",
+  "kind": "grammar",
+  "prompt": "Er setzt sich ___ Stuhl.",
+  "promptEn": null,
+  "options": [
+   "auf den",
+   "auf dem",
+   "an dem",
+   "unter dem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sich setzen ist eine Bewegung: Akkusativ.",
+   "en": "sich setzen is movement: accusative."
+  }
+ },
+ {
+  "id": "g.wechselpraepositionen.08",
+  "topic": "wechselpraepositionen",
+  "kind": "grammar",
+  "prompt": "Der Schlüssel steckt ___ Tür.",
+  "promptEn": null,
+  "options": [
+   "in der",
+   "in die",
+   "an die",
+   "auf die"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Der Schlüssel befindet sich dort schon: Dativ.",
+   "en": "The key is already there: dative."
+  }
+ },
+ {
+  "id": "g.ndeklination.01",
+  "topic": "ndeklination",
+  "kind": "grammar",
+  "prompt": "Ich habe ___ Kollegen gestern getroffen.",
+  "promptEn": null,
+  "options": [
+   "den",
+   "der",
+   "dem",
+   "des"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Akkusativ maskulin: den, und Kollege bekommt -n.",
+   "en": "Masculine accusative: den, and Kollege takes -n."
+  }
+ },
+ {
+  "id": "g.ndeklination.02",
+  "topic": "ndeklination",
+  "kind": "grammar",
+  "prompt": "Bitte geben Sie das ___ Özdemir.",
+  "promptEn": null,
+  "options": [
+   "Herrn",
+   "Herr",
+   "Herren",
+   "Herres"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Herr wird im Dativ zu Herrn.",
+   "en": "Herr becomes Herrn in the dative."
+  }
+ },
+ {
+  "id": "g.ndeklination.03",
+  "topic": "ndeklination",
+  "kind": "grammar",
+  "prompt": "Der Kurs ist für ___ kostenlos.",
+  "promptEn": null,
+  "options": [
+   "Studenten",
+   "Student",
+   "Studentes",
+   "Studente"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Student gehört zur n-Deklination und steht hier im Akkusativ Plural.",
+   "en": "Student is a weak masculine and here stands in the accusative plural."
+  }
+ },
+ {
+  "id": "g.ndeklination.04",
+  "topic": "ndeklination",
+  "kind": "grammar",
+  "prompt": "Wir haben mit unserem ___ gesprochen.",
+  "promptEn": null,
+  "options": [
+   "Nachbarn",
+   "Nachbar",
+   "Nachbars",
+   "Nachbaren"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Nachbar ist ein Sonderfall der n-Deklination: dem Nachbarn.",
+   "en": "Nachbar is a special case of the weak masculines: dem Nachbarn."
+  }
+ },
+ {
+  "id": "g.ndeklination.05",
+  "topic": "ndeklination",
+  "kind": "grammar",
+  "prompt": "Wie ist der ___ Ihres Kindes?",
+  "promptEn": null,
+  "options": [
+   "Name",
+   "Namen",
+   "Namens",
+   "Nam"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Im Nominativ Singular heißt es der Name, ohne -n.",
+   "en": "In the nominative singular it is der Name, without -n."
+  }
+ },
+ {
+  "id": "g.ndeklination.06",
+  "topic": "ndeklination",
+  "kind": "grammar",
+  "prompt": "Das Büro des ___ ist im ersten Stock.",
+  "promptEn": null,
+  "options": [
+   "Praktikanten",
+   "Praktikant",
+   "Praktikants",
+   "Praktikante"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Genitiv der n-Deklination: des Praktikanten.",
+   "en": "Genitive of a weak masculine: des Praktikanten."
+  }
+ },
+ {
+  "id": "g.temporalsaetze.01",
+  "topic": "temporalsaetze",
+  "kind": "grammar",
+  "prompt": "___ ich 2018 nach Deutschland kam, sprach ich kein Wort Deutsch.",
+  "promptEn": null,
+  "options": [
+   "Als",
+   "Wenn",
+   "Wann",
+   "Ob"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Einmaliges Ereignis in der Vergangenheit: als.",
+   "en": "A single event in the past: als."
+  }
+ },
+ {
+  "id": "g.temporalsaetze.02",
+  "topic": "temporalsaetze",
+  "kind": "grammar",
+  "prompt": "Immer ___ ich Zeit habe, gehe ich schwimmen.",
+  "promptEn": null,
+  "options": [
+   "wenn",
+   "als",
+   "wann",
+   "ob"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Wiederholte Handlung: wenn.",
+   "en": "A repeated action: wenn."
+  }
+ },
+ {
+  "id": "g.temporalsaetze.03",
+  "topic": "temporalsaetze",
+  "kind": "grammar",
+  "prompt": "Weißt du, ___ der Kurs anfängt?",
+  "promptEn": null,
+  "options": [
+   "wann",
+   "wenn",
+   "als",
+   "ob"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Indirekte Frage nach dem Zeitpunkt: wann.",
+   "en": "An indirect question about a point in time: wann."
+  }
+ },
+ {
+  "id": "g.temporalsaetze.04",
+  "topic": "temporalsaetze",
+  "kind": "grammar",
+  "prompt": "___ ich unterschreibe, lese ich alles genau.",
+  "promptEn": null,
+  "options": [
+   "Bevor",
+   "Nachdem",
+   "Seitdem",
+   "Bis"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Das Lesen kommt vor dem Unterschreiben: bevor.",
+   "en": "The reading comes before the signing: bevor."
+  }
+ },
+ {
+  "id": "g.temporalsaetze.05",
+  "topic": "temporalsaetze",
+  "kind": "grammar",
+  "prompt": "___ ich hier wohne, fahre ich jeden Tag Rad.",
+  "promptEn": null,
+  "options": [
+   "Seitdem",
+   "Bevor",
+   "Bis",
+   "Als"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Ein Zustand ab einem Punkt bis jetzt: seitdem.",
+   "en": "A state from a point up to now: seitdem."
+  }
+ },
+ {
+  "id": "g.temporalsaetze.06",
+  "topic": "temporalsaetze",
+  "kind": "grammar",
+  "prompt": "___ ich koche, deckt mein Sohn den Tisch.",
+  "promptEn": null,
+  "options": [
+   "Während",
+   "Nachdem",
+   "Bevor",
+   "Als"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Beides passiert gleichzeitig: während.",
+   "en": "Both happen at the same time: während."
+  }
+ },
+ {
+  "id": "g.temporalsaetze.07",
+  "topic": "temporalsaetze",
+  "kind": "grammar",
+  "prompt": "___ es morgen regnet, bleiben wir zu Hause.",
+  "promptEn": null,
+  "options": [
+   "Wenn",
+   "Als",
+   "Wann",
+   "Seitdem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Bedingung in der Zukunft: wenn.",
+   "en": "A condition in the future: wenn."
+  }
+ },
+ {
+  "id": "g.daworpronomen.01",
+  "topic": "daworpronomen",
+  "kind": "grammar",
+  "prompt": "___ wartest du? – Auf den Bus.",
+  "promptEn": null,
+  "options": [
+   "Worauf",
+   "Auf wen",
+   "Woran",
+   "Wofür"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Der Bus ist eine Sache: Frage mit wo + r + auf.",
+   "en": "The bus is a thing: the question uses wo + r + auf."
+  }
+ },
+ {
+  "id": "g.daworpronomen.02",
+  "topic": "daworpronomen",
+  "kind": "grammar",
+  "prompt": "___ wartest du? – Auf meine Schwester.",
+  "promptEn": null,
+  "options": [
+   "Auf wen",
+   "Worauf",
+   "Wovon",
+   "Womit"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Bei Personen bleibt die Präposition mit Fragepronomen.",
+   "en": "With people the preposition stays with the question pronoun."
+  }
+ },
+ {
+  "id": "g.daworpronomen.03",
+  "topic": "daworpronomen",
+  "kind": "grammar",
+  "prompt": "Ich interessiere mich sehr ___.",
+  "promptEn": null,
+  "options": [
+   "dafür",
+   "für es",
+   "darauf",
+   "davon"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sich interessieren für + Sache wird zu dafür.",
+   "en": "sich interessieren für + a thing becomes dafür."
+  }
+ },
+ {
+  "id": "g.daworpronomen.04",
+  "topic": "daworpronomen",
+  "kind": "grammar",
+  "prompt": "Ich freue mich ___, dass du kommst.",
+  "promptEn": null,
+  "options": [
+   "darauf",
+   "auf das",
+   "darüber es",
+   "dafür"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Das da-Wort kündigt den dass-Satz an: sich freuen auf → darauf.",
+   "en": "The da-word announces the dass-clause: sich freuen auf → darauf."
+  }
+ },
+ {
+  "id": "g.daworpronomen.05",
+  "topic": "daworpronomen",
+  "kind": "grammar",
+  "prompt": "___ habt ihr gesprochen? – Über den neuen Vertrag.",
+  "promptEn": null,
+  "options": [
+   "Worüber",
+   "Über wen",
+   "Wovon",
+   "Womit"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Der Vertrag ist eine Sache: worüber.",
+   "en": "The contract is a thing: worüber."
+  }
+ },
+ {
+  "id": "g.daworpronomen.06",
+  "topic": "daworpronomen",
+  "kind": "grammar",
+  "prompt": "Die Prüfung besteht ___ vier Teilen.",
+  "promptEn": null,
+  "options": [
+   "aus",
+   "von",
+   "in",
+   "mit"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "bestehen aus + Dativ ist die feste Verbindung.",
+   "en": "bestehen aus + dative is the fixed combination."
+  }
+ },
+ {
+  "id": "g.daworpronomen.07",
+  "topic": "daworpronomen",
+  "kind": "grammar",
+  "prompt": "Das hängt ___ Wetter ab.",
+  "promptEn": null,
+  "options": [
+   "vom",
+   "auf dem",
+   "an dem",
+   "für das"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "abhängen von + Dativ: von dem wird vom.",
+   "en": "abhängen von + dative: von dem becomes vom."
+  }
+ },
+ {
+  "id": "g.daworpronomen.08",
+  "topic": "daworpronomen",
+  "kind": "grammar",
+  "prompt": "Er kümmert sich ___ die Anmeldung.",
+  "promptEn": null,
+  "options": [
+   "um",
+   "für",
+   "an",
+   "über"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sich kümmern um + Akkusativ.",
+   "en": "sich kümmern um + accusative."
+  }
+ },
+ {
+  "id": "g.indirektefragen.01",
+  "topic": "indirektefragen",
+  "kind": "grammar",
+  "prompt": "Können Sie mir sagen, wo der Ausgang ___?",
+  "promptEn": null,
+  "options": [
+   "ist",
+   "ist er",
+   "sein",
+   "ist es"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "In der indirekten Frage steht das Verb ganz hinten.",
+   "en": "In an indirect question the verb goes at the very end."
+  }
+ },
+ {
+  "id": "g.indirektefragen.02",
+  "topic": "indirektefragen",
+  "kind": "grammar",
+  "prompt": "Ich weiß nicht, ___ der Kurs noch freie Plätze hat.",
+  "promptEn": null,
+  "options": [
+   "ob",
+   "wenn",
+   "wann",
+   "dass"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Keine Fragewort-Frage, also ob.",
+   "en": "No question word, so ob."
+  }
+ },
+ {
+  "id": "g.indirektefragen.03",
+  "topic": "indirektefragen",
+  "kind": "grammar",
+  "prompt": "Wissen Sie, ___ die Prüfung kostet?",
+  "promptEn": null,
+  "options": [
+   "wie viel",
+   "ob wie viel",
+   "wenn",
+   "dass"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Das Fragewort bleibt erhalten und leitet den Nebensatz ein.",
+   "en": "The question word is kept and introduces the subordinate clause."
+  }
+ },
+ {
+  "id": "g.indirektefragen.04",
+  "topic": "indirektefragen",
+  "kind": "grammar",
+  "prompt": "Ich würde gern wissen, ___ ich die Unterlagen per Mail schicken kann.",
+  "promptEn": null,
+  "options": [
+   "ob",
+   "wann",
+   "wenn",
+   "dass"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Ja/Nein-Frage im Original: ob.",
+   "en": "A yes/no question in the original: ob."
+  }
+ },
+ {
+  "id": "g.indirektefragen.05",
+  "topic": "indirektefragen",
+  "kind": "grammar",
+  "prompt": "Könnten Sie mir mitteilen, wann der Bescheid ___?",
+  "promptEn": null,
+  "options": [
+   "kommt",
+   "kommt er",
+   "kommen",
+   "ankommt er"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Verb am Ende, kein zweites Subjekt.",
+   "en": "Verb at the end, no second subject."
+  }
+ },
+ {
+  "id": "g.indirektefragen.06",
+  "topic": "indirektefragen",
+  "kind": "grammar",
+  "prompt": "Er hat gefragt, ___ wir am Samstag Zeit haben.",
+  "promptEn": null,
+  "options": [
+   "ob",
+   "wenn",
+   "was",
+   "dass"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Indirekte Ja/Nein-Frage: ob.",
+   "en": "An indirect yes/no question: ob."
+  }
+ },
+ {
+  "id": "g.zweiteilige.01",
+  "topic": "zweiteilige",
+  "kind": "grammar",
+  "prompt": "Sie spricht sowohl Deutsch ___ Türkisch.",
+  "promptEn": null,
+  "options": [
+   "als auch",
+   "sondern auch",
+   "noch",
+   "oder"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Das Paar heißt sowohl … als auch.",
+   "en": "The pair is sowohl … als auch."
+  }
+ },
+ {
+  "id": "g.zweiteilige.02",
+  "topic": "zweiteilige",
+  "kind": "grammar",
+  "prompt": "Ich habe weder Zeit ___ Lust.",
+  "promptEn": null,
+  "options": [
+   "noch",
+   "oder",
+   "als auch",
+   "aber"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Das Paar heißt weder … noch.",
+   "en": "The pair is weder … noch."
+  }
+ },
+ {
+  "id": "g.zweiteilige.03",
+  "topic": "zweiteilige",
+  "kind": "grammar",
+  "prompt": "Das Angebot ist nicht nur günstig, ___ auch schnell.",
+  "promptEn": null,
+  "options": [
+   "sondern",
+   "aber",
+   "als",
+   "noch"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Nach nicht nur folgt sondern auch.",
+   "en": "After nicht nur comes sondern auch."
+  }
+ },
+ {
+  "id": "g.zweiteilige.04",
+  "topic": "zweiteilige",
+  "kind": "grammar",
+  "prompt": "___ mehr ich übe, desto sicherer werde ich.",
+  "promptEn": null,
+  "options": [
+   "Je",
+   "Desto",
+   "So",
+   "Als"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Der erste Teil des Paares ist je.",
+   "en": "The first part of the pair is je."
+  }
+ },
+ {
+  "id": "g.zweiteilige.05",
+  "topic": "zweiteilige",
+  "kind": "grammar",
+  "prompt": "Je früher du anfängst, ___ leichter wird es.",
+  "promptEn": null,
+  "options": [
+   "desto",
+   "je",
+   "als",
+   "so"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Der zweite Teil ist desto, gefolgt vom Komparativ.",
+   "en": "The second part is desto, followed by the comparative."
+  }
+ },
+ {
+  "id": "g.zweiteilige.06",
+  "topic": "zweiteilige",
+  "kind": "grammar",
+  "prompt": "Wir fahren ___ heute oder gar nicht.",
+  "promptEn": null,
+  "options": [
+   "entweder",
+   "weder",
+   "sowohl",
+   "zwar"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "entweder … oder für die Wahl zwischen zwei Möglichkeiten.",
+   "en": "entweder … oder for a choice between two options."
+  }
+ },
+ {
+  "id": "g.zweiteilige.07",
+  "topic": "zweiteilige",
+  "kind": "grammar",
+  "prompt": "Die Wohnung ist ___ klein, aber sehr hell.",
+  "promptEn": null,
+  "options": [
+   "zwar",
+   "weder",
+   "sowohl",
+   "entweder"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "zwar … aber räumt etwas ein und schränkt dann ein.",
+   "en": "zwar … aber concedes a point and then qualifies it."
+  }
+ }
+]
