@@ -1,0 +1,350 @@
+{
+ "themes": [
+  {
+   "key": "familie",
+   "label": {
+    "de": "Familie & Menschen",
+    "en": "Family & people"
+   },
+   "icon": "👪",
+   "color": "#2BB3F3",
+   "payoff": {
+    "de": "Sprechen Teil 1 und Schreiben: über dich und deine Leute erzählen.",
+    "en": "Sprechen part 1 and Schreiben: talking about yourself and your people."
+   }
+  },
+  {
+   "key": "wohnen",
+   "label": {
+    "de": "Wohnen & Zuhause",
+    "en": "Housing & home"
+   },
+   "icon": "🏠",
+   "color": "#A472F0",
+   "payoff": {
+    "de": "Lesen Teil 3 (Anzeigen) und Schreiben: Wohnungssuche, Nachbarn, Vermieter.",
+    "en": "Lesen part 3 (adverts) and Schreiben: flat hunting, neighbours, landlords."
+   }
+  },
+  {
+   "key": "arbeit",
+   "label": {
+    "de": "Arbeit & Beruf",
+    "en": "Work & career"
+   },
+   "icon": "💼",
+   "color": "#0FA3B1",
+   "payoff": {
+    "de": "Schreiben Teil 3 (formelle Mail) und Lesen Teil 4: Bewerbung, Chef, Kollegen.",
+    "en": "Schreiben part 3 (formal email) and Lesen part 4: applications, bosses, colleagues."
+   }
+  },
+  {
+   "key": "bildung",
+   "label": {
+    "de": "Bildung & Lernen",
+    "en": "Education & learning"
+   },
+   "icon": "🎓",
+   "color": "#FF9F1C",
+   "payoff": {
+    "de": "Hören Teil 2 (Vortrag) und Sprechen: Kurse, Schule, Weiterbildung.",
+    "en": "Hören part 2 (a talk) and Sprechen: courses, school, further training."
+   }
+  },
+  {
+   "key": "gesundheit",
+   "label": {
+    "de": "Gesundheit & Körper",
+    "en": "Health & body"
+   },
+   "icon": "🩺",
+   "color": "#FF4B4B",
+   "payoff": {
+    "de": "Hören Teil 1 (Ansagen) und Sprechen: Arzttermin, Beschwerden, Krankmeldung.",
+    "en": "Hören part 1 (announcements) and Sprechen: appointments, symptoms, sick notes."
+   }
+  },
+  {
+   "key": "essen",
+   "label": {
+    "de": "Essen & Trinken",
+    "en": "Food & eating out"
+   },
+   "icon": "🍽️",
+   "color": "#18B98A",
+   "payoff": {
+    "de": "Sprechen Teil 1: gemeinsam ein Essen oder eine Feier planen.",
+    "en": "Sprechen part 1: planning a meal or a celebration together."
+   }
+  },
+  {
+   "key": "einkaufen",
+   "label": {
+    "de": "Einkaufen & Geld",
+    "en": "Shopping & money"
+   },
+   "icon": "🛒",
+   "color": "#F45D9C",
+   "payoff": {
+    "de": "Schreiben Teil 3: Beschwerde, Umtausch, Reklamation an eine Firma.",
+    "en": "Schreiben part 3: complaints, exchanges and returns to a company."
+   }
+  },
+  {
+   "key": "reisen",
+   "label": {
+    "de": "Reisen & Urlaub",
+    "en": "Travel & holidays"
+   },
+   "icon": "✈️",
+   "color": "#5B7CF5",
+   "payoff": {
+    "de": "Sprechen Teil 1 (Ausflug planen) und Schreiben Teil 1 (Mail an Freunde).",
+    "en": "Sprechen part 1 (planning a trip) and Schreiben part 1 (email to friends)."
+   }
+  },
+  {
+   "key": "verkehr",
+   "label": {
+    "de": "Verkehr & Unterwegs",
+    "en": "Transport & getting around"
+   },
+   "icon": "🚆",
+   "color": "#4CC93F",
+   "payoff": {
+    "de": "Hören Teil 1: Durchsagen am Bahnhof, Flughafen und im Zug.",
+    "en": "Hören part 1: announcements at stations, airports and on trains."
+   }
+  },
+  {
+   "key": "freizeit",
+   "label": {
+    "de": "Freizeit & Sport",
+    "en": "Free time & sport"
+   },
+   "icon": "⚽",
+   "color": "#2BB3F3",
+   "payoff": {
+    "de": "Sprechen Teil 2: eine Präsentation über ein Thema aus deinem Leben.",
+    "en": "Sprechen part 2: a presentation about a topic from your own life."
+   }
+  },
+  {
+   "key": "medien",
+   "label": {
+    "de": "Medien & Technik",
+    "en": "Media & technology"
+   },
+   "icon": "📱",
+   "color": "#A472F0",
+   "payoff": {
+    "de": "Schreiben Teil 2: der Forumsbeitrag, in dem du eine Meinung begründest.",
+    "en": "Schreiben part 2: the forum post where you justify an opinion."
+   }
+  },
+  {
+   "key": "umwelt",
+   "label": {
+    "de": "Umwelt & Wetter",
+    "en": "Environment & weather"
+   },
+   "icon": "🌳",
+   "color": "#0FA3B1",
+   "payoff": {
+    "de": "Ein Dauerthema in Lesen Teil 4 und im Forumsbeitrag: Pro und Kontra.",
+    "en": "A standing topic in Lesen part 4 and the forum post: pros and cons."
+   }
+  },
+  {
+   "key": "behoerden",
+   "label": {
+    "de": "Ämter & Formulare",
+    "en": "Authorities & paperwork"
+   },
+   "icon": "🏛️",
+   "color": "#FF9F1C",
+   "payoff": {
+    "de": "Lesen Teil 5 (Regeln und Hinweise) und die formelle Mail im Schreiben.",
+    "en": "Lesen part 5 (rules and notices) and the formal email in Schreiben."
+   }
+  },
+  {
+   "key": "gefuehle",
+   "label": {
+    "de": "Gefühle & Charakter",
+    "en": "Feelings & character"
+   },
+   "icon": "😊",
+   "color": "#FF4B4B",
+   "payoff": {
+    "de": "Sprechen Teil 3 und Schreiben Teil 1: reagieren, trösten, sich freuen.",
+    "en": "Sprechen part 3 and Schreiben part 1: reacting, consoling, being pleased."
+   }
+  },
+  {
+   "key": "kommunikation",
+   "label": {
+    "de": "Meinung & Diskussion",
+    "en": "Opinion & discussion"
+   },
+   "icon": "🗣️",
+   "color": "#18B98A",
+   "payoff": {
+    "de": "Der Kern von Sprechen Teil 1 und 3: vorschlagen, zustimmen, widersprechen.",
+    "en": "The core of Sprechen parts 1 and 3: suggesting, agreeing, disagreeing."
+   }
+  },
+  {
+   "key": "stadt",
+   "label": {
+    "de": "Stadt & Dienstleistungen",
+    "en": "City & services"
+   },
+   "icon": "🏙️",
+   "color": "#F45D9C",
+   "payoff": {
+    "de": "Lesen Teil 3: Anzeigen und Aushänge aus dem Stadtteil richtig zuordnen.",
+    "en": "Lesen part 3: matching adverts and local notices to the right person."
+   }
+  },
+  {
+   "key": "zeit",
+   "label": {
+    "de": "Zeit & Häufigkeit",
+    "en": "Time & frequency"
+   },
+   "icon": "⏰",
+   "color": "#5B7CF5",
+   "payoff": {
+    "de": "Überall: Termine verstehen, Erzählungen ordnen, Pläne machen.",
+    "en": "Everywhere: understanding appointments, ordering a story, making plans."
+   }
+  },
+  {
+   "key": "verben",
+   "label": {
+    "de": "Wichtige Verben",
+    "en": "Key verbs"
+   },
+   "icon": "⚡",
+   "color": "#4CC93F",
+   "payoff": {
+    "de": "Die unregelmäßigen Formen, die in jedem Prüfungsteil vorkommen.",
+    "en": "The irregular forms that turn up in every part of the exam."
+   }
+  },
+  {
+   "key": "adjektive",
+   "label": {
+    "de": "Wichtige Adjektive",
+    "en": "Key adjectives"
+   },
+   "icon": "🎨",
+   "color": "#2BB3F3",
+   "payoff": {
+    "de": "Beschreiben und vergleichen - genau das verlangt die Präsentation.",
+    "en": "Describing and comparing - exactly what the presentation asks for."
+   }
+  },
+  {
+   "key": "praepositionen",
+   "label": {
+    "de": "Verben mit Präposition",
+    "en": "Verbs with prepositions"
+   },
+   "icon": "🔗",
+   "color": "#A472F0",
+   "payoff": {
+    "de": "Der häufigste Fehler auf B1 - und in telc-Sprachbausteinen fast garantiert.",
+    "en": "The most common B1 mistake - and almost guaranteed in telc Sprachbausteine."
+   }
+  },
+  {
+   "key": "konnektoren",
+   "label": {
+    "de": "Konnektoren & Textbau",
+    "en": "Connectors & text structure"
+   },
+   "icon": "🧵",
+   "color": "#0FA3B1",
+   "payoff": {
+    "de": "Der Unterschied zwischen A2 und B1 im Schreiben: Sätze verbinden.",
+    "en": "The difference between A2 and B1 in writing: joining sentences up."
+   }
+  },
+  {
+   "key": "nomenverben",
+   "label": {
+    "de": "Feste Wendungen",
+    "en": "Fixed expressions"
+   },
+   "icon": "🧩",
+   "color": "#FF9F1C",
+   "payoff": {
+    "de": "Nomen-Verb-Verbindungen: erwachsenes Deutsch statt Schulbuchdeutsch.",
+    "en": "Noun-verb collocations: grown-up German instead of textbook German."
+   }
+  }
+ ],
+ "areas": {
+  "wortschatz": {
+   "label": {
+    "de": "Wortschatz",
+    "en": "Vocabulary"
+   },
+   "icon": "🔠",
+   "color": "#FF9F1C"
+  },
+  "grammatik": {
+   "label": {
+    "de": "Grammatik",
+    "en": "Grammar"
+   },
+   "icon": "🧩",
+   "color": "#FF4B4B"
+  },
+  "lesen": {
+   "label": {
+    "de": "Lesen",
+    "en": "Reading"
+   },
+   "icon": "📖",
+   "color": "#2BB3F3"
+  },
+  "hoeren": {
+   "label": {
+    "de": "Hören",
+    "en": "Listening"
+   },
+   "icon": "👂",
+   "color": "#A472F0"
+  },
+  "schreiben": {
+   "label": {
+    "de": "Schreiben",
+    "en": "Writing"
+   },
+   "icon": "✍️",
+   "color": "#18B98A"
+  },
+  "sprechen": {
+   "label": {
+    "de": "Sprechen",
+    "en": "Speaking"
+   },
+   "icon": "🗣️",
+   "color": "#F45D9C"
+  }
+ },
+ "counts": {
+  "vocab": 931,
+  "drills": 166,
+  "grammar": 22,
+  "reading": 8,
+  "listening": 6,
+  "writing": 9,
+  "speaking": 8,
+  "reviewable": 1097
+ }
+}

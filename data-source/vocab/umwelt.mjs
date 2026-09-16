@@ -1,0 +1,61 @@
+export default {
+  key: 'umwelt',
+  label: { de: 'Umwelt & Wetter', en: 'Environment & weather' },
+  icon: '\u{1F333}',
+  payoff: {
+    de: 'Ein Dauerthema in Lesen Teil 4 und im Forumsbeitrag: Pro und Kontra.',
+    en: 'A standing topic in Lesen part 4 and the forum post: pros and cons.',
+  },
+
+  nouns: [
+    ['die Umwelt', 'ohne Plural', 'environment', 'Jeder kann etwas für die Umwelt tun.', 'Everyone can do something for the environment.'],
+    ['der Umweltschutz', 'ohne Plural', 'environmental protection', 'Umweltschutz beginnt im eigenen Haushalt.', 'Environmental protection starts in your own household.'],
+    ['der Klimawandel', 'ohne Plural', 'climate change', 'Der Klimawandel ist auch hier spürbar.', 'Climate change is noticeable here too.'],
+    ['die Luft', 'ohne Plural', 'air', 'Nach dem Regen ist die Luft besonders klar.', 'After the rain the air is especially clear.'],
+    ['der Müll', 'ohne Plural', 'rubbish, waste', 'Der Müll wird bei uns in fünf Tonnen getrennt.', 'Here rubbish is separated into five bins.'],
+    ['die Mülltrennung', 'ohne Plural', 'waste separation', 'Die Mülltrennung ist am Anfang verwirrend.', 'Waste separation is confusing at first.'],
+    ['das Pfand', 'ohne Plural', 'deposit (on bottles)', 'Auf die Flasche sind 25 Cent Pfand.', 'There is a 25 cent deposit on the bottle.'],
+    ['die Verpackung', '-en', 'packaging', 'Weniger Verpackung wäre schon viel wert.', 'Less packaging would already be worth a lot.'],
+    ['die Energie', '-n', 'energy', 'Mit der neuen Heizung sparen wir Energie.', 'With the new heating we save energy.'],
+    ['die Sonne', 'ohne Plural', 'sun', 'Heute scheint zum ersten Mal wieder die Sonne.', 'Today the sun is shining again for the first time.'],
+    ['der Regen', 'ohne Plural', 'rain', 'Der Regen hält bis zum Abend an.', 'The rain will continue until the evening.'],
+    ['der Schnee', 'ohne Plural', 'snow', 'Im Januar lag hier viel Schnee.', 'In January there was a lot of snow here.'],
+    ['das Gewitter', '-', 'thunderstorm', 'Am Nachmittag gibt es Gewitter.', 'There will be thunderstorms in the afternoon.'],
+    ['die Temperatur', '-en', 'temperature', 'Die Temperaturen steigen auf 28 Grad.', 'Temperatures will rise to 28 degrees.'],
+    ['die Hitze', 'ohne Plural', 'heat', 'Die Hitze macht vielen älteren Menschen zu schaffen.', 'The heat is hard on many older people.'],
+    ['der Wind', '-e', 'wind', 'An der Küste weht ein kräftiger Wind.', 'A strong wind is blowing on the coast.'],
+    ['der Nebel', '-', 'fog', 'Morgens liegt oft Nebel über dem Feld.', 'In the mornings fog often lies over the field.'],
+    ['die Natur', 'ohne Plural', 'nature', 'In der Natur komme ich zur Ruhe.', 'In nature I find peace.'],
+    ['die Erneuerbaren', 'nur Plural', 'renewables', 'Die Erneuerbaren decken einen großen Teil ab.', 'Renewables cover a large part.'],
+    ['der Verbrauch', 'ohne Plural', 'consumption', 'Unser Verbrauch ist im Winter doppelt so hoch.', 'Our consumption is twice as high in winter.'],
+  ],
+
+  verbs: [
+    ['schützen', null, 'to protect', 'Diese Regel soll die Natur schützen.', 'This rule is meant to protect nature.'],
+    ['verschmutzen', null, 'to pollute', 'Plastik verschmutzt die Meere.', 'Plastic pollutes the seas.'],
+    ['trennen', null, 'to separate (waste)', 'Papier und Plastik muss man trennen.', 'You have to separate paper and plastic.'],
+    ['recyceln', null, 'to recycle', 'Glas lässt sich fast unbegrenzt recyceln.', 'Glass can be recycled almost indefinitely.'],
+    ['verbrauchen', null, 'to consume, to use up', 'Das alte Gerät verbraucht dreimal so viel.', 'The old device uses three times as much.'],
+    ['schmelzen', 'schmilzt · schmolz · ist geschmolzen', 'to melt', 'Die Gletscher schmelzen schneller als erwartet.', 'The glaciers are melting faster than expected.'],
+    ['sich verändern', null, 'to change', 'Das Klima verändert sich messbar.', 'The climate is changing measurably.'],
+    ['regnen', null, 'to rain', 'Es regnet seit drei Tagen ununterbrochen.', 'It has been raining non-stop for three days.'],
+    ['schneien', null, 'to snow', 'Heute Nacht soll es schneien.', 'It is supposed to snow tonight.'],
+  ],
+
+  adjectives: [
+    ['umweltfreundlich', null, 'environmentally friendly', 'Das Rad ist die umweltfreundlichste Lösung.', 'The bike is the most environmentally friendly solution.'],
+    ['nachhaltig', null, 'sustainable', 'Die Firma wirbt mit nachhaltiger Produktion.', 'The company advertises sustainable production.'],
+    ['schädlich', null, 'harmful', 'Zu viel Dünger ist für das Grundwasser schädlich.', 'Too much fertiliser is harmful to the groundwater.'],
+    ['bewölkt', null, 'cloudy', 'Morgen wird es stark bewölkt.', 'Tomorrow it will be very cloudy.'],
+    ['neblig', null, 'foggy', 'Fahr vorsichtig, es ist neblig.', 'Drive carefully, it is foggy.'],
+    ['mild', null, 'mild', 'Der Winter war ungewöhnlich mild.', 'The winter was unusually mild.'],
+    ['erneuerbar', null, 'renewable', 'Erneuerbare Energien werden weiter ausgebaut.', 'Renewable energies are being expanded further.'],
+  ],
+
+  phrases: [
+    ['Müll trennen', null, 'to separate waste', 'Wir trennen den Müll seit Jahren.', 'We have been separating our waste for years.'],
+    ['Energie sparen', null, 'to save energy', 'Energie sparen schont Geldbeutel und Umwelt.', 'Saving energy spares your wallet and the environment.'],
+    ['Wie wird das Wetter?', null, 'What will the weather be like?', 'Wie wird das Wetter am Wochenende?', 'What will the weather be like at the weekend?'],
+    ['einen Beitrag leisten', null, 'to make a contribution', 'Auch kleine Schritte leisten einen Beitrag.', 'Even small steps make a contribution.'],
+  ],
+};

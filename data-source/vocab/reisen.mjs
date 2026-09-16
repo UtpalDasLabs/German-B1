@@ -1,0 +1,63 @@
+export default {
+  key: 'reisen',
+  label: { de: 'Reisen & Urlaub', en: 'Travel & holidays' },
+  icon: '✈️',
+  payoff: {
+    de: 'Sprechen Teil 1 (Ausflug planen) und Schreiben Teil 1 (Mail an Freunde).',
+    en: 'Sprechen part 1 (planning a trip) and Schreiben part 1 (email to friends).',
+  },
+
+  nouns: [
+    ['die Reise', '-n', 'trip, journey', 'Die Reise nach Portugal war die schönste bisher.', 'The trip to Portugal was the nicest so far.'],
+    ['der Ausflug', '-¨e', 'excursion, day trip', 'Am Sonntag machen wir einen Ausflug an den See.', 'On Sunday we are taking a trip to the lake.'],
+    ['die Unterkunft', '-¨e', 'accommodation', 'Die Unterkunft war einfach, aber sauber.', 'The accommodation was simple but clean.'],
+    ['die Ferienwohnung', '-en', 'holiday flat', 'Die Ferienwohnung hat eine kleine Küche.', 'The holiday flat has a small kitchen.'],
+    ['die Jugendherberge', '-n', 'youth hostel', 'In der Jugendherberge kostet die Nacht 25 Euro.', 'In the youth hostel a night costs 25 euros.'],
+    ['die Buchung', '-en', 'booking', 'Die Buchung habe ich per Mail bestätigt bekommen.', 'I received confirmation of the booking by email.'],
+    ['die Anreise', '-n', 'journey there, arrival', 'Die Anreise dauert mit dem Zug vier Stunden.', 'The journey there takes four hours by train.'],
+    ['die Abreise', '-n', 'departure', 'Die Abreise ist am Sonntagmorgen.', 'Departure is on Sunday morning.'],
+    ['das Gepäck', 'ohne Plural', 'luggage', 'Das Gepäck können Sie am Empfang lassen.', 'You can leave your luggage at reception.'],
+    ['der Koffer', '-', 'suitcase', 'Mein Koffer kam einen Tag später an.', 'My suitcase arrived a day later.'],
+    ['der Ausweis', '-e', 'ID card', 'Für den Flug brauchst du Ausweis oder Pass.', 'For the flight you need an ID card or passport.'],
+    ['der Reisepass', '-¨e', 'passport', 'Mein Reisepass läuft im März ab.', 'My passport expires in March.'],
+    ['das Visum', 'Visa', 'visa', 'Für dieses Land brauchen Sie kein Visum.', 'You do not need a visa for this country.'],
+    ['die Sehenswürdigkeit', '-en', 'sight, attraction', 'Die bekannteste Sehenswürdigkeit ist der Dom.', 'The best-known sight is the cathedral.'],
+    ['die Führung', '-en', 'guided tour', 'Die Führung beginnt jede volle Stunde.', 'The guided tour starts on the hour.'],
+    ['die Landschaft', '-en', 'landscape, scenery', 'Die Landschaft im Schwarzwald ist beeindruckend.', 'The scenery in the Black Forest is impressive.'],
+    ['die Küste', '-n', 'coast', 'An der Küste weht fast immer Wind.', 'On the coast there is almost always a wind.'],
+    ['das Gebirge', '-', 'mountain range', 'Im Gebirge liegt bis Mai Schnee.', 'In the mountains there is snow until May.'],
+    ['der Aufenthalt', '-e', 'stay', 'Der Aufenthalt hat sich sehr gelohnt.', 'The stay was really worth it.'],
+    ['die Verspätung', '-en', 'delay', 'Der Zug hatte 40 Minuten Verspätung.', 'The train was 40 minutes late.'],
+    ['die Reiseversicherung', '-en', 'travel insurance', 'Eine Reiseversicherung kostet wenig und hilft viel.', 'Travel insurance costs little and helps a lot.'],
+    ['die Erholung', 'ohne Plural', 'rest, recuperation', 'Zwei Wochen Erholung waren dringend nötig.', 'Two weeks of rest were badly needed.'],
+  ],
+
+  verbs: [
+    ['reisen', null, 'to travel', 'Am liebsten reise ich mit dem Zug.', 'I like travelling by train best.'],
+    ['buchen', null, 'to book', 'Wir haben das Hotel drei Monate vorher gebucht.', 'We booked the hotel three months in advance.'],
+    ['stornieren', null, 'to cancel (a booking)', 'Bis 24 Stunden vorher kannst du kostenlos stornieren.', 'You can cancel free of charge up to 24 hours before.'],
+    ['packen', null, 'to pack', 'Ich packe immer erst am Abend vorher.', 'I always pack only the evening before.'],
+    ['übernachten', null, 'to stay overnight', 'Wir übernachten bei Freunden in Köln.', 'We are staying overnight with friends in Cologne.'],
+    ['abfahren', 'fährt ab · fuhr ab · ist abgefahren', 'to depart', 'Der Bus fährt um 6:15 Uhr ab.', 'The bus departs at 6:15.'],
+    ['ankommen', 'kommt an · kam an · ist angekommen', 'to arrive', 'Wir kommen am Freitagabend an.', 'We arrive on Friday evening.'],
+    ['sich erkundigen', null, 'to enquire', 'Ich habe mich nach den Preisen erkundigt.', 'I enquired about the prices.'],
+    ['sich entspannen', null, 'to relax', 'Am Meer entspanne ich mich am besten.', 'I relax best by the sea.'],
+    ['mitnehmen', 'nimmt mit · nahm mit · hat mitgenommen', 'to take along', 'Nimm eine Regenjacke mit.', 'Take a rain jacket with you.'],
+    ['verpassen', null, 'to miss (a train)', 'Wir haben den Anschlusszug knapp verpasst.', 'We just missed the connecting train.'],
+  ],
+
+  adjectives: [
+    ['ausgebucht', null, 'fully booked', 'Das Hotel ist im August schon ausgebucht.', 'The hotel is already fully booked in August.'],
+    ['inklusive', null, 'included', 'Frühstück ist im Preis inklusive.', 'Breakfast is included in the price.'],
+    ['abwechslungsreich', null, 'varied', 'Das Programm war abwechslungsreich.', 'The programme was varied.'],
+    ['beeindruckend', null, 'impressive', 'Der Ausblick vom Turm ist beeindruckend.', 'The view from the tower is impressive.'],
+    ['erholsam', null, 'restful', 'Es war ein sehr erholsamer Urlaub.', 'It was a very restful holiday.'],
+  ],
+
+  phrases: [
+    ['eine Reise buchen', null, 'to book a trip', 'Die Reise habe ich online gebucht.', 'I booked the trip online.'],
+    ['Gute Reise!', null, 'Have a good trip!', 'Gute Reise und melde dich, wenn du da bist.', 'Have a good trip and text me when you arrive.'],
+    ['sich auf etwas freuen', null, 'to look forward to something', 'Ich freue mich schon sehr auf den Urlaub.', 'I am really looking forward to the holiday.'],
+    ['auf eigene Faust', null, 'on your own, independently', 'Die Stadt haben wir auf eigene Faust erkundet.', 'We explored the city on our own.'],
+  ],
+};

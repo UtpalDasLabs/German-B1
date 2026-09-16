@@ -1,0 +1,267 @@
+import { Ionicons } from '@expo/vector-icons';
+import { useLocalSearchParams, useRouter } from 'expo-router';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import { Platform, Pressable, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+
+import { Flashcard } from '@/components/Flashcard';
+import { LoadingScreen, useAppReady } from '@/components/Loading';
+import { Mascot } from '@/components/Mascot';
+import { SwipeDeck, SwipeStamp, type SwipeDirection } from '@/components/SwipeDeck';
+import { Button, ProgressBar, Screen, Txt } from '@/components/ui';
+import { GOALS } from '@/lib/goals';
+import { makeHaptics } from '@/lib/haptics';
+import { say } from '@/lib/speech';
+import { filterVocab, orderForStudy } from '@/lib/study';
+import { useT } from '@/lib/useT';
+import { useProgress } from '@/store/ProgressProvider';
+import { useSettings } from '@/store/SettingsProvider';
+import { useTheme } from '@/theme/ThemeProvider';
+
+export default function StudyScreen() {
+  const { colors, space, radius } = useTheme();
+  const { t } = useT();
+  const router = useRouter();
+  const insets = useSafeAreaInsets();
+  const { settings } = useSettings();
+  const { progress, grade } = useProgress();
+  const params = useLocalSearchParams<{ mode?: string; theme?: string }>();
+
+  const haptics = useMemo(() => makeHaptics(settings.haptics), [settings.haptics]);
+
+  // Frozen for the session so grading a card does not reshuffle the deck.
+  const [seed] = useState(() => Date.now());
+  const queue = useMemo(() => {
+    const filtered = filterVocab(progress.cards, {
+      theme: params.theme ?? 'all',
+      dueOnly: params.mode === 'due',
+      trickyOnly: params.mode === 'tricky',
+    });
+    return orderForStudy(filtered, progress.cards, seed);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- intentionally frozen
+  }, [seed, params.mode, params.theme]);
+
+  const [index, setIndex] = useState(0);
+  const [flipped, setFlipped] = useState(false);
+  const [correct, setCorrect] = useState(0);
+
+  const entry = queue[index];
+  const goalXp = GOALS[settings.goal].xp;
+
+  const decide = useCallback(
+    (knewIt: boolean) => {
+      if (!entry) return;
+      knewIt ? haptics.success() : haptics.error();
+      grade(entry.id, knewIt, goalXp);
+      if (knewIt) setCorrect((n) => n + 1);
+      setFlipped(false);
+      setIndex((i) => i + 1);
+    },
+    [entry, grade, haptics, goalXp],
+  );
+
+  const onSwipe = useCallback((dir: SwipeDirection) => decide(dir === 'right'), [decide]);
+
+  /**
+   * Keyboard support. Swiping is a touch gesture, so without this the deck
+   * would be unusable with a keyboard.
+   */
+  useEffect(() => {
+    if (Platform.OS !== 'web' || typeof window === 'undefined') return undefined;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === ' ' || e.key === 'Enter') {
+        e.preventDefault();
+        setFlipped((f) => !f);
+        return;
+      }
+      if (!flipped) return;
+      if (e.key === 'ArrowRight') decide(true);
+      if (e.key === 'ArrowLeft') decide(false);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [flipped, decide]);
+
+  const appReady = useAppReady();
+  if (!appReady) return <LoadingScreen />;
+
+  if (queue.length === 0) {
+    return (
+      <Done
+        mood="sleeping"
+        title={t('noCardsDue')}
+        body={t('noCardsDueSub')}
+        primary={{ label: t('studyAll'), onPress: () => router.replace('/study?mode=all') }}
+        secondary={{ label: t('backHome'), onPress: () => router.back() }}
+      />
+    );
+  }
+
+  if (!entry) {
+    return (
+      <Done
+        mood="celebrate"
+        title={t('sessionDone')}
+        body={`${correct}/${queue.length} ${t('gotRight')}`}
+        primary={{ label: t('keepGoing'), onPress: () => router.replace('/study?mode=all') }}
+        secondary={{ label: t('backHome'), onPress: () => router.back() }}
+      />
+    );
+  }
+
+  const shell = (
+    <View
+      style={{
+        flex: 1,
+        backgroundColor: colors.surface,
+        borderRadius: radius.xl,
+        borderWidth: 3,
+        borderColor: colors.border,
+      }}
+    />
+  );
+
+  return (
+    <Screen>
+      <View
+        style={{
+          paddingTop: insets.top + space.sm,
+          paddingHorizontal: space.lg,
+          paddingBottom: space.md,
+          flexDirection: 'row',
+          alignItems: 'center',
+          gap: space.md,
+        }}
+      >
+        <Pressable
+          onPress={() => router.back()}
+          accessibilityRole="button"
+          accessibilityLabel={t('backHome')}
+          hitSlop={12}
+        >
+          <Ionicons name="close" size={28} color={colors.textFaint} />
+        </Pressable>
+        <View style={{ flex: 1 }}>
+          <ProgressBar value={index / queue.length} color={colors.success} />
+        </View>
+        <Txt variant="caption" tone="faint">
+          {index + 1}/{queue.length}
+        </Txt>
+      </View>
+
+      <View style={{ flex: 1, paddingHorizontal: space.lg, paddingBottom: space.md }}>
+        <Pressable
+          onPress={() => {
+            haptics.tap();
+            setFlipped((f) => !f);
+          }}
+          accessibilityRole="button"
+          accessibilityLabel={flipped ? t('answer') : t('tapToFlip')}
+          // Screen readers cannot swipe, so grading is exposed as rotor actions.
+          accessibilityActions={
+            flipped
+              ? [
+                  { name: 'knewIt', label: t('knewIt') },
+                  { name: 'reviewAgain', label: t('reviewAgain') },
+                ]
+              : undefined
+          }
+          onAccessibilityAction={(e) => {
+            if (e.nativeEvent.actionName === 'knewIt') decide(true);
+            if (e.nativeEvent.actionName === 'reviewAgain') decide(false);
+          }}
+          style={{ flex: 1 }}
+        >
+          <SwipeDeck
+            cardKey={entry.id}
+            onSwipe={onSwipe}
+            swipeEnabled={flipped}
+            behind={[shell, shell]}
+            overlayRight={<SwipeStamp label={t('knewIt')} color={colors.success} rotate={-12} />}
+            overlayLeft={<SwipeStamp label={t('reviewAgain')} color={colors.danger} rotate={12} />}
+          >
+            <Flashcard
+              entry={entry}
+              flipped={flipped}
+              language={settings.language}
+              onSpeak={(text) => say(text, settings.slowAudio)}
+              labels={{
+                tapToFlip: t('tapToFlip'),
+                answer: t('answer'),
+                example: t('example'),
+                playWord: t('playWord'),
+              }}
+            />
+          </SwipeDeck>
+        </Pressable>
+      </View>
+
+      {/* No grading buttons: the card is the control. Swipe on touch, drag with
+          a mouse, arrow keys on a keyboard, rotor actions with a screen reader.
+          This is a directional hint, not a control - which is why the two
+          halves are plain text rather than anything tappable. */}
+      <View
+        style={{
+          paddingHorizontal: space.lg,
+          paddingBottom: insets.bottom + space.lg,
+          gap: space.xs,
+          alignItems: 'center',
+          opacity: flipped ? 1 : 0.45,
+        }}
+      >
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.lg }}>
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.xs }}>
+            <Ionicons name="arrow-back" size={16} color={colors.danger} />
+            <Txt variant="caption" tone="danger">
+              {t('reviewAgain')}
+            </Txt>
+          </View>
+          <Txt variant="caption" tone="faint">
+            ·
+          </Txt>
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.xs }}>
+            <Txt variant="caption" tone="success">
+              {t('knewIt')}
+            </Txt>
+            <Ionicons name="arrow-forward" size={16} color={colors.success} />
+          </View>
+        </View>
+
+        <Txt variant="caption" tone="faint" style={{ textAlign: 'center' }}>
+          {flipped ? t('swipeHint') : t('tapToFlip')}
+        </Txt>
+      </View>
+    </Screen>
+  );
+}
+
+function Done({
+  mood,
+  title,
+  body,
+  primary,
+  secondary,
+}: {
+  mood: 'celebrate' | 'sleeping';
+  title: string;
+  body: string;
+  primary: { label: string; onPress: () => void };
+  secondary: { label: string; onPress: () => void };
+}) {
+  const { space } = useTheme();
+  return (
+    <Screen style={{ alignItems: 'center', justifyContent: 'center', padding: space.xl, gap: space.md }}>
+      <Mascot mood={mood} size={160} />
+      <Txt variant="title" style={{ textAlign: 'center' }}>
+        {title}
+      </Txt>
+      <Txt variant="body" tone="muted" style={{ textAlign: 'center', maxWidth: 320 }}>
+        {body}
+      </Txt>
+      <View style={{ gap: space.sm, marginTop: space.lg, alignSelf: 'stretch', maxWidth: 340 }}>
+        <Button title={primary.label} size="lg" full onPress={primary.onPress} />
+        <Button title={secondary.label} variant="ghost" full onPress={secondary.onPress} />
+      </View>
+    </Screen>
+  );
+}

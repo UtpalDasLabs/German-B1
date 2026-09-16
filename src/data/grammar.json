@@ -1,0 +1,2448 @@
+[
+ {
+  "key": "perfekt",
+  "title": {
+   "de": "Perfekt: haben oder sein",
+   "en": "The Perfekt: haben or sein"
+  },
+  "summary": {
+   "de": "Die normale Vergangenheit beim Sprechen. Die ganze Kunst ist das Hilfsverb.",
+   "en": "The everyday past tense in speech. The whole trick is the auxiliary verb."
+  },
+  "icon": "🕓",
+  "order": 0,
+  "body": {
+   "en": [
+    "In spoken German the Perfekt does almost all the work of the past. It is built from a conjugated auxiliary - haben or sein - plus the Partizip II at the very end of the sentence: \"Ich habe gestern lange gearbeitet.\"",
+    "Most verbs take haben. You need sein for two groups: verbs of movement from A to B (gehen, fahren, fliegen, kommen, umziehen) and verbs of change of state (aufstehen, einschlafen, aufwachsen, sterben). Three more take sein for no reason you can derive: sein, bleiben and werden.",
+    "The Partizip II of weak verbs is ge- + stem + -t (gemacht, gearbeitet). Strong verbs take ge- + stem + -en, often with a vowel change (gesprochen, gefahren). Verbs ending in -ieren and verbs with an inseparable prefix (be-, er-, ver-, ent-, ge-, zer-) take no ge- at all: studiert, bekommen, verstanden.",
+    "Separable verbs put the ge- in the middle: aufstehen becomes aufgestanden, einkaufen becomes eingekauft."
+   ],
+   "de": [
+    "Im gesprochenen Deutsch erledigt das Perfekt fast die ganze Vergangenheit. Es besteht aus einem konjugierten Hilfsverb - haben oder sein - und dem Partizip II ganz am Satzende: \"Ich habe gestern lange gearbeitet.\"",
+    "Die meisten Verben nehmen haben. sein brauchst du bei zwei Gruppen: Verben der Bewegung von A nach B (gehen, fahren, fliegen, kommen, umziehen) und Verben der Zustandsänderung (aufstehen, einschlafen, aufwachsen, sterben). Dazu kommen sein, bleiben und werden.",
+    "Das Partizip II schwacher Verben ist ge- + Stamm + -t (gemacht, gearbeitet). Starke Verben bilden ge- + Stamm + -en, oft mit Vokalwechsel (gesprochen, gefahren). Verben auf -ieren und Verben mit untrennbarer Vorsilbe (be-, er-, ver-, ent-, ge-, zer-) bekommen kein ge-: studiert, bekommen, verstanden.",
+    "Trennbare Verben setzen das ge- in die Mitte: aufstehen wird zu aufgestanden, einkaufen zu eingekauft."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Hilfsverb im Perfekt",
+     "en": "Auxiliary in the Perfekt"
+    },
+    "head": [
+     "Gruppe",
+     "Hilfsverb",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "die meisten Verben",
+      "haben",
+      "Ich habe gegessen."
+     ],
+     [
+      "Bewegung A → B",
+      "sein",
+      "Ich bin nach Hause gegangen."
+     ],
+     [
+      "Zustandsänderung",
+      "sein",
+      "Er ist eingeschlafen."
+     ],
+     [
+      "sein, bleiben, werden",
+      "sein",
+      "Sie ist Ärztin geworden."
+     ],
+     [
+      "reflexive Verben",
+      "haben",
+      "Wir haben uns getroffen."
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Partizip II bilden",
+     "en": "Forming the Partizip II"
+    },
+    "head": [
+     "Verbtyp",
+     "Muster",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "schwach",
+      "ge- + Stamm + -t",
+      "machen → gemacht"
+     ],
+     [
+      "stark",
+      "ge- + Stamm + -en",
+      "sprechen → gesprochen"
+     ],
+     [
+      "trennbar",
+      "Vorsilbe + ge- + …",
+      "anrufen → angerufen"
+     ],
+     [
+      "untrennbar",
+      "ohne ge-",
+      "verstehen → verstanden"
+     ],
+     [
+      "auf -ieren",
+      "ohne ge-",
+      "studieren → studiert"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Wir haben das Formular gestern abgeschickt.",
+    "en": "We sent the form off yesterday."
+   },
+   {
+    "de": "Sie ist letzte Woche nach Bremen umgezogen.",
+    "en": "She moved to Bremen last week."
+   },
+   {
+    "de": "Ich bin um sechs aufgewacht und konnte nicht mehr einschlafen.",
+    "en": "I woke up at six and could not get back to sleep."
+   },
+   {
+    "de": "Hast du dich schon für den Kurs angemeldet?",
+    "en": "Have you already registered for the course?"
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich habe nach Hause gegangen.",
+    "right": "Ich bin nach Hause gegangen.",
+    "why": {
+     "de": "gehen ist eine Bewegung von A nach B und nimmt deshalb sein.",
+     "en": "gehen is movement from A to B, so it takes sein."
+    }
+   },
+   {
+    "wrong": "Ich habe studiert Medizin.",
+    "right": "Ich habe Medizin studiert.",
+    "why": {
+     "de": "Das Partizip II steht immer ganz am Ende des Satzes.",
+     "en": "The Partizip II always stands at the very end of the sentence."
+    }
+   },
+   {
+    "wrong": "Er hat mich angeget rufen.",
+    "right": "Er hat mich angerufen.",
+    "why": {
+     "de": "Bei trennbaren Verben steht das ge- zwischen Vorsilbe und Stamm: an-ge-rufen.",
+     "en": "With separable verbs the ge- goes between prefix and stem: an-ge-rufen."
+    }
+   }
+  ]
+ },
+ {
+  "key": "praeteritum",
+  "title": {
+   "de": "Präteritum: die Erzählzeit",
+   "en": "Präteritum: the narrative past"
+  },
+  "summary": {
+   "de": "Die Schriftvergangenheit - plus die sechs Verben, die auch gesprochen so gehen.",
+   "en": "The written past - plus the six verbs that use it in speech too."
+  },
+  "icon": "📜",
+  "order": 1,
+  "body": {
+   "en": [
+    "The Präteritum is the past tense of written German: newspapers, reports, stories. In conversation most verbs use the Perfekt instead - but not all of them.",
+    "sein, haben and the modal verbs are used in the Präteritum even when speaking, because \"ich bin gewesen\" and \"ich habe gemusst\" sound heavy. So: war, hatte, konnte, musste, wollte, durfte, sollte, mochte. Learn these six as the everyday exception.",
+    "Weak verbs form the Präteritum with -te-: machen, machte, machtest, machte, machten. Strong verbs change the stem vowel and take no ending in the ich and er/sie/es forms: gehen, ich ging, er ging.",
+    "For the B1 exam this matters twice over: you need to recognise it when reading, and you need war/hatte/konnte confidently when telling a story."
+   ],
+   "de": [
+    "Das Präteritum ist die Vergangenheit der geschriebenen Sprache: Zeitung, Bericht, Erzählung. Im Gespräch benutzen die meisten Verben stattdessen das Perfekt - aber nicht alle.",
+    "sein, haben und die Modalverben stehen auch beim Sprechen im Präteritum, weil \"ich bin gewesen\" und \"ich habe gemusst\" schwerfällig klingen. Also: war, hatte, konnte, musste, wollte, durfte, sollte, mochte. Lerne diese Gruppe als Alltagsausnahme.",
+    "Schwache Verben bilden das Präteritum mit -te-: machen, machte, machtest, machte, machten. Starke Verben wechseln den Stammvokal und haben in der ich- und er/sie/es-Form keine Endung: gehen, ich ging, er ging.",
+    "Für die B1-Prüfung zählt das doppelt: beim Lesen musst du es erkennen, beim Erzählen brauchst du war, hatte und konnte sicher."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Die wichtigsten Präteritumformen",
+     "en": "The most important Präteritum forms"
+    },
+    "head": [
+     "Infinitiv",
+     "ich / er, sie, es",
+     "wir / sie"
+    ],
+    "rows": [
+     [
+      "sein",
+      "war",
+      "waren"
+     ],
+     [
+      "haben",
+      "hatte",
+      "hatten"
+     ],
+     [
+      "können",
+      "konnte",
+      "konnten"
+     ],
+     [
+      "müssen",
+      "musste",
+      "mussten"
+     ],
+     [
+      "wollen",
+      "wollte",
+      "wollten"
+     ],
+     [
+      "dürfen",
+      "durfte",
+      "durften"
+     ],
+     [
+      "werden",
+      "wurde",
+      "wurden"
+     ],
+     [
+      "gehen",
+      "ging",
+      "gingen"
+     ],
+     [
+      "kommen",
+      "kam",
+      "kamen"
+     ],
+     [
+      "geben",
+      "gab",
+      "gaben"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Als ich klein war, wohnten wir auf dem Land.",
+    "en": "When I was little we lived in the countryside."
+   },
+   {
+    "de": "Ich musste den Termin leider absagen.",
+    "en": "Unfortunately I had to cancel the appointment."
+   },
+   {
+    "de": "Die Stadt beschloss, die Straße zu sperren.",
+    "en": "The city decided to close the road."
+   },
+   {
+    "de": "Es gab damals noch kein Internet.",
+    "en": "Back then there was no internet yet."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich habe gestern krank gewesen.",
+    "right": "Ich war gestern krank.",
+    "why": {
+     "de": "Bei sein benutzt man auch gesprochen das Präteritum: war.",
+     "en": "With sein, even spoken German uses the Präteritum: war."
+    }
+   },
+   {
+    "wrong": "Ich habe gestern arbeiten gemusst.",
+    "right": "Ich musste gestern arbeiten.",
+    "why": {
+     "de": "Modalverben stehen in der Vergangenheit fast immer im Präteritum.",
+     "en": "Modal verbs are almost always in the Präteritum in the past."
+    }
+   }
+  ]
+ },
+ {
+  "key": "plusquamperfekt",
+  "title": {
+   "de": "Plusquamperfekt und nachdem",
+   "en": "Plusquamperfekt and nachdem"
+  },
+  "summary": {
+   "de": "Die Vorvergangenheit: was schon vorher passiert war.",
+   "en": "The past before the past: what had already happened first."
+  },
+  "icon": "⏪",
+  "order": 2,
+  "body": {
+   "en": [
+    "The Plusquamperfekt says that one past event happened before another past event. It is the Perfekt with the auxiliary in the Präteritum: hatte gemacht, war gefahren.",
+    "You will meet it most often with nachdem. The rule of thumb is a step down in tense: nachdem + Plusquamperfekt in the subordinate clause, Präteritum or Perfekt in the main clause. \"Nachdem ich gegessen hatte, ging ich los.\"",
+    "The other way round, bevor works with the same tense in both halves: \"Bevor ich losging, aß ich noch etwas.\"",
+    "At B1 you do not have to use it constantly. You do have to recognise it when reading, and one well-placed nachdem sentence in Schreiben Teil 1 shows a level of control that a chain of und-sentences does not."
+   ],
+   "de": [
+    "Das Plusquamperfekt sagt, dass ein Ereignis vor einem anderen Ereignis in der Vergangenheit passiert ist. Es ist das Perfekt mit dem Hilfsverb im Präteritum: hatte gemacht, war gefahren.",
+    "Am häufigsten triffst du es mit nachdem. Die Faustregel ist ein Zeitensprung: nachdem + Plusquamperfekt im Nebensatz, Präteritum oder Perfekt im Hauptsatz. \"Nachdem ich gegessen hatte, ging ich los.\"",
+    "Umgekehrt steht bei bevor in beiden Teilen dieselbe Zeit: \"Bevor ich losging, aß ich noch etwas.\"",
+    "Auf B1 musst du es nicht ständig benutzen. Du musst es beim Lesen erkennen - und ein gut gesetzter nachdem-Satz im Schreiben Teil 1 zeigt mehr Können als eine Kette von und-Sätzen."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Zeitensprung mit nachdem",
+     "en": "The tense step with nachdem"
+    },
+    "head": [
+     "Nebensatz (zuerst)",
+     "Hauptsatz (danach)"
+    ],
+    "rows": [
+     [
+      "Nachdem ich gegessen hatte,",
+      "ging ich los."
+     ],
+     [
+      "Nachdem sie umgezogen war,",
+      "suchte sie eine Arbeit."
+     ],
+     [
+      "Nachdem wir den Vertrag gelesen hatten,",
+      "haben wir unterschrieben."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Nachdem er sich angemeldet hatte, bekam er die Steuer-ID.",
+    "en": "After he had registered, he received his tax ID."
+   },
+   {
+    "de": "Wir waren schon eingezogen, als der Vermieter anrief.",
+    "en": "We had already moved in when the landlord called."
+   },
+   {
+    "de": "Sie hatte den Kurs abgeschlossen, bevor sie zu arbeiten anfing.",
+    "en": "She had finished the course before she started working."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Nachdem ich gegessen habe, ging ich los.",
+    "right": "Nachdem ich gegessen hatte, ging ich los.",
+    "why": {
+     "de": "Nach nachdem steht die frühere Zeit: Plusquamperfekt, nicht Perfekt.",
+     "en": "After nachdem the earlier tense is used: Plusquamperfekt, not Perfekt."
+    }
+   },
+   {
+    "wrong": "Bevor ich losgegangen war, aß ich.",
+    "right": "Bevor ich losging, aß ich.",
+    "why": {
+     "de": "bevor braucht keinen Zeitensprung - beide Teile stehen in derselben Zeit.",
+     "en": "bevor needs no tense step - both halves stay in the same tense."
+    }
+   }
+  ]
+ },
+ {
+  "key": "futur",
+  "title": {
+   "de": "Zukunft und Vermutung",
+   "en": "Future and assumption"
+  },
+  "summary": {
+   "de": "Präsens reicht meistens. Futur I brauchst du für Vermutungen und Versprechen.",
+   "en": "The present is usually enough. Futur I is for assumptions and promises."
+  },
+  "icon": "🔮",
+  "order": 3,
+  "body": {
+   "en": [
+    "German normally expresses the future with the present tense plus a time word: \"Morgen fahre ich nach Köln.\" That is not lazy German, it is the standard.",
+    "Futur I is werden + Infinitiv. You reach for it in three cases: a promise or firm intention (\"Ich werde mich darum kümmern\"), a prediction about something outside your control (\"Es wird regnen\"), and above all an assumption about the present.",
+    "That last use catches learners out. \"Er wird schon zu Hause sein\" does not mean he will be home later - it means he is probably home now. Add wohl or wahrscheinlich and the guess becomes explicit.",
+    "Futur II (werden + Partizip II + haben/sein) exists but is rare; you do not need to produce it at B1."
+   ],
+   "de": [
+    "Deutsch drückt die Zukunft normalerweise mit Präsens und einer Zeitangabe aus: \"Morgen fahre ich nach Köln.\" Das ist kein schlampiges Deutsch, sondern der Normalfall.",
+    "Futur I ist werden + Infinitiv. Du brauchst es in drei Fällen: Versprechen oder feste Absicht (\"Ich werde mich darum kümmern\"), Prognose über etwas, das du nicht steuerst (\"Es wird regnen\"), und vor allem für Vermutungen über die Gegenwart.",
+    "Der letzte Fall ist die Falle. \"Er wird schon zu Hause sein\" heißt nicht, dass er später zu Hause ist - es heißt, dass er wahrscheinlich jetzt zu Hause ist. Mit wohl oder wahrscheinlich wird die Vermutung deutlich.",
+    "Futur II (werden + Partizip II + haben/sein) gibt es, ist aber selten; auf B1 musst du es nicht aktiv benutzen."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Wann welche Form?",
+     "en": "Which form when?"
+    },
+    "head": [
+     "Situation",
+     "Form",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "fester Plan",
+      "Präsens + Zeitangabe",
+      "Nächste Woche ziehe ich um."
+     ],
+     [
+      "Versprechen",
+      "Futur I",
+      "Ich werde dich anrufen."
+     ],
+     [
+      "Prognose",
+      "Futur I",
+      "Die Preise werden steigen."
+     ],
+     [
+      "Vermutung (Gegenwart)",
+      "Futur I + wohl",
+      "Sie wird wohl im Stau stehen."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Ich werde mich um die Anmeldung kümmern, versprochen.",
+    "en": "I will take care of the registration, I promise."
+   },
+   {
+    "de": "Am Wochenende besuchen wir meine Schwester.",
+    "en": "At the weekend we are visiting my sister."
+   },
+   {
+    "de": "Der Chef wird wohl noch in der Besprechung sein.",
+    "en": "The boss is probably still in the meeting."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich werde morgen zum Arzt gehen werden.",
+    "right": "Ich gehe morgen zum Arzt.",
+    "why": {
+     "de": "Bei einem festen Termin reicht das Präsens völlig aus.",
+     "en": "For a fixed appointment the present tense is entirely enough."
+    }
+   }
+  ]
+ },
+ {
+  "key": "nebensaetze",
+  "title": {
+   "de": "Nebensätze: dass, weil, ob",
+   "en": "Subordinate clauses: dass, weil, ob"
+  },
+  "summary": {
+   "de": "Eine Regel, überall gleich: das konjugierte Verb geht ans Ende.",
+   "en": "One rule, always the same: the conjugated verb goes to the end."
+  },
+  "icon": "🔗",
+  "order": 4,
+  "body": {
+   "en": [
+    "A subordinate clause is introduced by a subordinating conjunction - dass, weil, ob, wenn, obwohl, damit, während, bevor, nachdem, seitdem, falls, sobald - and its conjugated verb moves to the very end.",
+    "\"Ich komme später. Ich muss arbeiten.\" becomes \"Ich komme später, weil ich arbeiten muss.\" Note the comma, and note that muss is now last.",
+    "If the subordinate clause comes first, the whole clause counts as position one, so the main clause starts with its verb: \"Weil ich arbeiten muss, komme ich später.\" Learners lose marks here more than anywhere else.",
+    "With a separable verb the prefix rejoins the stem at the end: \"… weil ich um sechs aufstehe.\" With a modal verb, the modal goes last and the infinitive sits just before it: \"… weil ich früh aufstehen muss.\"",
+    "Use ob, not wenn, for \"whether\": \"Ich weiß nicht, ob er kommt.\" wenn means if in the sense of a condition, or whenever."
+   ],
+   "de": [
+    "Ein Nebensatz beginnt mit einer unterordnenden Konjunktion - dass, weil, ob, wenn, obwohl, damit, während, bevor, nachdem, seitdem, falls, sobald - und das konjugierte Verb rutscht ganz ans Ende.",
+    "\"Ich komme später. Ich muss arbeiten.\" wird zu \"Ich komme später, weil ich arbeiten muss.\" Achte auf das Komma und darauf, dass muss jetzt hinten steht.",
+    "Steht der Nebensatz vorn, zählt er als Position eins, und der Hauptsatz beginnt mit dem Verb: \"Weil ich arbeiten muss, komme ich später.\" Hier verlieren Lernende die meisten Punkte.",
+    "Bei trennbaren Verben wächst die Vorsilbe am Ende wieder an: \"… weil ich um sechs aufstehe.\" Bei Modalverben steht das Modalverb ganz hinten, der Infinitiv davor: \"… weil ich früh aufstehen muss.\"",
+    "Für \"ob\" gilt: ob heißt whether, wenn heißt if im Sinn einer Bedingung oder immer wenn. \"Ich weiß nicht, ob er kommt.\""
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Verbposition im Nebensatz",
+     "en": "Verb position in the subordinate clause"
+    },
+    "head": [
+     "Typ",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "einfaches Verb",
+      "… weil ich jeden Tag lerne."
+     ],
+     [
+      "trennbares Verb",
+      "… weil ich um sechs aufstehe."
+     ],
+     [
+      "Modalverb",
+      "… weil ich früh aufstehen muss."
+     ],
+     [
+      "Perfekt",
+      "… weil ich lange gearbeitet habe."
+     ],
+     [
+      "Nebensatz vorn",
+      "Weil ich lange gearbeitet habe, bin ich müde."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Ich hoffe, dass Sie mir bald antworten können.",
+    "en": "I hope that you can answer me soon."
+   },
+   {
+    "de": "Obwohl die Wohnung klein ist, gefällt sie uns gut.",
+    "en": "Although the flat is small, we like it a lot."
+   },
+   {
+    "de": "Ich weiß noch nicht, ob ich am Samstag Zeit habe.",
+    "en": "I do not know yet whether I have time on Saturday."
+   },
+   {
+    "de": "Sobald der Bescheid kommt, gebe ich dir Bescheid.",
+    "en": "As soon as the decision arrives I will let you know."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich komme später, weil ich muss arbeiten.",
+    "right": "Ich komme später, weil ich arbeiten muss.",
+    "why": {
+     "de": "Im Nebensatz steht das konjugierte Verb - hier muss - am Ende.",
+     "en": "In a subordinate clause the conjugated verb - here muss - goes last."
+    }
+   },
+   {
+    "wrong": "Weil ich krank war, ich bin zu Hause geblieben.",
+    "right": "Weil ich krank war, bin ich zu Hause geblieben.",
+    "why": {
+     "de": "Der Nebensatz besetzt Position eins, also folgt sofort das Verb des Hauptsatzes.",
+     "en": "The subordinate clause fills position one, so the main clause verb comes straight after."
+    }
+   },
+   {
+    "wrong": "Ich weiß nicht, wenn er kommt.",
+    "right": "Ich weiß nicht, ob er kommt.",
+    "why": {
+     "de": "Für whether steht ob; wenn ist eine Bedingung oder ein Zeitpunkt.",
+     "en": "For whether you need ob; wenn is a condition or a point in time."
+    }
+   }
+  ]
+ },
+ {
+  "key": "konnektoren",
+  "title": {
+   "de": "deshalb, trotzdem, denn: Position zählt",
+   "en": "deshalb, trotzdem, denn: position matters"
+  },
+  "summary": {
+   "de": "Drei Gruppen mit drei verschiedenen Verbpositionen. Hier trennt sich B1 von A2.",
+   "en": "Three groups with three different verb positions. This is where B1 shows."
+  },
+  "icon": "🧵",
+  "order": 5,
+  "body": {
+   "en": [
+    "German connectors fall into three groups, and each does something different to the word order. Learning them in groups is far more efficient than learning them one by one.",
+    "Group 1, position zero: und, aber, oder, denn, sondern. They stand outside the sentence and change nothing: \"Ich bleibe zu Hause, denn ich bin müde.\"",
+    "Group 2, position one: deshalb, deswegen, darum, trotzdem, dann, außerdem, sonst. They occupy the first slot, so the verb comes second and the subject third: \"Ich bin müde, deshalb bleibe ich zu Hause.\"",
+    "Group 3, subordinating: weil, obwohl, dass, wenn, damit, bevor, während. The verb goes to the end: \"Ich bleibe zu Hause, weil ich müde bin.\"",
+    "Note the pairs that mean almost the same thing but behave differently: denn and weil; trotzdem and obwohl. Getting the pair right is a reliable B1 marker."
+   ],
+   "de": [
+    "Deutsche Konnektoren gehören zu drei Gruppen, und jede Gruppe macht etwas anderes mit der Wortstellung. In Gruppen zu lernen ist viel effizienter als Wort für Wort.",
+    "Gruppe 1, Position null: und, aber, oder, denn, sondern. Sie stehen außerhalb des Satzes und ändern nichts: \"Ich bleibe zu Hause, denn ich bin müde.\"",
+    "Gruppe 2, Position eins: deshalb, deswegen, darum, trotzdem, dann, außerdem, sonst. Sie besetzen das erste Feld, das Verb steht also an zweiter Stelle und das Subjekt an dritter: \"Ich bin müde, deshalb bleibe ich zu Hause.\"",
+    "Gruppe 3, unterordnend: weil, obwohl, dass, wenn, damit, bevor, während. Das Verb geht ans Ende: \"Ich bleibe zu Hause, weil ich müde bin.\"",
+    "Achte auf die Paare mit fast gleicher Bedeutung, aber anderem Satzbau: denn und weil; trotzdem und obwohl. Wer das Paar richtig trifft, zeigt sicher B1."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Die drei Gruppen",
+     "en": "The three groups"
+    },
+    "head": [
+     "Gruppe",
+     "Wörter",
+     "Verb steht"
+    ],
+    "rows": [
+     [
+      "Position 0",
+      "und, aber, oder, denn, sondern",
+      "wie im normalen Hauptsatz"
+     ],
+     [
+      "Position 1",
+      "deshalb, trotzdem, dann, außerdem, sonst",
+      "direkt danach (Position 2)"
+     ],
+     [
+      "Nebensatz",
+      "weil, obwohl, dass, wenn, damit, bevor",
+      "am Ende"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Dasselbe dreimal gesagt",
+     "en": "The same thing said three ways"
+    },
+    "head": [
+     "Konnektor",
+     "Satz"
+    ],
+    "rows": [
+     [
+      "denn",
+      "Ich bleibe zu Hause, denn ich bin müde."
+     ],
+     [
+      "deshalb",
+      "Ich bin müde, deshalb bleibe ich zu Hause."
+     ],
+     [
+      "weil",
+      "Ich bleibe zu Hause, weil ich müde bin."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Die Wohnung war teuer, trotzdem haben wir sie genommen.",
+    "en": "The flat was expensive; nevertheless we took it."
+   },
+   {
+    "de": "Obwohl die Wohnung teuer war, haben wir sie genommen.",
+    "en": "Although the flat was expensive, we took it."
+   },
+   {
+    "de": "Beeil dich, sonst verpassen wir den Zug.",
+    "en": "Hurry up, otherwise we will miss the train."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich bin müde, deshalb ich bleibe zu Hause.",
+    "right": "Ich bin müde, deshalb bleibe ich zu Hause.",
+    "why": {
+     "de": "deshalb steht auf Position eins, also folgt das Verb, nicht das Subjekt.",
+     "en": "deshalb takes position one, so the verb follows, not the subject."
+    }
+   },
+   {
+    "wrong": "Ich bleibe zu Hause, denn ich müde bin.",
+    "right": "Ich bleibe zu Hause, denn ich bin müde.",
+    "why": {
+     "de": "denn ändert nichts an der Wortstellung - es ist kein Nebensatz.",
+     "en": "denn changes nothing about word order - it does not make a subordinate clause."
+    }
+   }
+  ]
+ },
+ {
+  "key": "relativsaetze",
+  "title": {
+   "de": "Relativsätze",
+   "en": "Relative clauses"
+  },
+  "summary": {
+   "de": "Ein Nomen genauer beschreiben, ohne einen zweiten Satz anzufangen.",
+   "en": "Describing a noun more precisely without starting a second sentence."
+  },
+  "icon": "🎯",
+  "order": 6,
+  "body": {
+   "en": [
+    "A relative clause adds information about a noun. It is a subordinate clause, so the verb goes to the end, and it is always separated by commas.",
+    "The relative pronoun takes its gender and number from the noun it refers to, but its case from its own clause. That split is the entire difficulty. \"Der Mann, der dort steht\" - masculine because Mann, nominative because he is the subject of steht. \"Der Mann, den ich kenne\" - masculine because Mann, accusative because he is the object of kenne.",
+    "The forms are the definite article, with three exceptions: dative plural denen, and the genitive forms dessen and deren.",
+    "After a preposition the preposition comes first and decides the case: \"Die Kollegin, mit der ich arbeite\" - mit takes dative. For things, you can also use wo(r)-: \"das Thema, worüber wir gesprochen haben\"."
+   ],
+   "de": [
+    "Ein Relativsatz gibt zusätzliche Information über ein Nomen. Er ist ein Nebensatz, das Verb steht also am Ende, und er wird immer durch Kommas abgetrennt.",
+    "Das Relativpronomen übernimmt Genus und Numerus vom Bezugswort, aber den Kasus aus seinem eigenen Satz. Genau diese Trennung ist die ganze Schwierigkeit. \"Der Mann, der dort steht\" - maskulin wegen Mann, Nominativ, weil er Subjekt von steht ist. \"Der Mann, den ich kenne\" - maskulin wegen Mann, Akkusativ, weil er Objekt von kenne ist.",
+    "Die Formen sind die des bestimmten Artikels, mit drei Ausnahmen: Dativ Plural denen sowie die Genitivformen dessen und deren.",
+    "Nach einer Präposition steht die Präposition vorn und bestimmt den Kasus: \"Die Kollegin, mit der ich arbeite\" - mit verlangt Dativ. Bei Sachen geht auch wo(r)-: \"das Thema, worüber wir gesprochen haben\"."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Relativpronomen",
+     "en": "Relative pronouns"
+    },
+    "head": [
+     "Kasus",
+     "maskulin",
+     "feminin",
+     "neutrum",
+     "Plural"
+    ],
+    "rows": [
+     [
+      "Nominativ",
+      "der",
+      "die",
+      "das",
+      "die"
+     ],
+     [
+      "Akkusativ",
+      "den",
+      "die",
+      "das",
+      "die"
+     ],
+     [
+      "Dativ",
+      "dem",
+      "der",
+      "dem",
+      "denen"
+     ],
+     [
+      "Genitiv",
+      "dessen",
+      "deren",
+      "dessen",
+      "deren"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Das ist die Kollegin, die mir bei der Bewerbung geholfen hat.",
+    "en": "That is the colleague who helped me with the application."
+   },
+   {
+    "de": "Der Kurs, den ich besuche, findet abends statt.",
+    "en": "The course I am attending takes place in the evenings."
+   },
+   {
+    "de": "Die Nachbarn, denen wir den Schlüssel gegeben haben, gießen die Blumen.",
+    "en": "The neighbours we gave the key to water the plants."
+   },
+   {
+    "de": "Das Formular, das Sie brauchen, gibt es auch online.",
+    "en": "The form you need is also available online."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Der Mann, der ich gesehen habe, war mein Nachbar.",
+    "right": "Der Mann, den ich gesehen habe, war mein Nachbar.",
+    "why": {
+     "de": "Im Relativsatz ist der Mann das Objekt von sehen: Akkusativ den.",
+     "en": "In the relative clause the man is the object of sehen: accusative den."
+    }
+   },
+   {
+    "wrong": "Die Leute, die ich geholfen habe, sind umgezogen.",
+    "right": "Die Leute, denen ich geholfen habe, sind umgezogen.",
+    "why": {
+     "de": "helfen verlangt Dativ, im Plural also denen.",
+     "en": "helfen takes the dative, so in the plural it is denen."
+    }
+   }
+  ]
+ },
+ {
+  "key": "wortstellung",
+  "title": {
+   "de": "Satzstellung im Mittelfeld",
+   "en": "Word order in the middle field"
+  },
+  "summary": {
+   "de": "Te-Ka-Mo-Lo: temporal, kausal, modal, lokal - in dieser Reihenfolge.",
+   "en": "Te-Ka-Mo-Lo: time, reason, manner, place - in that order."
+  },
+  "icon": "🧭",
+  "order": 7,
+  "body": {
+   "en": [
+    "The conjugated verb is in position two in a main statement. What comes before it is a single element of your choice - subject, time, place, an object - and putting something other than the subject there is a normal, good way to connect sentences.",
+    "What sits between the verb and the sentence end follows a default order, remembered as Te-Ka-Mo-Lo: temporal (when), kausal (why), modal (how), lokal (where). \"Ich fahre morgen wegen der Prüfung mit dem Zug nach Köln.\"",
+    "Objects have their own rule: dative before accusative, unless the accusative is a pronoun, in which case the pronoun comes first. \"Ich gebe dem Kind das Buch\" but \"Ich gebe es dem Kind\".",
+    "nicht goes before the element it negates, and at the end when it negates the whole sentence - but always before a separable prefix, an infinitive or a participle: \"Ich rufe heute nicht an.\""
+   ],
+   "de": [
+    "Im Aussagesatz steht das konjugierte Verb auf Position zwei. Davor steht genau ein Element deiner Wahl - Subjekt, Zeit, Ort, ein Objekt - und etwas anderes als das Subjekt dorthin zu stellen ist normal und verbindet Sätze gut.",
+    "Zwischen Verb und Satzende gilt eine Grundfolge, als Te-Ka-Mo-Lo gemerkt: temporal (wann), kausal (warum), modal (wie), lokal (wo). \"Ich fahre morgen wegen der Prüfung mit dem Zug nach Köln.\"",
+    "Für Objekte gilt eine eigene Regel: Dativ vor Akkusativ, außer der Akkusativ ist ein Pronomen - dann steht das Pronomen zuerst. \"Ich gebe dem Kind das Buch\", aber \"Ich gebe es dem Kind\".",
+    "nicht steht vor dem Element, das verneint wird, und am Ende, wenn der ganze Satz verneint wird - aber immer vor trennbarer Vorsilbe, Infinitiv oder Partizip: \"Ich rufe heute nicht an.\""
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Te-Ka-Mo-Lo",
+     "en": "Te-Ka-Mo-Lo"
+    },
+    "head": [
+     "Feld",
+     "Frage",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "temporal",
+      "wann?",
+      "morgen, um acht, seit Mai"
+     ],
+     [
+      "kausal",
+      "warum?",
+      "wegen der Prüfung, aus Angst"
+     ],
+     [
+      "modal",
+      "wie?",
+      "mit dem Zug, gern, schnell"
+     ],
+     [
+      "lokal",
+      "wo / wohin?",
+      "nach Köln, im Büro"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Ich gehe morgen früh mit meiner Tochter zum Arzt.",
+    "en": "Tomorrow morning I am going to the doctor with my daughter."
+   },
+   {
+    "de": "Morgen früh gehe ich mit meiner Tochter zum Arzt.",
+    "en": "Tomorrow morning I am going to the doctor with my daughter."
+   },
+   {
+    "de": "Ich habe ihr das Buch gestern gegeben.",
+    "en": "I gave her the book yesterday."
+   },
+   {
+    "de": "Den Termin kann ich leider nicht wahrnehmen.",
+    "en": "Unfortunately I cannot keep the appointment."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Morgen ich fahre nach Köln.",
+    "right": "Morgen fahre ich nach Köln.",
+    "why": {
+     "de": "Steht die Zeitangabe vorn, folgt das Verb auf Position zwei, dann das Subjekt.",
+     "en": "If the time expression comes first, the verb takes position two and the subject follows."
+    }
+   },
+   {
+    "wrong": "Ich fahre nach Köln morgen.",
+    "right": "Ich fahre morgen nach Köln.",
+    "why": {
+     "de": "Nach Te-Ka-Mo-Lo steht die Zeit vor dem Ort.",
+     "en": "Under Te-Ka-Mo-Lo, time comes before place."
+    }
+   }
+  ]
+ },
+ {
+  "key": "passiv",
+  "title": {
+   "de": "Passiv",
+   "en": "The passive"
+  },
+  "summary": {
+   "de": "Wenn die Handlung zählt und nicht, wer sie macht - die Sprache der Ämter.",
+   "en": "When the action matters and not who does it - the language of officialdom."
+  },
+  "icon": "🔄",
+  "order": 8,
+  "body": {
+   "en": [
+    "The passive is built with werden + Partizip II. The object of the active sentence becomes the subject: \"Der Mechaniker repariert das Auto\" becomes \"Das Auto wird repariert.\"",
+    "The tenses follow werden: Präsens wird repariert, Präteritum wurde repariert, Perfekt ist repariert worden. Note that the participle of werden in the passive is worden, not geworden.",
+    "With a modal verb the pattern is modal + Partizip II + werden: \"Das Formular muss ausgefüllt werden.\"",
+    "If you do want to name the agent, use von + dative for a person and durch + accusative for a cause: \"Der Antrag wurde von der Sachbearbeiterin geprüft\", \"Die Straße wurde durch den Sturm beschädigt.\"",
+    "Where this pays off at B1: reading notices and official letters, which are written almost entirely in the passive, and writing your own formal email."
+   ],
+   "de": [
+    "Das Passiv besteht aus werden + Partizip II. Das Objekt des Aktivsatzes wird zum Subjekt: \"Der Mechaniker repariert das Auto\" wird zu \"Das Auto wird repariert.\"",
+    "Die Zeiten laufen über werden: Präsens wird repariert, Präteritum wurde repariert, Perfekt ist repariert worden. Achtung: Das Partizip von werden heißt im Passiv worden, nicht geworden.",
+    "Mit Modalverb lautet das Muster Modalverb + Partizip II + werden: \"Das Formular muss ausgefüllt werden.\"",
+    "Wer die handelnde Person doch nennen will, nimmt von + Dativ für Personen und durch + Akkusativ für Ursachen: \"Der Antrag wurde von der Sachbearbeiterin geprüft\", \"Die Straße wurde durch den Sturm beschädigt.\"",
+    "Der Nutzen auf B1: Aushänge und Behördenbriefe stehen fast durchgehend im Passiv - und deine eigene formelle Mail klingt damit sofort erwachsener."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Passiv in den Zeiten",
+     "en": "The passive across tenses"
+    },
+    "head": [
+     "Zeit",
+     "Form",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "Präsens",
+      "wird + Partizip II",
+      "Das Haus wird gebaut."
+     ],
+     [
+      "Präteritum",
+      "wurde + Partizip II",
+      "Das Haus wurde gebaut."
+     ],
+     [
+      "Perfekt",
+      "ist + Partizip II + worden",
+      "Das Haus ist gebaut worden."
+     ],
+     [
+      "mit Modalverb",
+      "muss + Partizip II + werden",
+      "Das Haus muss gebaut werden."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Die Unterlagen werden geprüft und Sie erhalten einen Bescheid.",
+    "en": "The documents are being checked and you will receive a decision."
+   },
+   {
+    "de": "Der Termin wurde auf nächste Woche verschoben.",
+    "en": "The appointment was postponed to next week."
+   },
+   {
+    "de": "Das Formular muss vollständig ausgefüllt werden.",
+    "en": "The form must be filled in completely."
+   },
+   {
+    "de": "Die Wohnung ist letztes Jahr renoviert worden.",
+    "en": "The flat was renovated last year."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Die Wohnung ist renoviert geworden.",
+    "right": "Die Wohnung ist renoviert worden.",
+    "why": {
+     "de": "Im Passiv heißt das Partizip von werden worden, ohne ge-.",
+     "en": "In the passive the participle of werden is worden, with no ge-."
+    }
+   },
+   {
+    "wrong": "Das Formular muss ausgefüllt sein werden.",
+    "right": "Das Formular muss ausgefüllt werden.",
+    "why": {
+     "de": "Modalverb + Partizip II + werden - dazwischen kommt kein sein.",
+     "en": "Modal + Partizip II + werden - no sein goes in between."
+    }
+   }
+  ]
+ },
+ {
+  "key": "konjunktiv2",
+  "title": {
+   "de": "Konjunktiv II: höflich und hypothetisch",
+   "en": "Konjunktiv II: polite and hypothetical"
+  },
+  "summary": {
+   "de": "würde, hätte, wäre, könnte - die Form, die Bitten freundlich macht.",
+   "en": "würde, hätte, wäre, könnte - the form that makes a request friendly."
+  },
+  "icon": "🤝",
+  "order": 9,
+  "body": {
+   "en": [
+    "Konjunktiv II does two jobs: it makes requests polite, and it talks about things that are not real.",
+    "For most verbs you build it with würde + Infinitiv: \"Ich würde gern einen Termin vereinbaren.\" For a small group you use the real Konjunktiv II form instead, because würde sounds clumsy: wäre, hätte, könnte, müsste, sollte, dürfte, wüsste, gäbe.",
+    "Politeness is the bread-and-butter use and it is worth marks in Schreiben Teil 3 and Sprechen: \"Könnten Sie mir bitte helfen?\" is a different register from \"Helfen Sie mir.\"",
+    "For the unreal past there is one form: hätte or wäre + Partizip II. \"Wenn ich das gewusst hätte, wäre ich früher gekommen.\"",
+    "In a wenn-clause the verb still goes to the end, and the main clause often starts with dann."
+   ],
+   "de": [
+    "Der Konjunktiv II hat zwei Aufgaben: Er macht Bitten höflich, und er spricht über etwas, das nicht real ist.",
+    "Bei den meisten Verben bildest du ihn mit würde + Infinitiv: \"Ich würde gern einen Termin vereinbaren.\" Bei einer kleinen Gruppe nimmst du die echte Konjunktiv-II-Form, weil würde dort schwerfällig klingt: wäre, hätte, könnte, müsste, sollte, dürfte, wüsste, gäbe.",
+    "Höflichkeit ist der Alltagsfall und bringt in Schreiben Teil 3 und im Sprechen Punkte: \"Könnten Sie mir bitte helfen?\" ist ein anderes Register als \"Helfen Sie mir.\"",
+    "Für die irreale Vergangenheit gibt es genau eine Form: hätte oder wäre + Partizip II. \"Wenn ich das gewusst hätte, wäre ich früher gekommen.\"",
+    "Im wenn-Satz steht das Verb weiterhin am Ende, und der Hauptsatz beginnt oft mit dann."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Die Formen, die man ohne würde bildet",
+     "en": "The forms built without würde"
+    },
+    "head": [
+     "Verb",
+     "Konjunktiv II",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "sein",
+      "wäre",
+      "Das wäre super."
+     ],
+     [
+      "haben",
+      "hätte",
+      "Ich hätte eine Frage."
+     ],
+     [
+      "können",
+      "könnte",
+      "Könnten Sie mir helfen?"
+     ],
+     [
+      "müssen",
+      "müsste",
+      "Ich müsste früher los."
+     ],
+     [
+      "sollen",
+      "sollte",
+      "Du solltest dich melden."
+     ],
+     [
+      "dürfen",
+      "dürfte",
+      "Dürfte ich kurz stören?"
+     ],
+     [
+      "werden",
+      "würde",
+      "Ich würde gern kommen."
+     ],
+     [
+      "wissen",
+      "wüsste",
+      "Ich wüsste gern mehr."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Könnten Sie mir bitte sagen, wo der Eingang ist?",
+    "en": "Could you please tell me where the entrance is?"
+   },
+   {
+    "de": "Ich hätte eine Bitte an Sie.",
+    "en": "I have a request for you."
+   },
+   {
+    "de": "An deiner Stelle würde ich noch einmal anrufen.",
+    "en": "In your place I would call again."
+   },
+   {
+    "de": "Wenn ich mehr Zeit hätte, würde ich einen Kurs machen.",
+    "en": "If I had more time I would take a course."
+   },
+   {
+    "de": "Wenn ich das gewusst hätte, wäre ich nicht gekommen.",
+    "en": "If I had known that I would not have come."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich würde eine Frage haben.",
+    "right": "Ich hätte eine Frage.",
+    "why": {
+     "de": "Bei haben, sein und den Modalverben nimmt man die echte Form, nicht würde.",
+     "en": "With haben, sein and the modals you use the real form, not würde."
+    }
+   },
+   {
+    "wrong": "Wenn ich Zeit hätte, ich würde kommen.",
+    "right": "Wenn ich Zeit hätte, würde ich kommen.",
+    "why": {
+     "de": "Der wenn-Satz steht auf Position eins, also folgt das Verb direkt.",
+     "en": "The wenn-clause fills position one, so the verb comes straight after."
+    }
+   }
+  ]
+ },
+ {
+  "key": "modalverben",
+  "title": {
+   "de": "Modalverben",
+   "en": "Modal verbs"
+  },
+  "summary": {
+   "de": "Sechs Verben für Erlaubnis, Pflicht, Fähigkeit und Wunsch - plus nicht müssen.",
+   "en": "Six verbs for permission, duty, ability and wish - plus the nicht müssen trap."
+  },
+  "icon": "🔑",
+  "order": 10,
+  "body": {
+   "en": [
+    "Modal verbs are conjugated and stand in position two; the main verb goes to the end as a bare infinitive: \"Ich muss heute länger arbeiten.\"",
+    "The core meanings: können ability or possibility, müssen necessity, dürfen permission, sollen an instruction from someone else, wollen intention, mögen or möchte liking and wanting.",
+    "Two negations are regularly confused. nicht dürfen means must not, it is forbidden. nicht müssen means do not have to, it is not necessary. \"Sie dürfen hier nicht parken\" and \"Sie müssen hier nicht parken\" are opposites.",
+    "In the past, modals use the Präteritum in speech as well: konnte, musste, wollte, durfte, sollte.",
+    "sollen also reports someone else’s wish or instruction: \"Ich soll mich beim Hausmeister melden\" - somebody told me to."
+   ],
+   "de": [
+    "Modalverben werden konjugiert und stehen auf Position zwei; das Hauptverb steht als reiner Infinitiv am Ende: \"Ich muss heute länger arbeiten.\"",
+    "Die Grundbedeutungen: können Fähigkeit oder Möglichkeit, müssen Notwendigkeit, dürfen Erlaubnis, sollen Auftrag von jemand anderem, wollen Absicht, mögen beziehungsweise möchte Vorliebe und Wunsch.",
+    "Zwei Verneinungen werden ständig verwechselt. nicht dürfen heißt: es ist verboten. nicht müssen heißt: es ist nicht nötig. \"Sie dürfen hier nicht parken\" und \"Sie müssen hier nicht parken\" sind Gegenteile.",
+    "In der Vergangenheit stehen Modalverben auch gesprochen im Präteritum: konnte, musste, wollte, durfte, sollte.",
+    "sollen gibt außerdem den Auftrag oder Wunsch einer anderen Person wieder: \"Ich soll mich beim Hausmeister melden\" - jemand hat es mir gesagt."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Bedeutung und Verneinung",
+     "en": "Meaning and negation"
+    },
+    "head": [
+     "Verb",
+     "Bedeutung",
+     "verneint"
+    ],
+    "rows": [
+     [
+      "können",
+      "Fähigkeit / Möglichkeit",
+      "nicht können = nicht in der Lage"
+     ],
+     [
+      "müssen",
+      "Notwendigkeit",
+      "nicht müssen = nicht nötig"
+     ],
+     [
+      "dürfen",
+      "Erlaubnis",
+      "nicht dürfen = verboten"
+     ],
+     [
+      "sollen",
+      "Auftrag von anderen",
+      "nicht sollen = man rät ab"
+     ],
+     [
+      "wollen",
+      "eigene Absicht",
+      "nicht wollen = keine Absicht"
+     ],
+     [
+      "möchten",
+      "höflicher Wunsch",
+      "nicht möchten = kein Wunsch"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Sie dürfen hier nicht parken, das ist eine Feuerwehrzufahrt.",
+    "en": "You must not park here, this is a fire brigade access."
+   },
+   {
+    "de": "Sie müssen nicht warten, Sie bekommen den Bescheid per Post.",
+    "en": "You do not have to wait, you will get the decision by post."
+   },
+   {
+    "de": "Ich soll Ihnen von Frau Weber Grüße ausrichten.",
+    "en": "I am to pass on greetings to you from Ms Weber."
+   },
+   {
+    "de": "Als Kind konnte ich noch kein Deutsch.",
+    "en": "As a child I could not speak German yet."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Sie müssen hier nicht rauchen. (gemeint: verboten)",
+    "right": "Sie dürfen hier nicht rauchen.",
+    "why": {
+     "de": "nicht müssen heißt nur \"nicht nötig\". Ein Verbot verlangt nicht dürfen.",
+     "en": "nicht müssen only means \"not necessary\". A prohibition needs nicht dürfen."
+    }
+   },
+   {
+    "wrong": "Ich muss zu arbeiten.",
+    "right": "Ich muss arbeiten.",
+    "why": {
+     "de": "Nach einem Modalverb steht der reine Infinitiv ohne zu.",
+     "en": "After a modal verb comes the bare infinitive, without zu."
+    }
+   }
+  ]
+ },
+ {
+  "key": "infinitivsaetze",
+  "title": {
+   "de": "Infinitiv mit zu, um … zu",
+   "en": "Infinitive with zu, um … zu"
+  },
+  "summary": {
+   "de": "Zwei Sätze zu einem machen, wenn das Subjekt gleich bleibt.",
+   "en": "Turning two sentences into one when the subject stays the same."
+  },
+  "icon": "✒️",
+  "order": 11,
+  "body": {
+   "en": [
+    "Many verbs and expressions are followed by an infinitive with zu: versuchen, vergessen, anfangen, aufhören, vorhaben, Lust haben, Zeit haben, es ist wichtig. The zu-infinitive goes at the end: \"Ich habe vergessen, dich anzurufen.\"",
+    "With a separable verb the zu slots inside: anrufen becomes anzurufen, aufstehen becomes aufzustehen.",
+    "um … zu expresses purpose and is only possible when both halves share a subject: \"Ich lerne jeden Tag, um die Prüfung zu bestehen.\" If the subjects differ you need damit: \"Ich erkläre es noch einmal, damit alle es verstehen.\"",
+    "Two more patterns worth having: ohne … zu (\"Er ging, ohne sich zu verabschieden\") and statt … zu (\"Statt zu diskutieren, sollten wir handeln\").",
+    "No zu after modal verbs, and none after lassen, sehen, hören, gehen and bleiben: \"Ich lasse das Auto reparieren.\""
+   ],
+   "de": [
+    "Viele Verben und Ausdrücke verlangen einen Infinitiv mit zu: versuchen, vergessen, anfangen, aufhören, vorhaben, Lust haben, Zeit haben, es ist wichtig. Der zu-Infinitiv steht am Ende: \"Ich habe vergessen, dich anzurufen.\"",
+    "Bei trennbaren Verben rutscht das zu in die Mitte: anrufen wird zu anzurufen, aufstehen zu aufzustehen.",
+    "um … zu nennt den Zweck und geht nur, wenn beide Teile dasselbe Subjekt haben: \"Ich lerne jeden Tag, um die Prüfung zu bestehen.\" Bei verschiedenen Subjekten brauchst du damit: \"Ich erkläre es noch einmal, damit alle es verstehen.\"",
+    "Zwei weitere nützliche Muster: ohne … zu (\"Er ging, ohne sich zu verabschieden\") und statt … zu (\"Statt zu diskutieren, sollten wir handeln\").",
+    "Kein zu nach Modalverben und keins nach lassen, sehen, hören, gehen und bleiben: \"Ich lasse das Auto reparieren.\""
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "um … zu oder damit?",
+     "en": "um … zu or damit?"
+    },
+    "head": [
+     "Subjekte",
+     "Form",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "gleich",
+      "um … zu",
+      "Ich spare, um ein Auto zu kaufen."
+     ],
+     [
+      "verschieden",
+      "damit",
+      "Ich spare, damit meine Tochter studieren kann."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Ich habe vergessen, das Formular mitzubringen.",
+    "en": "I forgot to bring the form."
+   },
+   {
+    "de": "Es ist wichtig, sich rechtzeitig anzumelden.",
+    "en": "It is important to register in good time."
+   },
+   {
+    "de": "Sie fährt mit dem Rad, um Geld zu sparen.",
+    "en": "She cycles in order to save money."
+   },
+   {
+    "de": "Er ging, ohne etwas zu sagen.",
+    "en": "He left without saying anything."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich habe vergessen, dich zu anrufen.",
+    "right": "Ich habe vergessen, dich anzurufen.",
+    "why": {
+     "de": "Bei trennbaren Verben steht das zu zwischen Vorsilbe und Stamm.",
+     "en": "With separable verbs the zu goes between prefix and stem."
+    }
+   },
+   {
+    "wrong": "Ich erkläre es noch einmal, um alle es verstehen.",
+    "right": "Ich erkläre es noch einmal, damit alle es verstehen.",
+    "why": {
+     "de": "Die Subjekte sind verschieden (ich / alle), also damit statt um … zu.",
+     "en": "The subjects differ (ich / alle), so damit rather than um … zu."
+    }
+   }
+  ]
+ },
+ {
+  "key": "reflexiv",
+  "title": {
+   "de": "Reflexive Verben",
+   "en": "Reflexive verbs"
+  },
+  "summary": {
+   "de": "sich freuen, sich melden, sich kümmern - und wann das Pronomen im Dativ steht.",
+   "en": "sich freuen, sich melden, sich kümmern - and when the pronoun is dative."
+  },
+  "icon": "🪞",
+  "order": 12,
+  "body": {
+   "en": [
+    "A reflexive verb carries a pronoun that points back at the subject: ich freue mich, du freust dich, er freut sich. Only the third person has a special form, sich; the rest are the ordinary object pronouns.",
+    "Most reflexive verbs take the accusative. The pronoun goes right after the conjugated verb in a main clause, or right after the subject in a subordinate clause: \"… weil ich mich freue.\"",
+    "The dative appears when there is already an accusative object in the sentence: \"Ich wasche mich\" but \"Ich wasche mir die Hände\". The only forms that differ are mir and dir.",
+    "Many reflexive verbs come with a fixed preposition, which is where most mistakes happen: sich freuen auf, sich freuen über, sich interessieren für, sich kümmern um, sich erinnern an, sich bewerben um. Learn the verb and the preposition as one item."
+   ],
+   "de": [
+    "Ein reflexives Verb trägt ein Pronomen, das auf das Subjekt zurückweist: ich freue mich, du freust dich, er freut sich. Nur die dritte Person hat mit sich eine eigene Form, der Rest sind die normalen Objektpronomen.",
+    "Die meisten reflexiven Verben stehen mit dem Akkusativ. Das Pronomen folgt im Hauptsatz direkt auf das konjugierte Verb, im Nebensatz direkt auf das Subjekt: \"… weil ich mich freue.\"",
+    "Der Dativ kommt, wenn im Satz schon ein Akkusativobjekt steht: \"Ich wasche mich\", aber \"Ich wasche mir die Hände\". Unterschiedlich sind nur mir und dir.",
+    "Viele reflexive Verben haben eine feste Präposition, und genau dort passieren die meisten Fehler: sich freuen auf, sich freuen über, sich interessieren für, sich kümmern um, sich erinnern an, sich bewerben um. Lerne Verb und Präposition als eine Einheit."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Reflexivpronomen",
+     "en": "Reflexive pronouns"
+    },
+    "head": [
+     "Person",
+     "Akkusativ",
+     "Dativ"
+    ],
+    "rows": [
+     [
+      "ich",
+      "mich",
+      "mir"
+     ],
+     [
+      "du",
+      "dich",
+      "dir"
+     ],
+     [
+      "er / sie / es",
+      "sich",
+      "sich"
+     ],
+     [
+      "wir",
+      "uns",
+      "uns"
+     ],
+     [
+      "ihr",
+      "euch",
+      "euch"
+     ],
+     [
+      "sie / Sie",
+      "sich",
+      "sich"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Ich freue mich sehr auf das Wochenende.",
+    "en": "I am really looking forward to the weekend."
+   },
+   {
+    "de": "Bitte melden Sie sich bis Freitag bei mir.",
+    "en": "Please get in touch with me by Friday."
+   },
+   {
+    "de": "Ich kann mir die Regel einfach nicht merken.",
+    "en": "I simply cannot remember the rule."
+   },
+   {
+    "de": "Wir haben uns im Integrationskurs kennengelernt.",
+    "en": "We got to know each other in the integration course."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich freue mich über das Wochenende.",
+    "right": "Ich freue mich auf das Wochenende.",
+    "why": {
+     "de": "auf zeigt nach vorn, über zurück: sich freuen auf etwas Kommendes.",
+     "en": "auf points forwards, über backwards: sich freuen auf for something still to come."
+    }
+   },
+   {
+    "wrong": "Ich wasche mich die Hände.",
+    "right": "Ich wasche mir die Hände.",
+    "why": {
+     "de": "die Hände ist schon Akkusativ, das Reflexivpronomen steht im Dativ.",
+     "en": "die Hände is already accusative, so the reflexive pronoun is dative."
+    }
+   }
+  ]
+ },
+ {
+  "key": "adjektivdeklination",
+  "title": {
+   "de": "Adjektivendungen",
+   "en": "Adjective endings"
+  },
+  "summary": {
+   "de": "Eine Frage entscheidet alles: Zeigt der Artikel den Kasus schon?",
+   "en": "One question decides everything: does the article already show the case?"
+  },
+  "icon": "🖍️",
+  "order": 13,
+  "body": {
+   "en": [
+    "An adjective before a noun always takes an ending. Which ending depends on what comes in front of the adjective, and there are only three situations.",
+    "After a definite article (der, die, das, dieser, jeder, welcher) the article has already shown gender and case, so the adjective only needs -e or -en. The rule of thumb: -e in the five \"easy\" slots (nominative singular in all genders, and accusative for feminine and neuter), -en everywhere else.",
+    "After an indefinite article (ein, kein, mein, dein …) there are three slots where the article shows nothing, so the adjective has to: der-Nominativ takes -er, das-Nominativ and das-Akkusativ take -es. The rest follows the definite pattern.",
+    "With no article at all the adjective carries the full signal and takes the ending the definite article would have had: guter Kaffee, gutes Wetter, gute Milch, mit gutem Wetter.",
+    "A practical shortcut for the exam: after any dative or genitive, and in any plural with an article, the ending is -en. That one line covers a large share of real cases."
+   ],
+   "de": [
+    "Ein Adjektiv vor einem Nomen bekommt immer eine Endung. Welche, hängt davon ab, was davor steht - und es gibt nur drei Situationen.",
+    "Nach bestimmtem Artikel (der, die, das, dieser, jeder, welcher) hat der Artikel Genus und Kasus schon gezeigt; das Adjektiv braucht dann nur -e oder -en. Faustregel: -e in den fünf \"leichten\" Feldern (Nominativ Singular in allen Genera sowie Akkusativ feminin und neutrum), sonst -en.",
+    "Nach unbestimmtem Artikel (ein, kein, mein, dein …) gibt es drei Felder, in denen der Artikel nichts zeigt - dort muss das Adjektiv es tun: der-Nominativ bekommt -er, das-Nominativ und das-Akkusativ bekommen -es. Der Rest folgt dem bestimmten Muster.",
+    "Ohne Artikel trägt das Adjektiv das ganze Signal und bekommt die Endung, die der bestimmte Artikel gehabt hätte: guter Kaffee, gutes Wetter, gute Milch, mit gutem Wetter.",
+    "Eine praktische Abkürzung für die Prüfung: nach jedem Dativ und Genitiv und in jedem Plural mit Artikel steht -en. Diese eine Zeile deckt einen großen Teil der echten Fälle ab."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Nach bestimmtem Artikel",
+     "en": "After a definite article"
+    },
+    "head": [
+     "Kasus",
+     "maskulin",
+     "feminin",
+     "neutrum",
+     "Plural"
+    ],
+    "rows": [
+     [
+      "Nominativ",
+      "der gute",
+      "die gute",
+      "das gute",
+      "die guten"
+     ],
+     [
+      "Akkusativ",
+      "den guten",
+      "die gute",
+      "das gute",
+      "die guten"
+     ],
+     [
+      "Dativ",
+      "dem guten",
+      "der guten",
+      "dem guten",
+      "den guten"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Nach unbestimmtem Artikel",
+     "en": "After an indefinite article"
+    },
+    "head": [
+     "Kasus",
+     "maskulin",
+     "feminin",
+     "neutrum",
+     "Plural (kein)"
+    ],
+    "rows": [
+     [
+      "Nominativ",
+      "ein guter",
+      "eine gute",
+      "ein gutes",
+      "keine guten"
+     ],
+     [
+      "Akkusativ",
+      "einen guten",
+      "eine gute",
+      "ein gutes",
+      "keine guten"
+     ],
+     [
+      "Dativ",
+      "einem guten",
+      "einer guten",
+      "einem guten",
+      "keinen guten"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Wir suchen eine ruhige Wohnung mit einem kleinen Balkon.",
+    "en": "We are looking for a quiet flat with a small balcony."
+   },
+   {
+    "de": "Der neue Kollege kommt aus Rumänien.",
+    "en": "The new colleague is from Romania."
+   },
+   {
+    "de": "Nach einem langen Tag trinke ich gern einen starken Kaffee.",
+    "en": "After a long day I like to drink a strong coffee."
+   },
+   {
+    "de": "Frisches Brot schmeckt am besten.",
+    "en": "Fresh bread tastes best."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich habe einen neuer Kollegen.",
+    "right": "Ich habe einen neuen Kollegen.",
+    "why": {
+     "de": "einen zeigt den Akkusativ maskulin schon; das Adjektiv nimmt -en.",
+     "en": "einen already shows masculine accusative, so the adjective takes -en."
+    }
+   },
+   {
+    "wrong": "mit dem gute Ergebnis",
+    "right": "mit dem guten Ergebnis",
+    "why": {
+     "de": "Im Dativ steht nach Artikel immer -en.",
+     "en": "In the dative after an article the ending is always -en."
+    }
+   }
+  ]
+ },
+ {
+  "key": "komparativ",
+  "title": {
+   "de": "Vergleichen: Komparativ und Superlativ",
+   "en": "Comparing: comparative and superlative"
+  },
+  "summary": {
+   "de": "so … wie, -er als, am -sten - und die fünf unregelmäßigen Formen.",
+   "en": "so … wie, -er als, am -sten - and the five irregular forms."
+  },
+  "icon": "📊",
+  "order": 14,
+  "body": {
+   "en": [
+    "For equality use so … wie: \"Der Bus ist so teuer wie die Bahn.\" For inequality use the comparative with -er plus als: \"Die Bahn ist teurer als der Bus.\" The classic mistake is mixing them: never \"teurer wie\".",
+    "Short adjectives with a, o or u usually take an umlaut in the comparative and superlative: alt, älter, am ältesten; groß, größer, am größten; jung, jünger, am jüngsten.",
+    "The superlative has two shapes. Standing alone after the verb it is am …sten: \"Dieses Angebot ist am günstigsten.\" Before a noun it behaves like an adjective and takes an ending: \"das günstigste Angebot\".",
+    "Five forms are irregular and worth learning outright: gut - besser - am besten; viel - mehr - am meisten; gern - lieber - am liebsten; hoch - höher - am höchsten; nah - näher - am nächsten.",
+    "Two intensifiers are useful in a presentation: immer + comparative (\"Es wird immer teurer\") and je … desto (\"Je öfter du übst, desto leichter wird es\")."
+   ],
+   "de": [
+    "Für Gleichheit nimmst du so … wie: \"Der Bus ist so teuer wie die Bahn.\" Für Ungleichheit den Komparativ auf -er plus als: \"Die Bahn ist teurer als der Bus.\" Der Klassiker unter den Fehlern ist die Mischung: niemals \"teurer wie\".",
+    "Kurze Adjektive mit a, o oder u bekommen im Komparativ und Superlativ meist einen Umlaut: alt, älter, am ältesten; groß, größer, am größten; jung, jünger, am jüngsten.",
+    "Der Superlativ hat zwei Formen. Allein nach dem Verb steht am …sten: \"Dieses Angebot ist am günstigsten.\" Vor einem Nomen verhält er sich wie ein Adjektiv und bekommt eine Endung: \"das günstigste Angebot\".",
+    "Fünf Formen sind unregelmäßig und lernt man am besten auswendig: gut - besser - am besten; viel - mehr - am meisten; gern - lieber - am liebsten; hoch - höher - am höchsten; nah - näher - am nächsten.",
+    "Zwei Verstärkungen helfen in der Präsentation: immer + Komparativ (\"Es wird immer teurer\") und je … desto (\"Je öfter du übst, desto leichter wird es\")."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Unregelmäßige Steigerung",
+     "en": "Irregular comparison"
+    },
+    "head": [
+     "Positiv",
+     "Komparativ",
+     "Superlativ"
+    ],
+    "rows": [
+     [
+      "gut",
+      "besser",
+      "am besten"
+     ],
+     [
+      "viel",
+      "mehr",
+      "am meisten"
+     ],
+     [
+      "gern",
+      "lieber",
+      "am liebsten"
+     ],
+     [
+      "hoch",
+      "höher",
+      "am höchsten"
+     ],
+     [
+      "nah",
+      "näher",
+      "am nächsten"
+     ],
+     [
+      "groß",
+      "größer",
+      "am größten"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Mit dem Rad bin ich schneller als mit dem Bus.",
+    "en": "By bike I am faster than by bus."
+   },
+   {
+    "de": "Die Wohnung ist genauso groß wie unsere alte.",
+    "en": "The flat is exactly as big as our old one."
+   },
+   {
+    "de": "Am liebsten lerne ich früh am Morgen.",
+    "en": "I like studying early in the morning best."
+   },
+   {
+    "de": "Je länger ich hier lebe, desto leichter fällt mir das Sprechen.",
+    "en": "The longer I live here, the easier speaking gets for me."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Die Bahn ist teurer wie der Bus.",
+    "right": "Die Bahn ist teurer als der Bus.",
+    "why": {
+     "de": "Nach dem Komparativ steht als; wie steht nur bei so … wie.",
+     "en": "After a comparative you use als; wie only appears in so … wie."
+    }
+   },
+   {
+    "wrong": "Das ist das am besten Angebot.",
+    "right": "Das ist das beste Angebot.",
+    "why": {
+     "de": "Vor einem Nomen steht der Superlativ als Adjektiv mit Endung, nicht mit am.",
+     "en": "Before a noun the superlative is an adjective with an ending, not am."
+    }
+   }
+  ]
+ },
+ {
+  "key": "genitiv",
+  "title": {
+   "de": "Genitiv",
+   "en": "The genitive"
+  },
+  "summary": {
+   "de": "Besitz und Zugehörigkeit im Schriftdeutsch - gesprochen oft mit von.",
+   "en": "Possession in written German - in speech usually replaced by von."
+  },
+  "icon": "🔑",
+  "order": 15,
+  "body": {
+   "en": [
+    "The genitive answers wessen? and expresses belonging: \"das Auto meines Bruders\". Masculine and neuter nouns add -s or -es; feminine and plural nouns do not change.",
+    "The articles are des and eines for masculine and neuter, der and einer for feminine and plural.",
+    "In everyday speech people usually say von + dative instead: \"das Auto von meinem Bruder\". That is not wrong, but in a formal letter or a report the genitive reads better and is expected.",
+    "Several prepositions govern the genitive and these are the ones to have ready at B1: wegen, während, trotz, innerhalb, außerhalb, aufgrund. \"Wegen des Sturms fällt der Zug aus.\"",
+    "You will also meet it in set phrases: die Höhe der Miete, das Ende des Monats, der Beginn der Veranstaltung."
+   ],
+   "de": [
+    "Der Genitiv antwortet auf wessen? und drückt Zugehörigkeit aus: \"das Auto meines Bruders\". Maskuline und neutrale Nomen bekommen -s oder -es; feminine Nomen und Pluralformen ändern sich nicht.",
+    "Die Artikel lauten des und eines für maskulin und neutrum, der und einer für feminin und Plural.",
+    "Im Alltag sagt man meist von + Dativ: \"das Auto von meinem Bruder\". Das ist nicht falsch, aber in einem formellen Brief oder Bericht liest sich der Genitiv besser - und wird dort erwartet.",
+    "Einige Präpositionen verlangen den Genitiv; diese solltest du auf B1 parat haben: wegen, während, trotz, innerhalb, außerhalb, aufgrund. \"Wegen des Sturms fällt der Zug aus.\"",
+    "Außerdem begegnet er dir in festen Wendungen: die Höhe der Miete, das Ende des Monats, der Beginn der Veranstaltung."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Genitivartikel",
+     "en": "Genitive articles"
+    },
+    "head": [
+     "Genus",
+     "bestimmt",
+     "unbestimmt",
+     "Nomen"
+    ],
+    "rows": [
+     [
+      "maskulin",
+      "des",
+      "eines",
+      "+ -s / -es"
+     ],
+     [
+      "neutrum",
+      "des",
+      "eines",
+      "+ -s / -es"
+     ],
+     [
+      "feminin",
+      "der",
+      "einer",
+      "unverändert"
+     ],
+     [
+      "Plural",
+      "der",
+      "–",
+      "unverändert"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Die Höhe der Miete steht im Vertrag.",
+    "en": "The amount of the rent is in the contract."
+   },
+   {
+    "de": "Während des Kurses sprechen wir nur Deutsch.",
+    "en": "During the course we speak only German."
+   },
+   {
+    "de": "Trotz des schlechten Wetters waren viele Leute da.",
+    "en": "Despite the bad weather many people were there."
+   },
+   {
+    "de": "Innerhalb einer Woche bekommen Sie den Bescheid.",
+    "en": "Within a week you will receive the decision."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "wegen dem Sturm",
+    "right": "wegen des Sturms",
+    "why": {
+     "de": "wegen verlangt im Schriftdeutsch den Genitiv.",
+     "en": "wegen takes the genitive in written German."
+    }
+   },
+   {
+    "wrong": "das Auto meiner Bruders",
+    "right": "das Auto meines Bruders",
+    "why": {
+     "de": "Bruder ist maskulin: meines Bruders, nicht meiner.",
+     "en": "Bruder is masculine: meines Bruders, not meiner."
+    }
+   }
+  ]
+ },
+ {
+  "key": "wechselpraepositionen",
+  "title": {
+   "de": "Wechselpräpositionen",
+   "en": "Two-way prepositions"
+  },
+  "summary": {
+   "de": "Neun Präpositionen, zwei Kasus: wohin? Akkusativ. Wo? Dativ.",
+   "en": "Nine prepositions, two cases: where to? accusative. Where? dative."
+  },
+  "icon": "🔄",
+  "order": 16,
+  "body": {
+   "en": [
+    "Nine prepositions take either the accusative or the dative: in, an, auf, über, unter, vor, hinter, neben, zwischen.",
+    "The test is the question. If the answer is wohin? - there is movement to a new place - use the accusative: \"Ich gehe in die Küche.\" If the answer is wo? - a position, no change of place - use the dative: \"Ich bin in der Küche.\"",
+    "Careful: movement inside a place is still wo. \"Ich laufe im Park\" means I am running around inside the park; \"Ich laufe in den Park\" means I am running into it.",
+    "The same pair also works with verbs: stellen, legen, setzen, hängen with accusative for putting something somewhere; stehen, liegen, sitzen, hängen with dative for where it then is.",
+    "Common contractions: in dem = im, in das = ins, an dem = am, an das = ans, auf das = aufs."
+   ],
+   "de": [
+    "Neun Präpositionen stehen entweder mit dem Akkusativ oder mit dem Dativ: in, an, auf, über, unter, vor, hinter, neben, zwischen.",
+    "Die Probe ist die Frage. Lautet die Antwort wohin? - es gibt eine Bewegung an einen neuen Ort -, steht der Akkusativ: \"Ich gehe in die Küche.\" Lautet sie wo? - eine Position ohne Ortswechsel -, steht der Dativ: \"Ich bin in der Küche.\"",
+    "Achtung: Bewegung innerhalb eines Ortes bleibt wo. \"Ich laufe im Park\" heißt, dass ich im Park herumlaufe; \"Ich laufe in den Park\" heißt, dass ich hineinlaufe.",
+    "Dasselbe Paar gilt bei Verben: stellen, legen, setzen, hängen mit Akkusativ für das Hinstellen; stehen, liegen, sitzen, hängen mit Dativ für das Danach.",
+    "Häufige Verschmelzungen: in dem = im, in das = ins, an dem = am, an das = ans, auf das = aufs."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "wohin oder wo?",
+     "en": "where to or where?"
+    },
+    "head": [
+     "Frage",
+     "Kasus",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "wohin?",
+      "Akkusativ",
+      "Ich hänge das Bild an die Wand."
+     ],
+     [
+      "wo?",
+      "Dativ",
+      "Das Bild hängt an der Wand."
+     ],
+     [
+      "wohin?",
+      "Akkusativ",
+      "Er legt das Buch auf den Tisch."
+     ],
+     [
+      "wo?",
+      "Dativ",
+      "Das Buch liegt auf dem Tisch."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Stell die Tasche bitte neben die Tür.",
+    "en": "Please put the bag next to the door."
+   },
+   {
+    "de": "Die Tasche steht neben der Tür.",
+    "en": "The bag is standing next to the door."
+   },
+   {
+    "de": "Wir treffen uns vor dem Kino.",
+    "en": "We are meeting in front of the cinema."
+   },
+   {
+    "de": "Ich gehe gleich ins Büro.",
+    "en": "I am going to the office in a moment."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich gehe in der Küche.",
+    "right": "Ich gehe in die Küche.",
+    "why": {
+     "de": "gehen ist eine Bewegung zu einem Ziel: wohin, also Akkusativ.",
+     "en": "gehen is movement to a destination: wohin, so accusative."
+    }
+   },
+   {
+    "wrong": "Das Bild hängt an die Wand.",
+    "right": "Das Bild hängt an der Wand.",
+    "why": {
+     "de": "Hier gibt es keine Bewegung, sondern eine Position: wo, also Dativ.",
+     "en": "There is no movement here, only a position: wo, so dative."
+    }
+   }
+  ]
+ },
+ {
+  "key": "ndeklination",
+  "title": {
+   "de": "n-Deklination",
+   "en": "The weak masculine nouns"
+  },
+  "summary": {
+   "de": "Der Kollege, den Kollegen: eine Gruppe maskuliner Nomen mit -n überall.",
+   "en": "Der Kollege, den Kollegen: a group of masculine nouns with -n everywhere."
+  },
+  "icon": "👤",
+  "order": 17,
+  "body": {
+   "en": [
+    "A group of masculine nouns adds -n or -en in every case except the nominative singular. They are often called weak masculine nouns, or the n-Deklination.",
+    "Which nouns? Masculine nouns ending in -e that refer to people or animals (der Kollege, der Junge, der Kunde, der Name is a special case), plus masculine nouns ending in -ent, -ant, -ist, -ent, -oge, -at (der Student, der Praktikant, der Journalist, der Kollege, der Soldat), plus a short list including der Herr, der Mensch, der Nachbar, der Bauer.",
+    "So: \"Der Kollege kommt\" but \"Ich kenne den Kollegen\", \"Ich helfe dem Kollegen\", \"das Büro des Kollegen\".",
+    "This costs marks in writing because it looks like a typo but is not, and it is very common in exactly the words a B1 text uses: Kunde, Kollege, Nachbar, Student, Mensch."
+   ],
+   "de": [
+    "Eine Gruppe maskuliner Nomen bekommt in allen Kasus außer dem Nominativ Singular ein -n oder -en. Man nennt sie schwache Maskulina oder n-Deklination.",
+    "Welche Nomen? Maskuline Nomen auf -e, die Personen oder Tiere bezeichnen (der Kollege, der Junge, der Kunde), maskuline Nomen auf -ent, -ant, -ist, -oge, -at (der Student, der Praktikant, der Journalist, der Soldat) sowie eine kurze Liste mit der Herr, der Mensch, der Nachbar, der Bauer.",
+    "Also: \"Der Kollege kommt\", aber \"Ich kenne den Kollegen\", \"Ich helfe dem Kollegen\", \"das Büro des Kollegen\".",
+    "Das kostet im Schreiben Punkte, weil es wie ein Tippfehler aussieht und keiner ist - und weil es genau die Wörter trifft, die ein B1-Text ständig braucht: Kunde, Kollege, Nachbar, Student, Mensch."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "der Kollege im Singular",
+     "en": "der Kollege in the singular"
+    },
+    "head": [
+     "Kasus",
+     "Form"
+    ],
+    "rows": [
+     [
+      "Nominativ",
+      "der Kollege"
+     ],
+     [
+      "Akkusativ",
+      "den Kollegen"
+     ],
+     [
+      "Dativ",
+      "dem Kollegen"
+     ],
+     [
+      "Genitiv",
+      "des Kollegen"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Wer gehört dazu?",
+     "en": "Which nouns belong?"
+    },
+    "head": [
+     "Gruppe",
+     "Beispiele"
+    ],
+    "rows": [
+     [
+      "maskulin auf -e (Person)",
+      "Kollege, Kunde, Junge, Experte"
+     ],
+     [
+      "auf -ent, -ant, -ist",
+      "Student, Praktikant, Journalist"
+     ],
+     [
+      "Sonderfälle",
+      "Herr, Mensch, Nachbar, Bauer"
+     ],
+     [
+      "auf -name",
+      "der Name → des Namens"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Ich habe dem Kunden eine Rechnung geschickt.",
+    "en": "I sent the customer an invoice."
+   },
+   {
+    "de": "Fragen Sie bitte Herrn Özdemir.",
+    "en": "Please ask Mr Özdemir."
+   },
+   {
+    "de": "Der Kurs ist für Studenten kostenlos.",
+    "en": "The course is free for students."
+   },
+   {
+    "de": "Ich kenne meinen Nachbarn kaum.",
+    "en": "I hardly know my neighbour."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich kenne den Kollege.",
+    "right": "Ich kenne den Kollegen.",
+    "why": {
+     "de": "Kollege gehört zur n-Deklination und bekommt im Akkusativ ein -n.",
+     "en": "Kollege belongs to the weak masculines and takes -n in the accusative."
+    }
+   },
+   {
+    "wrong": "Guten Tag, Herr Weber. Ich habe Herr Weber gesucht.",
+    "right": "Ich habe Herrn Weber gesucht.",
+    "why": {
+     "de": "Herr wird im Akkusativ und Dativ zu Herrn.",
+     "en": "Herr becomes Herrn in the accusative and dative."
+    }
+   }
+  ]
+ },
+ {
+  "key": "temporalsaetze",
+  "title": {
+   "de": "als, wenn, wann",
+   "en": "als, wenn, wann"
+  },
+  "summary": {
+   "de": "Drei Wörter, ein englisches \"when\" - und eine Regel, die wirklich funktioniert.",
+   "en": "Three words, one English \"when\" - and a rule that actually works."
+  },
+  "icon": "📆",
+  "order": 18,
+  "body": {
+   "en": [
+    "English \"when\" splits three ways in German, and the split is systematic.",
+    "als: one single event in the past. \"Als ich nach Deutschland kam, sprach ich kein Wort Deutsch.\" One arrival, one time.",
+    "wenn: repeated events in any tense, or anything in the present and future. \"Wenn ich nach Hause komme, koche ich erst mal.\" Every time. Also conditional: \"Wenn es regnet, bleiben wir da.\"",
+    "wann: only in questions, direct or indirect. \"Wann kommst du?\" and \"Ich weiß nicht, wann er kommt.\"",
+    "Alongside these, the other temporal conjunctions are worth having ready: bevor, nachdem, während, seit / seitdem, bis, sobald. All of them send the verb to the end."
+   ],
+   "de": [
+    "Das englische \"when\" teilt sich im Deutschen in drei Wörter auf - und die Aufteilung ist systematisch.",
+    "als: ein einzelnes Ereignis in der Vergangenheit. \"Als ich nach Deutschland kam, sprach ich kein Wort Deutsch.\" Eine Ankunft, ein Zeitpunkt.",
+    "wenn: wiederholte Ereignisse in jeder Zeit sowie alles in Gegenwart und Zukunft. \"Wenn ich nach Hause komme, koche ich erst mal.\" Jedes Mal. Außerdem konditional: \"Wenn es regnet, bleiben wir da.\"",
+    "wann: nur in Fragen, direkt oder indirekt. \"Wann kommst du?\" und \"Ich weiß nicht, wann er kommt.\"",
+    "Daneben lohnen sich die übrigen Temporalkonjunktionen: bevor, nachdem, während, seit / seitdem, bis, sobald. Alle schicken das Verb ans Ende."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "als, wenn oder wann",
+     "en": "als, wenn or wann"
+    },
+    "head": [
+     "Wort",
+     "Wann?",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "als",
+      "einmal, Vergangenheit",
+      "Als ich ankam, regnete es."
+     ],
+     [
+      "wenn",
+      "jedes Mal / Gegenwart / Zukunft",
+      "Wenn ich ankomme, rufe ich an."
+     ],
+     [
+      "wenn",
+      "Bedingung",
+      "Wenn es regnet, bleiben wir zu Hause."
+     ],
+     [
+      "wann",
+      "Frage",
+      "Weißt du, wann der Kurs beginnt?"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Weitere Temporalkonjunktionen",
+     "en": "Other temporal conjunctions"
+    },
+    "head": [
+     "Wort",
+     "Bedeutung",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "bevor",
+      "vorher",
+      "Bevor ich gehe, räume ich auf."
+     ],
+     [
+      "nachdem",
+      "danach (Vorzeitigkeit)",
+      "Nachdem ich gegessen hatte, ging ich."
+     ],
+     [
+      "während",
+      "gleichzeitig",
+      "Während ich koche, deckt er den Tisch."
+     ],
+     [
+      "seit / seitdem",
+      "ab einem Punkt bis jetzt",
+      "Seitdem ich hier wohne, fahre ich Rad."
+     ],
+     [
+      "bis",
+      "bis zu einem Punkt",
+      "Warte, bis ich fertig bin."
+     ],
+     [
+      "sobald",
+      "sofort danach",
+      "Sobald ich es weiß, melde ich mich."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Als ich das erste Mal beim Amt war, hatte ich alles falsch ausgefüllt.",
+    "en": "The first time I was at the office I had filled everything in wrong."
+   },
+   {
+    "de": "Immer wenn ich nervös bin, spreche ich zu schnell.",
+    "en": "Whenever I am nervous I speak too fast."
+   },
+   {
+    "de": "Können Sie mir sagen, wann der Bescheid kommt?",
+    "en": "Can you tell me when the decision will arrive?"
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Wenn ich 2019 nach Deutschland kam, sprach ich kein Deutsch.",
+    "right": "Als ich 2019 nach Deutschland kam, sprach ich kein Deutsch.",
+    "why": {
+     "de": "Ein einmaliges Ereignis in der Vergangenheit verlangt als.",
+     "en": "A single event in the past requires als."
+    }
+   },
+   {
+    "wrong": "Ich weiß nicht, wenn er kommt.",
+    "right": "Ich weiß nicht, wann er kommt.",
+    "why": {
+     "de": "In einer indirekten Frage steht wann.",
+     "en": "In an indirect question you use wann."
+    }
+   }
+  ]
+ },
+ {
+  "key": "daworpronomen",
+  "title": {
+   "de": "Verben mit Präposition: da- und wo-",
+   "en": "Verbs with prepositions: da- and wo-"
+  },
+  "summary": {
+   "de": "Worauf wartest du? – Darauf, dass der Bescheid kommt.",
+   "en": "Worauf wartest du? – Darauf, dass der Bescheid kommt."
+  },
+  "icon": "🔗",
+  "order": 19,
+  "body": {
+   "en": [
+    "Many German verbs come with a fixed preposition that you cannot derive from English: warten auf, sich freuen auf, denken an, sich kümmern um, bestehen aus, teilnehmen an. Learn each verb together with its preposition and the case it takes.",
+    "When the thing you refer to is an object rather than a person, German does not repeat the preposition with a pronoun. Instead it builds a da-word: für das becomes dafür, mit dem becomes damit, auf das becomes darauf. An r is inserted when the preposition starts with a vowel: an → daran, auf → darauf, über → darüber.",
+    "The same applies to questions: wo + preposition, again with the linking r. \"Worauf wartest du?\" \"Worüber habt ihr gesprochen?\"",
+    "For people the preposition keeps its normal pronoun: \"Auf wen wartest du?\" – \"Auf meinen Bruder.\" Never \"worauf\" for a person.",
+    "The da-word also announces a following dass-clause: \"Ich freue mich darauf, dass du kommst.\""
+   ],
+   "de": [
+    "Viele deutsche Verben haben eine feste Präposition, die man nicht aus dem Englischen ableiten kann: warten auf, sich freuen auf, denken an, sich kümmern um, bestehen aus, teilnehmen an. Lerne jedes Verb zusammen mit Präposition und Kasus.",
+    "Wenn sich der Bezug auf eine Sache richtet und nicht auf eine Person, wiederholt das Deutsche die Präposition nicht mit einem Pronomen. Stattdessen entsteht ein da-Wort: für das wird dafür, mit dem wird damit, auf das wird darauf. Beginnt die Präposition mit einem Vokal, kommt ein r dazwischen: an → daran, auf → darauf, über → darüber.",
+    "Genauso in Fragen: wo + Präposition, wieder mit dem Binde-r. \"Worauf wartest du?\" \"Worüber habt ihr gesprochen?\"",
+    "Bei Personen bleibt die Präposition mit normalem Pronomen: \"Auf wen wartest du?\" – \"Auf meinen Bruder.\" Niemals \"worauf\" für eine Person.",
+    "Das da-Wort kündigt außerdem einen folgenden dass-Satz an: \"Ich freue mich darauf, dass du kommst.\""
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "da- und wo-Formen",
+     "en": "da- and wo- forms"
+    },
+    "head": [
+     "Präposition",
+     "Sache (da-)",
+     "Frage (wo-)",
+     "Person"
+    ],
+    "rows": [
+     [
+      "auf",
+      "darauf",
+      "worauf",
+      "auf wen"
+     ],
+     [
+      "an",
+      "daran",
+      "woran",
+      "an wen"
+     ],
+     [
+      "über",
+      "darüber",
+      "worüber",
+      "über wen"
+     ],
+     [
+      "für",
+      "dafür",
+      "wofür",
+      "für wen"
+     ],
+     [
+      "mit",
+      "damit",
+      "womit",
+      "mit wem"
+     ],
+     [
+      "um",
+      "darum",
+      "worum",
+      "um wen"
+     ],
+     [
+      "von",
+      "davon",
+      "wovon",
+      "von wem"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Worauf wartest du? – Auf den Bescheid. Ich warte schon seit Wochen darauf.",
+    "en": "What are you waiting for? - For the decision. I have been waiting for it for weeks."
+   },
+   {
+    "de": "Woran denkst du gerade?",
+    "en": "What are you thinking about right now?"
+   },
+   {
+    "de": "Ich freue mich sehr darüber, dass es geklappt hat.",
+    "en": "I am very glad that it worked out."
+   },
+   {
+    "de": "Mit wem hast du gesprochen?",
+    "en": "Who did you speak to?"
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich warte auf es.",
+    "right": "Ich warte darauf.",
+    "why": {
+     "de": "Für Sachen bildet man ein da-Wort statt Präposition plus Pronomen.",
+     "en": "For things you form a da-word instead of preposition plus pronoun."
+    }
+   },
+   {
+    "wrong": "Worauf wartest du? – Worauf meinen Bruder.",
+    "right": "Auf wen wartest du? – Auf meinen Bruder.",
+    "why": {
+     "de": "Bei Personen bleibt die Präposition: auf wen, nicht worauf.",
+     "en": "With people the preposition stays: auf wen, not worauf."
+    }
+   }
+  ]
+ },
+ {
+  "key": "indirektefragen",
+  "title": {
+   "de": "Indirekte Fragen",
+   "en": "Indirect questions"
+  },
+  "summary": {
+   "de": "Höflicher fragen - und das Verb wandert ans Ende.",
+   "en": "Asking more politely - and the verb moves to the end."
+  },
+  "icon": "❓",
+  "order": 20,
+  "body": {
+   "en": [
+    "An indirect question is a question packed inside another sentence: \"Können Sie mir sagen, wo der Eingang ist?\" It is a subordinate clause, so the verb goes to the end.",
+    "If the original question has a question word (wo, wann, wie, warum, wer, was), that word stays and introduces the clause. If there is no question word - a yes/no question - you introduce it with ob.",
+    "\"Kommt er heute?\" becomes \"Ich weiß nicht, ob er heute kommt.\" \"Wann kommt er?\" becomes \"Ich weiß nicht, wann er kommt.\"",
+    "This structure is worth real marks in Sprechen and in the formal email, because it is the natural way to ask a stranger something: \"Ich würde gern wissen, ob …\", \"Könnten Sie mir mitteilen, wann …\"."
+   ],
+   "de": [
+    "Eine indirekte Frage ist eine Frage in einem anderen Satz: \"Können Sie mir sagen, wo der Eingang ist?\" Sie ist ein Nebensatz, das Verb steht also am Ende.",
+    "Hat die ursprüngliche Frage ein Fragewort (wo, wann, wie, warum, wer, was), bleibt dieses Wort und leitet den Nebensatz ein. Gibt es kein Fragewort - also eine Ja/Nein-Frage -, leitest du mit ob ein.",
+    "\"Kommt er heute?\" wird zu \"Ich weiß nicht, ob er heute kommt.\" \"Wann kommt er?\" wird zu \"Ich weiß nicht, wann er kommt.\"",
+    "Diese Struktur bringt im Sprechen und in der formellen Mail echte Punkte, weil sie die natürliche Art ist, jemand Fremden etwas zu fragen: \"Ich würde gern wissen, ob …\", \"Könnten Sie mir mitteilen, wann …\"."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Direkt und indirekt",
+     "en": "Direct and indirect"
+    },
+    "head": [
+     "Direkte Frage",
+     "Indirekte Frage"
+    ],
+    "rows": [
+     [
+      "Wo ist der Eingang?",
+      "Können Sie mir sagen, wo der Eingang ist?"
+     ],
+     [
+      "Kommt der Bus noch?",
+      "Wissen Sie, ob der Bus noch kommt?"
+     ],
+     [
+      "Wie lange dauert das?",
+      "Ich möchte wissen, wie lange das dauert."
+     ],
+     [
+      "Haben Sie Zeit?",
+      "Ich frage mich, ob Sie Zeit haben."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Könnten Sie mir bitte mitteilen, wann der Kurs beginnt?",
+    "en": "Could you please tell me when the course starts?"
+   },
+   {
+    "de": "Ich würde gern wissen, ob eine Anmeldung nötig ist.",
+    "en": "I would like to know whether registration is necessary."
+   },
+   {
+    "de": "Wissen Sie, wie viel die Prüfung kostet?",
+    "en": "Do you know how much the exam costs?"
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Können Sie mir sagen, wo ist der Eingang?",
+    "right": "Können Sie mir sagen, wo der Eingang ist?",
+    "why": {
+     "de": "In der indirekten Frage steht das Verb am Ende.",
+     "en": "In an indirect question the verb goes to the end."
+    }
+   },
+   {
+    "wrong": "Ich weiß nicht, wenn er kommt.",
+    "right": "Ich weiß nicht, ob er kommt.",
+    "why": {
+     "de": "Ohne Fragewort leitet ob die indirekte Frage ein.",
+     "en": "Without a question word, ob introduces the indirect question."
+    }
+   }
+  ]
+ },
+ {
+  "key": "zweiteilige",
+  "title": {
+   "de": "Zweiteilige Konnektoren",
+   "en": "Two-part connectors"
+  },
+  "summary": {
+   "de": "sowohl … als auch, weder … noch, je … desto: klingt sofort nach B1.",
+   "en": "sowohl … als auch, weder … noch, je … desto: instantly sounds like B1."
+  },
+  "icon": "↔️",
+  "order": 21,
+  "body": {
+   "en": [
+    "Two-part connectors join two ideas in a single move, and using one or two correctly is one of the quickest ways to lift a text from A2 to B1.",
+    "sowohl … als auch = both … and. \"Sie spricht sowohl Deutsch als auch Polnisch.\"",
+    "nicht nur … sondern auch = not only … but also. \"Das ist nicht nur billig, sondern auch praktisch.\"",
+    "weder … noch = neither … nor, and it already contains the negation: never add nicht. \"Ich habe weder Zeit noch Lust.\"",
+    "entweder … oder = either … or. zwar … aber concedes a point before countering it: \"Es ist zwar weit, aber schön.\"",
+    "je … desto compares two rising quantities. It is the one with a tricky structure: je + comparative sends the verb to the end, then desto + comparative + verb. \"Je länger ich hier lebe, desto besser verstehe ich die Leute.\""
+   ],
+   "de": [
+    "Zweiteilige Konnektoren verbinden zwei Gedanken in einem Zug, und ein oder zwei richtig gesetzte heben einen Text schnell von A2 auf B1.",
+    "sowohl … als auch = sowohl das eine wie das andere. \"Sie spricht sowohl Deutsch als auch Polnisch.\"",
+    "nicht nur … sondern auch = zusätzlich zum Ersten. \"Das ist nicht nur billig, sondern auch praktisch.\"",
+    "weder … noch = keins von beiden; die Verneinung steckt schon drin, also nie zusätzlich nicht. \"Ich habe weder Zeit noch Lust.\"",
+    "entweder … oder = eins von beiden. zwar … aber räumt etwas ein und widerspricht dann: \"Es ist zwar weit, aber schön.\"",
+    "je … desto vergleicht zwei wachsende Größen und hat als einziges einen kniffligen Bau: je + Komparativ schickt das Verb ans Ende, dann folgt desto + Komparativ + Verb. \"Je länger ich hier lebe, desto besser verstehe ich die Leute.\""
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Die wichtigsten Paare",
+     "en": "The most important pairs"
+    },
+    "head": [
+     "Paar",
+     "Bedeutung",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "sowohl … als auch",
+      "beides",
+      "sowohl morgens als auch abends"
+     ],
+     [
+      "nicht nur … sondern auch",
+      "zusätzlich",
+      "nicht nur günstig, sondern auch schnell"
+     ],
+     [
+      "weder … noch",
+      "keins von beiden",
+      "weder Zeit noch Geld"
+     ],
+     [
+      "entweder … oder",
+      "eins von beiden",
+      "entweder heute oder morgen"
+     ],
+     [
+      "zwar … aber",
+      "Einschränkung",
+      "zwar klein, aber gemütlich"
+     ],
+     [
+      "je … desto",
+      "Verhältnis",
+      "je mehr, desto besser"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Der Kurs ist sowohl für Anfänger als auch für Fortgeschrittene geeignet.",
+    "en": "The course is suitable both for beginners and for advanced learners."
+   },
+   {
+    "de": "Ich habe weder eine Antwort noch eine Erklärung bekommen.",
+    "en": "I received neither an answer nor an explanation."
+   },
+   {
+    "de": "Je früher Sie sich anmelden, desto günstiger wird es.",
+    "en": "The earlier you register, the cheaper it gets."
+   },
+   {
+    "de": "Die Wohnung ist zwar klein, aber sehr hell.",
+    "en": "The flat is small, admittedly, but very bright."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich habe weder Zeit noch nicht Lust.",
+    "right": "Ich habe weder Zeit noch Lust.",
+    "why": {
+     "de": "weder … noch ist schon verneint, ein zusätzliches nicht ist falsch.",
+     "en": "weder … noch is already negative, so an extra nicht is wrong."
+    }
+   },
+   {
+    "wrong": "Je mehr ich übe, desto es wird leichter.",
+    "right": "Je mehr ich übe, desto leichter wird es.",
+    "why": {
+     "de": "Nach desto folgt der Komparativ, dann das Verb, dann das Subjekt.",
+     "en": "After desto comes the comparative, then the verb, then the subject."
+    }
+   }
+  ]
+ }
+]
