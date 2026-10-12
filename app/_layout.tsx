@@ -1,17 +1,24 @@
-import { Stack, useRouter, useSegments } from 'expo-router';
+import { Stack, usePathname, useRouter, useSegments } from 'expo-router';
 import Head from 'expo-router/head';
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
+import { View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 
+import { ConsentBanner } from '@/components/ConsentBanner';
+import { initAnalytics, setAnalyticsContext, track, trackPageView } from '@/lib/analytics';
 import { registerServiceWorker } from '@/lib/durability';
+import { uiLocale } from '@/lib/i18n';
 import { hideSplash } from '@/lib/splash';
 import { stopSpeaking } from '@/lib/speech';
 import { useAppReady } from '@/components/Loading';
 import { ProgressProvider, useProgress } from '@/store/ProgressProvider';
 import { SettingsProvider, useSettings } from '@/store/SettingsProvider';
 import { ThemeProvider, useTheme } from '@/theme/ThemeProvider';
+
+// Before anything renders, so consent defaults are queued ahead of any hit.
+initAnalytics();
 
 function Navigator() {
   const { colors, dark } = useTheme();
@@ -20,12 +27,32 @@ function Navigator() {
   const { progress } = useProgress();
   const router = useRouter();
   const segments = useSegments();
+  const pathname = usePathname();
+  const lastLanguage = useRef<string | null>(null);
 
   // Hold the splash until stored settings and progress have loaded, so the
   // first frame the user sees is their real state rather than an empty shell.
   useEffect(() => {
     if (ready) hideSplash();
   }, [ready]);
+
+  // Tag every hit with the interface language, the study language and the
+  // certificate being prepared for, so reports split Goethe from telc from DTZ.
+  // A language change after the first load is an event of its own.
+  useEffect(() => {
+    if (!ready) return;
+    const ui = uiLocale(settings.language);
+    setAnalyticsContext({ app_language: ui, study_language: settings.language, exam_provider: settings.provider });
+    if (lastLanguage.current && lastLanguage.current !== settings.language) {
+      track('language_change', { from: lastLanguage.current, to: settings.language });
+    }
+    lastLanguage.current = settings.language;
+  }, [ready, settings.language, settings.provider]);
+
+  // Client-side navigation does not reload the page, so count each screen.
+  useEffect(() => {
+    if (ready) trackPageView();
+  }, [ready, pathname]);
 
   // Safety net. The splash is a fixed, full-screen overlay, so anything that
   // stops `ready` ever arriving - a deep link to a route that does not exist,
@@ -72,6 +99,7 @@ function Navigator() {
         />
       </Head>
       <StatusBar style={dark ? 'light' : 'dark'} />
+      <View style={{ flex: 1 }}>
       <Stack
         screenOptions={{
           headerShown: false,
@@ -91,6 +119,8 @@ function Navigator() {
         <Stack.Screen name="exam-session" />
         <Stack.Screen name="plan" />
       </Stack>
+      <ConsentBanner />
+      </View>
     </>
   );
 }

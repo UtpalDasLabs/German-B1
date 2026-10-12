@@ -54,6 +54,14 @@ tasks**.
   words what would lose your progress.
 - **German, English or both**, light and dark, works offline.
 
+## Privacy
+
+Progress stays on the device and there is no account. On the web the app asks
+before sending anonymised usage statistics (screens used, task and mock-exam
+scores — never answers or anything you write) to Google Analytics. Nothing is
+fetched from Google until you allow it, the choice can be changed any time on
+the "You" tab, and native builds send nothing. See `src/lib/analytics.ts`.
+
 ## Try the web app
 
 Once GitHub Pages is enabled (see below), the app is served at:

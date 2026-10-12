@@ -7,6 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LoadingScreen, useAppReady } from '@/components/Loading';
 import { MascotSays } from '@/components/Mascot';
 import { Card, Chip, ProgressBar, Screen, Txt } from '@/components/ui';
+import { track } from '@/lib/analytics';
 import { forecast, formatDate, planFor } from '@/lib/forecast';
 import { GOALS, GOAL_ORDER } from '@/lib/goals';
 import { moduleStats } from '@/lib/stats';
@@ -164,7 +165,14 @@ export default function PlanScreen() {
                 key={c.iso}
                 label={`in ${c.weeks} ${locale === 'de' ? 'Wochen' : 'weeks'}`}
                 active={settings.examDate === c.iso}
-                onPress={() => update({ examDate: settings.examDate === c.iso ? null : c.iso })}
+                onPress={() => {
+                  const next = settings.examDate === c.iso ? null : c.iso;
+                  update({ examDate: next });
+                  if (next) {
+                    const days = Math.round((new Date(`${next}T00:00:00`).getTime() - Date.now()) / 86_400_000);
+                    track('exam_date_set', { days_until: days });
+                  }
+                }}
               />
             ))}
             <Chip

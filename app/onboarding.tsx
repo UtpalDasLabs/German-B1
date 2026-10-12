@@ -8,6 +8,7 @@ import { InstallGuide } from '@/components/InstallGuide';
 import { LoadingScreen, useAppReady } from '@/components/Loading';
 import { Mascot, type MascotMood } from '@/components/Mascot';
 import { Button, Chip, ProgressBar, Screen, Txt } from '@/components/ui';
+import { track } from '@/lib/analytics';
 import { GOALS, GOAL_ORDER } from '@/lib/goals';
 import { isEmbeddedArtifact } from '@/lib/install';
 import { PROVIDERS } from '@/lib/official';
@@ -60,8 +61,13 @@ export default function OnboardingScreen() {
 
   const finish = useCallback(() => {
     update({ onboarded: true });
+    track('onboarding_complete', {
+      study_language: settings.language,
+      exam_provider: settings.provider,
+      goal: settings.goal,
+    });
     router.replace('/(tabs)');
-  }, [update, router]);
+  }, [update, router, settings.language, settings.provider, settings.goal]);
 
   const appReady = useAppReady();
   if (!appReady) return <LoadingScreen />;
