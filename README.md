@@ -64,11 +64,8 @@ the "You" tab, and native builds send nothing. See `src/lib/analytics.ts`.
 
 ## Try the web app
 
-Once GitHub Pages is enabled (see below), the app is served at:
-
-```
-https://<your-github-username>.github.io/German-B1/
-```
+The app is served at **https://b1.utpaldas.com**, deployed by Vercel from `main`
+(`vercel.json`).
 
 To run it locally:
 
@@ -77,16 +74,16 @@ npm install
 npm run web          # dev server with fast refresh
 ```
 
-Or build and serve the exact bundle that ships to Pages:
+Or build and serve the exact bundle that ships:
 
 ```bash
 npm run build:web
 npx http-server dist -p 8080
 ```
 
-> The static build uses a base path of `/German-B1` (set in `app.json` under
-> `experiments.baseUrl`). If you fork this repo under a different name, change
-> that value to match, or the CSS and JS will 404 on Pages.
+> It used to live at `utpaldaslabs.github.io/German-B1/`. GitHub Pages still serves
+> that address, but only the page in `handover/`, which carries each visitor's
+> saved progress over to b1.utpaldas.com (`public/handover.html` receives it).
 
 ## Installing it as an app
 
