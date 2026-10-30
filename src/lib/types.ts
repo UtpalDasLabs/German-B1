@@ -273,6 +273,8 @@ export type ExamInfo = ExamFacts & {
 
 export type Meta = {
   themes: VocabTheme[];
+  contrasts: Contrast[];
+  shadow: ShadowPhrase[];
   levels: LevelInfo[];
   units: Unit[];
   areas: Record<AreaKey, { label: Bilingual; icon: string; color: string }>;
@@ -361,6 +363,46 @@ export type ExamResult = {
   duration: number;
 };
 
+
+/* -------------------------------------------------------- pronunciation */
+
+/**
+ * One pair of words that differ in a single sound.
+ *
+ * The trainer built on these asks you which word you heard, which is a
+ * perception exercise rather than a production one. That ordering is the whole
+ * point: you cannot reliably produce a contrast you cannot hear, so hearing it
+ * comes first and needs no microphone at all.
+ */
+export type MinimalPair = {
+  id: string;
+  a: string;
+  b: string;
+  /** What distinguishes each side, shown after answering. */
+  aNote: Bilingual;
+  bNote: Bilingual;
+};
+
+export type Contrast = {
+  key: string;
+  level: Level;
+  title: Bilingual;
+  summary: Bilingual;
+  /** What the mouth does. Knowledge, which is the part a score never gives you. */
+  tip: Bilingual;
+  pairs: MinimalPair[];
+};
+
+/** A phrase to say out loud, with its stressed syllables already marked. */
+export type ShadowPhrase = {
+  id: string;
+  level: Level;
+  /** Syllables, with `stress` true on the ones that carry the accent. */
+  syllables: { text: string; stress: boolean }[];
+  /** The phrase as plain text, for the speech engine. */
+  text: string;
+  note: Bilingual;
+};
 
 /* ------------------------------------------------------------- magazine */
 

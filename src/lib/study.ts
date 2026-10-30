@@ -41,6 +41,8 @@ export const magazine = rawMagazine as unknown as Article[];
 export const themes: VocabTheme[] = meta.themes;
 export const levels = meta.levels;
 export const units: Unit[] = meta.units;
+export const contrasts = meta.contrasts;
+export const shadowPhrases = meta.shadow;
 
 /**
  * Which levels a study session draws on.
@@ -106,6 +108,27 @@ export function grammarIn(scope: Scope): GrammarTopic[] {
 export function themesIn(scope: Scope): VocabTheme[] {
   const live = new Set(vocabIn(scope).map((v) => v.theme));
   return themes.filter((t) => live.has(t.key));
+}
+
+/* ---------------------------------------------------------- pronunciation */
+
+/**
+ * Sound contrasts at or below the current level.
+ *
+ * Pronunciation work is always cumulative - an A1 contrast is still worth
+ * drilling at C1, and the ü that was wrong at A1 is usually still wrong - so
+ * this ignores `includeLower` and always stacks.
+ */
+export function contrastsIn(scope: Scope) {
+  return contrasts.filter((c) => levelRank(c.level) <= levelRank(scope.level));
+}
+
+export function getContrast(key: string) {
+  return contrasts.find((c) => c.key === key);
+}
+
+export function shadowIn(scope: Scope) {
+  return shadowPhrases.filter((p) => levelRank(p.level) <= levelRank(scope.level));
 }
 
 /* --------------------------------------------------------------- magazine */

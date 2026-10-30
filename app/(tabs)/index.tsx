@@ -269,6 +269,11 @@ export default function HomeScreen() {
           <Tile emoji="🔁" title={t('verbTrainer')} onPress={() => router.push('/trainer?kind=verb')} />
         </View>
 
+        <View style={{ flexDirection: 'row', gap: space.md }}>
+          <Tile emoji="👂" title={t('pronounceTitle')} onPress={() => router.push('/pronounce')} />
+          <Tile emoji="📅" title={t('planTitle')} onPress={() => router.push('/plan')} />
+        </View>
+
         {dueCount > 0 ? (
           <Txt variant="caption" tone="faint" style={{ textAlign: 'center' }}>
             {dueCount} {t('dueToday').toLowerCase()}
