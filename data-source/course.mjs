@@ -31,7 +31,7 @@ export const COURSE = [
         ],
         themes: ['familie', 'kommunikation'],
         grammar: ['praesens', 'wfragen'],
-        tasks: [],
+        tasks: ['s.a1.1'],
       },
       {
         title: { de: 'Mein Zuhause', en: 'My home' },
@@ -64,7 +64,7 @@ export const COURSE = [
         ],
         themes: ['essen', 'einkaufen'],
         grammar: ['akkusativ', 'negation'],
-        tasks: [],
+        tasks: ['l.a1.2'],
       },
       {
         title: { de: 'Mein Tag', en: 'My day' },
@@ -81,7 +81,7 @@ export const COURSE = [
         ],
         themes: ['zeit', 'verben'],
         grammar: ['satzklammer', 'trennbar'],
-        tasks: [],
+        tasks: ['l.a1.1', 'w.a1.1'],
       },
       {
         title: { de: 'Unterwegs', en: 'Getting around' },
@@ -98,7 +98,7 @@ export const COURSE = [
         ],
         themes: ['verkehr', 'stadt'],
         grammar: ['imperativ'],
-        tasks: [],
+        tasks: ['h.a1.1'],
       },
       {
         title: { de: 'Gesundheit und Freizeit', en: 'Health and free time' },
@@ -120,6 +120,109 @@ export const COURSE = [
     ],
   },
 
+  {
+    level: 'A2',
+    units: [
+      {
+        title: { de: 'Erzählen, was passiert ist', en: 'Telling what happened' },
+        icon: '\u23EA',
+        blurb: {
+          de: 'Das Perfekt für fast alles, war und hatte für den Rest.',
+          en: 'The Perfekt for almost everything, war and hatte for the rest.',
+        },
+        canDos: [
+          { area: 'sprechen', text: { de: 'Ich kann erzählen, was ich am Wochenende gemacht habe.', en: 'I can say what I did at the weekend.' } },
+          { area: 'grammatik', text: { de: 'Ich weiß, wann ein Verb haben und wann es sein nimmt.', en: 'I know when a verb takes haben and when it takes sein.' } },
+          { area: 'grammatik', text: { de: 'Ich benutze war, hatte und musste statt der Perfektform.', en: 'I use war, hatte and musste instead of the Perfekt form.' } },
+          { area: 'schreiben', text: { de: 'Ich kann einer Freundin kurz schreiben, wie mein Urlaub war.', en: 'I can write a friend a short note about my holiday.' } },
+        ],
+        themes: ['zeit', 'verben'],
+        grammar: ['perfekt', 'vergangenheita2'],
+        tasks: [],
+      },
+      {
+        title: { de: 'Wem? Der Dativ', en: 'To whom? The dative' },
+        icon: '\u{1F449}',
+        blurb: {
+          de: 'Wer bekommt etwas, wem hilfst du, und wo steht das Fahrrad.',
+          en: 'Who receives something, who you help, and where the bike is.',
+        },
+        canDos: [
+          { area: 'grammatik', text: { de: 'Ich kann den Dativ nach mit, bei, nach, seit, von und zu bilden.', en: 'I can form the dative after mit, bei, nach, seit, von and zu.' } },
+          { area: 'grammatik', text: { de: 'Ich unterscheide "in die Küche" von "in der Küche".', en: 'I can tell "in die Küche" from "in der Küche".' } },
+          { area: 'sprechen', text: { de: 'Ich kann sagen, wo etwas ist und wohin ich gehe.', en: 'I can say where something is and where I am going.' } },
+        ],
+        themes: ['wohnen', 'verkehr'],
+        grammar: ['dativ', 'wechselpraepositionen'],
+        tasks: [],
+      },
+      {
+        title: { de: 'Nachbarn und Probleme', en: 'Neighbours and problems' },
+        icon: '\u{1F3E0}',
+        blurb: {
+          de: 'Sich beschweren, einen Schaden melden, einen Grund nennen.',
+          en: 'Complain, report a fault, give a reason.',
+        },
+        canDos: [
+          { area: 'schreiben', text: { de: 'Ich kann dem Vermieter einen Schaden schriftlich melden.', en: 'I can report a fault to the landlord in writing.' } },
+          { area: 'grammatik', text: { de: 'Ich kann mit weil, dass und wenn Nebensätze bilden.', en: 'I can build subordinate clauses with weil, dass and wenn.' } },
+          { area: 'sprechen', text: { de: 'Ich kann mich höflich beschweren, ohne unhöflich zu werden.', en: 'I can complain politely without being rude.' } },
+        ],
+        themes: ['wohnen', 'kommunikation'],
+        grammar: ['nebensaetze'],
+        tasks: ['w.a2.1', 'h.a2.1'],
+      },
+      {
+        title: { de: 'Arbeit und Bewerbung', en: 'Work and applications' },
+        icon: '\u{1F4BC}',
+        blurb: {
+          de: 'Eine Stelle suchen, sich bewerben, über Erfahrung sprechen.',
+          en: 'Look for a job, apply, talk about your experience.',
+        },
+        canDos: [
+          { area: 'lesen', text: { de: 'Ich kann einer Stellenanzeige entnehmen, was verlangt wird.', en: 'I can work out from a job advert what is being asked for.' } },
+          { area: 'sprechen', text: { de: 'Ich kann im Vorstellungsgespräch über meine Erfahrung sprechen.', en: 'I can talk about my experience in a job interview.' } },
+          { area: 'grammatik', text: { de: 'Ich kann Sätze mit "zu" und "um … zu" bilden.', en: 'I can build sentences with "zu" and "um … zu".' } },
+        ],
+        themes: ['arbeit', 'bildung'],
+        grammar: ['infinitivsaetze'],
+        tasks: ['l.a2.1'],
+      },
+      {
+        title: { de: 'Gesundheit und Ämter', en: 'Health and officialdom' },
+        icon: '\u{1F3E5}',
+        blurb: {
+          de: 'Beim Arzt und auf dem Amt: erklären, nachfragen, Termine machen.',
+          en: 'At the doctor and the public office: explain, ask, make appointments.',
+        },
+        canDos: [
+          { area: 'sprechen', text: { de: 'Ich kann beim Arzt genau beschreiben, was mir fehlt.', en: 'I can describe exactly what is wrong with me at the doctor\u2019s.' } },
+          { area: 'hoeren', text: { de: 'Ich kann am Telefon einen Termin vereinbaren.', en: 'I can arrange an appointment on the phone.' } },
+          { area: 'grammatik', text: { de: 'Ich kann reflexive Verben richtig verwenden: sich fühlen, sich anmelden.', en: 'I can use reflexive verbs correctly: sich fühlen, sich anmelden.' } },
+          { area: 'lesen', text: { de: 'Ich kann einem Formular entnehmen, was ich eintragen muss.', en: 'I can work out from a form what I have to enter.' } },
+        ],
+        themes: ['gesundheit', 'behoerden'],
+        grammar: ['reflexiv'],
+        tasks: [],
+      },
+      {
+        title: { de: 'Vergleichen und beschreiben', en: 'Comparing and describing' },
+        icon: '\u2696\uFE0F',
+        blurb: {
+          de: 'Größer, am besten, der neue Mantel: Vergleich und Adjektivendung.',
+          en: 'Bigger, best, the new coat: comparison and adjective endings.',
+        },
+        canDos: [
+          { area: 'sprechen', text: { de: 'Ich kann zwei Dinge vergleichen und begründen, was ich nehme.', en: 'I can compare two things and say why I would take one.' } },
+          { area: 'grammatik', text: { de: 'Ich kann Komparativ und Superlativ bilden, auch bei gut und viel.', en: 'I can form the comparative and superlative, including gut and viel.' } },
+          { area: 'grammatik', text: { de: 'Ich setze die Adjektivendung nach der, ein und ohne Artikel richtig.', en: 'I get the adjective ending right after der, after ein and with no article.' } },
+        ],
+        themes: ['einkaufen', 'adjektive'],
+        grammar: ['komparativ', 'adjektivdeklination'],
+        tasks: ['s.a2.1'],
+      },
+    ],
+  },
   {
     level: 'B1',
     units: [

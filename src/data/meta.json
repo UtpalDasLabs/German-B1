@@ -14,6 +14,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -31,6 +32,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -48,6 +50,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -65,6 +68,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -82,6 +86,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -99,6 +104,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -116,6 +122,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -133,6 +140,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -150,6 +158,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -167,6 +176,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -184,6 +194,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -201,6 +212,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -218,6 +230,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -235,6 +248,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -252,6 +266,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -269,6 +284,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -286,6 +302,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -303,6 +320,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -320,6 +338,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -337,6 +356,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -354,6 +374,7 @@
    },
    "levels": [
     "A1",
+    "A2",
     "B1"
    ]
   },
@@ -518,7 +539,9 @@
     "praesens",
     "wfragen"
    ],
-   "tasks": []
+   "tasks": [
+    "s.a1.1"
+   ]
   },
   {
    "key": "a1.2",
@@ -623,7 +646,9 @@
     "akkusativ",
     "negation"
    ],
-   "tasks": []
+   "tasks": [
+    "l.a1.2"
+   ]
   },
   {
    "key": "a1.4",
@@ -680,7 +705,10 @@
     "satzklammer",
     "trennbar"
    ],
-   "tasks": []
+   "tasks": [
+    "l.a1.1",
+    "w.a1.1"
+   ]
   },
   {
    "key": "a1.5",
@@ -736,7 +764,9 @@
    "grammar": [
     "imperativ"
    ],
-   "tasks": []
+   "tasks": [
+    "h.a1.1"
+   ]
   },
   {
    "key": "a1.6",
@@ -794,6 +824,320 @@
     "modalverben"
    ],
    "tasks": []
+  },
+  {
+   "key": "a2.1",
+   "level": "A2",
+   "n": 1,
+   "title": {
+    "de": "Erzählen, was passiert ist",
+    "en": "Telling what happened"
+   },
+   "icon": "⏪",
+   "blurb": {
+    "de": "Das Perfekt für fast alles, war und hatte für den Rest.",
+    "en": "The Perfekt for almost everything, war and hatte for the rest."
+   },
+   "canDos": [
+    {
+     "id": "cd.a2.1.1",
+     "text": {
+      "de": "Ich kann erzählen, was ich am Wochenende gemacht habe.",
+      "en": "I can say what I did at the weekend."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a2.1.2",
+     "text": {
+      "de": "Ich weiß, wann ein Verb haben und wann es sein nimmt.",
+      "en": "I know when a verb takes haben and when it takes sein."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.a2.1.3",
+     "text": {
+      "de": "Ich benutze war, hatte und musste statt der Perfektform.",
+      "en": "I use war, hatte and musste instead of the Perfekt form."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.a2.1.4",
+     "text": {
+      "de": "Ich kann einer Freundin kurz schreiben, wie mein Urlaub war.",
+      "en": "I can write a friend a short note about my holiday."
+     },
+     "area": "schreiben"
+    }
+   ],
+   "themes": [
+    "zeit",
+    "verben"
+   ],
+   "grammar": [
+    "perfekt",
+    "vergangenheita2"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "a2.2",
+   "level": "A2",
+   "n": 2,
+   "title": {
+    "de": "Wem? Der Dativ",
+    "en": "To whom? The dative"
+   },
+   "icon": "👉",
+   "blurb": {
+    "de": "Wer bekommt etwas, wem hilfst du, und wo steht das Fahrrad.",
+    "en": "Who receives something, who you help, and where the bike is."
+   },
+   "canDos": [
+    {
+     "id": "cd.a2.2.1",
+     "text": {
+      "de": "Ich kann den Dativ nach mit, bei, nach, seit, von und zu bilden.",
+      "en": "I can form the dative after mit, bei, nach, seit, von and zu."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.a2.2.2",
+     "text": {
+      "de": "Ich unterscheide \"in die Küche\" von \"in der Küche\".",
+      "en": "I can tell \"in die Küche\" from \"in der Küche\"."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.a2.2.3",
+     "text": {
+      "de": "Ich kann sagen, wo etwas ist und wohin ich gehe.",
+      "en": "I can say where something is and where I am going."
+     },
+     "area": "sprechen"
+    }
+   ],
+   "themes": [
+    "wohnen",
+    "verkehr"
+   ],
+   "grammar": [
+    "dativ",
+    "wechselpraepositionen"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "a2.3",
+   "level": "A2",
+   "n": 3,
+   "title": {
+    "de": "Nachbarn und Probleme",
+    "en": "Neighbours and problems"
+   },
+   "icon": "🏠",
+   "blurb": {
+    "de": "Sich beschweren, einen Schaden melden, einen Grund nennen.",
+    "en": "Complain, report a fault, give a reason."
+   },
+   "canDos": [
+    {
+     "id": "cd.a2.3.1",
+     "text": {
+      "de": "Ich kann dem Vermieter einen Schaden schriftlich melden.",
+      "en": "I can report a fault to the landlord in writing."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.a2.3.2",
+     "text": {
+      "de": "Ich kann mit weil, dass und wenn Nebensätze bilden.",
+      "en": "I can build subordinate clauses with weil, dass and wenn."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.a2.3.3",
+     "text": {
+      "de": "Ich kann mich höflich beschweren, ohne unhöflich zu werden.",
+      "en": "I can complain politely without being rude."
+     },
+     "area": "sprechen"
+    }
+   ],
+   "themes": [
+    "wohnen",
+    "kommunikation"
+   ],
+   "grammar": [
+    "nebensaetze"
+   ],
+   "tasks": [
+    "w.a2.1",
+    "h.a2.1"
+   ]
+  },
+  {
+   "key": "a2.4",
+   "level": "A2",
+   "n": 4,
+   "title": {
+    "de": "Arbeit und Bewerbung",
+    "en": "Work and applications"
+   },
+   "icon": "💼",
+   "blurb": {
+    "de": "Eine Stelle suchen, sich bewerben, über Erfahrung sprechen.",
+    "en": "Look for a job, apply, talk about your experience."
+   },
+   "canDos": [
+    {
+     "id": "cd.a2.4.1",
+     "text": {
+      "de": "Ich kann einer Stellenanzeige entnehmen, was verlangt wird.",
+      "en": "I can work out from a job advert what is being asked for."
+     },
+     "area": "lesen"
+    },
+    {
+     "id": "cd.a2.4.2",
+     "text": {
+      "de": "Ich kann im Vorstellungsgespräch über meine Erfahrung sprechen.",
+      "en": "I can talk about my experience in a job interview."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a2.4.3",
+     "text": {
+      "de": "Ich kann Sätze mit \"zu\" und \"um … zu\" bilden.",
+      "en": "I can build sentences with \"zu\" and \"um … zu\"."
+     },
+     "area": "grammatik"
+    }
+   ],
+   "themes": [
+    "arbeit",
+    "bildung"
+   ],
+   "grammar": [
+    "infinitivsaetze"
+   ],
+   "tasks": [
+    "l.a2.1"
+   ]
+  },
+  {
+   "key": "a2.5",
+   "level": "A2",
+   "n": 5,
+   "title": {
+    "de": "Gesundheit und Ämter",
+    "en": "Health and officialdom"
+   },
+   "icon": "🏥",
+   "blurb": {
+    "de": "Beim Arzt und auf dem Amt: erklären, nachfragen, Termine machen.",
+    "en": "At the doctor and the public office: explain, ask, make appointments."
+   },
+   "canDos": [
+    {
+     "id": "cd.a2.5.1",
+     "text": {
+      "de": "Ich kann beim Arzt genau beschreiben, was mir fehlt.",
+      "en": "I can describe exactly what is wrong with me at the doctor’s."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a2.5.2",
+     "text": {
+      "de": "Ich kann am Telefon einen Termin vereinbaren.",
+      "en": "I can arrange an appointment on the phone."
+     },
+     "area": "hoeren"
+    },
+    {
+     "id": "cd.a2.5.3",
+     "text": {
+      "de": "Ich kann reflexive Verben richtig verwenden: sich fühlen, sich anmelden.",
+      "en": "I can use reflexive verbs correctly: sich fühlen, sich anmelden."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.a2.5.4",
+     "text": {
+      "de": "Ich kann einem Formular entnehmen, was ich eintragen muss.",
+      "en": "I can work out from a form what I have to enter."
+     },
+     "area": "lesen"
+    }
+   ],
+   "themes": [
+    "gesundheit",
+    "behoerden"
+   ],
+   "grammar": [
+    "reflexiv"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "a2.6",
+   "level": "A2",
+   "n": 6,
+   "title": {
+    "de": "Vergleichen und beschreiben",
+    "en": "Comparing and describing"
+   },
+   "icon": "⚖️",
+   "blurb": {
+    "de": "Größer, am besten, der neue Mantel: Vergleich und Adjektivendung.",
+    "en": "Bigger, best, the new coat: comparison and adjective endings."
+   },
+   "canDos": [
+    {
+     "id": "cd.a2.6.1",
+     "text": {
+      "de": "Ich kann zwei Dinge vergleichen und begründen, was ich nehme.",
+      "en": "I can compare two things and say why I would take one."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a2.6.2",
+     "text": {
+      "de": "Ich kann Komparativ und Superlativ bilden, auch bei gut und viel.",
+      "en": "I can form the comparative and superlative, including gut and viel."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.a2.6.3",
+     "text": {
+      "de": "Ich setze die Adjektivendung nach der, ein und ohne Artikel richtig.",
+      "en": "I get the adjective ending right after der, after ein and with no article."
+     },
+     "area": "grammatik"
+    }
+   ],
+   "themes": [
+    "einkaufen",
+    "adjektive"
+   ],
+   "grammar": [
+    "komparativ",
+    "adjektivdeklination"
+   ],
+   "tasks": [
+    "s.a2.1"
+   ]
   },
   {
    "key": "b1.1",
@@ -1266,33 +1610,33 @@
   }
  },
  "counts": {
-  "vocab": 1270,
-  "drills": 238,
-  "grammar": 31,
-  "reading": 8,
-  "listening": 6,
-  "writing": 9,
-  "speaking": 8,
-  "articles": 2,
-  "reviewable": 1508
+  "vocab": 1459,
+  "drills": 254,
+  "grammar": 33,
+  "reading": 11,
+  "listening": 8,
+  "writing": 11,
+  "speaking": 10,
+  "articles": 4,
+  "reviewable": 1713
  },
  "byLevel": {
   "A1": {
    "vocab": 464,
    "drills": 80,
    "grammar": 10,
-   "tasks": 0,
+   "tasks": 5,
    "articles": 2
   },
   "A2": {
-   "vocab": 0,
-   "drills": 60,
-   "grammar": 7,
-   "tasks": 0,
-   "articles": 0
+   "vocab": 357,
+   "drills": 76,
+   "grammar": 9,
+   "tasks": 4,
+   "articles": 2
   },
   "B1": {
-   "vocab": 806,
+   "vocab": 638,
    "drills": 98,
    "grammar": 14,
    "tasks": 31,

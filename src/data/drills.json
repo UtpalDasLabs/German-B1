@@ -1368,6 +1368,310 @@
   }
  },
  {
+  "id": "g.dativ.01",
+  "topic": "dativ",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "Ich fahre mit ___ Bus.",
+  "promptEn": null,
+  "options": [
+   "dem",
+   "den",
+   "der",
+   "das"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "mit + Dativ, maskulin: dem.",
+   "en": "mit + dative, masculine: dem."
+  }
+ },
+ {
+  "id": "g.dativ.02",
+  "topic": "dativ",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "Ich helfe ___ gern.",
+  "promptEn": null,
+  "options": [
+   "dir",
+   "dich",
+   "du",
+   "deiner"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "helfen verlangt Dativ: dir.",
+   "en": "helfen takes the dative: dir."
+  }
+ },
+ {
+  "id": "g.dativ.03",
+  "topic": "dativ",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "Das Auto gehört ___ Nachbarin.",
+  "promptEn": null,
+  "options": [
+   "der",
+   "die",
+   "den",
+   "dem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "gehören + Dativ, feminin: der.",
+   "en": "gehören + dative, feminine: der."
+  }
+ },
+ {
+  "id": "g.dativ.04",
+  "topic": "dativ",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "Nach ___ Arbeit gehe ich schwimmen.",
+  "promptEn": null,
+  "options": [
+   "der",
+   "die",
+   "dem",
+   "den"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "nach + Dativ, die Arbeit → der.",
+   "en": "nach + dative, die Arbeit → der."
+  }
+ },
+ {
+  "id": "g.dativ.05",
+  "topic": "dativ",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "Wir spielen mit ___ Kindern.",
+  "promptEn": null,
+  "options": [
+   "den",
+   "die",
+   "dem",
+   "der"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Dativ Plural: den, Nomen mit -n.",
+   "en": "Dative plural: den, noun with -n."
+  }
+ },
+ {
+  "id": "g.dativ.06",
+  "topic": "dativ",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "Gib ___ bitte das Buch!",
+  "promptEn": null,
+  "options": [
+   "mir",
+   "mich",
+   "ich",
+   "meiner"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "geben + Person im Dativ: mir.",
+   "en": "geben + person in the dative: mir."
+  }
+ },
+ {
+  "id": "g.dativ.07",
+  "topic": "dativ",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "Ich bin in ___ Küche.",
+  "promptEn": null,
+  "options": [
+   "der",
+   "die",
+   "den",
+   "dem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Kein Ortswechsel, also Dativ: in der Küche.",
+   "en": "No change of place, so the dative: in der Küche."
+  }
+ },
+ {
+  "id": "g.dativ.08",
+  "topic": "dativ",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "Seit ___ Monat wohne ich hier.",
+  "promptEn": null,
+  "options": [
+   "einem",
+   "einen",
+   "ein",
+   "einer"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "seit + Dativ, der Monat → einem.",
+   "en": "seit + dative, der Monat → einem."
+  }
+ },
+ {
+  "id": "g.vergangenheita2.01",
+  "topic": "vergangenheita2",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "Gestern ___ ich krank.",
+  "promptEn": null,
+  "options": [
+   "war",
+   "bin",
+   "habe",
+   "wäre"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sein im Präteritum: war.",
+   "en": "sein in the Präteritum: war."
+  }
+ },
+ {
+  "id": "g.vergangenheita2.02",
+  "topic": "vergangenheita2",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "Wir ___ leider keine Zeit.",
+  "promptEn": null,
+  "options": [
+   "hatten",
+   "haben",
+   "waren",
+   "hätten"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "haben im Präteritum: hatten.",
+   "en": "haben in the Präteritum: hatten."
+  }
+ },
+ {
+  "id": "g.vergangenheita2.03",
+  "topic": "vergangenheita2",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "Ich ___ bis acht arbeiten.",
+  "promptEn": null,
+  "options": [
+   "musste",
+   "müsste",
+   "habe gemusst",
+   "muss"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Modalverb in der Vergangenheit, ohne Umlaut.",
+   "en": "A modal in the past, with no umlaut."
+  }
+ },
+ {
+  "id": "g.vergangenheita2.04",
+  "topic": "vergangenheita2",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "___ es gestern ein Problem?",
+  "promptEn": null,
+  "options": [
+   "Gab",
+   "Gibt",
+   "Hat gegeben",
+   "Gäbe"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "es gibt → es gab.",
+   "en": "es gibt → es gab."
+  }
+ },
+ {
+  "id": "g.vergangenheita2.05",
+  "topic": "vergangenheita2",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "Ich ___ gestern lange ___.",
+  "promptEn": null,
+  "options": [
+   "habe … gearbeitet",
+   "war … gearbeitet",
+   "arbeitete … –",
+   "bin … gearbeitet"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Ein normales Verb nimmt gesprochen das Perfekt mit haben.",
+   "en": "An ordinary verb uses the Perfekt with haben in speech."
+  }
+ },
+ {
+  "id": "g.vergangenheita2.06",
+  "topic": "vergangenheita2",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "Wir ___ den Zug nicht ___.",
+  "promptEn": null,
+  "options": [
+   "haben … erreicht",
+   "sind … erreicht",
+   "hatten … erreichen",
+   "waren … erreicht"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "erreichen nimmt haben.",
+   "en": "erreichen takes haben."
+  }
+ },
+ {
+  "id": "g.vergangenheita2.07",
+  "topic": "vergangenheita2",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "Als Kind ___ ich kein Gemüse.",
+  "promptEn": null,
+  "options": [
+   "mochte",
+   "möchte",
+   "mag",
+   "habe gemocht"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "mögen im Präteritum: mochte, ohne Umlaut.",
+   "en": "mögen in the Präteritum: mochte, no umlaut."
+  }
+ },
+ {
+  "id": "g.vergangenheita2.08",
+  "topic": "vergangenheita2",
+  "level": "A2",
+  "kind": "grammar",
+  "prompt": "Sie ___ gestern nach Berlin ___.",
+  "promptEn": null,
+  "options": [
+   "ist … gefahren",
+   "hat … gefahren",
+   "war … gefahren",
+   "ist … fahren"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Bewegung von A nach B: Perfekt mit sein.",
+   "en": "Movement from A to B: Perfekt with sein."
+  }
+ },
+ {
   "id": "g.perfekt.01",
   "topic": "perfekt",
   "level": "A2",

@@ -1,5 +1,155 @@
 [
  {
+  "id": "w.a1.1",
+  "level": "A1",
+  "teil": 2,
+  "minutes": 15,
+  "minWords": 30,
+  "register": "informell",
+  "title": {
+   "de": "Teil 2: Kurze Nachricht an einen Freund",
+   "en": "Part 2: short message to a friend"
+  },
+  "situation": "Ihr Freund Paul hat Sie am Samstag zum Essen eingeladen. Sie können erst später kommen, weil Sie arbeiten. Schreiben Sie Paul eine kurze Nachricht.",
+  "situationEn": "Your friend Paul has invited you for a meal on Saturday. You can only come later because you are working. Write Paul a short message.",
+  "bullets": [
+   "Bedanken Sie sich für die Einladung.",
+   "Sagen Sie, warum Sie später kommen.",
+   "Schreiben Sie, wann Sie da sind."
+  ],
+  "model": "Hallo Paul,\n\ndanke für die Einladung! Ich komme gern.\n\nLeider muss ich am Samstag bis sieben Uhr arbeiten. Ich bin also erst um acht Uhr bei dir. Ist das okay?\n\nSoll ich etwas mitbringen?\n\nLiebe Grüße\nSara",
+  "checklist": [
+   {
+    "de": "Ich habe mich für die Einladung bedankt.",
+    "en": "I thanked them for the invitation."
+   },
+   {
+    "de": "Ich habe einen Grund genannt.",
+    "en": "I gave a reason."
+   },
+   {
+    "de": "Ich habe eine Uhrzeit geschrieben.",
+    "en": "I gave a time."
+   },
+   {
+    "de": "Ich habe Anrede und Gruß geschrieben.",
+    "en": "I wrote a greeting and a sign-off."
+   },
+   {
+    "de": "Ich habe mindestens 30 Wörter geschrieben.",
+    "en": "I wrote at least 30 words."
+   }
+  ],
+  "phrases": [
+   {
+    "label": {
+     "de": "Anrede und Gruß",
+     "en": "Greeting and sign-off"
+    },
+    "items": [
+     "Hallo …,",
+     "Liebe/Lieber …,",
+     "Liebe Grüße",
+     "Bis Samstag!"
+    ]
+   },
+   {
+    "label": {
+     "de": "Danken und Grund",
+     "en": "Thanking and reasons"
+    },
+    "items": [
+     "Danke für die Einladung!",
+     "Ich komme gern.",
+     "Leider muss ich arbeiten.",
+     "Ich bin erst um … Uhr da."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "w.a2.1",
+  "level": "A2",
+  "teil": 1,
+  "minutes": 25,
+  "minWords": 50,
+  "register": "formell",
+  "title": {
+   "de": "Teil 1: E-Mail an den Vermieter",
+   "en": "Part 1: email to the landlord"
+  },
+  "situation": "In Ihrer Wohnung ist seit drei Tagen die Heizung kalt. Sie haben den Hausmeister schon angerufen, aber nichts ist passiert. Schreiben Sie eine E-Mail an Ihren Vermieter, Herrn Brandt.",
+  "situationEn": "The heating in your flat has been cold for three days. You have already called the caretaker, but nothing has happened. Write an email to your landlord, Mr Brandt.",
+  "bullets": [
+   "Beschreiben Sie das Problem genau.",
+   "Schreiben Sie, was Sie schon gemacht haben.",
+   "Bitten Sie um eine schnelle Reparatur und nennen Sie eine Frist."
+  ],
+  "model": "Sehr geehrter Herr Brandt,\n\nmein Name ist Carla Mendes, ich wohne in der Lessingstraße 8, Wohnung 12.\n\nseit Montag ist die Heizung in meiner Wohnung kalt. Im Wohnzimmer sind es nur noch 15 Grad. Ich habe am Montag und am Dienstag den Hausmeister angerufen, aber bisher ist leider niemand gekommen.\n\nIch bitte Sie, die Heizung bis Freitag reparieren zu lassen. Ich bin von Montag bis Freitag ab 16 Uhr zu Hause und am Wochenende den ganzen Tag.\n\nVielen Dank im Voraus.\n\nMit freundlichen Grüßen\nCarla Mendes",
+  "checklist": [
+   {
+    "de": "Ich habe die höfliche Anrede \"Sehr geehrter Herr …\" benutzt.",
+    "en": "I used the formal greeting \"Sehr geehrter Herr …\"."
+   },
+   {
+    "de": "Ich habe das Problem genau beschrieben, nicht nur \"kaputt\".",
+    "en": "I described the problem precisely, not just \"broken\"."
+   },
+   {
+    "de": "Ich habe geschrieben, was ich schon versucht habe.",
+    "en": "I wrote what I had already tried."
+   },
+   {
+    "de": "Ich habe eine Frist oder eine Zeit genannt.",
+    "en": "I named a deadline or a time."
+   },
+   {
+    "de": "Ich habe mit \"Mit freundlichen Grüßen\" und meinem Namen geschlossen.",
+    "en": "I closed with \"Mit freundlichen Grüßen\" and my name."
+   },
+   {
+    "de": "Ich habe mindestens 50 Wörter geschrieben.",
+    "en": "I wrote at least 50 words."
+   }
+  ],
+  "phrases": [
+   {
+    "label": {
+     "de": "Formelle Anrede und Schluss",
+     "en": "Formal greeting and sign-off"
+    },
+    "items": [
+     "Sehr geehrte Frau …, / Sehr geehrter Herr …,",
+     "Mit freundlichen Grüßen",
+     "Vielen Dank im Voraus."
+    ]
+   },
+   {
+    "label": {
+     "de": "Problem beschreiben",
+     "en": "Describing the problem"
+    },
+    "items": [
+     "Seit … funktioniert … nicht.",
+     "Das Problem ist, dass …",
+     "Ich habe schon … angerufen.",
+     "Bisher ist leider nichts passiert."
+    ]
+   },
+   {
+    "label": {
+     "de": "Höflich bitten",
+     "en": "Asking politely"
+    },
+    "items": [
+     "Ich bitte Sie, … zu reparieren.",
+     "Könnten Sie bitte …?",
+     "Ich wäre Ihnen dankbar, wenn …"
+    ]
+   }
+  ]
+ },
+ {
   "id": "w1a",
   "teil": 1,
   "minutes": 20,

@@ -9,12 +9,8 @@ export default {
 
   nouns: [
     ['die Geschwister', 'nur Plural', 'siblings', 'Ich habe zwei Geschwister, einen Bruder und eine Schwester.', 'I have two siblings, a brother and a sister.'],
-    ['der Verwandte', '-n', 'relative', 'Zur Hochzeit kommen auch Verwandte aus der Türkei.', 'Relatives from Turkey are also coming to the wedding.'],
-    ['die Ehe', '-n', 'marriage', 'Ihre Ehe hält seit dreißig Jahren.', 'Their marriage has lasted thirty years.'],
     ['der Ehepartner', '-', 'spouse', 'Mein Ehepartner arbeitet im Krankenhaus.', 'My spouse works at the hospital.'],
-    ['die Hochzeit', '-en', 'wedding', 'Die Hochzeit findet im Juni statt.', 'The wedding takes place in June.'],
     ['die Scheidung', '-en', 'divorce', 'Nach der Scheidung ist sie umgezogen.', 'After the divorce she moved away.'],
-    ['die Beziehung', '-en', 'relationship', 'Wir führen seit zwei Jahren eine Beziehung.', 'We have been in a relationship for two years.'],
     ['die Freundschaft', '-en', 'friendship', 'Unsere Freundschaft begann in der Schule.', 'Our friendship began at school.'],
     ['der Enkel', '-', 'grandchild, grandson', 'Meine Großmutter sieht ihre Enkel jeden Monat.', 'My grandmother sees her grandchildren every month.'],
     ['die Erziehung', 'ohne Plural', 'upbringing, parenting', 'Die Erziehung teilen wir uns zu gleichen Teilen.', 'We share the parenting equally.'],
@@ -31,25 +27,17 @@ export default {
   verbs: [
     ['sich scheiden lassen', 'lässt sich scheiden · ließ sich scheiden · hat sich scheiden lassen', 'to get divorced', 'Seine Eltern haben sich vor zehn Jahren scheiden lassen.', 'His parents got divorced ten years ago.'],
     ['erziehen', 'erzieht · erzog · hat erzogen', 'to raise, to bring up', 'Sie erzieht ihre Kinder zweisprachig.', 'She is raising her children bilingually.'],
-    ['sich kümmern', null, 'to take care (of)', 'Am Wochenende kümmere ich mich um meine Großmutter.', 'At the weekend I take care of my grandmother.'],
     ['sich verstehen', 'versteht sich · verstand sich · hat sich verstanden', 'to get on (with someone)', 'Mit meinen Schwiegereltern verstehe ich mich gut.', 'I get on well with my parents-in-law.'],
-    ['sich streiten', 'streitet sich · stritt sich · hat sich gestritten', 'to argue', 'Wir streiten uns selten, und nie lange.', 'We rarely argue, and never for long.'],
     ['sich verlieben', null, 'to fall in love', 'Sie hat sich in einen Kollegen verliebt.', 'She fell in love with a colleague.'],
     ['vertrauen', null, 'to trust', 'Ich vertraue ihr völlig.', 'I trust her completely.'],
     ['unterstützen', null, 'to support', 'Meine Familie hat mich beim Lernen unterstützt.', 'My family supported me while I was studying.'],
-    ['aufwachsen', 'wächst auf · wuchs auf · ist aufgewachsen', 'to grow up', 'Ich bin auf dem Land aufgewachsen.', 'I grew up in the countryside.'],
     ['sich trennen', null, 'to separate, to split up', 'Nach fünf Jahren haben sie sich getrennt.', 'After five years they split up.'],
     ['kennenlernen', 'lernt kennen · lernte kennen · hat kennengelernt', 'to get to know, to meet', 'Wir haben uns im Sprachkurs kennengelernt.', 'We met in the language course.'],
     ['sich verlassen auf', 'verlässt sich · verließ sich · hat sich verlassen', 'to rely on', 'Auf meinen Bruder kann ich mich immer verlassen.', 'I can always rely on my brother.'],
   ],
 
   adjectives: [
-    ['verheiratet', null, 'married', 'Ich bin seit acht Jahren verheiratet.', 'I have been married for eight years.'],
-    ['ledig', null, 'single, unmarried', 'Im Formular musste ich "ledig" ankreuzen.', 'On the form I had to tick "single".'],
-    ['geschieden', null, 'divorced', 'Meine Tante ist geschieden und lebt allein.', 'My aunt is divorced and lives alone.'],
     ['erwachsen', null, 'grown-up, adult', 'Ihre Kinder sind längst erwachsen.', 'Her children have long been grown up.'],
-    ['streng', null, 'strict', 'Mein Vater war streng, aber gerecht.', 'My father was strict but fair.'],
-    ['zuverlässig', null, 'reliable', 'Sie ist die zuverlässigste Person, die ich kenne.', 'She is the most reliable person I know.'],
     ['gemeinsam', null, 'joint, together', 'Wir haben eine gemeinsame Wohnung.', 'We have a shared flat.'],
     ['alleinerziehend', null, 'single-parent', 'Als alleinerziehende Mutter hat sie wenig Freizeit.', 'As a single mother she has little free time.'],
   ],

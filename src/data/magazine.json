@@ -36,7 +36,7 @@
     {
      "t": "word",
      "s": "Wohnung",
-     "id": "w.wohnen.041"
+     "id": "w.wohnen.018"
     },
     {
      "t": "text",
@@ -45,7 +45,7 @@
     {
      "t": "word",
      "s": "Zimmer",
-     "id": "w.wohnen.047"
+     "id": "w.wohnen.024"
     },
     {
      "t": "text",
@@ -54,7 +54,7 @@
     {
      "t": "word",
      "s": "Küche",
-     "id": "w.wohnen.048"
+     "id": "w.wohnen.025"
     },
     {
      "t": "text",
@@ -63,7 +63,7 @@
     {
      "t": "word",
      "s": "Bad",
-     "id": "w.wohnen.049"
+     "id": "w.wohnen.026"
     },
     {
      "t": "text",
@@ -72,7 +72,7 @@
     {
      "t": "word",
      "s": "Fenster",
-     "id": "w.wohnen.056"
+     "id": "w.wohnen.033"
     },
     {
      "t": "text",
@@ -81,7 +81,7 @@
     {
      "t": "word",
      "s": "hell",
-     "id": "w.wohnen.070"
+     "id": "w.wohnen.047"
     },
     {
      "t": "text",
@@ -90,7 +90,7 @@
     {
      "t": "word",
      "s": "Heizung",
-     "id": "w.wohnen.043"
+     "id": "w.wohnen.020"
     },
     {
      "t": "text",
@@ -105,7 +105,7 @@
     {
      "t": "word",
      "s": "Miete",
-     "id": "w.wohnen.042"
+     "id": "w.wohnen.019"
     },
     {
      "t": "text",
@@ -114,7 +114,7 @@
     {
      "t": "word",
      "s": "bezahle",
-     "id": "w.einkaufen.059"
+     "id": "w.einkaufen.046"
     },
     {
      "t": "text",
@@ -123,7 +123,7 @@
     {
      "t": "word",
      "s": "Strom",
-     "id": "w.wohnen.044"
+     "id": "w.wohnen.021"
     },
     {
      "t": "text",
@@ -132,7 +132,7 @@
     {
      "t": "word",
      "s": "Wasser",
-     "id": "w.essen.046"
+     "id": "w.essen.033"
     },
     {
      "t": "text",
@@ -141,7 +141,7 @@
     {
      "t": "word",
      "s": "Heizung",
-     "id": "w.wohnen.043"
+     "id": "w.wohnen.020"
     },
     {
      "t": "text",
@@ -156,7 +156,7 @@
     {
      "t": "word",
      "s": "Nachbarn",
-     "id": "w.familie.072"
+     "id": "w.familie.060"
     },
     {
      "t": "text",
@@ -165,7 +165,7 @@
     {
      "t": "word",
      "s": "nett",
-     "id": "w.adjektive.059"
+     "id": "w.adjektive.047"
     },
     {
      "t": "text",
@@ -174,7 +174,7 @@
     {
      "t": "word",
      "s": "unten",
-     "id": "w.stadt.049"
+     "id": "w.stadt.042"
     },
     {
      "t": "text",
@@ -183,7 +183,7 @@
     {
      "t": "word",
      "s": "Hund",
-     "id": "w.familie.070"
+     "id": "w.familie.058"
     },
     {
      "t": "text",
@@ -192,7 +192,7 @@
     {
      "t": "word",
      "s": "Katzen",
-     "id": "w.familie.071"
+     "id": "w.familie.059"
     },
     {
      "t": "text",
@@ -201,7 +201,7 @@
     {
      "t": "word",
      "s": "Samstag",
-     "id": "w.zeit.054"
+     "id": "w.zeit.042"
     },
     {
      "t": "text",
@@ -216,7 +216,7 @@
     {
      "t": "word",
      "s": "Tisch",
-     "id": "w.wohnen.052"
+     "id": "w.wohnen.029"
     },
     {
      "t": "text",
@@ -225,7 +225,7 @@
     {
      "t": "word",
      "s": "Schrank",
-     "id": "w.wohnen.055"
+     "id": "w.wohnen.032"
     },
     {
      "t": "text",
@@ -234,7 +234,7 @@
     {
      "t": "word",
      "s": "Kleidung",
-     "id": "w.einkaufen.051"
+     "id": "w.einkaufen.038"
     },
     {
      "t": "text",
@@ -243,7 +243,7 @@
     {
      "t": "word",
      "s": "Koffern",
-     "id": "w.reisen.037"
+     "id": "w.reisen.025"
     },
     {
      "t": "text",
@@ -252,7 +252,7 @@
     {
      "t": "word",
      "s": "suche",
-     "id": "w.wohnen.068"
+     "id": "w.wohnen.045"
     },
     {
      "t": "text",
@@ -261,7 +261,7 @@
     {
      "t": "word",
      "s": "Möbel",
-     "id": "w.wohnen.045"
+     "id": "w.wohnen.022"
     },
     {
      "t": "text",
@@ -270,7 +270,7 @@
     {
      "t": "word",
      "s": "Markt",
-     "id": "w.einkaufen.039"
+     "id": "w.einkaufen.026"
     },
     {
      "t": "text",
@@ -406,7 +406,7 @@
     {
      "t": "word",
      "s": "Post",
-     "id": "w.stadt.037"
+     "id": "w.stadt.030"
     },
     {
      "t": "text",
@@ -424,7 +424,7 @@
     {
      "t": "word",
      "s": "Samstag",
-     "id": "w.zeit.054"
+     "id": "w.zeit.042"
     },
     {
      "t": "text",
@@ -439,7 +439,7 @@
     {
      "t": "word",
      "s": "trinkt",
-     "id": "w.essen.064"
+     "id": "w.essen.051"
     },
     {
      "t": "text",
@@ -448,7 +448,7 @@
     {
      "t": "word",
      "s": "Kaffee",
-     "id": "w.essen.047"
+     "id": "w.essen.034"
     },
     {
      "t": "text",
@@ -457,7 +457,7 @@
     {
      "t": "word",
      "s": "fährt",
-     "id": "w.verben.038"
+     "id": "w.verben.029"
     },
     {
      "t": "text",
@@ -466,7 +466,7 @@
     {
      "t": "word",
      "s": "Fahrrad",
-     "id": "w.verkehr.037"
+     "id": "w.verkehr.028"
     },
     {
      "t": "text",
@@ -475,7 +475,7 @@
     {
      "t": "word",
      "s": "Arbeit",
-     "id": "w.arbeit.044"
+     "id": "w.arbeit.026"
     },
     {
      "t": "text",
@@ -484,7 +484,7 @@
     {
      "t": "word",
      "s": "Weg",
-     "id": "w.verkehr.046"
+     "id": "w.verkehr.037"
     },
     {
      "t": "text",
@@ -493,7 +493,7 @@
     {
      "t": "word",
      "s": "weit",
-     "id": "w.stadt.050"
+     "id": "w.stadt.043"
     },
     {
      "t": "text",
@@ -502,7 +502,7 @@
     {
      "t": "word",
      "s": "Minuten",
-     "id": "w.zeit.040"
+     "id": "w.zeit.028"
     },
     {
      "t": "text",
@@ -517,7 +517,7 @@
     {
      "t": "word",
      "s": "beginnt",
-     "id": "w.verben.060"
+     "id": "w.verben.051"
     },
     {
      "t": "text",
@@ -526,7 +526,7 @@
     {
      "t": "word",
      "s": "nimmt",
-     "id": "w.verben.051"
+     "id": "w.verben.042"
     },
     {
      "t": "text",
@@ -535,7 +535,7 @@
     {
      "t": "word",
      "s": "Briefe",
-     "id": "w.kommunikation.042"
+     "id": "w.kommunikation.029"
     },
     {
      "t": "text",
@@ -544,7 +544,7 @@
     {
      "t": "word",
      "s": "Pause",
-     "id": "w.arbeit.050"
+     "id": "w.arbeit.032"
     },
     {
      "t": "text",
@@ -553,7 +553,7 @@
     {
      "t": "word",
      "s": "isst",
-     "id": "w.essen.063"
+     "id": "w.essen.050"
     },
     {
      "t": "text",
@@ -562,7 +562,7 @@
     {
      "t": "word",
      "s": "Brötchen",
-     "id": "w.essen.031"
+     "id": "w.essen.018"
     },
     {
      "t": "text",
@@ -577,7 +577,7 @@
     {
      "t": "word",
      "s": "Mittag",
-     "id": "w.zeit.048"
+     "id": "w.zeit.036"
     },
     {
      "t": "text",
@@ -586,7 +586,7 @@
     {
      "t": "word",
      "s": "fertig",
-     "id": "w.adjektive.066"
+     "id": "w.adjektive.054"
     },
     {
      "t": "text",
@@ -595,7 +595,7 @@
     {
      "t": "word",
      "s": "gut",
-     "id": "w.adjektive.041"
+     "id": "w.adjektive.029"
     },
     {
      "t": "text",
@@ -604,7 +604,7 @@
     {
      "t": "word",
      "s": "Abend",
-     "id": "w.zeit.046"
+     "id": "w.zeit.034"
     },
     {
      "t": "text",
@@ -613,7 +613,7 @@
     {
      "t": "word",
      "s": "Zeit",
-     "id": "w.zeit.037"
+     "id": "w.zeit.025"
     },
     {
      "t": "text",
@@ -622,7 +622,7 @@
     {
      "t": "word",
      "s": "Familie",
-     "id": "w.familie.043"
+     "id": "w.familie.031"
     },
     {
      "t": "text",
@@ -631,7 +631,7 @@
     {
      "t": "word",
      "s": "Kinder",
-     "id": "w.familie.047"
+     "id": "w.familie.035"
     },
     {
      "t": "text",
@@ -640,7 +640,7 @@
     {
      "t": "word",
      "s": "spielen",
-     "id": "w.verben.048"
+     "id": "w.verben.039"
     },
     {
      "t": "text",
@@ -649,7 +649,7 @@
     {
      "t": "word",
      "s": "Fußball",
-     "id": "w.freizeit.039"
+     "id": "w.freizeit.028"
     },
     {
      "t": "text",
@@ -664,7 +664,7 @@
     {
      "t": "word",
      "s": "Winter",
-     "id": "w.zeit.061"
+     "id": "w.zeit.049"
     },
     {
      "t": "text",
@@ -673,7 +673,7 @@
     {
      "t": "word",
      "s": "schwer",
-     "id": "w.adjektive.056"
+     "id": "w.adjektive.044"
     },
     {
      "t": "text",
@@ -682,7 +682,7 @@
     {
      "t": "word",
      "s": "kalt",
-     "id": "w.adjektive.052"
+     "id": "w.adjektive.040"
     },
     {
      "t": "text",
@@ -691,7 +691,7 @@
     {
      "t": "word",
      "s": "dunkel",
-     "id": "w.wohnen.071"
+     "id": "w.wohnen.048"
     },
     {
      "t": "text",
@@ -700,7 +700,7 @@
     {
      "t": "word",
      "s": "Sommer",
-     "id": "w.zeit.060"
+     "id": "w.zeit.048"
     },
     {
      "t": "text",
@@ -803,6 +803,603 @@
     "why": {
      "de": "\"Der Weg ist nicht weit, nur zehn Minuten.\"",
      "en": "\"Der Weg ist nicht weit, nur zehn Minuten.\""
+    }
+   }
+  ]
+ },
+ {
+  "id": "mag.a2.anmeldung",
+  "level": "A2",
+  "theme": "behoerden",
+  "title": {
+   "de": "Zwei Wochen Zeit",
+   "en": "Two weeks to register"
+  },
+  "teaser": {
+   "de": "Was die Anmeldung beim Bürgeramt ist, und warum man ohne sie nichts bekommt.",
+   "en": "What registering at the citizens’ office is, and why nothing works without it."
+  },
+  "minutes": 4,
+  "paragraphs": [
+   [
+    {
+     "t": "text",
+     "s": "Wer nach Deutschland zieht, "
+    },
+    {
+     "t": "grammar",
+     "s": "muss sich anmelden",
+     "key": "dativ"
+    },
+    {
+     "t": "text",
+     "s": ". Das heißt: Man geht zum "
+    },
+    {
+     "t": "word",
+     "s": "Bürgeramt",
+     "id": "w.behoerden.038"
+    },
+    {
+     "t": "text",
+     "s": " und sagt, wo man wohnt. Die "
+    },
+    {
+     "t": "word",
+     "s": "Frist",
+     "id": "w.behoerden.041"
+    },
+    {
+     "t": "text",
+     "s": " sind meistens zwei Wochen."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Das klingt nach einer Formalität, ist aber der Anfang von allem. Ohne die "
+    },
+    {
+     "t": "word",
+     "s": "Anmeldung",
+     "id": "w.behoerden.037"
+    },
+    {
+     "t": "text",
+     "s": " bekommt man keine Steuernummer, kein Konto und oft auch keinen "
+    },
+    {
+     "t": "word",
+     "s": "Vertrag",
+     "id": "w.arbeit.043"
+    },
+    {
+     "t": "text",
+     "s": " für Strom oder Internet."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Du brauchst drei Dinge: deinen "
+    },
+    {
+     "t": "word",
+     "s": "Pass",
+     "id": "w.reisen.026"
+    },
+    {
+     "t": "text",
+     "s": ", das ausgefüllte "
+    },
+    {
+     "t": "word",
+     "s": "Formular",
+     "id": "w.behoerden.028"
+    },
+    {
+     "t": "text",
+     "s": " und eine "
+    },
+    {
+     "t": "word",
+     "s": "Bescheinigung",
+     "id": "w.behoerden.039"
+    },
+    {
+     "t": "text",
+     "s": " vom "
+    },
+    {
+     "t": "word",
+     "s": "Vermieter",
+     "id": "w.wohnen.050"
+    },
+    {
+     "t": "text",
+     "s": ". Die letzte heißt \"Wohnungsgeberbestätigung\". Der Vermieter muss sie dir geben."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Einen "
+    },
+    {
+     "t": "word",
+     "s": "Termin",
+     "id": "w.zeit.044"
+    },
+    {
+     "t": "text",
+     "s": " bekommst du online. In großen Städten dauert das manchmal Wochen - also "
+    },
+    {
+     "t": "word",
+     "s": "melde",
+     "id": "w.behoerden.045"
+    },
+    {
+     "t": "text",
+     "s": " dich an, sobald du den Mietvertrag hast, nicht erst nach dem "
+    },
+    {
+     "t": "word",
+     "s": "Umzug",
+     "id": "w.wohnen.055"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Im Amt geht es dann schnell. Du "
+    },
+    {
+     "t": "word",
+     "s": "gibst",
+     "id": "w.behoerden.046"
+    },
+    {
+     "t": "text",
+     "s": " die Unterlagen ab, jemand tippt sie ein, und nach zehn Minuten hast du ein Blatt Papier. Das Blatt heißt Meldebescheinigung. "
+    },
+    {
+     "t": "word",
+     "s": "Verliere",
+     "id": "w.freizeit.057"
+    },
+    {
+     "t": "text",
+     "s": " es nicht: du brauchst es noch oft."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Eine "
+    },
+    {
+     "t": "word",
+     "s": "Gebühr",
+     "id": "w.behoerden.042"
+    },
+    {
+     "t": "text",
+     "s": " gibt es für die Anmeldung normalerweise nicht. Wenn du später "
+    },
+    {
+     "t": "word",
+     "s": "umziehst",
+     "id": "w.wohnen.066"
+    },
+    {
+     "t": "text",
+     "s": ", musst du dich wieder anmelden - die alte Adresse wird dabei automatisch gelöscht."
+    }
+   ]
+  ],
+  "spoken": [
+   "Wer nach Deutschland zieht, muss sich anmelden. Das heißt: Man geht zum Bürgeramt und sagt, wo man wohnt. Die Frist sind meistens zwei Wochen.",
+   "Das klingt nach einer Formalität, ist aber der Anfang von allem. Ohne die Anmeldung bekommt man keine Steuernummer, kein Konto und oft auch keinen Vertrag für Strom oder Internet.",
+   "Du brauchst drei Dinge: deinen Pass, das ausgefüllte Formular und eine Bescheinigung vom Vermieter. Die letzte heißt \"Wohnungsgeberbestätigung\". Der Vermieter muss sie dir geben.",
+   "Einen Termin bekommst du online. In großen Städten dauert das manchmal Wochen - also melde dich an, sobald du den Mietvertrag hast, nicht erst nach dem Umzug.",
+   "Im Amt geht es dann schnell. Du gibst die Unterlagen ab, jemand tippt sie ein, und nach zehn Minuten hast du ein Blatt Papier. Das Blatt heißt Meldebescheinigung. Verliere es nicht: du brauchst es noch oft.",
+   "Eine Gebühr gibt es für die Anmeldung normalerweise nicht. Wenn du später umziehst, musst du dich wieder anmelden - die alte Adresse wird dabei automatisch gelöscht."
+  ],
+  "items": [
+   {
+    "id": "a.mag.a2.anmeldung.01",
+    "prompt": "Wie lange hat man Zeit für die Anmeldung?",
+    "promptEn": "How long do you have to register?",
+    "options": [
+     "meistens zwei Wochen",
+     "einen Monat",
+     "drei Tage",
+     "es gibt keine Frist"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Die Frist sind meistens zwei Wochen.\"",
+     "en": "\"Die Frist sind meistens zwei Wochen.\""
+    }
+   },
+   {
+    "id": "a.mag.a2.anmeldung.02",
+    "prompt": "Was bekommt man ohne Anmeldung nicht?",
+    "promptEn": "What do you not get without registering?",
+    "options": [
+     "eine Steuernummer",
+     "einen Pass",
+     "eine Wohnung",
+     "einen Job"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Ohne die Anmeldung bekommt man keine Steuernummer, kein Konto …\"",
+     "en": "\"Ohne die Anmeldung bekommt man keine Steuernummer, kein Konto …\""
+    }
+   },
+   {
+    "id": "a.mag.a2.anmeldung.03",
+    "prompt": "Wer gibt dir die Wohnungsgeberbestätigung?",
+    "promptEn": "Who gives you the Wohnungsgeberbestätigung?",
+    "options": [
+     "der Vermieter",
+     "das Bürgeramt",
+     "der Hausmeister",
+     "die Bank"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… eine Bescheinigung vom Vermieter. Der Vermieter muss sie dir geben.\"",
+     "en": "\"… eine Bescheinigung vom Vermieter. Der Vermieter muss sie dir geben.\""
+    }
+   },
+   {
+    "id": "a.mag.a2.anmeldung.04",
+    "prompt": "Wann sollte man den Termin buchen?",
+    "promptEn": "When should you book the appointment?",
+    "options": [
+     "sobald man den Mietvertrag hat",
+     "nach dem Umzug",
+     "nach zwei Wochen",
+     "erst wenn man eine Steuernummer braucht"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… melde dich an, sobald du den Mietvertrag hast, nicht erst nach dem Umzug.\"",
+     "en": "\"… melde dich an, sobald du den Mietvertrag hast, nicht erst nach dem Umzug.\""
+    }
+   },
+   {
+    "id": "a.mag.a2.anmeldung.05",
+    "prompt": "Was kostet die Anmeldung normalerweise?",
+    "promptEn": "What does registering normally cost?",
+    "options": [
+     "nichts",
+     "35 Euro",
+     "zehn Euro",
+     "das steht nicht im Text"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Eine Gebühr gibt es für die Anmeldung normalerweise nicht.\"",
+     "en": "\"Eine Gebühr gibt es für die Anmeldung normalerweise nicht.\""
+    }
+   },
+   {
+    "id": "a.mag.a2.anmeldung.06",
+    "prompt": "Was passiert mit der alten Adresse beim Umzug?",
+    "promptEn": "What happens to the old address when you move?",
+    "options": [
+     "Sie wird automatisch gelöscht.",
+     "Man muss sie extra abmelden.",
+     "Sie bleibt zwei Jahre gespeichert.",
+     "Der Vermieter meldet sie ab."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… die alte Adresse wird dabei automatisch gelöscht.\"",
+     "en": "\"… die alte Adresse wird dabei automatisch gelöscht.\""
+    }
+   }
+  ]
+ },
+ {
+  "id": "mag.a2.pfand",
+  "level": "A2",
+  "theme": "einkaufen",
+  "title": {
+   "de": "Warum die Flasche Geld kostet",
+   "en": "Why the bottle costs money"
+  },
+  "teaser": {
+   "de": "Pfand, Automaten und der Bon, den man nicht wegwerfen sollte.",
+   "en": "Deposits, machines and the receipt you should not throw away."
+  },
+  "minutes": 3,
+  "paragraphs": [
+   [
+    {
+     "t": "text",
+     "s": "Wer in Deutschland zum ersten Mal Wasser kauft, "
+    },
+    {
+     "t": "word",
+     "s": "wundert",
+     "id": "w.gefuehle.043"
+    },
+    {
+     "t": "text",
+     "s": " sich über den "
+    },
+    {
+     "t": "word",
+     "s": "Preis",
+     "id": "w.einkaufen.032"
+    },
+    {
+     "t": "text",
+     "s": ". Eine Flasche kostet 19 Cent, aber an der "
+    },
+    {
+     "t": "word",
+     "s": "Kasse",
+     "id": "w.einkaufen.033"
+    },
+    {
+     "t": "text",
+     "s": " zahlst du 44. Der Unterschied heißt Pfand."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Pfand ist kein Preis, sondern eine Art Sicherheit. Du bekommst das "
+    },
+    {
+     "t": "word",
+     "s": "Geld",
+     "id": "w.einkaufen.029"
+    },
+    {
+     "t": "text",
+     "s": " zurück, wenn du die Flasche "
+    },
+    {
+     "t": "word",
+     "s": "zurückgibst",
+     "id": "w.verben.088"
+    },
+    {
+     "t": "text",
+     "s": ". "
+    },
+    {
+     "t": "grammar",
+     "s": "Das funktioniert, weil fast jeder Supermarkt einen Automaten hat",
+     "key": "nebensaetze"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Den "
+    },
+    {
+     "t": "word",
+     "s": "Automaten",
+     "id": "w.einkaufen.057"
+    },
+    {
+     "t": "text",
+     "s": " findest du meistens neben dem "
+    },
+    {
+     "t": "word",
+     "s": "Eingang",
+     "id": "w.einkaufen.060"
+    },
+    {
+     "t": "text",
+     "s": ". Du steckst die Flasche rein, sie dreht sich, und am Ende drückst du einen Knopf. Dann kommt ein "
+    },
+    {
+     "t": "word",
+     "s": "Bon",
+     "id": "w.einkaufen.058"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Wichtig: Der Bon ist das "
+    },
+    {
+     "t": "word",
+     "s": "Geld",
+     "id": "w.einkaufen.029"
+    },
+    {
+     "t": "text",
+     "s": ". Gib ihn an der Kasse ab, dann wird der Betrag von deinem "
+    },
+    {
+     "t": "word",
+     "s": "Einkauf",
+     "id": "w.einkaufen.059"
+    },
+    {
+     "t": "text",
+     "s": " abgezogen - oder du bekommst ihn bar. "
+    },
+    {
+     "t": "word",
+     "s": "Wirf",
+     "id": "w.umwelt.044"
+    },
+    {
+     "t": "text",
+     "s": " den Bon nicht weg."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Nicht jede Flasche hat Pfand. Auf Wein und Saft meistens nicht, auf Wasser, "
+    },
+    {
+     "t": "word",
+     "s": "Bier",
+     "id": "w.essen.037"
+    },
+    {
+     "t": "text",
+     "s": " und Limo fast immer. Wenn du unsicher bist: Auf der Flasche steht ein kleines Zeichen."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Das System "
+    },
+    {
+     "t": "word",
+     "s": "funktioniert",
+     "id": "w.verben.075"
+    },
+    {
+     "t": "text",
+     "s": " gut. Über 95 Prozent der Flaschen kommen zurück, und das ist "
+    },
+    {
+     "t": "word",
+     "s": "praktisch",
+     "id": "w.adjektive.074"
+    },
+    {
+     "t": "text",
+     "s": " für die "
+    },
+    {
+     "t": "word",
+     "s": "Umwelt",
+     "id": "w.umwelt.033"
+    },
+    {
+     "t": "text",
+     "s": " - weniger "
+    },
+    {
+     "t": "word",
+     "s": "Abfall",
+     "id": "w.umwelt.034"
+    },
+    {
+     "t": "text",
+     "s": ", weniger neue Flaschen."
+    }
+   ]
+  ],
+  "spoken": [
+   "Wer in Deutschland zum ersten Mal Wasser kauft, wundert sich über den Preis. Eine Flasche kostet 19 Cent, aber an der Kasse zahlst du 44. Der Unterschied heißt Pfand.",
+   "Pfand ist kein Preis, sondern eine Art Sicherheit. Du bekommst das Geld zurück, wenn du die Flasche zurückgibst. Das funktioniert, weil fast jeder Supermarkt einen Automaten hat.",
+   "Den Automaten findest du meistens neben dem Eingang. Du steckst die Flasche rein, sie dreht sich, und am Ende drückst du einen Knopf. Dann kommt ein Bon.",
+   "Wichtig: Der Bon ist das Geld. Gib ihn an der Kasse ab, dann wird der Betrag von deinem Einkauf abgezogen - oder du bekommst ihn bar. Wirf den Bon nicht weg.",
+   "Nicht jede Flasche hat Pfand. Auf Wein und Saft meistens nicht, auf Wasser, Bier und Limo fast immer. Wenn du unsicher bist: Auf der Flasche steht ein kleines Zeichen.",
+   "Das System funktioniert gut. Über 95 Prozent der Flaschen kommen zurück, und das ist praktisch für die Umwelt - weniger Abfall, weniger neue Flaschen."
+  ],
+  "items": [
+   {
+    "id": "a.mag.a2.pfand.01",
+    "prompt": "Was ist Pfand?",
+    "promptEn": "What is Pfand?",
+    "options": [
+     "eine Sicherheit, die man zurückbekommt",
+     "eine Steuer auf Getränke",
+     "der Preis für das Wasser",
+     "eine Gebühr für den Automaten"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Pfand ist kein Preis, sondern eine Art Sicherheit. Du bekommst das Geld zurück …\"",
+     "en": "\"Pfand ist kein Preis, sondern eine Art Sicherheit. Du bekommst das Geld zurück …\""
+    }
+   },
+   {
+    "id": "a.mag.a2.pfand.02",
+    "prompt": "Wie viel Pfand ist auf der Flasche im Text?",
+    "promptEn": "How much deposit is on the bottle in the text?",
+    "options": [
+     "25 Cent",
+     "19 Cent",
+     "44 Cent",
+     "8 Cent"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "44 Cent an der Kasse minus 19 Cent Preis sind 25 Cent Pfand.",
+     "en": "44 cents at the till minus the 19-cent price makes 25 cents deposit."
+    }
+   },
+   {
+    "id": "a.mag.a2.pfand.03",
+    "prompt": "Was macht man mit dem Bon?",
+    "promptEn": "What do you do with the receipt?",
+    "options": [
+     "an der Kasse abgeben",
+     "in den Automaten stecken",
+     "zu Hause aufbewahren",
+     "dem Personal zeigen und wegwerfen"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Gib ihn an der Kasse ab …\"",
+     "en": "\"Gib ihn an der Kasse ab …\""
+    }
+   },
+   {
+    "id": "a.mag.a2.pfand.04",
+    "prompt": "Auf welchem Getränk ist meistens kein Pfand?",
+    "promptEn": "Which drink usually has no deposit?",
+    "options": [
+     "Wein",
+     "Wasser",
+     "Bier",
+     "Limo"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Auf Wein und Saft meistens nicht …\"",
+     "en": "\"Auf Wein und Saft meistens nicht …\""
+    }
+   },
+   {
+    "id": "a.mag.a2.pfand.05",
+    "prompt": "Warum ist das System gut für die Umwelt?",
+    "promptEn": "Why is the system good for the environment?",
+    "options": [
+     "Es entsteht weniger Abfall.",
+     "Die Flaschen sind billiger.",
+     "Die Automaten brauchen wenig Strom.",
+     "Es gibt weniger Supermärkte."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… weniger Abfall, weniger neue Flaschen.\"",
+     "en": "\"… weniger Abfall, weniger neue Flaschen.\""
     }
    }
   ]

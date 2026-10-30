@@ -19,19 +19,15 @@ export default {
     ['die Geduld', 'ohne Plural', 'patience', 'Beim Lernen braucht man vor allem Geduld.', 'When learning you mainly need patience.'],
     ['das Selbstbewusstsein', 'ohne Plural', 'self-confidence', 'Das Zertifikat hat mein Selbstbewusstsein gestärkt.', 'The certificate strengthened my self-confidence.'],
     ['die Eigenschaft', '-en', 'quality, characteristic', 'Ihre beste Eigenschaft ist ihre Ruhe.', 'Her best quality is her calm.'],
-    ['der Charakter', '-e', 'character', 'Er hat einen sehr offenen Charakter.', 'He has a very open character.'],
     ['das Verständnis', 'ohne Plural', 'understanding, sympathy', 'Vielen Dank für Ihr Verständnis.', 'Thank you very much for your understanding.'],
     ['die Hoffnung', '-en', 'hope', 'Die Hoffnung habe ich nie aufgegeben.', 'I never gave up hope.'],
     ['der Mut', 'ohne Plural', 'courage', 'Es kostet Mut, in einer fremden Sprache zu reden.', 'It takes courage to speak in a foreign language.'],
   ],
 
   verbs: [
-    ['sich freuen', null, 'to be pleased', 'Ich freue mich sehr über deine Zusage.', 'I am very pleased about your acceptance.'],
-    ['sich ärgern', null, 'to be annoyed', 'Über die Verspätung habe ich mich geärgert.', 'I was annoyed about the delay.'],
     ['sich aufregen', null, 'to get worked up', 'Reg dich nicht auf, das lässt sich klären.', 'Do not get worked up, it can be sorted out.'],
     ['sich sorgen', null, 'to worry', 'Meine Mutter sorgt sich ständig um mich.', 'My mother worries about me constantly.'],
     ['sich schämen', null, 'to be ashamed', 'Am Anfang habe ich mich für meine Fehler geschämt.', 'At first I was ashamed of my mistakes.'],
-    ['hoffen', null, 'to hope', 'Ich hoffe, dass es dir bald besser geht.', 'I hope you feel better soon.'],
     ['fürchten', null, 'to fear', 'Ich fürchte, das schaffe ich nicht rechtzeitig.', 'I fear I will not manage that in time.'],
     ['sich beruhigen', null, 'to calm down', 'Nach einer Stunde hat er sich beruhigt.', 'After an hour he calmed down.'],
     ['enttäuschen', null, 'to disappoint', 'Das Ergebnis hat mich enttäuscht.', 'The result disappointed me.'],
@@ -41,9 +37,6 @@ export default {
   ],
 
   adjectives: [
-    ['aufgeregt', null, 'nervous, excited', 'Vor dem Sprechen bin ich immer aufgeregt.', 'Before speaking I am always nervous.'],
-    ['stolz', null, 'proud', 'Ich bin stolz auf das, was ich gelernt habe.', 'I am proud of what I have learned.'],
-    ['ehrlich', null, 'honest', 'Um ehrlich zu sein, war es zu schwer.', 'To be honest, it was too hard.'],
     ['geduldig', null, 'patient', 'Unsere Lehrerin ist unglaublich geduldig.', 'Our teacher is incredibly patient.'],
     ['hilfsbereit', null, 'helpful', 'Die Nachbarn sind alle sehr hilfsbereit.', 'The neighbours are all very helpful.'],
     ['zuversichtlich', null, 'confident, optimistic', 'Ich bin zuversichtlich, dass es klappt.', 'I am confident that it will work out.'],

@@ -1,5 +1,247 @@
 [
  {
+  "id": "h.a1.1",
+  "module": "hoeren",
+  "teil": 1,
+  "level": "A1",
+  "title": {
+   "de": "Teil 1: Kurze Ansagen",
+   "en": "Part 1: short announcements"
+  },
+  "instructions": {
+   "de": "Du hörst vier kurze Texte, jeden zweimal. Beantworte danach die Fragen.",
+   "en": "You will hear four short texts, each twice. Then answer the questions."
+  },
+  "minutes": 8,
+  "script": [
+   {
+    "speaker": "Ansage",
+    "text": "Achtung am Gleis zwei. Der Zug nach Dresden fährt heute um sechzehn Uhr zwanzig. Bitte steigen Sie ein."
+   },
+   {
+    "speaker": "Mailbox",
+    "text": "Hallo, hier ist Nadja. Wir treffen uns morgen um halb vier vor dem Kino, nicht um vier. Bis dann!"
+   },
+   {
+    "speaker": "Durchsage",
+    "text": "Liebe Kunden, der Supermarkt schließt in zehn Minuten. Bitte kommen Sie zur Kasse."
+   },
+   {
+    "speaker": "Radio",
+    "text": "Das Wetter am Donnerstag: Es regnet am Vormittag. Am Nachmittag scheint die Sonne. Es wird achtzehn Grad warm."
+   }
+  ],
+  "plays": 2,
+  "transcriptHidden": true,
+  "items": [
+   {
+    "id": "h.h.a1.1.01",
+    "prompt": "Wann fährt der Zug nach Dresden?",
+    "promptEn": null,
+    "options": [
+     "um 16:20",
+     "um 16:02",
+     "um 06:20",
+     "um 20:16"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… um sechzehn Uhr zwanzig.\"",
+     "en": "\"… at sixteen twenty.\""
+    }
+   },
+   {
+    "id": "h.h.a1.1.02",
+    "prompt": "Wann treffen sich Nadja und ihre Freundin?",
+    "promptEn": null,
+    "options": [
+     "um halb vier",
+     "um vier",
+     "um halb fünf",
+     "um drei"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… um halb vier, nicht um vier.\"",
+     "en": "\"… at half past three, not at four.\""
+    }
+   },
+   {
+    "id": "h.h.a1.1.03",
+    "prompt": "Was soll man im Supermarkt tun?",
+    "promptEn": null,
+    "options": [
+     "zur Kasse gehen",
+     "schneller einkaufen",
+     "morgen wiederkommen",
+     "draußen warten"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Bitte kommen Sie zur Kasse.\"",
+     "en": "\"Please come to the till.\""
+    }
+   },
+   {
+    "id": "h.h.a1.1.04",
+    "prompt": "Wie ist das Wetter am Nachmittag?",
+    "promptEn": null,
+    "options": [
+     "sonnig",
+     "es regnet",
+     "es schneit",
+     "kalt"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Am Nachmittag scheint die Sonne.\"",
+     "en": "\"In the afternoon the sun shines.\""
+    }
+   }
+  ]
+ },
+ {
+  "id": "h.a2.1",
+  "module": "hoeren",
+  "teil": 3,
+  "level": "A2",
+  "title": {
+   "de": "Teil 3: Ein Gespräch beim Hausmeister",
+   "en": "Part 3: a conversation with the caretaker"
+  },
+  "instructions": {
+   "de": "Du hörst ein Gespräch, zweimal. Beantworte danach die Fragen.",
+   "en": "You will hear a conversation twice. Then answer the questions."
+  },
+  "minutes": 10,
+  "script": [
+   {
+    "speaker": "Frau Ritter",
+    "text": "Guten Morgen, Herr Kowal. Haben Sie kurz Zeit? Bei mir in der Wohnung ist seit gestern das Wasser kalt."
+   },
+   {
+    "speaker": "Herr Kowal",
+    "text": "Guten Morgen. Seit gestern schon? Das haben Sie mir gar nicht gesagt. In welcher Wohnung sind Sie noch mal?"
+   },
+   {
+    "speaker": "Frau Ritter",
+    "text": "Dritter Stock links, Nummer zwölf. Ich habe gestern Abend angerufen, aber es ist niemand drangegangen."
+   },
+   {
+    "speaker": "Herr Kowal",
+    "text": "Ach so, gestern Abend war ich beim Arzt. Also, kalt ist das Wasser nur bei Ihnen oder auch bei den Nachbarn?"
+   },
+   {
+    "speaker": "Frau Ritter",
+    "text": "Das weiß ich nicht. Frau Özdemir nebenan ist im Urlaub, und bei den anderen habe ich noch nicht gefragt."
+   },
+   {
+    "speaker": "Herr Kowal",
+    "text": "Gut. Ich schaue mir heute Nachmittag die Heizung im Keller an. Wenn das Problem dort ist, dauert es bis morgen. Wenn es nur Ihre Wohnung ist, muss ein Installateur kommen, und das dauert leider länger."
+   },
+   {
+    "speaker": "Frau Ritter",
+    "text": "Wie lange ungefähr?"
+   },
+   {
+    "speaker": "Herr Kowal",
+    "text": "Zwei, drei Tage. Ich melde mich auf jeden Fall heute Abend bei Ihnen. Haben Sie eine Handynummer?"
+   },
+   {
+    "speaker": "Frau Ritter",
+    "text": "Ja, ich schreibe sie Ihnen auf. Und können Sie mir das danach bitte auch schriftlich geben? Für den Vermieter."
+   },
+   {
+    "speaker": "Herr Kowal",
+    "text": "Mache ich. Ich schicke Ihnen eine kurze E-Mail, sobald ich im Keller war."
+   }
+  ],
+  "plays": 2,
+  "transcriptHidden": true,
+  "items": [
+   {
+    "id": "h.h.a2.1.01",
+    "prompt": "Seit wann ist das Wasser kalt?",
+    "promptEn": "Since when has the water been cold?",
+    "options": [
+     "seit gestern",
+     "seit heute Morgen",
+     "seit einer Woche",
+     "seit drei Tagen"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… ist seit gestern das Wasser kalt.\"",
+     "en": "\"… the water has been cold since yesterday.\""
+    }
+   },
+   {
+    "id": "h.h.a2.1.02",
+    "prompt": "Warum ist gestern Abend niemand ans Telefon gegangen?",
+    "promptEn": "Why did nobody answer the phone last night?",
+    "options": [
+     "Herr Kowal war beim Arzt.",
+     "Er hatte Urlaub.",
+     "Das Telefon war kaputt.",
+     "Er hat geschlafen."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… gestern Abend war ich beim Arzt.\"",
+     "en": "\"… last night I was at the doctor’s.\""
+    }
+   },
+   {
+    "id": "h.h.a2.1.03",
+    "prompt": "Was macht Herr Kowal als Nächstes?",
+    "promptEn": "What does Herr Kowal do next?",
+    "options": [
+     "Er sieht sich die Heizung im Keller an.",
+     "Er ruft einen Installateur.",
+     "Er fragt die Nachbarn.",
+     "Er schreibt dem Vermieter."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Ich schaue mir heute Nachmittag die Heizung im Keller an.\"",
+     "en": "\"I will look at the heating in the cellar this afternoon.\""
+    }
+   },
+   {
+    "id": "h.h.a2.1.04",
+    "prompt": "Wie lange dauert es, wenn ein Installateur kommen muss?",
+    "promptEn": "How long does it take if a plumber has to come?",
+    "options": [
+     "zwei bis drei Tage",
+     "bis morgen",
+     "eine Woche",
+     "einen Nachmittag"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Zwei, drei Tage.\"",
+     "en": "\"Two or three days.\""
+    }
+   },
+   {
+    "id": "h.h.a2.1.05",
+    "prompt": "Warum will Frau Ritter etwas Schriftliches?",
+    "promptEn": "Why does Frau Ritter want something in writing?",
+    "options": [
+     "für den Vermieter",
+     "für die Versicherung",
+     "für den Installateur",
+     "für die Nachbarin"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… bitte auch schriftlich geben? Für den Vermieter.\"",
+     "en": "\"… in writing too, please? For the landlord.\""
+    }
+   }
+  ]
+ },
+ {
   "id": "h1a",
   "module": "hoeren",
   "teil": 1,

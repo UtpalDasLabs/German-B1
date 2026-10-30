@@ -1,5 +1,152 @@
 [
  {
+  "id": "s.a1.1",
+  "level": "A1",
+  "teil": 1,
+  "minutes": 4,
+  "prepMinutes": 1,
+  "title": {
+   "de": "Teil 1: Sich vorstellen",
+   "en": "Part 1: introducing yourself"
+  },
+  "situation": "Stellen Sie sich der Prüferin oder dem Prüfer vor. Sprechen Sie etwa eine Minute über sich.",
+  "situationEn": "Introduce yourself to the examiner. Speak about yourself for about a minute.",
+  "bullets": [
+   "Name, Alter, Land und Wohnort",
+   "Sprachen, Beruf oder Studium",
+   "Hobbys: was Sie gern machen"
+  ],
+  "model": "Hallo, ich heiße Amina Yilmaz. Ich bin dreißig Jahre alt und komme aus der Türkei, aus Izmir.\n\nJetzt wohne ich in Leipzig, seit einem Jahr. Ich spreche Türkisch, Englisch und ein bisschen Deutsch. Ich arbeite in einem Café.\n\nIn meiner Freizeit koche ich gern und ich gehe oft spazieren. Am Wochenende treffe ich meine Freunde.\n\nDanke schön.",
+  "checklist": [
+   {
+    "de": "Ich habe meinen Namen und mein Alter genannt.",
+    "en": "I gave my name and my age."
+   },
+   {
+    "de": "Ich habe gesagt, woher ich komme und wo ich wohne.",
+    "en": "I said where I am from and where I live."
+   },
+   {
+    "de": "Ich habe über Beruf oder Studium gesprochen.",
+    "en": "I talked about my job or studies."
+   },
+   {
+    "de": "Ich habe ein Hobby genannt.",
+    "en": "I named a hobby."
+   },
+   {
+    "de": "Ich habe ungefähr eine Minute gesprochen.",
+    "en": "I spoke for about a minute."
+   }
+  ],
+  "phrases": [
+   {
+    "label": {
+     "de": "Sich vorstellen",
+     "en": "Introducing yourself"
+    },
+    "items": [
+     "Ich heiße …",
+     "Ich bin … Jahre alt.",
+     "Ich komme aus …",
+     "Ich wohne in …",
+     "Ich spreche …"
+    ]
+   },
+   {
+    "label": {
+     "de": "Beruf und Hobbys",
+     "en": "Work and hobbies"
+    },
+    "items": [
+     "Ich arbeite als …",
+     "Ich studiere …",
+     "In meiner Freizeit …",
+     "Ich … gern."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "s.a2.1",
+  "level": "A2",
+  "teil": 3,
+  "minutes": 5,
+  "prepMinutes": 2,
+  "title": {
+   "de": "Teil 3: Etwas zusammen planen",
+   "en": "Part 3: planning something together"
+  },
+  "situation": "Eine Kollegin verlässt die Firma. Sie wollen zusammen mit Ihrem Partner einen kleinen Abschied organisieren. Sprechen Sie darüber und einigen Sie sich.",
+  "situationEn": "A colleague is leaving the company. You and your partner want to organise a small send-off. Talk it over and agree on a plan.",
+  "bullets": [
+   "Wann und wo? Machen Sie einen Vorschlag.",
+   "Was essen und trinken Sie? Wer kauft ein?",
+   "Was schenken Sie? Was kostet es?"
+  ],
+  "model": "A: Wollen wir für Frau Lange etwas machen? Sie geht ja Ende des Monats.\n\nB: Ja, gute Idee. Wann passt es denn? Am Freitagnachmittag?\n\nA: Freitag ist gut. Vielleicht um vier Uhr im Pausenraum? Dann sind alle noch da.\n\nB: Einverstanden. Und was essen wir? Ich könnte einen Kuchen backen.\n\nA: Super. Dann kaufe ich Getränke und Becher. Kaffee haben wir ja im Büro.\n\nB: Und ein Geschenk? Ich schlage einen Gutschein vor, vielleicht fünfzig Euro.\n\nA: Das finde ich gut. Wenn zehn Leute mitmachen, sind das nur fünf Euro pro Person.\n\nB: Perfekt. Ich frage die Kollegen, und du bestellst den Gutschein. Abgemacht?\n\nA: Abgemacht.",
+  "checklist": [
+   {
+    "de": "Ich habe einen Vorschlag für Zeit und Ort gemacht.",
+    "en": "I made a suggestion about time and place."
+   },
+   {
+    "de": "Ich habe auf die Vorschläge meines Partners reagiert.",
+    "en": "I responded to my partner’s suggestions."
+   },
+   {
+    "de": "Ich habe alle drei Punkte besprochen.",
+    "en": "I covered all three points."
+   },
+   {
+    "de": "Wir sind am Ende zu einer Einigung gekommen.",
+    "en": "We reached an agreement at the end."
+   },
+   {
+    "de": "Ich habe nicht nur zugestimmt, sondern auch selbst etwas vorgeschlagen.",
+    "en": "I did not just agree – I suggested things myself."
+   }
+  ],
+  "phrases": [
+   {
+    "label": {
+     "de": "Vorschlagen",
+     "en": "Suggesting"
+    },
+    "items": [
+     "Wollen wir …?",
+     "Ich schlage vor, …",
+     "Wie wäre es mit …?",
+     "Vielleicht könnten wir …"
+    ]
+   },
+   {
+    "label": {
+     "de": "Zustimmen und ablehnen",
+     "en": "Agreeing and disagreeing"
+    },
+    "items": [
+     "Das finde ich gut.",
+     "Einverstanden.",
+     "Das ist eine gute Idee.",
+     "Hm, lieber nicht. Wie wäre es stattdessen …?"
+    ]
+   },
+   {
+    "label": {
+     "de": "Abschließen",
+     "en": "Wrapping up"
+    },
+    "items": [
+     "Abgemacht.",
+     "Dann machen wir das so.",
+     "Wer macht was?",
+     "Ich kümmere mich um …"
+    ]
+   }
+  ]
+ },
+ {
   "id": "s1a",
   "teil": 1,
   "minutes": 3,

@@ -8,34 +8,22 @@ export default {
   },
 
   nouns: [
-    ['der Ausflug', '-¨e', 'excursion, day trip', 'Am Sonntag machen wir einen Ausflug an den See.', 'On Sunday we are taking a trip to the lake.'],
-    ['die Unterkunft', '-¨e', 'accommodation', 'Die Unterkunft war einfach, aber sauber.', 'The accommodation was simple but clean.'],
-    ['die Ferienwohnung', '-en', 'holiday flat', 'Die Ferienwohnung hat eine kleine Küche.', 'The holiday flat has a small kitchen.'],
-    ['die Jugendherberge', '-n', 'youth hostel', 'In der Jugendherberge kostet die Nacht 25 Euro.', 'In the youth hostel a night costs 25 euros.'],
-    ['die Buchung', '-en', 'booking', 'Die Buchung habe ich per Mail bestätigt bekommen.', 'I received confirmation of the booking by email.'],
     ['die Anreise', '-n', 'journey there, arrival', 'Die Anreise dauert mit dem Zug vier Stunden.', 'The journey there takes four hours by train.'],
     ['die Abreise', '-n', 'departure', 'Die Abreise ist am Sonntagmorgen.', 'Departure is on Sunday morning.'],
-    ['das Gepäck', 'ohne Plural', 'luggage', 'Das Gepäck können Sie am Empfang lassen.', 'You can leave your luggage at reception.'],
     ['der Reisepass', '-¨e', 'passport', 'Mein Reisepass läuft im März ab.', 'My passport expires in March.'],
     ['das Visum', 'Visa', 'visa', 'Für dieses Land brauchen Sie kein Visum.', 'You do not need a visa for this country.'],
-    ['die Sehenswürdigkeit', '-en', 'sight, attraction', 'Die bekannteste Sehenswürdigkeit ist der Dom.', 'The best-known sight is the cathedral.'],
     ['die Führung', '-en', 'guided tour', 'Die Führung beginnt jede volle Stunde.', 'The guided tour starts on the hour.'],
     ['die Landschaft', '-en', 'landscape, scenery', 'Die Landschaft im Schwarzwald ist beeindruckend.', 'The scenery in the Black Forest is impressive.'],
     ['die Küste', '-n', 'coast', 'An der Küste weht fast immer Wind.', 'On the coast there is almost always a wind.'],
     ['das Gebirge', '-', 'mountain range', 'Im Gebirge liegt bis Mai Schnee.', 'In the mountains there is snow until May.'],
     ['der Aufenthalt', '-e', 'stay', 'Der Aufenthalt hat sich sehr gelohnt.', 'The stay was really worth it.'],
-    ['die Verspätung', '-en', 'delay', 'Der Zug hatte 40 Minuten Verspätung.', 'The train was 40 minutes late.'],
     ['die Reiseversicherung', '-en', 'travel insurance', 'Eine Reiseversicherung kostet wenig und hilft viel.', 'Travel insurance costs little and helps a lot.'],
     ['die Erholung', 'ohne Plural', 'rest, recuperation', 'Zwei Wochen Erholung waren dringend nötig.', 'Two weeks of rest were badly needed.'],
   ],
 
   verbs: [
     ['stornieren', null, 'to cancel (a booking)', 'Bis 24 Stunden vorher kannst du kostenlos stornieren.', 'You can cancel free of charge up to 24 hours before.'],
-    ['übernachten', null, 'to stay overnight', 'Wir übernachten bei Freunden in Köln.', 'We are staying overnight with friends in Cologne.'],
     ['sich erkundigen', null, 'to enquire', 'Ich habe mich nach den Preisen erkundigt.', 'I enquired about the prices.'],
-    ['sich entspannen', null, 'to relax', 'Am Meer entspanne ich mich am besten.', 'I relax best by the sea.'],
-    ['mitnehmen', 'nimmt mit · nahm mit · hat mitgenommen', 'to take along', 'Nimm eine Regenjacke mit.', 'Take a rain jacket with you.'],
-    ['verpassen', null, 'to miss (a train)', 'Wir haben den Anschlusszug knapp verpasst.', 'We just missed the connecting train.'],
   ],
 
   adjectives: [

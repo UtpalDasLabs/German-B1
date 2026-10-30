@@ -9,10 +9,11 @@
  * constructions and the case work, which are where marks quietly leak away.
  */
 import { A1_GRAMMAR } from './a1.mjs';
+import { A2_GRAMMAR } from './a2.mjs';
 import { ZEITEN } from './zeiten.mjs';
 import { SATZBAU } from './satzbau.mjs';
 import { VERBFORMEN } from './verbformen.mjs';
 import { NOMEN } from './nomen.mjs';
 import { SONSTIGES } from './sonstiges.mjs';
 
-export const GRAMMAR = [...A1_GRAMMAR, ...ZEITEN, ...SATZBAU, ...VERBFORMEN, ...NOMEN, ...SONSTIGES];
+export const GRAMMAR = [...A1_GRAMMAR, ...A2_GRAMMAR, ...ZEITEN, ...SATZBAU, ...VERBFORMEN, ...NOMEN, ...SONSTIGES];

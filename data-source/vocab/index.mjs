@@ -31,6 +31,7 @@ import nomenverben from './nomenverben.mjs';
 
 import { A1 } from './levels/a1.mjs';
 import { A2 } from './levels/a2.mjs';
+import { B1 } from './levels/b1.mjs';
 import { B2 } from './levels/b2.mjs';
 import { C1 } from './levels/c1.mjs';
 
@@ -69,7 +70,7 @@ const THEMES = [
  * would make it unreviewable, which is the same mistake as writing the entries
  * out as full objects.
  */
-const BY_LEVEL = { A1, A2, B2, C1 };
+const BY_LEVEL = { A1, A2, B1, B2, C1 };
 
 export const THEME_FILES = THEMES.map((theme) => {
   const levels = {};

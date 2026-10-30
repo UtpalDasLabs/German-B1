@@ -1,5 +1,298 @@
 [
  {
+  "id": "l.a1.1",
+  "module": "lesen",
+  "teil": 1,
+  "level": "A1",
+  "title": {
+   "de": "Teil 1: Zwei kurze Nachrichten",
+   "en": "Part 1: two short messages"
+  },
+  "instructions": {
+   "de": "Lies die zwei Texte. Sind die Aussagen richtig oder falsch?",
+   "en": "Read the two texts. Are the statements true or false?"
+  },
+  "minutes": 8,
+  "texts": [
+   {
+    "heading": "Nachricht von Mehmet",
+    "body": "Hallo Lisa,\n\nich kann heute nicht um sechs kommen. Der Bus fährt erst um halb sieben. Ich bin also um sieben bei dir. Soll ich Brot mitbringen? Ich gehe sowieso zum Supermarkt.\n\nBis später!\nMehmet"
+   },
+   {
+    "heading": "Aushang im Haus",
+    "body": "Liebe Nachbarn,\n\nam Freitag kommt der Hausmeister. Er repariert die Heizung im Keller. Von neun bis zwölf Uhr gibt es kein warmes Wasser.\n\nDanke für Ihr Verständnis.\nFamilie Berger, Hausverwaltung"
+   }
+  ],
+  "items": [
+   {
+    "id": "r.l.a1.1.01",
+    "prompt": "Mehmet kommt später als geplant.",
+    "promptEn": null,
+    "options": [
+     "richtig",
+     "falsch"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Er kommt um sieben statt um sechs.",
+     "en": "He is coming at seven instead of six."
+    }
+   },
+   {
+    "id": "r.l.a1.1.02",
+    "prompt": "Mehmet fährt mit dem Auto.",
+    "promptEn": null,
+    "options": [
+     "richtig",
+     "falsch"
+    ],
+    "answer": 1,
+    "why": {
+     "de": "Im Text steht: \"Der Bus fährt erst um halb sieben.\"",
+     "en": "The text says the bus does not leave until half past six."
+    }
+   },
+   {
+    "id": "r.l.a1.1.03",
+    "prompt": "Am Freitag gibt es den ganzen Tag kein warmes Wasser.",
+    "promptEn": null,
+    "options": [
+     "richtig",
+     "falsch"
+    ],
+    "answer": 1,
+    "why": {
+     "de": "Nur von neun bis zwölf Uhr.",
+     "en": "Only from nine to twelve."
+    }
+   },
+   {
+    "id": "r.l.a1.1.04",
+    "prompt": "Der Hausmeister arbeitet im Keller.",
+    "promptEn": null,
+    "options": [
+     "richtig",
+     "falsch"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Er repariert die Heizung im Keller.\"",
+     "en": "\"Er repariert die Heizung im Keller.\""
+    }
+   }
+  ]
+ },
+ {
+  "id": "l.a1.2",
+  "module": "lesen",
+  "teil": 3,
+  "level": "A1",
+  "title": {
+   "de": "Teil 3: Schilder und Anzeigen",
+   "en": "Part 3: signs and notices"
+  },
+  "instructions": {
+   "de": "Lies die Schilder. Welche Antwort ist richtig?",
+   "en": "Read the signs. Which answer is correct?"
+  },
+  "minutes": 8,
+  "texts": [
+   {
+    "heading": "Bäckerei Hoff",
+    "body": "Mo–Fr 6–18 Uhr · Sa 6–13 Uhr · Sonntag geschlossen"
+   },
+   {
+    "heading": "Im Bus",
+    "body": "Bitte vorne einsteigen und die Fahrkarte zeigen. Kinder unter 6 Jahren fahren frei."
+   },
+   {
+    "heading": "Arztpraxis Dr. Weiß",
+    "body": "Urlaub vom 2. bis 16. August. Vertretung: Dr. Sommer, Lindenstraße 4, Telefon 0231 44 55 66."
+   }
+  ],
+  "items": [
+   {
+    "id": "r.l.a1.2.01",
+    "prompt": "Wann hat die Bäckerei zu?",
+    "promptEn": "When is the bakery closed?",
+    "options": [
+     "am Sonntag",
+     "am Samstag",
+     "am Montag",
+     "nie"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Sonntag geschlossen.\"",
+     "en": "\"Sonntag geschlossen.\""
+    }
+   },
+   {
+    "id": "r.l.a1.2.02",
+    "prompt": "Wer bezahlt im Bus nichts?",
+    "promptEn": "Who pays nothing on the bus?",
+    "options": [
+     "Kinder unter sechs",
+     "alle Kinder",
+     "Erwachsene",
+     "niemand"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Kinder unter 6 Jahren fahren frei.\"",
+     "en": "\"Kinder unter 6 Jahren fahren frei.\""
+    }
+   },
+   {
+    "id": "r.l.a1.2.03",
+    "prompt": "Sie sind am 10. August krank. Wohin gehen Sie?",
+    "promptEn": "You are ill on 10 August. Where do you go?",
+    "options": [
+     "zu Dr. Sommer",
+     "zu Dr. Weiß",
+     "in die Bäckerei",
+     "ins Krankenhaus"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Dr. Weiß hat bis zum 16. August Urlaub; die Vertretung ist Dr. Sommer.",
+     "en": "Dr. Weiß is on holiday until 16 August; Dr. Sommer is the stand-in."
+    }
+   },
+   {
+    "id": "r.l.a1.2.04",
+    "prompt": "Wie lange hat die Bäckerei am Samstag offen?",
+    "promptEn": "How long is the bakery open on Saturday?",
+    "options": [
+     "sieben Stunden",
+     "zwölf Stunden",
+     "den ganzen Tag",
+     "gar nicht"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Von 6 bis 13 Uhr sind sieben Stunden.",
+     "en": "From 6 a.m. to 1 p.m. is seven hours."
+    }
+   }
+  ]
+ },
+ {
+  "id": "l.a2.1",
+  "module": "lesen",
+  "teil": 2,
+  "level": "A2",
+  "title": {
+   "de": "Teil 2: Anzeigen und Personen",
+   "en": "Part 2: adverts and people"
+  },
+  "instructions": {
+   "de": "Lies die Anzeigen und die Situationen. Welche Anzeige passt?",
+   "en": "Read the adverts and the situations. Which advert fits?"
+  },
+  "minutes": 10,
+  "texts": [
+   {
+    "heading": "A — Deutsch am Abend",
+    "body": "Deutschkurs A2, montags und mittwochs 18–20 Uhr, Volkshochschule Nord. 12 Wochen, 140 Euro. Auch für Berufstätige geeignet. Anmeldung online."
+   },
+   {
+    "heading": "B — Sprachcafé Kastanie",
+    "body": "Jeden Freitag ab 17 Uhr Deutsch sprechen bei Kaffee und Kuchen. Kostenlos, keine Anmeldung, alle Niveaus willkommen. Kein Unterricht, nur Gespräche."
+   },
+   {
+    "heading": "C — Intensivkurs Sommer",
+    "body": "Vier Wochen Deutsch, Montag bis Freitag 9–14 Uhr. Schnell von A2 nach B1. 620 Euro, Prüfung am Ende inklusive."
+   },
+   {
+    "heading": "D — Lernpatenschaft",
+    "body": "Ehrenamtliche helfen beim Deutschlernen, einmal pro Woche, Zeit nach Absprache. Kostenlos. Für Eltern mit kleinen Kindern: Kinderbetreuung möglich."
+   }
+  ],
+  "items": [
+   {
+    "id": "r.l.a2.1.01",
+    "prompt": "Frau Nowak arbeitet tagsüber und möchte einen richtigen Kurs mit Unterricht.",
+    "promptEn": "Mrs Nowak works during the day and wants a proper class.",
+    "options": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "A ist abends und ausdrücklich für Berufstätige. C ist tagsüber, B ist kein Unterricht.",
+     "en": "A is in the evening and explicitly for people in work. C is during the day; B is not a class."
+    }
+   },
+   {
+    "id": "r.l.a2.1.02",
+    "prompt": "Herr Said will nur sprechen üben und hat kein Geld dafür.",
+    "promptEn": "Mr Said only wants speaking practice and has no money for it.",
+    "options": [
+     "B",
+     "A",
+     "C",
+     "D"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "B ist kostenlos und ausdrücklich nur Gespräche.",
+     "en": "B is free and explicitly conversation only."
+    }
+   },
+   {
+    "id": "r.l.a2.1.03",
+    "prompt": "Frau Petrova hat im Sommer frei und will schnell die B1-Prüfung machen.",
+    "promptEn": "Mrs Petrova is free in the summer and wants to take the B1 exam quickly.",
+    "options": [
+     "C",
+     "A",
+     "B",
+     "D"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "C führt in vier Wochen nach B1 und enthält die Prüfung.",
+     "en": "C goes to B1 in four weeks and includes the exam."
+    }
+   },
+   {
+    "id": "r.l.a2.1.04",
+    "prompt": "Herr Demir ist zu Hause bei seinem kleinen Sohn und sucht etwas Flexibles.",
+    "promptEn": "Mr Demir is at home with his small son and wants something flexible.",
+    "options": [
+     "D",
+     "A",
+     "B",
+     "C"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "D ist nach Absprache und bietet Kinderbetreuung.",
+     "en": "D is by arrangement and offers childcare."
+    }
+   },
+   {
+    "id": "r.l.a2.1.05",
+    "prompt": "Welche Anzeige nennt keinen Preis?",
+    "promptEn": "Which adverts give no price?",
+    "options": [
+     "B und D",
+     "nur B",
+     "nur D",
+     "A und C"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "B und D sind beide kostenlos; A kostet 140 Euro, C 620 Euro.",
+     "en": "B and D are both free; A costs 140 euros, C 620."
+    }
+   }
+  ]
+ },
+ {
   "id": "l1a",
   "module": "lesen",
   "teil": 1,

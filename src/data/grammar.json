@@ -1412,6 +1412,413 @@
   ]
  },
  {
+  "key": "dativ",
+  "title": {
+   "de": "Dativ",
+   "en": "The dative"
+  },
+  "summary": {
+   "de": "Der Fall für das Ziel einer Handlung und für den Ort. der wird dem, die wird der.",
+   "en": "The case for who something is done to, and for location. der becomes dem, die becomes der."
+  },
+  "icon": "👉",
+  "level": "A2",
+  "order": 9,
+  "body": {
+   "en": [
+    "The accusative answers \"what?\"; the dative answers \"to whom?\". In \"Ich gebe dem Kind das Buch\", das Buch is what is given and dem Kind is who it is given to.",
+    "The forms: der → dem, die → der, das → dem, plural die → den, and the plural noun itself adds -n unless it already ends in -n or -s. \"mit den Kindern\", \"mit den Autos\".",
+    "A group of prepositions always takes the dative, and the list is short enough to memorise: aus, bei, mit, nach, seit, von, zu, gegenüber. Classrooms chant it to a tune; it works.",
+    "A second group - the two-way prepositions in, an, auf, über, unter, vor, hinter, neben, zwischen - takes the dative when nothing is moving and the accusative when something is going somewhere. \"Ich bin in der Küche\" (dative, I am there) against \"Ich gehe in die Küche\" (accusative, I am going there).",
+    "Some very common verbs take a dative object where English would use a direct one: helfen, danken, gefallen, gehören, passen, antworten, folgen. \"Ich helfe dir\", never \"Ich helfe dich\"."
+   ],
+   "de": [
+    "Der Akkusativ antwortet auf \"was?\", der Dativ auf \"wem?\". In \"Ich gebe dem Kind das Buch\" ist das Buch das Gegebene und dem Kind der Empfänger.",
+    "Die Formen: der → dem, die → der, das → dem, Plural die → den, und das Nomen im Plural bekommt ein -n, wenn es nicht schon auf -n oder -s endet: \"mit den Kindern\", \"mit den Autos\".",
+    "Eine Gruppe von Präpositionen steht immer mit Dativ: aus, bei, mit, nach, seit, von, zu, gegenüber.",
+    "Die Wechselpräpositionen - in, an, auf, über, unter, vor, hinter, neben, zwischen - stehen mit Dativ, wenn nichts in Bewegung ist, und mit Akkusativ bei einer Richtung: \"Ich bin in der Küche\" gegen \"Ich gehe in die Küche\".",
+    "Manche sehr häufigen Verben verlangen den Dativ, wo das Englische ein direktes Objekt hätte: helfen, danken, gefallen, gehören, passen, antworten, folgen. \"Ich helfe dir\", nie \"Ich helfe dich\"."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Die Formen",
+     "en": "The forms"
+    },
+    "head": [
+     "",
+     "Nominativ",
+     "Akkusativ",
+     "Dativ"
+    ],
+    "rows": [
+     [
+      "maskulin",
+      "der / ein",
+      "den / einen",
+      "dem / einem"
+     ],
+     [
+      "feminin",
+      "die / eine",
+      "die / eine",
+      "der / einer"
+     ],
+     [
+      "neutral",
+      "das / ein",
+      "das / ein",
+      "dem / einem"
+     ],
+     [
+      "Plural",
+      "die",
+      "die",
+      "den + -n"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Personalpronomen",
+     "en": "Personal pronouns"
+    },
+    "head": [
+     "Nominativ",
+     "Akkusativ",
+     "Dativ"
+    ],
+    "rows": [
+     [
+      "ich",
+      "mich",
+      "mir"
+     ],
+     [
+      "du",
+      "dich",
+      "dir"
+     ],
+     [
+      "er / es",
+      "ihn / es",
+      "ihm"
+     ],
+     [
+      "sie",
+      "sie",
+      "ihr"
+     ],
+     [
+      "wir",
+      "uns",
+      "uns"
+     ],
+     [
+      "ihr",
+      "euch",
+      "euch"
+     ],
+     [
+      "sie / Sie",
+      "sie / Sie",
+      "ihnen / Ihnen"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Immer Dativ",
+     "en": "Always dative"
+    },
+    "head": [
+     "Präposition",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "aus",
+      "Ich komme aus der Türkei."
+     ],
+     [
+      "bei",
+      "Ich wohne bei meinem Bruder."
+     ],
+     [
+      "mit",
+      "Ich fahre mit dem Bus."
+     ],
+     [
+      "nach",
+      "Nach der Arbeit gehe ich einkaufen."
+     ],
+     [
+      "seit",
+      "Seit einem Jahr lerne ich Deutsch."
+     ],
+     [
+      "von",
+      "Das ist von meiner Mutter."
+     ],
+     [
+      "zu",
+      "Ich gehe zum Arzt."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Ich helfe meiner Nachbarin.",
+    "en": "I am helping my neighbour."
+   },
+   {
+    "de": "Das Buch gehört dem Kind.",
+    "en": "The book belongs to the child."
+   },
+   {
+    "de": "Nach dem Essen trinken wir Kaffee.",
+    "en": "After the meal we drink coffee."
+   },
+   {
+    "de": "Gibst du mir bitte das Salz?",
+    "en": "Will you pass me the salt, please?"
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich helfe dich.",
+    "right": "Ich helfe dir.",
+    "why": {
+     "de": "helfen verlangt den Dativ, obwohl es im Englischen ein direktes Objekt hat.",
+     "en": "helfen takes the dative, even though English has a direct object there."
+    }
+   },
+   {
+    "wrong": "mit die Kinder",
+    "right": "mit den Kindern",
+    "why": {
+     "de": "Dativ Plural ist den, und das Nomen bekommt ein -n.",
+     "en": "The dative plural is den, and the noun adds -n."
+    }
+   },
+   {
+    "wrong": "Ich gehe in der Stadt.",
+    "right": "Ich gehe in die Stadt.",
+    "why": {
+     "de": "Richtung heißt Akkusativ. Mit Dativ hieße es: ich gehe dort herum.",
+     "en": "Direction means accusative. With the dative it would mean walking about there."
+    }
+   }
+  ]
+ },
+ {
+  "key": "vergangenheita2",
+  "title": {
+   "de": "war, hatte, konnte: die kurze Vergangenheit",
+   "en": "war, hatte, konnte: the short past"
+  },
+  "summary": {
+   "de": "sein, haben und die Modalverben nimmt man im Präteritum, auch beim Sprechen.",
+   "en": "sein, haben and the modals use the Präteritum, even in speech."
+  },
+  "icon": "⏪",
+  "level": "A2",
+  "order": 10,
+  "body": {
+   "en": [
+    "German has two past tenses, and at A2 the division of labour is simple. Almost every verb uses the Perfekt when you speak: \"Ich habe gearbeitet\", \"Ich bin gefahren\".",
+    "But a small group sounds wrong in the Perfekt and is used in the Präteritum instead, in speech as well as in writing: sein (war), haben (hatte), and the modals (konnte, musste, wollte, durfte, sollte, mochte). Nobody says \"Ich habe müssen arbeiten\"; they say \"Ich musste arbeiten\".",
+    "The Präteritum endings for these verbs are: ich -, du -st, er -, wir -en, ihr -t, sie -en. Note that the ich and er forms are identical and have no ending at all: ich war, er war; ich hatte, er hatte.",
+    "The modals lose their umlaut in the past: können → konnte, müssen → musste, dürfen → durfte, mögen → mochte. wollen and sollen never had one: wollte, sollte.",
+    "es gibt becomes es gab, which is worth learning as its own item - it comes up in every story about the past."
+   ],
+   "de": [
+    "Deutsch hat zwei Vergangenheitsformen, und auf A2 ist die Aufteilung einfach: Fast jedes Verb nimmt beim Sprechen das Perfekt - \"Ich habe gearbeitet\", \"Ich bin gefahren\".",
+    "Eine kleine Gruppe klingt im Perfekt aber falsch und steht im Präteritum, auch gesprochen: sein (war), haben (hatte) und die Modalverben (konnte, musste, wollte, durfte, sollte, mochte). Niemand sagt \"Ich habe müssen arbeiten\", sondern \"Ich musste arbeiten\".",
+    "Die Endungen: ich -, du -st, er -, wir -en, ihr -t, sie -en. Die ich- und die er-Form sind gleich und haben gar keine Endung: ich war, er war.",
+    "Die Modalverben verlieren im Präteritum den Umlaut: können → konnte, müssen → musste, dürfen → durfte, mögen → mochte. wollen und sollen hatten nie einen.",
+    "es gibt wird zu es gab - ein eigener Merkposten, denn es kommt in jeder Erzählung vor."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "sein und haben im Präteritum",
+     "en": "sein and haben in the Präteritum"
+    },
+    "head": [
+     "Person",
+     "sein",
+     "haben"
+    ],
+    "rows": [
+     [
+      "ich",
+      "war",
+      "hatte"
+     ],
+     [
+      "du",
+      "warst",
+      "hattest"
+     ],
+     [
+      "er / sie / es",
+      "war",
+      "hatte"
+     ],
+     [
+      "wir",
+      "waren",
+      "hatten"
+     ],
+     [
+      "ihr",
+      "wart",
+      "hattet"
+     ],
+     [
+      "sie / Sie",
+      "waren",
+      "hatten"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Modalverben",
+     "en": "Modal verbs"
+    },
+    "head": [
+     "Präsens",
+     "Präteritum",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "können",
+      "konnte",
+      "Ich konnte nicht kommen."
+     ],
+     [
+      "müssen",
+      "musste",
+      "Ich musste arbeiten."
+     ],
+     [
+      "wollen",
+      "wollte",
+      "Ich wollte dich anrufen."
+     ],
+     [
+      "dürfen",
+      "durfte",
+      "Wir durften nicht rein."
+     ],
+     [
+      "sollen",
+      "sollte",
+      "Ich sollte das abgeben."
+     ],
+     [
+      "mögen",
+      "mochte",
+      "Ich mochte das Essen nicht."
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Welche Form wann?",
+     "en": "Which form when?"
+    },
+    "head": [
+     "Verb",
+     "gesprochen",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "normales Verb",
+      "Perfekt",
+      "Ich habe gearbeitet."
+     ],
+     [
+      "Bewegung",
+      "Perfekt mit sein",
+      "Ich bin gefahren."
+     ],
+     [
+      "sein",
+      "Präteritum",
+      "Ich war krank."
+     ],
+     [
+      "haben",
+      "Präteritum",
+      "Ich hatte keine Zeit."
+     ],
+     [
+      "Modalverb",
+      "Präteritum",
+      "Ich musste arbeiten."
+     ],
+     [
+      "es gibt",
+      "Präteritum",
+      "Es gab ein Problem."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Gestern war ich beim Arzt.",
+    "en": "Yesterday I was at the doctor’s."
+   },
+   {
+    "de": "Ich hatte leider keine Zeit.",
+    "en": "Unfortunately I had no time."
+   },
+   {
+    "de": "Wir konnten den Zug nicht erreichen.",
+    "en": "We could not catch the train."
+   },
+   {
+    "de": "Es gab ein Problem mit der Heizung.",
+    "en": "There was a problem with the heating."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich habe gestern krank gewesen.",
+    "right": "Ich war gestern krank.",
+    "why": {
+     "de": "sein steht gesprochen im Präteritum, nicht im Perfekt.",
+     "en": "In speech sein uses the Präteritum, not the Perfekt."
+    }
+   },
+   {
+    "wrong": "Ich habe arbeiten müssen.",
+    "right": "Ich musste arbeiten.",
+    "why": {
+     "de": "Modalverben nimmt man im Präteritum. Die Perfektform gibt es, klingt aber umständlich.",
+     "en": "Modals use the Präteritum. The Perfekt form exists but sounds laboured."
+    }
+   },
+   {
+    "wrong": "Ich könnte nicht kommen. (gestern)",
+    "right": "Ich konnte nicht kommen.",
+    "why": {
+     "de": "Mit Umlaut ist es Konjunktiv II (\"ich könnte\" = ich wäre in der Lage), ohne Umlaut Vergangenheit.",
+     "en": "With the umlaut it is Konjunktiv II (\"I would be able to\"); without it, the past."
+    }
+   }
+  ]
+ },
+ {
   "key": "perfekt",
   "title": {
    "de": "Perfekt: haben oder sein",
@@ -1423,7 +1830,7 @@
   },
   "icon": "🕓",
   "level": "A2",
-  "order": 9,
+  "order": 11,
   "body": {
    "en": [
     "In spoken German the Perfekt does almost all the work of the past. It is built from a conjugated auxiliary - haben or sein - plus the Partizip II at the very end of the sentence: \"Ich habe gestern lange gearbeitet.\"",
@@ -1573,7 +1980,7 @@
   },
   "icon": "📜",
   "level": "B1",
-  "order": 10,
+  "order": 12,
   "body": {
    "en": [
     "The Präteritum is the past tense of written German: newspapers, reports, stories. In conversation most verbs use the Perfekt instead - but not all of them.",
@@ -1702,7 +2109,7 @@
   },
   "icon": "⏪",
   "level": "B1",
-  "order": 11,
+  "order": 13,
   "body": {
    "en": [
     "The Plusquamperfekt says that one past event happened before another past event. It is the Perfekt with the auxiliary in the Präteritum: hatte gemacht, war gefahren.",
@@ -1788,7 +2195,7 @@
   },
   "icon": "🔮",
   "level": "B1",
-  "order": 12,
+  "order": 14,
   "body": {
    "en": [
     "German normally expresses the future with the present tense plus a time word: \"Morgen fahre ich nach Köln.\" That is not lazy German, it is the standard.",
@@ -1875,7 +2282,7 @@
   },
   "icon": "🔗",
   "level": "A2",
-  "order": 13,
+  "order": 15,
   "body": {
    "en": [
     "A subordinate clause is introduced by a subordinating conjunction - dass, weil, ob, wenn, obwohl, damit, während, bevor, nachdem, seitdem, falls, sobald - and its conjugated verb moves to the very end.",
@@ -1983,7 +2390,7 @@
   },
   "icon": "🧵",
   "level": "B1",
-  "order": 14,
+  "order": 16,
   "body": {
    "en": [
     "German connectors fall into three groups, and each does something different to the word order. Learning them in groups is far more efficient than learning them one by one.",
@@ -2099,7 +2506,7 @@
   },
   "icon": "🎯",
   "level": "B1",
-  "order": 15,
+  "order": 17,
   "body": {
    "en": [
     "A relative clause adds information about a noun. It is a subordinate clause, so the verb goes to the end, and it is always separated by commas.",
@@ -2208,7 +2615,7 @@
   },
   "icon": "🧭",
   "level": "B1",
-  "order": 16,
+  "order": 18,
   "body": {
    "en": [
     "The conjugated verb is in position two in a main statement. What comes before it is a single element of your choice - subject, time, place, an object - and putting something other than the subject there is a normal, good way to connect sentences.",
@@ -2307,7 +2714,7 @@
   },
   "icon": "🔄",
   "level": "B1",
-  "order": 17,
+  "order": 19,
   "body": {
    "en": [
     "The passive is built with werden + Partizip II. The object of the active sentence becomes the subject: \"Der Mechaniker repariert das Auto\" becomes \"Das Auto wird repariert.\"",
@@ -2408,7 +2815,7 @@
   },
   "icon": "🤝",
   "level": "B1",
-  "order": 18,
+  "order": 20,
   "body": {
    "en": [
     "Konjunktiv II does two jobs: it makes requests polite, and it talks about things that are not real.",
@@ -2533,7 +2940,7 @@
   },
   "icon": "🔑",
   "level": "A1",
-  "order": 19,
+  "order": 21,
   "body": {
    "en": [
     "Modal verbs are conjugated and stand in position two; the main verb goes to the end as a bare infinitive: \"Ich muss heute länger arbeiten.\"",
@@ -2644,7 +3051,7 @@
   },
   "icon": "✒️",
   "level": "A2",
-  "order": 20,
+  "order": 22,
   "body": {
    "en": [
     "Many verbs and expressions are followed by an infinitive with zu: versuchen, vergessen, anfangen, aufhören, vorhaben, Lust haben, Zeit haben, es ist wichtig. The zu-infinitive goes at the end: \"Ich habe vergessen, dich anzurufen.\"",
@@ -2735,7 +3142,7 @@
   },
   "icon": "🪞",
   "level": "A2",
-  "order": 21,
+  "order": 23,
   "body": {
    "en": [
     "A reflexive verb carries a pronoun that points back at the subject: ich freue mich, du freust dich, er freut sich. Only the third person has a special form, sich; the rest are the ordinary object pronouns.",
@@ -2844,7 +3251,7 @@
   },
   "icon": "🖍️",
   "level": "A2",
-  "order": 22,
+  "order": 24,
   "body": {
    "en": [
     "An adjective before a noun always takes an ending. Which ending depends on what comes in front of the adjective, and there are only three situations.",
@@ -2984,7 +3391,7 @@
   },
   "icon": "📊",
   "level": "A2",
-  "order": 23,
+  "order": 25,
   "body": {
    "en": [
     "For equality use so … wie: \"Der Bus ist so teuer wie die Bahn.\" For inequality use the comparative with -er plus als: \"Die Bahn ist teurer als der Bus.\" The classic mistake is mixing them: never \"teurer wie\".",
@@ -3095,7 +3502,7 @@
   },
   "icon": "🔑",
   "level": "B1",
-  "order": 24,
+  "order": 26,
   "body": {
    "en": [
     "The genitive answers wessen? and expresses belonging: \"das Auto meines Bruders\". Masculine and neuter nouns add -s or -es; feminine and plural nouns do not change.",
@@ -3201,7 +3608,7 @@
   },
   "icon": "🔄",
   "level": "A2",
-  "order": 25,
+  "order": 27,
   "body": {
    "en": [
     "Nine prepositions take either the accusative or the dative: in, an, auf, über, unter, vor, hinter, neben, zwischen.",
@@ -3302,7 +3709,7 @@
   },
   "icon": "👤",
   "level": "B1",
-  "order": 26,
+  "order": 28,
   "body": {
    "en": [
     "A group of masculine nouns adds -n or -en in every case except the nominative singular. They are often called weak masculine nouns, or the n-Deklination.",
@@ -3424,7 +3831,7 @@
   },
   "icon": "📆",
   "level": "B1",
-  "order": 27,
+  "order": 29,
   "body": {
    "en": [
     "English \"when\" splits three ways in German, and the split is systematic.",
@@ -3564,7 +3971,7 @@
   },
   "icon": "🔗",
   "level": "B1",
-  "order": 28,
+  "order": 30,
   "body": {
    "en": [
     "Many German verbs come with a fixed preposition that you cannot derive from English: warten auf, sich freuen auf, denken an, sich kümmern um, bestehen aus, teilnehmen an. Learn each verb together with its preposition and the case it takes.",
@@ -3688,7 +4095,7 @@
   },
   "icon": "❓",
   "level": "B1",
-  "order": 29,
+  "order": 31,
   "body": {
    "en": [
     "An indirect question is a question packed inside another sentence: \"Können Sie mir sagen, wo der Eingang ist?\" It is a subordinate clause, so the verb goes to the end.",
@@ -3778,7 +4185,7 @@
   },
   "icon": "↔️",
   "level": "B1",
-  "order": 30,
+  "order": 32,
   "body": {
    "en": [
     "Two-part connectors join two ideas in a single move, and using one or two correctly is one of the quickest ways to lift a text from A2 to B1.",

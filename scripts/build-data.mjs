@@ -21,6 +21,8 @@ import { LISTENING } from '../data-source/listening.mjs';
 import { WRITING } from '../data-source/writing.mjs';
 import { SPEAKING } from '../data-source/speaking.mjs';
 import { MAGAZINE } from '../data-source/magazine.mjs';
+import { A1_READING, A1_LISTENING, A1_WRITING, A1_SPEAKING } from '../data-source/exams/a1.mjs';
+import { A2_READING, A2_LISTENING, A2_WRITING, A2_SPEAKING } from '../data-source/exams/a2.mjs';
 import { themeColors } from './palette.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -214,7 +216,7 @@ function taskLevel(task, kind) {
   return level;
 }
 
-const reading = READING.map((task) => {
+const reading = [...A1_READING, ...A2_READING, ...READING].map((task) => {
   check(task.texts?.length > 0, `reading ${task.id} has no text`);
   check(task.items?.length > 0, `reading ${task.id} has no items`);
   return {
@@ -230,7 +232,7 @@ const reading = READING.map((task) => {
   };
 });
 
-const listening = LISTENING.map((task) => {
+const listening = [...A1_LISTENING, ...A2_LISTENING, ...LISTENING].map((task) => {
   check(task.script?.length > 0, `listening ${task.id} has no script`);
   check(task.items?.length > 0, `listening ${task.id} has no items`);
   for (const line of task.script) {
@@ -260,11 +262,11 @@ function checkProductive(task, kind) {
   check(task.phrases?.length > 0, `${kind} ${task.id}: no phrase bank`);
 }
 
-const writing = WRITING.map((t) => {
+const writing = [...A1_WRITING, ...A2_WRITING, ...WRITING].map((t) => {
   checkProductive(t, 'writing');
   return { ...t, level: taskLevel(t, 'writing') };
 });
-const speaking = SPEAKING.map((t) => {
+const speaking = [...A1_SPEAKING, ...A2_SPEAKING, ...SPEAKING].map((t) => {
   checkProductive(t, 'speaking');
   return { ...t, level: taskLevel(t, 'speaking') };
 });

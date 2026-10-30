@@ -8,22 +8,15 @@ export default {
   },
 
   connectors: [
-    ['weil', null, 'because (verb to the end)', 'Ich komme später, weil ich noch arbeiten muss.', 'I am coming later because I still have to work.'],
     ['deshalb', null, 'therefore, that is why', 'Der Zug fiel aus, deshalb kam ich zu spät.', 'The train was cancelled, that is why I was late.'],
     ['trotzdem', null, 'nevertheless', 'Es regnete, trotzdem sind wir gelaufen.', 'It was raining, nevertheless we walked.'],
     ['obwohl', null, 'although', 'Obwohl es teuer war, habe ich es gekauft.', 'Although it was expensive, I bought it.'],
-    ['damit', null, 'so that (purpose)', 'Ich lerne täglich, damit ich die Prüfung bestehe.', 'I study daily so that I pass the exam.'],
     ['um … zu', null, 'in order to', 'Ich lerne täglich, um die Prüfung zu bestehen.', 'I study daily in order to pass the exam.'],
-    ['wenn', null, 'if, whenever', 'Wenn ich Zeit habe, koche ich selbst.', 'When I have time I cook myself.'],
-    ['als', null, 'when (single past event)', 'Als ich ankam, war niemand da.', 'When I arrived nobody was there.'],
     ['falls', null, 'in case, if', 'Falls es regnet, bleiben wir zu Hause.', 'In case it rains we will stay at home.'],
     ['sobald', null, 'as soon as', 'Ich melde mich, sobald ich mehr weiß.', 'I will get in touch as soon as I know more.'],
     ['seitdem', null, 'since (time)', 'Seitdem ich hier wohne, fahre ich Rad.', 'Since I have lived here I cycle.'],
     ['bevor', null, 'before', 'Bevor du unterschreibst, lies alles.', 'Before you sign, read everything.'],
     ['nachdem', null, 'after (with Plusquamperfekt)', 'Nachdem ich gegessen hatte, ging ich los.', 'After I had eaten I set off.'],
-    ['während', null, 'while, whereas', 'Während ich koche, deckt er den Tisch.', 'While I cook he sets the table.'],
-    ['dass', null, 'that (verb to the end)', 'Ich hoffe, dass alles klappt.', 'I hope that everything works out.'],
-    ['ob', null, 'whether', 'Ich weiß nicht, ob er kommt.', 'I do not know whether he is coming.'],
     ['sowohl … als auch', null, 'both … and', 'Sie spricht sowohl Deutsch als auch Polnisch.', 'She speaks both German and Polish.'],
     ['entweder … oder', null, 'either … or', 'Entweder wir fahren heute oder gar nicht.', 'Either we go today or not at all.'],
     ['weder … noch', null, 'neither … nor', 'Ich habe weder Zeit noch Lust.', 'I have neither the time nor the inclination.'],
@@ -44,8 +37,6 @@ export default {
   ],
 
   phrases: [
-    ['Liebe Grüße', null, 'Kind regards (informal)', 'Bis bald und liebe Grüße, Amir', 'See you soon and kind regards, Amir'],
-    ['Mit freundlichen Grüßen', null, 'Yours sincerely (formal)', 'Mit freundlichen Grüßen, Amir Hosseini', 'Yours sincerely, Amir Hosseini'],
     ['Ich schreibe Ihnen, weil …', null, 'I am writing to you because …', 'Ich schreibe Ihnen, weil ich den Kurs verschieben möchte.', 'I am writing to you because I would like to postpone the course.'],
     ['Vielen Dank im Voraus', null, 'Many thanks in advance', 'Vielen Dank im Voraus für Ihre Mühe.', 'Many thanks in advance for your trouble.'],
     ['Ich würde mich freuen, wenn …', null, 'I would be glad if …', 'Ich würde mich freuen, wenn Sie mir antworten könnten.', 'I would be glad if you could reply to me.'],

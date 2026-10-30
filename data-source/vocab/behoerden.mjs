@@ -9,16 +9,11 @@ export default {
 
   nouns: [
     ['die Behörde', '-n', 'public authority', 'Für diesen Antrag ist eine andere Behörde zuständig.', 'A different authority is responsible for this application.'],
-    ['das Bürgeramt', '-¨er', 'citizens’ office', 'Im Bürgeramt bekommst du die Meldebescheinigung.', 'At the citizens’ office you get the registration certificate.'],
     ['die Ausländerbehörde', '-n', 'immigration office', 'Die Ausländerbehörde verlängert den Aufenthaltstitel.', 'The immigration office extends the residence permit.'],
-    ['der Antrag', '-¨e', 'application (formal)', 'Der Antrag muss vollständig ausgefüllt sein.', 'The application must be filled in completely.'],
     ['die Unterlagen', 'nur Plural', 'documents', 'Bringen Sie bitte alle Unterlagen im Original mit.', 'Please bring all documents in the original.'],
-    ['die Bescheinigung', '-en', 'certificate, confirmation', 'Die Bescheinigung gilt drei Monate.', 'The confirmation is valid for three months.'],
     ['der Nachweis', '-e', 'proof, evidence', 'Als Nachweis reicht die letzte Gehaltsabrechnung.', 'The last payslip is sufficient as proof.'],
     ['der Bescheid', '-e', 'official decision, notice', 'Der Bescheid kommt in etwa vier Wochen.', 'The decision will come in about four weeks.'],
-    ['die Frist', '-en', 'deadline', 'Die Frist endet am 31. März.', 'The deadline ends on 31 March.'],
     ['die Abmeldung', '-en', 'deregistration', 'Vor dem Wegzug brauchst du eine Abmeldung.', 'Before leaving you need a deregistration.'],
-    ['die Steuer', '-n', 'tax', 'Die Steuer wird direkt vom Lohn abgezogen.', 'The tax is deducted directly from the wage.'],
     ['die Steuererklärung', '-en', 'tax return', 'Die Steuererklärung mache ich online.', 'I do my tax return online.'],
     ['die Versicherungsnummer', '-n', 'insurance number', 'Ihre Versicherungsnummer steht auf der Karte.', 'Your insurance number is on the card.'],
     ['der Aufenthaltstitel', '-', 'residence permit', 'Mein Aufenthaltstitel läuft im November ab.', 'My residence permit expires in November.'],
@@ -30,7 +25,6 @@ export default {
   verbs: [
     ['vorlegen', null, 'to present, to produce', 'Bitte legen Sie Ihren Ausweis vor.', 'Please present your ID card.'],
     ['sich ausweisen', 'weist sich aus · wies sich aus · hat sich ausgewiesen', 'to identify oneself', 'Sie müssen sich am Schalter ausweisen.', 'You have to identify yourself at the counter.'],
-    ['verlängern', null, 'to extend, to renew', 'Den Pass kann man online verlängern.', 'You can renew the passport online.'],
     ['ablehnen', null, 'to reject', 'Der Antrag wurde ohne Begründung abgelehnt.', 'The application was rejected without a reason.'],
     ['genehmigen', null, 'to approve', 'Der Urlaub wurde genehmigt.', 'The leave was approved.'],
     ['mitteilen', null, 'to notify, to inform', 'Bitte teilen Sie uns Ihre neue Adresse mit.', 'Please inform us of your new address.'],
