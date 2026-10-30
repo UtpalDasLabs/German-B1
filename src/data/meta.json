@@ -11,7 +11,12 @@
    "payoff": {
     "de": "Sprechen Teil 1 und Schreiben: über dich und deine Leute erzählen.",
     "en": "Sprechen part 1 and Schreiben: talking about yourself and your people."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ]
   },
   {
    "key": "wohnen",
@@ -24,7 +29,12 @@
    "payoff": {
     "de": "Lesen Teil 3 (Anzeigen) und Schreiben: Wohnungssuche, Nachbarn, Vermieter.",
     "en": "Lesen part 3 (adverts) and Schreiben: flat hunting, neighbours, landlords."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ]
   },
   {
    "key": "arbeit",
@@ -37,7 +47,13 @@
    "payoff": {
     "de": "Schreiben Teil 3 (formelle Mail) und Lesen Teil 4: Bewerbung, Chef, Kollegen.",
     "en": "Schreiben part 3 (formal email) and Lesen part 4: applications, bosses, colleagues."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ]
   },
   {
    "key": "bildung",
@@ -50,7 +66,13 @@
    "payoff": {
     "de": "Hören Teil 2 (Vortrag) und Sprechen: Kurse, Schule, Weiterbildung.",
     "en": "Hören part 2 (a talk) and Sprechen: courses, school, further training."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ]
   },
   {
    "key": "gesundheit",
@@ -63,7 +85,13 @@
    "payoff": {
     "de": "Hören Teil 1 (Ansagen) und Sprechen: Arzttermin, Beschwerden, Krankmeldung.",
     "en": "Hören part 1 (announcements) and Sprechen: appointments, symptoms, sick notes."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ]
   },
   {
    "key": "essen",
@@ -76,7 +104,12 @@
    "payoff": {
     "de": "Sprechen Teil 1: gemeinsam ein Essen oder eine Feier planen.",
     "en": "Sprechen part 1: planning a meal or a celebration together."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ]
   },
   {
    "key": "einkaufen",
@@ -89,7 +122,12 @@
    "payoff": {
     "de": "Schreiben Teil 3: Beschwerde, Umtausch, Reklamation an eine Firma.",
     "en": "Schreiben part 3: complaints, exchanges and returns to a company."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ]
   },
   {
    "key": "reisen",
@@ -102,7 +140,12 @@
    "payoff": {
     "de": "Sprechen Teil 1 (Ausflug planen) und Schreiben Teil 1 (Mail an Freunde).",
     "en": "Sprechen part 1 (planning a trip) and Schreiben part 1 (email to friends)."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ]
   },
   {
    "key": "verkehr",
@@ -115,7 +158,12 @@
    "payoff": {
     "de": "Hören Teil 1: Durchsagen am Bahnhof, Flughafen und im Zug.",
     "en": "Hören part 1: announcements at stations, airports and on trains."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ]
   },
   {
    "key": "freizeit",
@@ -128,7 +176,12 @@
    "payoff": {
     "de": "Sprechen Teil 2: eine Präsentation über ein Thema aus deinem Leben.",
     "en": "Sprechen part 2: a presentation about a topic from your own life."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ]
   },
   {
    "key": "medien",
@@ -141,7 +194,13 @@
    "payoff": {
     "de": "Schreiben Teil 2: der Forumsbeitrag, in dem du eine Meinung begründest.",
     "en": "Schreiben part 2: the forum post where you justify an opinion."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ]
   },
   {
    "key": "umwelt",
@@ -154,7 +213,13 @@
    "payoff": {
     "de": "Ein Dauerthema in Lesen Teil 4 und im Forumsbeitrag: Pro und Kontra.",
     "en": "A standing topic in Lesen part 4 and the forum post: pros and cons."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ]
   },
   {
    "key": "behoerden",
@@ -167,7 +232,12 @@
    "payoff": {
     "de": "Lesen Teil 5 (Regeln und Hinweise) und die formelle Mail im Schreiben.",
     "en": "Lesen part 5 (rules and notices) and the formal email in Schreiben."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ]
   },
   {
    "key": "gefuehle",
@@ -180,7 +250,14 @@
    "payoff": {
     "de": "Sprechen Teil 3 und Schreiben Teil 1: reagieren, trösten, sich freuen.",
     "en": "Sprechen part 3 and Schreiben part 1: reacting, consoling, being pleased."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1"
+   ]
   },
   {
    "key": "kommunikation",
@@ -193,7 +270,14 @@
    "payoff": {
     "de": "Der Kern von Sprechen Teil 1 und 3: vorschlagen, zustimmen, widersprechen.",
     "en": "The core of Sprechen parts 1 and 3: suggesting, agreeing, disagreeing."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1"
+   ]
   },
   {
    "key": "stadt",
@@ -206,7 +290,14 @@
    "payoff": {
     "de": "Lesen Teil 3: Anzeigen und Aushänge aus dem Stadtteil richtig zuordnen.",
     "en": "Lesen part 3: matching adverts and local notices to the right person."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1"
+   ]
   },
   {
    "key": "zeit",
@@ -219,7 +310,12 @@
    "payoff": {
     "de": "Überall: Termine verstehen, Erzählungen ordnen, Pläne machen.",
     "en": "Everywhere: understanding appointments, ordering a story, making plans."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ]
   },
   {
    "key": "verben",
@@ -232,7 +328,12 @@
    "payoff": {
     "de": "Die unregelmäßigen Formen, die in jedem Prüfungsteil vorkommen.",
     "en": "The irregular forms that turn up in every part of the exam."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ]
   },
   {
    "key": "adjektive",
@@ -245,7 +346,12 @@
    "payoff": {
     "de": "Beschreiben und vergleichen - genau das verlangt die Präsentation.",
     "en": "Describing and comparing - exactly what the presentation asks for."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ]
   },
   {
    "key": "praepositionen",
@@ -258,7 +364,12 @@
    "payoff": {
     "de": "Der häufigste Fehler auf B1 - und in telc-Sprachbausteinen fast garantiert.",
     "en": "The most common B1 mistake - and almost guaranteed in telc Sprachbausteine."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ]
   },
   {
    "key": "konnektoren",
@@ -271,7 +382,13 @@
    "payoff": {
     "de": "Der Unterschied zwischen A2 und B1 im Schreiben: Sätze verbinden.",
     "en": "The difference between A2 and B1 in writing: joining sentences up."
-   }
+   },
+   "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+   ]
   },
   {
    "key": "nomenverben",
@@ -284,7 +401,1679 @@
    "payoff": {
     "de": "Nomen-Verb-Verbindungen: erwachsenes Deutsch statt Schulbuchdeutsch.",
     "en": "Noun-verb collocations: grown-up German instead of textbook German."
-   }
+   },
+   "levels": [
+    "B1"
+   ]
+  },
+  {
+   "key": "wirtschaft",
+   "label": {
+    "de": "Wirtschaft & Beruf",
+    "en": "Business & professional life"
+   },
+   "icon": "📊",
+   "color": "#FF4B4B",
+   "payoff": {
+    "de": "Berufliches Deutsch: Besprechungen, Angebote, Verhandlungen, Zahlen.",
+    "en": "Business German: meetings, quotes, negotiation, figures."
+   },
+   "levels": [
+    "B2",
+    "C1"
+   ]
+  },
+  {
+   "key": "wissenschaft",
+   "label": {
+    "de": "Wissen & Argumentation",
+    "en": "Knowledge & argument"
+   },
+   "icon": "🔬",
+   "color": "#18B98A",
+   "payoff": {
+    "de": "Fachtexte lesen und eine These vertreten, ohne sie zu überdehnen.",
+    "en": "Reading specialist texts and arguing a case without overstating it."
+   },
+   "levels": [
+    "B2",
+    "C1"
+   ]
+  }
+ ],
+ "levels": [
+  {
+   "key": "A1",
+   "name": {
+    "de": "Anfänger",
+    "en": "Beginner"
+   },
+   "summary": {
+    "de": "Sich vorstellen, einkaufen, nach dem Weg fragen. Einfache Sätze über sich selbst.",
+    "en": "Introduce yourself, shop, ask directions. Simple sentences about yourself."
+   },
+   "color": "#18B98A",
+   "targetWords": 650,
+   "certificates": [
+    "Goethe-Zertifikat A1 (Start Deutsch 1)",
+    "telc Deutsch A1"
+   ]
+  },
+  {
+   "key": "A2",
+   "name": {
+    "de": "Grundlagen",
+    "en": "Elementary"
+   },
+   "summary": {
+    "de": "Über Alltag, Arbeit und Vergangenheit sprechen. Termine machen, sich beschweren.",
+    "en": "Talk about daily life, work and the past. Make appointments, complain."
+   },
+   "color": "#2BB3F3",
+   "targetWords": 1300,
+   "certificates": [
+    "Goethe-Zertifikat A2",
+    "telc Deutsch A2"
+   ]
+  },
+  {
+   "key": "B1",
+   "name": {
+    "de": "Selbstständig",
+    "en": "Independent"
+   },
+   "summary": {
+    "de": "Meinungen begründen, erzählen, mit Behörden umgehen. Das Niveau für Einbürgerung und Ausbildung.",
+    "en": "Justify opinions, tell a story, deal with officialdom. The level for naturalisation and training."
+   },
+   "color": "#FF9F1C",
+   "targetWords": 2400,
+   "certificates": [
+    "Goethe-Zertifikat B1",
+    "telc Deutsch B1",
+    "Deutsch-Test für Zuwanderer"
+   ]
+  },
+  {
+   "key": "B2",
+   "name": {
+    "de": "Fortgeschritten",
+    "en": "Upper intermediate"
+   },
+   "summary": {
+    "de": "Abstrakt diskutieren, argumentieren, Fachtexte lesen. Das Niveau für Studium und viele Berufe.",
+    "en": "Discuss abstractly, argue a case, read specialist texts. The level for university and many professions."
+   },
+   "color": "#A472F0",
+   "targetWords": 4000,
+   "certificates": [
+    "Goethe-Zertifikat B2",
+    "telc Deutsch B2"
+   ]
+  },
+  {
+   "key": "C1",
+   "name": {
+    "de": "Kompetent",
+    "en": "Advanced"
+   },
+   "summary": {
+    "de": "Fließend und differenziert, auch bei komplexen Themen. Nuancen, Stil, Ironie.",
+    "en": "Fluent and nuanced, even on complex topics. Register, style, irony."
+   },
+   "color": "#F45D9C",
+   "targetWords": 6000,
+   "certificates": [
+    "Goethe-Zertifikat C1",
+    "telc Deutsch C1 Hochschule"
+   ]
+  }
+ ],
+ "units": [
+  {
+   "key": "a1.1",
+   "level": "A1",
+   "n": 1,
+   "title": {
+    "de": "Hallo! Ich bin …",
+    "en": "Hello! I am …"
+   },
+   "icon": "👋",
+   "blurb": {
+    "de": "Sich vorstellen, jemanden begrüßen, den Namen buchstabieren.",
+    "en": "Introduce yourself, greet someone, spell your name."
+   },
+   "canDos": [
+    {
+     "id": "cd.a1.1.1",
+     "text": {
+      "de": "Ich kann mich vorstellen: Name, Herkunft, Wohnort.",
+      "en": "I can introduce myself: name, origin, where I live."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a1.1.2",
+     "text": {
+      "de": "Ich kann jemanden begrüßen und mich verabschieden.",
+      "en": "I can greet someone and say goodbye."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a1.1.3",
+     "text": {
+      "de": "Ich kann einen Namen und eine Telefonnummer verstehen, wenn man sie buchstabiert.",
+      "en": "I can understand a name and a phone number when they are spelled out."
+     },
+     "area": "hoeren"
+    },
+    {
+     "id": "cd.a1.1.4",
+     "text": {
+      "de": "Ich kann Verben im Präsens richtig konjugieren.",
+      "en": "I can conjugate verbs correctly in the present tense."
+     },
+     "area": "grammatik"
+    }
+   ],
+   "themes": [
+    "familie",
+    "kommunikation"
+   ],
+   "grammar": [
+    "praesens",
+    "wfragen"
+   ],
+   "tasks": [
+    "s.a1.1"
+   ]
+  },
+  {
+   "key": "a1.2",
+   "level": "A1",
+   "n": 2,
+   "title": {
+    "de": "Mein Zuhause",
+    "en": "My home"
+   },
+   "icon": "🏠",
+   "blurb": {
+    "de": "Die Wohnung beschreiben, sagen wo etwas ist, Möbel benennen.",
+    "en": "Describe your flat, say where things are, name the furniture."
+   },
+   "canDos": [
+    {
+     "id": "cd.a1.2.1",
+     "text": {
+      "de": "Ich kann meine Wohnung beschreiben: Zimmer, Größe, Möbel.",
+      "en": "I can describe my flat: rooms, size, furniture."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a1.2.2",
+     "text": {
+      "de": "Ich kenne den Artikel zu den Wörtern, die ich lerne.",
+      "en": "I know the article that goes with the words I learn."
+     },
+     "area": "wortschatz"
+    },
+    {
+     "id": "cd.a1.2.3",
+     "text": {
+      "de": "Ich kann der, die, das und ein, eine richtig verwenden.",
+      "en": "I can use der, die, das and ein, eine correctly."
+     },
+     "area": "grammatik"
+    }
+   ],
+   "themes": [
+    "wohnen"
+   ],
+   "grammar": [
+    "artikel",
+    "possessiv"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "a1.3",
+   "level": "A1",
+   "n": 3,
+   "title": {
+    "de": "Einkaufen und essen",
+    "en": "Shopping and eating"
+   },
+   "icon": "🛒",
+   "blurb": {
+    "de": "Im Laden und im Restaurant: bestellen, nach dem Preis fragen, bezahlen.",
+    "en": "In the shop and the restaurant: order, ask the price, pay."
+   },
+   "canDos": [
+    {
+     "id": "cd.a1.3.1",
+     "text": {
+      "de": "Ich kann im Restaurant etwas bestellen und bezahlen.",
+      "en": "I can order something in a restaurant and pay."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a1.3.2",
+     "text": {
+      "de": "Ich kann nach dem Preis fragen und die Antwort verstehen.",
+      "en": "I can ask the price and understand the answer."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a1.3.3",
+     "text": {
+      "de": "Ich kann den Akkusativ nach haben, brauchen und möchten bilden.",
+      "en": "I can form the accusative after haben, brauchen and möchten."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.a1.3.4",
+     "text": {
+      "de": "Ich kann mit nicht und kein richtig verneinen.",
+      "en": "I can negate correctly with nicht and kein."
+     },
+     "area": "grammatik"
+    }
+   ],
+   "themes": [
+    "essen",
+    "einkaufen"
+   ],
+   "grammar": [
+    "akkusativ",
+    "negation"
+   ],
+   "tasks": [
+    "l.a1.2"
+   ]
+  },
+  {
+   "key": "a1.4",
+   "level": "A1",
+   "n": 4,
+   "title": {
+    "de": "Mein Tag",
+    "en": "My day"
+   },
+   "icon": "⏰",
+   "blurb": {
+    "de": "Uhrzeit, Wochentage, Termine und der eigene Tagesablauf.",
+    "en": "Telling the time, days of the week, appointments and your own routine."
+   },
+   "canDos": [
+    {
+     "id": "cd.a1.4.1",
+     "text": {
+      "de": "Ich kann die Uhrzeit sagen und nach ihr fragen.",
+      "en": "I can tell the time and ask for it."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a1.4.2",
+     "text": {
+      "de": "Ich kann meinen Tagesablauf erzählen.",
+      "en": "I can describe my daily routine."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a1.4.3",
+     "text": {
+      "de": "Ich kann einen Termin vereinbaren oder verschieben.",
+      "en": "I can arrange or move an appointment."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a1.4.4",
+     "text": {
+      "de": "Ich kann trennbare Verben richtig stellen: \"Ich stehe um sechs auf.\"",
+      "en": "I can position separable verbs correctly: \"Ich stehe um sechs auf.\""
+     },
+     "area": "grammatik"
+    }
+   ],
+   "themes": [
+    "zeit",
+    "verben"
+   ],
+   "grammar": [
+    "satzklammer",
+    "trennbar"
+   ],
+   "tasks": [
+    "l.a1.1",
+    "w.a1.1"
+   ]
+  },
+  {
+   "key": "a1.5",
+   "level": "A1",
+   "n": 5,
+   "title": {
+    "de": "Unterwegs",
+    "en": "Getting around"
+   },
+   "icon": "🚌",
+   "blurb": {
+    "de": "Nach dem Weg fragen, Fahrkarten kaufen, Bus und Bahn benutzen.",
+    "en": "Ask the way, buy tickets, use buses and trains."
+   },
+   "canDos": [
+    {
+     "id": "cd.a1.5.1",
+     "text": {
+      "de": "Ich kann nach dem Weg fragen und eine Wegbeschreibung verstehen.",
+      "en": "I can ask the way and understand directions."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a1.5.2",
+     "text": {
+      "de": "Ich kann eine Fahrkarte kaufen und nach der Abfahrt fragen.",
+      "en": "I can buy a ticket and ask when it leaves."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a1.5.3",
+     "text": {
+      "de": "Ich kann eine Ansage am Bahnhof in den Grundzügen verstehen.",
+      "en": "I can get the gist of an announcement at the station."
+     },
+     "area": "hoeren"
+    },
+    {
+     "id": "cd.a1.5.4",
+     "text": {
+      "de": "Ich kann höfliche Aufforderungen mit dem Imperativ bilden.",
+      "en": "I can make polite requests with the imperative."
+     },
+     "area": "grammatik"
+    }
+   ],
+   "themes": [
+    "verkehr",
+    "stadt"
+   ],
+   "grammar": [
+    "imperativ"
+   ],
+   "tasks": [
+    "h.a1.1"
+   ]
+  },
+  {
+   "key": "a1.6",
+   "level": "A1",
+   "n": 6,
+   "title": {
+    "de": "Gesundheit und Freizeit",
+    "en": "Health and free time"
+   },
+   "icon": "🎾",
+   "blurb": {
+    "de": "Beim Arzt sagen, was fehlt. Über Hobbys und Pläne sprechen.",
+    "en": "Tell the doctor what is wrong. Talk about hobbies and plans."
+   },
+   "canDos": [
+    {
+     "id": "cd.a1.6.1",
+     "text": {
+      "de": "Ich kann beim Arzt sagen, was mir fehlt.",
+      "en": "I can tell the doctor what is wrong with me."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a1.6.2",
+     "text": {
+      "de": "Ich kann über meine Hobbys sprechen und sagen, was ich gern mache.",
+      "en": "I can talk about my hobbies and say what I like doing."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a1.6.3",
+     "text": {
+      "de": "Ich kann mit können, müssen und möchten sagen, was möglich und nötig ist.",
+      "en": "I can use können, müssen and möchten to say what is possible and necessary."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a1.6.4",
+     "text": {
+      "de": "Ich kann einfache Schilder, Formulare und kurze Mitteilungen verstehen.",
+      "en": "I can understand simple signs, forms and short notices."
+     },
+     "area": "lesen"
+    }
+   ],
+   "themes": [
+    "gesundheit",
+    "freizeit",
+    "behoerden"
+   ],
+   "grammar": [
+    "modalverben"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "a2.1",
+   "level": "A2",
+   "n": 1,
+   "title": {
+    "de": "Erzählen, was passiert ist",
+    "en": "Telling what happened"
+   },
+   "icon": "⏪",
+   "blurb": {
+    "de": "Das Perfekt für fast alles, war und hatte für den Rest.",
+    "en": "The Perfekt for almost everything, war and hatte for the rest."
+   },
+   "canDos": [
+    {
+     "id": "cd.a2.1.1",
+     "text": {
+      "de": "Ich kann erzählen, was ich am Wochenende gemacht habe.",
+      "en": "I can say what I did at the weekend."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a2.1.2",
+     "text": {
+      "de": "Ich weiß, wann ein Verb haben und wann es sein nimmt.",
+      "en": "I know when a verb takes haben and when it takes sein."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.a2.1.3",
+     "text": {
+      "de": "Ich benutze war, hatte und musste statt der Perfektform.",
+      "en": "I use war, hatte and musste instead of the Perfekt form."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.a2.1.4",
+     "text": {
+      "de": "Ich kann einer Freundin kurz schreiben, wie mein Urlaub war.",
+      "en": "I can write a friend a short note about my holiday."
+     },
+     "area": "schreiben"
+    }
+   ],
+   "themes": [
+    "zeit",
+    "verben"
+   ],
+   "grammar": [
+    "perfekt",
+    "vergangenheita2"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "a2.2",
+   "level": "A2",
+   "n": 2,
+   "title": {
+    "de": "Wem? Der Dativ",
+    "en": "To whom? The dative"
+   },
+   "icon": "👉",
+   "blurb": {
+    "de": "Wer bekommt etwas, wem hilfst du, und wo steht das Fahrrad.",
+    "en": "Who receives something, who you help, and where the bike is."
+   },
+   "canDos": [
+    {
+     "id": "cd.a2.2.1",
+     "text": {
+      "de": "Ich kann den Dativ nach mit, bei, nach, seit, von und zu bilden.",
+      "en": "I can form the dative after mit, bei, nach, seit, von and zu."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.a2.2.2",
+     "text": {
+      "de": "Ich unterscheide \"in die Küche\" von \"in der Küche\".",
+      "en": "I can tell \"in die Küche\" from \"in der Küche\"."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.a2.2.3",
+     "text": {
+      "de": "Ich kann sagen, wo etwas ist und wohin ich gehe.",
+      "en": "I can say where something is and where I am going."
+     },
+     "area": "sprechen"
+    }
+   ],
+   "themes": [
+    "wohnen",
+    "verkehr"
+   ],
+   "grammar": [
+    "dativ",
+    "wechselpraepositionen"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "a2.3",
+   "level": "A2",
+   "n": 3,
+   "title": {
+    "de": "Nachbarn und Probleme",
+    "en": "Neighbours and problems"
+   },
+   "icon": "🏠",
+   "blurb": {
+    "de": "Sich beschweren, einen Schaden melden, einen Grund nennen.",
+    "en": "Complain, report a fault, give a reason."
+   },
+   "canDos": [
+    {
+     "id": "cd.a2.3.1",
+     "text": {
+      "de": "Ich kann dem Vermieter einen Schaden schriftlich melden.",
+      "en": "I can report a fault to the landlord in writing."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.a2.3.2",
+     "text": {
+      "de": "Ich kann mit weil, dass und wenn Nebensätze bilden.",
+      "en": "I can build subordinate clauses with weil, dass and wenn."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.a2.3.3",
+     "text": {
+      "de": "Ich kann mich höflich beschweren, ohne unhöflich zu werden.",
+      "en": "I can complain politely without being rude."
+     },
+     "area": "sprechen"
+    }
+   ],
+   "themes": [
+    "wohnen",
+    "kommunikation"
+   ],
+   "grammar": [
+    "nebensaetze"
+   ],
+   "tasks": [
+    "w.a2.1",
+    "h.a2.1"
+   ]
+  },
+  {
+   "key": "a2.4",
+   "level": "A2",
+   "n": 4,
+   "title": {
+    "de": "Arbeit und Bewerbung",
+    "en": "Work and applications"
+   },
+   "icon": "💼",
+   "blurb": {
+    "de": "Eine Stelle suchen, sich bewerben, über Erfahrung sprechen.",
+    "en": "Look for a job, apply, talk about your experience."
+   },
+   "canDos": [
+    {
+     "id": "cd.a2.4.1",
+     "text": {
+      "de": "Ich kann einer Stellenanzeige entnehmen, was verlangt wird.",
+      "en": "I can work out from a job advert what is being asked for."
+     },
+     "area": "lesen"
+    },
+    {
+     "id": "cd.a2.4.2",
+     "text": {
+      "de": "Ich kann im Vorstellungsgespräch über meine Erfahrung sprechen.",
+      "en": "I can talk about my experience in a job interview."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a2.4.3",
+     "text": {
+      "de": "Ich kann Sätze mit \"zu\" und \"um … zu\" bilden.",
+      "en": "I can build sentences with \"zu\" and \"um … zu\"."
+     },
+     "area": "grammatik"
+    }
+   ],
+   "themes": [
+    "arbeit",
+    "bildung"
+   ],
+   "grammar": [
+    "infinitivsaetze"
+   ],
+   "tasks": [
+    "l.a2.1"
+   ]
+  },
+  {
+   "key": "a2.5",
+   "level": "A2",
+   "n": 5,
+   "title": {
+    "de": "Gesundheit und Ämter",
+    "en": "Health and officialdom"
+   },
+   "icon": "🏥",
+   "blurb": {
+    "de": "Beim Arzt und auf dem Amt: erklären, nachfragen, Termine machen.",
+    "en": "At the doctor and the public office: explain, ask, make appointments."
+   },
+   "canDos": [
+    {
+     "id": "cd.a2.5.1",
+     "text": {
+      "de": "Ich kann beim Arzt genau beschreiben, was mir fehlt.",
+      "en": "I can describe exactly what is wrong with me at the doctor’s."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a2.5.2",
+     "text": {
+      "de": "Ich kann am Telefon einen Termin vereinbaren.",
+      "en": "I can arrange an appointment on the phone."
+     },
+     "area": "hoeren"
+    },
+    {
+     "id": "cd.a2.5.3",
+     "text": {
+      "de": "Ich kann reflexive Verben richtig verwenden: sich fühlen, sich anmelden.",
+      "en": "I can use reflexive verbs correctly: sich fühlen, sich anmelden."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.a2.5.4",
+     "text": {
+      "de": "Ich kann einem Formular entnehmen, was ich eintragen muss.",
+      "en": "I can work out from a form what I have to enter."
+     },
+     "area": "lesen"
+    }
+   ],
+   "themes": [
+    "gesundheit",
+    "behoerden"
+   ],
+   "grammar": [
+    "reflexiv"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "a2.6",
+   "level": "A2",
+   "n": 6,
+   "title": {
+    "de": "Vergleichen und beschreiben",
+    "en": "Comparing and describing"
+   },
+   "icon": "⚖️",
+   "blurb": {
+    "de": "Größer, am besten, der neue Mantel: Vergleich und Adjektivendung.",
+    "en": "Bigger, best, the new coat: comparison and adjective endings."
+   },
+   "canDos": [
+    {
+     "id": "cd.a2.6.1",
+     "text": {
+      "de": "Ich kann zwei Dinge vergleichen und begründen, was ich nehme.",
+      "en": "I can compare two things and say why I would take one."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.a2.6.2",
+     "text": {
+      "de": "Ich kann Komparativ und Superlativ bilden, auch bei gut und viel.",
+      "en": "I can form the comparative and superlative, including gut and viel."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.a2.6.3",
+     "text": {
+      "de": "Ich setze die Adjektivendung nach der, ein und ohne Artikel richtig.",
+      "en": "I get the adjective ending right after der, after ein and with no article."
+     },
+     "area": "grammatik"
+    }
+   ],
+   "themes": [
+    "einkaufen",
+    "adjektive"
+   ],
+   "grammar": [
+    "komparativ",
+    "adjektivdeklination"
+   ],
+   "tasks": [
+    "s.a2.1"
+   ]
+  },
+  {
+   "key": "b1.1",
+   "level": "B1",
+   "n": 1,
+   "title": {
+    "de": "Erzählen, was war",
+    "en": "Telling what happened"
+   },
+   "icon": "🕓",
+   "blurb": {
+    "de": "Die drei Vergangenheitsformen und wann man welche nimmt.",
+    "en": "The three past tenses and when each one is used."
+   },
+   "canDos": [
+    {
+     "id": "cd.b1.1.1",
+     "text": {
+      "de": "Ich kann eine Geschichte in der Vergangenheit zusammenhängend erzählen.",
+      "en": "I can tell a story in the past as a connected whole."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.b1.1.2",
+     "text": {
+      "de": "Ich kann das Präteritum beim Schreiben statt des Perfekts verwenden.",
+      "en": "I can use the Präteritum in writing in place of the Perfekt."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.b1.1.3",
+     "text": {
+      "de": "Ich kann mit nachdem und Plusquamperfekt eine Reihenfolge klarmachen.",
+      "en": "I can use nachdem and the Plusquamperfekt to make a sequence clear."
+     },
+     "area": "grammatik"
+    }
+   ],
+   "themes": [
+    "verben",
+    "zeit"
+   ],
+   "grammar": [
+    "praeteritum",
+    "plusquamperfekt",
+    "futur"
+   ],
+   "tasks": [
+    "w1a",
+    "s2a"
+   ]
+  },
+  {
+   "key": "b1.2",
+   "level": "B1",
+   "n": 2,
+   "title": {
+    "de": "Sätze verbinden",
+    "en": "Joining sentences up"
+   },
+   "icon": "🔗",
+   "blurb": {
+    "de": "Relativsätze, deshalb und trotzdem, und die Satzstellung im Mittelfeld.",
+    "en": "Relative clauses, deshalb and trotzdem, and word order in the middle field."
+   },
+   "canDos": [
+    {
+     "id": "cd.b1.2.1",
+     "text": {
+      "de": "Ich kann zwei Gedanken mit einem Relativsatz zu einem Satz machen.",
+      "en": "I can join two thoughts into one sentence with a relative clause."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.b1.2.2",
+     "text": {
+      "de": "Ich kann deshalb, trotzdem und denn mit der richtigen Wortstellung verwenden.",
+      "en": "I can use deshalb, trotzdem and denn with the right word order."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.b1.2.3",
+     "text": {
+      "de": "Ich kann einen Text schreiben, der nicht aus kurzen Hauptsätzen besteht.",
+      "en": "I can write a text that is not just a run of short main clauses."
+     },
+     "area": "schreiben"
+    }
+   ],
+   "themes": [
+    "konnektoren"
+   ],
+   "grammar": [
+    "relativsaetze",
+    "konnektoren",
+    "wortstellung",
+    "zweiteilige"
+   ],
+   "tasks": [
+    "l1a",
+    "w2a"
+   ]
+  },
+  {
+   "key": "b1.3",
+   "level": "B1",
+   "n": 3,
+   "title": {
+    "de": "Meinung und Hypothese",
+    "en": "Opinion and hypothesis"
+   },
+   "icon": "💭",
+   "blurb": {
+    "de": "Konjunktiv II für Höflichkeit, Ratschläge und das, was man täte.",
+    "en": "Konjunktiv II for politeness, advice and what you would do."
+   },
+   "canDos": [
+    {
+     "id": "cd.b1.3.1",
+     "text": {
+      "de": "Ich kann einen Vorschlag höflich formulieren und begründen.",
+      "en": "I can make a suggestion politely and give reasons for it."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.b1.3.2",
+     "text": {
+      "de": "Ich kann einen Ratschlag geben: \"Ich würde an deiner Stelle …\"",
+      "en": "I can give advice: \"If I were you I would …\""
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.b1.3.3",
+     "text": {
+      "de": "Ich kann würde, wäre, hätte und könnte sicher einsetzen.",
+      "en": "I can use würde, wäre, hätte and könnte with confidence."
+     },
+     "area": "grammatik"
+    }
+   ],
+   "themes": [
+    "gefuehle"
+   ],
+   "grammar": [
+    "konjunktiv2"
+   ],
+   "tasks": [
+    "s1a",
+    "s1b"
+   ]
+  },
+  {
+   "key": "b1.4",
+   "level": "B1",
+   "n": 4,
+   "title": {
+    "de": "Sachlich schreiben",
+    "en": "Writing impersonally"
+   },
+   "icon": "📄",
+   "blurb": {
+    "de": "Passiv, Genitiv und die n-Deklination: der Ton von Formularen und Berichten.",
+    "en": "The passive, the genitive and the weak masculines: the register of forms and reports."
+   },
+   "canDos": [
+    {
+     "id": "cd.b1.4.1",
+     "text": {
+      "de": "Ich kann eine formelle E-Mail in angemessenem Ton schreiben.",
+      "en": "I can write a formal email in an appropriate register."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.b1.4.2",
+     "text": {
+      "de": "Ich kann das Passiv bilden, wenn der Handelnde unwichtig ist.",
+      "en": "I can form the passive when who did it does not matter."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.b1.4.3",
+     "text": {
+      "de": "Ich kann einen amtlichen Text lesen und die Pflichten daraus ablesen.",
+      "en": "I can read an official text and work out what it requires of me."
+     },
+     "area": "lesen"
+    }
+   ],
+   "themes": [
+    "behoerden",
+    "arbeit"
+   ],
+   "grammar": [
+    "passiv",
+    "genitiv",
+    "ndeklination"
+   ],
+   "tasks": [
+    "w3a",
+    "l5a"
+   ]
+  },
+  {
+   "key": "b1.5",
+   "level": "B1",
+   "n": 5,
+   "title": {
+    "de": "Genau nachfragen",
+    "en": "Asking precisely"
+   },
+   "icon": "❓",
+   "blurb": {
+    "de": "Verben mit Präposition, da- und wo-Formen und indirekte Fragen.",
+    "en": "Verbs with prepositions, da- and wo- forms and indirect questions."
+   },
+   "canDos": [
+    {
+     "id": "cd.b1.5.1",
+     "text": {
+      "de": "Ich kann höflich nachfragen, ohne unhöflich direkt zu klingen.",
+      "en": "I can ask for clarification politely rather than bluntly."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.b1.5.2",
+     "text": {
+      "de": "Ich kenne die Präposition, die zu einem Verb gehört, und kann darauf verweisen.",
+      "en": "I know which preposition goes with a verb and can refer back to it."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.b1.5.3",
+     "text": {
+      "de": "Ich kann in einem Gespräch erkennen, worauf sich eine Nachfrage bezieht.",
+      "en": "I can work out in a conversation what a follow-up question refers to."
+     },
+     "area": "hoeren"
+    }
+   ],
+   "themes": [
+    "kommunikation",
+    "nomenverben"
+   ],
+   "grammar": [
+    "daworpronomen",
+    "indirektefragen",
+    "temporalsaetze"
+   ],
+   "tasks": [
+    "h2a",
+    "l2a"
+   ]
+  },
+  {
+   "key": "b1.6",
+   "level": "B1",
+   "n": 6,
+   "title": {
+    "de": "Arbeit und Ausbildung",
+    "en": "Work and training"
+   },
+   "icon": "💼",
+   "blurb": {
+    "de": "Bewerbung, Kollegen, Termine: der Wortschatz, auf dem das Leben hier läuft.",
+    "en": "Applications, colleagues, appointments: the vocabulary daily life here runs on."
+   },
+   "canDos": [
+    {
+     "id": "cd.b1.6.1",
+     "text": {
+      "de": "Ich kann einen Termin verschieben oder absagen und mich entschuldigen.",
+      "en": "I can move or cancel an appointment and apologise."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.b1.6.2",
+     "text": {
+      "de": "Ich kann über meine Ausbildung und meine Arbeit zusammenhängend sprechen.",
+      "en": "I can talk about my training and my work as a connected whole."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.b1.6.3",
+     "text": {
+      "de": "Ich kann Stellenanzeigen vergleichen und die passende finden.",
+      "en": "I can compare job adverts and find the right one."
+     },
+     "area": "lesen"
+    }
+   ],
+   "themes": [
+    "arbeit",
+    "bildung"
+   ],
+   "grammar": [],
+   "tasks": [
+    "w1b",
+    "l3a",
+    "s2b"
+   ]
+  },
+  {
+   "key": "b1.7",
+   "level": "B1",
+   "n": 7,
+   "title": {
+    "de": "Gesellschaft und Umwelt",
+    "en": "Society and the environment"
+   },
+   "icon": "🌍",
+   "blurb": {
+    "de": "Die Themen, über die B1 eine Meinung verlangt: Umwelt, Medien, Stadt.",
+    "en": "The topics B1 expects an opinion on: the environment, the media, the city."
+   },
+   "canDos": [
+    {
+     "id": "cd.b1.7.1",
+     "text": {
+      "de": "Ich kann in einem Forum meine Meinung begründen und auf andere eingehen.",
+      "en": "I can justify my opinion in a forum and respond to other people."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.b1.7.2",
+     "text": {
+      "de": "Ich kann aus vier Meinungen die herausfinden, die zu einer Aussage passt.",
+      "en": "I can pick out which of four opinions matches a given statement."
+     },
+     "area": "lesen"
+    },
+    {
+     "id": "cd.b1.7.3",
+     "text": {
+      "de": "Ich kann eine kurze Präsentation über ein Thema aus meinem Land halten.",
+      "en": "I can give a short presentation on a topic from my own country."
+     },
+     "area": "sprechen"
+    }
+   ],
+   "themes": [
+    "umwelt",
+    "medien",
+    "stadt"
+   ],
+   "grammar": [],
+   "tasks": [
+    "w2b",
+    "l4a",
+    "s2c"
+   ]
+  },
+  {
+   "key": "b1.8",
+   "level": "B1",
+   "n": 8,
+   "title": {
+    "de": "Prüfungsform",
+    "en": "Exam shape"
+   },
+   "icon": "🎓",
+   "blurb": {
+    "de": "Alle vier Module unter Zeitdruck, in der Reihenfolge der echten Prüfung.",
+    "en": "All four modules against the clock, in the order of the real paper."
+   },
+   "canDos": [
+    {
+     "id": "cd.b1.8.1",
+     "text": {
+      "de": "Ich kann alle fünf Lesen-Teile in der vorgegebenen Zeit schaffen.",
+      "en": "I can finish all five Lesen parts in the time allowed."
+     },
+     "area": "lesen"
+    },
+    {
+     "id": "cd.b1.8.2",
+     "text": {
+      "de": "Ich kann einen Text beim ersten Hören verstehen, auch ohne Transkript.",
+      "en": "I can understand a text on first listening, without a transcript."
+     },
+     "area": "hoeren"
+    },
+    {
+     "id": "cd.b1.8.3",
+     "text": {
+      "de": "Ich kann alle Leitpunkte abdecken und die Wortzahl erreichen.",
+      "en": "I can cover every content point and reach the word count."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.b1.8.4",
+     "text": {
+      "de": "Ich kann in der Vorbereitungszeit eine brauchbare Gliederung notieren.",
+      "en": "I can note a workable outline in the preparation time."
+     },
+     "area": "sprechen"
+    }
+   ],
+   "themes": [],
+   "grammar": [],
+   "tasks": [
+    "l4b",
+    "h4a",
+    "w3c",
+    "s3a"
+   ]
+  },
+  {
+   "key": "b2.1",
+   "level": "B2",
+   "n": 1,
+   "title": {
+    "de": "Berichten statt behaupten",
+    "en": "Reporting without claiming"
+   },
+   "icon": "🗯️",
+   "blurb": {
+    "de": "Fremde Aussagen wiedergeben und dabei erkennbar auf Distanz bleiben.",
+    "en": "Relaying what others said while visibly keeping your distance."
+   },
+   "canDos": [
+    {
+     "id": "cd.b2.1.1",
+     "text": {
+      "de": "Ich erkenne in einem Zeitungstext, was berichtet und was behauptet wird.",
+      "en": "I can tell in a news text what is being reported and what is being claimed."
+     },
+     "area": "lesen"
+    },
+    {
+     "id": "cd.b2.1.2",
+     "text": {
+      "de": "Ich kann eine fremde Aussage im Konjunktiv I wiedergeben.",
+      "en": "I can relay someone else’s statement in Konjunktiv I."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.b2.1.3",
+     "text": {
+      "de": "Ich höre heraus, wo sich eine Sprecherin von einer Aussage distanziert.",
+      "en": "I can hear where a speaker distances themselves from a claim."
+     },
+     "area": "hoeren"
+    }
+   ],
+   "themes": [
+    "medien",
+    "wissenschaft"
+   ],
+   "grammar": [
+    "konjunktiv1"
+   ],
+   "tasks": [
+    "h.b2.1"
+   ]
+  },
+  {
+   "key": "b2.2",
+   "level": "B2",
+   "n": 2,
+   "title": {
+    "de": "Was gewesen wäre",
+    "en": "What would have been"
+   },
+   "icon": "🔄",
+   "blurb": {
+    "de": "Kritik, Bedauern und Beinahe-Geschichten: der Konjunktiv II der Vergangenheit.",
+    "en": "Criticism, regret and near misses: Konjunktiv II in the past."
+   },
+   "canDos": [
+    {
+     "id": "cd.b2.2.1",
+     "text": {
+      "de": "Ich kann Kritik äußern, ohne jemanden direkt anzugreifen.",
+      "en": "I can voice criticism without attacking anyone directly."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.b2.2.2",
+     "text": {
+      "de": "Ich bilde hätte/wäre + Partizip und den doppelten Infinitiv sicher.",
+      "en": "I confidently form hätte/wäre + participle and the double infinitive."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.b2.2.3",
+     "text": {
+      "de": "Ich kann begründen, was ich anders gemacht hätte und warum.",
+      "en": "I can explain what I would have done differently and why."
+     },
+     "area": "schreiben"
+    }
+   ],
+   "themes": [
+    "gefuehle",
+    "arbeit"
+   ],
+   "grammar": [
+    "irreal"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "b2.3",
+   "level": "B2",
+   "n": 3,
+   "title": {
+    "de": "Amtsdeutsch lesen",
+    "en": "Reading official German"
+   },
+   "icon": "📐",
+   "blurb": {
+    "de": "Nominalstil auflösen, Passiv-Ersatzformen erkennen, Partizipien entpacken.",
+    "en": "Unpacking the nominal style, spotting passive alternatives, unfolding participles."
+   },
+   "canDos": [
+    {
+     "id": "cd.b2.3.1",
+     "text": {
+      "de": "Ich kann einen Bescheid lesen und sagen, was er von mir verlangt.",
+      "en": "I can read an official letter and say what it requires of me."
+     },
+     "area": "lesen"
+    },
+    {
+     "id": "cd.b2.3.2",
+     "text": {
+      "de": "Ich kann zwischen Nominal- und Verbalstil umformen.",
+      "en": "I can convert between the nominal and the verbal style."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.b2.3.3",
+     "text": {
+      "de": "Ich erkenne ein Partizipialattribut und löse es in einen Relativsatz auf.",
+      "en": "I can spot a participial attribute and unfold it into a relative clause."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.b2.3.4",
+     "text": {
+      "de": "Ich verstehe \"ist zu zahlen\" und \"lässt sich beantragen\" ohne Nachdenken.",
+      "en": "I understand \"ist zu zahlen\" and \"lässt sich beantragen\" without stopping to think."
+     },
+     "area": "lesen"
+    }
+   ],
+   "themes": [
+    "wirtschaft",
+    "behoerden"
+   ],
+   "grammar": [
+    "nominalstil",
+    "passiversatz",
+    "partizipial"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "b2.4",
+   "level": "B2",
+   "n": 4,
+   "title": {
+    "de": "Klingen wie ein Mensch",
+    "en": "Sounding like a person"
+   },
+   "icon": "💬",
+   "blurb": {
+    "de": "doch, ja, mal, eben: die kleinen Wörter, die Haltung tragen.",
+    "en": "doch, ja, mal, eben: the small words that carry attitude."
+   },
+   "canDos": [
+    {
+     "id": "cd.b2.4.1",
+     "text": {
+      "de": "Ich kann eine Bitte mit mal und doch weicher machen.",
+      "en": "I can soften a request with mal and doch."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.b2.4.2",
+     "text": {
+      "de": "Ich höre an der Partikel, ob jemand überrascht, genervt oder resigniert ist.",
+      "en": "I can hear from the particle whether someone is surprised, irritated or resigned."
+     },
+     "area": "hoeren"
+    },
+    {
+     "id": "cd.b2.4.3",
+     "text": {
+      "de": "Mein Deutsch klingt nicht mehr wie aus dem Lehrbuch.",
+      "en": "My German no longer sounds like a textbook."
+     },
+     "area": "sprechen"
+    }
+   ],
+   "themes": [
+    "kommunikation",
+    "gefuehle"
+   ],
+   "grammar": [
+    "modalpartikeln"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "b2.5",
+   "level": "B2",
+   "n": 5,
+   "title": {
+    "de": "Argumentieren und abwägen",
+    "en": "Arguing and weighing up"
+   },
+   "icon": "⚖️",
+   "blurb": {
+    "de": "Eine Position vertreten, einen Einwand einräumen, eine Folgerung ziehen.",
+    "en": "Hold a position, concede an objection, draw a conclusion."
+   },
+   "canDos": [
+    {
+     "id": "cd.b2.5.1",
+     "text": {
+      "de": "Ich kann einen Forumsbeitrag schreiben, der auf die Gegenseite eingeht.",
+      "en": "I can write a forum post that engages with the other side."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.b2.5.2",
+     "text": {
+      "de": "Ich kann einen Vortrag halten und danach Rückfragen beantworten.",
+      "en": "I can give a presentation and then answer follow-up questions."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.b2.5.3",
+     "text": {
+      "de": "Ich kann eine Schwäche meiner eigenen Position selbst benennen.",
+      "en": "I can name a weakness in my own position myself."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.b2.5.4",
+     "text": {
+      "de": "Ich erkenne, was aus einem Text folgt und was nur darin steht.",
+      "en": "I can tell what follows from a text and what is merely in it."
+     },
+     "area": "lesen"
+    }
+   ],
+   "themes": [
+    "konnektoren",
+    "wissenschaft",
+    "umwelt"
+   ],
+   "grammar": [],
+   "tasks": [
+    "l.b2.1",
+    "w.b2.1",
+    "s.b2.1"
+   ]
+  },
+  {
+   "key": "c1.1",
+   "level": "C1",
+   "n": 1,
+   "title": {
+    "de": "Einräumen und bestehen",
+    "en": "Conceding and holding firm"
+   },
+   "icon": "🌀",
+   "blurb": {
+    "de": "Einen Einwand ernst nehmen, ohne die eigene Position aufzugeben.",
+    "en": "Taking an objection seriously without giving up your position."
+   },
+   "canDos": [
+    {
+     "id": "cd.c1.1.1",
+     "text": {
+      "de": "Ich kann die Gegenposition in ihrer stärksten Form wiedergeben.",
+      "en": "I can state the counter-position in its strongest form."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.c1.1.2",
+     "text": {
+      "de": "Ich kann sagen, was ich nicht entkräften kann, ohne nachzugeben.",
+      "en": "I can say what I cannot refute without conceding."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.c1.1.3",
+     "text": {
+      "de": "Ich benutze so … auch, mag … auch und wenngleich sicher.",
+      "en": "I use so … auch, mag … auch and wenngleich confidently."
+     },
+     "area": "grammatik"
+    }
+   ],
+   "themes": [
+    "wissenschaft",
+    "konnektoren"
+   ],
+   "grammar": [
+    "konzessiv"
+   ],
+   "tasks": [
+    "s.c1.1"
+   ]
+  },
+  {
+   "key": "c1.2",
+   "level": "C1",
+   "n": 2,
+   "title": {
+    "de": "Register treffen",
+    "en": "Hitting the register"
+   },
+   "icon": "⚙️",
+   "blurb": {
+    "de": "Funktionsverbgefüge: zwei richtig gesetzte reichen, ein Absatz davon ist unlesbar.",
+    "en": "Light-verb constructions: two well placed are enough; a paragraph of them is unreadable."
+   },
+   "canDos": [
+    {
+     "id": "cd.c1.2.1",
+     "text": {
+      "de": "Ich lese einen Bescheid ohne Umwege über die Übersetzung.",
+      "en": "I read an official decision without detouring through translation."
+     },
+     "area": "lesen"
+    },
+    {
+     "id": "cd.c1.2.2",
+     "text": {
+      "de": "Ich setze Funktionsverbgefüge gezielt ein, statt sie zu häufen.",
+      "en": "I place light-verb constructions deliberately rather than piling them up."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.c1.2.3",
+     "text": {
+      "de": "Ich kenne das feste Verb zu Betracht, Kraft, Kritik und Abstand.",
+      "en": "I know the fixed verb for Betracht, Kraft, Kritik and Abstand."
+     },
+     "area": "wortschatz"
+    }
+   ],
+   "themes": [
+    "wirtschaft",
+    "behoerden"
+   ],
+   "grammar": [
+    "funktionsverben"
+   ],
+   "tasks": [
+    "w.c1.1"
+   ]
+  },
+  {
+   "key": "c1.3",
+   "level": "C1",
+   "n": 3,
+   "title": {
+    "de": "Wörter knacken",
+    "en": "Cracking words open"
+   },
+   "icon": "🧱",
+   "blurb": {
+    "de": "Vorsilben und Endungen lesen, statt nachzuschlagen. Die einzige Strategie, die im Hörtext funktioniert.",
+    "en": "Reading prefixes and suffixes instead of looking things up – the only strategy that works in a listening text."
+   },
+   "canDos": [
+    {
+     "id": "cd.c1.3.1",
+     "text": {
+      "de": "Ich erschließe unbekannte Wörter aus ihren Teilen und prüfe die Vermutung am Satz.",
+      "en": "I work out unknown words from their parts and check the guess against the sentence."
+     },
+     "area": "lesen"
+    },
+    {
+     "id": "cd.c1.3.2",
+     "text": {
+      "de": "Ich bleibe bei einem unbekannten Wort im Hörtext nicht hängen.",
+      "en": "I do not get stuck on an unknown word in a listening text."
+     },
+     "area": "hoeren"
+    },
+    {
+     "id": "cd.c1.3.3",
+     "text": {
+      "de": "Ich lese ein Kompositum von rechts und weiß sofort, worum es geht.",
+      "en": "I read a compound from the right and know at once what it is about."
+     },
+     "area": "wortschatz"
+    }
+   ],
+   "themes": [
+    "wissenschaft",
+    "stadt"
+   ],
+   "grammar": [
+    "wortbildung"
+   ],
+   "tasks": [
+    "h.c1.1"
+   ]
+  },
+  {
+   "key": "c1.4",
+   "level": "C1",
+   "n": 4,
+   "title": {
+    "de": "Aus Sätzen einen Text machen",
+    "en": "Turning sentences into a text"
+   },
+   "icon": "🧵",
+   "blurb": {
+    "de": "Die häufigste Kritik auf C1 betrifft nicht die Grammatik, sondern den Zusammenhang.",
+    "en": "The commonest criticism at C1 is not the grammar but the cohesion."
+   },
+   "canDos": [
+    {
+     "id": "cd.c1.4.1",
+     "text": {
+      "de": "Ich nehme Vorheriges mit einer Nominalphrase wieder auf, nicht mit \"das\".",
+      "en": "I take up what came before with a noun phrase, not with \"das\"."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.c1.4.2",
+     "text": {
+      "de": "Ich setze auf Position 1 den Anschluss, nicht die neue Information.",
+      "en": "I put the link in first position, not the new information."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.c1.4.3",
+     "text": {
+      "de": "Ich erkenne, worauf sich ein da-Kompositum im Text bezieht.",
+      "en": "I can tell what a da-compound refers to in a text."
+     },
+     "area": "lesen"
+    },
+    {
+     "id": "cd.c1.4.4",
+     "text": {
+      "de": "Mein Text liest sich als Argumentation, nicht als Liste richtiger Sätze.",
+      "en": "My text reads as an argument, not a list of correct sentences."
+     },
+     "area": "schreiben"
+    }
+   ],
+   "themes": [
+    "kommunikation",
+    "gefuehle"
+   ],
+   "grammar": [
+    "textkohaesion"
+   ],
+   "tasks": [
+    "l.c1.1"
+   ]
   }
  ],
  "areas": {
@@ -338,13 +2127,51 @@
   }
  },
  "counts": {
-  "vocab": 931,
-  "drills": 166,
-  "grammar": 22,
-  "reading": 8,
-  "listening": 6,
-  "writing": 9,
-  "speaking": 8,
-  "reviewable": 1097
+  "vocab": 1721,
+  "drills": 314,
+  "grammar": 43,
+  "reading": 13,
+  "listening": 10,
+  "writing": 13,
+  "speaking": 12,
+  "articles": 7,
+  "reviewable": 2035
+ },
+ "byLevel": {
+  "A1": {
+   "vocab": 464,
+   "drills": 80,
+   "grammar": 10,
+   "tasks": 5,
+   "articles": 2
+  },
+  "A2": {
+   "vocab": 357,
+   "drills": 76,
+   "grammar": 9,
+   "tasks": 4,
+   "articles": 2
+  },
+  "B1": {
+   "vocab": 642,
+   "drills": 98,
+   "grammar": 14,
+   "tasks": 31,
+   "articles": 1
+  },
+  "B2": {
+   "vocab": 170,
+   "drills": 36,
+   "grammar": 6,
+   "tasks": 4,
+   "articles": 1
+  },
+  "C1": {
+   "vocab": 88,
+   "drills": 24,
+   "grammar": 4,
+   "tasks": 4,
+   "articles": 1
+  }
  }
 }

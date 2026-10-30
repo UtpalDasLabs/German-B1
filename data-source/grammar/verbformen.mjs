@@ -5,6 +5,7 @@
 export const VERBFORMEN = [
   {
     key: 'passiv',
+    level: 'B1',
     icon: '\u{1F504}',
     title: { de: 'Passiv', en: 'The passive' },
     summary: {
@@ -77,6 +78,7 @@ export const VERBFORMEN = [
 
   {
     key: 'konjunktiv2',
+    level: 'B1',
     icon: '\u{1F91D}',
     title: { de: 'Konjunktiv II: höflich und hypothetisch', en: 'Konjunktiv II: polite and hypothetical' },
     summary: {
@@ -154,6 +156,7 @@ export const VERBFORMEN = [
 
   {
     key: 'modalverben',
+    level: 'A1',
     icon: '\u{1F511}',
     title: { de: 'Modalverben', en: 'Modal verbs' },
     summary: {
@@ -228,6 +231,7 @@ export const VERBFORMEN = [
 
   {
     key: 'infinitivsaetze',
+    level: 'A2',
     icon: '✒️',
     title: { de: 'Infinitiv mit zu, um … zu', en: 'Infinitive with zu, um … zu' },
     summary: {
@@ -298,6 +302,7 @@ export const VERBFORMEN = [
 
   {
     key: 'reflexiv',
+    level: 'A2',
     icon: '\u{1FA9E}',
     title: { de: 'Reflexive Verben', en: 'Reflexive verbs' },
     summary: {

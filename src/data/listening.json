@@ -1,8 +1,251 @@
 [
  {
+  "id": "h.a1.1",
+  "module": "hoeren",
+  "teil": 1,
+  "level": "A1",
+  "title": {
+   "de": "Teil 1: Kurze Ansagen",
+   "en": "Part 1: short announcements"
+  },
+  "instructions": {
+   "de": "Du hörst vier kurze Texte, jeden zweimal. Beantworte danach die Fragen.",
+   "en": "You will hear four short texts, each twice. Then answer the questions."
+  },
+  "minutes": 8,
+  "script": [
+   {
+    "speaker": "Ansage",
+    "text": "Achtung am Gleis zwei. Der Zug nach Dresden fährt heute um sechzehn Uhr zwanzig. Bitte steigen Sie ein."
+   },
+   {
+    "speaker": "Mailbox",
+    "text": "Hallo, hier ist Nadja. Wir treffen uns morgen um halb vier vor dem Kino, nicht um vier. Bis dann!"
+   },
+   {
+    "speaker": "Durchsage",
+    "text": "Liebe Kunden, der Supermarkt schließt in zehn Minuten. Bitte kommen Sie zur Kasse."
+   },
+   {
+    "speaker": "Radio",
+    "text": "Das Wetter am Donnerstag: Es regnet am Vormittag. Am Nachmittag scheint die Sonne. Es wird achtzehn Grad warm."
+   }
+  ],
+  "plays": 2,
+  "transcriptHidden": true,
+  "items": [
+   {
+    "id": "h.h.a1.1.01",
+    "prompt": "Wann fährt der Zug nach Dresden?",
+    "promptEn": null,
+    "options": [
+     "um 16:20",
+     "um 16:02",
+     "um 06:20",
+     "um 20:16"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… um sechzehn Uhr zwanzig.\"",
+     "en": "\"… at sixteen twenty.\""
+    }
+   },
+   {
+    "id": "h.h.a1.1.02",
+    "prompt": "Wann treffen sich Nadja und ihre Freundin?",
+    "promptEn": null,
+    "options": [
+     "um halb vier",
+     "um vier",
+     "um halb fünf",
+     "um drei"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… um halb vier, nicht um vier.\"",
+     "en": "\"… at half past three, not at four.\""
+    }
+   },
+   {
+    "id": "h.h.a1.1.03",
+    "prompt": "Was soll man im Supermarkt tun?",
+    "promptEn": null,
+    "options": [
+     "zur Kasse gehen",
+     "schneller einkaufen",
+     "morgen wiederkommen",
+     "draußen warten"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Bitte kommen Sie zur Kasse.\"",
+     "en": "\"Please come to the till.\""
+    }
+   },
+   {
+    "id": "h.h.a1.1.04",
+    "prompt": "Wie ist das Wetter am Nachmittag?",
+    "promptEn": null,
+    "options": [
+     "sonnig",
+     "es regnet",
+     "es schneit",
+     "kalt"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Am Nachmittag scheint die Sonne.\"",
+     "en": "\"In the afternoon the sun shines.\""
+    }
+   }
+  ]
+ },
+ {
+  "id": "h.a2.1",
+  "module": "hoeren",
+  "teil": 3,
+  "level": "A2",
+  "title": {
+   "de": "Teil 3: Ein Gespräch beim Hausmeister",
+   "en": "Part 3: a conversation with the caretaker"
+  },
+  "instructions": {
+   "de": "Du hörst ein Gespräch, zweimal. Beantworte danach die Fragen.",
+   "en": "You will hear a conversation twice. Then answer the questions."
+  },
+  "minutes": 10,
+  "script": [
+   {
+    "speaker": "Frau Ritter",
+    "text": "Guten Morgen, Herr Kowal. Haben Sie kurz Zeit? Bei mir in der Wohnung ist seit gestern das Wasser kalt."
+   },
+   {
+    "speaker": "Herr Kowal",
+    "text": "Guten Morgen. Seit gestern schon? Das haben Sie mir gar nicht gesagt. In welcher Wohnung sind Sie noch mal?"
+   },
+   {
+    "speaker": "Frau Ritter",
+    "text": "Dritter Stock links, Nummer zwölf. Ich habe gestern Abend angerufen, aber es ist niemand drangegangen."
+   },
+   {
+    "speaker": "Herr Kowal",
+    "text": "Ach so, gestern Abend war ich beim Arzt. Also, kalt ist das Wasser nur bei Ihnen oder auch bei den Nachbarn?"
+   },
+   {
+    "speaker": "Frau Ritter",
+    "text": "Das weiß ich nicht. Frau Özdemir nebenan ist im Urlaub, und bei den anderen habe ich noch nicht gefragt."
+   },
+   {
+    "speaker": "Herr Kowal",
+    "text": "Gut. Ich schaue mir heute Nachmittag die Heizung im Keller an. Wenn das Problem dort ist, dauert es bis morgen. Wenn es nur Ihre Wohnung ist, muss ein Installateur kommen, und das dauert leider länger."
+   },
+   {
+    "speaker": "Frau Ritter",
+    "text": "Wie lange ungefähr?"
+   },
+   {
+    "speaker": "Herr Kowal",
+    "text": "Zwei, drei Tage. Ich melde mich auf jeden Fall heute Abend bei Ihnen. Haben Sie eine Handynummer?"
+   },
+   {
+    "speaker": "Frau Ritter",
+    "text": "Ja, ich schreibe sie Ihnen auf. Und können Sie mir das danach bitte auch schriftlich geben? Für den Vermieter."
+   },
+   {
+    "speaker": "Herr Kowal",
+    "text": "Mache ich. Ich schicke Ihnen eine kurze E-Mail, sobald ich im Keller war."
+   }
+  ],
+  "plays": 2,
+  "transcriptHidden": true,
+  "items": [
+   {
+    "id": "h.h.a2.1.01",
+    "prompt": "Seit wann ist das Wasser kalt?",
+    "promptEn": "Since when has the water been cold?",
+    "options": [
+     "seit gestern",
+     "seit heute Morgen",
+     "seit einer Woche",
+     "seit drei Tagen"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… ist seit gestern das Wasser kalt.\"",
+     "en": "\"… the water has been cold since yesterday.\""
+    }
+   },
+   {
+    "id": "h.h.a2.1.02",
+    "prompt": "Warum ist gestern Abend niemand ans Telefon gegangen?",
+    "promptEn": "Why did nobody answer the phone last night?",
+    "options": [
+     "Herr Kowal war beim Arzt.",
+     "Er hatte Urlaub.",
+     "Das Telefon war kaputt.",
+     "Er hat geschlafen."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… gestern Abend war ich beim Arzt.\"",
+     "en": "\"… last night I was at the doctor’s.\""
+    }
+   },
+   {
+    "id": "h.h.a2.1.03",
+    "prompt": "Was macht Herr Kowal als Nächstes?",
+    "promptEn": "What does Herr Kowal do next?",
+    "options": [
+     "Er sieht sich die Heizung im Keller an.",
+     "Er ruft einen Installateur.",
+     "Er fragt die Nachbarn.",
+     "Er schreibt dem Vermieter."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Ich schaue mir heute Nachmittag die Heizung im Keller an.\"",
+     "en": "\"I will look at the heating in the cellar this afternoon.\""
+    }
+   },
+   {
+    "id": "h.h.a2.1.04",
+    "prompt": "Wie lange dauert es, wenn ein Installateur kommen muss?",
+    "promptEn": "How long does it take if a plumber has to come?",
+    "options": [
+     "zwei bis drei Tage",
+     "bis morgen",
+     "eine Woche",
+     "einen Nachmittag"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Zwei, drei Tage.\"",
+     "en": "\"Two or three days.\""
+    }
+   },
+   {
+    "id": "h.h.a2.1.05",
+    "prompt": "Warum will Frau Ritter etwas Schriftliches?",
+    "promptEn": "Why does Frau Ritter want something in writing?",
+    "options": [
+     "für den Vermieter",
+     "für die Versicherung",
+     "für den Installateur",
+     "für die Nachbarin"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… bitte auch schriftlich geben? Für den Vermieter.\"",
+     "en": "\"… in writing too, please? For the landlord.\""
+    }
+   }
+  ]
+ },
+ {
   "id": "h1a",
   "module": "hoeren",
   "teil": 1,
+  "level": "B1",
   "title": {
    "de": "Teil 1: Kurze Ansagen und Nachrichten",
    "en": "Part 1: short announcements and messages"
@@ -118,6 +361,7 @@
   "id": "h2a",
   "module": "hoeren",
   "teil": 2,
+  "level": "B1",
   "title": {
    "de": "Teil 2: Führung durch das Stadtarchiv",
    "en": "Part 2: a tour of the city archive"
@@ -252,6 +496,7 @@
   "id": "h3a",
   "module": "hoeren",
   "teil": 3,
+  "level": "B1",
   "title": {
    "de": "Teil 3: Gespräch – Nach dem ersten Arbeitstag",
    "en": "Part 3: conversation - after the first day at work"
@@ -418,6 +663,7 @@
   "id": "h4a",
   "module": "hoeren",
   "teil": 4,
+  "level": "B1",
   "title": {
    "de": "Teil 4: Diskussion – Sollen Innenstädte autofrei werden?",
    "en": "Part 4: discussion - should city centres be car-free?"
@@ -591,6 +837,7 @@
   "id": "h1b",
   "module": "hoeren",
   "teil": 1,
+  "level": "B1",
   "title": {
    "de": "Teil 1: Nachrichten auf dem Anrufbeantworter",
    "en": "Part 1: messages on the answering machine"
@@ -706,6 +953,7 @@
   "id": "h3b",
   "module": "hoeren",
   "teil": 3,
+  "level": "B1",
   "title": {
    "de": "Teil 3: Gespräch – Ein Kurs geht zu Ende",
    "en": "Part 3: conversation - a course is ending"
@@ -860,6 +1108,300 @@
     "why": {
      "de": "Er sagt, sie rede zu schnell, wenn sie nervös ist.",
      "en": "He says she speaks too fast when she is nervous."
+    }
+   }
+  ]
+ },
+ {
+  "id": "h.b2.1",
+  "module": "hoeren",
+  "teil": 4,
+  "level": "B2",
+  "title": {
+   "de": "Teil 4: Diskussion über Homeoffice",
+   "en": "Part 4: a discussion about working from home"
+  },
+  "instructions": {
+   "de": "Du hörst eine Diskussion, einmal. Wer sagt was?",
+   "en": "You will hear a discussion once. Who says what?"
+  },
+  "minutes": 15,
+  "script": [
+   {
+    "speaker": "Moderatorin",
+    "text": "Willkommen zurück. Bei mir sind Frau Dr. Ohlsen, Arbeitspsychologin, und Herr Tiede, der eine Softwarefirma mit sechzig Beschäftigten führt. Herr Tiede, Sie haben Ihre Leute zurück ins Büro geholt. Warum?"
+   },
+   {
+    "speaker": "Herr Tiede",
+    "text": "Nicht ganz zurück. Zwei feste Tage im Büro, der Rest frei wählbar. Der Grund ist banal: Die Einarbeitung neuer Kolleginnen hat nicht mehr funktioniert. Erfahrene Leute arbeiten zu Hause genauso gut, teilweise besser. Aber jemand, der im März angefangen hat und bis Juli niemanden persönlich kennengelernt hat, kommt nicht an. Das sehen wir in den Zahlen zur Probezeit sehr deutlich."
+   },
+   {
+    "speaker": "Frau Dr. Ohlsen",
+    "text": "Da würde ich zustimmen, allerdings mit einer anderen Begründung. Es geht weniger um Nähe als um Beiläufigkeit. Das Wissen, das man braucht, um in einem Team anzukommen, wird selten gesagt, es wird mitgehört. Wer nicht im Raum ist, hört nicht mit. Dafür braucht man aber keine festen Tage, sondern Anlässe."
+   },
+   {
+    "speaker": "Herr Tiede",
+    "text": "Anlässe haben wir versucht. Freiwillige Treffen, Teamtage. Es kamen immer dieselben acht Leute. Feste Tage sind grober, aber sie wirken."
+   },
+   {
+    "speaker": "Frau Dr. Ohlsen",
+    "text": "Dass sie wirken, bestreite ich nicht. Mich stört, dass sie alle gleich behandeln. Die Kollegin mit zwei kleinen Kindern und zwei Stunden Pendelweg zahlt für ein Problem, das sie nicht hat. In unseren Erhebungen ist die Unzufriedenheit mit festen Bürotagen fast vollständig ein Pendelproblem."
+   },
+   {
+    "speaker": "Moderatorin",
+    "text": "Herr Tiede, trifft Sie das?"
+   },
+   {
+    "speaker": "Herr Tiede",
+    "text": "Ja, das ist der schwache Punkt, und ich habe keine saubere Lösung. Wir zahlen das Deutschlandticket und machen Ausnahmen, wenn jemand weiter weg wohnt. Das ist Flickwerk. Was ich nicht mehr glaube, ist, dass sich das rein freiwillig organisiert. Drei Jahre haben wir das versucht."
+   },
+   {
+    "speaker": "Frau Dr. Ohlsen",
+    "text": "Und da sind wir weiter auseinander, als es klingt. Ich halte Freiwilligkeit auch für gescheitert. Nur folgt daraus für mich nicht Anwesenheitspflicht, sondern dass Teams das selbst verbindlich regeln - nicht das Unternehmen und nicht der Einzelne. Die mittlere Ebene ist die, die fast niemand nutzt."
+   }
+  ],
+  "plays": 1,
+  "transcriptHidden": true,
+  "items": [
+   {
+    "id": "h.h.b2.1.01",
+    "prompt": "Warum hat Herr Tiede feste Bürotage eingeführt?",
+    "promptEn": "Why did Herr Tiede introduce fixed office days?",
+    "options": [
+     "Die Einarbeitung neuer Leute funktionierte nicht mehr.",
+     "Die Produktivität der Erfahrenen sank.",
+     "Die Kunden haben es verlangt.",
+     "Das Büro stand sonst leer."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Die Einarbeitung neuer Kolleginnen hat nicht mehr funktioniert.\"",
+     "en": "\"Inducting new colleagues stopped working.\""
+    }
+   },
+   {
+    "id": "h.h.b2.1.02",
+    "prompt": "Wie begründet Frau Dr. Ohlsen dasselbe Problem?",
+    "promptEn": "How does Dr Ohlsen explain the same problem?",
+    "options": [
+     "Wichtiges Wissen wird mitgehört, nicht gesagt.",
+     "Neue Leute trauen sich nicht zu fragen.",
+     "Zu Hause fehlt die Technik.",
+     "Vorgesetzte erklären zu wenig."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Das Wissen … wird selten gesagt, es wird mitgehört.\"",
+     "en": "\"The knowledge … is rarely stated, it is overheard.\""
+    }
+   },
+   {
+    "id": "h.h.b2.1.03",
+    "prompt": "Was ist laut Frau Dr. Ohlsen die eigentliche Ursache der Unzufriedenheit?",
+    "promptEn": "What, according to Dr Ohlsen, really causes the dissatisfaction?",
+    "options": [
+     "das Pendeln",
+     "die Vorgesetzten",
+     "die festen Zeiten an sich",
+     "die Technik zu Hause"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… ist die Unzufriedenheit mit festen Bürotagen fast vollständig ein Pendelproblem.\"",
+     "en": "\"… dissatisfaction with fixed office days is almost entirely a commuting problem.\""
+    }
+   },
+   {
+    "id": "h.h.b2.1.04",
+    "prompt": "Wie reagiert Herr Tiede auf diesen Einwand?",
+    "promptEn": "How does Herr Tiede respond to this objection?",
+    "options": [
+     "Er gibt zu, dass er keine saubere Lösung hat.",
+     "Er weist ihn als unrealistisch zurück.",
+     "Er verweist auf die Mehrheit der Beschäftigten.",
+     "Er sagt, das Problem löse sich von selbst."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Ja, das ist der schwache Punkt, und ich habe keine saubere Lösung.\"",
+     "en": "\"Yes, that is the weak point, and I have no clean solution.\""
+    }
+   },
+   {
+    "id": "h.h.b2.1.05",
+    "prompt": "Worin sind sich beide einig?",
+    "promptEn": "What do they both agree on?",
+    "options": [
+     "Rein freiwillige Regelungen funktionieren nicht.",
+     "Es braucht eine Anwesenheitspflicht.",
+     "Homeoffice senkt die Produktivität.",
+     "Teamtage sind die beste Lösung."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Beide halten die Freiwilligkeit für gescheitert; nur die Folgerung unterscheidet sich.",
+     "en": "Both consider the voluntary approach to have failed; only the conclusion differs."
+    }
+   },
+   {
+    "id": "h.h.b2.1.06",
+    "prompt": "Was schlägt Frau Dr. Ohlsen stattdessen vor?",
+    "promptEn": "What does Dr Ohlsen propose instead?",
+    "options": [
+     "dass die Teams es selbst verbindlich regeln",
+     "dass das Unternehmen es festlegt",
+     "dass jeder frei entscheidet",
+     "dass die Bürotage abgeschafft werden"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… dass Teams das selbst verbindlich regeln - nicht das Unternehmen und nicht der Einzelne.\"",
+     "en": "\"… that teams settle it bindingly themselves - not the company and not the individual.\""
+    }
+   }
+  ]
+ },
+ {
+  "id": "h.c1.1",
+  "module": "hoeren",
+  "teil": 2,
+  "level": "C1",
+  "title": {
+   "de": "Teil 2: Vortrag über Mehrsprachigkeit",
+   "en": "Part 2: a lecture on multilingualism"
+  },
+  "instructions": {
+   "de": "Du hörst einen Vortrag, einmal. Beantworte danach die Fragen.",
+   "en": "You will hear a lecture once. Then answer the questions."
+  },
+  "minutes": 15,
+  "script": [
+   {
+    "speaker": "Vortragende",
+    "text": "Ich möchte heute über eine Behauptung sprechen, die so oft wiederholt wird, dass sie als gesichert gilt: Mehrsprachig aufwachsende Kinder seien kognitiv im Vorteil. Ich halte diese Behauptung für überdehnt, und ich sage gleich dazu, dass ich sie nicht für falsch halte."
+   },
+   {
+    "speaker": "Vortragende",
+    "text": "Die Studienlage ist in einer bestimmten Hinsicht klar. In Aufgaben, bei denen man eine naheliegende Reaktion unterdrücken muss, schneiden mehrsprachige Kinder im Mittel etwas besser ab. Der Effekt ist reproduzierbar. Er ist allerdings klein, und er betrifft genau diese Art von Aufgabe."
+   },
+   {
+    "speaker": "Vortragende",
+    "text": "Was daraus in der öffentlichen Darstellung geworden ist, ist etwas anderes: dass Mehrsprachigkeit generell klüger mache. Diesen Schritt geben die Daten nicht her. Zwischen \"schneidet in einer Hemmungsaufgabe geringfügig besser ab\" und \"ist intelligenter\" liegt eine Strecke, die niemand zurückgelegt hat."
+   },
+   {
+    "speaker": "Vortragende",
+    "text": "Dazu kommt ein methodisches Problem, das lange unterschätzt wurde. Die früheren Studien verglichen häufig Kinder, die sich nicht nur in der Sprachzahl unterschieden, sondern auch im Einkommen der Eltern und in deren Bildungsabschluss. Neuere Arbeiten, die das kontrollieren, finden den Effekt kleiner, manche finden ihn gar nicht."
+   },
+   {
+    "speaker": "Vortragende",
+    "text": "Warum ist mir das wichtig? Weil das Argument politisch benutzt wird, und zwar in beide Richtungen. Wer Mehrsprachigkeit fördern will, führt den kognitiven Vorteil an. Wenn dieser Vorteil dann schrumpft, scheint die Förderung ihre Grundlage zu verlieren. Das ist aber nur so, wenn man sie je damit begründet hat."
+   },
+   {
+    "speaker": "Vortragende",
+    "text": "Die tragfähige Begründung ist viel einfacher und braucht keine Studie: Ein Kind, das die Sprache seiner Großeltern spricht, kann mit seinen Großeltern sprechen. Ein Erwachsener, der zwei Sprachen beherrscht, hat Zugang zu zwei Arbeitsmärkten. Das sind keine kognitiven Vorteile, sondern soziale und wirtschaftliche, und sie verschwinden nicht, wenn die nächste Metaanalyse erscheint."
+   },
+   {
+    "speaker": "Vortragende",
+    "text": "Mein Punkt ist also nicht, dass die Forschung schlecht wäre. Er ist, dass wir eine gute Sache mit einem schwachen Argument verteidigen, obwohl wir ein starkes hätten."
+   }
+  ],
+  "plays": 1,
+  "transcriptHidden": true,
+  "items": [
+   {
+    "id": "h.h.c1.1.01",
+    "prompt": "Wie positioniert sich die Vortragende zur Eingangsbehauptung?",
+    "promptEn": "What is the speaker’s position on the opening claim?",
+    "options": [
+     "Sie hält sie für überdehnt, aber nicht für falsch.",
+     "Sie hält sie für widerlegt.",
+     "Sie stimmt ihr uneingeschränkt zu.",
+     "Sie äußert sich dazu nicht."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Ich halte diese Behauptung für überdehnt … dass ich sie nicht für falsch halte.\"",
+     "en": "\"I consider this claim overstretched … I do not consider it false.\""
+    }
+   },
+   {
+    "id": "h.h.c1.1.02",
+    "prompt": "Wie beschreibt sie den gemessenen Effekt?",
+    "promptEn": "How does she describe the measured effect?",
+    "options": [
+     "reproduzierbar, aber klein und eng begrenzt",
+     "groß und breit nachweisbar",
+     "nicht reproduzierbar",
+     "nur bei Erwachsenen messbar"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Der Effekt ist reproduzierbar. Er ist allerdings klein, und er betrifft genau diese Art von Aufgabe.\"",
+     "en": "\"The effect is reproducible. It is, however, small, and it concerns exactly this kind of task.\""
+    }
+   },
+   {
+    "id": "h.h.c1.1.03",
+    "prompt": "Welches methodische Problem nennt sie?",
+    "promptEn": "What methodological problem does she name?",
+    "options": [
+     "Frühere Studien kontrollierten den sozialen Hintergrund nicht.",
+     "Die Stichproben waren zu klein.",
+     "Die Aufgaben waren zu leicht.",
+     "Die Kinder waren zu jung."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… unterschieden sich nicht nur in der Sprachzahl, sondern auch im Einkommen der Eltern …\"",
+     "en": "\"… differed not only in the number of languages but also in parental income …\""
+    }
+   },
+   {
+    "id": "h.h.c1.1.04",
+    "prompt": "Warum hält sie das Thema für politisch heikel?",
+    "promptEn": "Why does she consider the topic politically delicate?",
+    "options": [
+     "Wenn der kognitive Vorteil schrumpft, scheint die Förderung ihre Grundlage zu verlieren.",
+     "Weil die Forschung staatlich finanziert wird.",
+     "Weil Eltern verunsichert werden.",
+     "Weil Lehrkräfte die Studien nicht lesen."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Wenn dieser Vorteil dann schrumpft, scheint die Förderung ihre Grundlage zu verlieren.\"",
+     "en": "\"If that advantage then shrinks, the support seems to lose its basis.\""
+    }
+   },
+   {
+    "id": "h.h.c1.1.05",
+    "prompt": "Welche Begründung hält sie für tragfähig?",
+    "promptEn": "Which justification does she consider sound?",
+    "options": [
+     "soziale und wirtschaftliche Vorteile",
+     "kognitive Vorteile",
+     "schulische Leistungen",
+     "die Zahl der gesprochenen Sprachen"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Das sind keine kognitiven Vorteile, sondern soziale und wirtschaftliche …\"",
+     "en": "\"Those are not cognitive advantages but social and economic ones …\""
+    }
+   },
+   {
+    "id": "h.h.c1.1.06",
+    "prompt": "Was ist ihr abschließender Punkt?",
+    "promptEn": "What is her concluding point?",
+    "options": [
+     "Eine gute Sache wird mit einem schwachen Argument verteidigt.",
+     "Die Forschung ist methodisch schlecht.",
+     "Mehrsprachigkeit sollte nicht gefördert werden.",
+     "Metaanalysen sind unzuverlässig."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… dass wir eine gute Sache mit einem schwachen Argument verteidigen, obwohl wir ein starkes hätten.\"",
+     "en": "\"… that we defend a good cause with a weak argument when we have a strong one.\""
     }
    }
   ]

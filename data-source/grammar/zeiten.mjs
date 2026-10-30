@@ -7,6 +7,7 @@
 export const ZEITEN = [
   {
     key: 'perfekt',
+    level: 'A2',
     icon: '\u{1F553}',
     title: { de: 'Perfekt: haben oder sein', en: 'The Perfekt: haben or sein' },
     summary: {
@@ -99,6 +100,7 @@ export const ZEITEN = [
 
   {
     key: 'praeteritum',
+    level: 'B1',
     icon: '\u{1F4DC}',
     title: { de: 'Präteritum: die Erzählzeit', en: 'Präteritum: the narrative past' },
     summary: {
@@ -175,6 +177,7 @@ export const ZEITEN = [
 
   {
     key: 'plusquamperfekt',
+    level: 'B1',
     icon: '⏪',
     title: { de: 'Plusquamperfekt und nachdem', en: 'Plusquamperfekt and nachdem' },
     summary: {
@@ -241,6 +244,7 @@ export const ZEITEN = [
 
   {
     key: 'futur',
+    level: 'B1',
     icon: '\u{1F52E}',
     title: { de: 'Zukunft und Vermutung', en: 'Future and assumption' },
     summary: {

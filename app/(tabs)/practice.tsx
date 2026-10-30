@@ -7,9 +7,10 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Illustration } from '@/components/Illustration';
 import { LoadingScreen, useAppReady } from '@/components/Loading';
 import { Card, ProgressBar, Screen, Txt } from '@/components/ui';
-import { PROVIDERS_BY_KEY } from '@/lib/official';
+import { examFor } from '@/lib/official';
 import { moduleStats } from '@/lib/stats';
 import { isAutoScored, meta, tasksFor } from '@/lib/study';
+import { useScope } from '@/lib/useScope';
 import { MODULE_KEYS, type ModuleKey } from '@/lib/types';
 import { useT } from '@/lib/useT';
 import { useProgress } from '@/store/ProgressProvider';
@@ -30,9 +31,10 @@ export default function PracticeScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { settings } = useSettings();
+  const scope = useScope();
   const { progress } = useProgress();
 
-  const provider = PROVIDERS_BY_KEY[settings.provider];
+  const exam = examFor(settings.provider, settings.level);
   const stats = useMemo(() => moduleStats(progress.attempts, MODULE_KEYS), [progress.attempts]);
 
   const appReady = useAppReady();
@@ -62,7 +64,7 @@ export default function PracticeScreen() {
         {MODULE_KEYS.map((module) => {
           const area = meta.areas[module];
           const stat = stats.find((s) => s.module === module)!;
-          const tasks = tasksFor(module);
+          const tasks = tasksFor(module, scope);
           return (
             <Pressable
               key={module}
@@ -88,7 +90,7 @@ export default function PracticeScreen() {
                   <View style={{ flex: 1, gap: 2 }}>
                     <Txt variant="heading">{area.label[locale]}</Txt>
                     <Txt variant="small" tone="muted">
-                      {tasks.length} {locale === 'de' ? 'Aufgaben' : 'tasks'} · {provider.minutes[module]}{' '}
+                      {tasks.length} {locale === 'de' ? 'Aufgaben' : 'tasks'} · {exam.minutes[module]}{' '}
                       {t('minutes')}
                       {isAutoScored(module) ? '' : ` · ${t('selfAssessed')}`}
                     </Txt>
@@ -122,13 +124,13 @@ export default function PracticeScreen() {
         })}
 
         <Card style={{ gap: space.sm }}>
-          <Txt variant="heading">{provider.name}</Txt>
+          <Txt variant="heading">{exam.name}</Txt>
           <Txt variant="small" tone="muted">
-            {provider.who[locale]}
+            {exam.who[locale]}
           </Txt>
           <Txt variant="caption" tone="faint">
-            {t('passLabel')}: {provider.passPercent}% {t('perModule')} · {t('modularLabel')}:{' '}
-            {provider.modular ? t('yes') : t('no')}
+            {t('passLabel')}: {exam.passPercent}% {t('perModule')} · {t('modularLabel')}:{' '}
+            {exam.modular ? t('yes') : t('no')}
           </Txt>
         </Card>
       </ScrollView>

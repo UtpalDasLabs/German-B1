@@ -17,7 +17,18 @@ import {
   requestDurableStorage,
 } from '@/lib/durability';
 import { forecast } from '@/lib/forecast';
-import { areaGroups, meta, reviewableIds, themes, vocabGroups } from '@/lib/study';
+import {
+  areaGroups,
+  levelGroups,
+  levels,
+  meta,
+  reviewableIds,
+  themes,
+  themesIn,
+  vocabGroups,
+} from '@/lib/study';
+import type { Level } from '@/lib/types';
+import { useScope } from '@/lib/useScope';
 import { groupStats } from '@/lib/stats';
 import type { Appearance, Language } from '@/lib/types';
 import { useT } from '@/lib/useT';
@@ -44,6 +55,7 @@ export default function YouScreen() {
   const router = useRouter();
   const { settings, update } = useSettings();
   const { progress, reset, restore } = useProgress();
+  const scope = useScope();
   const [persisted, setPersisted] = useState(false);
   const [note, setNote] = useState<string | null>(null);
   const consent = useAnalyticsConsent();
@@ -53,17 +65,22 @@ export default function YouScreen() {
   }, []);
 
   const f = useMemo(
-    () => forecast(reviewableIds, progress.cards, settings.goal),
-    [progress.cards, settings.goal],
+    () => forecast(reviewableIds(scope), progress.cards, settings.goal),
+    [progress.cards, settings.goal, scope],
   );
   const areaStats = useMemo(
-    () => groupStats(areaGroups(), progress.cards, ['wortschatz', 'grammatik']),
-    [progress.cards],
+    () => groupStats(areaGroups(scope), progress.cards, ['wortschatz', 'grammatik']),
+    [progress.cards, scope],
   );
   const themeStats = useMemo(
-    () => groupStats(vocabGroups(), progress.cards, themes.map((x) => x.key)),
+    () => groupStats(vocabGroups(scope), progress.cards, themesIn(scope).map((x) => x.key)),
+    [progress.cards, scope],
+  );
+  const levelStats = useMemo(
+    () => groupStats(levelGroups(), progress.cards, levels.map((l) => l.key)),
     [progress.cards],
   );
+  const levelInfo = levels.find((l) => l.key === settings.level);
 
   const onProtect = useCallback(async () => {
     const ok = await requestDurableStorage();
@@ -126,6 +143,105 @@ export default function YouScreen() {
             </Txt>
           </View>
         </Card>
+
+        <Card style={{ gap: space.md }}>
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.sm }}>
+            <Ionicons name="school-outline" size={20} color={colors.info} />
+            <Txt variant="heading" style={{ flex: 1 }}>
+              {t('levelTitle')}
+            </Txt>
+          </View>
+          <Txt variant="small" tone="muted">
+            {t('levelSub')}
+          </Txt>
+          <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.sm }}>
+            {levels.map((l) => (
+              <Chip
+                key={l.key}
+                label={`${l.key} · ${meta.byLevel[l.key].vocab}`}
+                active={settings.level === l.key}
+                onPress={() => update({ level: l.key as Level })}
+              />
+            ))}
+          </View>
+          {levelInfo ? (
+            <>
+              <Txt variant="bodyStrong">{levelInfo.name[locale]}</Txt>
+              <Txt variant="small" tone="muted">
+                {levelInfo.summary[locale]}
+              </Txt>
+              <Txt variant="caption" tone="faint">
+                {t('certificates')}: {levelInfo.certificates.join(' · ')}
+              </Txt>
+            </>
+          ) : null}
+
+          <Divider />
+
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.md }}>
+            <View style={{ flex: 1 }}>
+              <Txt variant="body">{t('includeLower')}</Txt>
+              <Txt variant="caption" tone="faint">
+                {t('includeLowerSub')}
+              </Txt>
+            </View>
+            <Switch
+              value={settings.includeLower}
+              onValueChange={(v) => update({ includeLower: v })}
+            />
+          </View>
+
+          <Divider />
+          <Txt variant="overline" tone="faint">
+            {t('levelProgress').toUpperCase()}
+          </Txt>
+          {levelStats.map((s2) => {
+            const info = levels.find((l) => l.key === s2.key);
+            if (!info || s2.total === 0) return null;
+            return (
+              <View key={s2.key} style={{ gap: 6 }}>
+                <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+                  <Txt variant="small">
+                    {s2.key} · {info.name[locale]}
+                  </Txt>
+                  <Txt variant="caption" tone="faint">
+                    {s2.mastered}/{s2.total}
+                  </Txt>
+                </View>
+                <ProgressBar value={s2.progress} color={info.color} height={10} />
+              </View>
+            );
+          })}
+
+          <Button
+            title={t('placementStart')}
+            variant="secondary"
+            full
+            icon={<Ionicons name="compass-outline" size={18} color={colors.text} />}
+            onPress={() => router.push('/placement')}
+          />
+        </Card>
+
+        <View style={{ flexDirection: 'row', gap: space.sm }}>
+          <View style={{ flex: 1 }}>
+            <Button
+              title={t('courseTitle')}
+              variant="secondary"
+              full
+              icon={<Ionicons name="flag-outline" size={18} color={colors.text} />}
+              onPress={() => router.push('/course')}
+            />
+          </View>
+          <View style={{ flex: 1 }}>
+            <Button
+              title={t('dictionaryTitle')}
+              variant="secondary"
+              full
+              icon={<Ionicons name="book-outline" size={18} color={colors.text} />}
+              onPress={() => router.push('/dictionary')}
+            />
+          </View>
+        </View>
 
         <Button
           title={t('planTitle')}
@@ -351,9 +467,10 @@ export default function YouScreen() {
           </Txt>
           <Txt variant="caption" tone="faint">
             {meta.counts.vocab} {t('words').toLowerCase()} · {meta.counts.drills} Drills ·{' '}
-            {meta.counts.grammar} {t('grammarTitle')} · {meta.counts.reading + meta.counts.listening +
-              meta.counts.writing + meta.counts.speaking}{' '}
-            {locale === 'de' ? 'Prüfungsaufgaben' : 'exam tasks'}
+            {meta.counts.grammar} {t('grammarTitle')} ·{' '}
+            {meta.counts.reading + meta.counts.listening + meta.counts.writing + meta.counts.speaking}{' '}
+            {locale === 'de' ? 'Prüfungsaufgaben' : 'exam tasks'} · {meta.counts.articles}{' '}
+            {locale === 'de' ? 'Artikel' : 'articles'}
           </Txt>
         </Card>
 

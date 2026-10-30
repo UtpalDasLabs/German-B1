@@ -1,0 +1,593 @@
+/**
+ * The magazine: short articles written at a level, to be read rather than
+ * answered.
+ *
+ * Everything else in this app is an exercise. An article is the one place the
+ * learner meets German doing its actual job, which is why the words in it are
+ * tappable and the grammar in it is linked: the moment you need an explanation
+ * is the moment you hit the sentence, not later in a grammar list.
+ *
+ * Markup, resolved by the build script so a mistake fails the build:
+ *
+ *   [Kaution]            a word with a dictionary entry
+ *   [bezahlt|bezahlen]   same, when the text has an inflected form
+ *   {musst du bezahlen|modalverben}   a phrase that illustrates a topic
+ *
+ * Anything bracketed must resolve to a real entry at or below the article's
+ * level, and any topic key must exist - an article that teaches above its own
+ * level is a bug, not a bonus.
+ *
+ * Item rows are [prompt, options, answerIndex, whyDe, whyEn, promptEn?].
+ */
+export const MAGAZINE = [
+  {
+    id: 'mag.a1.wohnung',
+    level: 'A1',
+    theme: 'wohnen',
+    minutes: 3,
+    title: { de: 'Meine erste Wohnung', en: 'My first flat' },
+    teaser: {
+      de: 'Ein Zimmer, eine Küche, ein Bad - und viel zu viele Formulare.',
+      en: 'One room, a kitchen, a bathroom – and far too many forms.',
+    },
+    paragraphs: [
+      'Ich heiße Amina. Ich komme aus Marokko und ich {wohne|praesens} seit drei Monaten in Leipzig.',
+      'Meine [Wohnung] ist klein. Sie hat ein [Zimmer], eine [Küche] und ein [Bad]. Das [Fenster] ist groß, deshalb ist das Zimmer sehr [hell]. Im Winter ist die [Heizung] leider nicht gut.',
+      'Die [Miete] ist nicht teuer: 390 Euro. Aber ich [bezahle|bezahlen] auch 90 Euro extra. Das ist [Strom], [Wasser] und [Heizung].',
+      'Meine [Nachbarn|der Nachbar] sind [nett]. Frau Köhler wohnt [unten]. Sie hat einen [Hund] und zwei [Katzen|die Katze]. Am [Samstag] sagt sie immer: "Guten Morgen, Amina!"',
+      'Ich habe noch keinen [Tisch] und keinen [Schrank]. Meine [Kleidung] liegt in zwei [Koffern|der Koffer]. Am Wochenende [suche|suchen] ich [Möbel|die Möbel] auf dem [Markt].',
+    ],
+    items: [
+      [
+        'Wie viele Zimmer hat Aminas Wohnung?',
+        ['ein Zimmer', 'zwei Zimmer', 'drei Zimmer', 'vier Zimmer'],
+        0,
+        'Im Text: "Sie hat ein Zimmer, eine Küche und ein Bad." Küche und Bad zählen nicht als Zimmer.',
+        'The text says one room plus a kitchen and a bathroom. Kitchen and bathroom are not counted as rooms.',
+        'How many rooms does Amina’s flat have?',
+      ],
+      [
+        'Was bezahlt Amina im Monat insgesamt?',
+        ['390 Euro', '480 Euro', '90 Euro', '300 Euro'],
+        1,
+        '390 Euro Miete plus 90 Euro Nebenkosten sind 480 Euro.',
+        '390 euros rent plus 90 euros service charges makes 480 euros.',
+        'What does Amina pay in total per month?',
+      ],
+      [
+        'Warum ist das Zimmer hell?',
+        ['Das Fenster ist groß.', 'Die Heizung ist gut.', 'Die Wohnung ist neu.', 'Die Lampe ist neu.'],
+        0,
+        '"Das Fenster ist groß, deshalb ist das Zimmer sehr hell."',
+        '"Das Fenster ist groß, deshalb ist das Zimmer sehr hell."',
+        'Why is the room bright?',
+      ],
+      [
+        'Was fehlt Amina noch?',
+        ['ein Tisch und ein Schrank', 'eine Küche', 'ein Fenster', 'Nachbarn'],
+        0,
+        '"Ich habe noch keinen Tisch und keinen Schrank."',
+        '"Ich habe noch keinen Tisch und keinen Schrank."',
+        'What does Amina still not have?',
+      ],
+      [
+        'Wo liegt Aminas Kleidung?',
+        ['in zwei Koffern', 'im Schrank', 'auf dem Tisch', 'im Bad'],
+        0,
+        '"Meine Kleidung liegt in zwei Koffern."',
+        '"Meine Kleidung liegt in zwei Koffern."',
+        'Where are Amina’s clothes?',
+      ],
+      [
+        'Wer wohnt unten?',
+        ['Frau Köhler', 'Amina', 'niemand', 'zwei Katzen'],
+        0,
+        '"Frau Köhler wohnt unten."',
+        '"Frau Köhler wohnt unten."',
+        'Who lives downstairs?',
+      ],
+    ],
+  },
+
+  {
+    id: 'mag.a1.tag',
+    level: 'A1',
+    theme: 'zeit',
+    minutes: 2,
+    title: { de: 'Ein Tag bei der Post', en: 'A day at the post office' },
+    teaser: {
+      de: 'Halil steht um fünf auf. Warum er den Job trotzdem mag.',
+      en: 'Halil gets up at five. Why he likes the job anyway.',
+    },
+    paragraphs: [
+      'Halil arbeitet bei der [Post]. Er {steht um fünf Uhr auf|trennbar} - auch am [Samstag].',
+      'Zuerst [trinkt|trinken] er einen [Kaffee]. Dann [fährt|fahren] er mit dem [Fahrrad] zur [Arbeit]. Der [Weg] ist nicht [weit], nur zehn [Minuten|die Minute].',
+      'Um sechs [beginnt|anfangen] die Arbeit. Halil [nimmt|nehmen] die [Briefe|der Brief] und sortiert sie. Um neun ist [Pause]. Dann [isst|essen] er ein [Brötchen].',
+      'Am [Mittag] ist er [fertig]. "Das ist [gut]", sagt er. "Ich habe am [Abend] [Zeit] für meine [Familie]." Er hat zwei [Kinder|das Kind]. Sie [spielen|spielen] gern [Fußball].',
+      'Nur im [Winter] ist die Arbeit [schwer]. Es ist [kalt] und oft [dunkel]. Aber im [Sommer] {fährt er gern mit dem Fahrrad|praesens}.',
+    ],
+    items: [
+      [
+        'Wann steht Halil auf?',
+        ['um fünf Uhr', 'um sechs Uhr', 'um neun Uhr', 'am Mittag'],
+        0,
+        '"Er steht um fünf Uhr auf."',
+        '"Er steht um fünf Uhr auf."',
+        'When does Halil get up?',
+      ],
+      [
+        'Wie kommt Halil zur Arbeit?',
+        ['mit dem Fahrrad', 'mit dem Bus', 'mit dem Auto', 'zu Fuß'],
+        0,
+        '"Dann fährt er mit dem Fahrrad zur Arbeit."',
+        '"Dann fährt er mit dem Fahrrad zur Arbeit."',
+        'How does Halil get to work?',
+      ],
+      [
+        'Warum findet Halil die Arbeit gut?',
+        [
+          'Am Abend hat er Zeit für die Familie.',
+          'Er verdient viel Geld.',
+          'Die Arbeit ist leicht.',
+          'Er arbeitet nicht am Samstag.',
+        ],
+        0,
+        '"Ich habe am Abend Zeit für meine Familie."',
+        '"Ich habe am Abend Zeit für meine Familie."',
+        'Why does Halil like the job?',
+      ],
+      [
+        'Wann ist die Arbeit schwer?',
+        ['im Winter', 'im Sommer', 'am Samstag', 'am Mittag'],
+        0,
+        '"Nur im Winter ist die Arbeit schwer. Es ist kalt und oft dunkel."',
+        '"Nur im Winter ist die Arbeit schwer. Es ist kalt und oft dunkel."',
+        'When is the work hard?',
+      ],
+      [
+        'Wie lange braucht Halil zur Arbeit?',
+        ['zehn Minuten', 'eine Stunde', 'fünf Minuten', 'eine halbe Stunde'],
+        0,
+        '"Der Weg ist nicht weit, nur zehn Minuten."',
+        '"Der Weg ist nicht weit, nur zehn Minuten."',
+        'How long does Halil take to get to work?',
+      ],
+    ],
+  },
+
+  {
+    id: 'mag.a2.anmeldung',
+    level: 'A2',
+    theme: 'behoerden',
+    minutes: 4,
+    title: { de: 'Zwei Wochen Zeit', en: 'Two weeks to register' },
+    teaser: {
+      de: 'Was die Anmeldung beim Bürgeramt ist, und warum man ohne sie nichts bekommt.',
+      en: 'What registering at the citizens’ office is, and why nothing works without it.',
+    },
+    paragraphs: [
+      'Wer nach Deutschland zieht, {muss sich anmelden|dativ}. Das heißt: Man geht zum [Bürgeramt] und sagt, wo man wohnt. Die [Frist] sind meistens zwei Wochen.',
+      'Das klingt nach einer Formalität, ist aber der Anfang von allem. Ohne die [Anmeldung] bekommt man keine Steuernummer, kein Konto und oft auch keinen [Vertrag] für Strom oder Internet.',
+      'Du brauchst drei Dinge: deinen [Pass], das ausgefüllte [Formular] und eine [Bescheinigung] vom [Vermieter]. Die letzte heißt "Wohnungsgeberbestätigung". Der Vermieter muss sie dir geben.',
+      'Einen [Termin] bekommst du online. In großen Städten dauert das manchmal Wochen - also [melde|anmelden] dich an, sobald du den Mietvertrag hast, nicht erst nach dem [Umzug].',
+      'Im Amt geht es dann schnell. Du [gibst|abgeben] die Unterlagen ab, jemand tippt sie ein, und nach zehn Minuten hast du ein Blatt Papier. Das Blatt heißt Meldebescheinigung. [Verliere|verlieren] es nicht: du brauchst es noch oft.',
+      'Eine [Gebühr] gibt es für die Anmeldung normalerweise nicht. Wenn du später [umziehst|umziehen], musst du dich wieder anmelden - die alte Adresse wird dabei automatisch gelöscht.',
+    ],
+    items: [
+      [
+        'Wie lange hat man Zeit für die Anmeldung?',
+        ['meistens zwei Wochen', 'einen Monat', 'drei Tage', 'es gibt keine Frist'],
+        0,
+        '"Die Frist sind meistens zwei Wochen."',
+        '"Die Frist sind meistens zwei Wochen."',
+        'How long do you have to register?',
+      ],
+      [
+        'Was bekommt man ohne Anmeldung nicht?',
+        ['eine Steuernummer', 'einen Pass', 'eine Wohnung', 'einen Job'],
+        0,
+        '"Ohne die Anmeldung bekommt man keine Steuernummer, kein Konto …"',
+        '"Ohne die Anmeldung bekommt man keine Steuernummer, kein Konto …"',
+        'What do you not get without registering?',
+      ],
+      [
+        'Wer gibt dir die Wohnungsgeberbestätigung?',
+        ['der Vermieter', 'das Bürgeramt', 'der Hausmeister', 'die Bank'],
+        0,
+        '"… eine Bescheinigung vom Vermieter. Der Vermieter muss sie dir geben."',
+        '"… eine Bescheinigung vom Vermieter. Der Vermieter muss sie dir geben."',
+        'Who gives you the Wohnungsgeberbestätigung?',
+      ],
+      [
+        'Wann sollte man den Termin buchen?',
+        [
+          'sobald man den Mietvertrag hat',
+          'nach dem Umzug',
+          'nach zwei Wochen',
+          'erst wenn man eine Steuernummer braucht',
+        ],
+        0,
+        '"… melde dich an, sobald du den Mietvertrag hast, nicht erst nach dem Umzug."',
+        '"… melde dich an, sobald du den Mietvertrag hast, nicht erst nach dem Umzug."',
+        'When should you book the appointment?',
+      ],
+      [
+        'Was kostet die Anmeldung normalerweise?',
+        ['nichts', '35 Euro', 'zehn Euro', 'das steht nicht im Text'],
+        0,
+        '"Eine Gebühr gibt es für die Anmeldung normalerweise nicht."',
+        '"Eine Gebühr gibt es für die Anmeldung normalerweise nicht."',
+        'What does registering normally cost?',
+      ],
+      [
+        'Was passiert mit der alten Adresse beim Umzug?',
+        [
+          'Sie wird automatisch gelöscht.',
+          'Man muss sie extra abmelden.',
+          'Sie bleibt zwei Jahre gespeichert.',
+          'Der Vermieter meldet sie ab.',
+        ],
+        0,
+        '"… die alte Adresse wird dabei automatisch gelöscht."',
+        '"… die alte Adresse wird dabei automatisch gelöscht."',
+        'What happens to the old address when you move?',
+      ],
+    ],
+  },
+
+  {
+    id: 'mag.a2.pfand',
+    level: 'A2',
+    theme: 'einkaufen',
+    minutes: 3,
+    title: { de: 'Warum die Flasche Geld kostet', en: 'Why the bottle costs money' },
+    teaser: {
+      de: 'Pfand, Automaten und der Bon, den man nicht wegwerfen sollte.',
+      en: 'Deposits, machines and the receipt you should not throw away.',
+    },
+    paragraphs: [
+      'Wer in Deutschland zum ersten Mal Wasser kauft, [wundert|sich wundern] sich über den [Preis]. Eine Flasche kostet 19 Cent, aber an der [Kasse] zahlst du 44. Der Unterschied heißt Pfand.',
+      'Pfand ist kein Preis, sondern eine Art Sicherheit. Du bekommst das [Geld] zurück, wenn du die Flasche [zurückgibst|zurückgeben]. {Das funktioniert, weil fast jeder Supermarkt einen Automaten hat|nebensaetze}.',
+      'Den [Automaten|der Automat] findest du meistens neben dem [Eingang]. Du steckst die Flasche rein, sie dreht sich, und am Ende drückst du einen Knopf. Dann kommt ein [Bon].',
+      'Wichtig: Der Bon ist das [Geld]. Gib ihn an der Kasse ab, dann wird der Betrag von deinem [Einkauf] abgezogen - oder du bekommst ihn bar. [Wirf|wegwerfen] den Bon nicht weg.',
+      'Nicht jede Flasche hat Pfand. Auf Wein und Saft meistens nicht, auf Wasser, [Bier] und Limo fast immer. Wenn du unsicher bist: Auf der Flasche steht ein kleines Zeichen.',
+      'Das System [funktioniert|funktionieren] gut. Über 95 Prozent der Flaschen kommen zurück, und das ist [praktisch] für die [Umwelt] - weniger [Abfall], weniger neue Flaschen.',
+    ],
+    items: [
+      [
+        'Was ist Pfand?',
+        [
+          'eine Sicherheit, die man zurückbekommt',
+          'eine Steuer auf Getränke',
+          'der Preis für das Wasser',
+          'eine Gebühr für den Automaten',
+        ],
+        0,
+        '"Pfand ist kein Preis, sondern eine Art Sicherheit. Du bekommst das Geld zurück …"',
+        '"Pfand ist kein Preis, sondern eine Art Sicherheit. Du bekommst das Geld zurück …"',
+        'What is Pfand?',
+      ],
+      [
+        'Wie viel Pfand ist auf der Flasche im Text?',
+        ['25 Cent', '19 Cent', '44 Cent', '8 Cent'],
+        0,
+        '44 Cent an der Kasse minus 19 Cent Preis sind 25 Cent Pfand.',
+        '44 cents at the till minus the 19-cent price makes 25 cents deposit.',
+        'How much deposit is on the bottle in the text?',
+      ],
+      [
+        'Was macht man mit dem Bon?',
+        [
+          'an der Kasse abgeben',
+          'in den Automaten stecken',
+          'zu Hause aufbewahren',
+          'dem Personal zeigen und wegwerfen',
+        ],
+        0,
+        '"Gib ihn an der Kasse ab …"',
+        '"Gib ihn an der Kasse ab …"',
+        'What do you do with the receipt?',
+      ],
+      [
+        'Auf welchem Getränk ist meistens kein Pfand?',
+        ['Wein', 'Wasser', 'Bier', 'Limo'],
+        0,
+        '"Auf Wein und Saft meistens nicht …"',
+        '"Auf Wein und Saft meistens nicht …"',
+        'Which drink usually has no deposit?',
+      ],
+      [
+        'Warum ist das System gut für die Umwelt?',
+        [
+          'Es entsteht weniger Abfall.',
+          'Die Flaschen sind billiger.',
+          'Die Automaten brauchen wenig Strom.',
+          'Es gibt weniger Supermärkte.',
+        ],
+        0,
+        '"… weniger Abfall, weniger neue Flaschen."',
+        '"… weniger Abfall, weniger neue Flaschen."',
+        'Why is the system good for the environment?',
+      ],
+    ],
+  },
+
+  {
+    id: 'mag.b1.einbuergerung',
+    level: 'B1',
+    theme: 'behoerden',
+    minutes: 5,
+    title: { de: 'Der Test, den fast alle bestehen', en: 'The test almost everyone passes' },
+    teaser: {
+      de: 'Warum der Einbürgerungstest der leichteste Teil ist – und was wirklich dauert.',
+      en: 'Why the citizenship test is the easy part – and what actually takes the time.',
+    },
+    paragraphs: [
+      'Wer sich einbürgern lassen will, hört zuerst vom Einbürgerungstest. 33 Fragen, 17 müssen richtig sein. Die [Fragen|die Frage] stehen öffentlich im Netz, alle 310 davon. Wer sie durchgeht, besteht.',
+      'Der Test ist also nicht das Problem. Die [Voraussetzung] dahinter ist es: Man braucht [Kenntnisse|die Kenntnis] der Sprache auf dem Niveau B1, einen gesicherten [Lebensunterhalt] und in der Regel eine bestimmte [Aufenthaltsdauer].',
+      'Was die meisten unterschätzen, ist die [Dauer]. Der Test selbst ist an einem Vormittag erledigt. Die Bearbeitung des [Antrags|der Antrag] dauert je nach Stadt zwischen sechs Monaten und drei Jahren. In dieser Zeit kann sich die [Gesetzgebung] ändern - und das ist in den letzten Jahren mehrfach passiert.',
+      '{Weil die Behörden unterschiedlich schnell arbeiten|nebensaetze}, lohnt sich ein Blick auf die eigene Stadt. Manche [Ämter|das Amt] veröffentlichen die aktuelle Bearbeitungszeit, andere nicht. Nachfragen kostet nichts.',
+      'Ein praktischer Hinweis: Sammle die [Unterlagen|die Unterlage] früh. Gehaltsnachweise, Mietvertrag, Rentenversicherungsverlauf, Zeugnisse - vieles davon braucht selbst Wochen. Wer erst nach dem Termin anfängt zu suchen, verliert ein halbes Jahr.',
+      'Und: Der Sprachnachweis läuft nicht ab. Ein B1-Zertifikat von 2019 gilt weiter. Das wissen erstaunlich viele nicht und machen die [Prüfung] ein zweites Mal.',
+    ],
+    items: [
+      [
+        'Wie viele Fragen muss man im Einbürgerungstest richtig beantworten?',
+        ['17 von 33', '33 von 33', '310 von 310', '20 von 33'],
+        0,
+        '"33 Fragen, 17 müssen richtig sein."',
+        '"33 questions, 17 have to be correct."',
+        'How many questions must you get right in the citizenship test?',
+      ],
+      [
+        'Warum hält der Text den Test selbst für das kleinere Problem?',
+        [
+          'Alle Fragen sind öffentlich einsehbar.',
+          'Man darf ihn beliebig oft wiederholen.',
+          'Er ist kostenlos.',
+          'Er dauert nur einen Vormittag.',
+        ],
+        0,
+        '"Die Fragen stehen öffentlich im Netz, alle 310 davon. Wer sie durchgeht, besteht."',
+        '"The questions are public, all 310 of them. Anyone who works through them passes."',
+        'Why does the text consider the test itself the lesser problem?',
+      ],
+      [
+        'Wie lange kann die Bearbeitung des Antrags dauern?',
+        ['zwischen sechs Monaten und drei Jahren', 'immer etwa ein Jahr', 'höchstens sechs Monate', 'das steht nicht im Text'],
+        0,
+        '"… dauert je nach Stadt zwischen sechs Monaten und drei Jahren."',
+        '"… takes between six months and three years depending on the city."',
+        'How long can processing the application take?',
+      ],
+      [
+        'Welchen praktischen Rat gibt der Text?',
+        [
+          'die Unterlagen früh sammeln',
+          'den Test zweimal machen',
+          'in eine andere Stadt ziehen',
+          'einen Anwalt einschalten',
+        ],
+        0,
+        '"Sammle die Unterlagen früh."',
+        '"Collect the documents early."',
+        'What practical advice does the text give?',
+      ],
+      [
+        'Was wissen laut Text erstaunlich viele nicht?',
+        [
+          'dass der Sprachnachweis nicht abläuft',
+          'dass der Test kostenpflichtig ist',
+          'dass man B2 braucht',
+          'dass die Fragen öffentlich sind',
+        ],
+        0,
+        '"Der Sprachnachweis läuft nicht ab … Das wissen erstaunlich viele nicht."',
+        '"The language certificate does not expire … Surprisingly many people do not know that."',
+        'What does the text say surprisingly many people do not know?',
+      ],
+    ],
+  },
+
+  {
+    id: 'mag.b2.pendeln',
+    level: 'B2',
+    theme: 'arbeit',
+    minutes: 6,
+    title: { de: 'Die Stunde, die niemand bezahlt', en: 'The hour nobody pays for' },
+    teaser: {
+      de: 'Pendeln ist keine Nebensache der Arbeitszeitdebatte, sondern ihr Kern.',
+      en: 'Commuting is not a side issue in the working-time debate but its core.',
+    },
+    paragraphs: [
+      'In der [Debatte|die Debatte] über feste Bürotage wird viel über [Produktivität|die Produktivität] gesprochen und wenig über den Weg dorthin. Dabei ist der Weg die Größe, die sich am stärksten zwischen den Beschäftigten unterscheidet.',
+      'Zwei Personen mit identischem [Vertrag] können eine Stunde oder drei Stunden täglich unterwegs sein. Diese [Differenz] taucht in keiner Statistik zur [Arbeitsbelastung] auf, weil Pendelzeit keine [Arbeitszeit] ist. Bezahlt wird sie ohnehin nicht.',
+      '{Eine Regel, die alle gleich behandelt, behandelt sie deshalb nicht gleich|partizipial}. Wer zehn Minuten entfernt wohnt, verliert durch zwei feste Bürotage knapp eine Stunde pro Woche. Wer aus dem [Umland] kommt, verliert sechs.',
+      'Die übliche [Antwort] darauf ist ein Zuschuss zum Ticket. Das ist nicht falsch, geht aber am Problem vorbei: Das knappe Gut ist nicht das Geld, sondern die Zeit. Ein bezahltes Ticket macht aus drei Stunden Fahrt keine zwei.',
+      'Interessanter ist eine [Beobachtung], die in mehreren Erhebungen auftaucht: [Unzufriedenheit|die Unzufriedenheit] mit Präsenzpflicht korreliert fast vollständig mit der [Entfernung], kaum mit der [Einstellung] zum Büro an sich. Die Leute wollen nicht weniger Kollegen sehen. Sie wollen weniger fahren.',
+      '{Daraus ließe sich ein Vorschlag ableiten|passiversatz}, der selten gemacht wird: Die Zahl der Bürotage nach [Entfernung] zu staffeln, statt sie pauschal festzulegen. Der [Einwand] dagegen ist [nachvollziehbar] - das wirkt wie Ungleichbehandlung. Nur ist die pauschale Regel bereits eine, sie fällt bloß niemandem auf.',
+      'Was gegen die Staffelung wirklich spricht, ist etwas anderes: Sie macht den [Wohnort] zum Gegenstand betrieblicher [Verhandlung]. Wer weit weg zieht, verhandelt seine [Anwesenheit] neu. Das ist kein kleines Zugeständnis, und es wird in der [Debatte] fast nie [erwähnt|erwähnen].',
+    ],
+    items: [
+      [
+        'Welchen Punkt macht der Text über zwei Personen mit identischem Vertrag?',
+        [
+          'Ihre tägliche Belastung kann sich um Stunden unterscheiden, ohne dass es sichtbar wird.',
+          'Sie verdienen unterschiedlich viel.',
+          'Sie arbeiten unterschiedlich produktiv.',
+          'Sie haben unterschiedliche Arbeitszeiten vereinbart.',
+        ],
+        0,
+        'Die Pendelzeit taucht in keiner Statistik zur Arbeitsbelastung auf.',
+        'Commuting time appears in no workload statistic.',
+        'What point does the text make about two people with identical contracts?',
+      ],
+      [
+        'Warum hält der Autor den Ticket-Zuschuss für unzureichend?',
+        [
+          'Das knappe Gut ist die Zeit, nicht das Geld.',
+          'Der Zuschuss ist zu niedrig.',
+          'Nicht alle Beschäftigten bekommen ihn.',
+          'Tickets werden teurer.',
+        ],
+        0,
+        '"Das knappe Gut ist nicht das Geld, sondern die Zeit."',
+        '"The scarce good is not money but time."',
+        'Why does the author consider the travel subsidy insufficient?',
+      ],
+      [
+        'Womit korreliert die Unzufriedenheit mit Präsenzpflicht laut den genannten Erhebungen?',
+        [
+          'fast vollständig mit der Entfernung',
+          'mit der Einstellung zum Büro',
+          'mit dem Alter der Beschäftigten',
+          'mit der Branche',
+        ],
+        0,
+        '"… korreliert fast vollständig mit der Entfernung, kaum mit der Einstellung zum Büro an sich."',
+        '"… correlates almost entirely with distance, barely with attitudes to the office itself."',
+        'What does dissatisfaction with mandatory attendance correlate with?',
+      ],
+      [
+        'Wie bewertet der Text den Einwand, eine Staffelung sei Ungleichbehandlung?',
+        [
+          'Er ist nachvollziehbar, übersieht aber, dass die pauschale Regel ebenfalls ungleich wirkt.',
+          'Er ist unbegründet.',
+          'Er ist das stärkste Argument gegen die Staffelung.',
+          'Er wird im Text nicht bewertet.',
+        ],
+        0,
+        '"Nur ist die pauschale Regel bereits eine, sie fällt bloß niemandem auf."',
+        '"Except that the blanket rule already is one; it just goes unnoticed."',
+        'How does the text assess the objection that staggering is unequal treatment?',
+      ],
+      [
+        'Was spricht nach Ansicht des Autors wirklich gegen die Staffelung?',
+        [
+          'Sie macht den Wohnort zum Gegenstand betrieblicher Verhandlung.',
+          'Sie ist zu teuer.',
+          'Sie ist rechtlich nicht zulässig.',
+          'Sie löst das Produktivitätsproblem nicht.',
+        ],
+        0,
+        '"Sie macht den Wohnort zum Gegenstand betrieblicher Verhandlung."',
+        '"It makes where you live a matter for workplace negotiation."',
+        'What, in the author’s view, really argues against staggering?',
+      ],
+      [
+        'Welche Haltung nimmt der Text insgesamt ein?',
+        [
+          'Er macht einen Vorschlag und nennt dessen stärksten Einwand selbst.',
+          'Er lehnt Präsenzpflicht grundsätzlich ab.',
+          'Er verteidigt feste Bürotage.',
+          'Er hält die Frage für unwichtig.',
+        ],
+        0,
+        'Der Text schlägt die Staffelung vor und nennt im Schlussabsatz selbst, was dagegen spricht.',
+        'The text proposes staggering and in the final paragraph names what speaks against it itself.',
+        'What stance does the text take overall?',
+      ],
+    ],
+  },
+
+  {
+    id: 'mag.c1.hoeflichkeit',
+    level: 'C1',
+    theme: 'kommunikation',
+    minutes: 6,
+    title: { de: 'Die Unhöflichkeit, die keine ist', en: 'The rudeness that is not one' },
+    teaser: {
+      de: 'Warum deutsche Direktheit so oft falsch gelesen wird – in beide Richtungen.',
+      en: 'Why German directness is so often misread – in both directions.',
+    },
+    paragraphs: [
+      'Kaum ein Klischee hält sich so hartnäckig wie das von der deutschen [Direktheit]. Es stimmt und führt trotzdem in die Irre, weil es eine [Beobachtung] über Form als Aussage über [Haltung] verkauft.',
+      '{So verbreitet das Klischee auch ist|konzessiv}, es beschreibt vor allem eine andere Verteilung der [Höflichkeit] im Satz. Im Englischen sitzt sie in der [Verpackung]: "I was wondering whether you might possibly …". Im Deutschen sitzt sie in Partikeln und im Konjunktiv: "Könnten Sie das vielleicht mal eben …".',
+      'Wer die Partikeln nicht hört, hört einen [Befehl]. Wer sie nicht setzt, erteilt einen - ohne es zu merken. "Mach das" und "Mach das mal" unterscheiden sich für deutsche Ohren erheblich, für fremde gar nicht.',
+      'Die [Verwechslung] läuft in beide Richtungen. Deutschsprachige halten die englische [Verpackung] häufig für Unentschlossenheit und fragen nach, was denn nun gewollt sei. Das wirkt dann seinerseits grob - eine Unhöflichkeit, die aus dem Versuch entsteht, [Klarheit] herzustellen.',
+      'Interessant wird es bei der [Kritik]. Deutsche [Rückmeldung] nennt zuerst, was nicht funktioniert, weil das als respektvoll gilt: Man hält den anderen für belastbar genug. In Kontexten, in denen Lob dem Einwand vorausgeht, liest sich dieselbe [Rückmeldung] als [Abwertung].',
+      'Daraus folgt keine [Empfehlung], sich anzupassen - das verlangt niemand und es gelingt selten. Es folgt etwas Nützlicheres: {Die Frage, ob jemand unhöflich war, lässt sich selten am Satz entscheiden|textkohaesion}. Sie entscheidet sich daran, welche Signale beide Seiten als [Höflichkeit] gelernt haben.',
+      'Praktisch heißt das für Lernende vor allem eines: Die kleinen Wörter sind nicht Verzierung. Sie sind der Teil des Satzes, der die [Haltung] trägt, und sie fehlen zuerst, wenn man unter Druck spricht. Genau dann wirkt man am schroffsten - und meint es am wenigsten.',
+    ],
+    items: [
+      [
+        'Was ist nach dem Text das Problem mit dem Klischee der deutschen Direktheit?',
+        [
+          'Es deutet eine Beobachtung über die Form als Aussage über die Haltung.',
+          'Es ist schlicht falsch.',
+          'Es gilt nur für bestimmte Regionen.',
+          'Es ist veraltet.',
+        ],
+        0,
+        '"… weil es eine Beobachtung über Form als Aussage über Haltung verkauft."',
+        '"… because it sells an observation about form as a statement about attitude."',
+        'What, per the text, is the problem with the cliché of German directness?',
+      ],
+      [
+        'Wo sitzt die Höflichkeit laut Text im Deutschen?',
+        [
+          'in Partikeln und im Konjunktiv',
+          'in langen Einleitungen',
+          'im Tonfall',
+          'in der Anrede',
+        ],
+        0,
+        '"Im Deutschen sitzt sie in Partikeln und im Konjunktiv."',
+        '"In German it sits in particles and the subjunctive."',
+        'Where, per the text, does politeness sit in German?',
+      ],
+      [
+        'Wie entsteht laut Text eine Unhöflichkeit aus dem Versuch, Klarheit herzustellen?',
+        [
+          'Deutschsprachige fragen nach, weil sie die englische Verpackung für Unentschlossenheit halten.',
+          'Englischsprachige wiederholen ihre Bitte.',
+          'Beide Seiten sprechen lauter.',
+          'Man wechselt in die jeweils andere Sprache.',
+        ],
+        0,
+        '"… fragen nach, was denn nun gewollt sei. Das wirkt dann seinerseits grob."',
+        '"… ask what is actually wanted. That in turn comes across as blunt."',
+        'How, per the text, does rudeness arise from trying to create clarity?',
+      ],
+      [
+        'Warum nennt deutsche Rückmeldung zuerst das Problem?',
+        [
+          'Weil Belastbarkeit unterstellt und das als respektvoll verstanden wird.',
+          'Weil Lob als unnötig gilt.',
+          'Weil die Zeit knapp ist.',
+          'Weil es so gelehrt wird.',
+        ],
+        0,
+        '"… weil das als respektvoll gilt: Man hält den anderen für belastbar genug."',
+        '"… because that counts as respectful: you take the other person to be robust enough."',
+        'Why does German feedback name the problem first?',
+      ],
+      [
+        'Welche Folgerung zieht der Text ausdrücklich NICHT?',
+        [
+          'dass man sich anpassen sollte',
+          'dass die Signale gelernt sind',
+          'dass die Partikeln Haltung tragen',
+          'dass die Verwechslung in beide Richtungen läuft',
+        ],
+        0,
+        '"Daraus folgt keine Empfehlung, sich anzupassen."',
+        '"No recommendation to adapt follows from this."',
+        'Which conclusion does the text explicitly NOT draw?',
+      ],
+      [
+        'Warum wirkt man laut Schluss unter Druck am schroffsten?',
+        [
+          'Weil die kleinen Wörter zuerst wegfallen.',
+          'Weil man lauter spricht.',
+          'Weil man den Konjunktiv falsch bildet.',
+          'Weil man zu schnell spricht.',
+        ],
+        0,
+        '"… sie fehlen zuerst, wenn man unter Druck spricht. Genau dann wirkt man am schroffsten."',
+        '"… they are the first thing to go when you speak under pressure. That is exactly when you come across as most brusque."',
+        'Why, per the ending, do you come across as most brusque under pressure?',
+      ],
+    ],
+  },
+];

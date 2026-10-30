@@ -6,7 +6,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { Illustration } from '@/components/Illustration';
 import { Card, Screen, Txt } from '@/components/ui';
-import { PROVIDERS_BY_KEY } from '@/lib/official';
+import { examFor } from '@/lib/official';
 import { meta } from '@/lib/study';
 import type { ModuleAttempt, ModuleKey } from '@/lib/types';
 import { useT } from '@/lib/useT';
@@ -38,7 +38,7 @@ export function TaskPicker({
   const { progress } = useProgress();
 
   const area = meta.areas[module];
-  const provider = PROVIDERS_BY_KEY[settings.provider];
+  const exam = examFor(settings.provider, settings.level);
   const attemptsFor = (taskId: string): ModuleAttempt | undefined =>
     progress.attempts.find((a) => a.taskId === taskId);
 
@@ -73,7 +73,7 @@ export function TaskPicker({
         <Card level={2} style={{ alignItems: 'center', gap: space.sm, paddingVertical: space.xl }}>
           <Illustration name={module} color={area.color} size={96} />
           <Txt variant="small" tone="muted" style={{ textAlign: 'center' }}>
-            {provider.name} · {provider.minutes[module]} {t('minutes')}
+            {exam.name} · {exam.minutes[module]} {t('minutes')}
           </Txt>
         </Card>
 

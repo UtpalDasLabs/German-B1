@@ -7,7 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Illustration } from '@/components/Illustration';
 import { LoadingScreen, useAppReady } from '@/components/Loading';
 import { Button, Card, Chip, Divider, Screen, Txt } from '@/components/ui';
-import { OFFICIAL, PROVIDERS, PROVIDERS_BY_KEY, totalMinutes } from '@/lib/official';
+import { OFFICIAL, SAMPLES, examFor, providersFor, totalMinutes } from '@/lib/official';
 import { meta } from '@/lib/study';
 import { MODULE_KEYS, type ExamProvider } from '@/lib/types';
 import { useT } from '@/lib/useT';
@@ -23,7 +23,7 @@ export default function ExamIntroScreen() {
   const { settings, update } = useSettings();
   const { progress } = useProgress();
 
-  const provider = PROVIDERS_BY_KEY[settings.provider];
+  const exam = examFor(settings.provider, settings.level);
 
   const appReady = useAppReady();
   if (!appReady) return <LoadingScreen />;
@@ -51,11 +51,11 @@ export default function ExamIntroScreen() {
           </Txt>
           <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.lg, justifyContent: 'center' }}>
             {MODULE_KEYS.map((m) => (
-              <Fact key={m} value={String(provider.minutes[m])} label={meta.areas[m].label[locale]} />
+              <Fact key={m} value={String(exam.minutes[m])} label={meta.areas[m].label[locale]} />
             ))}
           </View>
           <Txt variant="caption" tone="faint">
-            {totalMinutes(provider)} {t('minutes')} · {t('passMark')}
+            {totalMinutes(exam)} {t('minutes')} · {t('passMark')}
           </Txt>
         </Card>
 
@@ -74,10 +74,10 @@ export default function ExamIntroScreen() {
             {t('providerSub')}
           </Txt>
           <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.sm }}>
-            {PROVIDERS.map((p) => (
+            {providersFor(settings.level).map((p) => (
               <Chip
                 key={p.key}
-                label={p.name}
+                label={examFor(p.key, settings.level).name}
                 active={settings.provider === p.key}
                 onPress={() => update({ provider: p.key as ExamProvider })}
               />
@@ -86,20 +86,20 @@ export default function ExamIntroScreen() {
 
           <Divider />
 
-          <Txt variant="bodyStrong">{provider.full[locale]}</Txt>
+          <Txt variant="bodyStrong">{exam.full[locale]}</Txt>
           <Txt variant="small" tone="muted">
-            {provider.who[locale]}
+            {exam.who[locale]}
           </Txt>
           <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.sm }}>
-            <Pill text={`${t('passLabel')}: ${provider.passPercent}%`} />
-            <Pill text={`${t('costLabel')}: ${provider.costEur}`} />
-            <Pill text={`${t('modularLabel')}: ${provider.modular ? t('yes') : t('no')}`} />
+            <Pill text={`${t('passLabel')}: ${exam.passPercent}%`} />
+            <Pill text={`${t('costLabel')}: ${exam.costEur}`} />
+            <Pill text={`${t('modularLabel')}: ${exam.modular ? t('yes') : t('no')}`} />
           </View>
 
           <Txt variant="overline" tone="faint">
             {t('formatNotes').toUpperCase()}
           </Txt>
-          {provider.notes.map((note, i) => (
+          {exam.notes.map((note, i) => (
             <View key={i} style={{ flexDirection: 'row', gap: space.sm, alignItems: 'flex-start' }}>
               <Ionicons name="ellipse" size={7} color={colors.textFaint} style={{ marginTop: 8 }} />
               <Txt variant="small" tone="muted" style={{ flex: 1 }}>
@@ -112,14 +112,32 @@ export default function ExamIntroScreen() {
           <Txt variant="overline" tone="faint">
             {t('officialLinks').toUpperCase()}
           </Txt>
-          <Link label={provider.name} url={provider.url} />
+          <Link label={exam.name} url={exam.url} />
           <Link
             label={locale === 'de' ? 'Kostenlose Modellsätze' : 'Free sample papers'}
-            url={settings.provider === 'goethe' ? OFFICIAL.goetheSample : OFFICIAL.telcSample}
+            url={SAMPLES[settings.level].practice}
           />
+          {SAMPLES[settings.level].wordlist ? (
+            <Link
+              label={
+                locale === 'de'
+                  ? `Offizielle ${settings.level}-Wortliste`
+                  : `Official ${settings.level} word list`
+              }
+              url={SAMPLES[settings.level].wordlist as string}
+            />
+          ) : (
+            // Goethe publishes no word list above B1, and saying so is more
+            // use than a dead link or a silent gap.
+            <Txt variant="caption" tone="faint">
+              {locale === 'de'
+                ? `Für ${settings.level} gibt es keine offizielle Wortliste.`
+                : `There is no official word list for ${settings.level}.`}
+            </Txt>
+          )}
           <Link
-            label={locale === 'de' ? 'Offizielle B1-Wortliste' : 'Official B1 word list'}
-            url={OFFICIAL.wordlist}
+            label={locale === 'de' ? 'Was die Niveaus bedeuten (Europarat)' : 'What the levels mean (Council of Europe)'}
+            url={OFFICIAL.cefr}
           />
         </Card>
 

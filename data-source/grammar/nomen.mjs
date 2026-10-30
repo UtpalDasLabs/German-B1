@@ -5,6 +5,7 @@
 export const NOMEN = [
   {
     key: 'adjektivdeklination',
+    level: 'A2',
     icon: '\u{1F58D}️',
     title: { de: 'Adjektivendungen', en: 'Adjective endings' },
     summary: {
@@ -86,6 +87,7 @@ export const NOMEN = [
 
   {
     key: 'komparativ',
+    level: 'A2',
     icon: '\u{1F4CA}',
     title: { de: 'Vergleichen: Komparativ und Superlativ', en: 'Comparing: comparative and superlative' },
     summary: {
@@ -160,6 +162,7 @@ export const NOMEN = [
 
   {
     key: 'genitiv',
+    level: 'B1',
     icon: '\u{1F511}',
     title: { de: 'Genitiv', en: 'The genitive' },
     summary: {
@@ -231,6 +234,7 @@ export const NOMEN = [
 
   {
     key: 'wechselpraepositionen',
+    level: 'A2',
     icon: '\u{1F504}',
     title: { de: 'Wechselpräpositionen', en: 'Two-way prepositions' },
     summary: {
@@ -303,6 +307,7 @@ export const NOMEN = [
 
   {
     key: 'ndeklination',
+    level: 'B1',
     icon: '\u{1F464}',
     title: { de: 'n-Deklination', en: 'The weak masculine nouns' },
     summary: {
