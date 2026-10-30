@@ -4,10 +4,10 @@ A study app for German, from your first sentence to fluent. One codebase, three
 targets: **iOS**, **Android** and a **static web app** that deploys to GitHub
 Pages.
 
-It is free, works offline, needs no account and makes **no network requests at
-all** — there is no `fetch` anywhere outside the service worker, no analytics,
-no telemetry and no backend. Everything you do stays in your browser, and you
-can export it to a file whenever you like.
+It is free, works offline and needs no account. Your progress never leaves your
+browser: there is no backend, nothing is uploaded, and you can export the whole
+lot to a file whenever you like. On the web the app asks once whether it may
+send anonymised usage statistics; see **Privacy** below.
 
 It is the sibling of [German-Citizenship-App](https://github.com/UtpalDasLabs/German-Citizenship-App)
 and shares its design system and its spaced-repetition engine.
@@ -78,13 +78,18 @@ Schreiben and Sprechen, at A1, A2, B1, B2 and C1.
   what would lose your progress.
 - **German, English or both**, light and dark, works offline.
 
+## Privacy
+
+Progress stays on the device and there is no account. On the web the app asks
+before sending anonymised usage statistics (screens used, task and mock-exam
+scores — never answers or anything you write) to Google Analytics. Nothing is
+fetched from Google until you allow it, the choice can be changed any time on
+the "You" tab, and native builds send nothing. See `src/lib/analytics.ts`.
+
 ## Try the web app
 
-Once GitHub Pages is enabled (see below), the app is served at:
-
-```
-https://<your-github-username>.github.io/German-B1/
-```
+The app is served at **https://b1.utpaldas.com**, deployed by Vercel from `main`
+(`vercel.json`).
 
 To run it locally:
 
@@ -93,7 +98,7 @@ npm install
 npm run web          # dev server with fast refresh
 ```
 
-Or build and serve the exact bundle that ships to Pages:
+Or build and serve the exact bundle that ships:
 
 ```bash
 npm run build:web
@@ -115,15 +120,6 @@ implemented the install API.
 Installing matters for more than convenience. An installed PWA with an active
 service worker is treated as far more durable by browsers, which is what stops a
 learner's progress being evicted after a few weeks away.
-
-## Enabling GitHub Pages
-
-The deploy workflow cannot create the Pages site for you — the default
-`GITHUB_TOKEN` is not allowed to. Do it once by hand:
-
-**Settings → Pages → Source: GitHub Actions.**
-
-After that every push to `main` builds and deploys automatically.
 
 ## The study data
 
@@ -230,10 +226,9 @@ by you.
   need either a server, an API key, or sending your voice to a vendor. The
   self-assessment checklists are the honest local substitute, and they are built
   from the criteria a real examiner uses.
-- **No accounts, no sync, no leaderboards.** These require a backend and would
-  end the privacy guarantee. Progress moves between devices as a file you export
-  and import.
-- **No tracking of any kind.** Not even anonymous usage counts.
+- **No accounts, no sync, no leaderboards.** These require a backend that would
+  hold your work. Progress moves between devices as a file you export and
+  import, never through a server.
 
 ## Not affiliated
 

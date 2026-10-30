@@ -1,5 +1,6 @@
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
 
+import { track } from '@/lib/analytics';
 import { clearAll, loadJSON, saveJSON } from '@/lib/storage';
 import { XP_EXAM, XP_MODULE, xpForReview } from '@/lib/goals';
 import { nextStreak, review, todayKey } from '@/lib/srs';
@@ -128,6 +129,14 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
 
   const recordAttempt = useCallback(
     (attempt: ModuleAttempt) => {
+      // One place for every module task, whether sat alone or inside a mock
+      // exam. The score only; self_assessed marks Schreiben/Sprechen, which
+      // the learner grades against the checklist rather than an answer key.
+      track('task_complete', {
+        module: attempt.module,
+        score: attempt.score,
+        self_assessed: attempt.selfAssessed,
+      });
       // Keep the last 40 sittings - enough for a trend per module.
       commit((prev) => ({
         ...awardXp(prev, XP_MODULE, 60),

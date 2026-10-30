@@ -8,6 +8,7 @@ import { InstallGuide } from '@/components/InstallGuide';
 import { LoadingScreen, useAppReady } from '@/components/Loading';
 import { ProgressRing } from '@/components/ProgressRing';
 import { Button, Card, Chip, Divider, ProgressBar, Screen, Txt } from '@/components/ui';
+import { analyticsAvailable, setConsent, track, useAnalyticsConsent } from '@/lib/analytics';
 import {
   buildBackup,
   downloadBackup,
@@ -57,6 +58,7 @@ export default function YouScreen() {
   const scope = useScope();
   const [persisted, setPersisted] = useState(false);
   const [note, setNote] = useState<string | null>(null);
+  const consent = useAnalyticsConsent();
 
   useEffect(() => {
     void isStoragePersisted().then(setPersisted);
@@ -88,6 +90,7 @@ export default function YouScreen() {
 
   const onExport = useCallback(async () => {
     const outcome = await downloadBackup(buildBackup(progress, settings));
+    track('backup_export', { outcome });
     setNote(outcome === 'saved' ? t('exportDone') : outcome === 'declined' ? null : t('importFailed'));
   }, [progress, settings, t]);
 
@@ -100,6 +103,7 @@ export default function YouScreen() {
     confirm(t('importConfirm'), () => {
       restore(file.progress);
       if (file.settings) update(file.settings);
+      track('backup_import');
       setNote(t('importDone'));
     });
   }, [restore, update, t]);
@@ -298,8 +302,23 @@ export default function YouScreen() {
           </View>
 
           <Txt variant="small" tone="muted">
-            {t('storageBody')}
+            {t(analyticsAvailable ? 'storageBodyWeb' : 'storageBody')}
           </Txt>
+          {analyticsAvailable ? (
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.md }}>
+              <View style={{ flex: 1 }}>
+                <Txt variant="body">{t('analyticsToggle')}</Txt>
+                <Txt variant="caption" tone="faint">
+                  {t('analyticsToggleSub')}
+                </Txt>
+              </View>
+              <Switch
+                value={consent === 'granted'}
+                onValueChange={(v) => setConsent(v ? 'granted' : 'denied')}
+                accessibilityLabel={t('analyticsToggle')}
+              />
+            </View>
+          ) : null}
           <View style={{ backgroundColor: colors.dangerBg, borderRadius: radius.md, padding: space.md }}>
             <Txt variant="small" style={{ color: colors.danger }}>
               ⚠︎ {t('storageLoss')}

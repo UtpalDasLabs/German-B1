@@ -7,6 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LoadingScreen, useAppReady } from '@/components/Loading';
 import { Mascot, MascotSays } from '@/components/Mascot';
 import { Button, Card, Screen, Txt } from '@/components/ui';
+import { track } from '@/lib/analytics';
 import { examFor } from '@/lib/official';
 import { buildExam, meta } from '@/lib/study';
 import { MODULE_KEYS, type ModuleKey } from '@/lib/types';
@@ -75,14 +76,25 @@ export default function ExamSessionScreen() {
   const passed = allDone && MODULE_KEYS.every((m) => (scores[m] ?? 0) >= exam.passPercent);
 
   const finish = useCallback(() => {
-    recordExam({
+    const result = {
       at: Date.now(),
       scores,
       passed: MODULE_KEYS.every((m) => (scores[m] ?? 0) >= exam.passPercent),
       duration: Math.round((Date.now() - startedAt) / 1000),
+    };
+    recordExam(result);
+    // Module percentages only - never the answers given.
+    track('exam_complete', {
+      level: settings.level,
+      passed: result.passed,
+      lesen: scores.lesen,
+      hoeren: scores.hoeren,
+      schreiben: scores.schreiben,
+      sprechen: scores.sprechen,
+      duration_sec: result.duration,
     });
     setFinished(true);
-  }, [recordExam, scores, exam.passPercent, startedAt]);
+  }, [recordExam, scores, exam.passPercent, startedAt, settings.level]);
 
   const appReady = useAppReady();
   if (!appReady) return <LoadingScreen />;
