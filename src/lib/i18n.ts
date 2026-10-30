@@ -7,9 +7,9 @@ import type { Language } from './types';
  */
 const strings = {
   en: {
-    appName: 'Deutsch-Trainer',
-    appSubtitle: 'A1 bis C1',
-    tagline: 'From your first sentence to fluent German',
+    appName: 'Ich kann',
+    appSubtitle: 'Deutsch A1 bis C1',
+    tagline: 'Every goal in this app starts with these two words',
 
     // tabs
     tabHome: 'Home',
@@ -313,7 +313,7 @@ const strings = {
     androidStep2: 'Tap “Install app”, or “Add to Home screen” on older versions.',
     androidStep3: 'Tap “Install”. The bear appears on your home screen.',
     desktopStep1: 'Look for the install icon at the end of the address bar.',
-    desktopStep2: 'Or open the browser menu and choose “Install Deutsch-Trainer”.',
+    desktopStep2: 'Or open the browser menu and choose “Install Ich kann”.',
 
     // onboarding
     skip: 'Skip',
@@ -337,9 +337,9 @@ const strings = {
   },
 
   de: {
-    appName: 'Deutsch-Trainer',
-    appSubtitle: 'A1 bis C1',
-    tagline: 'Vom ersten Satz bis zum fließenden Deutsch',
+    appName: 'Ich kann',
+    appSubtitle: 'Deutsch A1 bis C1',
+    tagline: 'Jedes Ziel in dieser App fängt mit diesen zwei Wörtern an',
 
     tabHome: 'Start',
     tabWords: 'Wörter',
@@ -630,7 +630,7 @@ const strings = {
     androidStep2: 'Tippe auf „App installieren“, in älteren Versionen „Zum Startbildschirm hinzufügen“.',
     androidStep3: 'Tippe auf „Installieren“. Der Bär erscheint auf deinem Startbildschirm.',
     desktopStep1: 'Suche das Installationssymbol am Ende der Adressleiste.',
-    desktopStep2: 'Oder öffne das Browsermenü und wähle „Deutsch-Trainer installieren“.',
+    desktopStep2: 'Oder öffne das Browsermenü und wähle „Ich kann installieren“.',
 
     skip: 'Überspringen',
     next: 'Weiter',

@@ -98,7 +98,7 @@ function Navigator() {
       {/* expo-router renders a helmet-managed <title> into the head; without a
           value here it emits an empty one and the tab shows nothing. */}
       <Head>
-        <title>Deutsch-Trainer</title>
+        <title>Ich kann — Deutsch A1 bis C1</title>
         <meta
           name="description"
           content="Practise German from A1 to C1: vocabulary, grammar, graded articles, Lesen, Hören, Schreiben and Sprechen."

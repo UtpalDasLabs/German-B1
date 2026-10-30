@@ -1,6 +1,12 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 /** Bumped whenever the persisted shape changes incompatibly. */
+/*
+ * Deliberately still 'b1.' after the app was renamed to "Ich kann". This
+ * prefix is the address of every existing learner's progress; changing it
+ * would not migrate their data, it would orphan it, and they would open the
+ * app to an empty deck with no way back.
+ */
 const PREFIX = 'b1.v1.';
 
 export async function loadJSON<T>(key: string, fallback: T): Promise<T> {

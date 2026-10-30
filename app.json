@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Deutsch-Trainer",
-    "slug": "b1-trainer",
+    "name": "Ich kann",
+    "slug": "ich-kann",
     "scheme": "b1trainer",
     "version": "1.0.0",
     "orientation": "portrait",

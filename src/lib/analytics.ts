@@ -19,6 +19,10 @@ import { Platform } from 'react-native';
  * same app_id as the portfolio's Labs catalogue, so reports can split by app.
  */
 const GA_ID = (process.env.EXPO_PUBLIC_GA_MEASUREMENT_ID ?? 'G-H0QB1FC8VN').trim();
+// Both keep their original values through the rename, on purpose. The app id
+// is what joins this app's hits to the ones already recorded, so changing it
+// would split the history in two; the consent key is where each visitor's
+// answer lives, so changing it would silently ask everybody again.
 const APP = 'german-b1';
 const CONSENT_KEY = 'b1.analytics-consent';
 
