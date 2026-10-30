@@ -7,7 +7,8 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LoadingScreen, useAppReady } from '@/components/Loading';
 import { MascotSays } from '@/components/Mascot';
 import { Button, Card, Divider, ProgressBar, Screen, Txt } from '@/components/ui';
-import { drillGroups, grammar, getGrammar } from '@/lib/study';
+import { drillGroups, grammarIn, getGrammar } from '@/lib/study';
+import { useScope } from '@/lib/useScope';
 import { groupStats } from '@/lib/stats';
 import type { GrammarTopic } from '@/lib/types';
 import { useT } from '@/lib/useT';
@@ -27,9 +28,10 @@ export default function GrammarScreen() {
   const params = useLocalSearchParams<{ topic?: string }>();
   const [open, setOpen] = useState<string | null>(params.topic ?? null);
   const { progress } = useProgress();
+  const scope = useScope();
 
   const stats = useMemo(() => {
-    const byKey = new Map(groupStats(drillGroups(), progress.cards).map((s) => [s.key, s]));
+    const byKey = new Map(groupStats(drillGroups(scope), progress.cards).map((s) => [s.key, s]));
     return byKey;
   }, [progress.cards]);
 
@@ -89,7 +91,7 @@ export default function GrammarScreen() {
               </Txt>
             </MascotSays>
 
-            {grammar.map((topic) => {
+            {grammarIn(scope).map((topic) => {
               const stat = stats.get(topic.key);
               return (
                 <Pressable

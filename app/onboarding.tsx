@@ -157,7 +157,7 @@ export default function OnboardingScreen() {
                     color={active ? colors.success : colors.textFaint}
                   />
                   <View style={{ flex: 1 }}>
-                    <Txt variant="bodyStrong">{p.name}</Txt>
+                    <Txt variant="bodyStrong">{p.body}</Txt>
                     <Txt variant="small" tone="muted">
                       {p.who[locale]}
                     </Txt>

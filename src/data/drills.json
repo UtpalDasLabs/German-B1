@@ -1,7 +1,1376 @@
 [
  {
+  "id": "g.praesens.01",
+  "topic": "praesens",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ich ___ in München.",
+  "promptEn": null,
+  "options": [
+   "wohne",
+   "wohnst",
+   "wohnt",
+   "wohnen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "ich → -e.",
+   "en": "ich takes -e."
+  }
+ },
+ {
+  "id": "g.praesens.02",
+  "topic": "praesens",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Du ___ sehr gut Deutsch.",
+  "promptEn": null,
+  "options": [
+   "sprichst",
+   "sprechst",
+   "sprecht",
+   "sprichtst"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sprechen wechselt e → i: du sprichst.",
+   "en": "sprechen changes e → i: du sprichst."
+  }
+ },
+ {
+  "id": "g.praesens.03",
+  "topic": "praesens",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Er ___ heute nicht.",
+  "promptEn": null,
+  "options": [
+   "arbeitet",
+   "arbeitt",
+   "arbeite",
+   "arbeiten"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Stamm auf -t: er arbeitet.",
+   "en": "Stem in -t: er arbeitet."
+  }
+ },
+ {
+  "id": "g.praesens.04",
+  "topic": "praesens",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Wir ___ aus Spanien.",
+  "promptEn": null,
+  "options": [
+   "kommen",
+   "kommt",
+   "komme",
+   "kommst"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "wir → -en.",
+   "en": "wir takes -en."
+  }
+ },
+ {
+  "id": "g.praesens.05",
+  "topic": "praesens",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ihr ___ zu spät.",
+  "promptEn": null,
+  "options": [
+   "seid",
+   "sind",
+   "bist",
+   "ist"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "ihr seid. Die Form wird oft mit \"sind\" verwechselt.",
+   "en": "ihr seid. It is often confused with \"sind\"."
+  }
+ },
+ {
+  "id": "g.praesens.06",
+  "topic": "praesens",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Sie ___ keine Zeit.",
+  "promptEn": null,
+  "options": [
+   "hat",
+   "hast",
+   "habt",
+   "haben"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sie (Singular) → hat.",
+   "en": "sie (singular) takes hat."
+  }
+ },
+ {
+  "id": "g.praesens.07",
+  "topic": "praesens",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ du den Film?",
+  "promptEn": null,
+  "options": [
+   "Siehst",
+   "Sehst",
+   "Seht",
+   "Sieht"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sehen wechselt e → ie: du siehst.",
+   "en": "sehen changes e → ie: du siehst."
+  }
+ },
+ {
+  "id": "g.praesens.08",
+  "topic": "praesens",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Morgen ___ ich nach Köln.",
+  "promptEn": null,
+  "options": [
+   "fahre",
+   "werde fahren",
+   "fahren",
+   "fuhr"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Präsens plus Zeitwort reicht für die Zukunft.",
+   "en": "Present tense plus a time word is enough for the future."
+  }
+ },
+ {
+  "id": "g.artikel.01",
+  "topic": "artikel",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ Wohnung ist klein.",
+  "promptEn": null,
+  "options": [
+   "Die",
+   "Der",
+   "Das",
+   "Den"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "-ung ist immer die.",
+   "en": "Nouns in -ung are always die."
+  }
+ },
+ {
+  "id": "g.artikel.02",
+  "topic": "artikel",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ Mädchen heißt Lena.",
+  "promptEn": null,
+  "options": [
+   "Das",
+   "Die",
+   "Der",
+   "Dem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "-chen ist immer das.",
+   "en": "Nouns in -chen are always das."
+  }
+ },
+ {
+  "id": "g.artikel.03",
+  "topic": "artikel",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ich brauche ___ Stuhl.",
+  "promptEn": null,
+  "options": [
+   "einen",
+   "ein",
+   "eine",
+   "einem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "der Stuhl im Akkusativ: einen.",
+   "en": "der Stuhl in the accusative: einen."
+  }
+ },
+ {
+  "id": "g.artikel.04",
+  "topic": "artikel",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ Fenster ist offen.",
+  "promptEn": null,
+  "options": [
+   "Das",
+   "Der",
+   "Die",
+   "Dem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "das Fenster.",
+   "en": "It is das Fenster."
+  }
+ },
+ {
+  "id": "g.artikel.05",
+  "topic": "artikel",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Hast du ___ Frage?",
+  "promptEn": null,
+  "options": [
+   "eine",
+   "ein",
+   "einen",
+   "einem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "die Frage ist feminin; Akkusativ feminin ist auch eine.",
+   "en": "die Frage is feminine, and the feminine accusative is also eine."
+  }
+ },
+ {
+  "id": "g.artikel.06",
+  "topic": "artikel",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ Lehrer kommt zu spät.",
+  "promptEn": null,
+  "options": [
+   "Der",
+   "Die",
+   "Das",
+   "Den"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "-er bei Personen ist der.",
+   "en": "-er for a person is der."
+  }
+ },
+ {
+  "id": "g.artikel.07",
+  "topic": "artikel",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ Bücher liegen hier.",
+  "promptEn": null,
+  "options": [
+   "Die",
+   "Der",
+   "Das",
+   "Den"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Plural ist immer die.",
+   "en": "The plural article is always die."
+  }
+ },
+ {
+  "id": "g.artikel.08",
+  "topic": "artikel",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Das ist ___ Museum.",
+  "promptEn": null,
+  "options": [
+   "ein",
+   "eine",
+   "einen",
+   "einem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "das Museum, also ein.",
+   "en": "das Museum, so ein."
+  }
+ },
+ {
+  "id": "g.akkusativ.01",
+  "topic": "akkusativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ich brauche ___ Stift.",
+  "promptEn": null,
+  "options": [
+   "einen",
+   "ein",
+   "eine",
+   "einem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "der Stift, Akkusativ maskulin: einen.",
+   "en": "der Stift, masculine accusative: einen."
+  }
+ },
+ {
+  "id": "g.akkusativ.02",
+  "topic": "akkusativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Wir gehen durch ___ Park.",
+  "promptEn": null,
+  "options": [
+   "den",
+   "der",
+   "dem",
+   "das"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "durch verlangt Akkusativ: den Park.",
+   "en": "durch takes the accusative: den Park."
+  }
+ },
+ {
+  "id": "g.akkusativ.03",
+  "topic": "akkusativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Sie liest ___ Zeitung.",
+  "promptEn": null,
+  "options": [
+   "die",
+   "den",
+   "dem",
+   "der"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Feminin bleibt im Akkusativ die.",
+   "en": "The feminine stays die in the accusative."
+  }
+ },
+ {
+  "id": "g.akkusativ.04",
+  "topic": "akkusativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Das Geschenk ist für ___ Vater.",
+  "promptEn": null,
+  "options": [
+   "meinen",
+   "mein",
+   "meine",
+   "meinem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "für + Akkusativ, maskulin: meinen.",
+   "en": "für + accusative, masculine: meinen."
+  }
+ },
+ {
+  "id": "g.akkusativ.05",
+  "topic": "akkusativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Es gibt hier ___ Bahnhof.",
+  "promptEn": null,
+  "options": [
+   "einen",
+   "ein",
+   "eine",
+   "einem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Nach es gibt steht der Akkusativ.",
+   "en": "es gibt is followed by the accusative."
+  }
+ },
+ {
+  "id": "g.akkusativ.06",
+  "topic": "akkusativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ich trinke ___ Kaffee ohne Zucker.",
+  "promptEn": null,
+  "options": [
+   "den",
+   "der",
+   "dem",
+   "des"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "trinken verlangt Akkusativ: den Kaffee.",
+   "en": "trinken takes the accusative: den Kaffee."
+  }
+ },
+ {
+  "id": "g.akkusativ.07",
+  "topic": "akkusativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Nimm ___ Stuhl!",
+  "promptEn": null,
+  "options": [
+   "den",
+   "der",
+   "dem",
+   "des"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "nehmen verlangt Akkusativ.",
+   "en": "nehmen takes the accusative."
+  }
+ },
+ {
+  "id": "g.akkusativ.08",
+  "topic": "akkusativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ Fenster ist offen. Ich schließe ___ Fenster.",
+  "promptEn": null,
+  "options": [
+   "Das … das",
+   "Das … den",
+   "Der … den",
+   "Die … die"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Neutral sieht in beiden Fällen gleich aus.",
+   "en": "The neuter looks the same in both cases."
+  }
+ },
+ {
+  "id": "g.possessiv.01",
+  "topic": "possessiv",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Das ist ___ Schwester.",
+  "promptEn": null,
+  "options": [
+   "meine",
+   "mein",
+   "meinen",
+   "meinem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Schwester ist feminin: meine.",
+   "en": "Schwester is feminine: meine."
+  }
+ },
+ {
+  "id": "g.possessiv.02",
+  "topic": "possessiv",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ich besuche ___ Bruder.",
+  "promptEn": null,
+  "options": [
+   "meinen",
+   "mein",
+   "meine",
+   "meinem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Akkusativ maskulin: meinen.",
+   "en": "Masculine accusative: meinen."
+  }
+ },
+ {
+  "id": "g.possessiv.03",
+  "topic": "possessiv",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Wo ist ___ Auto?",
+  "promptEn": null,
+  "options": [
+   "dein",
+   "deine",
+   "deinen",
+   "deinem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "das Auto ist neutral: dein.",
+   "en": "das Auto is neuter: dein."
+  }
+ },
+ {
+  "id": "g.possessiv.04",
+  "topic": "possessiv",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Sie liebt ___ Kinder.",
+  "promptEn": null,
+  "options": [
+   "ihre",
+   "ihr",
+   "ihren",
+   "ihrem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Plural: ihre.",
+   "en": "Plural: ihre."
+  }
+ },
+ {
+  "id": "g.possessiv.05",
+  "topic": "possessiv",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Haben Sie ___ Pass dabei?",
+  "promptEn": null,
+  "options": [
+   "Ihren",
+   "Ihr",
+   "Ihre",
+   "ihren"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Höflich und Akkusativ maskulin: Ihren, groß geschrieben.",
+   "en": "Formal and masculine accusative: Ihren, capitalised."
+  }
+ },
+ {
+  "id": "g.possessiv.06",
+  "topic": "possessiv",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ Wohnung ist sehr schön.",
+  "promptEn": null,
+  "options": [
+   "Eure",
+   "Euer",
+   "Euren",
+   "Eurem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Vor der Endung fällt das e weg: eure Wohnung.",
+   "en": "The e drops before the ending: eure Wohnung."
+  }
+ },
+ {
+  "id": "g.possessiv.07",
+  "topic": "possessiv",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Er sucht ___ Schlüssel.",
+  "promptEn": null,
+  "options": [
+   "seinen",
+   "sein",
+   "seine",
+   "seinem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "der Schlüssel im Akkusativ: seinen.",
+   "en": "der Schlüssel in the accusative: seinen."
+  }
+ },
+ {
+  "id": "g.possessiv.08",
+  "topic": "possessiv",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ Lehrer heißt Herr Bach.",
+  "promptEn": null,
+  "options": [
+   "Unser",
+   "Unsere",
+   "Unseren",
+   "Unserem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "der Lehrer im Nominativ: unser.",
+   "en": "der Lehrer in the nominative: unser."
+  }
+ },
+ {
+  "id": "g.wfragen.01",
+  "topic": "wfragen",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ wohnst du?",
+  "promptEn": null,
+  "options": [
+   "Wo",
+   "Wohin",
+   "Woher",
+   "Wann"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "wohnen heißt bleiben, also Ort: wo.",
+   "en": "wohnen is about location, so wo."
+  }
+ },
+ {
+  "id": "g.wfragen.02",
+  "topic": "wfragen",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ kommst du? – Aus Indien.",
+  "promptEn": null,
+  "options": [
+   "Woher",
+   "Wohin",
+   "Wo",
+   "Wer"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Die Antwort nennt die Herkunft: woher.",
+   "en": "The answer gives an origin: woher."
+  }
+ },
+ {
+  "id": "g.wfragen.03",
+  "topic": "wfragen",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ du heute Zeit?",
+  "promptEn": null,
+  "options": [
+   "Hast",
+   "Du hast",
+   "Wann hast",
+   "Hast du"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Ja/Nein-Frage: Verb zuerst.",
+   "en": "Yes/no question: verb first."
+  }
+ },
+ {
+  "id": "g.wfragen.04",
+  "topic": "wfragen",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ kostet das Ticket?",
+  "promptEn": null,
+  "options": [
+   "Wie viel",
+   "Wie viele",
+   "Wie",
+   "Was für"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Geld ist nicht zählbar: wie viel.",
+   "en": "Money is uncountable: wie viel."
+  }
+ },
+ {
+  "id": "g.wfragen.05",
+  "topic": "wfragen",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ fährst du im Sommer?",
+  "promptEn": null,
+  "options": [
+   "Wohin",
+   "Wo",
+   "Woher",
+   "Wie"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "fahren nennt eine Richtung: wohin.",
+   "en": "fahren implies direction: wohin."
+  }
+ },
+ {
+  "id": "g.wfragen.06",
+  "topic": "wfragen",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ siehst du da? – Meinen Chef.",
+  "promptEn": null,
+  "options": [
+   "Wen",
+   "Wer",
+   "Wem",
+   "Was"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Die Antwort steht im Akkusativ, also wen.",
+   "en": "The answer is accusative, so wen."
+  }
+ },
+ {
+  "id": "g.wfragen.07",
+  "topic": "wfragen",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ beginnt der Film?",
+  "promptEn": null,
+  "options": [
+   "Wann",
+   "Wo",
+   "Wie",
+   "Warum"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Frage nach der Zeit: wann.",
+   "en": "Asking about time: wann."
+  }
+ },
+ {
+  "id": "g.wfragen.08",
+  "topic": "wfragen",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ heißt das auf Deutsch?",
+  "promptEn": null,
+  "options": [
+   "Wie",
+   "Was",
+   "Wer",
+   "Wo"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Feste Wendung: Wie heißt das auf Deutsch?",
+   "en": "Set phrase: Wie heißt das auf Deutsch?"
+  }
+ },
+ {
+  "id": "g.satzklammer.01",
+  "topic": "satzklammer",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Morgen ___ ich nach Berlin.",
+  "promptEn": null,
+  "options": [
+   "fahre",
+   "ich fahre",
+   "fahren",
+   "fährt"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Position 2 ist das Verb, dann das Subjekt.",
+   "en": "Position two is the verb, then the subject."
+  }
+ },
+ {
+  "id": "g.satzklammer.02",
+  "topic": "satzklammer",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ich ___ heute nicht arbeiten.",
+  "promptEn": null,
+  "options": [
+   "kann",
+   "kann nicht",
+   "arbeite",
+   "arbeiten"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Das Modalverb steht auf 2, der Infinitiv am Ende.",
+   "en": "The modal goes second, the infinitive last."
+  }
+ },
+ {
+  "id": "g.satzklammer.03",
+  "topic": "satzklammer",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Der Film ___ um acht ___.",
+  "promptEn": null,
+  "options": [
+   "fängt … an",
+   "anfängt … –",
+   "fängt an … –",
+   "an … fängt"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "anfangen ist trennbar: fängt … an.",
+   "en": "anfangen is separable: fängt … an."
+  }
+ },
+ {
+  "id": "g.satzklammer.04",
+  "topic": "satzklammer",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Am Samstag ___ wir unsere Freunde.",
+  "promptEn": null,
+  "options": [
+   "treffen",
+   "wir treffen",
+   "trefft",
+   "getroffen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Nach der Zeitangabe folgt das Verb.",
+   "en": "The verb follows the time expression."
+  }
+ },
+ {
+  "id": "g.satzklammer.05",
+  "topic": "satzklammer",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Wo ___ du ___?",
+  "promptEn": null,
+  "options": [
+   "steigst … um",
+   "umsteigst … –",
+   "steigst um … –",
+   "um … steigst"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "umsteigen ist trennbar, auch in der Frage.",
+   "en": "umsteigen is separable, in questions too."
+  }
+ },
+ {
+  "id": "g.satzklammer.06",
+  "topic": "satzklammer",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ich ___ meinen Pass ___.",
+  "promptEn": null,
+  "options": [
+   "habe … vergessen",
+   "vergessen … habe",
+   "habe vergessen … –",
+   "vergesse … habe"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Das Partizip schließt den Satz.",
+   "en": "The participle closes the sentence."
+  }
+ },
+ {
+  "id": "g.satzklammer.07",
+  "topic": "satzklammer",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Leider ___ ich keine Zeit.",
+  "promptEn": null,
+  "options": [
+   "habe",
+   "ich habe",
+   "haben",
+   "hat"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Auch nach \"leider\" steht das Verb auf 2.",
+   "en": "Even after \"leider\" the verb is second."
+  }
+ },
+ {
+  "id": "g.satzklammer.08",
+  "topic": "satzklammer",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Wir ___ am Wochenende ins Kino ___.",
+  "promptEn": null,
+  "options": [
+   "wollen … gehen",
+   "gehen … wollen",
+   "wollen gehen … –",
+   "gehen wollen … –"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Modalverb auf 2, Infinitiv ans Ende.",
+   "en": "Modal second, infinitive at the end."
+  }
+ },
+ {
+  "id": "g.negation.01",
+  "topic": "negation",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ich habe ___ Auto.",
+  "promptEn": null,
+  "options": [
+   "kein",
+   "nicht",
+   "keinen",
+   "nichts"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "das Auto mit ein → kein.",
+   "en": "das Auto with ein → kein."
+  }
+ },
+ {
+  "id": "g.negation.02",
+  "topic": "negation",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Er hat ___ Bruder.",
+  "promptEn": null,
+  "options": [
+   "keinen",
+   "kein",
+   "keine",
+   "nicht"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "der Bruder im Akkusativ: keinen.",
+   "en": "der Bruder in the accusative: keinen."
+  }
+ },
+ {
+  "id": "g.negation.03",
+  "topic": "negation",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Das ist ___ mein Platz.",
+  "promptEn": null,
+  "options": [
+   "nicht",
+   "kein",
+   "keinen",
+   "nichts"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Possessivartikel → nicht.",
+   "en": "Possessive → nicht."
+  }
+ },
+ {
+  "id": "g.negation.04",
+  "topic": "negation",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ich habe heute ___ Zeit.",
+  "promptEn": null,
+  "options": [
+   "keine",
+   "nicht",
+   "kein",
+   "keinen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Zeit ist feminin und ohne Artikel: keine.",
+   "en": "Zeit is feminine and article-less: keine."
+  }
+ },
+ {
+  "id": "g.negation.05",
+  "topic": "negation",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Die Suppe ist ___ warm.",
+  "promptEn": null,
+  "options": [
+   "nicht",
+   "kein",
+   "keine",
+   "nichts"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Adjektiv → nicht.",
+   "en": "Adjective → nicht."
+  }
+ },
+ {
+  "id": "g.negation.06",
+  "topic": "negation",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ich kann morgen ___ kommen.",
+  "promptEn": null,
+  "options": [
+   "nicht",
+   "kein",
+   "nichts",
+   "keine"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Verneinung des Verbs, vor dem Infinitiv.",
+   "en": "Negating the verb, before the infinitive."
+  }
+ },
+ {
+  "id": "g.negation.07",
+  "topic": "negation",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Wir haben ___ Kinder.",
+  "promptEn": null,
+  "options": [
+   "keine",
+   "kein",
+   "nicht",
+   "keinen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Plural ohne Artikel: keine.",
+   "en": "Plural with no article: keine."
+  }
+ },
+ {
+  "id": "g.negation.08",
+  "topic": "negation",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ich habe ___ gesagt.",
+  "promptEn": null,
+  "options": [
+   "nichts",
+   "nicht",
+   "kein",
+   "keine"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "nichts ist ein eigenes Wort für \"gar nichts\".",
+   "en": "nichts is its own word for \"nothing at all\"."
+  }
+ },
+ {
+  "id": "g.imperativ.01",
+  "topic": "imperativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ bitte die Tür zu! (du, zumachen)",
+  "promptEn": null,
+  "options": [
+   "Mach",
+   "Machst",
+   "Machen",
+   "Macht"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "du-Imperativ: Stamm ohne -st.",
+   "en": "du imperative: stem without -st."
+  }
+ },
+ {
+  "id": "g.imperativ.02",
+  "topic": "imperativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ Sie bitte hier!",
+  "promptEn": null,
+  "options": [
+   "Warten",
+   "Wartet",
+   "Warte",
+   "Warten Sie bitte"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Sie-Form: Verb plus Sie.",
+   "en": "Sie form: verb plus Sie."
+  }
+ },
+ {
+  "id": "g.imperativ.03",
+  "topic": "imperativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ lauter, bitte! (du, sprechen)",
+  "promptEn": null,
+  "options": [
+   "Sprich",
+   "Sprech",
+   "Sprecht",
+   "Sprechen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "e → i bleibt: Sprich!",
+   "en": "The e → i change stays: Sprich!"
+  }
+ },
+ {
+  "id": "g.imperativ.04",
+  "topic": "imperativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ nicht so schnell! (du, fahren)",
+  "promptEn": null,
+  "options": [
+   "Fahr",
+   "Fähr",
+   "Fahrt",
+   "Fahren"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "a → ä fällt weg: Fahr!",
+   "en": "The a → ä change drops: Fahr!"
+  }
+ },
+ {
+  "id": "g.imperativ.05",
+  "topic": "imperativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ bitte ruhig, Kinder!",
+  "promptEn": null,
+  "options": [
+   "Seid",
+   "Sei",
+   "Seien",
+   "Sind"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Mehrere Kinder, also ihr: Seid!",
+   "en": "Several children, so ihr: Seid!"
+  }
+ },
+ {
+  "id": "g.imperativ.06",
+  "topic": "imperativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ einen Moment, bitte. (du, warten)",
+  "promptEn": null,
+  "options": [
+   "Warte",
+   "Wart",
+   "Wartet",
+   "Warten"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Stamm auf -t behält das -e.",
+   "en": "A stem in -t keeps the -e."
+  }
+ },
+ {
+  "id": "g.imperativ.07",
+  "topic": "imperativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ Sie bitte das Formular aus!",
+  "promptEn": null,
+  "options": [
+   "Füllen",
+   "Füllt",
+   "Füll",
+   "Ausfüllen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Trennbar: Füllen Sie … aus.",
+   "en": "Separable: Füllen Sie … aus."
+  }
+ },
+ {
+  "id": "g.imperativ.08",
+  "topic": "imperativ",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ mir bitte! (du, helfen)",
+  "promptEn": null,
+  "options": [
+   "Hilf",
+   "Helf",
+   "Helft",
+   "Helfen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "helfen wechselt e → i: Hilf!",
+   "en": "helfen changes e → i: Hilf!"
+  }
+ },
+ {
+  "id": "g.trennbar.01",
+  "topic": "trennbar",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ich ___ um sieben ___. (aufstehen)",
+  "promptEn": null,
+  "options": [
+   "stehe … auf",
+   "aufstehe … –",
+   "stehe auf … –",
+   "auf … stehe"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Trennbar: Verb auf 2, Vorsilbe ans Ende.",
+   "en": "Separable: verb second, prefix last."
+  }
+ },
+ {
+  "id": "g.trennbar.02",
+  "topic": "trennbar",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "___ du mich morgen ___? (anrufen)",
+  "promptEn": null,
+  "options": [
+   "Rufst … an",
+   "Anrufst … –",
+   "Rufst an … –",
+   "An … rufst"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Auch in der Frage trennt sich die Vorsilbe.",
+   "en": "The prefix separates in questions too."
+  }
+ },
+ {
+  "id": "g.trennbar.03",
+  "topic": "trennbar",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ich ___ das Problem nicht. (verstehen)",
+  "promptEn": null,
+  "options": [
+   "verstehe",
+   "stehe ver",
+   "verstehe nicht",
+   "stehe verstehe"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "ver- ist untrennbar.",
+   "en": "ver- is inseparable."
+  }
+ },
+ {
+  "id": "g.trennbar.04",
+  "topic": "trennbar",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Wir ___ morgen um acht ___. (abfahren)",
+  "promptEn": null,
+  "options": [
+   "fahren … ab",
+   "abfahren … –",
+   "fahren ab … –",
+   "ab … fahren"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "ab- ist betont, also trennbar.",
+   "en": "ab- is stressed, so separable."
+  }
+ },
+ {
+  "id": "g.trennbar.05",
+  "topic": "trennbar",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ich habe gestern ___. (einkaufen, Perfekt)",
+  "promptEn": null,
+  "options": [
+   "eingekauft",
+   "gekauft ein",
+   "geeinkauft",
+   "einkaufen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Das ge- steht in der Mitte: eingekauft.",
+   "en": "The ge- goes in the middle: eingekauft."
+  }
+ },
+ {
+  "id": "g.trennbar.06",
+  "topic": "trennbar",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Sie hat mir alles ___. (erklären, Perfekt)",
+  "promptEn": null,
+  "options": [
+   "erklärt",
+   "geerklärt",
+   "erkläregt",
+   "klärt er"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "er- ist untrennbar: kein ge-.",
+   "en": "er- is inseparable: no ge-."
+  }
+ },
+ {
+  "id": "g.trennbar.07",
+  "topic": "trennbar",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Ich möchte heute früh ___. (aufstehen)",
+  "promptEn": null,
+  "options": [
+   "aufstehen",
+   "stehe auf",
+   "auf stehen",
+   "aufgestanden"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Nach dem Modalverb bleibt der Infinitiv ganz.",
+   "en": "After a modal the infinitive stays whole."
+  }
+ },
+ {
+  "id": "g.trennbar.08",
+  "topic": "trennbar",
+  "level": "A1",
+  "kind": "grammar",
+  "prompt": "Wann ___ der Zug ___? (ankommen)",
+  "promptEn": null,
+  "options": [
+   "kommt … an",
+   "ankommt … –",
+   "kommt an … –",
+   "an … kommt"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "an- ist trennbar.",
+   "en": "an- is separable."
+  }
+ },
+ {
   "id": "g.perfekt.01",
   "topic": "perfekt",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Gestern ___ ich mit dem Zug nach Hamburg gefahren.",
   "promptEn": null,
@@ -20,6 +1389,7 @@
  {
   "id": "g.perfekt.02",
   "topic": "perfekt",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Wir ___ den ganzen Tag gearbeitet.",
   "promptEn": null,
@@ -38,6 +1408,7 @@
  {
   "id": "g.perfekt.03",
   "topic": "perfekt",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Sie hat mich gestern ___.",
   "promptEn": null,
@@ -56,6 +1427,7 @@
  {
   "id": "g.perfekt.04",
   "topic": "perfekt",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich habe drei Jahre in Köln ___.",
   "promptEn": null,
@@ -74,6 +1446,7 @@
  {
   "id": "g.perfekt.05",
   "topic": "perfekt",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Der Vertrag ___ gestern angekommen.",
   "promptEn": null,
@@ -92,6 +1465,7 @@
  {
   "id": "g.perfekt.06",
   "topic": "perfekt",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Nach dem Umzug ___ wir eine Woche lang nichts gefunden.",
   "promptEn": null,
@@ -110,6 +1484,7 @@
  {
   "id": "g.perfekt.07",
   "topic": "perfekt",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Er ___ letztes Jahr Vater geworden.",
   "promptEn": null,
@@ -128,6 +1503,7 @@
  {
   "id": "g.perfekt.08",
   "topic": "perfekt",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Wir haben uns im Sprachkurs ___.",
   "promptEn": null,
@@ -146,6 +1522,7 @@
  {
   "id": "g.perfekt.09",
   "topic": "perfekt",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich ___ den Termin leider vergessen.",
   "promptEn": null,
@@ -164,6 +1541,7 @@
  {
   "id": "g.perfekt.10",
   "topic": "perfekt",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Wie lange ___ ihr in der Schlange gestanden?",
   "promptEn": null,
@@ -182,6 +1560,7 @@
  {
   "id": "g.praeteritum.01",
   "topic": "praeteritum",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Als ich klein ___, wohnten wir in Izmir.",
   "promptEn": null,
@@ -200,6 +1579,7 @@
  {
   "id": "g.praeteritum.02",
   "topic": "praeteritum",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Ich ___ gestern leider länger arbeiten.",
   "promptEn": null,
@@ -218,6 +1598,7 @@
  {
   "id": "g.praeteritum.03",
   "topic": "praeteritum",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Damals ___ es hier noch keine Straßenbahn.",
   "promptEn": null,
@@ -236,6 +1617,7 @@
  {
   "id": "g.praeteritum.04",
   "topic": "praeteritum",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wir ___ 2019 nach Deutschland.",
   "promptEn": null,
@@ -254,6 +1636,7 @@
  {
   "id": "g.praeteritum.05",
   "topic": "praeteritum",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Die Firma ___ im Frühjahr zwanzig Leute ein.",
   "promptEn": null,
@@ -272,6 +1655,7 @@
  {
   "id": "g.praeteritum.06",
   "topic": "praeteritum",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Er ___ keine Zeit, sich zu melden.",
   "promptEn": null,
@@ -290,6 +1674,7 @@
  {
   "id": "g.praeteritum.07",
   "topic": "praeteritum",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Sie ___ erst mit dreißig Deutsch zu lernen.",
   "promptEn": null,
@@ -308,6 +1693,7 @@
  {
   "id": "g.praeteritum.08",
   "topic": "praeteritum",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Der Bericht ___, dass die Mieten stark gestiegen sind.",
   "promptEn": null,
@@ -326,6 +1712,7 @@
  {
   "id": "g.plusquamperfekt.01",
   "topic": "plusquamperfekt",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Nachdem wir die Wohnung besichtigt ___, haben wir sofort zugesagt.",
   "promptEn": null,
@@ -344,6 +1731,7 @@
  {
   "id": "g.plusquamperfekt.02",
   "topic": "plusquamperfekt",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Nachdem sie nach Berlin gezogen ___, fand sie schnell Arbeit.",
   "promptEn": null,
@@ -362,6 +1750,7 @@
  {
   "id": "g.plusquamperfekt.03",
   "topic": "plusquamperfekt",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "___ ich das Formular abgeschickt hatte, fiel mir der Fehler auf.",
   "promptEn": null,
@@ -380,6 +1769,7 @@
  {
   "id": "g.plusquamperfekt.04",
   "topic": "plusquamperfekt",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Bevor ich zum Amt ___, habe ich alle Unterlagen kopiert.",
   "promptEn": null,
@@ -398,6 +1788,7 @@
  {
   "id": "g.plusquamperfekt.05",
   "topic": "plusquamperfekt",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Als der Bus endlich kam, ___ wir schon eine Stunde gewartet.",
   "promptEn": null,
@@ -416,6 +1807,7 @@
  {
   "id": "g.plusquamperfekt.06",
   "topic": "plusquamperfekt",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Nachdem der Arzt mich untersucht ___, bekam ich ein Rezept.",
   "promptEn": null,
@@ -434,6 +1826,7 @@
  {
   "id": "g.futur.01",
   "topic": "futur",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Keine Sorge, ich ___ mich darum kümmern.",
   "promptEn": null,
@@ -452,6 +1845,7 @@
  {
   "id": "g.futur.02",
   "topic": "futur",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Nächsten Montag ___ ich meinen neuen Job.",
   "promptEn": null,
@@ -470,6 +1864,7 @@
  {
   "id": "g.futur.03",
   "topic": "futur",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wo ist Ali? – Er ___ wohl noch im Stau stehen.",
   "promptEn": null,
@@ -488,6 +1883,7 @@
  {
   "id": "g.futur.04",
   "topic": "futur",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Die Mieten ___ auch nächstes Jahr weiter steigen.",
   "promptEn": null,
@@ -506,6 +1902,7 @@
  {
   "id": "g.futur.05",
   "topic": "futur",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "___ du mir bitte Bescheid geben, wenn du ankommst?",
   "promptEn": null,
@@ -524,6 +1921,7 @@
  {
   "id": "g.nebensaetze.01",
   "topic": "nebensaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich kann nicht kommen, weil ich noch ___.",
   "promptEn": null,
@@ -542,6 +1940,7 @@
  {
   "id": "g.nebensaetze.02",
   "topic": "nebensaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Weil der Zug Verspätung hatte, ___ ich zu spät.",
   "promptEn": null,
@@ -560,6 +1959,7 @@
  {
   "id": "g.nebensaetze.03",
   "topic": "nebensaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich weiß noch nicht, ___ ich am Samstag Zeit habe.",
   "promptEn": null,
@@ -578,6 +1978,7 @@
  {
   "id": "g.nebensaetze.04",
   "topic": "nebensaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Obwohl es geregnet ___, sind wir spazieren gegangen.",
   "promptEn": null,
@@ -596,6 +1997,7 @@
  {
   "id": "g.nebensaetze.05",
   "topic": "nebensaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Er sagt, dass er den Termin ___.",
   "promptEn": null,
@@ -614,6 +2016,7 @@
  {
   "id": "g.nebensaetze.06",
   "topic": "nebensaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich lerne jeden Tag, ___ ich die Prüfung bestehe.",
   "promptEn": null,
@@ -632,6 +2035,7 @@
  {
   "id": "g.nebensaetze.07",
   "topic": "nebensaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Sobald der Bescheid ___, rufe ich dich an.",
   "promptEn": null,
@@ -650,6 +2054,7 @@
  {
   "id": "g.nebensaetze.08",
   "topic": "nebensaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Sie hat mir erzählt, dass sie nächsten Monat ___.",
   "promptEn": null,
@@ -668,6 +2073,7 @@
  {
   "id": "g.nebensaetze.09",
   "topic": "nebensaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Falls es morgen ___, bleiben wir zu Hause.",
   "promptEn": null,
@@ -686,6 +2092,7 @@
  {
   "id": "g.konnektoren.01",
   "topic": "konnektoren",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Es hat geregnet, deshalb ___ wir zu Hause geblieben.",
   "promptEn": null,
@@ -704,6 +2111,7 @@
  {
   "id": "g.konnektoren.02",
   "topic": "konnektoren",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Ich komme später, ___ ich noch einen Termin habe.",
   "promptEn": null,
@@ -722,6 +2130,7 @@
  {
   "id": "g.konnektoren.03",
   "topic": "konnektoren",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Die Miete ist hoch, ___ die Lage ist perfekt.",
   "promptEn": null,
@@ -740,6 +2149,7 @@
  {
   "id": "g.konnektoren.04",
   "topic": "konnektoren",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "___ es sehr kalt war, sind wir schwimmen gegangen.",
   "promptEn": null,
@@ -758,6 +2168,7 @@
  {
   "id": "g.konnektoren.05",
   "topic": "konnektoren",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Er hat wenig Zeit, ___ hilft er uns jedes Wochenende.",
   "promptEn": null,
@@ -776,6 +2187,7 @@
  {
   "id": "g.konnektoren.06",
   "topic": "konnektoren",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Nimm einen Schirm mit, ___ wirst du nass.",
   "promptEn": null,
@@ -794,6 +2206,7 @@
  {
   "id": "g.konnektoren.07",
   "topic": "konnektoren",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wir haben abgesagt, ___ das Wetter zu schlecht war.",
   "promptEn": null,
@@ -812,6 +2225,7 @@
  {
   "id": "g.konnektoren.08",
   "topic": "konnektoren",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Der Kurs ist voll, ___ melde dich für den nächsten an.",
   "promptEn": null,
@@ -830,6 +2244,7 @@
  {
   "id": "g.relativsaetze.01",
   "topic": "relativsaetze",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Das ist der Kollege, ___ mir geholfen hat.",
   "promptEn": null,
@@ -848,6 +2263,7 @@
  {
   "id": "g.relativsaetze.02",
   "topic": "relativsaetze",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Der Film, ___ wir gestern gesehen haben, war spannend.",
   "promptEn": null,
@@ -866,6 +2282,7 @@
  {
   "id": "g.relativsaetze.03",
   "topic": "relativsaetze",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Die Frau, ___ ich das Paket gegeben habe, wohnt oben.",
   "promptEn": null,
@@ -884,6 +2301,7 @@
  {
   "id": "g.relativsaetze.04",
   "topic": "relativsaetze",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Das Formular, ___ Sie ausfüllen müssen, liegt am Eingang.",
   "promptEn": null,
@@ -902,6 +2320,7 @@
  {
   "id": "g.relativsaetze.05",
   "topic": "relativsaetze",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Die Nachbarn, ___ wir den Schlüssel gegeben haben, sind sehr nett.",
   "promptEn": null,
@@ -920,6 +2339,7 @@
  {
   "id": "g.relativsaetze.06",
   "topic": "relativsaetze",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Die Kollegin, mit ___ ich das Projekt mache, kommt aus Polen.",
   "promptEn": null,
@@ -938,6 +2358,7 @@
  {
   "id": "g.relativsaetze.07",
   "topic": "relativsaetze",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Das Haus, in ___ wir wohnen, wird renoviert.",
   "promptEn": null,
@@ -956,6 +2377,7 @@
  {
   "id": "g.relativsaetze.08",
   "topic": "relativsaetze",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Der Mann, ___ Auto hier steht, ist mein Vermieter.",
   "promptEn": null,
@@ -974,6 +2396,7 @@
  {
   "id": "g.wortstellung.01",
   "topic": "wortstellung",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wähle den richtigen Satz.",
   "promptEn": null,
@@ -992,6 +2415,7 @@
  {
   "id": "g.wortstellung.02",
   "topic": "wortstellung",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wähle den richtigen Satz.",
   "promptEn": null,
@@ -1010,6 +2434,7 @@
  {
   "id": "g.wortstellung.03",
   "topic": "wortstellung",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wähle den richtigen Satz.",
   "promptEn": null,
@@ -1028,6 +2453,7 @@
  {
   "id": "g.wortstellung.04",
   "topic": "wortstellung",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wähle den richtigen Satz.",
   "promptEn": null,
@@ -1046,6 +2472,7 @@
  {
   "id": "g.wortstellung.05",
   "topic": "wortstellung",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wähle den richtigen Satz.",
   "promptEn": null,
@@ -1064,6 +2491,7 @@
  {
   "id": "g.wortstellung.06",
   "topic": "wortstellung",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wähle den richtigen Satz.",
   "promptEn": null,
@@ -1082,6 +2510,7 @@
  {
   "id": "g.passiv.01",
   "topic": "passiv",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Das Formular ___ am Schalter abgegeben.",
   "promptEn": null,
@@ -1100,6 +2529,7 @@
  {
   "id": "g.passiv.02",
   "topic": "passiv",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Die Straße ___ letztes Jahr gesperrt.",
   "promptEn": null,
@@ -1118,6 +2548,7 @@
  {
   "id": "g.passiv.03",
   "topic": "passiv",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Der Antrag ist schon bearbeitet ___.",
   "promptEn": null,
@@ -1136,6 +2567,7 @@
  {
   "id": "g.passiv.04",
   "topic": "passiv",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Die Rechnung muss bis Freitag bezahlt ___.",
   "promptEn": null,
@@ -1154,6 +2586,7 @@
  {
   "id": "g.passiv.05",
   "topic": "passiv",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Der Antrag wurde ___ der Sachbearbeiterin geprüft.",
   "promptEn": null,
@@ -1172,6 +2605,7 @@
  {
   "id": "g.passiv.06",
   "topic": "passiv",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Das Dach wurde ___ den Sturm beschädigt.",
   "promptEn": null,
@@ -1190,6 +2624,7 @@
  {
   "id": "g.passiv.07",
   "topic": "passiv",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Hier ___ nicht geraucht.",
   "promptEn": null,
@@ -1208,6 +2643,7 @@
  {
   "id": "g.passiv.08",
   "topic": "passiv",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Die Ergebnisse ___ nächste Woche veröffentlicht.",
   "promptEn": null,
@@ -1226,6 +2662,7 @@
  {
   "id": "g.konjunktiv2.01",
   "topic": "konjunktiv2",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "___ Sie mir bitte kurz helfen?",
   "promptEn": null,
@@ -1244,6 +2681,7 @@
  {
   "id": "g.konjunktiv2.02",
   "topic": "konjunktiv2",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Ich ___ gern einen Termin am Dienstag.",
   "promptEn": null,
@@ -1262,6 +2700,7 @@
  {
   "id": "g.konjunktiv2.03",
   "topic": "konjunktiv2",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wenn ich mehr Zeit ___, würde ich einen Kurs besuchen.",
   "promptEn": null,
@@ -1280,6 +2719,7 @@
  {
   "id": "g.konjunktiv2.04",
   "topic": "konjunktiv2",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Das ___ wirklich nett von Ihnen.",
   "promptEn": null,
@@ -1298,6 +2738,7 @@
  {
   "id": "g.konjunktiv2.05",
   "topic": "konjunktiv2",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "An deiner Stelle ___ ich noch einmal nachfragen.",
   "promptEn": null,
@@ -1316,6 +2757,7 @@
  {
   "id": "g.konjunktiv2.06",
   "topic": "konjunktiv2",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wenn ich das gewusst hätte, ___ ich früher gekommen.",
   "promptEn": null,
@@ -1334,6 +2776,7 @@
  {
   "id": "g.konjunktiv2.07",
   "topic": "konjunktiv2",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Du ___ dich unbedingt beim Amt melden.",
   "promptEn": null,
@@ -1352,6 +2795,7 @@
  {
   "id": "g.konjunktiv2.08",
   "topic": "konjunktiv2",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "___ ich Sie kurz stören?",
   "promptEn": null,
@@ -1370,6 +2814,7 @@
  {
   "id": "g.modalverben.01",
   "topic": "modalverben",
+  "level": "A1",
   "kind": "grammar",
   "prompt": "Hier ist ein Kinderspielplatz. Sie ___ hier nicht rauchen.",
   "promptEn": null,
@@ -1388,6 +2833,7 @@
  {
   "id": "g.modalverben.02",
   "topic": "modalverben",
+  "level": "A1",
   "kind": "grammar",
   "prompt": "Der Bescheid kommt per Post. Sie ___ nicht extra herkommen.",
   "promptEn": null,
@@ -1406,6 +2852,7 @@
  {
   "id": "g.modalverben.03",
   "topic": "modalverben",
+  "level": "A1",
   "kind": "grammar",
   "prompt": "Ich ___ mich laut Vermieter beim Hausmeister melden.",
   "promptEn": null,
@@ -1424,6 +2871,7 @@
  {
   "id": "g.modalverben.04",
   "topic": "modalverben",
+  "level": "A1",
   "kind": "grammar",
   "prompt": "Als Kind ___ ich noch nicht schwimmen.",
   "promptEn": null,
@@ -1442,6 +2890,7 @@
  {
   "id": "g.modalverben.05",
   "topic": "modalverben",
+  "level": "A1",
   "kind": "grammar",
   "prompt": "___ ich Sie kurz etwas fragen?",
   "promptEn": null,
@@ -1460,6 +2909,7 @@
  {
   "id": "g.modalverben.06",
   "topic": "modalverben",
+  "level": "A1",
   "kind": "grammar",
   "prompt": "Wir ___ am Samstag in die Berge fahren, wenn das Wetter passt.",
   "promptEn": null,
@@ -1478,6 +2928,7 @@
  {
   "id": "g.modalverben.07",
   "topic": "modalverben",
+  "level": "A1",
   "kind": "grammar",
   "prompt": "Sie ___ das Formular unterschreiben, sonst wird es nicht bearbeitet.",
   "promptEn": null,
@@ -1496,6 +2947,7 @@
  {
   "id": "g.modalverben.08",
   "topic": "modalverben",
+  "level": "A1",
   "kind": "grammar",
   "prompt": "Ich ___ bitte einen Kaffee mit Milch.",
   "promptEn": null,
@@ -1514,6 +2966,7 @@
  {
   "id": "g.infinitivsaetze.01",
   "topic": "infinitivsaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich habe vergessen, dich ___.",
   "promptEn": null,
@@ -1532,6 +2985,7 @@
  {
   "id": "g.infinitivsaetze.02",
   "topic": "infinitivsaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich fahre mit dem Rad, ___ Geld zu sparen.",
   "promptEn": null,
@@ -1550,6 +3004,7 @@
  {
   "id": "g.infinitivsaetze.03",
   "topic": "infinitivsaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich spreche langsam, ___ mich alle verstehen.",
   "promptEn": null,
@@ -1568,6 +3023,7 @@
  {
   "id": "g.infinitivsaetze.04",
   "topic": "infinitivsaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Es ist wichtig, die Frist ___.",
   "promptEn": null,
@@ -1586,6 +3042,7 @@
  {
   "id": "g.infinitivsaetze.05",
   "topic": "infinitivsaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Er ging, ohne sich ___.",
   "promptEn": null,
@@ -1604,6 +3061,7 @@
  {
   "id": "g.infinitivsaetze.06",
   "topic": "infinitivsaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich lasse das Auto morgen ___.",
   "promptEn": null,
@@ -1622,6 +3080,7 @@
  {
   "id": "g.infinitivsaetze.07",
   "topic": "infinitivsaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Hast du Lust, heute Abend ___?",
   "promptEn": null,
@@ -1640,6 +3099,7 @@
  {
   "id": "g.infinitivsaetze.08",
   "topic": "infinitivsaetze",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Statt ___, sollten wir handeln.",
   "promptEn": null,
@@ -1658,6 +3118,7 @@
  {
   "id": "g.reflexiv.01",
   "topic": "reflexiv",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich freue ___ sehr auf deinen Besuch.",
   "promptEn": null,
@@ -1676,6 +3137,7 @@
  {
   "id": "g.reflexiv.02",
   "topic": "reflexiv",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Bitte melden Sie ___ bis Freitag.",
   "promptEn": null,
@@ -1694,6 +3156,7 @@
  {
   "id": "g.reflexiv.03",
   "topic": "reflexiv",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich kann ___ den Namen einfach nicht merken.",
   "promptEn": null,
@@ -1712,6 +3175,7 @@
  {
   "id": "g.reflexiv.04",
   "topic": "reflexiv",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Er interessiert sich sehr ___ Geschichte.",
   "promptEn": null,
@@ -1730,6 +3194,7 @@
  {
   "id": "g.reflexiv.05",
   "topic": "reflexiv",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Wir haben ___ im Kurs kennengelernt.",
   "promptEn": null,
@@ -1748,6 +3213,7 @@
  {
   "id": "g.reflexiv.06",
   "topic": "reflexiv",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Sie kümmert sich ___ ihre kranke Mutter.",
   "promptEn": null,
@@ -1766,6 +3232,7 @@
  {
   "id": "g.reflexiv.07",
   "topic": "reflexiv",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich ärgere mich ___ den Fehler im Formular.",
   "promptEn": null,
@@ -1784,6 +3251,7 @@
  {
   "id": "g.reflexiv.08",
   "topic": "reflexiv",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Erinnerst du ___ noch an unseren ersten Tag?",
   "promptEn": null,
@@ -1802,6 +3270,7 @@
  {
   "id": "g.adjektivdeklination.01",
   "topic": "adjektivdeklination",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Wir suchen eine ruhig___ Wohnung.",
   "promptEn": null,
@@ -1820,6 +3289,7 @@
  {
   "id": "g.adjektivdeklination.02",
   "topic": "adjektivdeklination",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Der neu___ Kollege spricht drei Sprachen.",
   "promptEn": null,
@@ -1838,6 +3308,7 @@
  {
   "id": "g.adjektivdeklination.03",
   "topic": "adjektivdeklination",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Nach einem lang___ Tag bin ich müde.",
   "promptEn": null,
@@ -1856,6 +3327,7 @@
  {
   "id": "g.adjektivdeklination.04",
   "topic": "adjektivdeklination",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich hätte gern ein groß___ Bier.",
   "promptEn": null,
@@ -1874,6 +3346,7 @@
  {
   "id": "g.adjektivdeklination.05",
   "topic": "adjektivdeklination",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Das ist ein sehr gut___ Vorschlag.",
   "promptEn": null,
@@ -1892,6 +3365,7 @@
  {
   "id": "g.adjektivdeklination.06",
   "topic": "adjektivdeklination",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Die neu___ Regeln gelten ab Januar.",
   "promptEn": null,
@@ -1910,6 +3384,7 @@
  {
   "id": "g.adjektivdeklination.07",
   "topic": "adjektivdeklination",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Frisch___ Brot riecht am besten.",
   "promptEn": null,
@@ -1928,6 +3403,7 @@
  {
   "id": "g.adjektivdeklination.08",
   "topic": "adjektivdeklination",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich fahre mit dem alt___ Fahrrad zur Arbeit.",
   "promptEn": null,
@@ -1946,6 +3422,7 @@
  {
   "id": "g.adjektivdeklination.09",
   "topic": "adjektivdeklination",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Sie hat einen interessant___ Beruf.",
   "promptEn": null,
@@ -1964,6 +3441,7 @@
  {
   "id": "g.komparativ.01",
   "topic": "komparativ",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Die Bahn ist teurer ___ der Bus.",
   "promptEn": null,
@@ -1982,6 +3460,7 @@
  {
   "id": "g.komparativ.02",
   "topic": "komparativ",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Die neue Wohnung ist genauso groß ___ die alte.",
   "promptEn": null,
@@ -2000,6 +3479,7 @@
  {
   "id": "g.komparativ.03",
   "topic": "komparativ",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Von allen Angeboten ist dieses ___.",
   "promptEn": null,
@@ -2018,6 +3498,7 @@
  {
   "id": "g.komparativ.04",
   "topic": "komparativ",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Das ist das ___ Angebot von allen.",
   "promptEn": null,
@@ -2036,6 +3517,7 @@
  {
   "id": "g.komparativ.05",
   "topic": "komparativ",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich trinke ___ Tee als Kaffee.",
   "promptEn": null,
@@ -2054,6 +3536,7 @@
  {
   "id": "g.komparativ.06",
   "topic": "komparativ",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Mein Bruder ist zwei Jahre ___ als ich.",
   "promptEn": null,
@@ -2072,6 +3555,7 @@
  {
   "id": "g.komparativ.07",
   "topic": "komparativ",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "___ mehr ich übe, desto sicherer werde ich.",
   "promptEn": null,
@@ -2090,6 +3574,7 @@
  {
   "id": "g.komparativ.08",
   "topic": "komparativ",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Die Mieten werden ___ höher.",
   "promptEn": null,
@@ -2108,6 +3593,7 @@
  {
   "id": "g.genitiv.01",
   "topic": "genitiv",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wegen ___ Sturms fällt der Zug aus.",
   "promptEn": null,
@@ -2126,6 +3612,7 @@
  {
   "id": "g.genitiv.02",
   "topic": "genitiv",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Während ___ Kurses sprechen wir nur Deutsch.",
   "promptEn": null,
@@ -2144,6 +3631,7 @@
  {
   "id": "g.genitiv.03",
   "topic": "genitiv",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Die Höhe ___ Miete steht im Vertrag.",
   "promptEn": null,
@@ -2162,6 +3650,7 @@
  {
   "id": "g.genitiv.04",
   "topic": "genitiv",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Trotz ___ schlechten Wetters kamen viele.",
   "promptEn": null,
@@ -2180,6 +3669,7 @@
  {
   "id": "g.genitiv.05",
   "topic": "genitiv",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Innerhalb ___ Woche bekommen Sie Antwort.",
   "promptEn": null,
@@ -2198,6 +3688,7 @@
  {
   "id": "g.genitiv.06",
   "topic": "genitiv",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Das ist das Büro ___ Chefin.",
   "promptEn": null,
@@ -2216,6 +3707,7 @@
  {
   "id": "g.genitiv.07",
   "topic": "genitiv",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Am Ende ___ Monats ist die Miete fällig.",
   "promptEn": null,
@@ -2234,6 +3726,7 @@
  {
   "id": "g.wechselpraepositionen.01",
   "topic": "wechselpraepositionen",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Ich gehe jetzt ___ Küche.",
   "promptEn": null,
@@ -2252,6 +3745,7 @@
  {
   "id": "g.wechselpraepositionen.02",
   "topic": "wechselpraepositionen",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Das Formular liegt ___ Tisch.",
   "promptEn": null,
@@ -2270,6 +3764,7 @@
  {
   "id": "g.wechselpraepositionen.03",
   "topic": "wechselpraepositionen",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Häng die Jacke bitte ___ Haken.",
   "promptEn": null,
@@ -2288,6 +3783,7 @@
  {
   "id": "g.wechselpraepositionen.04",
   "topic": "wechselpraepositionen",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Wir treffen uns ___ Bahnhof.",
   "promptEn": null,
@@ -2306,6 +3802,7 @@
  {
   "id": "g.wechselpraepositionen.05",
   "topic": "wechselpraepositionen",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Stell die Flaschen bitte ___ Keller.",
   "promptEn": null,
@@ -2324,6 +3821,7 @@
  {
   "id": "g.wechselpraepositionen.06",
   "topic": "wechselpraepositionen",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Die Kinder spielen ___ Garten.",
   "promptEn": null,
@@ -2342,6 +3840,7 @@
  {
   "id": "g.wechselpraepositionen.07",
   "topic": "wechselpraepositionen",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Er setzt sich ___ Stuhl.",
   "promptEn": null,
@@ -2360,6 +3859,7 @@
  {
   "id": "g.wechselpraepositionen.08",
   "topic": "wechselpraepositionen",
+  "level": "A2",
   "kind": "grammar",
   "prompt": "Der Schlüssel steckt ___ Tür.",
   "promptEn": null,
@@ -2378,6 +3878,7 @@
  {
   "id": "g.ndeklination.01",
   "topic": "ndeklination",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Ich habe ___ Kollegen gestern getroffen.",
   "promptEn": null,
@@ -2396,6 +3897,7 @@
  {
   "id": "g.ndeklination.02",
   "topic": "ndeklination",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Bitte geben Sie das ___ Özdemir.",
   "promptEn": null,
@@ -2414,6 +3916,7 @@
  {
   "id": "g.ndeklination.03",
   "topic": "ndeklination",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Der Kurs ist für ___ kostenlos.",
   "promptEn": null,
@@ -2432,6 +3935,7 @@
  {
   "id": "g.ndeklination.04",
   "topic": "ndeklination",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wir haben mit unserem ___ gesprochen.",
   "promptEn": null,
@@ -2450,6 +3954,7 @@
  {
   "id": "g.ndeklination.05",
   "topic": "ndeklination",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wie ist der ___ Ihres Kindes?",
   "promptEn": null,
@@ -2468,6 +3973,7 @@
  {
   "id": "g.ndeklination.06",
   "topic": "ndeklination",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Das Büro des ___ ist im ersten Stock.",
   "promptEn": null,
@@ -2486,6 +3992,7 @@
  {
   "id": "g.temporalsaetze.01",
   "topic": "temporalsaetze",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "___ ich 2018 nach Deutschland kam, sprach ich kein Wort Deutsch.",
   "promptEn": null,
@@ -2504,6 +4011,7 @@
  {
   "id": "g.temporalsaetze.02",
   "topic": "temporalsaetze",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Immer ___ ich Zeit habe, gehe ich schwimmen.",
   "promptEn": null,
@@ -2522,6 +4030,7 @@
  {
   "id": "g.temporalsaetze.03",
   "topic": "temporalsaetze",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Weißt du, ___ der Kurs anfängt?",
   "promptEn": null,
@@ -2540,6 +4049,7 @@
  {
   "id": "g.temporalsaetze.04",
   "topic": "temporalsaetze",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "___ ich unterschreibe, lese ich alles genau.",
   "promptEn": null,
@@ -2558,6 +4068,7 @@
  {
   "id": "g.temporalsaetze.05",
   "topic": "temporalsaetze",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "___ ich hier wohne, fahre ich jeden Tag Rad.",
   "promptEn": null,
@@ -2576,6 +4087,7 @@
  {
   "id": "g.temporalsaetze.06",
   "topic": "temporalsaetze",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "___ ich koche, deckt mein Sohn den Tisch.",
   "promptEn": null,
@@ -2594,6 +4106,7 @@
  {
   "id": "g.temporalsaetze.07",
   "topic": "temporalsaetze",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "___ es morgen regnet, bleiben wir zu Hause.",
   "promptEn": null,
@@ -2612,6 +4125,7 @@
  {
   "id": "g.daworpronomen.01",
   "topic": "daworpronomen",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "___ wartest du? – Auf den Bus.",
   "promptEn": null,
@@ -2630,6 +4144,7 @@
  {
   "id": "g.daworpronomen.02",
   "topic": "daworpronomen",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "___ wartest du? – Auf meine Schwester.",
   "promptEn": null,
@@ -2648,6 +4163,7 @@
  {
   "id": "g.daworpronomen.03",
   "topic": "daworpronomen",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Ich interessiere mich sehr ___.",
   "promptEn": null,
@@ -2666,6 +4182,7 @@
  {
   "id": "g.daworpronomen.04",
   "topic": "daworpronomen",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Ich freue mich ___, dass du kommst.",
   "promptEn": null,
@@ -2684,6 +4201,7 @@
  {
   "id": "g.daworpronomen.05",
   "topic": "daworpronomen",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "___ habt ihr gesprochen? – Über den neuen Vertrag.",
   "promptEn": null,
@@ -2702,6 +4220,7 @@
  {
   "id": "g.daworpronomen.06",
   "topic": "daworpronomen",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Die Prüfung besteht ___ vier Teilen.",
   "promptEn": null,
@@ -2720,6 +4239,7 @@
  {
   "id": "g.daworpronomen.07",
   "topic": "daworpronomen",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Das hängt ___ Wetter ab.",
   "promptEn": null,
@@ -2738,6 +4258,7 @@
  {
   "id": "g.daworpronomen.08",
   "topic": "daworpronomen",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Er kümmert sich ___ die Anmeldung.",
   "promptEn": null,
@@ -2756,6 +4277,7 @@
  {
   "id": "g.indirektefragen.01",
   "topic": "indirektefragen",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Können Sie mir sagen, wo der Ausgang ___?",
   "promptEn": null,
@@ -2774,6 +4296,7 @@
  {
   "id": "g.indirektefragen.02",
   "topic": "indirektefragen",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Ich weiß nicht, ___ der Kurs noch freie Plätze hat.",
   "promptEn": null,
@@ -2792,6 +4315,7 @@
  {
   "id": "g.indirektefragen.03",
   "topic": "indirektefragen",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wissen Sie, ___ die Prüfung kostet?",
   "promptEn": null,
@@ -2810,6 +4334,7 @@
  {
   "id": "g.indirektefragen.04",
   "topic": "indirektefragen",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Ich würde gern wissen, ___ ich die Unterlagen per Mail schicken kann.",
   "promptEn": null,
@@ -2828,6 +4353,7 @@
  {
   "id": "g.indirektefragen.05",
   "topic": "indirektefragen",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Könnten Sie mir mitteilen, wann der Bescheid ___?",
   "promptEn": null,
@@ -2846,6 +4372,7 @@
  {
   "id": "g.indirektefragen.06",
   "topic": "indirektefragen",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Er hat gefragt, ___ wir am Samstag Zeit haben.",
   "promptEn": null,
@@ -2864,6 +4391,7 @@
  {
   "id": "g.zweiteilige.01",
   "topic": "zweiteilige",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Sie spricht sowohl Deutsch ___ Türkisch.",
   "promptEn": null,
@@ -2882,6 +4410,7 @@
  {
   "id": "g.zweiteilige.02",
   "topic": "zweiteilige",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Ich habe weder Zeit ___ Lust.",
   "promptEn": null,
@@ -2900,6 +4429,7 @@
  {
   "id": "g.zweiteilige.03",
   "topic": "zweiteilige",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Das Angebot ist nicht nur günstig, ___ auch schnell.",
   "promptEn": null,
@@ -2918,6 +4448,7 @@
  {
   "id": "g.zweiteilige.04",
   "topic": "zweiteilige",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "___ mehr ich übe, desto sicherer werde ich.",
   "promptEn": null,
@@ -2936,6 +4467,7 @@
  {
   "id": "g.zweiteilige.05",
   "topic": "zweiteilige",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Je früher du anfängst, ___ leichter wird es.",
   "promptEn": null,
@@ -2954,6 +4486,7 @@
  {
   "id": "g.zweiteilige.06",
   "topic": "zweiteilige",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Wir fahren ___ heute oder gar nicht.",
   "promptEn": null,
@@ -2972,6 +4505,7 @@
  {
   "id": "g.zweiteilige.07",
   "topic": "zweiteilige",
+  "level": "B1",
   "kind": "grammar",
   "prompt": "Die Wohnung ist ___ klein, aber sehr hell.",
   "promptEn": null,

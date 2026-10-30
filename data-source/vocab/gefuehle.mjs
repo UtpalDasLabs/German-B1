@@ -41,10 +41,7 @@ export default {
   ],
 
   adjectives: [
-    ['zufrieden', null, 'satisfied, content', 'Mit dem Ergebnis bin ich sehr zufrieden.', 'I am very satisfied with the result.'],
     ['aufgeregt', null, 'nervous, excited', 'Vor dem Sprechen bin ich immer aufgeregt.', 'Before speaking I am always nervous.'],
-    ['nervös', null, 'nervous', 'Sei nicht nervös, du kannst das.', 'Do not be nervous, you can do it.'],
-    ['traurig', null, 'sad', 'Der Abschied war traurig, aber schön.', 'The farewell was sad but nice.'],
     ['stolz', null, 'proud', 'Ich bin stolz auf das, was ich gelernt habe.', 'I am proud of what I have learned.'],
     ['ehrlich', null, 'honest', 'Um ehrlich zu sein, war es zu schwer.', 'To be honest, it was too hard.'],
     ['geduldig', null, 'patient', 'Unsere Lehrerin ist unglaublich geduldig.', 'Our teacher is incredibly patient.'],
@@ -58,6 +55,5 @@ export default {
     ['Angst haben vor', null, 'to be afraid of', 'Ich habe keine Angst mehr vor dem Sprechen.', 'I am no longer afraid of speaking.'],
     ['sich Sorgen machen', null, 'to worry', 'Mach dir bitte keine Sorgen um mich.', 'Please do not worry about me.'],
     ['gute Laune haben', null, 'to be in a good mood', 'Bei Sonne habe ich sofort gute Laune.', 'When the sun is out I am immediately in a good mood.'],
-    ['Es tut mir leid.', null, 'I am sorry.', 'Es tut mir leid, dass ich mich nicht gemeldet habe.', 'I am sorry that I did not get in touch.'],
   ],
 };

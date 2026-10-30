@@ -11,6 +11,7 @@ import { Button, Card, ProgressBar, Screen, StatPill, Txt } from '@/components/u
 import { forecast, formatDate, planFor } from '@/lib/forecast';
 import { GOALS } from '@/lib/goals';
 import { reviewableIds } from '@/lib/study';
+import { useScope } from '@/lib/useScope';
 import { isDue, todayKey } from '@/lib/srs';
 import { useT } from '@/lib/useT';
 import { useProgress } from '@/store/ProgressProvider';
@@ -20,18 +21,19 @@ import { useTheme } from '@/theme/ThemeProvider';
 export default function HomeScreen() {
   const { colors, space } = useTheme();
   const { settings } = useSettings();
+  const scope = useScope();
   const { progress } = useProgress();
   const { t, locale } = useT();
   const router = useRouter();
   const insets = useSafeAreaInsets();
 
   const dueCount = useMemo(
-    () => reviewableIds.filter((id) => isDue(progress.cards[id])).length,
-    [progress.cards],
+    () => reviewableIds(scope).filter((id: string) => isDue(progress.cards[id])).length,
+    [progress.cards, scope],
   );
   const f = useMemo(
-    () => forecast(reviewableIds, progress.cards, settings.goal),
-    [progress.cards, settings.goal],
+    () => forecast(reviewableIds(scope), progress.cards, settings.goal),
+    [progress.cards, settings.goal, scope],
   );
   const plan = useMemo(
     () => (settings.examDate ? planFor(f, settings.examDate, settings.goal) : null),

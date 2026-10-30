@@ -8,12 +8,8 @@ export default {
   },
 
   nouns: [
-    ['das Geschäft', '-e', 'shop, business', 'Das Geschäft an der Ecke hat bis 22 Uhr offen.', 'The shop on the corner is open until 10 p.m.'],
     ['der Kunde', '-n', 'customer', 'Der Kunde hat Anspruch auf eine Quittung.', 'The customer is entitled to a receipt.'],
-    ['die Kasse', '-n', 'till, checkout', 'An Kasse drei ist weniger los.', 'There is less going on at till three.'],
-    ['die Quittung', '-en', 'receipt', 'Ohne Quittung ist ein Umtausch schwierig.', 'Without a receipt an exchange is difficult.'],
     ['der Kassenbon', '-s', 'till receipt', 'Bitte bewahren Sie den Kassenbon auf.', 'Please keep the till receipt.'],
-    ['der Preis', '-e', 'price', 'Der Preis ist im Internet deutlich niedriger.', 'The price is considerably lower online.'],
     ['das Angebot', '-e', 'offer, special', 'Diese Woche ist Kaffee im Angebot.', 'This week coffee is on special offer.'],
     ['der Rabatt', '-e', 'discount', 'Auf alle Winterjacken gibt es 30 Prozent Rabatt.', 'There is 30 percent off all winter jackets.'],
     ['die Garantie', '-n', 'warranty', 'Auf das Gerät sind zwei Jahre Garantie.', 'The device has a two-year warranty.'],
@@ -31,12 +27,10 @@ export default {
   ],
 
   verbs: [
-    ['einkaufen', null, 'to shop, to buy groceries', 'Samstags kaufe ich für die ganze Woche ein.', 'On Saturdays I shop for the whole week.'],
     ['umtauschen', null, 'to exchange', 'Die Schuhe möchte ich gern umtauschen.', 'I would like to exchange the shoes.'],
     ['zurückgeben', 'gibt zurück · gab zurück · hat zurückgegeben', 'to return (an item)', 'Innerhalb von 14 Tagen kann man alles zurückgeben.', 'Within 14 days you can return anything.'],
     ['sich beschweren', null, 'to complain', 'Ich habe mich schriftlich beschwert.', 'I complained in writing.'],
     ['reklamieren', null, 'to make a complaint about goods', 'Das defekte Gerät habe ich sofort reklamiert.', 'I complained about the faulty device immediately.'],
-    ['bezahlen', null, 'to pay', 'Bezahlt wird an der Kasse vorne.', 'Payment is at the till at the front.'],
     ['sparen', null, 'to save (money)', 'Wir sparen für eine größere Wohnung.', 'We are saving for a bigger flat.'],
     ['ausgeben', 'gibt aus · gab aus · hat ausgegeben', 'to spend', 'Für Lebensmittel gebe ich 300 Euro im Monat aus.', 'I spend 300 euros a month on food.'],
     ['überweisen', 'überweist · überwies · hat überwiesen', 'to transfer (money)', 'Den Betrag überweise ich morgen.', 'I will transfer the amount tomorrow.'],
@@ -47,7 +41,6 @@ export default {
   ],
 
   adjectives: [
-    ['teuer', null, 'expensive', 'Die Innenstadt ist mir zu teuer.', 'The city centre is too expensive for me.'],
     ['preiswert', null, 'good value', 'Das Angebot ist wirklich preiswert.', 'The offer is really good value.'],
     ['defekt', null, 'faulty, broken', 'Das Gerät kam schon defekt an.', 'The device already arrived faulty.'],
     ['gebraucht', null, 'second-hand', 'Das Fahrrad habe ich gebraucht gekauft.', 'I bought the bicycle second-hand.'],

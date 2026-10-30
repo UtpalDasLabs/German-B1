@@ -8,7 +8,6 @@ export default {
   },
 
   nouns: [
-    ['der Beruf', '-e', 'profession, occupation', 'Von Beruf bin ich Krankenpfleger.', 'By profession I am a nurse.'],
     ['die Ausbildung', '-en', 'vocational training', 'Die Ausbildung dauert drei Jahre.', 'The training takes three years.'],
     ['die Bewerbung', '-en', 'application', 'Die Bewerbung schicke ich heute noch ab.', 'I am sending off the application today.'],
     ['der Lebenslauf', '-¨e', 'CV, résumé', 'Der Lebenslauf sollte höchstens zwei Seiten haben.', 'The CV should be two pages at most.'],
@@ -17,15 +16,12 @@ export default {
     ['der Arbeitgeber', '-', 'employer', 'Mein Arbeitgeber zahlt die Fahrkarte.', 'My employer pays for the travel ticket.'],
     ['der Arbeitnehmer', '-', 'employee', 'Jeder Arbeitnehmer hat Anspruch auf Urlaub.', 'Every employee is entitled to holiday.'],
     ['der Vertrag', '-¨e', 'contract', 'Mein Vertrag ist bis Ende des Jahres befristet.', 'My contract is limited until the end of the year.'],
-    ['das Gehalt', '-¨er', 'salary', 'Über das Gehalt sprechen wir im zweiten Gespräch.', 'We will talk about the salary in the second interview.'],
     ['der Lohn', '-¨e', 'wage, pay', 'Der Lohn wird stündlich abgerechnet.', 'The pay is calculated by the hour.'],
     ['die Arbeitszeit', '-en', 'working hours', 'Meine Arbeitszeit ist von acht bis halb fünf.', 'My working hours are from eight to half past four.'],
     ['die Schicht', '-en', 'shift', 'Diese Woche habe ich Nachtschicht.', 'This week I am on the night shift.'],
     ['die Überstunde', '-n', 'overtime hour', 'Überstunden werden mit Freizeit ausgeglichen.', 'Overtime is compensated with time off.'],
-    ['der Urlaub', '-e', 'holiday, leave', 'Ich habe noch zwölf Tage Urlaub übrig.', 'I still have twelve days of leave left.'],
     ['die Stelle', '-n', 'position, job', 'Die Stelle ist ab sofort zu besetzen.', 'The position is to be filled immediately.'],
     ['die Abteilung', '-en', 'department', 'Ich arbeite in der Abteilung Einkauf.', 'I work in the purchasing department.'],
-    ['der Chef', '-s', 'boss', 'Mein Chef ist streng, aber fair.', 'My boss is strict but fair.'],
     ['die Besprechung', '-en', 'meeting', 'Die Besprechung wurde auf Freitag verschoben.', 'The meeting was postponed to Friday.'],
     ['die Erfahrung', '-en', 'experience', 'Ich habe fünf Jahre Erfahrung in der Pflege.', 'I have five years of experience in nursing.'],
     ['die Fortbildung', '-en', 'further training', 'Die Firma bezahlt eine Fortbildung pro Jahr.', 'The company pays for one training course a year.'],
@@ -37,7 +33,6 @@ export default {
   verbs: [
     ['sich bewerben', 'bewirbt sich · bewarb sich · hat sich beworben', 'to apply', 'Ich bewerbe mich auf die Stelle als Fahrer.', 'I am applying for the position as a driver.'],
     ['einstellen', null, 'to hire, to take on', 'Die Firma stellt im Frühjahr zwanzig Leute ein.', 'The company is hiring twenty people in the spring.'],
-    ['verdienen', null, 'to earn', 'Sie verdient genug, um die Miete zu zahlen.', 'She earns enough to pay the rent.'],
     ['leiten', null, 'to lead, to manage', 'Er leitet ein Team von acht Personen.', 'He leads a team of eight people.'],
     ['sich melden', null, 'to get in touch', 'Wir melden uns bis Ende der Woche bei Ihnen.', 'We will get in touch with you by the end of the week.'],
     ['erledigen', null, 'to deal with, to get done', 'Die Aufgabe habe ich schon erledigt.', 'I have already dealt with the task.'],

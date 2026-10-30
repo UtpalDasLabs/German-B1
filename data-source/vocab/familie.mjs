@@ -8,8 +8,6 @@ export default {
   },
 
   nouns: [
-    ['die Familie', '-n', 'family', 'Meine Familie wohnt seit zehn Jahren in Leipzig.', 'My family has lived in Leipzig for ten years.'],
-    ['die Eltern', 'nur Plural', 'parents', 'Meine Eltern rufen jeden Sonntag an.', 'My parents call every Sunday.'],
     ['die Geschwister', 'nur Plural', 'siblings', 'Ich habe zwei Geschwister, einen Bruder und eine Schwester.', 'I have two siblings, a brother and a sister.'],
     ['der Verwandte', '-n', 'relative', 'Zur Hochzeit kommen auch Verwandte aus der Türkei.', 'Relatives from Turkey are also coming to the wedding.'],
     ['die Ehe', '-n', 'marriage', 'Ihre Ehe hält seit dreißig Jahren.', 'Their marriage has lasted thirty years.'],
@@ -18,9 +16,6 @@ export default {
     ['die Scheidung', '-en', 'divorce', 'Nach der Scheidung ist sie umgezogen.', 'After the divorce she moved away.'],
     ['die Beziehung', '-en', 'relationship', 'Wir führen seit zwei Jahren eine Beziehung.', 'We have been in a relationship for two years.'],
     ['die Freundschaft', '-en', 'friendship', 'Unsere Freundschaft begann in der Schule.', 'Our friendship began at school.'],
-    ['der Nachbar', '-n', 'neighbour', 'Der Nachbar gießt die Blumen, wenn wir weg sind.', 'The neighbour waters the plants when we are away.'],
-    ['der Kollege', '-n', 'colleague', 'Ein Kollege hat mir bei der Bewerbung geholfen.', 'A colleague helped me with the application.'],
-    ['das Kind', '-er', 'child', 'Das Kind geht nächstes Jahr in die Schule.', 'The child starts school next year.'],
     ['der Enkel', '-', 'grandchild, grandson', 'Meine Großmutter sieht ihre Enkel jeden Monat.', 'My grandmother sees her grandchildren every month.'],
     ['die Erziehung', 'ohne Plural', 'upbringing, parenting', 'Die Erziehung teilen wir uns zu gleichen Teilen.', 'We share the parenting equally.'],
     ['das Vertrauen', 'ohne Plural', 'trust', 'Ohne Vertrauen funktioniert keine Beziehung.', 'No relationship works without trust.'],
@@ -31,11 +26,9 @@ export default {
     ['die Muttersprache', '-n', 'mother tongue', 'Meine Muttersprache ist Arabisch, aber ich träume auf Deutsch.', 'My mother tongue is Arabic, but I dream in German.'],
     ['der Erwachsene', '-n', 'adult', 'Für Erwachsene kostet der Kurs 80 Euro.', 'For adults the course costs 80 euros.'],
     ['die Jugend', 'ohne Plural', 'youth', 'In meiner Jugend habe ich viel Fußball gespielt.', 'In my youth I played a lot of football.'],
-    ['das Alter', 'ohne Plural', 'age', 'Im Alter von sechs Jahren kam ich nach Deutschland.', 'At the age of six I came to Germany.'],
   ],
 
   verbs: [
-    ['heiraten', null, 'to marry', 'Sie heiraten im Sommer in Hamburg.', 'They are getting married in Hamburg in the summer.'],
     ['sich scheiden lassen', 'lässt sich scheiden · ließ sich scheiden · hat sich scheiden lassen', 'to get divorced', 'Seine Eltern haben sich vor zehn Jahren scheiden lassen.', 'His parents got divorced ten years ago.'],
     ['erziehen', 'erzieht · erzog · hat erzogen', 'to raise, to bring up', 'Sie erzieht ihre Kinder zweisprachig.', 'She is raising her children bilingually.'],
     ['sich kümmern', null, 'to take care (of)', 'Am Wochenende kümmere ich mich um meine Großmutter.', 'At the weekend I take care of my grandmother.'],

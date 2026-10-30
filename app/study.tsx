@@ -13,6 +13,7 @@ import { GOALS } from '@/lib/goals';
 import { makeHaptics } from '@/lib/haptics';
 import { say } from '@/lib/speech';
 import { filterVocab, orderForStudy } from '@/lib/study';
+import { useScope } from '@/lib/useScope';
 import { useT } from '@/lib/useT';
 import { useProgress } from '@/store/ProgressProvider';
 import { useSettings } from '@/store/SettingsProvider';
@@ -25,6 +26,7 @@ export default function StudyScreen() {
   const insets = useSafeAreaInsets();
   const { settings } = useSettings();
   const { progress, grade } = useProgress();
+  const scope = useScope();
   const params = useLocalSearchParams<{ mode?: string; theme?: string }>();
 
   const haptics = useMemo(() => makeHaptics(settings.haptics), [settings.haptics]);
@@ -32,7 +34,7 @@ export default function StudyScreen() {
   // Frozen for the session so grading a card does not reshuffle the deck.
   const [seed] = useState(() => Date.now());
   const queue = useMemo(() => {
-    const filtered = filterVocab(progress.cards, {
+    const filtered = filterVocab(scope, progress.cards, {
       theme: params.theme ?? 'all',
       dueOnly: params.mode === 'due',
       trickyOnly: params.mode === 'tricky',

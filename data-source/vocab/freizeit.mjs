@@ -8,8 +8,6 @@ export default {
   },
 
   nouns: [
-    ['die Freizeit', 'ohne Plural', 'free time', 'In meiner Freizeit gehe ich klettern.', 'In my free time I go climbing.'],
-    ['das Hobby', '-s', 'hobby', 'Mein wichtigstes Hobby ist Fotografieren.', 'My most important hobby is photography.'],
     ['der Verein', '-e', 'club, association', 'In Deutschland ist fast jeder in einem Verein.', 'In Germany almost everyone is in a club.'],
     ['die Mitgliedschaft', '-en', 'membership', 'Die Mitgliedschaft kostet 12 Euro im Monat.', 'Membership costs 12 euros a month.'],
     ['das Mitglied', '-er', 'member', 'Der Verein hat über 400 Mitglieder.', 'The club has over 400 members.'],
@@ -44,7 +42,6 @@ export default {
   adjectives: [
     ['sportlich', null, 'sporty, athletic', 'Meine Tochter ist sehr sportlich.', 'My daughter is very sporty.'],
     ['spannend', null, 'exciting, gripping', 'Der Krimi war bis zum Schluss spannend.', 'The thriller was gripping until the end.'],
-    ['langweilig', null, 'boring', 'Den zweiten Teil fand ich langweilig.', 'I found the second part boring.'],
     ['kreativ', null, 'creative', 'Im Kurs kann man richtig kreativ sein.', 'In the course you can be really creative.'],
     ['gesellig', null, 'sociable', 'Der Abend war gemütlich und gesellig.', 'The evening was cosy and sociable.'],
     ['freiwillig', null, 'voluntary', 'Die Teilnahme ist völlig freiwillig.', 'Participation is entirely voluntary.'],

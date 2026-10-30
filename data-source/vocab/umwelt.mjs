@@ -17,9 +17,6 @@ export default {
     ['das Pfand', 'ohne Plural', 'deposit (on bottles)', 'Auf die Flasche sind 25 Cent Pfand.', 'There is a 25 cent deposit on the bottle.'],
     ['die Verpackung', '-en', 'packaging', 'Weniger Verpackung wäre schon viel wert.', 'Less packaging would already be worth a lot.'],
     ['die Energie', '-n', 'energy', 'Mit der neuen Heizung sparen wir Energie.', 'With the new heating we save energy.'],
-    ['die Sonne', 'ohne Plural', 'sun', 'Heute scheint zum ersten Mal wieder die Sonne.', 'Today the sun is shining again for the first time.'],
-    ['der Regen', 'ohne Plural', 'rain', 'Der Regen hält bis zum Abend an.', 'The rain will continue until the evening.'],
-    ['der Schnee', 'ohne Plural', 'snow', 'Im Januar lag hier viel Schnee.', 'In January there was a lot of snow here.'],
     ['das Gewitter', '-', 'thunderstorm', 'Am Nachmittag gibt es Gewitter.', 'There will be thunderstorms in the afternoon.'],
     ['die Temperatur', '-en', 'temperature', 'Die Temperaturen steigen auf 28 Grad.', 'Temperatures will rise to 28 degrees.'],
     ['die Hitze', 'ohne Plural', 'heat', 'Die Hitze macht vielen älteren Menschen zu schaffen.', 'The heat is hard on many older people.'],
@@ -38,7 +35,6 @@ export default {
     ['verbrauchen', null, 'to consume, to use up', 'Das alte Gerät verbraucht dreimal so viel.', 'The old device uses three times as much.'],
     ['schmelzen', 'schmilzt · schmolz · ist geschmolzen', 'to melt', 'Die Gletscher schmelzen schneller als erwartet.', 'The glaciers are melting faster than expected.'],
     ['sich verändern', null, 'to change', 'Das Klima verändert sich messbar.', 'The climate is changing measurably.'],
-    ['regnen', null, 'to rain', 'Es regnet seit drei Tagen ununterbrochen.', 'It has been raining non-stop for three days.'],
     ['schneien', null, 'to snow', 'Heute Nacht soll es schneien.', 'It is supposed to snow tonight.'],
   ],
 

@@ -34,7 +34,6 @@ export default {
   ],
 
   verbs: [
-    ['mieten', null, 'to rent (as tenant)', 'Wir mieten die Wohnung ab dem ersten Mai.', 'We are renting the flat from the first of May.'],
     ['vermieten', null, 'to rent out, to let', 'Sie vermietet ein Zimmer an Studenten.', 'She rents out a room to students.'],
     ['umziehen', 'zieht um · zog um · ist umgezogen', 'to move house', 'Nächsten Monat ziehen wir nach Bremen um.', 'Next month we are moving to Bremen.'],
     ['einziehen', 'zieht ein · zog ein · ist eingezogen', 'to move in', 'Wir sind am Wochenende eingezogen.', 'We moved in at the weekend.'],
@@ -44,13 +43,10 @@ export default {
     ['kündigen', null, 'to give notice, to terminate', 'Ich habe den Mietvertrag zum 30. Juni gekündigt.', 'I gave notice on the tenancy for 30 June.'],
     ['anmelden', null, 'to register (an address)', 'Nach dem Umzug musst du dich beim Bürgeramt anmelden.', 'After moving you have to register at the citizens’ office.'],
     ['einrichten', null, 'to furnish, to set up', 'Wir haben das Kinderzimmer neu eingerichtet.', 'We have refurnished the children’s room.'],
-    ['aufräumen', null, 'to tidy up', 'Räum bitte vor der Besichtigung auf.', 'Please tidy up before the viewing.'],
-    ['putzen', null, 'to clean', 'Das Treppenhaus putzt jede Partei abwechselnd.', 'Each household cleans the stairwell in turn.'],
     ['besichtigen', null, 'to view, to look round', 'Wir besichtigen die Wohnung am Donnerstag.', 'We are viewing the flat on Thursday.'],
   ],
 
   adjectives: [
-    ['möbliert', null, 'furnished', 'Das Zimmer ist möbliert und sofort frei.', 'The room is furnished and available immediately.'],
     ['gemütlich', null, 'cosy', 'Die Küche ist klein, aber gemütlich.', 'The kitchen is small but cosy.'],
     ['ruhig', null, 'quiet', 'Die Lage ist ruhig, obwohl sie zentral ist.', 'The location is quiet although it is central.'],
     ['zentral', null, 'central', 'Zentral wohnen kostet hier viel Geld.', 'Living centrally costs a lot of money here.'],

@@ -5,6 +5,7 @@
 export const SONSTIGES = [
   {
     key: 'temporalsaetze',
+    level: 'B1',
     icon: '\u{1F4C6}',
     title: { de: 'als, wenn, wann', en: 'als, wenn, wann' },
     summary: {
@@ -87,6 +88,7 @@ export const SONSTIGES = [
 
   {
     key: 'daworpronomen',
+    level: 'B1',
     icon: '\u{1F517}',
     title: { de: 'Verben mit Präposition: da- und wo-', en: 'Verbs with prepositions: da- and wo-' },
     summary: {
@@ -162,6 +164,7 @@ export const SONSTIGES = [
 
   {
     key: 'indirektefragen',
+    level: 'B1',
     icon: '❓',
     title: { de: 'Indirekte Fragen', en: 'Indirect questions' },
     summary: {
@@ -229,6 +232,7 @@ export const SONSTIGES = [
 
   {
     key: 'zweiteilige',
+    level: 'B1',
     icon: '↔️',
     title: { de: 'Zweiteilige Konnektoren', en: 'Two-part connectors' },
     summary: {

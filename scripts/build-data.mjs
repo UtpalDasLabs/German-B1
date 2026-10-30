@@ -13,6 +13,8 @@ import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
 import { THEME_FILES } from '../data-source/vocab/index.mjs';
+import { LEVEL_INFO } from '../data-source/levels.mjs';
+import { COURSE } from '../data-source/course.mjs';
 import { GRAMMAR } from '../data-source/grammar/index.mjs';
 import { READING } from '../data-source/reading.mjs';
 import { LISTENING } from '../data-source/listening.mjs';
@@ -42,25 +44,54 @@ const POS_BY_GROUP = {
 
 const ARTICLES = ['der', 'die', 'das'];
 
+const LEVELS = LEVEL_INFO.map((l) => l.key);
+const isLevel = (x) => LEVELS.includes(x);
+
+/**
+ * Walks a theme's word groups.
+ *
+ * A theme file may list its groups flat - `nouns: [...]` - in which case every
+ * word in it belongs to the theme's own level; or it may nest them under
+ * `levels: { A1: { nouns: [...] } }` when the theme spans several. Both forms
+ * exist because the 22 themes written for the B1 exam predate levels, and
+ * rewriting 900 reviewed rows to add a field they all share would be churn.
+ */
+function* wordRows(theme) {
+  const flatLevel = theme.level ?? 'B1';
+  for (const [group, pos] of Object.entries(POS_BY_GROUP)) {
+    for (const row of theme[group] ?? []) yield { row, pos, level: flatLevel };
+  }
+  for (const [level, groups] of Object.entries(theme.levels ?? {})) {
+    check(isLevel(level), `theme ${theme.key}: "${level}" is not a CEFR level`);
+    for (const [group, pos] of Object.entries(POS_BY_GROUP)) {
+      for (const row of groups[group] ?? []) yield { row, pos, level };
+    }
+  }
+}
+
 const vocab = [];
 const themes = [];
 const seenHeadwords = new Map();
 
 THEME_FILES.forEach((theme, themeIndex) => {
   check(theme.key && theme.label?.de && theme.label?.en, `theme ${themeIndex} is missing key or label`);
-  themes.push({
+  const themeMeta = {
     key: theme.key,
     label: theme.label,
     icon: theme.icon,
     color: themeColors[themeIndex % themeColors.length],
     payoff: theme.payoff,
-  });
+    levels: [],
+  };
+  themes.push(themeMeta);
 
   let n = 0;
-  for (const [group, pos] of Object.entries(POS_BY_GROUP)) {
-    for (const row of theme[group] ?? []) {
+  const levelsSeen = new Set();
+  {
+    for (const { row, pos, level } of wordRows(theme)) {
       const [head, extra, en, exDe, exEn] = row;
       n += 1;
+      levelsSeen.add(level);
       const id = `w.${theme.key}.${String(n).padStart(3, '0')}`;
 
       check(typeof head === 'string' && head.length > 0, `${id}: missing headword`);
@@ -96,12 +127,14 @@ THEME_FILES.forEach((theme, themeIndex) => {
         pos,
         en,
         theme: theme.key,
+        level,
         example: { de: exDe, en: exEn },
         forms: pos === 'verb' ? (extra ?? null) : null,
       });
     }
   }
   check(n > 0, `theme ${theme.key} has no words`);
+  themeMeta.levels = LEVELS.filter((l) => levelsSeen.has(l));
 });
 
 /* ---------------------------------------------------------------- grammar */
@@ -111,11 +144,13 @@ const drills = [];
 
 GRAMMAR.forEach((topic, i) => {
   check(topic.key && topic.title?.de, `grammar topic ${i} is missing key or title`);
+  check(isLevel(topic.level), `grammar topic ${topic.key}: level "${topic.level}" is not a CEFR level`);
   grammar.push({
     key: topic.key,
     title: topic.title,
     summary: topic.summary,
     icon: topic.icon,
+    level: topic.level,
     order: i,
     body: topic.body,
     tables: topic.tables ?? [],
@@ -137,6 +172,7 @@ GRAMMAR.forEach((topic, i) => {
     drills.push({
       id,
       topic: topic.key,
+      level: topic.level,
       kind: 'grammar',
       prompt,
       promptEn: null,
@@ -171,6 +207,12 @@ function buildItems(prefix, rawItems) {
   });
 }
 
+function taskLevel(task, kind) {
+  const level = task.level ?? 'B1';
+  check(isLevel(level), `${kind} ${task.id}: level "${level}" is not a CEFR level`);
+  return level;
+}
+
 const reading = READING.map((task) => {
   check(task.texts?.length > 0, `reading ${task.id} has no text`);
   check(task.items?.length > 0, `reading ${task.id} has no items`);
@@ -178,6 +220,7 @@ const reading = READING.map((task) => {
     id: task.id,
     module: 'lesen',
     teil: task.teil,
+    level: taskLevel(task, 'reading'),
     title: task.title,
     instructions: task.instructions,
     minutes: task.minutes,
@@ -196,6 +239,7 @@ const listening = LISTENING.map((task) => {
     id: task.id,
     module: 'hoeren',
     teil: task.teil,
+    level: taskLevel(task, 'listening'),
     title: task.title,
     instructions: task.instructions,
     minutes: task.minutes,
@@ -215,10 +259,14 @@ function checkProductive(task, kind) {
   check(task.phrases?.length > 0, `${kind} ${task.id}: no phrase bank`);
 }
 
-WRITING.forEach((t) => checkProductive(t, 'writing'));
-SPEAKING.forEach((t) => checkProductive(t, 'speaking'));
-
-/* ------------------------------------------------------------------- meta */
+const writing = WRITING.map((t) => {
+  checkProductive(t, 'writing');
+  return { ...t, level: taskLevel(t, 'writing') };
+});
+const speaking = SPEAKING.map((t) => {
+  checkProductive(t, 'speaking');
+  return { ...t, level: taskLevel(t, 'speaking') };
+});
 
 const AREAS = {
   wortschatz: { label: { de: 'Wortschatz', en: 'Vocabulary' }, icon: '\u{1F520}', color: '#FF9F1C' },
@@ -229,8 +277,101 @@ const AREAS = {
   sprechen: { label: { de: 'Sprechen', en: 'Speaking' }, icon: '\u{1F5E3}️', color: '#F45D9C' },
 };
 
+/* ----------------------------------------------------------------- course */
+
+const grammarKeys = new Set(grammar.map((g) => g.key));
+const themeKeys = new Set(themes.map((t) => t.key));
+const taskIds = new Set([
+  ...reading.map((t) => t.id),
+  ...listening.map((t) => t.id),
+  ...writing.map((t) => t.id),
+  ...speaking.map((t) => t.id),
+]);
+
+const units = [];
+const canDoIds = new Set();
+
+for (const level of COURSE) {
+  check(isLevel(level.level), `course: "${level.level}" is not a CEFR level`);
+  check(level.units?.length > 0, `course ${level.level} has no units`);
+
+  level.units.forEach((unit, i) => {
+    const key = `${level.level.toLowerCase()}.${i + 1}`;
+    check(unit.title?.de && unit.title?.en, `unit ${key} is missing a title`);
+    check(unit.canDos?.length >= 2, `unit ${key} needs at least two can-do statements`);
+
+    // A unit that points at material which does not exist is worse than a
+    // missing unit: the learner taps a goal and lands nowhere.
+    for (const t of unit.themes ?? []) {
+      check(themeKeys.has(t), `unit ${key} points at unknown theme "${t}"`);
+    }
+    for (const g of unit.grammar ?? []) {
+      check(grammarKeys.has(g), `unit ${key} points at unknown grammar topic "${g}"`);
+      const topic = grammar.find((x) => x.key === g);
+      check(
+        topic.level === level.level,
+        `unit ${key} (${level.level}) teaches ${g}, which is tagged ${topic.level}`,
+      );
+    }
+    for (const id of unit.tasks ?? []) {
+      check(taskIds.has(id), `unit ${key} points at unknown task "${id}"`);
+    }
+
+    const canDos = unit.canDos.map((c, n) => {
+      const id = `cd.${key}.${n + 1}`;
+      check(!canDoIds.has(id), `duplicate can-do id ${id}`);
+      canDoIds.add(id);
+      check(c.text?.de && c.text?.en, `${id}: missing text`);
+      check(
+        AREAS[c.area] != null,
+        `${id}: "${c.area}" is not one of ${Object.keys(AREAS).join(', ')}`,
+      );
+      return { id, text: c.text, area: c.area };
+    });
+
+    units.push({
+      key,
+      level: level.level,
+      n: i + 1,
+      title: unit.title,
+      icon: unit.icon,
+      blurb: unit.blurb,
+      canDos,
+      themes: unit.themes ?? [],
+      grammar: unit.grammar ?? [],
+      tasks: unit.tasks ?? [],
+    });
+  });
+}
+
+/* ------------------------------------------------------------------- meta */
+
+
+const byLevel = Object.fromEntries(
+  LEVELS.map((l) => [
+    l,
+    {
+      vocab: vocab.filter((v) => v.level === l).length,
+      drills: drills.filter((d) => d.level === l).length,
+      grammar: grammar.filter((g) => g.level === l).length,
+      tasks: [...reading, ...listening, ...writing, ...speaking].filter((t) => t.level === l).length,
+    },
+  ]),
+);
+
+// A level is only required to have material once the course teaches it, so a
+// level can be added content-first or course-first without breaking the build.
+for (const level of new Set(units.map((u) => u.level))) {
+  check(
+    byLevel[level].vocab + byLevel[level].drills > 0,
+    `the course teaches ${level}, but ${level} has no study material`,
+  );
+}
+
 const meta = {
   themes,
+  levels: LEVEL_INFO,
+  units,
   areas: AREAS,
   counts: {
     vocab: vocab.length,
@@ -238,10 +379,11 @@ const meta = {
     grammar: grammar.length,
     reading: reading.length,
     listening: listening.length,
-    writing: WRITING.length,
-    speaking: SPEAKING.length,
+    writing: writing.length,
+    speaking: speaking.length,
     reviewable: vocab.length + drills.length,
   },
+  byLevel,
 };
 
 /* ------------------------------------------------------------------ write */
@@ -260,8 +402,8 @@ const files = {
   'drills.json': drills,
   'reading.json': reading,
   'listening.json': listening,
-  'writing.json': WRITING,
-  'speaking.json': SPEAKING,
+  'writing.json': writing,
+  'speaking.json': speaking,
   'meta.json': meta,
 };
 
@@ -275,9 +417,19 @@ for (const name of Object.keys(files)) console.log(`  ${name} (${size(name)} KB)
 console.log(
   `\n${vocab.length} words in ${themes.length} themes, ${drills.length} drills across ${grammar.length} grammar topics,\n` +
     `${reading.length} reading tasks, ${listening.length} listening tasks, ` +
-    `${WRITING.length} writing tasks, ${SPEAKING.length} speaking tasks.\n` +
-    `${meta.counts.reviewable} items are on the review schedule.`,
+    `${writing.length} writing tasks, ${speaking.length} speaking tasks.\n` +
+    `${units.length} course units, ${canDoIds.size} can-do goals.\n` +
+    `${meta.counts.reviewable} items are on the review schedule.\n`,
 );
+
+for (const l of LEVELS) {
+  const c = byLevel[l];
+  console.log(
+    `  ${l}: ${String(c.vocab).padStart(4)} words  ${String(c.drills).padStart(4)} drills  ` +
+      `${String(c.grammar).padStart(2)} topics  ${String(c.tasks).padStart(2)} tasks  ` +
+      `${units.filter((u) => u.level === l).length} units`,
+  );
+}
 
 // Keep a reference to the loader so bundlers do not tree-shake the import.
 void pathToFileURL;

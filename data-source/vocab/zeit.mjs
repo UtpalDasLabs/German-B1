@@ -19,7 +19,6 @@ export default {
     ['die Zukunft', 'ohne Plural', 'the future', 'In Zukunft möchte ich Vollzeit arbeiten.', 'In the future I would like to work full time.'],
     ['die Gegenwart', 'ohne Plural', 'the present', 'Reden wir lieber über die Gegenwart.', 'Let us talk about the present instead.'],
     ['die Verabredung', '-en', 'arrangement to meet, date', 'Ich habe um sechs eine Verabredung.', 'I have an arrangement to meet at six.'],
-    ['die Pause', '-n', 'break', 'Nach einer Stunde machen wir eine Pause.', 'After an hour we take a break.'],
   ],
 
   verbs: [

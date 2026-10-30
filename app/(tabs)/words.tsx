@@ -9,7 +9,8 @@ import { LoadingScreen, useAppReady } from '@/components/Loading';
 import { Mascot } from '@/components/Mascot';
 import { ProgressRing } from '@/components/ProgressRing';
 import { Card, Screen, Txt, useShadow } from '@/components/ui';
-import { filterVocab, themes, vocabGroups } from '@/lib/study';
+import { filterVocab, themesIn, vocabGroups } from '@/lib/study';
+import { useScope } from '@/lib/useScope';
 import { groupStats, type GroupStat } from '@/lib/stats';
 import { useT } from '@/lib/useT';
 import { useProgress } from '@/store/ProgressProvider';
@@ -24,13 +25,14 @@ export default function WordsScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { progress } = useProgress();
+  const scope = useScope();
 
   const stats = useMemo(
-    () => groupStats(vocabGroups(), progress.cards, themes.map((x) => x.key)),
-    [progress.cards],
+    () => groupStats(vocabGroups(scope), progress.cards, themesIn(scope).map((x) => x.key)),
+    [progress.cards, scope],
   );
-  const dueCount = useMemo(() => filterVocab(progress.cards, { dueOnly: true }).length, [progress.cards]);
-  const trickyCount = useMemo(() => filterVocab(progress.cards, { trickyOnly: true }).length, [progress.cards]);
+  const dueCount = useMemo(() => filterVocab(scope, progress.cards, { dueOnly: true }).length, [progress.cards, scope]);
+  const trickyCount = useMemo(() => filterVocab(scope, progress.cards, { trickyOnly: true }).length, [progress.cards, scope]);
 
   const appReady = useAppReady();
   if (!appReady) return <LoadingScreen />;
@@ -70,7 +72,7 @@ export default function WordsScreen() {
 
         <View style={{ alignItems: 'center', gap: space.xl, marginTop: space.md }}>
           {stats.map((s, i) => {
-            const theme = themes.find((x) => x.key === s.key);
+            const theme = themesIn(scope).find((x) => x.key === s.key);
             if (!theme) return null;
             return (
               <PathNode

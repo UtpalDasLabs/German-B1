@@ -5,6 +5,7 @@
 export const SATZBAU = [
   {
     key: 'nebensaetze',
+    level: 'A2',
     icon: '\u{1F517}',
     title: { de: 'Nebensätze: dass, weil, ob', en: 'Subordinate clauses: dass, weil, ob' },
     summary: {
@@ -87,6 +88,7 @@ export const SATZBAU = [
 
   {
     key: 'konnektoren',
+    level: 'B1',
     icon: '\u{1F9F5}',
     title: { de: 'deshalb, trotzdem, denn: Position zählt', en: 'deshalb, trotzdem, denn: position matters' },
     summary: {
@@ -166,6 +168,7 @@ export const SATZBAU = [
 
   {
     key: 'relativsaetze',
+    level: 'B1',
     icon: '\u{1F3AF}',
     title: { de: 'Relativsätze', en: 'Relative clauses' },
     summary: {
@@ -236,6 +239,7 @@ export const SATZBAU = [
 
   {
     key: 'wortstellung',
+    level: 'B1',
     icon: '\u{1F9ED}',
     title: { de: 'Satzstellung im Mittelfeld', en: 'Word order in the middle field' },
     summary: {

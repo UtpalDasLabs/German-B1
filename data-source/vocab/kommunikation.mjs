@@ -20,7 +20,6 @@ export default {
     ['der Kompromiss', '-e', 'compromise', 'Am Ende haben wir einen Kompromiss gefunden.', 'In the end we found a compromise.'],
     ['die Absprache', '-n', 'arrangement, agreement', 'Nach Absprache ist auch Samstag möglich.', 'By arrangement Saturday is possible too.'],
     ['die Bitte', '-n', 'request', 'Ich hätte eine Bitte an dich.', 'I have a request for you.'],
-    ['die Antwort', '-en', 'answer, reply', 'Über eine kurze Antwort würde ich mich freuen.', 'I would be glad of a brief reply.'],
     ['die Zusage', '-n', 'acceptance, confirmation', 'Die Zusage kam schon am nächsten Tag.', 'The confirmation came the very next day.'],
     ['die Absage', '-n', 'cancellation, rejection', 'Nach der Absage habe ich mich woanders beworben.', 'After the rejection I applied elsewhere.'],
     ['das Missverständnis', '-se', 'misunderstanding', 'Das war wohl ein Missverständnis.', 'That was probably a misunderstanding.'],

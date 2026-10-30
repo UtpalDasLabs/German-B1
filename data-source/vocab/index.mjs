@@ -29,7 +29,12 @@ import praepositionen from './praepositionen.mjs';
 import konnektoren from './konnektoren.mjs';
 import nomenverben from './nomenverben.mjs';
 
-export const THEME_FILES = [
+import { A1 } from './levels/a1.mjs';
+import { A2 } from './levels/a2.mjs';
+import { B2 } from './levels/b2.mjs';
+import { C1 } from './levels/c1.mjs';
+
+const THEMES = [
   familie,
   wohnen,
   arbeit,
@@ -53,3 +58,31 @@ export const THEME_FILES = [
   konnektoren,
   nomenverben,
 ];
+
+/**
+ * Words for the levels other than B1 are authored one file per level rather
+ * than one file per theme, and merged onto the themes here.
+ *
+ * The reason is review, not taste: when adding a level, the question you need
+ * to answer is "is this a sensible A1 wordlist?", and that is only answerable
+ * if the whole level is in front of you. Splitting it across 22 theme files
+ * would make it unreviewable, which is the same mistake as writing the entries
+ * out as full objects.
+ */
+const BY_LEVEL = { A1, A2, B2, C1 };
+
+export const THEME_FILES = THEMES.map((theme) => {
+  const levels = {};
+  for (const [level, byTheme] of Object.entries(BY_LEVEL)) {
+    if (byTheme[theme.key]) levels[level] = byTheme[theme.key];
+  }
+  return Object.keys(levels).length > 0 ? { ...theme, levels } : theme;
+});
+
+/** Theme keys a level file names that no theme file defines. */
+const known = new Set(THEMES.map((t) => t.key));
+for (const [level, byTheme] of Object.entries(BY_LEVEL)) {
+  for (const key of Object.keys(byTheme)) {
+    if (!known.has(key)) throw new Error(`${level} vocabulary names unknown theme "${key}"`);
+  }
+}

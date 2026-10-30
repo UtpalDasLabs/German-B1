@@ -9,6 +9,7 @@ import { LoadingScreen, useAppReady } from '@/components/Loading';
 import { TaskPicker } from '@/components/TaskPicker';
 import { Card, Txt } from '@/components/ui';
 import { listeningById, meta, tasksFor } from '@/lib/study';
+import { useScope } from '@/lib/useScope';
 import { useT } from '@/lib/useT';
 import { useSettings } from '@/store/SettingsProvider';
 import { useTheme } from '@/theme/ThemeProvider';
@@ -25,6 +26,7 @@ export default function ListeningScreen() {
   const { t, locale } = useT();
   const router = useRouter();
   const { settings } = useSettings();
+  const scope = useScope();
   const params = useLocalSearchParams<{ task?: string }>();
   const [taskId, setTaskId] = useState<string | null>(params.task ?? null);
   const [showScript, setShowScript] = useState(false);
@@ -40,7 +42,7 @@ export default function ListeningScreen() {
     return (
       <TaskPicker
         module="hoeren"
-        tasks={tasksFor('hoeren')}
+        tasks={tasksFor('hoeren', scope)}
         onPick={(id) => {
           setShowScript(false);
           setPlayed(false);

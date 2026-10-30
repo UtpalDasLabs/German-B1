@@ -9,11 +9,9 @@ export default {
 
   nouns: [
     ['die Behörde', '-n', 'public authority', 'Für diesen Antrag ist eine andere Behörde zuständig.', 'A different authority is responsible for this application.'],
-    ['das Amt', '-¨er', 'office, agency', 'Das Amt hat nur vormittags geöffnet.', 'The office is only open in the mornings.'],
     ['das Bürgeramt', '-¨er', 'citizens’ office', 'Im Bürgeramt bekommst du die Meldebescheinigung.', 'At the citizens’ office you get the registration certificate.'],
     ['die Ausländerbehörde', '-n', 'immigration office', 'Die Ausländerbehörde verlängert den Aufenthaltstitel.', 'The immigration office extends the residence permit.'],
     ['der Antrag', '-¨e', 'application (formal)', 'Der Antrag muss vollständig ausgefüllt sein.', 'The application must be filled in completely.'],
-    ['das Formular', '-e', 'form', 'Das Formular gibt es auch als PDF.', 'The form is also available as a PDF.'],
     ['die Unterlagen', 'nur Plural', 'documents', 'Bringen Sie bitte alle Unterlagen im Original mit.', 'Please bring all documents in the original.'],
     ['die Bescheinigung', '-en', 'certificate, confirmation', 'Die Bescheinigung gilt drei Monate.', 'The confirmation is valid for three months.'],
     ['der Nachweis', '-e', 'proof, evidence', 'Als Nachweis reicht die letzte Gehaltsabrechnung.', 'The last payslip is sufficient as proof.'],
@@ -24,15 +22,12 @@ export default {
     ['die Steuererklärung', '-en', 'tax return', 'Die Steuererklärung mache ich online.', 'I do my tax return online.'],
     ['die Versicherungsnummer', '-n', 'insurance number', 'Ihre Versicherungsnummer steht auf der Karte.', 'Your insurance number is on the card.'],
     ['der Aufenthaltstitel', '-', 'residence permit', 'Mein Aufenthaltstitel läuft im November ab.', 'My residence permit expires in November.'],
-    ['die Staatsangehörigkeit', '-en', 'nationality', 'Die Staatsangehörigkeit steht im Pass.', 'The nationality is in the passport.'],
     ['die Einbürgerung', '-en', 'naturalisation', 'Für die Einbürgerung brauchst du B1.', 'For naturalisation you need B1.'],
     ['die Beratung', '-en', 'advice, counselling', 'Die Beratung ist kostenlos und vertraulich.', 'The advice is free and confidential.'],
     ['der Widerspruch', '-¨e', 'objection, appeal', 'Gegen den Bescheid können Sie Widerspruch einlegen.', 'You can lodge an appeal against the decision.'],
   ],
 
   verbs: [
-    ['ausfüllen', null, 'to fill in', 'Füllen Sie bitte beide Seiten aus.', 'Please fill in both sides.'],
-    ['unterschreiben', 'unterschreibt · unterschrieb · hat unterschrieben', 'to sign', 'Unterschreiben Sie unten rechts.', 'Sign at the bottom right.'],
     ['vorlegen', null, 'to present, to produce', 'Bitte legen Sie Ihren Ausweis vor.', 'Please present your ID card.'],
     ['sich ausweisen', 'weist sich aus · wies sich aus · hat sich ausgewiesen', 'to identify oneself', 'Sie müssen sich am Schalter ausweisen.', 'You have to identify yourself at the counter.'],
     ['verlängern', null, 'to extend, to renew', 'Den Pass kann man online verlängern.', 'You can renew the passport online.'],

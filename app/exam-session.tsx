@@ -7,7 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LoadingScreen, useAppReady } from '@/components/Loading';
 import { Mascot, MascotSays } from '@/components/Mascot';
 import { Button, Card, Screen, Txt } from '@/components/ui';
-import { PROVIDERS_BY_KEY } from '@/lib/official';
+import { examFor } from '@/lib/official';
 import { buildExam, meta } from '@/lib/study';
 import { MODULE_KEYS, type ModuleKey } from '@/lib/types';
 import { useT } from '@/lib/useT';
@@ -40,20 +40,22 @@ export default function ExamSessionScreen() {
   const { settings } = useSettings();
   const { progress, recordExam } = useProgress();
 
-  const provider = PROVIDERS_BY_KEY[settings.provider];
+  const exam = examFor(settings.provider, settings.level);
   // Frozen per sitting: re-rolling the paper halfway through would be cheating
   // in the one direction that matters.
   const [startedAt] = useState(() => Date.now());
   const [seed] = useState(() => Date.now());
-  const paper = useMemo(() => buildExam(seed), [seed]);
+  const paper = useMemo(() => buildExam(settings.level, seed), [settings.level, seed]);
   const [finished, setFinished] = useState(false);
 
-  const taskFor: Record<ModuleKey, string> = {
-    lesen: paper.lesen.id,
-    hoeren: paper.hoeren.id,
-    schreiben: paper.schreiben.id,
-    sprechen: paper.sprechen.id,
-  };
+  const taskFor: Partial<Record<ModuleKey, string>> = paper
+    ? {
+        lesen: paper.lesen.id,
+        hoeren: paper.hoeren.id,
+        schreiben: paper.schreiben.id,
+        sprechen: paper.sprechen.id,
+      }
+    : {};
 
   /** Scores earned during this sitting only, keyed by module. */
   const scores = useMemo(() => {
@@ -70,20 +72,43 @@ export default function ExamSessionScreen() {
 
   const doneCount = MODULE_KEYS.filter((m) => scores[m] != null).length;
   const allDone = doneCount === MODULE_KEYS.length;
-  const passed = allDone && MODULE_KEYS.every((m) => (scores[m] ?? 0) >= provider.passPercent);
+  const passed = allDone && MODULE_KEYS.every((m) => (scores[m] ?? 0) >= exam.passPercent);
 
   const finish = useCallback(() => {
     recordExam({
       at: Date.now(),
       scores,
-      passed: MODULE_KEYS.every((m) => (scores[m] ?? 0) >= provider.passPercent),
+      passed: MODULE_KEYS.every((m) => (scores[m] ?? 0) >= exam.passPercent),
       duration: Math.round((Date.now() - startedAt) / 1000),
     });
     setFinished(true);
-  }, [recordExam, scores, provider.passPercent, startedAt]);
+  }, [recordExam, scores, exam.passPercent, startedAt]);
 
   const appReady = useAppReady();
   if (!appReady) return <LoadingScreen />;
+
+  // A mock exam is a whole paper or nothing, so if this level is missing a task
+  // in any module the screen says so rather than sitting half an exam.
+  if (!paper) {
+    return (
+      <Screen style={{ alignItems: 'center', justifyContent: 'center', padding: space.xl, gap: space.md }}>
+        <Mascot mood="thinking" size={140} />
+        <Txt variant="title" style={{ textAlign: 'center' }}>
+          {t('examNotReady')}
+        </Txt>
+        <Txt variant="small" tone="muted" style={{ textAlign: 'center', maxWidth: 320 }}>
+          {t('examNotReadySub')}
+        </Txt>
+        <Button
+          title={t('backHome')}
+          size="lg"
+          full
+          style={{ maxWidth: 340, marginTop: space.lg }}
+          onPress={() => router.replace('/(tabs)')}
+        />
+      </Screen>
+    );
+  }
 
   if (finished) {
     return (
@@ -95,7 +120,7 @@ export default function ExamSessionScreen() {
         <View style={{ gap: space.sm, alignSelf: 'stretch', maxWidth: 340, marginTop: space.md }}>
           {MODULE_KEYS.map((m) => {
             const score = scores[m] ?? 0;
-            const ok = score >= provider.passPercent;
+            const ok = score >= exam.passPercent;
             return (
               <View key={m} style={{ flexDirection: 'row', alignItems: 'center', gap: space.sm }}>
                 <Ionicons
@@ -156,7 +181,7 @@ export default function ExamSessionScreen() {
         </View>
 
         <MascotSays mood={allDone ? 'celebrate' : 'thinking'} size={84}>
-          <Txt variant="bodyStrong">{allDone ? t('examDone') : provider.name}</Txt>
+          <Txt variant="bodyStrong">{allDone ? t('examDone') : exam.name}</Txt>
           <Txt variant="small" tone="muted">
             {allDone ? t('overallResult') : t('examIntro')}
           </Txt>
@@ -193,13 +218,13 @@ export default function ExamSessionScreen() {
                 <View style={{ flex: 1 }}>
                   <Txt variant="bodyStrong">{area.label[locale]}</Txt>
                   <Txt variant="caption" tone="faint">
-                    {provider.minutes[module]} {t('minutes')}
+                    {exam.minutes[module]} {t('minutes')}
                   </Txt>
                 </View>
                 {done ? (
                   <Txt
                     variant="heading"
-                    tone={score >= provider.passPercent ? 'success' : 'danger'}
+                    tone={score >= exam.passPercent ? 'success' : 'danger'}
                   >
                     {score}%
                   </Txt>

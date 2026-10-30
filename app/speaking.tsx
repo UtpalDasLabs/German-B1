@@ -11,6 +11,7 @@ import { TaskHeader } from '@/components/TaskHeader';
 import { TaskPicker } from '@/components/TaskPicker';
 import { Button, Card, Screen, Txt } from '@/components/ui';
 import { meta, speakingById, tasksFor } from '@/lib/study';
+import { useScope } from '@/lib/useScope';
 import { useCountdown } from '@/lib/useCountdown';
 import { useT } from '@/lib/useT';
 import { useProgress } from '@/store/ProgressProvider';
@@ -34,6 +35,7 @@ export default function SpeakingScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { recordAttempt } = useProgress();
+  const scope = useScope();
   const params = useLocalSearchParams<{ task?: string }>();
 
   const [taskId, setTaskId] = useState<string | null>(params.task ?? null);
@@ -63,7 +65,7 @@ export default function SpeakingScreen() {
   if (!appReady) return <LoadingScreen />;
 
   if (!task) {
-    return <TaskPicker module="sprechen" tasks={tasksFor('sprechen')} onPick={open} />;
+    return <TaskPicker module="sprechen" tasks={tasksFor('sprechen', scope)} onPick={open} />;
   }
 
   const color = meta.areas.sprechen.color;

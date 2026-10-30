@@ -16,7 +16,8 @@ import {
   requestDurableStorage,
 } from '@/lib/durability';
 import { forecast } from '@/lib/forecast';
-import { areaGroups, meta, reviewableIds, themes, vocabGroups } from '@/lib/study';
+import { areaGroups, meta, reviewableIds, themes, themesIn, vocabGroups } from '@/lib/study';
+import { useScope } from '@/lib/useScope';
 import { groupStats } from '@/lib/stats';
 import type { Appearance, Language } from '@/lib/types';
 import { useT } from '@/lib/useT';
@@ -43,6 +44,7 @@ export default function YouScreen() {
   const router = useRouter();
   const { settings, update } = useSettings();
   const { progress, reset, restore } = useProgress();
+  const scope = useScope();
   const [persisted, setPersisted] = useState(false);
   const [note, setNote] = useState<string | null>(null);
 
@@ -51,16 +53,16 @@ export default function YouScreen() {
   }, []);
 
   const f = useMemo(
-    () => forecast(reviewableIds, progress.cards, settings.goal),
-    [progress.cards, settings.goal],
+    () => forecast(reviewableIds(scope), progress.cards, settings.goal),
+    [progress.cards, settings.goal, scope],
   );
   const areaStats = useMemo(
-    () => groupStats(areaGroups(), progress.cards, ['wortschatz', 'grammatik']),
-    [progress.cards],
+    () => groupStats(areaGroups(scope), progress.cards, ['wortschatz', 'grammatik']),
+    [progress.cards, scope],
   );
   const themeStats = useMemo(
-    () => groupStats(vocabGroups(), progress.cards, themes.map((x) => x.key)),
-    [progress.cards],
+    () => groupStats(vocabGroups(scope), progress.cards, themesIn(scope).map((x) => x.key)),
+    [progress.cards, scope],
   );
 
   const onProtect = useCallback(async () => {

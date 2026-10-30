@@ -82,7 +82,8 @@
      "Sag mir einfach Bescheid, was dir passt."
     ]
    }
-  ]
+  ],
+  "level": "B1"
  },
  {
   "id": "w1b",
@@ -162,7 +163,8 @@
      "Gib mir einfach Bescheid, damit ich planen kann."
     ]
    }
-  ]
+  ],
+  "level": "B1"
  },
  {
   "id": "w1c",
@@ -242,7 +244,8 @@
      "Schreib mir mal wieder!"
     ]
    }
-  ]
+  ],
+  "level": "B1"
  },
  {
   "id": "w2a",
@@ -339,7 +342,8 @@
      "Aus diesen Gründen bin ich dafür / dagegen."
     ]
    }
-  ]
+  ],
+  "level": "B1"
  },
  {
   "id": "w2b",
@@ -419,7 +423,8 @@
      "Sinnvoller wäre es, wenn …"
     ]
    }
-  ]
+  ],
+  "level": "B1"
  },
  {
   "id": "w2c",
@@ -499,7 +504,8 @@
      "Nicht jeder hat die Möglichkeit, …"
     ]
    }
-  ]
+  ],
+  "level": "B1"
  },
  {
   "id": "w3a",
@@ -580,7 +586,8 @@
      "Mit freundlichen Grüßen"
     ]
    }
-  ]
+  ],
+  "level": "B1"
  },
  {
   "id": "w3b",
@@ -655,7 +662,8 @@
      "Bitte teilen Sie mir mit, wie ich …"
     ]
    }
-  ]
+  ],
+  "level": "B1"
  },
  {
   "id": "w3c",
@@ -733,6 +741,7 @@
      "Vielen Dank für Ihr Verständnis."
     ]
    }
-  ]
+  ],
+  "level": "B1"
  }
 ]

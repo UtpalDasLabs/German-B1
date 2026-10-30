@@ -3,6 +3,7 @@
   "id": "h1a",
   "module": "hoeren",
   "teil": 1,
+  "level": "B1",
   "title": {
    "de": "Teil 1: Kurze Ansagen und Nachrichten",
    "en": "Part 1: short announcements and messages"
@@ -118,6 +119,7 @@
   "id": "h2a",
   "module": "hoeren",
   "teil": 2,
+  "level": "B1",
   "title": {
    "de": "Teil 2: Führung durch das Stadtarchiv",
    "en": "Part 2: a tour of the city archive"
@@ -252,6 +254,7 @@
   "id": "h3a",
   "module": "hoeren",
   "teil": 3,
+  "level": "B1",
   "title": {
    "de": "Teil 3: Gespräch – Nach dem ersten Arbeitstag",
    "en": "Part 3: conversation - after the first day at work"
@@ -418,6 +421,7 @@
   "id": "h4a",
   "module": "hoeren",
   "teil": 4,
+  "level": "B1",
   "title": {
    "de": "Teil 4: Diskussion – Sollen Innenstädte autofrei werden?",
    "en": "Part 4: discussion - should city centres be car-free?"
@@ -591,6 +595,7 @@
   "id": "h1b",
   "module": "hoeren",
   "teil": 1,
+  "level": "B1",
   "title": {
    "de": "Teil 1: Nachrichten auf dem Anrufbeantworter",
    "en": "Part 1: messages on the answering machine"
@@ -706,6 +711,7 @@
   "id": "h3b",
   "module": "hoeren",
   "teil": 3,
+  "level": "B1",
   "title": {
    "de": "Teil 3: Gespräch – Ein Kurs geht zu Ende",
    "en": "Part 3: conversation - a course is ending"

@@ -11,6 +11,7 @@ import { GOALS } from '@/lib/goals';
 import { makeHaptics } from '@/lib/haptics';
 import { areaColors } from '@/theme/tokens';
 import { filterDrills, getGrammar, orderForStudy } from '@/lib/study';
+import { useScope } from '@/lib/useScope';
 import { useT } from '@/lib/useT';
 import { useProgress } from '@/store/ProgressProvider';
 import { useSettings } from '@/store/SettingsProvider';
@@ -30,6 +31,7 @@ export default function DrillScreen() {
   const insets = useSafeAreaInsets();
   const { settings } = useSettings();
   const { progress, grade } = useProgress();
+  const scope = useScope();
   const params = useLocalSearchParams<{ count?: string; topic?: string; mode?: string }>();
 
   const haptics = useMemo(() => makeHaptics(settings.haptics), [settings.haptics]);
@@ -38,7 +40,7 @@ export default function DrillScreen() {
 
   const [seed, setSeed] = useState(() => Date.now());
   const queue = useMemo(() => {
-    const filtered = filterDrills(progress.cards, {
+    const filtered = filterDrills(scope, progress.cards, {
       topic: params.topic ?? 'all',
       dueOnly: params.mode === 'due',
       trickyOnly: params.mode === 'tricky',

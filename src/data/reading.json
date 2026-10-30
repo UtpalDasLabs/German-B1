@@ -3,6 +3,7 @@
   "id": "l1a",
   "module": "lesen",
   "teil": 1,
+  "level": "B1",
   "title": {
    "de": "Teil 1: Blogeintrag – Ein Jahr ohne Auto",
    "en": "Part 1: blog post - A year without a car"
@@ -109,6 +110,7 @@
   "id": "l1b",
   "module": "lesen",
   "teil": 1,
+  "level": "B1",
   "title": {
    "de": "Teil 1: Forumsbeitrag – Die erste eigene Wohnung",
    "en": "Part 1: forum post - My first own flat"
@@ -215,6 +217,7 @@
   "id": "l2a",
   "module": "lesen",
   "teil": 2,
+  "level": "B1",
   "title": {
    "de": "Teil 2: Zwei Zeitungstexte",
    "en": "Part 2: two newspaper texts"
@@ -331,6 +334,7 @@
   "id": "l3a",
   "module": "lesen",
   "teil": 3,
+  "level": "B1",
   "title": {
    "de": "Teil 3: Kleinanzeigen zuordnen",
    "en": "Part 3: matching small adverts"
@@ -481,6 +485,7 @@
   "id": "l4a",
   "module": "lesen",
   "teil": 4,
+  "level": "B1",
   "title": {
    "de": "Teil 4: Meinungen – Handys in der Schule",
    "en": "Part 4: opinions - phones at school"
@@ -587,6 +592,7 @@
   "id": "l4b",
   "module": "lesen",
   "teil": 4,
+  "level": "B1",
   "title": {
    "de": "Teil 4: Meinungen – Homeoffice",
    "en": "Part 4: opinions - working from home"
@@ -693,6 +699,7 @@
   "id": "l5a",
   "module": "lesen",
   "teil": 5,
+  "level": "B1",
   "title": {
    "de": "Teil 5: Hausordnung",
    "en": "Part 5: house rules"
@@ -805,6 +812,7 @@
   "id": "l2b",
   "module": "lesen",
   "teil": 2,
+  "level": "B1",
   "title": {
    "de": "Teil 2: Aus der Zeitung – Arbeit und Ausbildung",
    "en": "Part 2: from the newspaper - work and training"

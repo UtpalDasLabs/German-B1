@@ -11,6 +11,7 @@ import { forecast, formatDate, planFor } from '@/lib/forecast';
 import { GOALS, GOAL_ORDER } from '@/lib/goals';
 import { moduleStats } from '@/lib/stats';
 import { meta, reviewableIds } from '@/lib/study';
+import { useScope } from '@/lib/useScope';
 import { MODULE_KEYS } from '@/lib/types';
 import { useT } from '@/lib/useT';
 import { useProgress } from '@/store/ProgressProvider';
@@ -42,11 +43,12 @@ export default function PlanScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { settings, update } = useSettings();
+  const scope = useScope();
   const { progress } = useProgress();
   const [choices] = useState(() => dateChoices());
 
   const f = useMemo(
-    () => forecast(reviewableIds, progress.cards, settings.goal),
+    () => forecast(reviewableIds(scope), progress.cards, settings.goal),
     [progress.cards, settings.goal],
   );
   const plan = useMemo(
@@ -185,7 +187,7 @@ export default function PlanScreen() {
         <Card style={{ gap: space.md }}>
           <Txt variant="heading">{t('setGoal')}</Txt>
           {GOAL_ORDER.map((g) => {
-            const projected = forecast(reviewableIds, progress.cards, g);
+            const projected = forecast(reviewableIds(scope), progress.cards, g);
             const active = settings.goal === g;
             return (
               <Pressable

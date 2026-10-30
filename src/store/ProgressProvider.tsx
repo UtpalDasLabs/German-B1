@@ -7,6 +7,7 @@ import type { CardProgress, ExamResult, ModuleAttempt, Progress } from '@/lib/ty
 
 const DEFAULTS: Progress = {
   cards: {},
+  canDos: {},
   attempts: [],
   exams: [],
   drafts: {},
@@ -30,6 +31,8 @@ type Ctx = {
   recordAttempt: (attempt: ModuleAttempt) => void;
   recordExam: (result: ExamResult) => void;
   saveDraft: (taskId: string, text: string) => void;
+  /** Ticks or unticks a course goal. Claims, not scores - so no XP. */
+  toggleCanDo: (id: string) => void;
   reset: () => void;
   restore: (next: Progress) => void;
 };
@@ -43,6 +46,7 @@ const ProgressContext = createContext<Ctx>({
   recordAttempt: () => {},
   recordExam: () => {},
   saveDraft: () => {},
+  toggleCanDo: () => {},
   reset: () => {},
   restore: () => {},
 });
@@ -143,6 +147,24 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     [commit],
   );
 
+  /**
+   * A can-do is the learner's own claim about what they can now do, so ticking
+   * one awards nothing and never touches the streak. Inflating XP for ticking a
+   * box would make the goals worth gaming, which is the one thing that would
+   * stop them meaning anything.
+   */
+  const toggleCanDo = useCallback(
+    (id: string) => {
+      commit((prev) => {
+        const canDos = { ...prev.canDos };
+        if (canDos[id]) delete canDos[id];
+        else canDos[id] = true;
+        return { ...prev, canDos };
+      });
+    },
+    [commit],
+  );
+
   const reset = useCallback(() => {
     setProgress(DEFAULTS);
     void clearAll();
@@ -166,10 +188,23 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       recordAttempt,
       recordExam,
       saveDraft,
+      toggleCanDo,
       reset,
       restore,
     }),
-    [progress, ready, cardFn, grade, gradeMany, recordAttempt, recordExam, saveDraft, reset, restore],
+    [
+      progress,
+      ready,
+      cardFn,
+      grade,
+      gradeMany,
+      recordAttempt,
+      recordExam,
+      saveDraft,
+      toggleCanDo,
+      reset,
+      restore,
+    ],
   );
 
   return <ProgressContext.Provider value={value}>{children}</ProgressContext.Provider>;

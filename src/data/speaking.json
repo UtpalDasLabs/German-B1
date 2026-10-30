@@ -92,7 +92,8 @@
      "Dann bleibt es dabei."
     ]
    }
-  ]
+  ],
+  "level": "B1"
  },
  {
   "id": "s1b",
@@ -169,7 +170,8 @@
      "Ich frage sie, du schreibst der Gruppe."
     ]
    }
-  ]
+  ],
+  "level": "B1"
  },
  {
   "id": "s2a",
@@ -276,7 +278,8 @@
      "Vielen Dank für Ihre Aufmerksamkeit."
     ]
    }
-  ]
+  ],
+  "level": "B1"
  },
  {
   "id": "s2b",
@@ -342,7 +345,8 @@
      "An eurer Stelle würde ich …"
     ]
    }
-  ]
+  ],
+  "level": "B1"
  },
  {
   "id": "s2c",
@@ -408,7 +412,8 @@
      "Was mir am meisten fehlt, ist …"
     ]
    }
-  ]
+  ],
+  "level": "B1"
  },
  {
   "id": "s3a",
@@ -486,7 +491,8 @@
      "Ich glaube, das liegt daran, dass …"
     ]
    }
-  ]
+  ],
+  "level": "B1"
  },
  {
   "id": "s3b",
@@ -547,7 +553,8 @@
      "Deshalb würde ich sagen, dass …"
     ]
    }
-  ]
+  ],
+  "level": "B1"
  },
  {
   "id": "s1c",
@@ -613,6 +620,7 @@
      "Als Alternative hätten wir noch …"
     ]
    }
-  ]
+  ],
+  "level": "B1"
  }
 ]

@@ -9,7 +9,6 @@ export default {
 
   connectors: [
     ['weil', null, 'because (verb to the end)', 'Ich komme später, weil ich noch arbeiten muss.', 'I am coming later because I still have to work.'],
-    ['denn', null, 'because (normal word order)', 'Ich komme später, denn ich muss noch arbeiten.', 'I am coming later, because I still have to work.'],
     ['deshalb', null, 'therefore, that is why', 'Der Zug fiel aus, deshalb kam ich zu spät.', 'The train was cancelled, that is why I was late.'],
     ['trotzdem', null, 'nevertheless', 'Es regnete, trotzdem sind wir gelaufen.', 'It was raining, nevertheless we walked.'],
     ['obwohl', null, 'although', 'Obwohl es teuer war, habe ich es gekauft.', 'Although it was expensive, I bought it.'],
@@ -23,7 +22,6 @@ export default {
     ['bevor', null, 'before', 'Bevor du unterschreibst, lies alles.', 'Before you sign, read everything.'],
     ['nachdem', null, 'after (with Plusquamperfekt)', 'Nachdem ich gegessen hatte, ging ich los.', 'After I had eaten I set off.'],
     ['während', null, 'while, whereas', 'Während ich koche, deckt er den Tisch.', 'While I cook he sets the table.'],
-    ['bis', null, 'until', 'Warte bitte, bis ich fertig bin.', 'Please wait until I am finished.'],
     ['dass', null, 'that (verb to the end)', 'Ich hoffe, dass alles klappt.', 'I hope that everything works out.'],
     ['ob', null, 'whether', 'Ich weiß nicht, ob er kommt.', 'I do not know whether he is coming.'],
     ['sowohl … als auch', null, 'both … and', 'Sie spricht sowohl Deutsch als auch Polnisch.', 'She speaks both German and Polish.'],

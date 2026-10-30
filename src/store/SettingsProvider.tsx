@@ -9,6 +9,11 @@ const DEFAULTS: Settings = {
   haptics: true,
   goal: 'regular',
   provider: 'goethe',
+  // B1 is the default because it is the level most learners in Germany are
+  // actually working towards, and the placement test moves anyone else.
+  level: 'B1',
+  includeLower: true,
+  placed: false,
   examDate: null,
   slowAudio: false,
   onboarded: false,
