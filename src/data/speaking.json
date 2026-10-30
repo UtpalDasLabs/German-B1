@@ -769,5 +769,178 @@
    }
   ],
   "level": "B1"
+ },
+ {
+  "id": "s.b2.1",
+  "level": "B2",
+  "teil": 1,
+  "minutes": 8,
+  "prepMinutes": 15,
+  "title": {
+   "de": "Teil 1: Vortrag mit Diskussion",
+   "en": "Part 1: presentation with discussion"
+  },
+  "situation": "Halten Sie einen Vortrag von etwa vier Minuten zum Thema \"Sollten Unternehmen Homeoffice vorschreiben, ermöglichen oder einschränken?\" und beantworten Sie anschließend Rückfragen.",
+  "situationEn": "Give a presentation of about four minutes on \"Should companies mandate, enable or restrict working from home?\" and then answer follow-up questions.",
+  "bullets": [
+   "Führen Sie ins Thema ein und sagen Sie, worüber Sie sprechen werden.",
+   "Stellen Sie zwei Positionen dar, nicht nur Ihre eigene.",
+   "Nennen Sie Vor- und Nachteile mit einem konkreten Beispiel.",
+   "Kommen Sie zu einer eigenen, begründeten Position.",
+   "Rechnen Sie mit einer Rückfrage, die Ihre schwächste Stelle trifft."
+  ],
+  "model": "Ich möchte heute über die Frage sprechen, wie Unternehmen mit Homeoffice umgehen sollten. Dabei werde ich zunächst zwei gegensätzliche Positionen darstellen und am Ende sagen, welche ich für tragfähig halte.\n\nDie eine Seite argumentiert mit der Einarbeitung. Wer neu anfängt, lernt das Nötige beiläufig: im Raum, nebenbei, durch Mithören. Wer nicht da ist, hört nicht mit. Diese Position fordert deshalb feste Präsenztage.\n\nDie andere Seite verweist auf das Pendeln. Feste Tage behandeln alle gleich und belasten diejenigen am stärksten, die weit weg wohnen oder Kinder betreuen - also oft genau die, die man halten möchte.\n\nBeides gegeneinander abgewogen halte ich die Unternehmensebene für die falsche. Eine Regel für sechzig Leute wird entweder zu grob oder zu kompliziert. Sinnvoller erscheint mir, dass Teams sich verbindlich einigen, weil nur dort bekannt ist, wer gerade eingearbeitet wird.\n\nEinräumen muss ich, dass das Konflikte in die Teams verlagert, statt sie zu lösen. Dafür habe ich keine saubere Antwort - ich halte den Konflikt an dieser Stelle nur für besser aufgehoben.",
+  "checklist": [
+   {
+    "de": "Ich habe eingeleitet und gesagt, wie ich vorgehe.",
+    "en": "I introduced the topic and said how I would proceed."
+   },
+   {
+    "de": "Ich habe zwei Positionen dargestellt, nicht nur meine.",
+    "en": "I presented two positions, not just my own."
+   },
+   {
+    "de": "Ich habe mindestens ein konkretes Beispiel gebracht.",
+    "en": "I gave at least one concrete example."
+   },
+   {
+    "de": "Ich bin zu einer eigenen, begründeten Position gekommen.",
+    "en": "I reached my own reasoned position."
+   },
+   {
+    "de": "Ich habe eine Schwäche meiner Position selbst benannt.",
+    "en": "I named a weakness in my own position myself."
+   },
+   {
+    "de": "Ich habe etwa vier Minuten frei gesprochen, nicht abgelesen.",
+    "en": "I spoke freely for about four minutes rather than reading."
+   }
+  ],
+  "phrases": [
+   {
+    "label": {
+     "de": "Gliedern",
+     "en": "Structuring"
+    },
+    "items": [
+     "Ich möchte über die Frage sprechen, ob …",
+     "Dabei werde ich zunächst … und anschließend …",
+     "Ich komme nun zum zweiten Punkt.",
+     "Zusammenfassend lässt sich sagen, dass …"
+    ]
+   },
+   {
+    "label": {
+     "de": "Positionen darstellen",
+     "en": "Presenting positions"
+    },
+    "items": [
+     "Die eine Seite argumentiert damit, dass …",
+     "Dagegen wird eingewandt, dass …",
+     "Befürworter verweisen auf …",
+     "Kritiker halten dem entgegen, dass …"
+    ]
+   },
+   {
+    "label": {
+     "de": "Auf Rückfragen reagieren",
+     "en": "Responding to questions"
+    },
+    "items": [
+     "Das ist ein berechtigter Einwand.",
+     "Darauf habe ich keine saubere Antwort, aber …",
+     "Da müsste ich differenzieren: …",
+     "Das würde ich so nicht sagen, weil …"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "s.c1.1",
+  "level": "C1",
+  "teil": 2,
+  "minutes": 10,
+  "prepMinutes": 15,
+  "title": {
+   "de": "Teil 2: Vortrag und Verteidigung",
+   "en": "Part 2: presentation and defence"
+  },
+  "situation": "Halten Sie einen Vortrag von fünf bis sechs Minuten zu der Frage \"Sollte Mehrsprachigkeit in Schulen stärker gefördert werden?\" und verteidigen Sie Ihre Position anschließend gegen Nachfragen.",
+  "situationEn": "Give a five- to six-minute presentation on \"Should multilingualism be promoted more strongly in schools?\" and then defend your position against questions.",
+  "bullets": [
+   "Grenzen Sie die Frage ein, bevor Sie sie beantworten.",
+   "Trennen Sie, was empirisch belegt ist, von dem, was Wertung ist.",
+   "Nennen Sie die stärkste Gegenposition in ihrer stärksten Form.",
+   "Beziehen Sie eine Position, die Sie unter Nachfragen halten können.",
+   "Sagen Sie selbst, was Ihre Position nicht leistet."
+  ],
+  "model": "Ich möchte die Frage zunächst eingrenzen, weil sie in dieser Form zwei sehr verschiedene Dinge meint: den Unterricht in Herkunftssprachen und den Fremdsprachenunterricht. Ich spreche über das Erste.\n\nZur Empirie: Dass mehrsprachig aufwachsende Kinder in bestimmten Aufgaben geringfügig besser abschneiden, ist belegt, aber der Effekt ist klein, und neuere Arbeiten, die den sozialen Hintergrund kontrollieren, finden ihn kleiner. Ich stütze meine Position deshalb ausdrücklich nicht darauf.\n\nDas Argument, das trägt, ist ein anderes und braucht keine Studie. Ein Kind, das die Sprache seiner Großeltern verliert, verliert den Zugang zu ihnen. Das ist ein realer Verlust, und er ist vermeidbar.\n\nDie stärkste Gegenposition lautet, dass Schulstunden endlich sind und jede Stunde Herkunftssprache eine Stunde Deutsch kostet - und dass Deutsch für die Chancen dieser Kinder entscheidender ist. Dieser Einwand ist ernst zu nehmen, und ich kann ihn nicht vollständig entkräften.\n\nWas ich dagegen setzen kann, ist zweierlei. Erstens ist die Annahme, dass beides konkurriert, empirisch umstritten; eine gefestigte Erstsprache scheint den Zweitspracherwerb eher zu stützen. Zweitens geht es bei Herkunftssprachenunterricht häufig um Randstunden, nicht um Deutschstunden.\n\nWas meine Position nicht leistet: Sie sagt nichts darüber, wie man das bei dreißig Herkunftssprachen an einer Schule organisiert. Das halte ich für das eigentliche Problem - ein organisatorisches, kein pädagogisches.",
+  "checklist": [
+   {
+    "de": "Ich habe die Frage eingegrenzt, bevor ich sie beantwortet habe.",
+    "en": "I narrowed the question before answering it."
+   },
+   {
+    "de": "Ich habe Empirie und Wertung getrennt.",
+    "en": "I separated evidence from judgement."
+   },
+   {
+    "de": "Ich habe die Gegenposition in ihrer stärksten Form genannt.",
+    "en": "I stated the counter-position in its strongest form."
+   },
+   {
+    "de": "Ich habe gesagt, was ich nicht entkräften kann.",
+    "en": "I said what I cannot refute."
+   },
+   {
+    "de": "Ich habe die Grenzen meiner eigenen Position benannt.",
+    "en": "I named the limits of my own position."
+   },
+   {
+    "de": "Ich habe fünf bis sechs Minuten frei gesprochen.",
+    "en": "I spoke freely for five to six minutes."
+   },
+   {
+    "de": "Ich habe auf Nachfragen differenziert statt nachgegeben oder wiederholt.",
+    "en": "I differentiated under questioning rather than conceding or repeating."
+   }
+  ],
+  "phrases": [
+   {
+    "label": {
+     "de": "Eingrenzen",
+     "en": "Narrowing"
+    },
+    "items": [
+     "Ich möchte die Frage zunächst eingrenzen, weil …",
+     "In dieser Form meint sie zwei verschiedene Dinge.",
+     "Ich spreche im Folgenden ausschließlich über …"
+    ]
+   },
+   {
+    "label": {
+     "de": "Belege einordnen",
+     "en": "Placing evidence"
+    },
+    "items": [
+     "Das ist belegt, allerdings mit kleinem Effekt.",
+     "Darauf stütze ich meine Position ausdrücklich nicht.",
+     "Neuere Arbeiten, die … kontrollieren, finden …",
+     "Das lässt sich aus den Daten nicht ableiten."
+    ]
+   },
+   {
+    "label": {
+     "de": "Unter Nachfragen bestehen",
+     "en": "Holding up under questioning"
+    },
+    "items": [
+     "Diesen Einwand kann ich nicht vollständig entkräften.",
+     "Da müsste ich differenzieren: …",
+     "Was meine Position nicht leistet, ist …",
+     "Das würde ich so nicht stehen lassen, weil …"
+    ]
+   }
+  ]
  }
 ]

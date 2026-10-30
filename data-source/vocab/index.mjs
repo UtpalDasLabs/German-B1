@@ -28,6 +28,8 @@ import adjektive from './adjektive.mjs';
 import praepositionen from './praepositionen.mjs';
 import konnektoren from './konnektoren.mjs';
 import nomenverben from './nomenverben.mjs';
+import wirtschaft from './wirtschaft.mjs';
+import wissenschaft from './wissenschaft.mjs';
 
 import { A1 } from './levels/a1.mjs';
 import { A2 } from './levels/a2.mjs';
@@ -58,6 +60,8 @@ const THEMES = [
   praepositionen,
   konnektoren,
   nomenverben,
+  wirtschaft,
+  wissenschaft,
 ];
 
 /**

@@ -23,6 +23,8 @@ import { SPEAKING } from '../data-source/speaking.mjs';
 import { MAGAZINE } from '../data-source/magazine.mjs';
 import { A1_READING, A1_LISTENING, A1_WRITING, A1_SPEAKING } from '../data-source/exams/a1.mjs';
 import { A2_READING, A2_LISTENING, A2_WRITING, A2_SPEAKING } from '../data-source/exams/a2.mjs';
+import { B2_READING, B2_LISTENING, B2_WRITING, B2_SPEAKING } from '../data-source/exams/b2.mjs';
+import { C1_READING, C1_LISTENING, C1_WRITING, C1_SPEAKING } from '../data-source/exams/c1.mjs';
 import { themeColors } from './palette.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -31,6 +33,31 @@ const OUT = path.join(ROOT, 'src', 'data');
 const problems = [];
 function check(condition, message) {
   if (!condition) problems.push(message);
+}
+
+/* ------------------------------------------------------- source integrity */
+
+/**
+ * Catches a repeated theme key inside one level file.
+ *
+ * JavaScript lets an object literal repeat a key and silently keeps the last
+ * one, so a second `arbeit: {` quietly deletes the first block and the only
+ * symptom is words that vanish. Nothing at runtime can see this - by the time
+ * the module is imported the duplicate is gone - so it has to be checked
+ * against the source text.
+ */
+for (const level of ['a1', 'a2', 'b1', 'b2', 'c1']) {
+  const file = path.join(ROOT, 'data-source', 'vocab', 'levels', `${level}.mjs`);
+  if (!fs.existsSync(file)) continue;
+  const seen = new Map();
+  for (const line of fs.readFileSync(file, 'utf8').split('\n')) {
+    const m = /^  ([a-z]+): \{$/.exec(line);
+    if (!m) continue;
+    if (seen.has(m[1])) {
+      problems.push(`${level}.mjs: theme "${m[1]}" appears twice; the first block would be silently discarded`);
+    }
+    seen.set(m[1], true);
+  }
 }
 
 /* ------------------------------------------------------------------ vocab */
@@ -216,7 +243,7 @@ function taskLevel(task, kind) {
   return level;
 }
 
-const reading = [...A1_READING, ...A2_READING, ...READING].map((task) => {
+const reading = [...A1_READING, ...A2_READING, ...READING, ...B2_READING, ...C1_READING].map((task) => {
   check(task.texts?.length > 0, `reading ${task.id} has no text`);
   check(task.items?.length > 0, `reading ${task.id} has no items`);
   return {
@@ -232,7 +259,7 @@ const reading = [...A1_READING, ...A2_READING, ...READING].map((task) => {
   };
 });
 
-const listening = [...A1_LISTENING, ...A2_LISTENING, ...LISTENING].map((task) => {
+const listening = [...A1_LISTENING, ...A2_LISTENING, ...LISTENING, ...B2_LISTENING, ...C1_LISTENING].map((task) => {
   check(task.script?.length > 0, `listening ${task.id} has no script`);
   check(task.items?.length > 0, `listening ${task.id} has no items`);
   for (const line of task.script) {
@@ -262,11 +289,11 @@ function checkProductive(task, kind) {
   check(task.phrases?.length > 0, `${kind} ${task.id}: no phrase bank`);
 }
 
-const writing = [...A1_WRITING, ...A2_WRITING, ...WRITING].map((t) => {
+const writing = [...A1_WRITING, ...A2_WRITING, ...WRITING, ...B2_WRITING, ...C1_WRITING].map((t) => {
   checkProductive(t, 'writing');
   return { ...t, level: taskLevel(t, 'writing') };
 });
-const speaking = [...A1_SPEAKING, ...A2_SPEAKING, ...SPEAKING].map((t) => {
+const speaking = [...A1_SPEAKING, ...A2_SPEAKING, ...SPEAKING, ...B2_SPEAKING, ...C1_SPEAKING].map((t) => {
   checkProductive(t, 'speaking');
   return { ...t, level: taskLevel(t, 'speaking') };
 });

@@ -3405,6 +3405,336 @@
   "forms": null
  },
  {
+  "id": "w.arbeit.069",
+  "de": "Wohnort",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "place of residence",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Der Wohnort entscheidet über den Arbeitsweg.",
+   "en": "Where you live decides your commute."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.070",
+  "de": "Anwesenheit",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "attendance, presence",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Die Anwesenheit ist nicht verpflichtend.",
+   "en": "Attendance is not compulsory."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.071",
+  "de": "Entfernung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "distance",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Die Entfernung beträgt 40 Kilometer.",
+   "en": "The distance is 40 kilometres."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.072",
+  "de": "Differenz",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "difference, discrepancy",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Die Differenz ist erheblich.",
+   "en": "The discrepancy is considerable."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.073",
+  "de": "Umland",
+  "article": "das",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "surrounding area",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Viele kommen aus dem Umland.",
+   "en": "Many come from the surrounding area."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.074",
+  "de": "Produktivität",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "productivity",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Die Produktivität ist schwer zu messen.",
+   "en": "Productivity is hard to measure."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.075",
+  "de": "Unzufriedenheit",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "dissatisfaction",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Die Unzufriedenheit wächst still.",
+   "en": "Dissatisfaction is growing quietly."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.076",
+  "de": "Einstellung zu etwas",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "attitude towards something",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Seine Einstellung zur Arbeit hat sich gewandelt.",
+   "en": "His attitude to work has shifted."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.077",
+  "de": "Führungskraft",
+  "article": "die",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "manager",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Führungskräfte brauchen andere Fähigkeiten.",
+   "en": "Managers need different skills."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.078",
+  "de": "Personalabteilung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "HR department",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Die Personalabteilung meldet sich.",
+   "en": "HR will be in touch."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.079",
+  "de": "Einarbeitung",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "induction",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Die Einarbeitung dauert sechs Wochen.",
+   "en": "The induction takes six weeks."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.080",
+  "de": "Abfindung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "severance payment",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Er hat eine Abfindung bekommen.",
+   "en": "He received a severance payment."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.081",
+  "de": "Arbeitsbelastung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "workload",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Die Arbeitsbelastung ist gestiegen.",
+   "en": "The workload has risen."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.082",
+  "de": "Vereinbarkeit",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "compatibility (of work and family)",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Die Vereinbarkeit von Beruf und Familie bleibt schwierig.",
+   "en": "Reconciling work and family remains difficult."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.083",
+  "de": "Fachkräftemangel",
+  "article": "der",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "shortage of skilled workers",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Der Fachkräftemangel trifft die Pflege hart.",
+   "en": "The shortage of skilled workers hits care hard."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.084",
+  "de": "Gleitzeit",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "flexitime",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Gleitzeit macht vieles leichter.",
+   "en": "Flexitime makes a lot of things easier."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.085",
+  "de": "Betriebsklima",
+  "article": "das",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "working atmosphere",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Das Betriebsklima hat sich verschlechtert.",
+   "en": "The working atmosphere has deteriorated."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.086",
+  "de": "Beförderung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "promotion",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Die Beförderung kam überraschend.",
+   "en": "The promotion came as a surprise."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.087",
+  "de": "sich einarbeiten",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to get up to speed",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Ich arbeite mich gerade ein.",
+   "en": "I am just getting up to speed."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.088",
+  "de": "delegieren",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to delegate",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Er kann schlecht delegieren.",
+   "en": "He finds it hard to delegate."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.089",
+  "de": "sich behaupten",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to hold your own",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Sie hat sich im Team behauptet.",
+   "en": "She held her own in the team."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.arbeit.090",
+  "de": "auffallen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to stand out, be noticed",
+  "theme": "arbeit",
+  "level": "B2",
+  "example": {
+   "de": "Mir ist aufgefallen, dass …",
+   "en": "It struck me that …"
+  },
+  "forms": "fällt auf · fiel auf · ist aufgefallen"
+ },
+ {
   "id": "w.bildung.001",
   "de": "Bildung",
   "article": "die",
@@ -4425,6 +4755,141 @@
   "forms": null
  },
  {
+  "id": "w.bildung.069",
+  "de": "Chancengleichheit",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "equality of opportunity",
+  "theme": "bildung",
+  "level": "B2",
+  "example": {
+   "de": "Von Chancengleichheit kann keine Rede sein.",
+   "en": "There is no question of equality of opportunity."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.bildung.070",
+  "de": "Bildungsweg",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "educational path",
+  "theme": "bildung",
+  "level": "B2",
+  "example": {
+   "de": "Es gibt mehr als einen Bildungsweg.",
+   "en": "There is more than one educational path."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.bildung.071",
+  "de": "Quereinsteigerin",
+  "article": "die",
+  "plural": "-nen",
+  "pos": "noun",
+  "en": "career changer (female)",
+  "theme": "bildung",
+  "level": "B2",
+  "example": {
+   "de": "Sie ist Quereinsteigerin im Lehrberuf.",
+   "en": "She is a career changer into teaching."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.bildung.072",
+  "de": "Lehrplan",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "curriculum",
+  "theme": "bildung",
+  "level": "B2",
+  "example": {
+   "de": "Der Lehrplan wurde überarbeitet.",
+   "en": "The curriculum was revised."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.bildung.073",
+  "de": "Nachhilfe",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "private tuition",
+  "theme": "bildung",
+  "level": "B2",
+  "example": {
+   "de": "Nachhilfe können sich nicht alle leisten.",
+   "en": "Not everyone can afford private tuition."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.bildung.074",
+  "de": "Abschlussgrad",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "level of qualification",
+  "theme": "bildung",
+  "level": "B2",
+  "example": {
+   "de": "Der Abschlussgrad entscheidet über das Gehalt.",
+   "en": "The level of qualification determines the salary."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.bildung.075",
+  "de": "sich aneignen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to acquire (a skill)",
+  "theme": "bildung",
+  "level": "B2",
+  "example": {
+   "de": "Das habe ich mir selbst angeeignet.",
+   "en": "I acquired that myself."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.bildung.076",
+  "de": "vermitteln",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to convey, teach",
+  "theme": "bildung",
+  "level": "B2",
+  "example": {
+   "de": "Die Schule vermittelt zu wenig davon.",
+   "en": "School conveys too little of that."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.bildung.077",
+  "de": "scheitern",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to fail",
+  "theme": "bildung",
+  "level": "B2",
+  "example": {
+   "de": "Das Projekt ist an der Finanzierung gescheitert.",
+   "en": "The project failed over the funding."
+  },
+  "forms": null
+ },
+ {
   "id": "w.gesundheit.001",
   "de": "Gesundheit",
   "article": "die",
@@ -5368,6 +5833,171 @@
    "en": "What do you recommend?"
   },
   "forms": "empfiehlt · empfahl · hat empfohlen"
+ },
+ {
+  "id": "w.gesundheit.064",
+  "de": "Diagnose",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "diagnosis",
+  "theme": "gesundheit",
+  "level": "B2",
+  "example": {
+   "de": "Die Diagnose stand erst nach Wochen fest.",
+   "en": "The diagnosis was only certain after weeks."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gesundheit.065",
+  "de": "Vorsorge",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "preventive care",
+  "theme": "gesundheit",
+  "level": "B2",
+  "example": {
+   "de": "Die Vorsorge zahlt die Kasse.",
+   "en": "The health insurance pays for preventive care."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gesundheit.066",
+  "de": "Nebenwirkung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "side effect",
+  "theme": "gesundheit",
+  "level": "B2",
+  "example": {
+   "de": "Die Nebenwirkungen sind selten.",
+   "en": "The side effects are rare."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gesundheit.067",
+  "de": "Belastbarkeit",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "resilience, capacity",
+  "theme": "gesundheit",
+  "level": "B2",
+  "example": {
+   "de": "Seine Belastbarkeit hat Grenzen.",
+   "en": "His capacity has limits."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gesundheit.068",
+  "de": "Pflegefall",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "person needing care",
+  "theme": "gesundheit",
+  "level": "B2",
+  "example": {
+   "de": "Die Mutter wurde zum Pflegefall.",
+   "en": "The mother came to need care."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gesundheit.069",
+  "de": "Sucht",
+  "article": "die",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "addiction",
+  "theme": "gesundheit",
+  "level": "B2",
+  "example": {
+   "de": "Die Sucht begann schleichend.",
+   "en": "The addiction crept up gradually."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gesundheit.070",
+  "de": "Genesung",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "recovery",
+  "theme": "gesundheit",
+  "level": "B2",
+  "example": {
+   "de": "Die Genesung dauert mehrere Monate.",
+   "en": "Recovery takes several months."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gesundheit.071",
+  "de": "Gesundheitswesen",
+  "article": "das",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "the health system",
+  "theme": "gesundheit",
+  "level": "B2",
+  "example": {
+   "de": "Das Gesundheitswesen steht unter Druck.",
+   "en": "The health system is under pressure."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gesundheit.072",
+  "de": "Wartezeit",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "waiting time",
+  "theme": "gesundheit",
+  "level": "B2",
+  "example": {
+   "de": "Die Wartezeit auf einen Termin ist lang.",
+   "en": "The waiting time for an appointment is long."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gesundheit.073",
+  "de": "sich auswirken auf",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to affect",
+  "theme": "gesundheit",
+  "level": "B2",
+  "example": {
+   "de": "Schlaf wirkt sich auf alles aus.",
+   "en": "Sleep affects everything."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gesundheit.074",
+  "de": "vorbeugen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to prevent",
+  "theme": "gesundheit",
+  "level": "B2",
+  "example": {
+   "de": "Bewegung beugt vielem vor.",
+   "en": "Exercise prevents a lot of things."
+  },
+  "forms": null
  },
  {
   "id": "w.essen.001",
@@ -11040,6 +11670,171 @@
   "forms": null
  },
  {
+  "id": "w.medien.053",
+  "de": "Berichterstattung",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "reporting, coverage",
+  "theme": "medien",
+  "level": "B2",
+  "example": {
+   "de": "Die Berichterstattung war einseitig.",
+   "en": "The coverage was one-sided."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.medien.054",
+  "de": "Glaubwürdigkeit",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "credibility",
+  "theme": "medien",
+  "level": "B2",
+  "example": {
+   "de": "Das kostet Glaubwürdigkeit.",
+   "en": "That costs credibility."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.medien.055",
+  "de": "Schlagzeile",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "headline",
+  "theme": "medien",
+  "level": "B2",
+  "example": {
+   "de": "Die Schlagzeile war irreführend.",
+   "en": "The headline was misleading."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.medien.056",
+  "de": "Reichweite",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "reach",
+  "theme": "medien",
+  "level": "B2",
+  "example": {
+   "de": "Die Reichweite ist größer als gedacht.",
+   "en": "The reach is bigger than thought."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.medien.057",
+  "de": "Algorithmus",
+  "article": "der",
+  "plural": "Algorithmen",
+  "pos": "noun",
+  "en": "algorithm",
+  "theme": "medien",
+  "level": "B2",
+  "example": {
+   "de": "Der Algorithmus bevorzugt Empörung.",
+   "en": "The algorithm favours outrage."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.medien.058",
+  "de": "Überwachung",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "surveillance",
+  "theme": "medien",
+  "level": "B2",
+  "example": {
+   "de": "Die Überwachung wurde ausgeweitet.",
+   "en": "Surveillance was extended."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.medien.059",
+  "de": "Anonymität",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "anonymity",
+  "theme": "medien",
+  "level": "B2",
+  "example": {
+   "de": "Anonymität senkt die Hemmschwelle.",
+   "en": "Anonymity lowers inhibitions."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.medien.060",
+  "de": "Falschmeldung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "false report",
+  "theme": "medien",
+  "level": "B2",
+  "example": {
+   "de": "Die Falschmeldung verbreitete sich schnell.",
+   "en": "The false report spread quickly."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.medien.061",
+  "de": "hinterfragen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to question critically",
+  "theme": "medien",
+  "level": "B2",
+  "example": {
+   "de": "Man sollte solche Zahlen hinterfragen.",
+   "en": "One should question such figures."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.medien.062",
+  "de": "verzerren",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to distort",
+  "theme": "medien",
+  "level": "B2",
+  "example": {
+   "de": "Die Auswahl verzerrt das Bild.",
+   "en": "The selection distorts the picture."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.medien.063",
+  "de": "recherchieren",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to research",
+  "theme": "medien",
+  "level": "B2",
+  "example": {
+   "de": "Sie hat monatelang recherchiert.",
+   "en": "She researched it for months."
+  },
+  "forms": null
+ },
+ {
   "id": "w.umwelt.001",
   "de": "Umweltschutz",
   "article": "der",
@@ -11805,6 +12600,171 @@
   "forms": null
  },
  {
+  "id": "w.umwelt.052",
+  "de": "Ausstoß",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "emissions",
+  "theme": "umwelt",
+  "level": "B2",
+  "example": {
+   "de": "Der Ausstoß soll halbiert werden.",
+   "en": "Emissions are to be halved."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.umwelt.053",
+  "de": "Rohstoff",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "raw material",
+  "theme": "umwelt",
+  "level": "B2",
+  "example": {
+   "de": "Die Rohstoffe werden knapper.",
+   "en": "Raw materials are becoming scarcer."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.umwelt.054",
+  "de": "Ressource",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "resource",
+  "theme": "umwelt",
+  "level": "B2",
+  "example": {
+   "de": "Wasser ist die knappste Ressource.",
+   "en": "Water is the scarcest resource."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.umwelt.055",
+  "de": "Kreislaufwirtschaft",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "circular economy",
+  "theme": "umwelt",
+  "level": "B2",
+  "example": {
+   "de": "Die Kreislaufwirtschaft steckt in den Anfängen.",
+   "en": "The circular economy is in its infancy."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.umwelt.056",
+  "de": "Eingriff",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "intervention",
+  "theme": "umwelt",
+  "level": "B2",
+  "example": {
+   "de": "Der Eingriff in die Natur war massiv.",
+   "en": "The intervention in nature was massive."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.umwelt.057",
+  "de": "Artenvielfalt",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "biodiversity",
+  "theme": "umwelt",
+  "level": "B2",
+  "example": {
+   "de": "Die Artenvielfalt nimmt rapide ab.",
+   "en": "Biodiversity is declining rapidly."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.umwelt.058",
+  "de": "Verbrauchsanstieg",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "rise in consumption",
+  "theme": "umwelt",
+  "level": "B2",
+  "example": {
+   "de": "Der Verbrauchsanstieg war nicht vorhergesehen.",
+   "en": "The rise in consumption was not foreseen."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.umwelt.059",
+  "de": "Umstellung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "changeover",
+  "theme": "umwelt",
+  "level": "B2",
+  "example": {
+   "de": "Die Umstellung kostet Zeit und Geld.",
+   "en": "The changeover costs time and money."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.umwelt.060",
+  "de": "belasten",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to burden, pollute",
+  "theme": "umwelt",
+  "level": "B2",
+  "example": {
+   "de": "Der Verkehr belastet die Luft.",
+   "en": "Traffic pollutes the air."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.umwelt.061",
+  "de": "eindämmen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to curb",
+  "theme": "umwelt",
+  "level": "B2",
+  "example": {
+   "de": "Den Verbrauch muss man eindämmen.",
+   "en": "Consumption has to be curbed."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.umwelt.062",
+  "de": "umdenken",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to rethink",
+  "theme": "umwelt",
+  "level": "B2",
+  "example": {
+   "de": "Hier muss die Branche umdenken.",
+   "en": "The industry has to rethink here."
+  },
+  "forms": "denkt um · dachte um · hat umgedacht"
+ },
+ {
   "id": "w.behoerden.001",
   "de": "Behörde",
   "article": "die",
@@ -12523,6 +13483,66 @@
    "en": "My passport expires soon."
   },
   "forms": "läuft ab · lief ab · ist abgelaufen"
+ },
+ {
+  "id": "w.behoerden.049",
+  "de": "Lebensunterhalt",
+  "article": "der",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "living, livelihood",
+  "theme": "behoerden",
+  "level": "B1",
+  "example": {
+   "de": "Der Lebensunterhalt muss gesichert sein.",
+   "en": "Your livelihood has to be secure."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.behoerden.050",
+  "de": "Aufenthaltsdauer",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "length of residence",
+  "theme": "behoerden",
+  "level": "B1",
+  "example": {
+   "de": "Die Aufenthaltsdauer wird angerechnet.",
+   "en": "The length of residence counts towards it."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.behoerden.051",
+  "de": "Gesetzgebung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "legislation",
+  "theme": "behoerden",
+  "level": "B1",
+  "example": {
+   "de": "Die Gesetzgebung hat sich mehrfach geändert.",
+   "en": "The legislation has changed several times."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.behoerden.052",
+  "de": "Bearbeitungszeit",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "processing time",
+  "theme": "behoerden",
+  "level": "B1",
+  "example": {
+   "de": "Die Bearbeitungszeit liegt bei acht Monaten.",
+   "en": "The processing time is eight months."
+  },
+  "forms": null
  },
  {
   "id": "w.gefuehle.001",
@@ -13425,6 +14445,351 @@
   "forms": null
  },
  {
+  "id": "w.gefuehle.061",
+  "de": "Erschöpfung",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "exhaustion",
+  "theme": "gefuehle",
+  "level": "B2",
+  "example": {
+   "de": "Die Erschöpfung kam schleichend.",
+   "en": "The exhaustion crept up."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.062",
+  "de": "Gelassenheit",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "equanimity",
+  "theme": "gefuehle",
+  "level": "B2",
+  "example": {
+   "de": "Gelassenheit lernt man spät.",
+   "en": "Equanimity is learnt late."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.063",
+  "de": "Unbehagen",
+  "article": "das",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "unease",
+  "theme": "gefuehle",
+  "level": "B2",
+  "example": {
+   "de": "Ein gewisses Unbehagen bleibt.",
+   "en": "A certain unease remains."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.064",
+  "de": "Erleichterung",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "relief",
+  "theme": "gefuehle",
+  "level": "B2",
+  "example": {
+   "de": "Die Erleichterung war deutlich zu spüren.",
+   "en": "The relief was palpable."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.065",
+  "de": "überfordert",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "overwhelmed",
+  "theme": "gefuehle",
+  "level": "B2",
+  "example": {
+   "de": "Ich war schlicht überfordert.",
+   "en": "I was simply overwhelmed."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.066",
+  "de": "gleichgültig",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "indifferent",
+  "theme": "gefuehle",
+  "level": "B2",
+  "example": {
+   "de": "Das ist mir nicht gleichgültig.",
+   "en": "I am not indifferent to that."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.067",
+  "de": "verunsichert",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "unsettled",
+  "theme": "gefuehle",
+  "level": "B2",
+  "example": {
+   "de": "Die Nachricht hat viele verunsichert.",
+   "en": "The news unsettled a lot of people."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.068",
+  "de": "nachdenklich",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "thoughtful, pensive",
+  "theme": "gefuehle",
+  "level": "B2",
+  "example": {
+   "de": "Das hat mich nachdenklich gemacht.",
+   "en": "That made me thoughtful."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.069",
+  "de": "empört",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "outraged",
+  "theme": "gefuehle",
+  "level": "B2",
+  "example": {
+   "de": "Viele reagierten empört.",
+   "en": "Many reacted with outrage."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.070",
+  "de": "begeistert",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "enthusiastic",
+  "theme": "gefuehle",
+  "level": "B2",
+  "example": {
+   "de": "Das Publikum war begeistert.",
+   "en": "The audience was enthusiastic."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.071",
+  "de": "Zumutung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "imposition, affront",
+  "theme": "gefuehle",
+  "level": "C1",
+  "example": {
+   "de": "Diese Frist ist eine Zumutung.",
+   "en": "This deadline is an affront."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.072",
+  "de": "Missstand",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "abuse, bad state of affairs",
+  "theme": "gefuehle",
+  "level": "C1",
+  "example": {
+   "de": "Der Missstand ist seit Jahren bekannt.",
+   "en": "The problem has been known for years."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.073",
+  "de": "Haken",
+  "article": "der",
+  "plural": "-",
+  "pos": "noun",
+  "en": "catch, snag",
+  "theme": "gefuehle",
+  "level": "C1",
+  "example": {
+   "de": "Die Sache hat einen Haken.",
+   "en": "There is a catch."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.074",
+  "de": "Nachsicht",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "forbearance",
+  "theme": "gefuehle",
+  "level": "C1",
+  "example": {
+   "de": "Ich bitte um Nachsicht.",
+   "en": "I ask for your forbearance."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.075",
+  "de": "Genugtuung",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "satisfaction (at being proved right)",
+  "theme": "gefuehle",
+  "level": "C1",
+  "example": {
+   "de": "Darüber empfinde ich keine Genugtuung.",
+   "en": "I feel no satisfaction about it."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.076",
+  "de": "Überdruss",
+  "article": "der",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "weariness",
+  "theme": "gefuehle",
+  "level": "C1",
+  "example": {
+   "de": "Ein gewisser Überdruss ist spürbar.",
+   "en": "A certain weariness is noticeable."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.077",
+  "de": "Wehmut",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "wistfulness",
+  "theme": "gefuehle",
+  "level": "C1",
+  "example": {
+   "de": "Ich denke mit Wehmut daran zurück.",
+   "en": "I look back on it wistfully."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.078",
+  "de": "zwiespältig",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "ambivalent",
+  "theme": "gefuehle",
+  "level": "C1",
+  "example": {
+   "de": "Meine Haltung dazu ist zwiespältig.",
+   "en": "My attitude to it is ambivalent."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.079",
+  "de": "befremdlich",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "disconcerting",
+  "theme": "gefuehle",
+  "level": "C1",
+  "example": {
+   "de": "Die Reaktion fand ich befremdlich.",
+   "en": "I found the reaction disconcerting."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.080",
+  "de": "anmaßend",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "presumptuous",
+  "theme": "gefuehle",
+  "level": "C1",
+  "example": {
+   "de": "Das klingt anmaßend, ist aber ernst gemeint.",
+   "en": "That sounds presumptuous but is meant seriously."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.081",
+  "de": "beherzt",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "bold, spirited",
+  "theme": "gefuehle",
+  "level": "C1",
+  "example": {
+   "de": "Sie hat beherzt eingegriffen.",
+   "en": "She intervened boldly."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.082",
+  "de": "abgeklärt",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "unflappable, worldly-wise",
+  "theme": "gefuehle",
+  "level": "C1",
+  "example": {
+   "de": "Er reagierte erstaunlich abgeklärt.",
+   "en": "He reacted remarkably unflappably."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.gefuehle.083",
+  "de": "verhalten",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "restrained, muted",
+  "theme": "gefuehle",
+  "level": "C1",
+  "example": {
+   "de": "Die Reaktionen waren verhalten.",
+   "en": "The reactions were muted."
+  },
+  "forms": null
+ },
+ {
   "id": "w.kommunikation.001",
   "de": "Idee",
   "article": "die",
@@ -14306,6 +15671,531 @@
   "example": {
    "de": "Tut mir leid, dass ich zu spät bin.",
    "en": "I am sorry that I am late."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.060",
+  "de": "Einwand",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "objection",
+  "theme": "kommunikation",
+  "level": "B2",
+  "example": {
+   "de": "Der Einwand ist berechtigt.",
+   "en": "The objection is valid."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.061",
+  "de": "Debatte",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "debate",
+  "theme": "kommunikation",
+  "level": "B2",
+  "example": {
+   "de": "Die Debatte dreht sich im Kreis.",
+   "en": "The debate is going round in circles."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.062",
+  "de": "Beobachtung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "observation",
+  "theme": "kommunikation",
+  "level": "B2",
+  "example": {
+   "de": "Diese Beobachtung deckt sich mit meiner.",
+   "en": "This observation matches mine."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.063",
+  "de": "Haltung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "attitude, stance",
+  "theme": "kommunikation",
+  "level": "B2",
+  "example": {
+   "de": "Seine Haltung hat sich nicht geändert.",
+   "en": "His stance has not changed."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.064",
+  "de": "Rückmeldung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "feedback",
+  "theme": "kommunikation",
+  "level": "B2",
+  "example": {
+   "de": "Danke für die ehrliche Rückmeldung.",
+   "en": "Thank you for the honest feedback."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.065",
+  "de": "Kritik",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "criticism",
+  "theme": "kommunikation",
+  "level": "B2",
+  "example": {
+   "de": "Die Kritik war sachlich.",
+   "en": "The criticism was factual."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.066",
+  "de": "Empfehlung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "recommendation",
+  "theme": "kommunikation",
+  "level": "B2",
+  "example": {
+   "de": "Das ist eine Empfehlung, keine Vorschrift.",
+   "en": "That is a recommendation, not a rule."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.067",
+  "de": "Klarheit",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "clarity",
+  "theme": "kommunikation",
+  "level": "B2",
+  "example": {
+   "de": "Zur Klarheit trägt das wenig bei.",
+   "en": "That contributes little to clarity."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.068",
+  "de": "Befehl",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "order, command",
+  "theme": "kommunikation",
+  "level": "B2",
+  "example": {
+   "de": "Das klang eher wie ein Befehl.",
+   "en": "That sounded more like an order."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.069",
+  "de": "Höflichkeit",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "politeness",
+  "theme": "kommunikation",
+  "level": "B2",
+  "example": {
+   "de": "Höflichkeit ist nicht überall dasselbe.",
+   "en": "Politeness is not the same thing everywhere."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.070",
+  "de": "erwähnen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to mention",
+  "theme": "kommunikation",
+  "level": "B2",
+  "example": {
+   "de": "Das wurde nicht erwähnt.",
+   "en": "That was not mentioned."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.071",
+  "de": "anmerken",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to remark, note",
+  "theme": "kommunikation",
+  "level": "B2",
+  "example": {
+   "de": "Dazu möchte ich etwas anmerken.",
+   "en": "I would like to make a remark on that."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.072",
+  "de": "einräumen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to concede",
+  "theme": "kommunikation",
+  "level": "B2",
+  "example": {
+   "de": "Das muss ich einräumen.",
+   "en": "I have to concede that."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.073",
+  "de": "Direktheit",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "directness",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Die Direktheit wird oft falsch gelesen.",
+   "en": "The directness is often misread."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.074",
+  "de": "Verwechslung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "confusion, mix-up",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Die Verwechslung läuft in beide Richtungen.",
+   "en": "The confusion runs in both directions."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.075",
+  "de": "Abwertung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "disparagement, downgrading",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Das liest sich als Abwertung.",
+   "en": "That reads as disparagement."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.076",
+  "de": "Einwand von Gewicht",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "a weighty objection",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Das ist ein Einwand von Gewicht.",
+   "en": "That is a weighty objection."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.077",
+  "de": "Anspielung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "allusion",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Die Anspielung hat niemand verstanden.",
+   "en": "Nobody got the allusion."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.078",
+  "de": "Beiklang",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "connotation",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Das Wort hat einen abwertenden Beiklang.",
+   "en": "The word has a pejorative connotation."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.079",
+  "de": "Zurückhaltung",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "restraint, reticence",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Seine Zurückhaltung war auffällig.",
+   "en": "His reticence was striking."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.080",
+  "de": "Unterton",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "undertone",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Da war ein ironischer Unterton.",
+   "en": "There was an ironic undertone."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.081",
+  "de": "aus dem Ruder laufen",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to get out of hand",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Die Kosten sind aus dem Ruder gelaufen.",
+   "en": "The costs got out of hand."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.082",
+  "de": "den Rahmen sprengen",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to go beyond the scope",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Das würde hier den Rahmen sprengen.",
+   "en": "That would go beyond our scope here."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.083",
+  "de": "auf der Hand liegen",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to be obvious",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Die Antwort liegt auf der Hand.",
+   "en": "The answer is obvious."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.084",
+  "de": "ins Gewicht fallen",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to carry weight, matter",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Dieser Posten fällt kaum ins Gewicht.",
+   "en": "This item hardly matters."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.085",
+  "de": "zur Debatte stehen",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to be at issue",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Das steht hier nicht zur Debatte.",
+   "en": "That is not at issue here."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.086",
+  "de": "die Oberhand gewinnen",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to gain the upper hand",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Die Vernunft hat die Oberhand gewonnen.",
+   "en": "Reason gained the upper hand."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.087",
+  "de": "ins Leere laufen",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to come to nothing",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Die Beschwerde ist ins Leere gelaufen.",
+   "en": "The complaint came to nothing."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.088",
+  "de": "auf dem Spiel stehen",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to be at stake",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Hier steht die Glaubwürdigkeit auf dem Spiel.",
+   "en": "Credibility is at stake here."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.089",
+  "de": "einen Schlussstrich ziehen",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to draw a line under something",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Irgendwann muss man einen Schlussstrich ziehen.",
+   "en": "At some point you have to draw a line under it."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.090",
+  "de": "Hand in Hand gehen",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to go hand in hand",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Beides geht Hand in Hand.",
+   "en": "The two go hand in hand."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.091",
+  "de": "jemandem entgegenkommen",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to accommodate someone",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Wir sind ihm beim Preis entgegengekommen.",
+   "en": "We accommodated him on the price."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.092",
+  "de": "etwas in Kauf nehmen",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to accept something as a trade-off",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Diesen Nachteil nehme ich in Kauf.",
+   "en": "I accept that disadvantage as a trade-off."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.093",
+  "de": "sich in Grenzen halten",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to be limited",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Meine Begeisterung hält sich in Grenzen.",
+   "en": "My enthusiasm is limited."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.kommunikation.094",
+  "de": "zu wünschen übrig lassen",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to leave much to be desired",
+  "theme": "kommunikation",
+  "level": "C1",
+  "example": {
+   "de": "Die Umsetzung lässt zu wünschen übrig.",
+   "en": "The implementation leaves much to be desired."
   },
   "forms": null
  },
@@ -15221,6 +17111,261 @@
   "example": {
    "de": "Am Stadtrand ist es ruhiger.",
    "en": "It is quieter on the edge of town."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.062",
+  "de": "Zuwanderung",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "immigration",
+  "theme": "stadt",
+  "level": "B2",
+  "example": {
+   "de": "Die Zuwanderung hat die Stadt verändert.",
+   "en": "Immigration has changed the city."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.063",
+  "de": "Teilhabe",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "participation",
+  "theme": "stadt",
+  "level": "B2",
+  "example": {
+   "de": "Es geht um Teilhabe, nicht um Geld.",
+   "en": "It is about participation, not money."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.064",
+  "de": "Benachteiligung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "disadvantage, discrimination",
+  "theme": "stadt",
+  "level": "B2",
+  "example": {
+   "de": "Die Benachteiligung ist messbar.",
+   "en": "The disadvantage is measurable."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.065",
+  "de": "Wohnraum",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "housing",
+  "theme": "stadt",
+  "level": "B2",
+  "example": {
+   "de": "Bezahlbarer Wohnraum fehlt überall.",
+   "en": "Affordable housing is missing everywhere."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.066",
+  "de": "Verdrängung",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "displacement",
+  "theme": "stadt",
+  "level": "B2",
+  "example": {
+   "de": "Die Verdrängung trifft die Alteingesessenen.",
+   "en": "The displacement hits long-term residents."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.067",
+  "de": "Ehrenamtlichkeit",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "voluntary engagement",
+  "theme": "stadt",
+  "level": "B2",
+  "example": {
+   "de": "Ohne Ehrenamtlichkeit ginge wenig.",
+   "en": "Little would work without volunteers."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.068",
+  "de": "Zusammenhalt",
+  "article": "der",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "cohesion",
+  "theme": "stadt",
+  "level": "B2",
+  "example": {
+   "de": "Der Zusammenhalt im Viertel ist stark.",
+   "en": "Cohesion in the neighbourhood is strong."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.069",
+  "de": "Verwaltung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "administration",
+  "theme": "stadt",
+  "level": "B2",
+  "example": {
+   "de": "Die Verwaltung arbeitet noch mit Papier.",
+   "en": "The administration still works on paper."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.070",
+  "de": "Strukturwandel",
+  "article": "der",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "structural change",
+  "theme": "stadt",
+  "level": "C1",
+  "example": {
+   "de": "Der Strukturwandel hat die Region geprägt.",
+   "en": "Structural change has shaped the region."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.071",
+  "de": "Daseinsvorsorge",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "provision of public services",
+  "theme": "stadt",
+  "level": "C1",
+  "example": {
+   "de": "Daseinsvorsorge ist keine Ware.",
+   "en": "Public provision is not a commodity."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.072",
+  "de": "Gefälle",
+  "article": "das",
+  "plural": "-",
+  "pos": "noun",
+  "en": "disparity, gradient",
+  "theme": "stadt",
+  "level": "C1",
+  "example": {
+   "de": "Das Gefälle zwischen Stadt und Land wächst.",
+   "en": "The urban-rural disparity is growing."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.073",
+  "de": "Polarisierung",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "polarisation",
+  "theme": "stadt",
+  "level": "C1",
+  "example": {
+   "de": "Die Polarisierung nimmt messbar zu.",
+   "en": "Polarisation is measurably increasing."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.074",
+  "de": "Umbruch",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "upheaval",
+  "theme": "stadt",
+  "level": "C1",
+  "example": {
+   "de": "Die Branche steckt im Umbruch.",
+   "en": "The sector is in upheaval."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.075",
+  "de": "Nachverdichtung",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "urban densification",
+  "theme": "stadt",
+  "level": "C1",
+  "example": {
+   "de": "Nachverdichtung ist umstritten.",
+   "en": "Densification is contested."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.076",
+  "de": "prekär",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "precarious",
+  "theme": "stadt",
+  "level": "C1",
+  "example": {
+   "de": "Die Lage ist prekär geworden.",
+   "en": "The situation has become precarious."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.077",
+  "de": "nachgelagert",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "downstream, secondary",
+  "theme": "stadt",
+  "level": "C1",
+  "example": {
+   "de": "Das ist ein nachgelagertes Problem.",
+   "en": "That is a secondary problem."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.stadt.078",
+  "de": "flächendeckend",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "across the board, nationwide",
+  "theme": "stadt",
+  "level": "C1",
+  "example": {
+   "de": "Eine flächendeckende Lösung fehlt.",
+   "en": "A nationwide solution is missing."
   },
   "forms": null
  },
@@ -21345,6 +23490,231 @@
   "forms": null
  },
  {
+  "id": "w.konnektoren.064",
+  "de": "insofern",
+  "article": null,
+  "plural": null,
+  "pos": "conj",
+  "en": "in that respect",
+  "theme": "konnektoren",
+  "level": "B2",
+  "example": {
+   "de": "Insofern hat er recht.",
+   "en": "In that respect he is right."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.konnektoren.065",
+  "de": "hingegen",
+  "article": null,
+  "plural": null,
+  "pos": "conj",
+  "en": "by contrast",
+  "theme": "konnektoren",
+  "level": "B2",
+  "example": {
+   "de": "Die Kosten sanken, die Qualität hingegen auch.",
+   "en": "Costs fell; the quality, by contrast, did too."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.konnektoren.066",
+  "de": "demnach",
+  "article": null,
+  "plural": null,
+  "pos": "conj",
+  "en": "accordingly",
+  "theme": "konnektoren",
+  "level": "B2",
+  "example": {
+   "de": "Demnach wäre der Plan hinfällig.",
+   "en": "Accordingly the plan would be void."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.konnektoren.067",
+  "de": "gleichwohl",
+  "article": null,
+  "plural": null,
+  "pos": "conj",
+  "en": "nevertheless",
+  "theme": "konnektoren",
+  "level": "B2",
+  "example": {
+   "de": "Es war teuer, gleichwohl richtig.",
+   "en": "It was expensive, nevertheless right."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.konnektoren.068",
+  "de": "vorausgesetzt, dass",
+  "article": null,
+  "plural": null,
+  "pos": "conj",
+  "en": "provided that",
+  "theme": "konnektoren",
+  "level": "B2",
+  "example": {
+   "de": "Vorausgesetzt, dass alle mitmachen, klappt es.",
+   "en": "Provided everyone joins in, it will work."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.konnektoren.069",
+  "de": "es sei denn",
+  "article": null,
+  "plural": null,
+  "pos": "conj",
+  "en": "unless",
+  "theme": "konnektoren",
+  "level": "B2",
+  "example": {
+   "de": "Wir fahren, es sei denn, es schneit.",
+   "en": "We are going, unless it snows."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.konnektoren.070",
+  "de": "umso mehr, als",
+  "article": null,
+  "plural": null,
+  "pos": "conj",
+  "en": "all the more so because",
+  "theme": "konnektoren",
+  "level": "B2",
+  "example": {
+   "de": "Das überrascht umso mehr, als er es wusste.",
+   "en": "That is all the more surprising because he knew."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.konnektoren.071",
+  "de": "im Übrigen",
+  "article": null,
+  "plural": null,
+  "pos": "conj",
+  "en": "incidentally, besides",
+  "theme": "konnektoren",
+  "level": "B2",
+  "example": {
+   "de": "Im Übrigen war der Termin längst bekannt.",
+   "en": "Besides, the date had been known for ages."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.konnektoren.072",
+  "de": "geschweige denn",
+  "article": null,
+  "plural": null,
+  "pos": "conj",
+  "en": "let alone",
+  "theme": "konnektoren",
+  "level": "B2",
+  "example": {
+   "de": "Er kam nicht, geschweige denn pünktlich.",
+   "en": "He did not come, let alone on time."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.konnektoren.073",
+  "de": "je nachdem",
+  "article": null,
+  "plural": null,
+  "pos": "conj",
+  "en": "depending",
+  "theme": "konnektoren",
+  "level": "B2",
+  "example": {
+   "de": "Je nachdem, wie es läuft, bleiben wir länger.",
+   "en": "Depending on how it goes, we will stay longer."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.konnektoren.074",
+  "de": "letztlich",
+  "article": null,
+  "plural": null,
+  "pos": "conj",
+  "en": "ultimately",
+  "theme": "konnektoren",
+  "level": "B2",
+  "example": {
+   "de": "Letztlich entscheidet der Preis.",
+   "en": "Ultimately the price decides it."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.konnektoren.075",
+  "de": "zumindest",
+  "article": null,
+  "plural": null,
+  "pos": "conj",
+  "en": "at least",
+  "theme": "konnektoren",
+  "level": "B2",
+  "example": {
+   "de": "Zumindest war die Beratung gut.",
+   "en": "At least the advice was good."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.konnektoren.076",
+  "de": "ohnehin",
+  "article": null,
+  "plural": null,
+  "pos": "conj",
+  "en": "anyway, in any case",
+  "theme": "konnektoren",
+  "level": "B2",
+  "example": {
+   "de": "Das war ohnehin geplant.",
+   "en": "That was planned anyway."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.konnektoren.077",
+  "de": "bekanntlich",
+  "article": null,
+  "plural": null,
+  "pos": "conj",
+  "en": "as is well known",
+  "theme": "konnektoren",
+  "level": "B2",
+  "example": {
+   "de": "Bekanntlich dauert so etwas länger.",
+   "en": "As is well known, that sort of thing takes longer."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.konnektoren.078",
+  "de": "angesichts",
+  "article": null,
+  "plural": null,
+  "pos": "conj",
+  "en": "in view of",
+  "theme": "konnektoren",
+  "level": "B2",
+  "example": {
+   "de": "Angesichts der Lage ist das verständlich.",
+   "en": "In view of the situation that is understandable."
+  },
+  "forms": null
+ },
+ {
   "id": "w.nomenverben.001",
   "de": "eine Entscheidung treffen",
   "article": null,
@@ -21881,6 +24251,1566 @@
   "example": {
    "de": "Das Thema kam gestern zur Sprache.",
    "en": "The topic came up yesterday."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.001",
+  "de": "Unternehmen",
+  "article": "das",
+  "plural": "-",
+  "pos": "noun",
+  "en": "company, enterprise",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Das Unternehmen beschäftigt 400 Menschen.",
+   "en": "The company employs 400 people."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.002",
+  "de": "Umsatz",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "turnover",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Der Umsatz ist um zwölf Prozent gestiegen.",
+   "en": "Turnover rose by twelve per cent."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.003",
+  "de": "Gewinn",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "profit",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Der Gewinn fließt in neue Maschinen.",
+   "en": "The profit goes into new machinery."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.004",
+  "de": "Verlust",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "loss",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Das Quartal endete mit einem Verlust.",
+   "en": "The quarter ended with a loss."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.005",
+  "de": "Kosten",
+  "article": "die",
+  "plural": "nur Plural",
+  "pos": "noun",
+  "en": "costs",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Kosten sind aus dem Ruder gelaufen.",
+   "en": "The costs have got out of hand."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.006",
+  "de": "Verhandlung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "negotiation",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Verhandlungen ziehen sich hin.",
+   "en": "The negotiations are dragging on."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.007",
+  "de": "Lieferant",
+  "article": "der",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "supplier",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Der Lieferant hat den Termin nicht gehalten.",
+   "en": "The supplier missed the deadline."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.008",
+  "de": "Zielgruppe",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "target group",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Zielgruppe sind Berufseinsteiger.",
+   "en": "The target group is people starting out."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.009",
+  "de": "Wettbewerb",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "competition",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Der Wettbewerb ist härter geworden.",
+   "en": "The competition has got tougher."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.010",
+  "de": "Nachfrage",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "demand",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Nachfrage übersteigt das Angebot.",
+   "en": "Demand exceeds supply."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.011",
+  "de": "Investition",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "investment",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Investition rechnet sich in drei Jahren.",
+   "en": "The investment pays for itself in three years."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.012",
+  "de": "Haushalt",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "budget, household",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Der Haushalt für nächstes Jahr steht.",
+   "en": "Next year’s budget is settled."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.013",
+  "de": "Bilanz",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "balance sheet, assessment",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Bilanz des Jahres fällt gemischt aus.",
+   "en": "The year’s assessment is mixed."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.014",
+  "de": "Tagesordnung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "agenda",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Das steht nicht auf der Tagesordnung.",
+   "en": "That is not on the agenda."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.015",
+  "de": "Protokoll",
+  "article": "das",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "minutes",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Wer schreibt das Protokoll?",
+   "en": "Who is taking the minutes?"
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.016",
+  "de": "Zuständigkeit",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "responsibility, remit",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Das fällt nicht in meine Zuständigkeit.",
+   "en": "That does not fall within my remit."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.017",
+  "de": "Konsequenz",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "consequence",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Welche Konsequenzen hat das für uns?",
+   "en": "What consequences does that have for us?"
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.018",
+  "de": "Kündigungsfrist",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "notice period",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Kündigungsfrist beträgt drei Monate.",
+   "en": "The notice period is three months."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.019",
+  "de": "beauftragen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to commission",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Wir haben eine Agentur beauftragt.",
+   "en": "We commissioned an agency."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.020",
+  "de": "kalkulieren",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to cost, calculate",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Wir haben zu knapp kalkuliert.",
+   "en": "We costed it too tightly."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.021",
+  "de": "einführen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to introduce",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Firma führt Gleitzeit ein.",
+   "en": "The company is introducing flexitime."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.022",
+  "de": "sich auszahlen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to pay off",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Umstellung hat sich ausgezahlt.",
+   "en": "The changeover paid off."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.023",
+  "de": "umsetzen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to implement",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Der Plan wird im Herbst umgesetzt.",
+   "en": "The plan will be implemented in the autumn."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.024",
+  "de": "rentabel",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "profitable",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Filiale ist nicht mehr rentabel.",
+   "en": "The branch is no longer profitable."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.025",
+  "de": "verbindlich",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "binding",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Ist das Angebot verbindlich?",
+   "en": "Is the quote binding?"
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.026",
+  "de": "ein Angebot abgeben",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to submit a quote",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Wir geben bis Freitag ein Angebot ab.",
+   "en": "We will submit a quote by Friday."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.027",
+  "de": "eine Rechnung stellen",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to invoice",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Wir stellen die Rechnung zum Monatsende.",
+   "en": "We invoice at the end of the month."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.028",
+  "de": "eine Frist einhalten",
+  "article": null,
+  "plural": null,
+  "pos": "phrase",
+  "en": "to meet a deadline",
+  "theme": "wirtschaft",
+  "level": "B2",
+  "example": {
+   "de": "Wir konnten die Frist einhalten.",
+   "en": "We were able to meet the deadline."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.029",
+  "de": "Rentabilität",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "profitability",
+  "theme": "wirtschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die Rentabilität ist das kleinere Problem.",
+   "en": "Profitability is the lesser problem."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.030",
+  "de": "Wertschöpfung",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "value creation",
+  "theme": "wirtschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die Wertschöpfung findet woanders statt.",
+   "en": "The value creation happens elsewhere."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.031",
+  "de": "Engpass",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "bottleneck",
+  "theme": "wirtschaft",
+  "level": "C1",
+  "example": {
+   "de": "Der Engpass liegt in der Logistik.",
+   "en": "The bottleneck is in logistics."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.032",
+  "de": "Rücklage",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "reserve",
+  "theme": "wirtschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die Rücklagen sind aufgebraucht.",
+   "en": "The reserves are used up."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.033",
+  "de": "Auflage",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "condition, requirement",
+  "theme": "wirtschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die Förderung ist an Auflagen gebunden.",
+   "en": "The funding is tied to conditions."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.034",
+  "de": "Anreiz",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "incentive",
+  "theme": "wirtschaft",
+  "level": "C1",
+  "example": {
+   "de": "Der Anreiz wirkt in die falsche Richtung.",
+   "en": "The incentive pulls the wrong way."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.035",
+  "de": "Abwägung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "weighing-up",
+  "theme": "wirtschaft",
+  "level": "C1",
+  "example": {
+   "de": "Es bleibt eine Abwägung zwischen Kosten und Risiko.",
+   "en": "It remains a trade-off between cost and risk."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.036",
+  "de": "Verhandlungsspielraum",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "room for negotiation",
+  "theme": "wirtschaft",
+  "level": "C1",
+  "example": {
+   "de": "Verhandlungsspielraum gibt es kaum noch.",
+   "en": "There is barely any room for negotiation left."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.037",
+  "de": "Zuspitzung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "escalation, sharpening",
+  "theme": "wirtschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die Zuspitzung war vermeidbar.",
+   "en": "The escalation was avoidable."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.038",
+  "de": "abfedern",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to cushion",
+  "theme": "wirtschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die Härten wurden abgefedert.",
+   "en": "The hardships were cushioned."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.039",
+  "de": "ausloten",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to sound out, explore",
+  "theme": "wirtschaft",
+  "level": "C1",
+  "example": {
+   "de": "Wir loten die Möglichkeiten aus.",
+   "en": "We are sounding out the options."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.040",
+  "de": "zuspitzen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to sharpen, escalate",
+  "theme": "wirtschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die Lage hat sich zugespitzt.",
+   "en": "The situation has escalated."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wirtschaft.041",
+  "de": "vorantreiben",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to drive forward",
+  "theme": "wirtschaft",
+  "level": "C1",
+  "example": {
+   "de": "Das Projekt wird zügig vorangetrieben.",
+   "en": "The project is being driven forward briskly."
+  },
+  "forms": "treibt voran · trieb voran · hat vorangetrieben"
+ },
+ {
+  "id": "w.wirtschaft.042",
+  "de": "hinauszögern",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to delay, put off",
+  "theme": "wirtschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die Entscheidung wurde hinausgezögert.",
+   "en": "The decision was put off."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.001",
+  "de": "Studie",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "study",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Eine aktuelle Studie widerspricht dem.",
+   "en": "A recent study contradicts that."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.002",
+  "de": "Fragestellung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "the question under investigation",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Fragestellung ist zu weit gefasst.",
+   "en": "The question under investigation is too broadly framed."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.003",
+  "de": "Beleg",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "piece of evidence",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Dafür gibt es keinen Beleg.",
+   "en": "There is no evidence for that."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.004",
+  "de": "Beweis",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "proof",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Das ist ein Hinweis, kein Beweis.",
+   "en": "That is an indication, not proof."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.005",
+  "de": "These",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "thesis, claim",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Seine These ist umstritten.",
+   "en": "His thesis is disputed."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.006",
+  "de": "Annahme",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "assumption",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Annahme hat sich nicht bestätigt.",
+   "en": "The assumption was not confirmed."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.007",
+  "de": "Zweifel",
+  "article": "der",
+  "plural": "-",
+  "pos": "noun",
+  "en": "doubt",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Daran habe ich erhebliche Zweifel.",
+   "en": "I have considerable doubts about that."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.008",
+  "de": "Wechselwirkung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "interaction, interplay",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Wechselwirkung zwischen beiden ist unklar.",
+   "en": "The interplay between the two is unclear."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.009",
+  "de": "Ausnahme",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "exception",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Es gibt eine wichtige Ausnahme.",
+   "en": "There is one important exception."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.010",
+  "de": "Tendenz",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "trend, tendency",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Tendenz geht in die andere Richtung.",
+   "en": "The trend is going the other way."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.011",
+  "de": "Anteil",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "proportion, share",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Der Anteil ist auf 40 Prozent gestiegen.",
+   "en": "The proportion has risen to 40 per cent."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.012",
+  "de": "Abweichung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "deviation",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Abweichung liegt im Rahmen.",
+   "en": "The deviation is within the margin."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.013",
+  "de": "Schlussfolgerung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "conclusion",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Diese Schlussfolgerung ist voreilig.",
+   "en": "That conclusion is premature."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.014",
+  "de": "Grundlage",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "basis",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Auf dieser Grundlage lässt sich arbeiten.",
+   "en": "You can work on that basis."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.015",
+  "de": "Ansatz",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "approach",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Der Ansatz ist neu, aber plausibel.",
+   "en": "The approach is new but plausible."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.016",
+  "de": "Verfahren",
+  "article": "das",
+  "plural": "-",
+  "pos": "noun",
+  "en": "procedure, method",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Das Verfahren ist aufwendig.",
+   "en": "The procedure is laborious."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.017",
+  "de": "Perspektive",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "perspective",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Aus dieser Perspektive sieht es anders aus.",
+   "en": "From this perspective it looks different."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.018",
+  "de": "belegen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to substantiate",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Zahlen belegen das nicht.",
+   "en": "The figures do not substantiate that."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.019",
+  "de": "hinweisen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to point out",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Ich möchte darauf hinweisen, dass …",
+   "en": "I would like to point out that …"
+  },
+  "forms": "weist hin · wies hin · hat hingewiesen"
+ },
+ {
+  "id": "w.wissenschaft.020",
+  "de": "vermuten",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to suspect, assume",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Man vermutet einen Zusammenhang.",
+   "en": "A connection is suspected."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.021",
+  "de": "nachweisen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to demonstrate, prove",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Das ließ sich nicht nachweisen.",
+   "en": "That could not be demonstrated."
+  },
+  "forms": "weist nach · wies nach · hat nachgewiesen"
+ },
+ {
+  "id": "w.wissenschaft.022",
+  "de": "verallgemeinern",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to generalise",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Das sollte man nicht verallgemeinern.",
+   "en": "One should not generalise from that."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.023",
+  "de": "einschränken",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to qualify, restrict",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Ich muss das etwas einschränken.",
+   "en": "I have to qualify that somewhat."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.024",
+  "de": "hervorheben",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to emphasise",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Besonders hervorheben möchte ich …",
+   "en": "I would particularly like to emphasise …"
+  },
+  "forms": "hebt hervor · hob hervor · hat hervorgehoben"
+ },
+ {
+  "id": "w.wissenschaft.025",
+  "de": "abwägen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to weigh up",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Man muss beide Seiten abwägen.",
+   "en": "You have to weigh up both sides."
+  },
+  "forms": "wägt ab · wog ab · hat abgewogen"
+ },
+ {
+  "id": "w.wissenschaft.026",
+  "de": "zurückführen auf",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to attribute to",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Das führt man auf das Wetter zurück.",
+   "en": "That is attributed to the weather."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.027",
+  "de": "plausibel",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "plausible",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Erklärung klingt plausibel.",
+   "en": "The explanation sounds plausible."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.028",
+  "de": "eindeutig",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "unambiguous",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Datenlage ist nicht eindeutig.",
+   "en": "The data are not unambiguous."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.029",
+  "de": "erheblich",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "considerable",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Der Unterschied ist erheblich.",
+   "en": "The difference is considerable."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.030",
+  "de": "gering",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "slight, small",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Der Effekt ist gering.",
+   "en": "The effect is slight."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.031",
+  "de": "nachvollziehbar",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "comprehensible, understandable",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Die Entscheidung ist nachvollziehbar.",
+   "en": "The decision is understandable."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.032",
+  "de": "voreilig",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "premature, hasty",
+  "theme": "wissenschaft",
+  "level": "B2",
+  "example": {
+   "de": "Das wäre eine voreilige Schlussfolgerung.",
+   "en": "That would be a premature conclusion."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.033",
+  "de": "Nuance",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "nuance",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die Nuance geht in der Übersetzung verloren.",
+   "en": "The nuance is lost in translation."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.034",
+  "de": "Vorbehalt",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "reservation, caveat",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Ich stimme zu, allerdings unter Vorbehalt.",
+   "en": "I agree, though with a caveat."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.035",
+  "de": "Einschränkung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "qualification, restriction",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Mit einer wichtigen Einschränkung: …",
+   "en": "With one important qualification: …"
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.036",
+  "de": "Tragweite",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "significance, implications",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die Tragweite der Entscheidung ist unklar.",
+   "en": "The implications of the decision are unclear."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.037",
+  "de": "Sachverhalt",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "state of affairs, facts",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Der Sachverhalt ist komplizierter.",
+   "en": "The facts are more complicated."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.038",
+  "de": "Gewichtung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "weighting, emphasis",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Es geht um die Gewichtung, nicht um die Fakten.",
+   "en": "It is about the weighting, not the facts."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.039",
+  "de": "Spielraum",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "latitude, scope",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Der Spielraum ist eng geworden.",
+   "en": "The scope has narrowed."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.040",
+  "de": "Verzerrung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "distortion, bias",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die Auswahl erzeugt eine systematische Verzerrung.",
+   "en": "The selection produces a systematic bias."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.041",
+  "de": "Trugschluss",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "fallacy",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Das ist ein verbreiteter Trugschluss.",
+   "en": "That is a common fallacy."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.042",
+  "de": "Prämisse",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "premise",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die Prämisse selbst ist fragwürdig.",
+   "en": "The premise itself is questionable."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.043",
+  "de": "Gegenstand der Untersuchung",
+  "article": "der",
+  "plural": "-¨e",
+  "pos": "noun",
+  "en": "object of study",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Der Gegenstand der Untersuchung hat sich verschoben.",
+   "en": "The object of study has shifted."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.044",
+  "de": "Aussagekraft",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "informative value",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die Aussagekraft der Zahlen ist begrenzt.",
+   "en": "The informative value of the figures is limited."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.045",
+  "de": "Konsens",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "consensus",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Der Konsens bröckelt seit Jahren.",
+   "en": "The consensus has been crumbling for years."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.046",
+  "de": "Deutungshoheit",
+  "article": "die",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "power of interpretation",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Es geht um die Deutungshoheit über den Begriff.",
+   "en": "It is about who gets to define the term."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.047",
+  "de": "relativieren",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to put into perspective",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Diese Zahl muss man relativieren.",
+   "en": "That figure has to be put into perspective."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.048",
+  "de": "differenzieren",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to differentiate",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Hier müsste man stärker differenzieren.",
+   "en": "One would have to differentiate more here."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.049",
+  "de": "untermauern",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to underpin",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die These ist gut untermauert.",
+   "en": "The thesis is well underpinned."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.050",
+  "de": "entkräften",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to refute, weaken",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Dieses Argument lässt sich leicht entkräften.",
+   "en": "This argument is easily refuted."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.051",
+  "de": "ausklammern",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to leave aside",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Diesen Aspekt klammere ich bewusst aus.",
+   "en": "I am deliberately leaving this aspect aside."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.052",
+  "de": "sich abzeichnen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to emerge, become apparent",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Eine Lösung zeichnet sich nicht ab.",
+   "en": "No solution is emerging."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.053",
+  "de": "zutreffen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to apply, be the case",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Das trifft nur bedingt zu.",
+   "en": "That is only partly the case."
+  },
+  "forms": "trifft zu · traf zu · hat zugetroffen"
+ },
+ {
+  "id": "w.wissenschaft.054",
+  "de": "naheliegen",
+  "article": null,
+  "plural": null,
+  "pos": "verb",
+  "en": "to suggest itself",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Dieser Schluss liegt nahe, ist aber falsch.",
+   "en": "This conclusion suggests itself but is wrong."
+  },
+  "forms": "liegt nahe · lag nahe · hat nahegelegen"
+ },
+ {
+  "id": "w.wissenschaft.055",
+  "de": "fragwürdig",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "questionable",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die Methode ist fragwürdig.",
+   "en": "The method is questionable."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.056",
+  "de": "stichhaltig",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "sound, valid",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Das Argument ist nicht stichhaltig.",
+   "en": "The argument is not sound."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.057",
+  "de": "bedingt",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "qualified, only partly",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Das stimmt nur bedingt.",
+   "en": "That is only partly true."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.058",
+  "de": "zwangsläufig",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "inevitable",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Das Ergebnis war nicht zwangsläufig.",
+   "en": "The result was not inevitable."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.059",
+  "de": "hinreichend",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "sufficient",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Die Belege sind nicht hinreichend.",
+   "en": "The evidence is not sufficient."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.060",
+  "de": "vermeintlich",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "supposed, alleged",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Der vermeintliche Vorteil entfällt.",
+   "en": "The supposed advantage falls away."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.061",
+  "de": "ausschlaggebend",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "decisive",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Ausschlaggebend war der Zeitpunkt.",
+   "en": "The timing was decisive."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wissenschaft.062",
+  "de": "marginal",
+  "article": null,
+  "plural": null,
+  "pos": "adj",
+  "en": "marginal",
+  "theme": "wissenschaft",
+  "level": "C1",
+  "example": {
+   "de": "Der Effekt ist marginal.",
+   "en": "The effect is marginal."
   },
   "forms": null
  }

@@ -1403,5 +1403,929 @@
     }
    }
   ]
+ },
+ {
+  "id": "mag.b1.einbuergerung",
+  "level": "B1",
+  "theme": "behoerden",
+  "title": {
+   "de": "Der Test, den fast alle bestehen",
+   "en": "The test almost everyone passes"
+  },
+  "teaser": {
+   "de": "Warum der Einbürgerungstest der leichteste Teil ist – und was wirklich dauert.",
+   "en": "Why the citizenship test is the easy part – and what actually takes the time."
+  },
+  "minutes": 5,
+  "paragraphs": [
+   [
+    {
+     "t": "text",
+     "s": "Wer sich einbürgern lassen will, hört zuerst vom Einbürgerungstest. 33 Fragen, 17 müssen richtig sein. Die "
+    },
+    {
+     "t": "word",
+     "s": "Fragen",
+     "id": "w.bildung.031"
+    },
+    {
+     "t": "text",
+     "s": " stehen öffentlich im Netz, alle 310 davon. Wer sie durchgeht, besteht."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Der Test ist also nicht das Problem. Die "
+    },
+    {
+     "t": "word",
+     "s": "Voraussetzung",
+     "id": "w.arbeit.055"
+    },
+    {
+     "t": "text",
+     "s": " dahinter ist es: Man braucht "
+    },
+    {
+     "t": "word",
+     "s": "Kenntnisse",
+     "id": "w.bildung.007"
+    },
+    {
+     "t": "text",
+     "s": " der Sprache auf dem Niveau B1, einen gesicherten "
+    },
+    {
+     "t": "word",
+     "s": "Lebensunterhalt",
+     "id": "w.behoerden.049"
+    },
+    {
+     "t": "text",
+     "s": " und in der Regel eine bestimmte "
+    },
+    {
+     "t": "word",
+     "s": "Aufenthaltsdauer",
+     "id": "w.behoerden.050"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Was die meisten unterschätzen, ist die "
+    },
+    {
+     "t": "word",
+     "s": "Dauer",
+     "id": "w.zeit.002"
+    },
+    {
+     "t": "text",
+     "s": ". Der Test selbst ist an einem Vormittag erledigt. Die Bearbeitung des "
+    },
+    {
+     "t": "word",
+     "s": "Antrags",
+     "id": "w.behoerden.040"
+    },
+    {
+     "t": "text",
+     "s": " dauert je nach Stadt zwischen sechs Monaten und drei Jahren. In dieser Zeit kann sich die "
+    },
+    {
+     "t": "word",
+     "s": "Gesetzgebung",
+     "id": "w.behoerden.051"
+    },
+    {
+     "t": "text",
+     "s": " ändern - und das ist in den letzten Jahren mehrfach passiert."
+    }
+   ],
+   [
+    {
+     "t": "grammar",
+     "s": "Weil die Behörden unterschiedlich schnell arbeiten",
+     "key": "nebensaetze"
+    },
+    {
+     "t": "text",
+     "s": ", lohnt sich ein Blick auf die eigene Stadt. Manche "
+    },
+    {
+     "t": "word",
+     "s": "Ämter",
+     "id": "w.behoerden.030"
+    },
+    {
+     "t": "text",
+     "s": " veröffentlichen die aktuelle Bearbeitungszeit, andere nicht. Nachfragen kostet nichts."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Ein praktischer Hinweis: Sammle die "
+    },
+    {
+     "t": "word",
+     "s": "Unterlagen",
+     "id": "w.bildung.057"
+    },
+    {
+     "t": "text",
+     "s": " früh. Gehaltsnachweise, Mietvertrag, Rentenversicherungsverlauf, Zeugnisse - vieles davon braucht selbst Wochen. Wer erst nach dem Termin anfängt zu suchen, verliert ein halbes Jahr."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Und: Der Sprachnachweis läuft nicht ab. Ein B1-Zertifikat von 2019 gilt weiter. Das wissen erstaunlich viele nicht und machen die "
+    },
+    {
+     "t": "word",
+     "s": "Prüfung",
+     "id": "w.bildung.043"
+    },
+    {
+     "t": "text",
+     "s": " ein zweites Mal."
+    }
+   ]
+  ],
+  "spoken": [
+   "Wer sich einbürgern lassen will, hört zuerst vom Einbürgerungstest. 33 Fragen, 17 müssen richtig sein. Die Fragen stehen öffentlich im Netz, alle 310 davon. Wer sie durchgeht, besteht.",
+   "Der Test ist also nicht das Problem. Die Voraussetzung dahinter ist es: Man braucht Kenntnisse der Sprache auf dem Niveau B1, einen gesicherten Lebensunterhalt und in der Regel eine bestimmte Aufenthaltsdauer.",
+   "Was die meisten unterschätzen, ist die Dauer. Der Test selbst ist an einem Vormittag erledigt. Die Bearbeitung des Antrags dauert je nach Stadt zwischen sechs Monaten und drei Jahren. In dieser Zeit kann sich die Gesetzgebung ändern - und das ist in den letzten Jahren mehrfach passiert.",
+   "Weil die Behörden unterschiedlich schnell arbeiten, lohnt sich ein Blick auf die eigene Stadt. Manche Ämter veröffentlichen die aktuelle Bearbeitungszeit, andere nicht. Nachfragen kostet nichts.",
+   "Ein praktischer Hinweis: Sammle die Unterlagen früh. Gehaltsnachweise, Mietvertrag, Rentenversicherungsverlauf, Zeugnisse - vieles davon braucht selbst Wochen. Wer erst nach dem Termin anfängt zu suchen, verliert ein halbes Jahr.",
+   "Und: Der Sprachnachweis läuft nicht ab. Ein B1-Zertifikat von 2019 gilt weiter. Das wissen erstaunlich viele nicht und machen die Prüfung ein zweites Mal."
+  ],
+  "items": [
+   {
+    "id": "a.mag.b1.einbuergerung.01",
+    "prompt": "Wie viele Fragen muss man im Einbürgerungstest richtig beantworten?",
+    "promptEn": "How many questions must you get right in the citizenship test?",
+    "options": [
+     "17 von 33",
+     "33 von 33",
+     "310 von 310",
+     "20 von 33"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"33 Fragen, 17 müssen richtig sein.\"",
+     "en": "\"33 questions, 17 have to be correct.\""
+    }
+   },
+   {
+    "id": "a.mag.b1.einbuergerung.02",
+    "prompt": "Warum hält der Text den Test selbst für das kleinere Problem?",
+    "promptEn": "Why does the text consider the test itself the lesser problem?",
+    "options": [
+     "Alle Fragen sind öffentlich einsehbar.",
+     "Man darf ihn beliebig oft wiederholen.",
+     "Er ist kostenlos.",
+     "Er dauert nur einen Vormittag."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Die Fragen stehen öffentlich im Netz, alle 310 davon. Wer sie durchgeht, besteht.\"",
+     "en": "\"The questions are public, all 310 of them. Anyone who works through them passes.\""
+    }
+   },
+   {
+    "id": "a.mag.b1.einbuergerung.03",
+    "prompt": "Wie lange kann die Bearbeitung des Antrags dauern?",
+    "promptEn": "How long can processing the application take?",
+    "options": [
+     "zwischen sechs Monaten und drei Jahren",
+     "immer etwa ein Jahr",
+     "höchstens sechs Monate",
+     "das steht nicht im Text"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… dauert je nach Stadt zwischen sechs Monaten und drei Jahren.\"",
+     "en": "\"… takes between six months and three years depending on the city.\""
+    }
+   },
+   {
+    "id": "a.mag.b1.einbuergerung.04",
+    "prompt": "Welchen praktischen Rat gibt der Text?",
+    "promptEn": "What practical advice does the text give?",
+    "options": [
+     "die Unterlagen früh sammeln",
+     "den Test zweimal machen",
+     "in eine andere Stadt ziehen",
+     "einen Anwalt einschalten"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Sammle die Unterlagen früh.\"",
+     "en": "\"Collect the documents early.\""
+    }
+   },
+   {
+    "id": "a.mag.b1.einbuergerung.05",
+    "prompt": "Was wissen laut Text erstaunlich viele nicht?",
+    "promptEn": "What does the text say surprisingly many people do not know?",
+    "options": [
+     "dass der Sprachnachweis nicht abläuft",
+     "dass der Test kostenpflichtig ist",
+     "dass man B2 braucht",
+     "dass die Fragen öffentlich sind"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Der Sprachnachweis läuft nicht ab … Das wissen erstaunlich viele nicht.\"",
+     "en": "\"The language certificate does not expire … Surprisingly many people do not know that.\""
+    }
+   }
+  ]
+ },
+ {
+  "id": "mag.b2.pendeln",
+  "level": "B2",
+  "theme": "arbeit",
+  "title": {
+   "de": "Die Stunde, die niemand bezahlt",
+   "en": "The hour nobody pays for"
+  },
+  "teaser": {
+   "de": "Pendeln ist keine Nebensache der Arbeitszeitdebatte, sondern ihr Kern.",
+   "en": "Commuting is not a side issue in the working-time debate but its core."
+  },
+  "minutes": 6,
+  "paragraphs": [
+   [
+    {
+     "t": "text",
+     "s": "In der "
+    },
+    {
+     "t": "word",
+     "s": "Debatte",
+     "id": "w.kommunikation.061"
+    },
+    {
+     "t": "text",
+     "s": " über feste Bürotage wird viel über "
+    },
+    {
+     "t": "word",
+     "s": "Produktivität",
+     "id": "w.arbeit.074"
+    },
+    {
+     "t": "text",
+     "s": " gesprochen und wenig über den Weg dorthin. Dabei ist der Weg die Größe, die sich am stärksten zwischen den Beschäftigten unterscheidet."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Zwei Personen mit identischem "
+    },
+    {
+     "t": "word",
+     "s": "Vertrag",
+     "id": "w.arbeit.043"
+    },
+    {
+     "t": "text",
+     "s": " können eine Stunde oder drei Stunden täglich unterwegs sein. Diese "
+    },
+    {
+     "t": "word",
+     "s": "Differenz",
+     "id": "w.arbeit.072"
+    },
+    {
+     "t": "text",
+     "s": " taucht in keiner Statistik zur "
+    },
+    {
+     "t": "word",
+     "s": "Arbeitsbelastung",
+     "id": "w.arbeit.081"
+    },
+    {
+     "t": "text",
+     "s": " auf, weil Pendelzeit keine "
+    },
+    {
+     "t": "word",
+     "s": "Arbeitszeit",
+     "id": "w.arbeit.003"
+    },
+    {
+     "t": "text",
+     "s": " ist. Bezahlt wird sie ohnehin nicht."
+    }
+   ],
+   [
+    {
+     "t": "grammar",
+     "s": "Eine Regel, die alle gleich behandelt, behandelt sie deshalb nicht gleich",
+     "key": "partizipial"
+    },
+    {
+     "t": "text",
+     "s": ". Wer zehn Minuten entfernt wohnt, verliert durch zwei feste Bürotage knapp eine Stunde pro Woche. Wer aus dem "
+    },
+    {
+     "t": "word",
+     "s": "Umland",
+     "id": "w.arbeit.073"
+    },
+    {
+     "t": "text",
+     "s": " kommt, verliert sechs."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Die übliche "
+    },
+    {
+     "t": "word",
+     "s": "Antwort",
+     "id": "w.bildung.032"
+    },
+    {
+     "t": "text",
+     "s": " darauf ist ein Zuschuss zum Ticket. Das ist nicht falsch, geht aber am Problem vorbei: Das knappe Gut ist nicht das Geld, sondern die Zeit. Ein bezahltes Ticket macht aus drei Stunden Fahrt keine zwei."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Interessanter ist eine "
+    },
+    {
+     "t": "word",
+     "s": "Beobachtung",
+     "id": "w.kommunikation.062"
+    },
+    {
+     "t": "text",
+     "s": ", die in mehreren Erhebungen auftaucht: "
+    },
+    {
+     "t": "word",
+     "s": "Unzufriedenheit",
+     "id": "w.arbeit.075"
+    },
+    {
+     "t": "text",
+     "s": " mit Präsenzpflicht korreliert fast vollständig mit der "
+    },
+    {
+     "t": "word",
+     "s": "Entfernung",
+     "id": "w.arbeit.071"
+    },
+    {
+     "t": "text",
+     "s": ", kaum mit der "
+    },
+    {
+     "t": "word",
+     "s": "Einstellung",
+     "id": "w.gefuehle.052"
+    },
+    {
+     "t": "text",
+     "s": " zum Büro an sich. Die Leute wollen nicht weniger Kollegen sehen. Sie wollen weniger fahren."
+    }
+   ],
+   [
+    {
+     "t": "grammar",
+     "s": "Daraus ließe sich ein Vorschlag ableiten",
+     "key": "passiversatz"
+    },
+    {
+     "t": "text",
+     "s": ", der selten gemacht wird: Die Zahl der Bürotage nach "
+    },
+    {
+     "t": "word",
+     "s": "Entfernung",
+     "id": "w.arbeit.071"
+    },
+    {
+     "t": "text",
+     "s": " zu staffeln, statt sie pauschal festzulegen. Der "
+    },
+    {
+     "t": "word",
+     "s": "Einwand",
+     "id": "w.kommunikation.060"
+    },
+    {
+     "t": "text",
+     "s": " dagegen ist "
+    },
+    {
+     "t": "word",
+     "s": "nachvollziehbar",
+     "id": "w.wissenschaft.031"
+    },
+    {
+     "t": "text",
+     "s": " - das wirkt wie Ungleichbehandlung. Nur ist die pauschale Regel bereits eine, sie fällt bloß niemandem auf."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Was gegen die Staffelung wirklich spricht, ist etwas anderes: Sie macht den "
+    },
+    {
+     "t": "word",
+     "s": "Wohnort",
+     "id": "w.arbeit.069"
+    },
+    {
+     "t": "text",
+     "s": " zum Gegenstand betrieblicher "
+    },
+    {
+     "t": "word",
+     "s": "Verhandlung",
+     "id": "w.wirtschaft.006"
+    },
+    {
+     "t": "text",
+     "s": ". Wer weit weg zieht, verhandelt seine "
+    },
+    {
+     "t": "word",
+     "s": "Anwesenheit",
+     "id": "w.arbeit.070"
+    },
+    {
+     "t": "text",
+     "s": " neu. Das ist kein kleines Zugeständnis, und es wird in der "
+    },
+    {
+     "t": "word",
+     "s": "Debatte",
+     "id": "w.kommunikation.061"
+    },
+    {
+     "t": "text",
+     "s": " fast nie "
+    },
+    {
+     "t": "word",
+     "s": "erwähnt",
+     "id": "w.kommunikation.070"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ]
+  ],
+  "spoken": [
+   "In der Debatte über feste Bürotage wird viel über Produktivität gesprochen und wenig über den Weg dorthin. Dabei ist der Weg die Größe, die sich am stärksten zwischen den Beschäftigten unterscheidet.",
+   "Zwei Personen mit identischem Vertrag können eine Stunde oder drei Stunden täglich unterwegs sein. Diese Differenz taucht in keiner Statistik zur Arbeitsbelastung auf, weil Pendelzeit keine Arbeitszeit ist. Bezahlt wird sie ohnehin nicht.",
+   "Eine Regel, die alle gleich behandelt, behandelt sie deshalb nicht gleich. Wer zehn Minuten entfernt wohnt, verliert durch zwei feste Bürotage knapp eine Stunde pro Woche. Wer aus dem Umland kommt, verliert sechs.",
+   "Die übliche Antwort darauf ist ein Zuschuss zum Ticket. Das ist nicht falsch, geht aber am Problem vorbei: Das knappe Gut ist nicht das Geld, sondern die Zeit. Ein bezahltes Ticket macht aus drei Stunden Fahrt keine zwei.",
+   "Interessanter ist eine Beobachtung, die in mehreren Erhebungen auftaucht: Unzufriedenheit mit Präsenzpflicht korreliert fast vollständig mit der Entfernung, kaum mit der Einstellung zum Büro an sich. Die Leute wollen nicht weniger Kollegen sehen. Sie wollen weniger fahren.",
+   "Daraus ließe sich ein Vorschlag ableiten, der selten gemacht wird: Die Zahl der Bürotage nach Entfernung zu staffeln, statt sie pauschal festzulegen. Der Einwand dagegen ist nachvollziehbar - das wirkt wie Ungleichbehandlung. Nur ist die pauschale Regel bereits eine, sie fällt bloß niemandem auf.",
+   "Was gegen die Staffelung wirklich spricht, ist etwas anderes: Sie macht den Wohnort zum Gegenstand betrieblicher Verhandlung. Wer weit weg zieht, verhandelt seine Anwesenheit neu. Das ist kein kleines Zugeständnis, und es wird in der Debatte fast nie erwähnt."
+  ],
+  "items": [
+   {
+    "id": "a.mag.b2.pendeln.01",
+    "prompt": "Welchen Punkt macht der Text über zwei Personen mit identischem Vertrag?",
+    "promptEn": "What point does the text make about two people with identical contracts?",
+    "options": [
+     "Ihre tägliche Belastung kann sich um Stunden unterscheiden, ohne dass es sichtbar wird.",
+     "Sie verdienen unterschiedlich viel.",
+     "Sie arbeiten unterschiedlich produktiv.",
+     "Sie haben unterschiedliche Arbeitszeiten vereinbart."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Die Pendelzeit taucht in keiner Statistik zur Arbeitsbelastung auf.",
+     "en": "Commuting time appears in no workload statistic."
+    }
+   },
+   {
+    "id": "a.mag.b2.pendeln.02",
+    "prompt": "Warum hält der Autor den Ticket-Zuschuss für unzureichend?",
+    "promptEn": "Why does the author consider the travel subsidy insufficient?",
+    "options": [
+     "Das knappe Gut ist die Zeit, nicht das Geld.",
+     "Der Zuschuss ist zu niedrig.",
+     "Nicht alle Beschäftigten bekommen ihn.",
+     "Tickets werden teurer."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Das knappe Gut ist nicht das Geld, sondern die Zeit.\"",
+     "en": "\"The scarce good is not money but time.\""
+    }
+   },
+   {
+    "id": "a.mag.b2.pendeln.03",
+    "prompt": "Womit korreliert die Unzufriedenheit mit Präsenzpflicht laut den genannten Erhebungen?",
+    "promptEn": "What does dissatisfaction with mandatory attendance correlate with?",
+    "options": [
+     "fast vollständig mit der Entfernung",
+     "mit der Einstellung zum Büro",
+     "mit dem Alter der Beschäftigten",
+     "mit der Branche"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… korreliert fast vollständig mit der Entfernung, kaum mit der Einstellung zum Büro an sich.\"",
+     "en": "\"… correlates almost entirely with distance, barely with attitudes to the office itself.\""
+    }
+   },
+   {
+    "id": "a.mag.b2.pendeln.04",
+    "prompt": "Wie bewertet der Text den Einwand, eine Staffelung sei Ungleichbehandlung?",
+    "promptEn": "How does the text assess the objection that staggering is unequal treatment?",
+    "options": [
+     "Er ist nachvollziehbar, übersieht aber, dass die pauschale Regel ebenfalls ungleich wirkt.",
+     "Er ist unbegründet.",
+     "Er ist das stärkste Argument gegen die Staffelung.",
+     "Er wird im Text nicht bewertet."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Nur ist die pauschale Regel bereits eine, sie fällt bloß niemandem auf.\"",
+     "en": "\"Except that the blanket rule already is one; it just goes unnoticed.\""
+    }
+   },
+   {
+    "id": "a.mag.b2.pendeln.05",
+    "prompt": "Was spricht nach Ansicht des Autors wirklich gegen die Staffelung?",
+    "promptEn": "What, in the author’s view, really argues against staggering?",
+    "options": [
+     "Sie macht den Wohnort zum Gegenstand betrieblicher Verhandlung.",
+     "Sie ist zu teuer.",
+     "Sie ist rechtlich nicht zulässig.",
+     "Sie löst das Produktivitätsproblem nicht."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Sie macht den Wohnort zum Gegenstand betrieblicher Verhandlung.\"",
+     "en": "\"It makes where you live a matter for workplace negotiation.\""
+    }
+   },
+   {
+    "id": "a.mag.b2.pendeln.06",
+    "prompt": "Welche Haltung nimmt der Text insgesamt ein?",
+    "promptEn": "What stance does the text take overall?",
+    "options": [
+     "Er macht einen Vorschlag und nennt dessen stärksten Einwand selbst.",
+     "Er lehnt Präsenzpflicht grundsätzlich ab.",
+     "Er verteidigt feste Bürotage.",
+     "Er hält die Frage für unwichtig."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Der Text schlägt die Staffelung vor und nennt im Schlussabsatz selbst, was dagegen spricht.",
+     "en": "The text proposes staggering and in the final paragraph names what speaks against it itself."
+    }
+   }
+  ]
+ },
+ {
+  "id": "mag.c1.hoeflichkeit",
+  "level": "C1",
+  "theme": "kommunikation",
+  "title": {
+   "de": "Die Unhöflichkeit, die keine ist",
+   "en": "The rudeness that is not one"
+  },
+  "teaser": {
+   "de": "Warum deutsche Direktheit so oft falsch gelesen wird – in beide Richtungen.",
+   "en": "Why German directness is so often misread – in both directions."
+  },
+  "minutes": 6,
+  "paragraphs": [
+   [
+    {
+     "t": "text",
+     "s": "Kaum ein Klischee hält sich so hartnäckig wie das von der deutschen "
+    },
+    {
+     "t": "word",
+     "s": "Direktheit",
+     "id": "w.kommunikation.073"
+    },
+    {
+     "t": "text",
+     "s": ". Es stimmt und führt trotzdem in die Irre, weil es eine "
+    },
+    {
+     "t": "word",
+     "s": "Beobachtung",
+     "id": "w.kommunikation.062"
+    },
+    {
+     "t": "text",
+     "s": " über Form als Aussage über "
+    },
+    {
+     "t": "word",
+     "s": "Haltung",
+     "id": "w.kommunikation.063"
+    },
+    {
+     "t": "text",
+     "s": " verkauft."
+    }
+   ],
+   [
+    {
+     "t": "grammar",
+     "s": "So verbreitet das Klischee auch ist",
+     "key": "konzessiv"
+    },
+    {
+     "t": "text",
+     "s": ", es beschreibt vor allem eine andere Verteilung der "
+    },
+    {
+     "t": "word",
+     "s": "Höflichkeit",
+     "id": "w.kommunikation.069"
+    },
+    {
+     "t": "text",
+     "s": " im Satz. Im Englischen sitzt sie in der "
+    },
+    {
+     "t": "word",
+     "s": "Verpackung",
+     "id": "w.umwelt.004"
+    },
+    {
+     "t": "text",
+     "s": ": \"I was wondering whether you might possibly …\". Im Deutschen sitzt sie in Partikeln und im Konjunktiv: \"Könnten Sie das vielleicht mal eben …\"."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Wer die Partikeln nicht hört, hört einen "
+    },
+    {
+     "t": "word",
+     "s": "Befehl",
+     "id": "w.kommunikation.068"
+    },
+    {
+     "t": "text",
+     "s": ". Wer sie nicht setzt, erteilt einen - ohne es zu merken. \"Mach das\" und \"Mach das mal\" unterscheiden sich für deutsche Ohren erheblich, für fremde gar nicht."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Die "
+    },
+    {
+     "t": "word",
+     "s": "Verwechslung",
+     "id": "w.kommunikation.074"
+    },
+    {
+     "t": "text",
+     "s": " läuft in beide Richtungen. Deutschsprachige halten die englische "
+    },
+    {
+     "t": "word",
+     "s": "Verpackung",
+     "id": "w.umwelt.004"
+    },
+    {
+     "t": "text",
+     "s": " häufig für Unentschlossenheit und fragen nach, was denn nun gewollt sei. Das wirkt dann seinerseits grob - eine Unhöflichkeit, die aus dem Versuch entsteht, "
+    },
+    {
+     "t": "word",
+     "s": "Klarheit",
+     "id": "w.kommunikation.067"
+    },
+    {
+     "t": "text",
+     "s": " herzustellen."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Interessant wird es bei der "
+    },
+    {
+     "t": "word",
+     "s": "Kritik",
+     "id": "w.kommunikation.065"
+    },
+    {
+     "t": "text",
+     "s": ". Deutsche "
+    },
+    {
+     "t": "word",
+     "s": "Rückmeldung",
+     "id": "w.kommunikation.064"
+    },
+    {
+     "t": "text",
+     "s": " nennt zuerst, was nicht funktioniert, weil das als respektvoll gilt: Man hält den anderen für belastbar genug. In Kontexten, in denen Lob dem Einwand vorausgeht, liest sich dieselbe "
+    },
+    {
+     "t": "word",
+     "s": "Rückmeldung",
+     "id": "w.kommunikation.064"
+    },
+    {
+     "t": "text",
+     "s": " als "
+    },
+    {
+     "t": "word",
+     "s": "Abwertung",
+     "id": "w.kommunikation.075"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Daraus folgt keine "
+    },
+    {
+     "t": "word",
+     "s": "Empfehlung",
+     "id": "w.kommunikation.066"
+    },
+    {
+     "t": "text",
+     "s": ", sich anzupassen - das verlangt niemand und es gelingt selten. Es folgt etwas Nützlicheres: "
+    },
+    {
+     "t": "grammar",
+     "s": "Die Frage, ob jemand unhöflich war, lässt sich selten am Satz entscheiden",
+     "key": "textkohaesion"
+    },
+    {
+     "t": "text",
+     "s": ". Sie entscheidet sich daran, welche Signale beide Seiten als "
+    },
+    {
+     "t": "word",
+     "s": "Höflichkeit",
+     "id": "w.kommunikation.069"
+    },
+    {
+     "t": "text",
+     "s": " gelernt haben."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Praktisch heißt das für Lernende vor allem eines: Die kleinen Wörter sind nicht Verzierung. Sie sind der Teil des Satzes, der die "
+    },
+    {
+     "t": "word",
+     "s": "Haltung",
+     "id": "w.kommunikation.063"
+    },
+    {
+     "t": "text",
+     "s": " trägt, und sie fehlen zuerst, wenn man unter Druck spricht. Genau dann wirkt man am schroffsten - und meint es am wenigsten."
+    }
+   ]
+  ],
+  "spoken": [
+   "Kaum ein Klischee hält sich so hartnäckig wie das von der deutschen Direktheit. Es stimmt und führt trotzdem in die Irre, weil es eine Beobachtung über Form als Aussage über Haltung verkauft.",
+   "So verbreitet das Klischee auch ist, es beschreibt vor allem eine andere Verteilung der Höflichkeit im Satz. Im Englischen sitzt sie in der Verpackung: \"I was wondering whether you might possibly …\". Im Deutschen sitzt sie in Partikeln und im Konjunktiv: \"Könnten Sie das vielleicht mal eben …\".",
+   "Wer die Partikeln nicht hört, hört einen Befehl. Wer sie nicht setzt, erteilt einen - ohne es zu merken. \"Mach das\" und \"Mach das mal\" unterscheiden sich für deutsche Ohren erheblich, für fremde gar nicht.",
+   "Die Verwechslung läuft in beide Richtungen. Deutschsprachige halten die englische Verpackung häufig für Unentschlossenheit und fragen nach, was denn nun gewollt sei. Das wirkt dann seinerseits grob - eine Unhöflichkeit, die aus dem Versuch entsteht, Klarheit herzustellen.",
+   "Interessant wird es bei der Kritik. Deutsche Rückmeldung nennt zuerst, was nicht funktioniert, weil das als respektvoll gilt: Man hält den anderen für belastbar genug. In Kontexten, in denen Lob dem Einwand vorausgeht, liest sich dieselbe Rückmeldung als Abwertung.",
+   "Daraus folgt keine Empfehlung, sich anzupassen - das verlangt niemand und es gelingt selten. Es folgt etwas Nützlicheres: Die Frage, ob jemand unhöflich war, lässt sich selten am Satz entscheiden. Sie entscheidet sich daran, welche Signale beide Seiten als Höflichkeit gelernt haben.",
+   "Praktisch heißt das für Lernende vor allem eines: Die kleinen Wörter sind nicht Verzierung. Sie sind der Teil des Satzes, der die Haltung trägt, und sie fehlen zuerst, wenn man unter Druck spricht. Genau dann wirkt man am schroffsten - und meint es am wenigsten."
+  ],
+  "items": [
+   {
+    "id": "a.mag.c1.hoeflichkeit.01",
+    "prompt": "Was ist nach dem Text das Problem mit dem Klischee der deutschen Direktheit?",
+    "promptEn": "What, per the text, is the problem with the cliché of German directness?",
+    "options": [
+     "Es deutet eine Beobachtung über die Form als Aussage über die Haltung.",
+     "Es ist schlicht falsch.",
+     "Es gilt nur für bestimmte Regionen.",
+     "Es ist veraltet."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… weil es eine Beobachtung über Form als Aussage über Haltung verkauft.\"",
+     "en": "\"… because it sells an observation about form as a statement about attitude.\""
+    }
+   },
+   {
+    "id": "a.mag.c1.hoeflichkeit.02",
+    "prompt": "Wo sitzt die Höflichkeit laut Text im Deutschen?",
+    "promptEn": "Where, per the text, does politeness sit in German?",
+    "options": [
+     "in Partikeln und im Konjunktiv",
+     "in langen Einleitungen",
+     "im Tonfall",
+     "in der Anrede"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Im Deutschen sitzt sie in Partikeln und im Konjunktiv.\"",
+     "en": "\"In German it sits in particles and the subjunctive.\""
+    }
+   },
+   {
+    "id": "a.mag.c1.hoeflichkeit.03",
+    "prompt": "Wie entsteht laut Text eine Unhöflichkeit aus dem Versuch, Klarheit herzustellen?",
+    "promptEn": "How, per the text, does rudeness arise from trying to create clarity?",
+    "options": [
+     "Deutschsprachige fragen nach, weil sie die englische Verpackung für Unentschlossenheit halten.",
+     "Englischsprachige wiederholen ihre Bitte.",
+     "Beide Seiten sprechen lauter.",
+     "Man wechselt in die jeweils andere Sprache."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… fragen nach, was denn nun gewollt sei. Das wirkt dann seinerseits grob.\"",
+     "en": "\"… ask what is actually wanted. That in turn comes across as blunt.\""
+    }
+   },
+   {
+    "id": "a.mag.c1.hoeflichkeit.04",
+    "prompt": "Warum nennt deutsche Rückmeldung zuerst das Problem?",
+    "promptEn": "Why does German feedback name the problem first?",
+    "options": [
+     "Weil Belastbarkeit unterstellt und das als respektvoll verstanden wird.",
+     "Weil Lob als unnötig gilt.",
+     "Weil die Zeit knapp ist.",
+     "Weil es so gelehrt wird."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… weil das als respektvoll gilt: Man hält den anderen für belastbar genug.\"",
+     "en": "\"… because that counts as respectful: you take the other person to be robust enough.\""
+    }
+   },
+   {
+    "id": "a.mag.c1.hoeflichkeit.05",
+    "prompt": "Welche Folgerung zieht der Text ausdrücklich NICHT?",
+    "promptEn": "Which conclusion does the text explicitly NOT draw?",
+    "options": [
+     "dass man sich anpassen sollte",
+     "dass die Signale gelernt sind",
+     "dass die Partikeln Haltung tragen",
+     "dass die Verwechslung in beide Richtungen läuft"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Daraus folgt keine Empfehlung, sich anzupassen.\"",
+     "en": "\"No recommendation to adapt follows from this.\""
+    }
+   },
+   {
+    "id": "a.mag.c1.hoeflichkeit.06",
+    "prompt": "Warum wirkt man laut Schluss unter Druck am schroffsten?",
+    "promptEn": "Why, per the ending, do you come across as most brusque under pressure?",
+    "options": [
+     "Weil die kleinen Wörter zuerst wegfallen.",
+     "Weil man lauter spricht.",
+     "Weil man den Konjunktiv falsch bildet.",
+     "Weil man zu schnell spricht."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… sie fehlen zuerst, wenn man unter Druck spricht. Genau dann wirkt man am schroffsten.\"",
+     "en": "\"… they are the first thing to go when you speak under pressure. That is exactly when you come across as most brusque.\""
+    }
+   }
+  ]
  }
 ]

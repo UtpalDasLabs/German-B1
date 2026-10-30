@@ -4285,5 +4285,1296 @@
     }
    }
   ]
+ },
+ {
+  "key": "konjunktiv1",
+  "title": {
+   "de": "Konjunktiv I: indirekte Rede",
+   "en": "Konjunktiv I: reported speech"
+  },
+  "summary": {
+   "de": "Berichten, was jemand gesagt hat, ohne es selbst zu behaupten.",
+   "en": "Reporting what someone said without claiming it yourself."
+  },
+  "icon": "🗯️",
+  "level": "B2",
+  "order": 33,
+  "body": {
+   "en": [
+    "Konjunktiv I is the form German uses to report someone else’s words while staying neutral about whether they are true. \"Der Minister sagt, die Zahlen seien korrekt\" says the minister claims it; \"sind korrekt\" would say the writer agrees.",
+    "It is built from the infinitive stem plus -e, -est, -e, -en, -et, -en. In practice only the er/sie/es form is distinctive - er sage, er habe, er komme - because the others are identical to the present tense.",
+    "When the Konjunktiv I form would look like the present tense, German switches to Konjunktiv II instead: \"sie haben\" would be ambiguous, so you write \"sie hätten\". This is not sloppiness; it is the rule.",
+    "sein is the exception that is worth learning whole, because it is irregular and distinctive in every person: ich sei, du seist, er sei, wir seien, ihr seiet, sie seien.",
+    "You meet this form constantly in journalism and almost never in conversation, where \"Er hat gesagt, dass …\" does the job. Recognising it reliably matters more than producing it."
+   ],
+   "de": [
+    "Der Konjunktiv I berichtet fremde Worte, ohne sich sie zu eigen zu machen. \"Der Minister sagt, die Zahlen seien korrekt\" heißt: er behauptet es. \"sind korrekt\" hieße: der Schreiber stimmt zu.",
+    "Gebildet wird er aus dem Infinitivstamm plus -e, -est, -e, -en, -et, -en. Deutlich ist praktisch nur die er/sie/es-Form - er sage, er habe, er komme -, weil die übrigen mit dem Präsens zusammenfallen.",
+    "Wäre die Form mit dem Präsens identisch, weicht man auf den Konjunktiv II aus: statt \"sie haben\" schreibt man \"sie hätten\". Das ist die Regel, keine Nachlässigkeit.",
+    "sein ist die Ausnahme, die man ganz lernt: ich sei, du seist, er sei, wir seien, ihr seiet, sie seien.",
+    "In Zeitungstexten begegnet die Form ständig, im Gespräch fast nie - dort genügt \"Er hat gesagt, dass …\". Sicher erkennen ist wichtiger als selbst bilden."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Konjunktiv I",
+     "en": "Konjunktiv I"
+    },
+    "head": [
+     "Person",
+     "sein",
+     "haben",
+     "kommen"
+    ],
+    "rows": [
+     [
+      "ich",
+      "sei",
+      "hätte*",
+      "käme*"
+     ],
+     [
+      "er / sie / es",
+      "sei",
+      "habe",
+      "komme"
+     ],
+     [
+      "sie (Plural)",
+      "seien",
+      "hätten*",
+      "kämen*"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Direkt und indirekt",
+     "en": "Direct and reported"
+    },
+    "head": [
+     "direkte Rede",
+     "indirekte Rede"
+    ],
+    "rows": [
+     [
+      "\"Ich bin müde.\"",
+      "Er sagt, er sei müde."
+     ],
+     [
+      "\"Ich habe keine Zeit.\"",
+      "Sie sagt, sie habe keine Zeit."
+     ],
+     [
+      "\"Wir kommen später.\"",
+      "Sie sagen, sie kämen später."
+     ],
+     [
+      "\"Ich habe das gelesen.\"",
+      "Er sagt, er habe das gelesen."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Die Sprecherin erklärte, der Termin stehe noch nicht fest.",
+    "en": "The spokeswoman explained that the date was not yet fixed."
+   },
+   {
+    "de": "Er behauptet, er habe davon nichts gewusst.",
+    "en": "He claims he knew nothing about it."
+   },
+   {
+    "de": "Laut Bericht seien die Kosten gestiegen.",
+    "en": "According to the report, the costs have risen."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Er sagt, er ist krank.",
+    "right": "Er sagt, er sei krank.",
+    "why": {
+     "de": "Mit \"ist\" übernimmt der Schreiber die Aussage. Der Konjunktiv I hält Distanz.",
+     "en": "With \"ist\" the writer adopts the claim. Konjunktiv I keeps a distance."
+    }
+   },
+   {
+    "wrong": "Sie sagen, sie haben keine Zeit.",
+    "right": "Sie sagen, sie hätten keine Zeit.",
+    "why": {
+     "de": "Die Konjunktiv-I-Form wäre mit dem Präsens identisch, also weicht man auf den Konjunktiv II aus.",
+     "en": "The Konjunktiv I form would be identical to the present, so you switch to Konjunktiv II."
+    }
+   }
+  ]
+ },
+ {
+  "key": "irreal",
+  "title": {
+   "de": "Konjunktiv II der Vergangenheit",
+   "en": "Konjunktiv II in the past"
+  },
+  "summary": {
+   "de": "Was gewesen wäre: hätte gemacht, wäre gekommen, hätte kommen können.",
+   "en": "What would have been: hätte gemacht, wäre gekommen, hätte kommen können."
+  },
+  "icon": "🔄",
+  "level": "B2",
+  "order": 34,
+  "body": {
+   "en": [
+    "B1 gets you \"Ich würde das machen\". B2 needs \"Ich hätte das gemacht\" - the thing you would have done but did not, which is the tense regret and criticism live in.",
+    "The form is simple: hätte or wäre plus the Partizip II. Which auxiliary follows exactly the same rule as the Perfekt: \"Ich habe gemacht\" → \"Ich hätte gemacht\"; \"Ich bin gekommen\" → \"Ich wäre gekommen\".",
+    "With a modal verb it gets its own shape, and this one has to be learnt rather than derived: hätte + infinitive + modal infinitive. \"Ich hätte früher kommen können.\" Not \"gekonnt\" - the double infinitive is what the construction looks like.",
+    "wenn-clauses drop the wenn and invert in careful writing: \"Hätte ich das gewusst, wäre ich gekommen\" is the same as \"Wenn ich das gewusst hätte, wäre ich gekommen\" and sounds better.",
+    "beinahe and fast go with this tense to say something nearly happened: \"Ich wäre beinahe gestürzt.\" You did not fall."
+   ],
+   "de": [
+    "Auf B1 reicht \"Ich würde das machen\". B2 braucht \"Ich hätte das gemacht\" - das, was man getan hätte, aber nicht getan hat. In dieser Form stecken Bedauern und Kritik.",
+    "Die Form ist einfach: hätte oder wäre plus Partizip II. Welches Hilfsverb, entscheidet genau dieselbe Regel wie beim Perfekt: \"Ich habe gemacht\" → \"Ich hätte gemacht\"; \"Ich bin gekommen\" → \"Ich wäre gekommen\".",
+    "Mit Modalverb hat die Konstruktion eine eigene Gestalt, die man lernen muss: hätte + Infinitiv + Modalinfinitiv. \"Ich hätte früher kommen können.\" Nicht \"gekonnt\".",
+    "Im gepflegten Schriftdeutsch fällt das wenn weg, und der Satz beginnt mit dem Verb: \"Hätte ich das gewusst, wäre ich gekommen.\"",
+    "beinahe und fast gehören zu dieser Zeitform: \"Ich wäre beinahe gestürzt.\" Gestürzt ist man nicht."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Gegenwart und Vergangenheit",
+     "en": "Present and past"
+    },
+    "head": [
+     "Zeit",
+     "Form",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "Gegenwart",
+      "würde + Infinitiv",
+      "Ich würde das machen."
+     ],
+     [
+      "Gegenwart (sein/haben)",
+      "wäre / hätte",
+      "Ich wäre froh. / Ich hätte Zeit."
+     ],
+     [
+      "Vergangenheit",
+      "hätte + Partizip II",
+      "Ich hätte das gemacht."
+     ],
+     [
+      "Vergangenheit (Bewegung)",
+      "wäre + Partizip II",
+      "Ich wäre gekommen."
+     ],
+     [
+      "mit Modalverb",
+      "hätte + Inf. + Modalinf.",
+      "Ich hätte kommen können."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Wenn ich das gewusst hätte, hätte ich dir geschrieben.",
+    "en": "If I had known, I would have written to you."
+   },
+   {
+    "de": "Du hättest mich ruhig anrufen können.",
+    "en": "You could perfectly well have called me."
+   },
+   {
+    "de": "Ohne den Stau wären wir pünktlich gewesen.",
+    "en": "Without the traffic jam we would have been on time."
+   },
+   {
+    "de": "Das hätte auch schiefgehen können.",
+    "en": "That could have gone wrong too."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich hätte früher kommen gekonnt.",
+    "right": "Ich hätte früher kommen können.",
+    "why": {
+     "de": "Mit Modalverb steht der Infinitiv, nicht das Partizip: der doppelte Infinitiv.",
+     "en": "With a modal the infinitive is used, not the participle: the double infinitive."
+    }
+   },
+   {
+    "wrong": "Wenn ich Zeit hätte, wäre ich gekommen.",
+    "right": "Wenn ich Zeit gehabt hätte, wäre ich gekommen.",
+    "why": {
+     "de": "Beide Hälften müssen in derselben Zeit stehen, wenn beides vorbei ist.",
+     "en": "Both halves have to be in the same tense when both are in the past."
+    }
+   },
+   {
+    "wrong": "Ich würde das gemacht haben.",
+    "right": "Ich hätte das gemacht.",
+    "why": {
+     "de": "Die würde-Umschreibung ist in der Vergangenheit unüblich und schwerfällig.",
+     "en": "The würde paraphrase is unusual and clumsy in the past."
+    }
+   }
+  ]
+ },
+ {
+  "key": "nominalstil",
+  "title": {
+   "de": "Nominalstil und Verbalstil",
+   "en": "Nominal and verbal style"
+  },
+  "summary": {
+   "de": "Amtsdeutsch packt ganze Sätze in Nomen. Beides lesen, eines schreiben.",
+   "en": "Official German packs whole clauses into nouns. Read both; write one."
+  },
+  "icon": "📐",
+  "level": "B2",
+  "order": 35,
+  "body": {
+   "en": [
+    "German officialdom and academia compress clauses into noun phrases. \"Weil die Kosten gestiegen sind\" becomes \"Wegen des Kostenanstiegs\". The information is identical; the grammar is not.",
+    "This matters in both directions. Reading at B2 means unpacking the nominal style fast enough to follow the argument. Writing at B2 means choosing: the verbal style is clearer and almost always the better choice unless you are deliberately writing a formal report.",
+    "The usual swaps are small and learnable. weil → wegen + genitive; nachdem → nach + dative; wenn → bei + dative; obwohl → trotz + genitive; um … zu → zur / zum + noun.",
+    "Watch the preposition’s case: wegen and trotz take the genitive in writing (wegen des Wetters), bei and nach take the dative (bei Regen, nach der Prüfung).",
+    "The giveaway of over-nominalised German is a string of nouns ending in -ung joined by prepositions: \"zur Verbesserung der Durchführung der Maßnahme\". If you write that, you can almost always improve it with a verb."
+   ],
+   "de": [
+    "Amts- und Wissenschaftsdeutsch packt Nebensätze in Nominalphrasen. Aus \"Weil die Kosten gestiegen sind\" wird \"Wegen des Kostenanstiegs\". Die Information bleibt, die Grammatik nicht.",
+    "Das zählt in beide Richtungen: Lesen auf B2 heißt, den Nominalstil schnell genug aufzulösen; Schreiben auf B2 heißt, zu wählen. Der Verbalstil ist klarer und fast immer die bessere Wahl.",
+    "Die üblichen Umformungen sind klein und lernbar: weil → wegen + Genitiv; nachdem → nach + Dativ; wenn → bei + Dativ; obwohl → trotz + Genitiv; um … zu → zur/zum + Nomen.",
+    "Achte auf den Kasus: wegen und trotz stehen schriftlich mit Genitiv, bei und nach mit Dativ.",
+    "Das Kennzeichen übertriebenen Nominalstils ist eine Kette von -ung-Nomen: \"zur Verbesserung der Durchführung der Maßnahme\". Das lässt sich fast immer mit einem Verb verbessern."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Umformungen",
+     "en": "Transformations"
+    },
+    "head": [
+     "Nebensatz",
+     "Nominalphrase"
+    ],
+    "rows": [
+     [
+      "weil es regnete",
+      "wegen des Regens"
+     ],
+     [
+      "nachdem er angekommen war",
+      "nach seiner Ankunft"
+     ],
+     [
+      "wenn es regnet",
+      "bei Regen"
+     ],
+     [
+      "obwohl es teuer war",
+      "trotz der hohen Kosten"
+     ],
+     [
+      "um sich zu bewerben",
+      "zur Bewerbung"
+     ],
+     [
+      "während wir warteten",
+      "während des Wartens"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Kasus nach Präposition",
+     "en": "Case after the preposition"
+    },
+    "head": [
+     "Präposition",
+     "Kasus",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "wegen",
+      "Genitiv",
+      "wegen des Wetters"
+     ],
+     [
+      "trotz",
+      "Genitiv",
+      "trotz der Kosten"
+     ],
+     [
+      "während",
+      "Genitiv",
+      "während der Sitzung"
+     ],
+     [
+      "nach",
+      "Dativ",
+      "nach der Prüfung"
+     ],
+     [
+      "bei",
+      "Dativ",
+      "bei Regen"
+     ],
+     [
+      "zu",
+      "Dativ",
+      "zur Anmeldung"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Wegen des Kostenanstiegs wurde das Projekt gestoppt.",
+    "en": "Because of the rise in costs the project was stopped."
+   },
+   {
+    "de": "Nach Abschluss der Arbeiten öffnet die Straße wieder.",
+    "en": "After the works are completed the road will reopen."
+   },
+   {
+    "de": "Bei Nichtzahlung erlischt der Anspruch.",
+    "en": "In the event of non-payment the claim lapses."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "wegen dem Wetter (geschrieben)",
+    "right": "wegen des Wetters",
+    "why": {
+     "de": "Gesprochen hört man den Dativ ständig, geschrieben verlangt wegen den Genitiv.",
+     "en": "The dative is everywhere in speech; in writing wegen takes the genitive."
+    }
+   },
+   {
+    "wrong": "Zur Verbesserung der Durchführung der Maßnahme …",
+    "right": "Damit die Maßnahme besser durchgeführt wird, …",
+    "why": {
+     "de": "Drei Nomen hintereinander sind kein Stil, sondern ein Fehler, den man noch retten kann.",
+     "en": "Three nouns in a row is not a style, it is a mistake you can still fix."
+    }
+   }
+  ]
+ },
+ {
+  "key": "passiversatz",
+  "title": {
+   "de": "Passiv-Ersatzformen",
+   "en": "Alternatives to the passive"
+  },
+  "summary": {
+   "de": "man, sich lassen, sein + zu: dasselbe sagen, ohne Passiv zu schreiben.",
+   "en": "man, sich lassen, sein + zu: saying the same thing without a passive."
+  },
+  "icon": "🔁",
+  "level": "B2",
+  "order": 36,
+  "body": {
+   "en": [
+    "B1 teaches the passive. B2 teaches the three ways German avoids it, all of which are more common in speech and more natural in writing.",
+    "man + active is the everyday one: \"Das macht man so\" instead of \"Das wird so gemacht\". It is unmarked and almost always available.",
+    "sich lassen says something can be done: \"Das lässt sich reparieren\" = \"Das kann repariert werden\". Only this one carries the sense of possibility, which is why it is not simply a stylistic variant.",
+    "sein + zu + infinitive carries either possibility or obligation, and context decides which: \"Die Rechnung ist bis Freitag zu bezahlen\" is an instruction; \"Das ist leicht zu erklären\" is a possibility.",
+    "An adjective in -bar does the same job in one word: machbar, lesbar, erreichbar, vermeidbar. \"Der Fehler war vermeidbar\" is tighter than \"hätte vermieden werden können\"."
+   ],
+   "de": [
+    "B1 lehrt das Passiv. B2 lehrt die drei Wege, es zu umgehen - alle drei häufiger im Gespräch und natürlicher im Text.",
+    "man + Aktiv ist der Alltagsfall: \"Das macht man so\" statt \"Das wird so gemacht\".",
+    "sich lassen drückt Möglichkeit aus: \"Das lässt sich reparieren\" = \"Das kann repariert werden\". Nur diese Form trägt die Möglichkeit mit, sie ist also keine bloße Stilvariante.",
+    "sein + zu + Infinitiv trägt Möglichkeit oder Notwendigkeit, der Kontext entscheidet: \"Die Rechnung ist bis Freitag zu bezahlen\" ist eine Anweisung, \"Das ist leicht zu erklären\" eine Möglichkeit.",
+    "Ein Adjektiv auf -bar leistet dasselbe in einem Wort: machbar, lesbar, erreichbar, vermeidbar."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Vier Wege, dasselbe zu sagen",
+     "en": "Four ways to say the same thing"
+    },
+    "head": [
+     "Form",
+     "Beispiel",
+     "Sinn"
+    ],
+    "rows": [
+     [
+      "Passiv",
+      "Das kann repariert werden.",
+      "neutral"
+     ],
+     [
+      "man",
+      "Das kann man reparieren.",
+      "alltäglich"
+     ],
+     [
+      "sich lassen",
+      "Das lässt sich reparieren.",
+      "Möglichkeit"
+     ],
+     [
+      "sein + zu",
+      "Das ist zu reparieren.",
+      "Möglichkeit oder Pflicht"
+     ],
+     [
+      "-bar",
+      "Das ist reparierbar.",
+      "Möglichkeit, knapp"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Der Antrag lässt sich auch online stellen.",
+    "en": "The application can also be made online."
+   },
+   {
+    "de": "Die Unterlagen sind bis Montag einzureichen.",
+    "en": "The documents are to be submitted by Monday."
+   },
+   {
+    "de": "So etwas macht man hier nicht.",
+    "en": "That sort of thing is not done here."
+   },
+   {
+    "de": "Der Fehler wäre vermeidbar gewesen.",
+    "en": "The mistake would have been avoidable."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Das lässt sich gemacht werden.",
+    "right": "Das lässt sich machen.",
+    "why": {
+     "de": "Nach sich lassen steht der aktive Infinitiv, kein Passiv.",
+     "en": "sich lassen is followed by an active infinitive, not a passive one."
+    }
+   },
+   {
+    "wrong": "Die Rechnung ist zu bezahlen werden.",
+    "right": "Die Rechnung ist zu bezahlen.",
+    "why": {
+     "de": "sein + zu + Infinitiv ist bereits passivisch; werden wäre doppelt gemoppelt.",
+     "en": "sein + zu + infinitive is already passive in sense; werden doubles it."
+    }
+   }
+  ]
+ },
+ {
+  "key": "partizipial",
+  "title": {
+   "de": "Partizipien als Attribut",
+   "en": "Participles as attributes"
+  },
+  "summary": {
+   "de": "Ein Relativsatz, zusammengefaltet und vor das Nomen geschoben.",
+   "en": "A relative clause, folded up and pushed in front of the noun."
+  },
+  "icon": "📎",
+  "level": "B2",
+  "order": 37,
+  "body": {
+   "en": [
+    "German can take a relative clause and put it in front of the noun as an adjective. \"Die Kosten, die stark gestiegen sind\" becomes \"die stark gestiegenen Kosten\". This is everywhere in written German and almost absent from speech.",
+    "Partizip I (stem + -end) is active and ongoing: \"die steigenden Kosten\" = costs that are rising. Partizip II is passive or completed: \"die gestiegenen Kosten\" = costs that have risen; \"der geprüfte Antrag\" = the application that has been checked.",
+    "The participle takes a normal adjective ending, which is why this is worth learning only once the adjective endings are automatic.",
+    "The phrase can grow: \"die in den letzten Jahren stark gestiegenen Kosten\". When reading, the trick is to find the noun first and then read backwards - everything between the article and the noun describes it.",
+    "zu + Partizip I carries obligation or possibility, the same as sein + zu: \"die zu bezahlende Rechnung\" is the bill that has to be paid."
+   ],
+   "de": [
+    "Deutsch kann einen Relativsatz zusammenfalten und als Attribut vor das Nomen stellen: aus \"Die Kosten, die stark gestiegen sind\" wird \"die stark gestiegenen Kosten\". Im Schriftdeutsch ist das überall, im Gespräch fast nie.",
+    "Das Partizip I (Stamm + -end) ist aktiv und laufend: \"die steigenden Kosten\". Das Partizip II ist passiv oder abgeschlossen: \"die gestiegenen Kosten\", \"der geprüfte Antrag\".",
+    "Das Partizip bekommt eine normale Adjektivendung - deshalb lohnt dieses Thema erst, wenn die Endungen sitzen.",
+    "Die Phrase kann wachsen: \"die in den letzten Jahren stark gestiegenen Kosten\". Beim Lesen sucht man zuerst das Nomen und liest dann rückwärts.",
+    "zu + Partizip I trägt Pflicht oder Möglichkeit wie sein + zu: \"die zu bezahlende Rechnung\"."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Relativsatz und Partizip",
+     "en": "Relative clause and participle"
+    },
+    "head": [
+     "Relativsatz",
+     "Partizipialattribut"
+    ],
+    "rows": [
+     [
+      "die Kosten, die steigen",
+      "die steigenden Kosten"
+     ],
+     [
+      "die Kosten, die gestiegen sind",
+      "die gestiegenen Kosten"
+     ],
+     [
+      "der Antrag, der geprüft wurde",
+      "der geprüfte Antrag"
+     ],
+     [
+      "das Kind, das weint",
+      "das weinende Kind"
+     ],
+     [
+      "die Rechnung, die bezahlt werden muss",
+      "die zu bezahlende Rechnung"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Welches Partizip?",
+     "en": "Which participle?"
+    },
+    "head": [
+     "Partizip",
+     "Bildung",
+     "Sinn"
+    ],
+    "rows": [
+     [
+      "Partizip I",
+      "Stamm + -end",
+      "aktiv, läuft gerade"
+     ],
+     [
+      "Partizip II",
+      "ge- … -t / -en",
+      "passiv oder abgeschlossen"
+     ],
+     [
+      "zu + Partizip I",
+      "zu … -end",
+      "muss / kann getan werden"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Die in der Studie genannten Zahlen sind veraltet.",
+    "en": "The figures named in the study are out of date."
+   },
+   {
+    "de": "Das seit Jahren leerstehende Gebäude wird abgerissen.",
+    "en": "The building, empty for years, is being demolished."
+   },
+   {
+    "de": "Die noch zu klärende Frage ist die Finanzierung.",
+    "en": "The question still to be clarified is the funding."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "die gestiegende Kosten",
+    "right": "die gestiegenen Kosten",
+    "why": {
+     "de": "Hier ist das Partizip II gemeint - gestiegen, nicht steigend -, plus Adjektivendung.",
+     "en": "The Partizip II is meant here - gestiegen, not steigend - plus the adjective ending."
+    }
+   },
+   {
+    "wrong": "das weinend Kind",
+    "right": "das weinende Kind",
+    "why": {
+     "de": "Das Partizip steht vor dem Nomen und braucht die Adjektivendung.",
+     "en": "Before a noun the participle needs the adjective ending."
+    }
+   }
+  ]
+ },
+ {
+  "key": "modalpartikeln",
+  "title": {
+   "de": "Modalpartikeln: doch, ja, mal, eben",
+   "en": "Modal particles: doch, ja, mal, eben"
+  },
+  "summary": {
+   "de": "Kleine Wörter ohne Übersetzung, die den Ton eines Satzes tragen.",
+   "en": "Small untranslatable words that carry a sentence’s tone."
+  },
+  "icon": "💬",
+  "level": "B2",
+  "order": 38,
+  "body": {
+   "en": [
+    "These words have no dictionary meaning in this use and cannot be translated one-for-one. What they carry is attitude - surprise, impatience, shared knowledge, resignation - and German without them sounds correct and faintly robotic.",
+    "doch contradicts an expectation or softens a request. \"Komm doch mit\" is warmer than \"Komm mit\". \"Das weißt du doch\" means you knew this already.",
+    "ja marks something as known to both of you: \"Das ist ja interessant\" (I did not expect it), \"Du weißt ja, wie das ist\" (we both know).",
+    "mal makes a request small and casual: \"Kannst du mal helfen?\" is a favour; without mal it is closer to an instruction. \"Moment mal\" buys you a second.",
+    "eben and halt express resignation - this is how things are: \"Das ist eben so.\" eben is standard everywhere; halt is southern and now common in speech generally.",
+    "They sit in the middle field, after the subject and the verb, never at the front. Two can stack in a fixed order: \"Mach das doch mal\", not \"mal doch\"."
+   ],
+   "de": [
+    "Diese Wörter haben in dieser Verwendung keine Wörterbuchbedeutung und lassen sich nicht eins zu eins übersetzen. Sie tragen Haltung - Überraschung, Ungeduld, geteiltes Wissen, Resignation. Deutsch ohne sie klingt korrekt und ein wenig mechanisch.",
+    "doch widerspricht einer Erwartung oder macht eine Bitte weicher: \"Komm doch mit\" ist wärmer als \"Komm mit\".",
+    "ja markiert Bekanntes: \"Das ist ja interessant\" (das hatte ich nicht erwartet), \"Du weißt ja, wie das ist\".",
+    "mal macht eine Bitte klein: \"Kannst du mal helfen?\" ist eine Gefälligkeit, ohne mal fast eine Anweisung.",
+    "eben und halt drücken Resignation aus: \"Das ist eben so.\" eben gilt überall, halt kommt aus dem Süden und ist inzwischen allgemein gesprochen.",
+    "Sie stehen im Mittelfeld, hinter Subjekt und Verb, nie am Satzanfang. Zwei können sich stapeln, in fester Reihenfolge: \"Mach das doch mal\", nicht \"mal doch\"."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Was sie tragen",
+     "en": "What they carry"
+    },
+    "head": [
+     "Partikel",
+     "Haltung",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "doch",
+      "Widerspruch, weiche Bitte",
+      "Komm doch mit!"
+     ],
+     [
+      "ja",
+      "das wissen wir beide",
+      "Du weißt ja, wie es ist."
+     ],
+     [
+      "mal",
+      "kurz, unverbindlich",
+      "Kannst du mal helfen?"
+     ],
+     [
+      "eben / halt",
+      "so ist es nun einmal",
+      "Das ist eben so."
+     ],
+     [
+      "denn",
+      "echtes Interesse in der Frage",
+      "Wo warst du denn?"
+     ],
+     [
+      "wohl",
+      "Vermutung",
+      "Er hat es wohl vergessen."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Setz dich doch!",
+    "en": "Do sit down!"
+   },
+   {
+    "de": "Das war ja klar.",
+    "en": "Well, that was obvious."
+   },
+   {
+    "de": "Warte mal kurz.",
+    "en": "Hang on a second."
+   },
+   {
+    "de": "Dann machen wir es eben anders.",
+    "en": "Then we will just do it differently."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Doch komm mit!",
+    "right": "Komm doch mit!",
+    "why": {
+     "de": "Modalpartikeln stehen nie auf Position 1.",
+     "en": "Modal particles never stand in first position."
+    }
+   },
+   {
+    "wrong": "Kannst du helfen mal?",
+    "right": "Kannst du mal helfen?",
+    "why": {
+     "de": "Die Partikel steht im Mittelfeld, vor dem Infinitiv.",
+     "en": "The particle goes in the middle field, before the infinitive."
+    }
+   }
+  ]
+ },
+ {
+  "key": "konzessiv",
+  "title": {
+   "de": "Einräumen auf hohem Niveau",
+   "en": "Conceding at a higher register"
+  },
+  "summary": {
+   "de": "so … auch, mag … auch, wenngleich: obwohl in gehobener Form.",
+   "en": "so … auch, mag … auch, wenngleich: obwohl in a formal register."
+  },
+  "icon": "🌀",
+  "level": "C1",
+  "order": 39,
+  "body": {
+   "en": [
+    "German has a whole shelf of concessive constructions above obwohl, and C1 texts use them constantly. They all mean roughly \"even though\", and they differ in register and in how emphatic the concession is.",
+    "so + adjective + auch is the most useful: \"So teuer die Lösung auch ist, sie ist die einzige.\" The adjective moves to the front and the clause keeps verb-final order.",
+    "mögen + auch concedes a point before overriding it: \"Das mag stimmen, ändert aber nichts.\" This one is common in speech too and is worth producing, not just recognising.",
+    "wenngleich, wiewohl and obschon are written-only and interchangeable with obwohl. Using one in conversation sounds like reading aloud.",
+    "auch wenn differs from wenn auch: \"Auch wenn es regnet\" is conditional-concessive (even if it rains), while \"Wenn es auch regnet\" concedes a fact. In practice auch wenn is the safe one.",
+    "The emphatic forms use a w-word plus auch immer: wer auch immer, was auch immer, wie auch immer. \"Wie auch immer die Entscheidung ausfällt, wir sind vorbereitet.\""
+   ],
+   "de": [
+    "Oberhalb von obwohl hat das Deutsche ein ganzes Regal konzessiver Konstruktionen, und C1-Texte nutzen sie ständig. Sie bedeuten alle ungefähr \"obwohl\" und unterscheiden sich in Register und Nachdruck.",
+    "so + Adjektiv + auch ist die nützlichste: \"So teuer die Lösung auch ist, sie ist die einzige.\" Das Adjektiv rückt nach vorn, der Satz bleibt verbletzt.",
+    "mögen + auch räumt ein, um dann zu widersprechen: \"Das mag stimmen, ändert aber nichts.\" Diese Form hört man auch im Gespräch.",
+    "wenngleich, wiewohl und obschon sind schriftlich und mit obwohl austauschbar. Gesprochen klingen sie wie vorgelesen.",
+    "auch wenn und wenn auch unterscheiden sich: \"Auch wenn es regnet\" ist konditional-konzessiv, \"Wenn es auch regnet\" räumt eine Tatsache ein. In der Praxis ist auch wenn die sichere Wahl.",
+    "Nachdrücklich wird es mit W-Wort plus auch immer: wer auch immer, was auch immer, wie auch immer."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Konzessive Formen",
+     "en": "Concessive forms"
+    },
+    "head": [
+     "Form",
+     "Register",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "obwohl",
+      "neutral",
+      "Obwohl es teuer ist, …"
+     ],
+     [
+      "so … auch",
+      "gehoben, gesprochen möglich",
+      "So teuer es auch ist, …"
+     ],
+     [
+      "mag … auch",
+      "gesprochen und geschrieben",
+      "Das mag teuer sein, aber …"
+     ],
+     [
+      "wenngleich",
+      "nur schriftlich",
+      "Das Ergebnis ist gut, wenngleich spät."
+     ],
+     [
+      "auch wenn",
+      "neutral, konditional",
+      "Auch wenn es regnet, gehen wir."
+     ],
+     [
+      "wie auch immer",
+      "nachdrücklich",
+      "Wie auch immer es ausgeht …"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "So überzeugend das Argument auch klingt, es beruht auf einer falschen Prämisse.",
+    "en": "Convincing as the argument sounds, it rests on a false premise."
+   },
+   {
+    "de": "Das mag im Einzelfall zutreffen, lässt sich aber nicht verallgemeinern.",
+    "en": "That may be true in an individual case but cannot be generalised."
+   },
+   {
+    "de": "Die Zahlen sind belastbar, wenngleich mit Einschränkungen.",
+    "en": "The figures are robust, albeit with qualifications."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "So teuer es ist auch, …",
+    "right": "So teuer es auch ist, …",
+    "why": {
+     "de": "auch steht vor dem Verb, nicht dahinter; der Nebensatz bleibt verbletzt.",
+     "en": "auch goes before the verb, not after; the clause stays verb-final."
+    }
+   },
+   {
+    "wrong": "Obwohl wenngleich das stimmt, …",
+    "right": "Wenngleich das stimmt, …",
+    "why": {
+     "de": "wenngleich ersetzt obwohl, es ergänzt es nicht.",
+     "en": "wenngleich replaces obwohl; it does not supplement it."
+    }
+   }
+  ]
+ },
+ {
+  "key": "funktionsverben",
+  "title": {
+   "de": "Funktionsverbgefüge",
+   "en": "Light-verb constructions"
+  },
+  "summary": {
+   "de": "in Betracht ziehen, zur Anwendung kommen: wo das Nomen die Arbeit macht.",
+   "en": "in Betracht ziehen, zur Anwendung kommen: where the noun does the work."
+  },
+  "icon": "⚙️",
+  "level": "C1",
+  "order": 40,
+  "body": {
+   "en": [
+    "A Funktionsverbgefüge is a fixed pairing of a near-empty verb with a noun that carries the meaning: etwas in Betracht ziehen (= erwägen), zur Anwendung kommen (= angewendet werden), eine Entscheidung treffen (= entscheiden).",
+    "The verb is doing grammatical work only - ziehen here has nothing to do with pulling - which is why these cannot be worked out and have to be learnt as units.",
+    "They are the backbone of official and academic German. A Bescheid will say \"Der Antrag kommt nicht in Betracht\", never \"Wir erwägen den Antrag nicht\".",
+    "Many of them carry a passive sense without using a passive: \"zur Anwendung kommen\", \"in Kraft treten\", \"Berücksichtigung finden\". That is part of why officialdom likes them - nobody has to be named as the actor.",
+    "For your own writing the rule is simple: one or two give a text the right register; a paragraph of them is unreadable, and examiners mark it as such. In a Schreiben task, pick the two that fit and write the rest with verbs."
+   ],
+   "de": [
+    "Ein Funktionsverbgefüge verbindet ein fast bedeutungsleeres Verb mit einem Nomen, das die Bedeutung trägt: etwas in Betracht ziehen (= erwägen), zur Anwendung kommen (= angewendet werden), eine Entscheidung treffen (= entscheiden).",
+    "Das Verb leistet nur noch Grammatik - ziehen hat hier nichts mit Ziehen zu tun -, deshalb lassen sich diese Fügungen nicht erschließen, sondern nur als Einheit lernen.",
+    "Sie sind das Rückgrat des Amts- und Wissenschaftsdeutschen. Ein Bescheid schreibt \"Der Antrag kommt nicht in Betracht\", nie \"Wir erwägen den Antrag nicht\".",
+    "Viele tragen passivischen Sinn ohne Passiv: \"zur Anwendung kommen\", \"in Kraft treten\", \"Berücksichtigung finden\". Auch deshalb mag die Verwaltung sie: niemand muss als Handelnder genannt werden.",
+    "Für eigene Texte gilt: ein, zwei geben das richtige Register, ein ganzer Absatz davon ist unlesbar. Wähle zwei passende und schreibe den Rest mit Verben."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Häufige Fügungen",
+     "en": "Common constructions"
+    },
+    "head": [
+     "Funktionsverbgefüge",
+     "einfaches Verb"
+    ],
+    "rows": [
+     [
+      "in Betracht ziehen",
+      "erwägen"
+     ],
+     [
+      "zur Anwendung kommen",
+      "angewendet werden"
+     ],
+     [
+      "in Kraft treten",
+      "gelten"
+     ],
+     [
+      "Berücksichtigung finden",
+      "berücksichtigt werden"
+     ],
+     [
+      "zur Verfügung stellen",
+      "bereitstellen"
+     ],
+     [
+      "Kritik üben an",
+      "kritisieren"
+     ],
+     [
+      "eine Rolle spielen",
+      "wichtig sein"
+     ],
+     [
+      "in Anspruch nehmen",
+      "nutzen"
+     ],
+     [
+      "zum Ausdruck bringen",
+      "ausdrücken"
+     ],
+     [
+      "Abstand nehmen von",
+      "etwas nicht tun"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Welches Verb?",
+     "en": "Which verb?"
+    },
+    "head": [
+     "Nomen",
+     "Verb",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "Betracht",
+      "ziehen / kommen",
+      "in Betracht ziehen"
+     ],
+     [
+      "Anwendung",
+      "kommen / finden",
+      "zur Anwendung kommen"
+     ],
+     [
+      "Kraft",
+      "treten / setzen",
+      "in Kraft treten"
+     ],
+     [
+      "Kritik",
+      "üben",
+      "Kritik üben an"
+     ],
+     [
+      "Abstand",
+      "nehmen",
+      "Abstand nehmen von"
+     ],
+     [
+      "Ausdruck",
+      "bringen / finden",
+      "zum Ausdruck bringen"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Diese Möglichkeit sollte man ernsthaft in Betracht ziehen.",
+    "en": "This option should be seriously considered."
+   },
+   {
+    "de": "Die neue Regelung tritt zum 1. Januar in Kraft.",
+    "en": "The new rule comes into force on 1 January."
+   },
+   {
+    "de": "Die Behörde hat an dem Verfahren Kritik geübt.",
+    "en": "The authority criticised the procedure."
+   },
+   {
+    "de": "Von einer Klage haben wir Abstand genommen.",
+    "en": "We refrained from taking legal action."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "in Betracht nehmen",
+    "right": "in Betracht ziehen",
+    "why": {
+     "de": "Das Verb ist festgelegt. Ein anderes, auch ein sinnverwandtes, ist falsch.",
+     "en": "The verb is fixed. Another one, even a near-synonym, is wrong."
+    }
+   },
+   {
+    "wrong": "Kritik machen an",
+    "right": "Kritik üben an",
+    "why": {
+     "de": "machen passt fast nie; die Fügung verlangt üben.",
+     "en": "machen almost never fits; this construction takes üben."
+    }
+   }
+  ]
+ },
+ {
+  "key": "wortbildung",
+  "title": {
+   "de": "Wortbildung: raten statt nachschlagen",
+   "en": "Word formation: guessing instead of looking up"
+  },
+  "summary": {
+   "de": "Vorsilben und Endungen tragen Bedeutung. Wer sie kennt, braucht das Wörterbuch seltener.",
+   "en": "Prefixes and suffixes carry meaning. Knowing them means reaching for the dictionary less."
+  },
+  "icon": "🧱",
+  "level": "C1",
+  "order": 41,
+  "body": {
+   "en": [
+    "At C1 you will meet words nobody taught you, in a text you cannot pause. The only workable strategy is to read the parts, and German is unusually generous about this because its word formation is regular.",
+    "Verb prefixes shift meaning predictably. ver- often means wrong or away (sich verlaufen, verlernen); ent- means removal or beginning (entfernen, entstehen); zer- means to pieces (zerbrechen); be- makes an intransitive verb take an object (antworten → beantworten).",
+    "Noun suffixes give you the gender for free: -ung, -heit, -keit, -schaft, -ion, -tät, -ur are die; -chen, -lein, -tum, -ment are das; -er, -ling, -ismus are der.",
+    "Adjective suffixes tell you what kind of claim is being made. -bar and -lich mean possible (machbar, verständlich); -los means without (arbeitslos); -arm and -reich mean low and high in (kalorienarm, erfolgreich); -mäßig means in terms of.",
+    "Compounds are read right to left: the last element is the thing, the rest describe it. Arbeitslosenversicherung is a Versicherung. Knowing that, you can hold the word in your head without decoding all of it.",
+    "The limit: ver- also just means nothing in particular (verstehen, versprechen), and a guess is a hypothesis to check against the sentence. The skill is guessing fast and dropping the guess when the sentence disagrees."
+   ],
+   "de": [
+    "Auf C1 begegnen dir Wörter, die dir niemand beigebracht hat, in Texten, die du nicht anhalten kannst. Die einzige brauchbare Strategie ist, die Teile zu lesen - und die deutsche Wortbildung ist dafür ungewöhnlich verlässlich.",
+    "Verbvorsilben verschieben die Bedeutung regelhaft: ver- oft falsch oder weg (sich verlaufen, verlernen); ent- Entfernung oder Beginn (entfernen, entstehen); zer- in Stücke (zerbrechen); be- macht aus einem intransitiven Verb ein transitives (antworten → beantworten).",
+    "Nomenendungen schenken dir das Genus: -ung, -heit, -keit, -schaft, -ion, -tät, -ur sind die; -chen, -lein, -tum, -ment sind das; -er, -ling, -ismus sind der.",
+    "Adjektivendungen sagen, welche Art von Behauptung aufgestellt wird: -bar und -lich für Möglichkeit, -los für ohne, -arm und -reich für wenig und viel, -mäßig für \"was … betrifft\".",
+    "Komposita liest man von rechts: das letzte Glied ist die Sache, der Rest beschreibt sie. Eine Arbeitslosenversicherung ist eine Versicherung.",
+    "Die Grenze: ver- heißt auch oft gar nichts Bestimmtes (verstehen, versprechen). Eine Ableitung ist eine Hypothese, die der Satz bestätigen muss."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Verbvorsilben",
+     "en": "Verb prefixes"
+    },
+    "head": [
+     "Vorsilbe",
+     "Sinn",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "ver-",
+      "falsch, weg, Ende",
+      "sich verlaufen, verlernen"
+     ],
+     [
+      "ent-",
+      "weg, Beginn",
+      "entfernen, entstehen"
+     ],
+     [
+      "zer-",
+      "in Stücke",
+      "zerbrechen, zerstören"
+     ],
+     [
+      "be-",
+      "macht transitiv",
+      "beantworten, besprechen"
+     ],
+     [
+      "miss-",
+      "falsch, schlecht",
+      "missverstehen"
+     ],
+     [
+      "über-",
+      "zu viel, darüber",
+      "überschätzen, überdenken"
+     ],
+     [
+      "unter-",
+      "zu wenig",
+      "unterschätzen"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Endungen und Genus",
+     "en": "Suffixes and gender"
+    },
+    "head": [
+     "Endung",
+     "Artikel",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "-ung, -heit, -keit",
+      "die",
+      "die Zuspitzung"
+     ],
+     [
+      "-schaft, -ion, -tät, -ur",
+      "die",
+      "die Rentabilität"
+     ],
+     [
+      "-chen, -lein, -tum, -ment",
+      "das",
+      "das Eigentum"
+     ],
+     [
+      "-er, -ling, -ismus",
+      "der",
+      "der Prüfling, der Kapitalismus"
+     ],
+     [
+      "-bar, -lich",
+      "Adjektiv: möglich",
+      "vermeidbar, verständlich"
+     ],
+     [
+      "-los, -arm, -reich",
+      "Adjektiv: ohne / wenig / viel",
+      "folgenlos, kalorienarm"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Der Schaden war vermeidbar - also hätte man ihn vermeiden können.",
+    "en": "The damage was avoidable - so it could have been avoided."
+   },
+   {
+    "de": "Die Maßnahme blieb folgenlos.",
+    "en": "The measure had no consequences."
+   },
+   {
+    "de": "Wir sollten die Zahlen nicht überschätzen.",
+    "en": "We should not overestimate the figures."
+   },
+   {
+    "de": "Er hat sich im Datum vertan.",
+    "en": "He got the date wrong."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich habe die Frage geantwortet.",
+    "right": "Ich habe die Frage beantwortet.",
+    "why": {
+     "de": "antworten ist intransitiv; be- macht daraus ein Verb mit Akkusativobjekt.",
+     "en": "antworten is intransitive; be- turns it into a verb with an accusative object."
+    }
+   },
+   {
+    "wrong": "Das Ergebnis war unterschätzt. (gemeint: zu niedrig angesetzt)",
+    "right": "Das Ergebnis wurde unterschätzt.",
+    "why": {
+     "de": "unterschätzen ist ein Vorgang und braucht hier das Vorgangspassiv.",
+     "en": "unterschätzen is a process and needs the process passive here."
+    }
+   }
+  ]
+ },
+ {
+  "key": "textkohaesion",
+  "title": {
+   "de": "Textzusammenhang",
+   "en": "Holding a text together"
+  },
+  "summary": {
+   "de": "Verweisen, wieder aufnehmen, voranstellen: wie aus Sätzen ein Text wird.",
+   "en": "Referring back, taking up, fronting: how sentences become a text."
+  },
+  "icon": "🧵",
+  "level": "C1",
+  "order": 42,
+  "body": {
+   "en": [
+    "At C1 the complaint on a Schreiben script is rarely about grammar. It is that the text is a list of correct sentences rather than an argument, and the fix is cohesion.",
+    "The main device is taking up what you just said with a different word. Having written \"Die Kosten sind gestiegen\", you continue with \"Diese Entwicklung\" or \"Dieser Anstieg\" - not \"Das\". A pronoun points; a noun phrase also interprets, and that is where the argument lives.",
+    "da-compounds carry the reference without repeating the phrase: dadurch, dabei, darin, davon, demgegenüber, insofern. \"Darin liegt das eigentliche Problem\" is tighter than repeating the clause.",
+    "The first position in a German sentence is where you put the link to what came before, not the new information. Starting a sentence with \"Aus diesem Grund\", \"Demgegenüber\" or \"Was die Kosten betrifft\" tells the reader where they are before you say anything new.",
+    "Keep the thread in one place. If three consecutive sentences start with \"Ich\", the text reads as a list; varying the first position without changing the content is most of what makes a C1 text feel written rather than assembled.",
+    "Signposting is cheap and works: \"Dazu drei Punkte\", \"Zunächst\", \"Damit komme ich zum zweiten Einwand\". Examiners can follow a signposted argument even when a sentence inside it goes wrong."
+   ],
+   "de": [
+    "Auf C1 betrifft die Kritik an einem Schreiben selten die Grammatik. Sie lautet, der Text sei eine Reihe richtiger Sätze und keine Argumentation - und dagegen hilft Kohäsion.",
+    "Das wichtigste Mittel ist die Wiederaufnahme mit einem anderen Wort. Nach \"Die Kosten sind gestiegen\" folgt \"Diese Entwicklung\" oder \"Dieser Anstieg\", nicht \"Das\". Ein Pronomen zeigt nur, eine Nominalphrase deutet zugleich.",
+    "da-Komposita tragen den Bezug, ohne die Phrase zu wiederholen: dadurch, dabei, darin, davon, demgegenüber, insofern.",
+    "Die erste Position im deutschen Satz gehört dem Anschluss an das Vorherige, nicht der neuen Information: \"Aus diesem Grund\", \"Demgegenüber\", \"Was die Kosten betrifft\".",
+    "Halte den Faden an einer Stelle. Drei Sätze hintereinander mit \"Ich\" lesen sich wie eine Liste.",
+    "Gliederungssignale sind billig und wirken: \"Dazu drei Punkte\", \"Zunächst\", \"Damit komme ich zum zweiten Einwand\"."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Wiederaufnahme",
+     "en": "Taking up what came before"
+    },
+    "head": [
+     "Vorher",
+     "Schwach",
+     "Besser"
+    ],
+    "rows": [
+     [
+      "Die Kosten sind gestiegen.",
+      "Das ist ein Problem.",
+      "Dieser Anstieg ist das eigentliche Problem."
+     ],
+     [
+      "Viele kündigen.",
+      "Es liegt am Gehalt.",
+      "Diese Abwanderung liegt am Gehalt."
+     ],
+     [
+      "Die Studie ist alt.",
+      "Darum ist sie schlecht.",
+      "Schon deshalb ist ihre Aussagekraft begrenzt."
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Anschluss auf Position 1",
+     "en": "Links in first position"
+    },
+    "head": [
+     "Ausdruck",
+     "Funktion"
+    ],
+    "rows": [
+     [
+      "Aus diesem Grund",
+      "Folge"
+     ],
+     [
+      "Demgegenüber",
+      "Gegensatz"
+     ],
+     [
+      "Darüber hinaus",
+      "Ergänzung"
+     ],
+     [
+      "Was … betrifft",
+      "Themenwechsel"
+     ],
+     [
+      "Insofern",
+      "Einschränkung des Vorigen"
+     ],
+     [
+      "Damit komme ich zu …",
+      "Gliederung"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Die Zahlen stammen von 2019. Schon deshalb ist ihre Aussagekraft begrenzt.",
+    "en": "The figures date from 2019. For that reason alone their value is limited."
+   },
+   {
+    "de": "Darin liegt der eigentliche Einwand.",
+    "en": "Therein lies the real objection."
+   },
+   {
+    "de": "Was die Kosten betrifft, so sind sie kalkulierbar.",
+    "en": "As far as the costs are concerned, they are calculable."
+   },
+   {
+    "de": "Demgegenüber steht ein Argument, das selten genannt wird.",
+    "en": "Against that stands an argument that is rarely mentioned."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Die Kosten sind gestiegen. Das ist schlecht. Das muss man ändern.",
+    "right": "Die Kosten sind gestiegen. Dieser Anstieg ist auf Dauer nicht tragbar.",
+    "why": {
+     "de": "Eine Kette aus \"das\" zeigt nur zurück und deutet nichts. Die Nominalphrase trägt das Argument.",
+     "en": "A chain of \"das\" only points back and interprets nothing. The noun phrase carries the argument."
+    }
+   },
+   {
+    "wrong": "Ich finde das gut. Ich habe drei Gründe. Ich fange mit dem ersten an.",
+    "right": "Dafür sprechen drei Gründe. Der erste betrifft …",
+    "why": {
+     "de": "Drei Sätze mit \"Ich\" auf Position 1 lesen sich als Liste, nicht als Argument.",
+     "en": "Three sentences starting with \"Ich\" read as a list, not an argument."
+    }
+   }
+  ]
  }
 ]

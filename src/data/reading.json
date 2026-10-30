@@ -1217,5 +1217,255 @@
     }
    }
   ]
+ },
+ {
+  "id": "l.b2.1",
+  "module": "lesen",
+  "teil": 4,
+  "level": "B2",
+  "title": {
+   "de": "Teil 4: Vier Meinungen zur Vier-Tage-Woche",
+   "en": "Part 4: four views on the four-day week"
+  },
+  "instructions": {
+   "de": "Lies die vier Beiträge. Welche Person sagt was?",
+   "en": "Read the four contributions. Which person says what?"
+  },
+  "minutes": 18,
+  "texts": [
+   {
+    "heading": "Annika, Personalleiterin",
+    "body": "Wir haben die Vier-Tage-Woche achtzehn Monate lang erprobt, bei gleichem Gehalt. Die Produktivität ist nicht gesunken, das stimmt. Was in den Berichten selten steht: Sie ist auch nicht gestiegen. Was tatsächlich gesunken ist, sind die Krankheitstage, und zwar deutlich. Ob das die Entlastung ist oder nur, dass man einen Arzttermin jetzt am freien Freitag unterbringt, lässt sich aus unseren Zahlen nicht beantworten. Ich halte das Modell für richtig, aber ich werbe nicht mehr damit, dass es sich rechnet."
+   },
+   {
+    "heading": "Bernd, Schichtleiter in der Pflege",
+    "body": "Die Debatte wird von Leuten geführt, die am Schreibtisch sitzen. Bei uns in der Pflege ist eine Schicht eine Schicht, und wenn jemand einen Tag weniger kommt, fehlt diese Person am Bett. Vier Tage hieße bei uns entweder längere Schichten, was niemand will, oder mehr Personal, das es nicht gibt. Ich bin nicht dagegen. Ich sage nur, dass die Branche, die die Erschöpfung am dringendsten loswerden müsste, diejenige ist, in der das Modell am wenigsten funktioniert."
+   },
+   {
+    "heading": "Cem, selbstständiger Entwickler",
+    "body": "Ich arbeite seit drei Jahren vier Tage und würde nicht zurück. Aber ich täusche mich nicht darüber, warum es geht: Ich entscheide selbst, was liegen bleibt. Ein Angestellter kann das nicht. Wenn man das Modell einführt, ohne gleichzeitig Aufgaben zu streichen, verteilt man dieselbe Arbeit auf weniger Tage und nennt es Fortschritt. Die Firmen, bei denen es gescheitert ist, haben fast alle genau das gemacht."
+   },
+   {
+    "heading": "Dorothea, Wirtschaftsforscherin",
+    "body": "Die vorliegenden Studien sind methodisch schwach. Firmen, die freiwillig an so einem Versuch teilnehmen, sind nicht repräsentativ: Sie haben meistens schon vorher gut funktioniert. Ich erwarte, dass das Modell sich in Teilen der Wirtschaft durchsetzt und in anderen nicht, und dass wir in zehn Jahren über eine Spaltung des Arbeitsmarktes reden statt über Produktivität. Das ist keine Ablehnung, sondern eine Vorhersage."
+   }
+  ],
+  "items": [
+   {
+    "id": "r.l.b2.1.01",
+    "prompt": "Wer sagt, dass die eigenen Zahlen eine wichtige Frage nicht beantworten können?",
+    "promptEn": "Who says their own figures cannot answer an important question?",
+    "options": [
+     "Annika",
+     "Bernd",
+     "Cem",
+     "Dorothea"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Annika: \"… lässt sich aus unseren Zahlen nicht beantworten.\"",
+     "en": "Annika: \"… cannot be answered from our figures.\""
+    }
+   },
+   {
+    "id": "r.l.b2.1.02",
+    "prompt": "Wer weist darauf hin, dass gerade die bedürftigste Branche am wenigsten profitiert?",
+    "promptEn": "Who points out that the neediest sector benefits least?",
+    "options": [
+     "Bernd",
+     "Annika",
+     "Cem",
+     "Dorothea"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Bernd: \"… die Branche, die die Erschöpfung am dringendsten loswerden müsste …\"",
+     "en": "Bernd: \"… the sector that most urgently needs to shed its exhaustion …\""
+    }
+   },
+   {
+    "id": "r.l.b2.1.03",
+    "prompt": "Wer nennt einen Grund, warum die eigene gute Erfahrung nicht übertragbar ist?",
+    "promptEn": "Who gives a reason why their own good experience does not transfer?",
+    "options": [
+     "Cem",
+     "Annika",
+     "Bernd",
+     "Dorothea"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Cem: \"Ich entscheide selbst, was liegen bleibt. Ein Angestellter kann das nicht.\"",
+     "en": "Cem: \"I decide myself what gets left. An employee cannot.\""
+    }
+   },
+   {
+    "id": "r.l.b2.1.04",
+    "prompt": "Wer kritisiert die Auswahl der untersuchten Firmen?",
+    "promptEn": "Who criticises the selection of the companies studied?",
+    "options": [
+     "Dorothea",
+     "Annika",
+     "Bernd",
+     "Cem"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Dorothea: \"Firmen, die freiwillig … teilnehmen, sind nicht repräsentativ.\"",
+     "en": "Dorothea: \"Companies that take part voluntarily are not representative.\""
+    }
+   },
+   {
+    "id": "r.l.b2.1.05",
+    "prompt": "Wer unterstützt das Modell, hat aber das eigene Argument dafür aufgegeben?",
+    "promptEn": "Who supports the model but has dropped their own argument for it?",
+    "options": [
+     "Annika",
+     "Bernd",
+     "Cem",
+     "Dorothea"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Annika hält es für richtig, wirbt aber nicht mehr damit, \"dass es sich rechnet\".",
+     "en": "Annika thinks it is right but no longer argues that it pays for itself."
+    }
+   },
+   {
+    "id": "r.l.b2.1.06",
+    "prompt": "Wer sagt ausdrücklich, dass die eigene Position keine Ablehnung ist?",
+    "promptEn": "Who explicitly says their position is not a rejection?",
+    "options": [
+     "Dorothea",
+     "Bernd",
+     "Annika",
+     "Cem"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Dorothea: \"Das ist keine Ablehnung, sondern eine Vorhersage.\" Bernd sagt \"Ich bin nicht dagegen\", nennt es aber nicht so.",
+     "en": "Dorothea: \"That is not a rejection but a prediction.\" Bernd says he is not against it but does not put it that way."
+    }
+   }
+  ]
+ },
+ {
+  "id": "l.c1.1",
+  "module": "lesen",
+  "teil": 2,
+  "level": "C1",
+  "title": {
+   "de": "Teil 2: Ein Kommentar zur Sprachpolitik",
+   "en": "Part 2: a comment piece on language policy"
+  },
+  "instructions": {
+   "de": "Lies den Kommentar. Welche Antwort entspricht dem Text?",
+   "en": "Read the comment piece. Which answer matches the text?"
+  },
+  "minutes": 22,
+  "texts": [
+   {
+    "heading": "Die Sprachprüfung als Sortiermaschine",
+    "body": "Wer in Deutschland eingebürgert werden will, muss B1 nachweisen. Über die Höhe dieser Hürde wird regelmäßig gestritten, und beide Lager führen dabei Argumente, die mit der eigentlichen Frage wenig zu tun haben.\n\nDie einen sagen, B1 sei zu niedrig: Wer an einer Debatte teilnehmen wolle, komme damit nicht weit. Das trifft zu, geht aber am Zweck vorbei. Eine Einbürgerung ist keine Zulassung zur Talkshow. Sie ist die Feststellung, dass jemand hier dauerhaft lebt - und das tun Menschen seit Jahrhunderten erfolgreich mit sehr unterschiedlichen Sprachständen.\n\nDie anderen sagen, B1 sei zu hoch, weil die Prüfung Menschen ausschließe, die seit dreißig Jahren hier arbeiten. Auch das stimmt, ist aber ebenfalls kein Argument über das Niveau. Es ist eines über die Prüfungsform. Wer nie gelernt hat, in einer Prüfungssituation zu lesen, scheitert an einem Multiple-Choice-Bogen, nicht an der deutschen Sprache. Man kann einen Menschen treffen, der mit Behörden telefoniert, Verträge versteht und seinen Betrieb führt - und der durch den schriftlichen Teil fällt.\n\nDer eigentliche Einwand ist deshalb ein anderer, und er wird selten laut gesagt: Die Prüfung misst nicht, was sie zu messen vorgibt. Sie misst Sprachstand und Prüfungsroutine in einer Zahl, die beides nicht trennt. Wer Abitur hat, besteht leichter, bei gleichem Deutsch.\n\nDaraus folgt nicht, dass man die Anforderung streichen sollte. Es gibt gute Gründe dafür, dass ein Staat erwartet, verstanden zu werden. Es folgt aber, dass eine mündliche Alternative für Menschen über einem bestimmten Alter oder nach einer bestimmten Aufenthaltsdauer keine Aufweichung wäre, sondern eine Korrektur. Dass es sie nicht gibt, ist eine politische Entscheidung, keine fachliche.\n\nMan sollte sie wenigstens als solche benennen."
+   }
+  ],
+  "items": [
+   {
+    "id": "r.l.c1.1.01",
+    "prompt": "Wie bewertet der Autor das Argument, B1 sei zu niedrig?",
+    "promptEn": "How does the author assess the claim that B1 is too low?",
+    "options": [
+     "Es ist sachlich richtig, trifft aber nicht den Zweck der Prüfung.",
+     "Es ist sachlich falsch.",
+     "Es ist das stärkste Argument in der Debatte.",
+     "Es wird nur von Gegnern der Einbürgerung vorgebracht."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Das trifft zu, geht aber am Zweck vorbei.\"",
+     "en": "\"That is true, but it misses the purpose.\""
+    }
+   },
+   {
+    "id": "r.l.c1.1.02",
+    "prompt": "Was ist nach Ansicht des Autors das Problem bei Menschen, die seit Jahrzehnten hier arbeiten?",
+    "promptEn": "What, in the author’s view, is the problem for people who have worked here for decades?",
+    "options": [
+     "die Form der Prüfung, nicht ihr Niveau",
+     "ihr Sprachstand",
+     "die Dauer des Verfahrens",
+     "die Kosten der Prüfung"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Es ist eines über die Prüfungsform.\" Der Autor trennt Niveau und Form ausdrücklich.",
+     "en": "\"It is one about the exam format.\" The author explicitly separates level and format."
+    }
+   },
+   {
+    "id": "r.l.c1.1.03",
+    "prompt": "Worin besteht der \"eigentliche Einwand\"?",
+    "promptEn": "What is the \"real objection\"?",
+    "options": [
+     "Die Prüfung vermischt Sprachstand und Prüfungsroutine.",
+     "Die Prüfung ist zu teuer.",
+     "Die Prüfung ist zu kurz.",
+     "Die Prüfung wird zu selten angeboten."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Sie misst Sprachstand und Prüfungsroutine in einer Zahl, die beides nicht trennt.\"",
+     "en": "\"It measures language level and exam technique in one number that does not separate them.\""
+    }
+   },
+   {
+    "id": "r.l.c1.1.04",
+    "prompt": "Was fordert der Autor?",
+    "promptEn": "What does the author call for?",
+    "options": [
+     "eine mündliche Alternative für bestimmte Gruppen",
+     "die Abschaffung der Sprachanforderung",
+     "eine Anhebung auf B2",
+     "eine Senkung auf A2"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… eine mündliche Alternative … wäre keine Aufweichung, sondern eine Korrektur.\"",
+     "en": "\"… an oral alternative … would not be a softening but a correction.\""
+    }
+   },
+   {
+    "id": "r.l.c1.1.05",
+    "prompt": "Wie steht der Autor grundsätzlich zur Sprachanforderung?",
+    "promptEn": "What is the author’s basic position on the language requirement?",
+    "options": [
+     "Er hält sie für berechtigt.",
+     "Er lehnt sie ab.",
+     "Er äußert sich dazu nicht.",
+     "Er hält sie für zweitrangig."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Es gibt gute Gründe dafür, dass ein Staat erwartet, verstanden zu werden.\"",
+     "en": "\"There are good reasons for a state to expect to be understood.\""
+    }
+   },
+   {
+    "id": "r.l.c1.1.06",
+    "prompt": "Was ist mit dem letzten Satz gemeint?",
+    "promptEn": "What does the last sentence mean?",
+    "options": [
+     "Man sollte offen sagen, dass es eine politische und keine fachliche Entscheidung ist.",
+     "Man sollte die Prüfung neu benennen.",
+     "Man sollte das Thema nicht öffentlich diskutieren.",
+     "Man sollte Fachleute entscheiden lassen."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Der Satz bezieht sich auf \"eine politische Entscheidung, keine fachliche\".",
+     "en": "The sentence refers back to \"a political decision, not a technical one\"."
+    }
+   }
+  ]
  }
 ]

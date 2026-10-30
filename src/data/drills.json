@@ -4824,5 +4824,1145 @@
    "de": "zwar … aber räumt etwas ein und schränkt dann ein.",
    "en": "zwar … aber concedes a point and then qualifies it."
   }
+ },
+ {
+  "id": "g.konjunktiv1.01",
+  "topic": "konjunktiv1",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Er sagt, er ___ heute keine Zeit.",
+  "promptEn": null,
+  "options": [
+   "habe",
+   "hat",
+   "hätte",
+   "haben"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "er-Form im Konjunktiv I: habe.",
+   "en": "The er form in Konjunktiv I: habe."
+  }
+ },
+ {
+  "id": "g.konjunktiv1.02",
+  "topic": "konjunktiv1",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Sie erklärte, das Problem ___ gelöst.",
+  "promptEn": null,
+  "options": [
+   "sei",
+   "ist",
+   "wäre",
+   "sein"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sein im Konjunktiv I, er/sie/es: sei.",
+   "en": "sein in Konjunktiv I, er/sie/es: sei."
+  }
+ },
+ {
+  "id": "g.konjunktiv1.03",
+  "topic": "konjunktiv1",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Die Gäste sagten, sie ___ später.",
+  "promptEn": null,
+  "options": [
+   "kämen",
+   "kommen",
+   "kommten",
+   "käme"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Die Pluralform fiele mit dem Präsens zusammen, also Konjunktiv II.",
+   "en": "The plural would match the present, so Konjunktiv II."
+  }
+ },
+ {
+  "id": "g.konjunktiv1.04",
+  "topic": "konjunktiv1",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Er behauptet, er ___ nichts gewusst.",
+  "promptEn": null,
+  "options": [
+   "habe",
+   "hat",
+   "hatte",
+   "hätte"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Vergangenheit in indirekter Rede: habe + Partizip.",
+   "en": "Past in reported speech: habe plus participle."
+  }
+ },
+ {
+  "id": "g.konjunktiv1.05",
+  "topic": "konjunktiv1",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Laut der Firma ___ die Lieferung unterwegs.",
+  "promptEn": null,
+  "options": [
+   "sei",
+   "ist",
+   "wäre",
+   "war"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "\"Laut\" leitet fremde Rede ein, also Konjunktiv I.",
+   "en": "\"Laut\" introduces someone else’s words, so Konjunktiv I."
+  }
+ },
+ {
+  "id": "g.konjunktiv1.06",
+  "topic": "konjunktiv1",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Sie sagt, sie ___ morgen an.",
+  "promptEn": null,
+  "options": [
+   "rufe",
+   "ruft",
+   "riefe",
+   "rufen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "rufen, er/sie/es: rufe … an.",
+   "en": "rufen, er/sie/es: rufe … an."
+  }
+ },
+ {
+  "id": "g.irreal.01",
+  "topic": "irreal",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Wenn ich das gewusst ___, ___ ich angerufen.",
+  "promptEn": null,
+  "options": [
+   "hätte … hätte",
+   "habe … habe",
+   "wäre … wäre",
+   "hätte … wäre"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "wissen und anrufen nehmen beide haben.",
+   "en": "Both wissen and anrufen take haben."
+  }
+ },
+ {
+  "id": "g.irreal.02",
+  "topic": "irreal",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Ohne den Stau ___ wir pünktlich ___.",
+  "promptEn": null,
+  "options": [
+   "wären … gewesen",
+   "hätten … gewesen",
+   "wären … sein",
+   "würden … sein"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sein nimmt wäre.",
+   "en": "sein takes wäre."
+  }
+ },
+ {
+  "id": "g.irreal.03",
+  "topic": "irreal",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Du ___ mich ruhig anrufen ___.",
+  "promptEn": null,
+  "options": [
+   "hättest … können",
+   "hättest … gekonnt",
+   "wärst … können",
+   "würdest … können"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Doppelter Infinitiv beim Modalverb.",
+   "en": "Double infinitive with the modal."
+  }
+ },
+ {
+  "id": "g.irreal.04",
+  "topic": "irreal",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Ich ___ beinahe den Zug verpasst.",
+  "promptEn": null,
+  "options": [
+   "hätte",
+   "wäre",
+   "würde",
+   "war"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "verpassen nimmt haben.",
+   "en": "verpassen takes haben."
+  }
+ },
+ {
+  "id": "g.irreal.05",
+  "topic": "irreal",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "___ ich das geahnt, wäre ich zu Hause geblieben.",
+  "promptEn": null,
+  "options": [
+   "Hätte",
+   "Wenn hätte",
+   "Würde",
+   "Wäre"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Ohne wenn beginnt der Satz mit dem Verb.",
+   "en": "Without wenn the clause begins with the verb."
+  }
+ },
+ {
+  "id": "g.irreal.06",
+  "topic": "irreal",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Sie ___ fast zu spät ___.",
+  "promptEn": null,
+  "options": [
+   "wäre … gekommen",
+   "hätte … gekommen",
+   "wäre … kommen",
+   "würde … kommen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "kommen ist Bewegung: wäre.",
+   "en": "kommen is movement: wäre."
+  }
+ },
+ {
+  "id": "g.nominalstil.01",
+  "topic": "nominalstil",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Weil es regnete → ___ fiel das Spiel aus.",
+  "promptEn": null,
+  "options": [
+   "Wegen des Regens",
+   "Wegen dem Regen",
+   "Weil des Regens",
+   "Trotz des Regens"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "wegen + Genitiv, und die Bedeutung bleibt kausal.",
+   "en": "wegen + genitive, and the meaning stays causal."
+  }
+ },
+ {
+  "id": "g.nominalstil.02",
+  "topic": "nominalstil",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Nachdem er angekommen war → ___ rief er an.",
+  "promptEn": null,
+  "options": [
+   "Nach seiner Ankunft",
+   "Nach seine Ankunft",
+   "Bei seiner Ankunft",
+   "Wegen seiner Ankunft"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "nach + Dativ, und nachdem wird nach.",
+   "en": "nach + dative, and nachdem becomes nach."
+  }
+ },
+ {
+  "id": "g.nominalstil.03",
+  "topic": "nominalstil",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Obwohl es teuer war → ___ haben wir es gekauft.",
+  "promptEn": null,
+  "options": [
+   "Trotz der hohen Kosten",
+   "Wegen der hohen Kosten",
+   "Trotz die hohen Kosten",
+   "Bei hohen Kosten"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "obwohl wird trotz + Genitiv.",
+   "en": "obwohl becomes trotz + genitive."
+  }
+ },
+ {
+  "id": "g.nominalstil.04",
+  "topic": "nominalstil",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Wenn es regnet → ___ findet es drinnen statt.",
+  "promptEn": null,
+  "options": [
+   "Bei Regen",
+   "Wegen Regen",
+   "Trotz Regen",
+   "Nach Regen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Konditional wird bei + Dativ.",
+   "en": "A conditional becomes bei + dative."
+  }
+ },
+ {
+  "id": "g.nominalstil.05",
+  "topic": "nominalstil",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Während der ___ wurde nicht gesprochen.",
+  "promptEn": null,
+  "options": [
+   "Sitzung",
+   "Sitzungen",
+   "Sitzung war",
+   "Sitzen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "während + Genitiv Singular: der Sitzung.",
+   "en": "während + genitive singular: der Sitzung."
+  }
+ },
+ {
+  "id": "g.nominalstil.06",
+  "topic": "nominalstil",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Um sich zu bewerben → ___ brauchen Sie drei Unterlagen.",
+  "promptEn": null,
+  "options": [
+   "Zur Bewerbung",
+   "Für Bewerbung",
+   "Wegen Bewerbung",
+   "Bei Bewerbung"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Zweck wird zu + Dativ.",
+   "en": "Purpose becomes zu + dative."
+  }
+ },
+ {
+  "id": "g.passiversatz.01",
+  "topic": "passiversatz",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Das Problem ___ sich schnell lösen.",
+  "promptEn": null,
+  "options": [
+   "lässt",
+   "wird",
+   "ist",
+   "hat"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sich lassen + Infinitiv: lässt sich lösen.",
+   "en": "sich lassen + infinitive: lässt sich lösen."
+  }
+ },
+ {
+  "id": "g.passiversatz.02",
+  "topic": "passiversatz",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Die Formulare sind bis Freitag ___.",
+  "promptEn": null,
+  "options": [
+   "abzugeben",
+   "abgegeben",
+   "abgeben werden",
+   "abzugeben werden"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sein + zu + Infinitiv.",
+   "en": "sein + zu + infinitive."
+  }
+ },
+ {
+  "id": "g.passiversatz.03",
+  "topic": "passiversatz",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "\"Das wird hier nicht gemacht.\" = \"Das ___ hier nicht.\"",
+  "promptEn": null,
+  "options": [
+   "macht man",
+   "lässt man",
+   "ist man",
+   "wird man"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "man + Aktiv ersetzt das Passiv am einfachsten.",
+   "en": "man + active is the simplest replacement."
+  }
+ },
+ {
+  "id": "g.passiversatz.04",
+  "topic": "passiversatz",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Der Fehler war ___.",
+  "promptEn": null,
+  "options": [
+   "vermeidbar",
+   "vermeiden",
+   "vermieden",
+   "zu vermeiden werden"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "-bar drückt die Möglichkeit in einem Wort aus.",
+   "en": "-bar expresses the possibility in one word."
+  }
+ },
+ {
+  "id": "g.passiversatz.05",
+  "topic": "passiversatz",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "\"Das kann man nicht ändern.\" = \"Das ___ sich nicht ändern.\"",
+  "promptEn": null,
+  "options": [
+   "lässt",
+   "wird",
+   "ist",
+   "hat"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Möglichkeit, also sich lassen.",
+   "en": "Possibility, so sich lassen."
+  }
+ },
+ {
+  "id": "g.passiversatz.06",
+  "topic": "passiversatz",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Die Tür ___ nur von innen zu öffnen.",
+  "promptEn": null,
+  "options": [
+   "ist",
+   "wird",
+   "lässt",
+   "hat"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sein + zu + Infinitiv, hier als Möglichkeit.",
+   "en": "sein + zu + infinitive, here as possibility."
+  }
+ },
+ {
+  "id": "g.partizipial.01",
+  "topic": "partizipial",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "die Kosten, die stark gestiegen sind → die stark ___ Kosten",
+  "promptEn": null,
+  "options": [
+   "gestiegenen",
+   "steigenden",
+   "gestiegende",
+   "steigende"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Abgeschlossen, also Partizip II plus Endung.",
+   "en": "Completed, so Partizip II plus ending."
+  }
+ },
+ {
+  "id": "g.partizipial.02",
+  "topic": "partizipial",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "das Kind, das weint → das ___ Kind",
+  "promptEn": null,
+  "options": [
+   "weinende",
+   "geweinte",
+   "weinend",
+   "weinenden"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Laufend und aktiv: Partizip I.",
+   "en": "Ongoing and active: Partizip I."
+  }
+ },
+ {
+  "id": "g.partizipial.03",
+  "topic": "partizipial",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "der Antrag, der geprüft wurde → der ___ Antrag",
+  "promptEn": null,
+  "options": [
+   "geprüfte",
+   "prüfende",
+   "geprüft",
+   "zu prüfende"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Passiv und abgeschlossen: Partizip II.",
+   "en": "Passive and completed: Partizip II."
+  }
+ },
+ {
+  "id": "g.partizipial.04",
+  "topic": "partizipial",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "die Rechnung, die bezahlt werden muss → die zu ___ Rechnung",
+  "promptEn": null,
+  "options": [
+   "bezahlende",
+   "bezahlte",
+   "bezahlen",
+   "bezahlend"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "zu + Partizip I für die Pflicht.",
+   "en": "zu + Partizip I for the obligation."
+  }
+ },
+ {
+  "id": "g.partizipial.05",
+  "topic": "partizipial",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "die in der Studie ___ Zahlen",
+  "promptEn": null,
+  "options": [
+   "genannten",
+   "nennenden",
+   "genannte",
+   "nennende"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Passiv: die Zahlen wurden genannt.",
+   "en": "Passive: the figures were named."
+  }
+ },
+ {
+  "id": "g.partizipial.06",
+  "topic": "partizipial",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "das seit Jahren ___ Gebäude",
+  "promptEn": null,
+  "options": [
+   "leerstehende",
+   "leergestandene",
+   "leerstehend",
+   "leerstehenden"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Zustand, der andauert: Partizip I.",
+   "en": "A state that continues: Partizip I."
+  }
+ },
+ {
+  "id": "g.modalpartikeln.01",
+  "topic": "modalpartikeln",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Komm ___ mit, es wird lustig!",
+  "promptEn": null,
+  "options": [
+   "doch",
+   "ja",
+   "wohl",
+   "denn"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "doch macht die Einladung freundlicher.",
+   "en": "doch makes the invitation friendlier."
+  }
+ },
+ {
+  "id": "g.modalpartikeln.02",
+  "topic": "modalpartikeln",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Wo warst du ___ so lange?",
+  "promptEn": null,
+  "options": [
+   "denn",
+   "doch",
+   "eben",
+   "mal"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "denn zeigt echtes Interesse in einer Frage.",
+   "en": "denn shows genuine interest in a question."
+  }
+ },
+ {
+  "id": "g.modalpartikeln.03",
+  "topic": "modalpartikeln",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Kannst du mir ___ kurz helfen?",
+  "promptEn": null,
+  "options": [
+   "mal",
+   "ja",
+   "eben",
+   "wohl"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "mal macht die Bitte klein und unverbindlich.",
+   "en": "mal makes the request small and casual."
+  }
+ },
+ {
+  "id": "g.modalpartikeln.04",
+  "topic": "modalpartikeln",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Dann fahren wir ___ morgen.",
+  "promptEn": null,
+  "options": [
+   "eben",
+   "ja",
+   "denn",
+   "doch mal"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "eben drückt die Resignation aus.",
+   "en": "eben expresses the resignation."
+  }
+ },
+ {
+  "id": "g.modalpartikeln.05",
+  "topic": "modalpartikeln",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Du kennst ihn ___, oder?",
+  "promptEn": null,
+  "options": [
+   "ja",
+   "mal",
+   "denn",
+   "wohl"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "ja markiert geteiltes Wissen.",
+   "en": "ja marks shared knowledge."
+  }
+ },
+ {
+  "id": "g.modalpartikeln.06",
+  "topic": "modalpartikeln",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Er hat den Termin ___ vergessen.",
+  "promptEn": null,
+  "options": [
+   "wohl",
+   "mal",
+   "denn",
+   "ja"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "wohl drückt eine Vermutung aus.",
+   "en": "wohl expresses an assumption."
+  }
+ },
+ {
+  "id": "g.konzessiv.01",
+  "topic": "konzessiv",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "___ teuer die Lösung auch ist, sie ist die einzige.",
+  "promptEn": null,
+  "options": [
+   "So",
+   "Obwohl",
+   "Wenn",
+   "Wie"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "so + Adjektiv + auch; das Adjektiv folgt direkt.",
+   "en": "so + adjective + auch; the adjective follows directly."
+  }
+ },
+ {
+  "id": "g.konzessiv.02",
+  "topic": "konzessiv",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Das ___ stimmen, ändert aber nichts.",
+  "promptEn": null,
+  "options": [
+   "mag",
+   "darf",
+   "soll",
+   "will"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "mögen räumt ein, bevor man widerspricht.",
+   "en": "mögen concedes before you push back."
+  }
+ },
+ {
+  "id": "g.konzessiv.03",
+  "topic": "konzessiv",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "So überzeugend es ___ klingt, …",
+  "promptEn": null,
+  "options": [
+   "auch",
+   "noch",
+   "doch",
+   "je"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "auch gehört fest zu dieser Konstruktion.",
+   "en": "auch is a fixed part of this construction."
+  }
+ },
+ {
+  "id": "g.konzessiv.04",
+  "topic": "konzessiv",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "___ die Entscheidung ausfällt, wir sind vorbereitet.",
+  "promptEn": null,
+  "options": [
+   "Wie auch immer",
+   "Wenn auch",
+   "Obwohl",
+   "So auch"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "W-Wort + auch immer für den nachdrücklichen Fall.",
+   "en": "w-word + auch immer for the emphatic case."
+  }
+ },
+ {
+  "id": "g.konzessiv.05",
+  "topic": "konzessiv",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Das Ergebnis ist gut, ___ mit Einschränkungen.",
+  "promptEn": null,
+  "options": [
+   "wenngleich",
+   "sowie",
+   "indem",
+   "sofern"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "wenngleich = obwohl, nur schriftlich.",
+   "en": "wenngleich = obwohl, written register only."
+  }
+ },
+ {
+  "id": "g.konzessiv.06",
+  "topic": "konzessiv",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "___ es regnet, gehen wir spazieren.",
+  "promptEn": null,
+  "options": [
+   "Auch wenn",
+   "Wenn auch",
+   "So wenn",
+   "Obwohl wenn"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Konditional-konzessiv: auch wenn.",
+   "en": "Conditional-concessive: auch wenn."
+  }
+ },
+ {
+  "id": "g.funktionsverben.01",
+  "topic": "funktionsverben",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Diese Option sollten wir in Betracht ___.",
+  "promptEn": null,
+  "options": [
+   "ziehen",
+   "nehmen",
+   "halten",
+   "bringen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Feste Fügung: in Betracht ziehen.",
+   "en": "Fixed construction: in Betracht ziehen."
+  }
+ },
+ {
+  "id": "g.funktionsverben.02",
+  "topic": "funktionsverben",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Die Regelung ___ zum 1. Juli in Kraft.",
+  "promptEn": null,
+  "options": [
+   "tritt",
+   "kommt",
+   "geht",
+   "setzt"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "in Kraft treten.",
+   "en": "in Kraft treten."
+  }
+ },
+ {
+  "id": "g.funktionsverben.03",
+  "topic": "funktionsverben",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Die Opposition hat scharfe Kritik ___.",
+  "promptEn": null,
+  "options": [
+   "geübt",
+   "gemacht",
+   "gegeben",
+   "genommen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Kritik üben.",
+   "en": "Kritik üben."
+  }
+ },
+ {
+  "id": "g.funktionsverben.04",
+  "topic": "funktionsverben",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Das Verfahren ___ nur selten zur Anwendung.",
+  "promptEn": null,
+  "options": [
+   "kommt",
+   "geht",
+   "macht",
+   "nimmt"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "zur Anwendung kommen.",
+   "en": "zur Anwendung kommen."
+  }
+ },
+ {
+  "id": "g.funktionsverben.05",
+  "topic": "funktionsverben",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Von einer Klage haben wir Abstand ___.",
+  "promptEn": null,
+  "options": [
+   "genommen",
+   "gezogen",
+   "gemacht",
+   "gehalten"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Abstand nehmen von.",
+   "en": "Abstand nehmen von."
+  }
+ },
+ {
+  "id": "g.funktionsverben.06",
+  "topic": "funktionsverben",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Die Unterlagen werden Ihnen zur Verfügung ___.",
+  "promptEn": null,
+  "options": [
+   "gestellt",
+   "gegeben",
+   "gebracht",
+   "gesetzt"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "zur Verfügung stellen.",
+   "en": "zur Verfügung stellen."
+  }
+ },
+ {
+  "id": "g.wortbildung.01",
+  "topic": "wortbildung",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Den Fehler hätte man ___ können, er war ___.",
+  "promptEn": null,
+  "options": [
+   "vermeiden … vermeidbar",
+   "vermeidbar … vermeiden",
+   "vermeidend … vermeidet",
+   "vermeiden … vermeidlich"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "-bar macht aus dem Verb das Adjektiv der Möglichkeit.",
+   "en": "-bar turns the verb into the adjective of possibility."
+  }
+ },
+ {
+  "id": "g.wortbildung.02",
+  "topic": "wortbildung",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Ich habe die Frage ___.",
+  "promptEn": null,
+  "options": [
+   "beantwortet",
+   "geantwortet",
+   "antwortet",
+   "verantwortet"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "be- macht antworten transitiv.",
+   "en": "be- makes antworten transitive."
+  }
+ },
+ {
+  "id": "g.wortbildung.03",
+  "topic": "wortbildung",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Die Maßnahme blieb ___ – nichts ist passiert.",
+  "promptEn": null,
+  "options": [
+   "folgenlos",
+   "folgenreich",
+   "folgend",
+   "folglich"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "-los heißt ohne.",
+   "en": "-los means without."
+  }
+ },
+ {
+  "id": "g.wortbildung.04",
+  "topic": "wortbildung",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Er hat sich auf dem Weg ___.",
+  "promptEn": null,
+  "options": [
+   "verlaufen",
+   "entlaufen",
+   "zerlaufen",
+   "belaufen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "ver- trägt hier das \"falsch\".",
+   "en": "ver- carries the \"wrongly\" here."
+  }
+ },
+ {
+  "id": "g.wortbildung.05",
+  "topic": "wortbildung",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Wir sollten den Effekt nicht ___.",
+  "promptEn": null,
+  "options": [
+   "überschätzen",
+   "unterschätzen lassen",
+   "schätzen über",
+   "beschätzen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "über- heißt zu viel.",
+   "en": "über- means too much."
+  }
+ },
+ {
+  "id": "g.wortbildung.06",
+  "topic": "wortbildung",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Eine Arbeitslosenversicherung ist vor allem eine ___.",
+  "promptEn": null,
+  "options": [
+   "Versicherung",
+   "Arbeit",
+   "Losigkeit",
+   "Arbeitslosigkeit"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Komposita liest man von rechts: das letzte Glied ist die Sache.",
+   "en": "Compounds are read from the right: the last element is the thing."
+  }
+ },
+ {
+  "id": "g.textkohaesion.01",
+  "topic": "textkohaesion",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Die Kosten sind stark gestiegen. ___ ist auf Dauer nicht tragbar.",
+  "promptEn": null,
+  "options": [
+   "Dieser Anstieg",
+   "Das",
+   "Es",
+   "Dort"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Die Nominalphrase nimmt wieder auf und deutet zugleich.",
+   "en": "The noun phrase takes up and interprets at once."
+  }
+ },
+ {
+  "id": "g.textkohaesion.02",
+  "topic": "textkohaesion",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Die Studie ist von 2015. Schon ___ ist ihre Aussagekraft begrenzt.",
+  "promptEn": null,
+  "options": [
+   "deshalb",
+   "dabei",
+   "dafür",
+   "davon"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Kausaler Anschluss auf Position 1.",
+   "en": "A causal link in first position."
+  }
+ },
+ {
+  "id": "g.textkohaesion.03",
+  "topic": "textkohaesion",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "___ liegt der eigentliche Einwand.",
+  "promptEn": null,
+  "options": [
+   "Darin",
+   "Davon",
+   "Dabei",
+   "Dazu"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "in etwas liegen → darin.",
+   "en": "in etwas liegen → darin."
+  }
+ },
+ {
+  "id": "g.textkohaesion.04",
+  "topic": "textkohaesion",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "___ die Kosten betrifft, so sind sie kalkulierbar.",
+  "promptEn": null,
+  "options": [
+   "Was",
+   "Wie",
+   "Dass",
+   "Wenn"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Feste Wendung für den Themenwechsel.",
+   "en": "Fixed expression for a change of topic."
+  }
+ },
+ {
+  "id": "g.textkohaesion.05",
+  "topic": "textkohaesion",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Das Argument überzeugt. ___ steht jedoch ein Einwand.",
+  "promptEn": null,
+  "options": [
+   "Demgegenüber",
+   "Darüber hinaus",
+   "Insofern",
+   "Dadurch"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Gegensatz auf Position 1.",
+   "en": "A contrast in first position."
+  }
+ },
+ {
+  "id": "g.textkohaesion.06",
+  "topic": "textkohaesion",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Die Methode ist umstritten. ___ sind die Ergebnisse brauchbar.",
+  "promptEn": null,
+  "options": [
+   "Gleichwohl",
+   "Dadurch",
+   "Deshalb",
+   "Insofern"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Konzessiver Anschluss: trotzdem.",
+   "en": "A concessive link: nevertheless."
+  }
  }
 ]

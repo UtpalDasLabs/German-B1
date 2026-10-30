@@ -1111,5 +1111,299 @@
     }
    }
   ]
+ },
+ {
+  "id": "h.b2.1",
+  "module": "hoeren",
+  "teil": 4,
+  "level": "B2",
+  "title": {
+   "de": "Teil 4: Diskussion über Homeoffice",
+   "en": "Part 4: a discussion about working from home"
+  },
+  "instructions": {
+   "de": "Du hörst eine Diskussion, einmal. Wer sagt was?",
+   "en": "You will hear a discussion once. Who says what?"
+  },
+  "minutes": 15,
+  "script": [
+   {
+    "speaker": "Moderatorin",
+    "text": "Willkommen zurück. Bei mir sind Frau Dr. Ohlsen, Arbeitspsychologin, und Herr Tiede, der eine Softwarefirma mit sechzig Beschäftigten führt. Herr Tiede, Sie haben Ihre Leute zurück ins Büro geholt. Warum?"
+   },
+   {
+    "speaker": "Herr Tiede",
+    "text": "Nicht ganz zurück. Zwei feste Tage im Büro, der Rest frei wählbar. Der Grund ist banal: Die Einarbeitung neuer Kolleginnen hat nicht mehr funktioniert. Erfahrene Leute arbeiten zu Hause genauso gut, teilweise besser. Aber jemand, der im März angefangen hat und bis Juli niemanden persönlich kennengelernt hat, kommt nicht an. Das sehen wir in den Zahlen zur Probezeit sehr deutlich."
+   },
+   {
+    "speaker": "Frau Dr. Ohlsen",
+    "text": "Da würde ich zustimmen, allerdings mit einer anderen Begründung. Es geht weniger um Nähe als um Beiläufigkeit. Das Wissen, das man braucht, um in einem Team anzukommen, wird selten gesagt, es wird mitgehört. Wer nicht im Raum ist, hört nicht mit. Dafür braucht man aber keine festen Tage, sondern Anlässe."
+   },
+   {
+    "speaker": "Herr Tiede",
+    "text": "Anlässe haben wir versucht. Freiwillige Treffen, Teamtage. Es kamen immer dieselben acht Leute. Feste Tage sind grober, aber sie wirken."
+   },
+   {
+    "speaker": "Frau Dr. Ohlsen",
+    "text": "Dass sie wirken, bestreite ich nicht. Mich stört, dass sie alle gleich behandeln. Die Kollegin mit zwei kleinen Kindern und zwei Stunden Pendelweg zahlt für ein Problem, das sie nicht hat. In unseren Erhebungen ist die Unzufriedenheit mit festen Bürotagen fast vollständig ein Pendelproblem."
+   },
+   {
+    "speaker": "Moderatorin",
+    "text": "Herr Tiede, trifft Sie das?"
+   },
+   {
+    "speaker": "Herr Tiede",
+    "text": "Ja, das ist der schwache Punkt, und ich habe keine saubere Lösung. Wir zahlen das Deutschlandticket und machen Ausnahmen, wenn jemand weiter weg wohnt. Das ist Flickwerk. Was ich nicht mehr glaube, ist, dass sich das rein freiwillig organisiert. Drei Jahre haben wir das versucht."
+   },
+   {
+    "speaker": "Frau Dr. Ohlsen",
+    "text": "Und da sind wir weiter auseinander, als es klingt. Ich halte Freiwilligkeit auch für gescheitert. Nur folgt daraus für mich nicht Anwesenheitspflicht, sondern dass Teams das selbst verbindlich regeln - nicht das Unternehmen und nicht der Einzelne. Die mittlere Ebene ist die, die fast niemand nutzt."
+   }
+  ],
+  "plays": 1,
+  "transcriptHidden": true,
+  "items": [
+   {
+    "id": "h.h.b2.1.01",
+    "prompt": "Warum hat Herr Tiede feste Bürotage eingeführt?",
+    "promptEn": "Why did Herr Tiede introduce fixed office days?",
+    "options": [
+     "Die Einarbeitung neuer Leute funktionierte nicht mehr.",
+     "Die Produktivität der Erfahrenen sank.",
+     "Die Kunden haben es verlangt.",
+     "Das Büro stand sonst leer."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Die Einarbeitung neuer Kolleginnen hat nicht mehr funktioniert.\"",
+     "en": "\"Inducting new colleagues stopped working.\""
+    }
+   },
+   {
+    "id": "h.h.b2.1.02",
+    "prompt": "Wie begründet Frau Dr. Ohlsen dasselbe Problem?",
+    "promptEn": "How does Dr Ohlsen explain the same problem?",
+    "options": [
+     "Wichtiges Wissen wird mitgehört, nicht gesagt.",
+     "Neue Leute trauen sich nicht zu fragen.",
+     "Zu Hause fehlt die Technik.",
+     "Vorgesetzte erklären zu wenig."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Das Wissen … wird selten gesagt, es wird mitgehört.\"",
+     "en": "\"The knowledge … is rarely stated, it is overheard.\""
+    }
+   },
+   {
+    "id": "h.h.b2.1.03",
+    "prompt": "Was ist laut Frau Dr. Ohlsen die eigentliche Ursache der Unzufriedenheit?",
+    "promptEn": "What, according to Dr Ohlsen, really causes the dissatisfaction?",
+    "options": [
+     "das Pendeln",
+     "die Vorgesetzten",
+     "die festen Zeiten an sich",
+     "die Technik zu Hause"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… ist die Unzufriedenheit mit festen Bürotagen fast vollständig ein Pendelproblem.\"",
+     "en": "\"… dissatisfaction with fixed office days is almost entirely a commuting problem.\""
+    }
+   },
+   {
+    "id": "h.h.b2.1.04",
+    "prompt": "Wie reagiert Herr Tiede auf diesen Einwand?",
+    "promptEn": "How does Herr Tiede respond to this objection?",
+    "options": [
+     "Er gibt zu, dass er keine saubere Lösung hat.",
+     "Er weist ihn als unrealistisch zurück.",
+     "Er verweist auf die Mehrheit der Beschäftigten.",
+     "Er sagt, das Problem löse sich von selbst."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Ja, das ist der schwache Punkt, und ich habe keine saubere Lösung.\"",
+     "en": "\"Yes, that is the weak point, and I have no clean solution.\""
+    }
+   },
+   {
+    "id": "h.h.b2.1.05",
+    "prompt": "Worin sind sich beide einig?",
+    "promptEn": "What do they both agree on?",
+    "options": [
+     "Rein freiwillige Regelungen funktionieren nicht.",
+     "Es braucht eine Anwesenheitspflicht.",
+     "Homeoffice senkt die Produktivität.",
+     "Teamtage sind die beste Lösung."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Beide halten die Freiwilligkeit für gescheitert; nur die Folgerung unterscheidet sich.",
+     "en": "Both consider the voluntary approach to have failed; only the conclusion differs."
+    }
+   },
+   {
+    "id": "h.h.b2.1.06",
+    "prompt": "Was schlägt Frau Dr. Ohlsen stattdessen vor?",
+    "promptEn": "What does Dr Ohlsen propose instead?",
+    "options": [
+     "dass die Teams es selbst verbindlich regeln",
+     "dass das Unternehmen es festlegt",
+     "dass jeder frei entscheidet",
+     "dass die Bürotage abgeschafft werden"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… dass Teams das selbst verbindlich regeln - nicht das Unternehmen und nicht der Einzelne.\"",
+     "en": "\"… that teams settle it bindingly themselves - not the company and not the individual.\""
+    }
+   }
+  ]
+ },
+ {
+  "id": "h.c1.1",
+  "module": "hoeren",
+  "teil": 2,
+  "level": "C1",
+  "title": {
+   "de": "Teil 2: Vortrag über Mehrsprachigkeit",
+   "en": "Part 2: a lecture on multilingualism"
+  },
+  "instructions": {
+   "de": "Du hörst einen Vortrag, einmal. Beantworte danach die Fragen.",
+   "en": "You will hear a lecture once. Then answer the questions."
+  },
+  "minutes": 15,
+  "script": [
+   {
+    "speaker": "Vortragende",
+    "text": "Ich möchte heute über eine Behauptung sprechen, die so oft wiederholt wird, dass sie als gesichert gilt: Mehrsprachig aufwachsende Kinder seien kognitiv im Vorteil. Ich halte diese Behauptung für überdehnt, und ich sage gleich dazu, dass ich sie nicht für falsch halte."
+   },
+   {
+    "speaker": "Vortragende",
+    "text": "Die Studienlage ist in einer bestimmten Hinsicht klar. In Aufgaben, bei denen man eine naheliegende Reaktion unterdrücken muss, schneiden mehrsprachige Kinder im Mittel etwas besser ab. Der Effekt ist reproduzierbar. Er ist allerdings klein, und er betrifft genau diese Art von Aufgabe."
+   },
+   {
+    "speaker": "Vortragende",
+    "text": "Was daraus in der öffentlichen Darstellung geworden ist, ist etwas anderes: dass Mehrsprachigkeit generell klüger mache. Diesen Schritt geben die Daten nicht her. Zwischen \"schneidet in einer Hemmungsaufgabe geringfügig besser ab\" und \"ist intelligenter\" liegt eine Strecke, die niemand zurückgelegt hat."
+   },
+   {
+    "speaker": "Vortragende",
+    "text": "Dazu kommt ein methodisches Problem, das lange unterschätzt wurde. Die früheren Studien verglichen häufig Kinder, die sich nicht nur in der Sprachzahl unterschieden, sondern auch im Einkommen der Eltern und in deren Bildungsabschluss. Neuere Arbeiten, die das kontrollieren, finden den Effekt kleiner, manche finden ihn gar nicht."
+   },
+   {
+    "speaker": "Vortragende",
+    "text": "Warum ist mir das wichtig? Weil das Argument politisch benutzt wird, und zwar in beide Richtungen. Wer Mehrsprachigkeit fördern will, führt den kognitiven Vorteil an. Wenn dieser Vorteil dann schrumpft, scheint die Förderung ihre Grundlage zu verlieren. Das ist aber nur so, wenn man sie je damit begründet hat."
+   },
+   {
+    "speaker": "Vortragende",
+    "text": "Die tragfähige Begründung ist viel einfacher und braucht keine Studie: Ein Kind, das die Sprache seiner Großeltern spricht, kann mit seinen Großeltern sprechen. Ein Erwachsener, der zwei Sprachen beherrscht, hat Zugang zu zwei Arbeitsmärkten. Das sind keine kognitiven Vorteile, sondern soziale und wirtschaftliche, und sie verschwinden nicht, wenn die nächste Metaanalyse erscheint."
+   },
+   {
+    "speaker": "Vortragende",
+    "text": "Mein Punkt ist also nicht, dass die Forschung schlecht wäre. Er ist, dass wir eine gute Sache mit einem schwachen Argument verteidigen, obwohl wir ein starkes hätten."
+   }
+  ],
+  "plays": 1,
+  "transcriptHidden": true,
+  "items": [
+   {
+    "id": "h.h.c1.1.01",
+    "prompt": "Wie positioniert sich die Vortragende zur Eingangsbehauptung?",
+    "promptEn": "What is the speaker’s position on the opening claim?",
+    "options": [
+     "Sie hält sie für überdehnt, aber nicht für falsch.",
+     "Sie hält sie für widerlegt.",
+     "Sie stimmt ihr uneingeschränkt zu.",
+     "Sie äußert sich dazu nicht."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Ich halte diese Behauptung für überdehnt … dass ich sie nicht für falsch halte.\"",
+     "en": "\"I consider this claim overstretched … I do not consider it false.\""
+    }
+   },
+   {
+    "id": "h.h.c1.1.02",
+    "prompt": "Wie beschreibt sie den gemessenen Effekt?",
+    "promptEn": "How does she describe the measured effect?",
+    "options": [
+     "reproduzierbar, aber klein und eng begrenzt",
+     "groß und breit nachweisbar",
+     "nicht reproduzierbar",
+     "nur bei Erwachsenen messbar"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Der Effekt ist reproduzierbar. Er ist allerdings klein, und er betrifft genau diese Art von Aufgabe.\"",
+     "en": "\"The effect is reproducible. It is, however, small, and it concerns exactly this kind of task.\""
+    }
+   },
+   {
+    "id": "h.h.c1.1.03",
+    "prompt": "Welches methodische Problem nennt sie?",
+    "promptEn": "What methodological problem does she name?",
+    "options": [
+     "Frühere Studien kontrollierten den sozialen Hintergrund nicht.",
+     "Die Stichproben waren zu klein.",
+     "Die Aufgaben waren zu leicht.",
+     "Die Kinder waren zu jung."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… unterschieden sich nicht nur in der Sprachzahl, sondern auch im Einkommen der Eltern …\"",
+     "en": "\"… differed not only in the number of languages but also in parental income …\""
+    }
+   },
+   {
+    "id": "h.h.c1.1.04",
+    "prompt": "Warum hält sie das Thema für politisch heikel?",
+    "promptEn": "Why does she consider the topic politically delicate?",
+    "options": [
+     "Wenn der kognitive Vorteil schrumpft, scheint die Förderung ihre Grundlage zu verlieren.",
+     "Weil die Forschung staatlich finanziert wird.",
+     "Weil Eltern verunsichert werden.",
+     "Weil Lehrkräfte die Studien nicht lesen."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Wenn dieser Vorteil dann schrumpft, scheint die Förderung ihre Grundlage zu verlieren.\"",
+     "en": "\"If that advantage then shrinks, the support seems to lose its basis.\""
+    }
+   },
+   {
+    "id": "h.h.c1.1.05",
+    "prompt": "Welche Begründung hält sie für tragfähig?",
+    "promptEn": "Which justification does she consider sound?",
+    "options": [
+     "soziale und wirtschaftliche Vorteile",
+     "kognitive Vorteile",
+     "schulische Leistungen",
+     "die Zahl der gesprochenen Sprachen"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Das sind keine kognitiven Vorteile, sondern soziale und wirtschaftliche …\"",
+     "en": "\"Those are not cognitive advantages but social and economic ones …\""
+    }
+   },
+   {
+    "id": "h.h.c1.1.06",
+    "prompt": "Was ist ihr abschließender Punkt?",
+    "promptEn": "What is her concluding point?",
+    "options": [
+     "Eine gute Sache wird mit einem schwachen Argument verteidigt.",
+     "Die Forschung ist methodisch schlecht.",
+     "Mehrsprachigkeit sollte nicht gefördert werden.",
+     "Metaanalysen sind unzuverlässig."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"… dass wir eine gute Sache mit einem schwachen Argument verteidigen, obwohl wir ein starkes hätten.\"",
+     "en": "\"… that we defend a good cause with a weak argument when we have a strong one.\""
+    }
+   }
+  ]
  }
 ]

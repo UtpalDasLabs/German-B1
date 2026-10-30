@@ -893,5 +893,187 @@
    }
   ],
   "level": "B1"
+ },
+ {
+  "id": "w.b2.1",
+  "level": "B2",
+  "teil": 1,
+  "minutes": 50,
+  "minWords": 150,
+  "register": "formell",
+  "title": {
+   "de": "Teil 1: Forumsbeitrag zur Vier-Tage-Woche",
+   "en": "Part 1: forum post on the four-day week"
+  },
+  "situation": "In einem Online-Forum wird diskutiert, ob Unternehmen die Vier-Tage-Woche einführen sollten. Schreiben Sie einen Beitrag von etwa 150 Wörtern. Gehen Sie auf mindestens zwei Argumente der Gegenseite ein.",
+  "situationEn": "An online forum is discussing whether companies should introduce the four-day week. Write a post of about 150 words. Address at least two arguments from the other side.",
+  "bullets": [
+   "Nennen Sie Ihre Position klar, aber nicht im ersten Satz als Parole.",
+   "Führen Sie zwei Argumente mit einem Beispiel oder einer Zahl aus.",
+   "Gehen Sie auf einen Einwand ein und entkräften Sie ihn – oder räumen Sie ihn ein.",
+   "Schließen Sie mit einer Folgerung, nicht mit einer Wiederholung."
+  ],
+  "model": "Die Debatte über die Vier-Tage-Woche krankt daran, dass beide Seiten über verschiedene Branchen sprechen. In der Wissensarbeit lässt sich ein Arbeitstag streichen, ohne dass dieselbe Menge Arbeit übrig bleibt, weil ein erheblicher Teil der Zeit ohnehin in Abstimmung verschwindet. In der Pflege oder im Einzelhandel gilt das nicht: Dort ist eine Schicht eine Schicht.\n\nDaraus folgt für mich, dass eine allgemeine gesetzliche Regelung der falsche Weg wäre. Sinnvoller erscheint mir ein Anspruch, den Beschäftigte geltend machen können und den Arbeitgeber begründet ablehnen müssen.\n\nDem häufigsten Einwand, die Produktivität breche ein, widersprechen die vorliegenden Erfahrungen zwar, allerdings sind die untersuchten Betriebe kaum repräsentativ. Ernster nehme ich den zweiten Einwand: Wo Personal fehlt, verteilt eine Verkürzung dieselbe Arbeit auf weniger Tage. Das ist kein Argument gegen das Modell, sondern eines dafür, es nicht dort zuerst einzuführen, wo es am meisten gebraucht würde.",
+  "checklist": [
+   {
+    "de": "Meine Position ist klar erkennbar, ohne reine Parole zu sein.",
+    "en": "My position is clearly recognisable without being a slogan."
+   },
+   {
+    "de": "Ich habe mindestens zwei Argumente ausgeführt, nicht nur genannt.",
+    "en": "I developed at least two arguments rather than just naming them."
+   },
+   {
+    "de": "Ich bin auf einen Einwand der Gegenseite eingegangen.",
+    "en": "I addressed an objection from the other side."
+   },
+   {
+    "de": "Ich habe Konnektoren wie allerdings, zwar … aber, daraus folgt benutzt.",
+    "en": "I used connectors such as allerdings, zwar … aber, daraus folgt."
+   },
+   {
+    "de": "Der Schluss zieht eine Folgerung und wiederholt nicht die Einleitung.",
+    "en": "The ending draws a conclusion and does not repeat the opening."
+   },
+   {
+    "de": "Ich habe etwa 150 Wörter geschrieben.",
+    "en": "I wrote about 150 words."
+   },
+   {
+    "de": "Ich habe Nominal- und Verbalstil gemischt, statt nur -ung-Nomen zu reihen.",
+    "en": "I mixed nominal and verbal style instead of stringing -ung nouns together."
+   }
+  ],
+  "phrases": [
+   {
+    "label": {
+     "de": "Position beziehen",
+     "en": "Taking a position"
+    },
+    "items": [
+     "Daraus folgt für mich, dass …",
+     "Sinnvoller erscheint mir …",
+     "Ich halte … für den falschen Weg.",
+     "Entscheidend ist aus meiner Sicht, dass …"
+    ]
+   },
+   {
+    "label": {
+     "de": "Einwände behandeln",
+     "en": "Handling objections"
+    },
+    "items": [
+     "Dem Einwand, …, lässt sich entgegenhalten, dass …",
+     "Das trifft zwar zu, allerdings …",
+     "Ernster nehme ich den Einwand, dass …",
+     "Hier muss ich einräumen, dass …"
+    ]
+   },
+   {
+    "label": {
+     "de": "Abwägen und schließen",
+     "en": "Weighing up and concluding"
+    },
+    "items": [
+     "Beides gegeneinander abgewogen, …",
+     "Das ist kein Argument gegen …, sondern eines dafür, …",
+     "Unter diesen Bedingungen halte ich … für vertretbar."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "w.c1.1",
+  "level": "C1",
+  "teil": 1,
+  "minutes": 70,
+  "minWords": 230,
+  "register": "formell",
+  "title": {
+   "de": "Teil 1: Stellungnahme aus Stichpunkten",
+   "en": "Part 1: a position piece from notes"
+  },
+  "situation": "Eine Fachzeitschrift bittet um eine Stellungnahme zu der Frage, ob der B1-Nachweis für die Einbürgerung durch eine mündliche Alternative ergänzt werden sollte. Ihnen liegen vier Stichpunkte vor: (1) schriftliche Prüfung misst auch Prüfungsroutine; (2) Betroffene oft seit Jahrzehnten erwerbstätig; (3) Einwand: Verwaltungsaufwand und Vergleichbarkeit; (4) Einwand: Signalwirkung einer Ausnahme. Schreiben Sie etwa 230 Wörter.",
+  "situationEn": "A specialist journal asks for a position piece on whether the B1 requirement for naturalisation should be supplemented by an oral alternative. You have four notes: (1) the written exam also measures exam technique; (2) those affected are often in work for decades; (3) objection: administrative cost and comparability; (4) objection: the signal an exception sends. Write about 230 words.",
+  "bullets": [
+   "Formulieren Sie eine These, die mehr sagt als \"dafür\" oder \"dagegen\".",
+   "Arbeiten Sie alle vier Stichpunkte ein, ohne sie abzuarbeiten.",
+   "Nehmen Sie beide Einwände ernst; räumen Sie mindestens einen teilweise ein.",
+   "Halten Sie den Textzusammenhang: Wiederaufnahme statt einer Kette von \"das\".",
+   "Schließen Sie mit einer Folgerung, die aus dem Text folgt."
+  ],
+  "model": "Die Debatte über den B1-Nachweis leidet daran, dass zwei Fragen als eine behandelt werden: welches Sprachniveau verlangt werden soll und in welcher Form es nachzuweisen ist. Nur die zweite steht hier zur Debatte, und sie lässt sich beantworten, ohne die erste anzutasten.\n\nDass eine schriftliche Prüfung nicht allein Sprachstand misst, ist unter Fachleuten unstrittig. Sie misst zugleich Prüfungsroutine, also eine Fähigkeit, die mit der Bildungsbiografie korreliert und nicht mit dem Deutschen. Für Personen, die seit Jahrzehnten erwerbstätig sind, mit Behörden verhandeln und Verträge verstehen, erzeugt diese Vermischung ein Ergebnis, das über ihre Sprachkompetenz wenig aussagt.\n\nDer Einwand des Verwaltungsaufwands ist berechtigt, und ich halte ihn für den gewichtigeren der beiden. Eine mündliche Prüfung ist teurer, schlechter standardisierbar und angreifbar, wenn Ergebnisse auseinandergehen. Entkräften lässt er sich nur, wenn die Alternative eng gefasst wird - etwa an eine Mindestaufenthaltsdauer gebunden und nach einem festen Protokoll geführt.\n\nDer zweite Einwand, die Signalwirkung, überzeugt mich hingegen nicht. Er unterstellt, dass eine formbezogene Korrektur als Absenkung des Anspruchs gelesen wird. Das ist eine Frage der Kommunikation, nicht der Sache; mit demselben Argument ließe sich jede Nachbesserung verhindern.\n\nDaraus folgt keine Abschaffung und keine Absenkung, sondern eine zweite Form desselben Nachweises für eine klar umrissene Gruppe. Dass diese Form fehlt, ist bislang keine fachliche, sondern eine politische Entscheidung - und sie sollte auch so begründet werden.",
+  "checklist": [
+   {
+    "de": "Meine These sagt mehr als \"dafür\" oder \"dagegen\".",
+    "en": "My thesis says more than \"for\" or \"against\"."
+   },
+   {
+    "de": "Alle vier Stichpunkte sind eingearbeitet, nicht abgehakt.",
+    "en": "All four notes are worked in, not ticked off."
+   },
+   {
+    "de": "Ich habe einen Einwand ausdrücklich als den stärkeren bezeichnet.",
+    "en": "I explicitly identified one objection as the stronger one."
+   },
+   {
+    "de": "Ich habe einen Einwand teilweise eingeräumt, statt beide abzuweisen.",
+    "en": "I partly conceded an objection rather than dismissing both."
+   },
+   {
+    "de": "Ich nehme Vorheriges mit Nominalphrasen wieder auf, nicht mit \"das\".",
+    "en": "I take up what came before with noun phrases, not with \"das\"."
+   },
+   {
+    "de": "Ich habe Konzessiv- und Funktionsverbgefüge gezielt eingesetzt, nicht gehäuft.",
+    "en": "I used concessive and light-verb constructions deliberately, not in bulk."
+   },
+   {
+    "de": "Der Schluss folgt aus dem Text und wiederholt ihn nicht.",
+    "en": "The conclusion follows from the text rather than repeating it."
+   },
+   {
+    "de": "Ich habe etwa 230 Wörter geschrieben.",
+    "en": "I wrote about 230 words."
+   }
+  ],
+  "phrases": [
+   {
+    "label": {
+     "de": "These und Rahmen",
+     "en": "Thesis and framing"
+    },
+    "items": [
+     "Die Debatte leidet daran, dass zwei Fragen als eine behandelt werden.",
+     "Nur die zweite Frage steht hier zur Debatte.",
+     "Vorwegschicken möchte ich, dass …",
+     "Es geht mir nicht um …, sondern um …"
+    ]
+   },
+   {
+    "label": {
+     "de": "Einwände gewichten",
+     "en": "Weighing objections"
+    },
+    "items": [
+     "Ich halte ihn für den gewichtigeren der beiden.",
+     "Entkräften lässt er sich nur, wenn …",
+     "Dieser Einwand überzeugt mich hingegen nicht.",
+     "Er unterstellt, dass …",
+     "Mit demselben Argument ließe sich … verhindern."
+    ]
+   },
+   {
+    "label": {
+     "de": "Schließen",
+     "en": "Concluding"
+    },
+    "items": [
+     "Daraus folgt weder … noch …, sondern …",
+     "Unter diesen Bedingungen halte ich … für vertretbar.",
+     "… und sie sollte auch so begründet werden."
+    ]
+   }
+  ]
  }
 ]

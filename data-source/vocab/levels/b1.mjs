@@ -96,6 +96,15 @@ export const B1 = {
     ],
   },
 
+  behoerden: {
+    nouns: [
+      ['der Lebensunterhalt', 'ohne Plural', 'living, livelihood', 'Der Lebensunterhalt muss gesichert sein.', 'Your livelihood has to be secure.'],
+      ['die Aufenthaltsdauer', '-n', 'length of residence', 'Die Aufenthaltsdauer wird angerechnet.', 'The length of residence counts towards it.'],
+      ['die Gesetzgebung', '-en', 'legislation', 'Die Gesetzgebung hat sich mehrfach geändert.', 'The legislation has changed several times.'],
+      ['die Bearbeitungszeit', '-en', 'processing time', 'Die Bearbeitungszeit liegt bei acht Monaten.', 'The processing time is eight months.'],
+    ],
+  },
+
   bildung: {
     nouns: [
       ['die Anerkennung', '-en', 'recognition', 'Die Anerkennung dauert mehrere Monate.', 'Recognition takes several months.'],

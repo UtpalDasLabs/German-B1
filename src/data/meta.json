@@ -51,7 +51,8 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2"
    ]
   },
   {
@@ -69,7 +70,8 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2"
    ]
   },
   {
@@ -87,7 +89,8 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2"
    ]
   },
   {
@@ -195,7 +198,8 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2"
    ]
   },
   {
@@ -213,7 +217,8 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2"
    ]
   },
   {
@@ -249,7 +254,9 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2",
+    "C1"
    ]
   },
   {
@@ -267,7 +274,9 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2",
+    "C1"
    ]
   },
   {
@@ -285,7 +294,9 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2",
+    "C1"
    ]
   },
   {
@@ -375,7 +386,8 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2"
    ]
   },
   {
@@ -392,6 +404,40 @@
    },
    "levels": [
     "B1"
+   ]
+  },
+  {
+   "key": "wirtschaft",
+   "label": {
+    "de": "Wirtschaft & Beruf",
+    "en": "Business & professional life"
+   },
+   "icon": "📊",
+   "color": "#FF4B4B",
+   "payoff": {
+    "de": "Berufliches Deutsch: Besprechungen, Angebote, Verhandlungen, Zahlen.",
+    "en": "Business German: meetings, quotes, negotiation, figures."
+   },
+   "levels": [
+    "B2",
+    "C1"
+   ]
+  },
+  {
+   "key": "wissenschaft",
+   "label": {
+    "de": "Wissen & Argumentation",
+    "en": "Knowledge & argument"
+   },
+   "icon": "🔬",
+   "color": "#18B98A",
+   "payoff": {
+    "de": "Fachtexte lesen und eine These vertreten, ohne sie zu überdehnen.",
+    "en": "Reading specialist texts and arguing a case without overstating it."
+   },
+   "levels": [
+    "B2",
+    "C1"
    ]
   }
  ],
@@ -1557,6 +1603,477 @@
     "w3c",
     "s3a"
    ]
+  },
+  {
+   "key": "b2.1",
+   "level": "B2",
+   "n": 1,
+   "title": {
+    "de": "Berichten statt behaupten",
+    "en": "Reporting without claiming"
+   },
+   "icon": "🗯️",
+   "blurb": {
+    "de": "Fremde Aussagen wiedergeben und dabei erkennbar auf Distanz bleiben.",
+    "en": "Relaying what others said while visibly keeping your distance."
+   },
+   "canDos": [
+    {
+     "id": "cd.b2.1.1",
+     "text": {
+      "de": "Ich erkenne in einem Zeitungstext, was berichtet und was behauptet wird.",
+      "en": "I can tell in a news text what is being reported and what is being claimed."
+     },
+     "area": "lesen"
+    },
+    {
+     "id": "cd.b2.1.2",
+     "text": {
+      "de": "Ich kann eine fremde Aussage im Konjunktiv I wiedergeben.",
+      "en": "I can relay someone else’s statement in Konjunktiv I."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.b2.1.3",
+     "text": {
+      "de": "Ich höre heraus, wo sich eine Sprecherin von einer Aussage distanziert.",
+      "en": "I can hear where a speaker distances themselves from a claim."
+     },
+     "area": "hoeren"
+    }
+   ],
+   "themes": [
+    "medien",
+    "wissenschaft"
+   ],
+   "grammar": [
+    "konjunktiv1"
+   ],
+   "tasks": [
+    "h.b2.1"
+   ]
+  },
+  {
+   "key": "b2.2",
+   "level": "B2",
+   "n": 2,
+   "title": {
+    "de": "Was gewesen wäre",
+    "en": "What would have been"
+   },
+   "icon": "🔄",
+   "blurb": {
+    "de": "Kritik, Bedauern und Beinahe-Geschichten: der Konjunktiv II der Vergangenheit.",
+    "en": "Criticism, regret and near misses: Konjunktiv II in the past."
+   },
+   "canDos": [
+    {
+     "id": "cd.b2.2.1",
+     "text": {
+      "de": "Ich kann Kritik äußern, ohne jemanden direkt anzugreifen.",
+      "en": "I can voice criticism without attacking anyone directly."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.b2.2.2",
+     "text": {
+      "de": "Ich bilde hätte/wäre + Partizip und den doppelten Infinitiv sicher.",
+      "en": "I confidently form hätte/wäre + participle and the double infinitive."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.b2.2.3",
+     "text": {
+      "de": "Ich kann begründen, was ich anders gemacht hätte und warum.",
+      "en": "I can explain what I would have done differently and why."
+     },
+     "area": "schreiben"
+    }
+   ],
+   "themes": [
+    "gefuehle",
+    "arbeit"
+   ],
+   "grammar": [
+    "irreal"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "b2.3",
+   "level": "B2",
+   "n": 3,
+   "title": {
+    "de": "Amtsdeutsch lesen",
+    "en": "Reading official German"
+   },
+   "icon": "📐",
+   "blurb": {
+    "de": "Nominalstil auflösen, Passiv-Ersatzformen erkennen, Partizipien entpacken.",
+    "en": "Unpacking the nominal style, spotting passive alternatives, unfolding participles."
+   },
+   "canDos": [
+    {
+     "id": "cd.b2.3.1",
+     "text": {
+      "de": "Ich kann einen Bescheid lesen und sagen, was er von mir verlangt.",
+      "en": "I can read an official letter and say what it requires of me."
+     },
+     "area": "lesen"
+    },
+    {
+     "id": "cd.b2.3.2",
+     "text": {
+      "de": "Ich kann zwischen Nominal- und Verbalstil umformen.",
+      "en": "I can convert between the nominal and the verbal style."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.b2.3.3",
+     "text": {
+      "de": "Ich erkenne ein Partizipialattribut und löse es in einen Relativsatz auf.",
+      "en": "I can spot a participial attribute and unfold it into a relative clause."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.b2.3.4",
+     "text": {
+      "de": "Ich verstehe \"ist zu zahlen\" und \"lässt sich beantragen\" ohne Nachdenken.",
+      "en": "I understand \"ist zu zahlen\" and \"lässt sich beantragen\" without stopping to think."
+     },
+     "area": "lesen"
+    }
+   ],
+   "themes": [
+    "wirtschaft",
+    "behoerden"
+   ],
+   "grammar": [
+    "nominalstil",
+    "passiversatz",
+    "partizipial"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "b2.4",
+   "level": "B2",
+   "n": 4,
+   "title": {
+    "de": "Klingen wie ein Mensch",
+    "en": "Sounding like a person"
+   },
+   "icon": "💬",
+   "blurb": {
+    "de": "doch, ja, mal, eben: die kleinen Wörter, die Haltung tragen.",
+    "en": "doch, ja, mal, eben: the small words that carry attitude."
+   },
+   "canDos": [
+    {
+     "id": "cd.b2.4.1",
+     "text": {
+      "de": "Ich kann eine Bitte mit mal und doch weicher machen.",
+      "en": "I can soften a request with mal and doch."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.b2.4.2",
+     "text": {
+      "de": "Ich höre an der Partikel, ob jemand überrascht, genervt oder resigniert ist.",
+      "en": "I can hear from the particle whether someone is surprised, irritated or resigned."
+     },
+     "area": "hoeren"
+    },
+    {
+     "id": "cd.b2.4.3",
+     "text": {
+      "de": "Mein Deutsch klingt nicht mehr wie aus dem Lehrbuch.",
+      "en": "My German no longer sounds like a textbook."
+     },
+     "area": "sprechen"
+    }
+   ],
+   "themes": [
+    "kommunikation",
+    "gefuehle"
+   ],
+   "grammar": [
+    "modalpartikeln"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "b2.5",
+   "level": "B2",
+   "n": 5,
+   "title": {
+    "de": "Argumentieren und abwägen",
+    "en": "Arguing and weighing up"
+   },
+   "icon": "⚖️",
+   "blurb": {
+    "de": "Eine Position vertreten, einen Einwand einräumen, eine Folgerung ziehen.",
+    "en": "Hold a position, concede an objection, draw a conclusion."
+   },
+   "canDos": [
+    {
+     "id": "cd.b2.5.1",
+     "text": {
+      "de": "Ich kann einen Forumsbeitrag schreiben, der auf die Gegenseite eingeht.",
+      "en": "I can write a forum post that engages with the other side."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.b2.5.2",
+     "text": {
+      "de": "Ich kann einen Vortrag halten und danach Rückfragen beantworten.",
+      "en": "I can give a presentation and then answer follow-up questions."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.b2.5.3",
+     "text": {
+      "de": "Ich kann eine Schwäche meiner eigenen Position selbst benennen.",
+      "en": "I can name a weakness in my own position myself."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.b2.5.4",
+     "text": {
+      "de": "Ich erkenne, was aus einem Text folgt und was nur darin steht.",
+      "en": "I can tell what follows from a text and what is merely in it."
+     },
+     "area": "lesen"
+    }
+   ],
+   "themes": [
+    "konnektoren",
+    "wissenschaft",
+    "umwelt"
+   ],
+   "grammar": [],
+   "tasks": [
+    "l.b2.1",
+    "w.b2.1",
+    "s.b2.1"
+   ]
+  },
+  {
+   "key": "c1.1",
+   "level": "C1",
+   "n": 1,
+   "title": {
+    "de": "Einräumen und bestehen",
+    "en": "Conceding and holding firm"
+   },
+   "icon": "🌀",
+   "blurb": {
+    "de": "Einen Einwand ernst nehmen, ohne die eigene Position aufzugeben.",
+    "en": "Taking an objection seriously without giving up your position."
+   },
+   "canDos": [
+    {
+     "id": "cd.c1.1.1",
+     "text": {
+      "de": "Ich kann die Gegenposition in ihrer stärksten Form wiedergeben.",
+      "en": "I can state the counter-position in its strongest form."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.c1.1.2",
+     "text": {
+      "de": "Ich kann sagen, was ich nicht entkräften kann, ohne nachzugeben.",
+      "en": "I can say what I cannot refute without conceding."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.c1.1.3",
+     "text": {
+      "de": "Ich benutze so … auch, mag … auch und wenngleich sicher.",
+      "en": "I use so … auch, mag … auch and wenngleich confidently."
+     },
+     "area": "grammatik"
+    }
+   ],
+   "themes": [
+    "wissenschaft",
+    "konnektoren"
+   ],
+   "grammar": [
+    "konzessiv"
+   ],
+   "tasks": [
+    "s.c1.1"
+   ]
+  },
+  {
+   "key": "c1.2",
+   "level": "C1",
+   "n": 2,
+   "title": {
+    "de": "Register treffen",
+    "en": "Hitting the register"
+   },
+   "icon": "⚙️",
+   "blurb": {
+    "de": "Funktionsverbgefüge: zwei richtig gesetzte reichen, ein Absatz davon ist unlesbar.",
+    "en": "Light-verb constructions: two well placed are enough; a paragraph of them is unreadable."
+   },
+   "canDos": [
+    {
+     "id": "cd.c1.2.1",
+     "text": {
+      "de": "Ich lese einen Bescheid ohne Umwege über die Übersetzung.",
+      "en": "I read an official decision without detouring through translation."
+     },
+     "area": "lesen"
+    },
+    {
+     "id": "cd.c1.2.2",
+     "text": {
+      "de": "Ich setze Funktionsverbgefüge gezielt ein, statt sie zu häufen.",
+      "en": "I place light-verb constructions deliberately rather than piling them up."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.c1.2.3",
+     "text": {
+      "de": "Ich kenne das feste Verb zu Betracht, Kraft, Kritik und Abstand.",
+      "en": "I know the fixed verb for Betracht, Kraft, Kritik and Abstand."
+     },
+     "area": "wortschatz"
+    }
+   ],
+   "themes": [
+    "wirtschaft",
+    "behoerden"
+   ],
+   "grammar": [
+    "funktionsverben"
+   ],
+   "tasks": [
+    "w.c1.1"
+   ]
+  },
+  {
+   "key": "c1.3",
+   "level": "C1",
+   "n": 3,
+   "title": {
+    "de": "Wörter knacken",
+    "en": "Cracking words open"
+   },
+   "icon": "🧱",
+   "blurb": {
+    "de": "Vorsilben und Endungen lesen, statt nachzuschlagen. Die einzige Strategie, die im Hörtext funktioniert.",
+    "en": "Reading prefixes and suffixes instead of looking things up – the only strategy that works in a listening text."
+   },
+   "canDos": [
+    {
+     "id": "cd.c1.3.1",
+     "text": {
+      "de": "Ich erschließe unbekannte Wörter aus ihren Teilen und prüfe die Vermutung am Satz.",
+      "en": "I work out unknown words from their parts and check the guess against the sentence."
+     },
+     "area": "lesen"
+    },
+    {
+     "id": "cd.c1.3.2",
+     "text": {
+      "de": "Ich bleibe bei einem unbekannten Wort im Hörtext nicht hängen.",
+      "en": "I do not get stuck on an unknown word in a listening text."
+     },
+     "area": "hoeren"
+    },
+    {
+     "id": "cd.c1.3.3",
+     "text": {
+      "de": "Ich lese ein Kompositum von rechts und weiß sofort, worum es geht.",
+      "en": "I read a compound from the right and know at once what it is about."
+     },
+     "area": "wortschatz"
+    }
+   ],
+   "themes": [
+    "wissenschaft",
+    "stadt"
+   ],
+   "grammar": [
+    "wortbildung"
+   ],
+   "tasks": [
+    "h.c1.1"
+   ]
+  },
+  {
+   "key": "c1.4",
+   "level": "C1",
+   "n": 4,
+   "title": {
+    "de": "Aus Sätzen einen Text machen",
+    "en": "Turning sentences into a text"
+   },
+   "icon": "🧵",
+   "blurb": {
+    "de": "Die häufigste Kritik auf C1 betrifft nicht die Grammatik, sondern den Zusammenhang.",
+    "en": "The commonest criticism at C1 is not the grammar but the cohesion."
+   },
+   "canDos": [
+    {
+     "id": "cd.c1.4.1",
+     "text": {
+      "de": "Ich nehme Vorheriges mit einer Nominalphrase wieder auf, nicht mit \"das\".",
+      "en": "I take up what came before with a noun phrase, not with \"das\"."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.c1.4.2",
+     "text": {
+      "de": "Ich setze auf Position 1 den Anschluss, nicht die neue Information.",
+      "en": "I put the link in first position, not the new information."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.c1.4.3",
+     "text": {
+      "de": "Ich erkenne, worauf sich ein da-Kompositum im Text bezieht.",
+      "en": "I can tell what a da-compound refers to in a text."
+     },
+     "area": "lesen"
+    },
+    {
+     "id": "cd.c1.4.4",
+     "text": {
+      "de": "Mein Text liest sich als Argumentation, nicht als Liste richtiger Sätze.",
+      "en": "My text reads as an argument, not a list of correct sentences."
+     },
+     "area": "schreiben"
+    }
+   ],
+   "themes": [
+    "kommunikation",
+    "gefuehle"
+   ],
+   "grammar": [
+    "textkohaesion"
+   ],
+   "tasks": [
+    "l.c1.1"
+   ]
   }
  ],
  "areas": {
@@ -1610,15 +2127,15 @@
   }
  },
  "counts": {
-  "vocab": 1459,
-  "drills": 254,
-  "grammar": 33,
-  "reading": 11,
-  "listening": 8,
-  "writing": 11,
-  "speaking": 10,
-  "articles": 4,
-  "reviewable": 1713
+  "vocab": 1721,
+  "drills": 314,
+  "grammar": 43,
+  "reading": 13,
+  "listening": 10,
+  "writing": 13,
+  "speaking": 12,
+  "articles": 7,
+  "reviewable": 2035
  },
  "byLevel": {
   "A1": {
@@ -1636,25 +2153,25 @@
    "articles": 2
   },
   "B1": {
-   "vocab": 638,
+   "vocab": 642,
    "drills": 98,
    "grammar": 14,
    "tasks": 31,
-   "articles": 0
+   "articles": 1
   },
   "B2": {
-   "vocab": 0,
-   "drills": 0,
-   "grammar": 0,
-   "tasks": 0,
-   "articles": 0
+   "vocab": 170,
+   "drills": 36,
+   "grammar": 6,
+   "tasks": 4,
+   "articles": 1
   },
   "C1": {
-   "vocab": 0,
-   "drills": 0,
-   "grammar": 0,
-   "tasks": 0,
-   "articles": 0
+   "vocab": 88,
+   "drills": 24,
+   "grammar": 4,
+   "tasks": 4,
+   "articles": 1
   }
  }
 }

@@ -357,4 +357,161 @@ export const COURSE = [
       },
     ],
   },
+  {
+    level: 'B2',
+    units: [
+      {
+        title: { de: 'Berichten statt behaupten', en: 'Reporting without claiming' },
+        icon: '\u{1F5EF}\uFE0F',
+        blurb: {
+          de: 'Fremde Aussagen wiedergeben und dabei erkennbar auf Distanz bleiben.',
+          en: 'Relaying what others said while visibly keeping your distance.',
+        },
+        canDos: [
+          { area: 'lesen', text: { de: 'Ich erkenne in einem Zeitungstext, was berichtet und was behauptet wird.', en: 'I can tell in a news text what is being reported and what is being claimed.' } },
+          { area: 'schreiben', text: { de: 'Ich kann eine fremde Aussage im Konjunktiv I wiedergeben.', en: 'I can relay someone else\u2019s statement in Konjunktiv I.' } },
+          { area: 'hoeren', text: { de: 'Ich höre heraus, wo sich eine Sprecherin von einer Aussage distanziert.', en: 'I can hear where a speaker distances themselves from a claim.' } },
+        ],
+        themes: ['medien', 'wissenschaft'],
+        grammar: ['konjunktiv1'],
+        tasks: ['h.b2.1'],
+      },
+      {
+        title: { de: 'Was gewesen wäre', en: 'What would have been' },
+        icon: '\u{1F504}',
+        blurb: {
+          de: 'Kritik, Bedauern und Beinahe-Geschichten: der Konjunktiv II der Vergangenheit.',
+          en: 'Criticism, regret and near misses: Konjunktiv II in the past.',
+        },
+        canDos: [
+          { area: 'sprechen', text: { de: 'Ich kann Kritik äußern, ohne jemanden direkt anzugreifen.', en: 'I can voice criticism without attacking anyone directly.' } },
+          { area: 'grammatik', text: { de: 'Ich bilde hätte/wäre + Partizip und den doppelten Infinitiv sicher.', en: 'I confidently form hätte/wäre + participle and the double infinitive.' } },
+          { area: 'schreiben', text: { de: 'Ich kann begründen, was ich anders gemacht hätte und warum.', en: 'I can explain what I would have done differently and why.' } },
+        ],
+        themes: ['gefuehle', 'arbeit'],
+        grammar: ['irreal'],
+        tasks: [],
+      },
+      {
+        title: { de: 'Amtsdeutsch lesen', en: 'Reading official German' },
+        icon: '\u{1F4D0}',
+        blurb: {
+          de: 'Nominalstil auflösen, Passiv-Ersatzformen erkennen, Partizipien entpacken.',
+          en: 'Unpacking the nominal style, spotting passive alternatives, unfolding participles.',
+        },
+        canDos: [
+          { area: 'lesen', text: { de: 'Ich kann einen Bescheid lesen und sagen, was er von mir verlangt.', en: 'I can read an official letter and say what it requires of me.' } },
+          { area: 'grammatik', text: { de: 'Ich kann zwischen Nominal- und Verbalstil umformen.', en: 'I can convert between the nominal and the verbal style.' } },
+          { area: 'grammatik', text: { de: 'Ich erkenne ein Partizipialattribut und löse es in einen Relativsatz auf.', en: 'I can spot a participial attribute and unfold it into a relative clause.' } },
+          { area: 'lesen', text: { de: 'Ich verstehe "ist zu zahlen" und "lässt sich beantragen" ohne Nachdenken.', en: 'I understand "ist zu zahlen" and "lässt sich beantragen" without stopping to think.' } },
+        ],
+        themes: ['wirtschaft', 'behoerden'],
+        grammar: ['nominalstil', 'passiversatz', 'partizipial'],
+        tasks: [],
+      },
+      {
+        title: { de: 'Klingen wie ein Mensch', en: 'Sounding like a person' },
+        icon: '\u{1F4AC}',
+        blurb: {
+          de: 'doch, ja, mal, eben: die kleinen Wörter, die Haltung tragen.',
+          en: 'doch, ja, mal, eben: the small words that carry attitude.',
+        },
+        canDos: [
+          { area: 'sprechen', text: { de: 'Ich kann eine Bitte mit mal und doch weicher machen.', en: 'I can soften a request with mal and doch.' } },
+          { area: 'hoeren', text: { de: 'Ich höre an der Partikel, ob jemand überrascht, genervt oder resigniert ist.', en: 'I can hear from the particle whether someone is surprised, irritated or resigned.' } },
+          { area: 'sprechen', text: { de: 'Mein Deutsch klingt nicht mehr wie aus dem Lehrbuch.', en: 'My German no longer sounds like a textbook.' } },
+        ],
+        themes: ['kommunikation', 'gefuehle'],
+        grammar: ['modalpartikeln'],
+        tasks: [],
+      },
+      {
+        title: { de: 'Argumentieren und abwägen', en: 'Arguing and weighing up' },
+        icon: '\u2696\uFE0F',
+        blurb: {
+          de: 'Eine Position vertreten, einen Einwand einräumen, eine Folgerung ziehen.',
+          en: 'Hold a position, concede an objection, draw a conclusion.',
+        },
+        canDos: [
+          { area: 'schreiben', text: { de: 'Ich kann einen Forumsbeitrag schreiben, der auf die Gegenseite eingeht.', en: 'I can write a forum post that engages with the other side.' } },
+          { area: 'sprechen', text: { de: 'Ich kann einen Vortrag halten und danach Rückfragen beantworten.', en: 'I can give a presentation and then answer follow-up questions.' } },
+          { area: 'sprechen', text: { de: 'Ich kann eine Schwäche meiner eigenen Position selbst benennen.', en: 'I can name a weakness in my own position myself.' } },
+          { area: 'lesen', text: { de: 'Ich erkenne, was aus einem Text folgt und was nur darin steht.', en: 'I can tell what follows from a text and what is merely in it.' } },
+        ],
+        themes: ['konnektoren', 'wissenschaft', 'umwelt'],
+        grammar: [],
+        tasks: ['l.b2.1', 'w.b2.1', 's.b2.1'],
+      },
+    ],
+  },
+  {
+    level: 'C1',
+    units: [
+      {
+        title: { de: 'Einräumen und bestehen', en: 'Conceding and holding firm' },
+        icon: '\u{1F300}',
+        blurb: {
+          de: 'Einen Einwand ernst nehmen, ohne die eigene Position aufzugeben.',
+          en: 'Taking an objection seriously without giving up your position.',
+        },
+        canDos: [
+          { area: 'sprechen', text: { de: 'Ich kann die Gegenposition in ihrer stärksten Form wiedergeben.', en: 'I can state the counter-position in its strongest form.' } },
+          { area: 'sprechen', text: { de: 'Ich kann sagen, was ich nicht entkräften kann, ohne nachzugeben.', en: 'I can say what I cannot refute without conceding.' } },
+          { area: 'grammatik', text: { de: 'Ich benutze so … auch, mag … auch und wenngleich sicher.', en: 'I use so … auch, mag … auch and wenngleich confidently.' } },
+        ],
+        themes: ['wissenschaft', 'konnektoren'],
+        grammar: ['konzessiv'],
+        tasks: ['s.c1.1'],
+      },
+      {
+        title: { de: 'Register treffen', en: 'Hitting the register' },
+        icon: '\u2699\uFE0F',
+        blurb: {
+          de: 'Funktionsverbgefüge: zwei richtig gesetzte reichen, ein Absatz davon ist unlesbar.',
+          en: 'Light-verb constructions: two well placed are enough; a paragraph of them is unreadable.',
+        },
+        canDos: [
+          { area: 'lesen', text: { de: 'Ich lese einen Bescheid ohne Umwege über die Übersetzung.', en: 'I read an official decision without detouring through translation.' } },
+          { area: 'schreiben', text: { de: 'Ich setze Funktionsverbgefüge gezielt ein, statt sie zu häufen.', en: 'I place light-verb constructions deliberately rather than piling them up.' } },
+          { area: 'wortschatz', text: { de: 'Ich kenne das feste Verb zu Betracht, Kraft, Kritik und Abstand.', en: 'I know the fixed verb for Betracht, Kraft, Kritik and Abstand.' } },
+        ],
+        themes: ['wirtschaft', 'behoerden'],
+        grammar: ['funktionsverben'],
+        tasks: ['w.c1.1'],
+      },
+      {
+        title: { de: 'Wörter knacken', en: 'Cracking words open' },
+        icon: '\u{1F9F1}',
+        blurb: {
+          de: 'Vorsilben und Endungen lesen, statt nachzuschlagen. Die einzige Strategie, die im Hörtext funktioniert.',
+          en: 'Reading prefixes and suffixes instead of looking things up \u2013 the only strategy that works in a listening text.',
+        },
+        canDos: [
+          { area: 'lesen', text: { de: 'Ich erschließe unbekannte Wörter aus ihren Teilen und prüfe die Vermutung am Satz.', en: 'I work out unknown words from their parts and check the guess against the sentence.' } },
+          { area: 'hoeren', text: { de: 'Ich bleibe bei einem unbekannten Wort im Hörtext nicht hängen.', en: 'I do not get stuck on an unknown word in a listening text.' } },
+          { area: 'wortschatz', text: { de: 'Ich lese ein Kompositum von rechts und weiß sofort, worum es geht.', en: 'I read a compound from the right and know at once what it is about.' } },
+        ],
+        themes: ['wissenschaft', 'stadt'],
+        grammar: ['wortbildung'],
+        tasks: ['h.c1.1'],
+      },
+      {
+        title: { de: 'Aus Sätzen einen Text machen', en: 'Turning sentences into a text' },
+        icon: '\u{1F9F5}',
+        blurb: {
+          de: 'Die häufigste Kritik auf C1 betrifft nicht die Grammatik, sondern den Zusammenhang.',
+          en: 'The commonest criticism at C1 is not the grammar but the cohesion.',
+        },
+        canDos: [
+          { area: 'schreiben', text: { de: 'Ich nehme Vorheriges mit einer Nominalphrase wieder auf, nicht mit "das".', en: 'I take up what came before with a noun phrase, not with "das".' } },
+          { area: 'schreiben', text: { de: 'Ich setze auf Position 1 den Anschluss, nicht die neue Information.', en: 'I put the link in first position, not the new information.' } },
+          { area: 'lesen', text: { de: 'Ich erkenne, worauf sich ein da-Kompositum im Text bezieht.', en: 'I can tell what a da-compound refers to in a text.' } },
+          { area: 'schreiben', text: { de: 'Mein Text liest sich als Argumentation, nicht als Liste richtiger Sätze.', en: 'My text reads as an argument, not a list of correct sentences.' } },
+        ],
+        themes: ['kommunikation', 'gefuehle'],
+        grammar: ['textkohaesion'],
+        tasks: ['l.c1.1'],
+      },
+    ],
+  },
 ];
