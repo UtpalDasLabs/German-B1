@@ -1,14 +1,16 @@
 /**
- * The Deutsch-Trainer app mark: a speech bubble reading "DE", set inside a
- * black/red/gold ring.
+ * The "Ich kann" app mark: a ticked speech bubble inside a black/red/gold ring.
  *
- * The bubble is the point. What this app teaches is not a quiz about a country,
- * it is a language, and most of what a learner has to do with it is understand
- * and produce speech. The mark says "DE" rather than a level, because the app
- * covers A1 to C1 and an icon that named one of them would be wrong on four
- * screens out of five. The ring is the only national reference, and it is
- * deliberately abstract: this is an original mark, not a state emblem and not
- * connected to the Goethe-Institut, telc or the BAMF.
+ * The two halves each carry one word of the name. The bubble is "sprechen" -
+ * what this app teaches is a language, and most of what a learner has to do
+ * with it is understand and produce speech. The tick is "ich kann" - every goal
+ * in the app is a can-do statement you tick off yourself.
+ *
+ * It replaced a mark reading "DE", which was legible at 512px and a smudge at
+ * 16px. A tick survives being shrunk to a favicon, which letters inside a
+ * bubble do not. The ring is the only national reference and is deliberately
+ * abstract: this is an original mark, not a state emblem and not connected to
+ * the Goethe-Institut, telc or the BAMF.
  */
 
 export const COLOURS = {
@@ -22,21 +24,17 @@ export const COLOURS = {
 const { black: BLACK, ink: INK, red: RED, gold: GOLD, cream: CREAM } = COLOURS;
 
 /**
- * A bold geometric "D", drawn in a 110x150 box with the counter as a hole.
- * `fill-rule="evenodd"` is what turns the inner loop into an opening.
+ * A bold tick, drawn as one outline in a 206x150 box.
+ *
+ * One path rather than two strokes: two coloured strokes meeting at the vertex
+ * leave a visible seam at small sizes, and the seam is exactly where the eye
+ * lands.
  */
-const D_PATH =
-  'M0 0 L50 0 C92 0 110 30 110 75 C110 120 92 150 50 150 L0 150 Z ' +
-  'M30 27 L48 27 C72 27 80 44 80 75 C80 106 72 123 48 123 L30 123 Z';
+const TICK_PATH = 'M180 0 L206 30 L78 150 L0 76 L27 48 L80 98 Z';
 
-/** A bold "E" with three bars, drawn on the same 150-unit baseline. */
-const E_PATH = 'M0 0 L90 0 L90 27 L30 27 L30 60 L82 60 L82 86 L30 86 L30 123 L92 123 L92 150 L0 150 Z';
-
-/** The wordmark: cream "D", gold "E" - the flag colours doing the work. */
+/** The mark inside the bubble. Cream on the dark bubble, for contrast at 16px. */
 function wordmark() {
-  return `
-  <path d="${D_PATH}" fill="${CREAM}" fill-rule="evenodd"/>
-  <g transform="translate(134 0)"><path d="${E_PATH}" fill="${GOLD}"/></g>`;
+  return `<path d="${TICK_PATH}" fill="${CREAM}"/>`;
 }
 
 /**
@@ -51,7 +49,7 @@ export function bubble() {
     <path d="M132 120 H380 C405 120 426 141 426 166 V294 C426 319 405 340 380 340
              H252 L166 412 L186 340 H132 C107 340 86 319 86 294 V166
              C86 141 107 120 132 120 Z" fill="${INK}"/>
-    <g transform="translate(144 151)">${wordmark()}</g>
+    <g transform="translate(157 151)">${wordmark()}</g>
   </g>`;
 }
 

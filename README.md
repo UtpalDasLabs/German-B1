@@ -1,6 +1,11 @@
-# Deutsch-Trainer — German A1 to C1
+# Ich kann — German A1 to C1
 
-A study app for German, from your first sentence to fluent. One codebase, three
+A study app for German, from your first sentence to fluent.
+
+The name is the app's own sentence. Every goal in it is a can-do statement in
+the first person — *Ich kann meine Wohnung beschreiben*, *Ich kann beim Arzt
+sagen, was mir fehlt* — because a percentage tells a learner nothing they can
+act on and a can-do tells them exactly what to go and try. One codebase, three
 targets: **iOS**, **Android** and a **static web app** that deploys to GitHub
 Pages.
 
