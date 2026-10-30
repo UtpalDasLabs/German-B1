@@ -39,6 +39,12 @@ jobs:
       - name: Type check
         run: npm run typecheck
 
+      - name: Check the merge properties
+        run: npm run test:merge
+
+      - name: Check the handoff round trip
+        run: npm run test:handoff
+
   handover:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest

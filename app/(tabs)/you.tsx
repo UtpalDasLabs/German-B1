@@ -359,6 +359,13 @@ export default function YouScreen() {
           <Txt variant="overline" tone="faint">
             {t('backup').toUpperCase()}
           </Txt>
+          <Button
+            title={t('syncTitle')}
+            variant="secondary"
+            full
+            icon={<Ionicons name="sync-outline" size={18} color={colors.text} />}
+            onPress={() => router.push('/sync')}
+          />
           <View style={{ flexDirection: 'row', gap: space.sm }}>
             <View style={{ flex: 1 }}>
               <Button

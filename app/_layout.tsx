@@ -131,6 +131,7 @@ function Navigator() {
         <Stack.Screen name="magazine" />
         <Stack.Screen name="article" />
         <Stack.Screen name="pronounce" />
+        <Stack.Screen name="sync" />
       </Stack>
       <ConsentBanner />
       </View>

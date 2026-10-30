@@ -11,7 +11,9 @@
     "data": "node scripts/build-data.mjs",
     "build:web": "expo export --platform web --output-dir dist && node scripts/stamp-sw.mjs",
     "typecheck": "tsc --noEmit",
-    "icons": "node scripts/build-icons.mjs"
+    "icons": "node scripts/build-icons.mjs",
+    "test:merge": "node scripts/test-merge.mjs",
+    "test:handoff": "node scripts/test-handoff.mjs"
   },
   "dependencies": {
     "@expo/metro-runtime": "~57.0.15",
@@ -30,6 +32,8 @@
     "expo-splash-screen": "~57.0.8",
     "expo-status-bar": "~57.0.1",
     "expo-system-ui": "~57.0.3",
+    "jsqr": "^1.4.0",
+    "qrcode-generator": "^2.0.4",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-native": "0.86.3",
