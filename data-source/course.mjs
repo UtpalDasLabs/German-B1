@@ -426,6 +426,38 @@ export const COURSE = [
         tasks: [],
       },
       {
+        title: { de: 'Die Feinmechanik', en: 'The fine mechanics' },
+        icon: '\u2699\uFE0F',
+        blurb: {
+          de: 'Adjektive als Nomen und Verben mit fester Präposition: zwei Quellen stiller Fehler.',
+          en: 'Adjectives used as nouns, and verbs with a fixed preposition: two sources of quiet errors.',
+        },
+        canDos: [
+          { area: 'grammatik', text: { de: 'Ich schreibe "ein Angestellter" und "etwas Neues" ohne nachzudenken.', en: 'I write "ein Angestellter" and "etwas Neues" without having to think.' } },
+          { area: 'grammatik', text: { de: 'Ich kenne die Präposition, die zu einem Verb gehört, und ihren Kasus.', en: 'I know the preposition that goes with a verb, and its case.' } },
+          { area: 'schreiben', text: { de: 'Ich bilde Abstrakta aus Adjektiven: das Wesentliche, das Entscheidende.', en: 'I form abstract nouns from adjectives: das Wesentliche, das Entscheidende.' } },
+        ],
+        themes: ['verben', 'adjektive'],
+        grammar: ['adjektivnomen', 'verbenpraep'],
+        tasks: [],
+      },
+      {
+        title: { de: 'Lange Sätze bauen', en: 'Building long sentences' },
+        icon: '\u{1F9F7}',
+        blurb: {
+          de: 'Relativsätze mit Präposition, im Genitiv und mit was: die Fälle, die B1 auslässt.',
+          en: 'Relative clauses with a preposition, in the genitive and with was: the cases B1 leaves out.',
+        },
+        canDos: [
+          { area: 'schreiben', text: { de: 'Ich stelle die Präposition vor das Relativpronomen, nicht ans Satzende.', en: 'I put the preposition before the relative pronoun, not at the end.' } },
+          { area: 'grammatik', text: { de: 'Ich benutze dessen und deren richtig, ohne Artikel dahinter.', en: 'I use dessen and deren correctly, with no article after them.' } },
+          { area: 'lesen', text: { de: 'Ich verliere in einem langen Schachtelsatz den Bezug nicht.', en: 'I do not lose the thread in a long nested sentence.' } },
+        ],
+        themes: ['konnektoren', 'behoerden'],
+        grammar: ['relativ2'],
+        tasks: [],
+      },
+      {
         title: { de: 'Argumentieren und abwägen', en: 'Arguing and weighing up' },
         icon: '\u2696\uFE0F',
         blurb: {
@@ -494,6 +526,39 @@ export const COURSE = [
         themes: ['wissenschaft', 'stadt'],
         grammar: ['wortbildung'],
         tasks: ['h.c1.1'],
+      },
+      {
+        title: { de: 'Das richtige Wort zum richtigen Wort', en: 'The right word for the right word' },
+        icon: '\u{1F91D}',
+        blurb: {
+          de: 'Kollokationen: eine Entscheidung trifft man, ein Urteil fällt man.',
+          en: 'Collocations: you treffen a decision and fällen a verdict.',
+        },
+        canDos: [
+          { area: 'schreiben', text: { de: 'Ich schreibe "eine Entscheidung treffen", nicht "machen".', en: 'I write "eine Entscheidung treffen", not "machen".' } },
+          { area: 'wortschatz', text: { de: 'Ich lerne Verb und Nomen als Paar, nicht als zwei Wörter.', en: 'I learn verb and noun as a pair, not as two words.' } },
+          { area: 'sprechen', text: { de: 'Mein Deutsch klingt nicht mehr übersetzt, auch wenn es grammatisch schon lange stimmte.', en: 'My German no longer sounds translated, even where the grammar was right all along.' } },
+        ],
+        themes: ['nomenverben', 'wirtschaft'],
+        grammar: ['kollokationen'],
+        tasks: [],
+      },
+      {
+        title: { de: 'Betonen und abtönen', en: 'Emphasis and hedging' },
+        icon: '\u{1F39A}\uFE0F',
+        blurb: {
+          de: 'Ein Wort herausheben, und sagen, wie sicher man sich ist.',
+          en: 'Lifting one word out, and saying how sure you are.',
+        },
+        canDos: [
+          { area: 'schreiben', text: { de: 'Ich hebe mit "Was mich stört, ist …" hervor, statt lauter zu werden.', en: 'I emphasise with "Was mich stört, ist …" instead of getting louder.' } },
+          { area: 'sprechen', text: { de: 'Ich kann eine Behauptung so abstufen, dass ich sie verteidigen kann.', en: 'I can grade a claim so that I am able to defend it.' } },
+          { area: 'lesen', text: { de: 'Ich merke an "dürfte" und "angeblich", wie stark ein Text sich festlegt.', en: 'I notice from "dürfte" and "angeblich" how far a text commits itself.' } },
+          { area: 'hoeren', text: { de: 'Ich höre an der Fokuspartikel, worauf es jemandem ankommt.', en: 'I hear from the focus particle what someone is actually getting at.' } },
+        ],
+        themes: ['kommunikation', 'wissenschaft'],
+        grammar: ['emphase', 'hedging'],
+        tasks: [],
       },
       {
         title: { de: 'Aus Sätzen einen Text machen', en: 'Turning sentences into a text' },
