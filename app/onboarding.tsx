@@ -11,15 +11,16 @@ import { Button, Chip, ProgressBar, Screen, Txt } from '@/components/ui';
 import { GOALS, GOAL_ORDER } from '@/lib/goals';
 import { isEmbeddedArtifact } from '@/lib/install';
 import { PROVIDERS } from '@/lib/official';
+import { levels } from '@/lib/study';
 import { meta } from '@/lib/study';
 import type { ExamProvider } from '@/lib/types';
 import { useT } from '@/lib/useT';
 import { useSettings } from '@/store/SettingsProvider';
 import { useTheme } from '@/theme/ThemeProvider';
 
-type StepId = 'welcome' | 'why' | 'how' | 'provider' | 'goal' | 'install';
+type StepId = 'welcome' | 'why' | 'how' | 'level' | 'provider' | 'goal' | 'install';
 
-const BASE_STEPS: StepId[] = ['welcome', 'why', 'how', 'provider', 'goal'];
+const BASE_STEPS: StepId[] = ['welcome', 'why', 'how', 'level', 'provider', 'goal'];
 
 /**
  * The install step only means something on a real web page: a native build is
@@ -34,6 +35,7 @@ const MOODS: Record<StepId, MascotMood> = {
   welcome: 'happy',
   why: 'thinking',
   how: 'idle',
+  level: 'thinking',
   provider: 'thinking',
   goal: 'happy',
   install: 'celebrate',
@@ -110,6 +112,7 @@ export default function OnboardingScreen() {
               welcome: t('obWelcomeTitle'),
               why: t('obWhyTitle'),
               how: t('obHowTitle'),
+              level: t('levelTitle'),
               provider: t('obProviderTitle'),
               goal: t('obGoalTitle'),
               install: t('installTitle'),
@@ -123,12 +126,58 @@ export default function OnboardingScreen() {
               welcome: t('obWelcomeBody'),
               why: t('obWhyBody'),
               how: t('obHowBody'),
+              level: t('levelSub'),
               provider: t('obProviderBody'),
               goal: t('obGoalBody'),
               install: t('installWhy'),
             }[step]
           }
         </Txt>
+
+        {step === 'level' ? (
+          <View style={{ gap: space.sm }}>
+            {levels.map((l) => {
+              const active = settings.level === l.key;
+              return (
+                <Pressable
+                  key={l.key}
+                  onPress={() => update({ level: l.key })}
+                  accessibilityRole="radio"
+                  accessibilityState={{ selected: active }}
+                  style={{
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                    gap: space.md,
+                    padding: space.md,
+                    borderRadius: radius.md,
+                    borderWidth: 2,
+                    borderColor: active ? l.color : colors.border,
+                    backgroundColor: active ? `${l.color}18` : 'transparent',
+                  }}
+                >
+                  <Txt variant="heading" style={{ color: l.color, width: 34 }}>
+                    {l.key}
+                  </Txt>
+                  <View style={{ flex: 1 }}>
+                    <Txt variant="bodyStrong">{l.name[locale]}</Txt>
+                    <Txt variant="small" tone="muted">
+                      {l.summary[locale]}
+                    </Txt>
+                  </View>
+                </Pressable>
+              );
+            })}
+            {/* A self-chosen level is usually wrong, and wrong in either
+                direction wastes weeks, so the test is offered right here. */}
+            <Button
+              title={t('placementStart')}
+              variant="secondary"
+              full
+              icon={<Ionicons name="compass-outline" size={18} color={colors.text} />}
+              onPress={() => router.push('/placement')}
+            />
+          </View>
+        ) : null}
 
         {step === 'provider' ? (
           <View style={{ gap: space.sm }}>

@@ -23,7 +23,7 @@ export default function Root({ children }: { children: React.ReactNode }) {
 
         <meta
           name="description"
-          content="B1-Trainer: vocabulary, grammar and full practice for Lesen, Hoeren, Schreiben and Sprechen at German B1 level."
+          content="Deutsch-Trainer: vocabulary, grammar, graded reading and full exam practice for German A1 to C1."
         />
         <meta name="theme-color" content="#4CC93F" />
 
@@ -32,7 +32,7 @@ export default function Root({ children }: { children: React.ReactNode }) {
         <link rel="apple-touch-icon" href="icon-192.png" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="B1-Trainer" />
+        <meta name="apple-mobile-web-app-title" content="Deutsch-Trainer" />
         <meta name="mobile-web-app-capable" content="yes" />
 
         {/* Keeps <ScrollView> from scrolling the page body. */}
@@ -45,8 +45,8 @@ export default function Root({ children }: { children: React.ReactNode }) {
         {/* Painted immediately, removed by the app once it has mounted. */}
         <div id="b1-splash" aria-hidden="true">
           <div id="b1-splash-mark" dangerouslySetInnerHTML={{ __html: BRAND_MARK_SVG }} />
-          <div id="b1-splash-name">B1-Trainer</div>
-          <div id="b1-splash-sub">Zertifikat Deutsch B1</div>
+          <div id="b1-splash-name">Deutsch-Trainer</div>
+          <div id="b1-splash-sub">A1 bis C1</div>
         </div>
         {children}
       </body>

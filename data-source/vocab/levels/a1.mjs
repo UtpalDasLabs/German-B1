@@ -39,6 +39,8 @@ export const A1 = {
       ['der Beruf', '-e', 'job, profession', 'Was ist Ihr Beruf?', 'What is your profession?'],
       ['die Nummer', '-n', 'number', 'Meine Nummer ist 0170 123456.', 'My number is 0170 123456.'],
       ['die Person', '-en', 'person', 'Wir sind vier Personen.', 'There are four of us.'],
+      ['der Hund', '-e', 'dog', 'Mein Nachbar hat einen Hund.', 'My neighbour has a dog.'],
+      ['die Katze', '-n', 'cat', 'Die Katze schläft auf dem Sofa.', 'The cat is sleeping on the sofa.'],
       ['der Nachbar', '-n', 'neighbour', 'Mein Nachbar ist sehr laut.', 'My neighbour is very loud.'],
     ],
     verbs: [
@@ -59,6 +61,11 @@ export const A1 = {
 
   wohnen: {
     nouns: [
+      ['die Wohnung', '-en', 'flat, apartment', 'Meine Wohnung ist klein.', 'My flat is small.'],
+      ['die Miete', '-n', 'rent', 'Die Miete ist nicht teuer.', 'The rent is not expensive.'],
+      ['die Heizung', '-en', 'heating', 'Die Heizung funktioniert nicht.', 'The heating is not working.'],
+      ['der Strom', 'ohne Plural', 'electricity', 'Der Strom kostet 40 Euro im Monat.', 'Electricity costs 40 euros a month.'],
+      ['die Möbel', 'nur Plural', 'furniture', 'Ich kaufe Möbel auf dem Markt.', 'I buy furniture at the market.'],
       ['das Haus', '-¨er', 'house', 'Das Haus ist alt.', 'The house is old.'],
       ['das Zimmer', '-', 'room', 'Mein Zimmer ist klein.', 'My room is small.'],
       ['die Küche', '-n', 'kitchen', 'Wir essen in der Küche.', 'We eat in the kitchen.'],
@@ -188,6 +195,7 @@ export const A1 = {
 
   zeit: {
     nouns: [
+      ['die Zeit', '-en', 'time', 'Am Abend habe ich Zeit.', 'In the evening I have time.'],
       ['die Uhr', '-en', 'clock, o\u2019clock', 'Es ist drei Uhr.', 'It is three o\u2019clock.'],
       ['die Stunde', '-n', 'hour', 'Der Kurs dauert zwei Stunden.', 'The course lasts two hours.'],
       ['die Minute', '-n', 'minute', 'Warte fünf Minuten!', 'Wait five minutes!'],

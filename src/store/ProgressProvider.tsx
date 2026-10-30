@@ -8,6 +8,8 @@ import type { CardProgress, ExamResult, ModuleAttempt, Progress } from '@/lib/ty
 const DEFAULTS: Progress = {
   cards: {},
   canDos: {},
+  saved: {},
+  articles: {},
   attempts: [],
   exams: [],
   drafts: {},
@@ -33,6 +35,10 @@ type Ctx = {
   saveDraft: (taskId: string, text: string) => void;
   /** Ticks or unticks a course goal. Claims, not scores - so no XP. */
   toggleCanDo: (id: string) => void;
+  /** Saves or unsaves a word. Saving is a bookmark, not a review. */
+  toggleSaved: (id: string) => void;
+  /** Records a magazine article as read, with its quiz score if one was sat. */
+  recordArticle: (id: string, score: number | null) => void;
   reset: () => void;
   restore: (next: Progress) => void;
 };
@@ -47,6 +53,8 @@ const ProgressContext = createContext<Ctx>({
   recordExam: () => {},
   saveDraft: () => {},
   toggleCanDo: () => {},
+  toggleSaved: () => {},
+  recordArticle: () => {},
   reset: () => {},
   restore: () => {},
 });
@@ -165,6 +173,38 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     [commit],
   );
 
+  /**
+   * Saving a word is a bookmark, not a review: it records that you want to come
+   * back to it, and says nothing about whether you know it. So it leaves the
+   * card's schedule exactly where it was.
+   */
+  const toggleSaved = useCallback(
+    (id: string) => {
+      commit((prev) => {
+        const saved = { ...prev.saved };
+        if (saved[id]) delete saved[id];
+        else saved[id] = Date.now();
+        return { ...prev, saved };
+      });
+    },
+    [commit],
+  );
+
+  /**
+   * Reading an article earns XP like a module, but is kept out of `attempts`.
+   * An article is not exam format, and letting it into the Lesen trend would
+   * make that trend answer a question nobody asked.
+   */
+  const recordArticle = useCallback(
+    (id: string, score: number | null) => {
+      commit((prev) => ({
+        ...awardXp(prev, XP_MODULE, 60),
+        articles: { ...prev.articles, [id]: { at: Date.now(), score } },
+      }));
+    },
+    [commit],
+  );
+
   const reset = useCallback(() => {
     setProgress(DEFAULTS);
     void clearAll();
@@ -189,6 +229,8 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       recordExam,
       saveDraft,
       toggleCanDo,
+      toggleSaved,
+      recordArticle,
       reset,
       restore,
     }),
@@ -202,6 +244,8 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       recordExam,
       saveDraft,
       toggleCanDo,
+      toggleSaved,
+      recordArticle,
       reset,
       restore,
     ],

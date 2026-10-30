@@ -65,10 +65,10 @@ function Navigator() {
       {/* expo-router renders a helmet-managed <title> into the head; without a
           value here it emits an empty one and the tab shows nothing. */}
       <Head>
-        <title>B1-Trainer</title>
+        <title>Deutsch-Trainer</title>
         <meta
           name="description"
-          content="Practise German B1: vocabulary, grammar, Lesen, Hören, Schreiben and Sprechen."
+          content="Practise German from A1 to C1: vocabulary, grammar, graded articles, Lesen, Hören, Schreiben and Sprechen."
         />
       </Head>
       <StatusBar style={dark ? 'light' : 'dark'} />
@@ -90,6 +90,12 @@ function Navigator() {
         <Stack.Screen name="speaking" />
         <Stack.Screen name="exam-session" />
         <Stack.Screen name="plan" />
+        <Stack.Screen name="course" />
+        <Stack.Screen name="placement" />
+        <Stack.Screen name="trainer" />
+        <Stack.Screen name="dictionary" />
+        <Stack.Screen name="magazine" />
+        <Stack.Screen name="article" />
       </Stack>
     </>
   );

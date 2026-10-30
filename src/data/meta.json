@@ -1266,45 +1266,51 @@
   }
  },
  "counts": {
-  "vocab": 1266,
+  "vocab": 1270,
   "drills": 238,
   "grammar": 31,
   "reading": 8,
   "listening": 6,
   "writing": 9,
   "speaking": 8,
-  "reviewable": 1504
+  "articles": 2,
+  "reviewable": 1508
  },
  "byLevel": {
   "A1": {
-   "vocab": 456,
+   "vocab": 464,
    "drills": 80,
    "grammar": 10,
-   "tasks": 0
+   "tasks": 0,
+   "articles": 2
   },
   "A2": {
    "vocab": 0,
    "drills": 60,
    "grammar": 7,
-   "tasks": 0
+   "tasks": 0,
+   "articles": 0
   },
   "B1": {
-   "vocab": 810,
+   "vocab": 806,
    "drills": 98,
    "grammar": 14,
-   "tasks": 31
+   "tasks": 31,
+   "articles": 0
   },
   "B2": {
    "vocab": 0,
    "drills": 0,
    "grammar": 0,
-   "tasks": 0
+   "tasks": 0,
+   "articles": 0
   },
   "C1": {
    "vocab": 0,
    "drills": 0,
    "grammar": 0,
-   "tasks": 0
+   "tasks": 0,
+   "articles": 0
   }
  }
 }

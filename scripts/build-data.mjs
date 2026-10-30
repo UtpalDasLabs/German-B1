@@ -20,6 +20,7 @@ import { READING } from '../data-source/reading.mjs';
 import { LISTENING } from '../data-source/listening.mjs';
 import { WRITING } from '../data-source/writing.mjs';
 import { SPEAKING } from '../data-source/speaking.mjs';
+import { MAGAZINE } from '../data-source/magazine.mjs';
 import { themeColors } from './palette.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -344,6 +345,107 @@ for (const level of COURSE) {
   });
 }
 
+
+/* --------------------------------------------------------------- magazine */
+
+/**
+ * Turns an article paragraph into tokens.
+ *
+ * `[Kaution]` and `[bezahlt|bezahlen]` become word tokens carrying the id of a
+ * real dictionary entry; `{musst du bezahlen|modalverben}` becomes a grammar
+ * token carrying a real topic key. Both are resolved here rather than in the
+ * app, so a word that does not exist stops the build instead of shipping as an
+ * untappable link a learner never gets an explanation for.
+ */
+function tokenise(text, article, byHeadword) {
+  const tokens = [];
+  const re = /\[([^\[\]|]+)(?:\|([^\[\]|]+))?\]|\{([^{}|]+)\|([^{}|]+)\}/g;
+  let last = 0;
+  let m;
+
+  while ((m = re.exec(text)) != null) {
+    if (m.index > last) tokens.push({ t: 'text', s: text.slice(last, m.index) });
+    last = m.index + m[0].length;
+
+    if (m[3] != null) {
+      const key = m[4].trim();
+      check(
+        grammarKeys.has(key),
+        `${article.id}: grammar link "${m[3]}" names unknown topic "${key}"`,
+      );
+      const topic = grammar.find((g) => g.key === key);
+      check(
+        !topic || levelAtMost(topic.level, article.level),
+        `${article.id} (${article.level}): grammar link "${key}" is tagged ${topic && topic.level}`,
+      );
+      tokens.push({ t: 'grammar', s: m[3], key });
+      continue;
+    }
+
+    const surface = m[1];
+    const lemma = (m[2] ?? m[1]).trim();
+    const entry = byHeadword.get(lemma.toLowerCase());
+    check(entry != null, `${article.id}: "[${surface}]" does not match any word (looked up "${lemma}")`);
+    if (entry) {
+      check(
+        levelAtMost(entry.level, article.level),
+        `${article.id} (${article.level}): "${lemma}" is a ${entry.level} word`,
+      );
+      tokens.push({ t: 'word', s: surface, id: entry.id });
+    }
+  }
+
+  if (last < text.length) tokens.push({ t: 'text', s: text.slice(last) });
+  return tokens;
+}
+
+const levelAtMost = (a, b) => LEVELS.indexOf(a) <= LEVELS.indexOf(b);
+
+// A word is looked up by its headword with or without the article, because an
+// article writes "[Wohnung]" and the entry is stored as "die Wohnung".
+const byHeadword = new Map();
+for (const v of vocab) {
+  byHeadword.set(v.de.toLowerCase(), v);
+  if (v.article) byHeadword.set(`${v.article} ${v.de}`.toLowerCase(), v);
+}
+
+const articles = MAGAZINE.map((article) => {
+  check(isLevel(article.level), `article ${article.id}: "${article.level}" is not a CEFR level`);
+  check(themeKeys.has(article.theme), `article ${article.id}: unknown theme "${article.theme}"`);
+  check(article.paragraphs?.length > 0, `article ${article.id} has no text`);
+  check(article.items?.length >= 3, `article ${article.id} needs at least three questions`);
+  check(article.minutes > 0, `article ${article.id}: minutes must be positive`);
+
+  const paragraphs = article.paragraphs.map((p) => tokenise(p, article, byHeadword));
+
+  // Stray markup is a silent failure otherwise: it renders as literal brackets
+  // in the middle of a sentence and nobody notices until a learner reports it.
+  for (const p of paragraphs) {
+    for (const token of p) {
+      if (token.t !== 'text') continue;
+      check(
+        !/[[\]{}|]/.test(token.s),
+        `${article.id}: leftover markup in "${token.s.trim().slice(0, 40)}"`,
+      );
+    }
+  }
+
+  return {
+    id: article.id,
+    level: article.level,
+    theme: article.theme,
+    title: article.title,
+    teaser: article.teaser,
+    minutes: article.minutes,
+    paragraphs,
+    spoken: paragraphs.map((p) => p.map((x) => x.s).join('')),
+    items: buildItems(`a.${article.id}`, article.items),
+  };
+});
+
+const articleIds = new Set(articles.map((a) => a.id));
+check(articleIds.size === articles.length, 'two articles share an id');
+
 /* ------------------------------------------------------------------- meta */
 
 
@@ -355,6 +457,7 @@ const byLevel = Object.fromEntries(
       drills: drills.filter((d) => d.level === l).length,
       grammar: grammar.filter((g) => g.level === l).length,
       tasks: [...reading, ...listening, ...writing, ...speaking].filter((t) => t.level === l).length,
+      articles: articles.filter((a) => a.level === l).length,
     },
   ]),
 );
@@ -381,6 +484,7 @@ const meta = {
     listening: listening.length,
     writing: writing.length,
     speaking: speaking.length,
+    articles: articles.length,
     reviewable: vocab.length + drills.length,
   },
   byLevel,
@@ -404,6 +508,7 @@ const files = {
   'listening.json': listening,
   'writing.json': writing,
   'speaking.json': speaking,
+  'magazine.json': articles,
   'meta.json': meta,
 };
 
@@ -418,6 +523,7 @@ console.log(
   `\n${vocab.length} words in ${themes.length} themes, ${drills.length} drills across ${grammar.length} grammar topics,\n` +
     `${reading.length} reading tasks, ${listening.length} listening tasks, ` +
     `${writing.length} writing tasks, ${speaking.length} speaking tasks.\n` +
+    `${articles.length} magazine articles.\n` +
     `${units.length} course units, ${canDoIds.size} can-do goals.\n` +
     `${meta.counts.reviewable} items are on the review schedule.\n`,
 );
@@ -427,6 +533,7 @@ for (const l of LEVELS) {
   console.log(
     `  ${l}: ${String(c.vocab).padStart(4)} words  ${String(c.drills).padStart(4)} drills  ` +
       `${String(c.grammar).padStart(2)} topics  ${String(c.tasks).padStart(2)} tasks  ` +
+      `${String(c.articles).padStart(2)} articles  ` +
       `${units.filter((u) => u.level === l).length} units`,
   );
 }

@@ -8,8 +8,6 @@ export default {
   },
 
   nouns: [
-    ['die Wohnung', '-en', 'flat, apartment', 'Wir suchen eine Wohnung mit drei Zimmern.', 'We are looking for a three-room flat.'],
-    ['die Miete', '-n', 'rent', 'Die Miete ist am dritten Werktag fällig.', 'The rent is due on the third working day.'],
     ['die Nebenkosten', 'nur Plural', 'service charges, utilities', 'Die Nebenkosten sind in der Warmmiete enthalten.', 'The service charges are included in the rent.'],
     ['die Kaution', '-en', 'deposit', 'Die Kaution beträgt drei Kaltmieten.', 'The deposit is three months’ basic rent.'],
     ['der Mietvertrag', '-¨e', 'tenancy agreement', 'Lies den Mietvertrag, bevor du unterschreibst.', 'Read the tenancy agreement before you sign.'],
@@ -23,8 +21,6 @@ export default {
     ['der Stock', '-¨e', 'floor, storey', 'Wir wohnen im dritten Stock ohne Aufzug.', 'We live on the third floor with no lift.'],
     ['der Balkon', '-e', 'balcony', 'Im Sommer frühstücken wir auf dem Balkon.', 'In summer we have breakfast on the balcony.'],
     ['der Keller', '-', 'cellar, basement', 'Die Fahrräder stehen im Keller.', 'The bikes are in the cellar.'],
-    ['die Heizung', '-en', 'heating', 'Die Heizung funktioniert seit gestern nicht.', 'The heating has not worked since yesterday.'],
-    ['der Strom', 'ohne Plural', 'electricity', 'Der Strom wird einmal im Jahr abgerechnet.', 'Electricity is billed once a year.'],
     ['der Mangel', '-¨', 'defect, fault', 'Melde den Mangel schriftlich beim Vermieter.', 'Report the defect to the landlord in writing.'],
     ['die Wohngemeinschaft', '-en', 'shared flat, flatshare', 'In der Wohngemeinschaft kocht jeder einmal pro Woche.', 'In the flatshare everyone cooks once a week.'],
     ['der Lärm', 'ohne Plural', 'noise', 'Der Lärm von der Baustelle beginnt um sieben.', 'The noise from the building site starts at seven.'],

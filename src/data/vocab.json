@@ -1036,6 +1036,36 @@
  },
  {
   "id": "w.familie.070",
+  "de": "Hund",
+  "article": "der",
+  "plural": "-e",
+  "pos": "noun",
+  "en": "dog",
+  "theme": "familie",
+  "level": "A1",
+  "example": {
+   "de": "Mein Nachbar hat einen Hund.",
+   "en": "My neighbour has a dog."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.familie.071",
+  "de": "Katze",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "cat",
+  "theme": "familie",
+  "level": "A1",
+  "example": {
+   "de": "Die Katze schläft auf dem Sofa.",
+   "en": "The cat is sleeping on the sofa."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.familie.072",
   "de": "Nachbar",
   "article": "der",
   "plural": "-n",
@@ -1050,7 +1080,7 @@
   "forms": null
  },
  {
-  "id": "w.familie.071",
+  "id": "w.familie.073",
   "de": "heißen",
   "article": null,
   "plural": null,
@@ -1065,7 +1095,7 @@
   "forms": "heißt · hieß · hat geheißen"
  },
  {
-  "id": "w.familie.072",
+  "id": "w.familie.074",
   "de": "wohnen",
   "article": null,
   "plural": null,
@@ -1080,7 +1110,7 @@
   "forms": null
  },
  {
-  "id": "w.familie.073",
+  "id": "w.familie.075",
   "de": "kommen",
   "article": null,
   "plural": null,
@@ -1095,7 +1125,7 @@
   "forms": "kommt · kam · ist gekommen"
  },
  {
-  "id": "w.familie.074",
+  "id": "w.familie.076",
   "de": "buchstabieren",
   "article": null,
   "plural": null,
@@ -1110,7 +1140,7 @@
   "forms": null
  },
  {
-  "id": "w.familie.075",
+  "id": "w.familie.077",
   "de": "vorstellen",
   "article": null,
   "plural": null,
@@ -1125,7 +1155,7 @@
   "forms": null
  },
  {
-  "id": "w.familie.076",
+  "id": "w.familie.078",
   "de": "Wie geht es dir?",
   "article": null,
   "plural": null,
@@ -1140,7 +1170,7 @@
   "forms": null
  },
  {
-  "id": "w.familie.077",
+  "id": "w.familie.079",
   "de": "Freut mich.",
   "article": null,
   "plural": null,
@@ -1155,7 +1185,7 @@
   "forms": null
  },
  {
-  "id": "w.familie.078",
+  "id": "w.familie.080",
   "de": "Woher kommst du?",
   "article": null,
   "plural": null,
@@ -1170,7 +1200,7 @@
   "forms": null
  },
  {
-  "id": "w.familie.079",
+  "id": "w.familie.081",
   "de": "Wie bitte?",
   "article": null,
   "plural": null,
@@ -1185,7 +1215,7 @@
   "forms": null
  },
  {
-  "id": "w.familie.080",
+  "id": "w.familie.082",
   "de": "Ich verstehe nicht.",
   "article": null,
   "plural": null,
@@ -1201,36 +1231,6 @@
  },
  {
   "id": "w.wohnen.001",
-  "de": "Wohnung",
-  "article": "die",
-  "plural": "-en",
-  "pos": "noun",
-  "en": "flat, apartment",
-  "theme": "wohnen",
-  "level": "B1",
-  "example": {
-   "de": "Wir suchen eine Wohnung mit drei Zimmern.",
-   "en": "We are looking for a three-room flat."
-  },
-  "forms": null
- },
- {
-  "id": "w.wohnen.002",
-  "de": "Miete",
-  "article": "die",
-  "plural": "-n",
-  "pos": "noun",
-  "en": "rent",
-  "theme": "wohnen",
-  "level": "B1",
-  "example": {
-   "de": "Die Miete ist am dritten Werktag fällig.",
-   "en": "The rent is due on the third working day."
-  },
-  "forms": null
- },
- {
-  "id": "w.wohnen.003",
   "de": "Nebenkosten",
   "article": "die",
   "plural": "nur Plural",
@@ -1245,7 +1245,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.004",
+  "id": "w.wohnen.002",
   "de": "Kaution",
   "article": "die",
   "plural": "-en",
@@ -1260,7 +1260,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.005",
+  "id": "w.wohnen.003",
   "de": "Mietvertrag",
   "article": "der",
   "plural": "-¨e",
@@ -1275,7 +1275,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.006",
+  "id": "w.wohnen.004",
   "de": "Vermieter",
   "article": "der",
   "plural": "-",
@@ -1290,7 +1290,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.007",
+  "id": "w.wohnen.005",
   "de": "Mieter",
   "article": "der",
   "plural": "-",
@@ -1305,7 +1305,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.008",
+  "id": "w.wohnen.006",
   "de": "Hausordnung",
   "article": "die",
   "plural": "-en",
@@ -1320,7 +1320,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.009",
+  "id": "w.wohnen.007",
   "de": "Hausmeister",
   "article": "der",
   "plural": "-",
@@ -1335,7 +1335,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.010",
+  "id": "w.wohnen.008",
   "de": "Umzug",
   "article": "der",
   "plural": "-¨e",
@@ -1350,7 +1350,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.011",
+  "id": "w.wohnen.009",
   "de": "Möbelstück",
   "article": "das",
   "plural": "-e",
@@ -1365,7 +1365,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.012",
+  "id": "w.wohnen.010",
   "de": "Einrichtung",
   "article": "die",
   "plural": "-en",
@@ -1380,7 +1380,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.013",
+  "id": "w.wohnen.011",
   "de": "Stock",
   "article": "der",
   "plural": "-¨e",
@@ -1395,7 +1395,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.014",
+  "id": "w.wohnen.012",
   "de": "Balkon",
   "article": "der",
   "plural": "-e",
@@ -1410,7 +1410,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.015",
+  "id": "w.wohnen.013",
   "de": "Keller",
   "article": "der",
   "plural": "-",
@@ -1425,37 +1425,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.016",
-  "de": "Heizung",
-  "article": "die",
-  "plural": "-en",
-  "pos": "noun",
-  "en": "heating",
-  "theme": "wohnen",
-  "level": "B1",
-  "example": {
-   "de": "Die Heizung funktioniert seit gestern nicht.",
-   "en": "The heating has not worked since yesterday."
-  },
-  "forms": null
- },
- {
-  "id": "w.wohnen.017",
-  "de": "Strom",
-  "article": "der",
-  "plural": "ohne Plural",
-  "pos": "noun",
-  "en": "electricity",
-  "theme": "wohnen",
-  "level": "B1",
-  "example": {
-   "de": "Der Strom wird einmal im Jahr abgerechnet.",
-   "en": "Electricity is billed once a year."
-  },
-  "forms": null
- },
- {
-  "id": "w.wohnen.018",
+  "id": "w.wohnen.014",
   "de": "Mangel",
   "article": "der",
   "plural": "-¨",
@@ -1470,7 +1440,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.019",
+  "id": "w.wohnen.015",
   "de": "Wohngemeinschaft",
   "article": "die",
   "plural": "-en",
@@ -1485,7 +1455,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.020",
+  "id": "w.wohnen.016",
   "de": "Lärm",
   "article": "der",
   "plural": "ohne Plural",
@@ -1500,7 +1470,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.021",
+  "id": "w.wohnen.017",
   "de": "Besichtigung",
   "article": "die",
   "plural": "-en",
@@ -1515,7 +1485,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.022",
+  "id": "w.wohnen.018",
   "de": "Kündigung",
   "article": "die",
   "plural": "-en",
@@ -1530,7 +1500,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.023",
+  "id": "w.wohnen.019",
   "de": "Nachbarschaft",
   "article": "die",
   "plural": "-en",
@@ -1545,7 +1515,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.024",
+  "id": "w.wohnen.020",
   "de": "vermieten",
   "article": null,
   "plural": null,
@@ -1560,7 +1530,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.025",
+  "id": "w.wohnen.021",
   "de": "umziehen",
   "article": null,
   "plural": null,
@@ -1575,7 +1545,7 @@
   "forms": "zieht um · zog um · ist umgezogen"
  },
  {
-  "id": "w.wohnen.026",
+  "id": "w.wohnen.022",
   "de": "einziehen",
   "article": null,
   "plural": null,
@@ -1590,7 +1560,7 @@
   "forms": "zieht ein · zog ein · ist eingezogen"
  },
  {
-  "id": "w.wohnen.027",
+  "id": "w.wohnen.023",
   "de": "ausziehen",
   "article": null,
   "plural": null,
@@ -1605,7 +1575,7 @@
   "forms": "zieht aus · zog aus · ist ausgezogen"
  },
  {
-  "id": "w.wohnen.028",
+  "id": "w.wohnen.024",
   "de": "renovieren",
   "article": null,
   "plural": null,
@@ -1620,7 +1590,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.029",
+  "id": "w.wohnen.025",
   "de": "reparieren",
   "article": null,
   "plural": null,
@@ -1635,7 +1605,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.030",
+  "id": "w.wohnen.026",
   "de": "kündigen",
   "article": null,
   "plural": null,
@@ -1650,7 +1620,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.031",
+  "id": "w.wohnen.027",
   "de": "anmelden",
   "article": null,
   "plural": null,
@@ -1665,7 +1635,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.032",
+  "id": "w.wohnen.028",
   "de": "einrichten",
   "article": null,
   "plural": null,
@@ -1680,7 +1650,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.033",
+  "id": "w.wohnen.029",
   "de": "besichtigen",
   "article": null,
   "plural": null,
@@ -1695,7 +1665,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.034",
+  "id": "w.wohnen.030",
   "de": "gemütlich",
   "article": null,
   "plural": null,
@@ -1710,7 +1680,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.035",
+  "id": "w.wohnen.031",
   "de": "ruhig",
   "article": null,
   "plural": null,
@@ -1725,7 +1695,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.036",
+  "id": "w.wohnen.032",
   "de": "zentral",
   "article": null,
   "plural": null,
@@ -1740,7 +1710,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.037",
+  "id": "w.wohnen.033",
   "de": "renoviert",
   "article": null,
   "plural": null,
@@ -1755,7 +1725,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.038",
+  "id": "w.wohnen.034",
   "de": "geräumig",
   "article": null,
   "plural": null,
@@ -1770,7 +1740,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.039",
+  "id": "w.wohnen.035",
   "de": "sauber",
   "article": null,
   "plural": null,
@@ -1785,7 +1755,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.040",
+  "id": "w.wohnen.036",
   "de": "günstig",
   "article": null,
   "plural": null,
@@ -1800,7 +1770,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.041",
+  "id": "w.wohnen.037",
   "de": "auf Wohnungssuche sein",
   "article": null,
   "plural": null,
@@ -1815,7 +1785,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.042",
+  "id": "w.wohnen.038",
   "de": "Rücksicht nehmen",
   "article": null,
   "plural": null,
@@ -1830,7 +1800,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.043",
+  "id": "w.wohnen.039",
   "de": "die Miete überweisen",
   "article": null,
   "plural": null,
@@ -1845,7 +1815,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.044",
+  "id": "w.wohnen.040",
   "de": "in zentraler Lage",
   "article": null,
   "plural": null,
@@ -1860,7 +1830,82 @@
   "forms": null
  },
  {
+  "id": "w.wohnen.041",
+  "de": "Wohnung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "flat, apartment",
+  "theme": "wohnen",
+  "level": "A1",
+  "example": {
+   "de": "Meine Wohnung ist klein.",
+   "en": "My flat is small."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wohnen.042",
+  "de": "Miete",
+  "article": "die",
+  "plural": "-n",
+  "pos": "noun",
+  "en": "rent",
+  "theme": "wohnen",
+  "level": "A1",
+  "example": {
+   "de": "Die Miete ist nicht teuer.",
+   "en": "The rent is not expensive."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wohnen.043",
+  "de": "Heizung",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "heating",
+  "theme": "wohnen",
+  "level": "A1",
+  "example": {
+   "de": "Die Heizung funktioniert nicht.",
+   "en": "The heating is not working."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wohnen.044",
+  "de": "Strom",
+  "article": "der",
+  "plural": "ohne Plural",
+  "pos": "noun",
+  "en": "electricity",
+  "theme": "wohnen",
+  "level": "A1",
+  "example": {
+   "de": "Der Strom kostet 40 Euro im Monat.",
+   "en": "Electricity costs 40 euros a month."
+  },
+  "forms": null
+ },
+ {
   "id": "w.wohnen.045",
+  "de": "Möbel",
+  "article": "die",
+  "plural": "nur Plural",
+  "pos": "noun",
+  "en": "furniture",
+  "theme": "wohnen",
+  "level": "A1",
+  "example": {
+   "de": "Ich kaufe Möbel auf dem Markt.",
+   "en": "I buy furniture at the market."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.wohnen.046",
   "de": "Haus",
   "article": "das",
   "plural": "-¨er",
@@ -1875,7 +1920,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.046",
+  "id": "w.wohnen.047",
   "de": "Zimmer",
   "article": "das",
   "plural": "-",
@@ -1890,7 +1935,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.047",
+  "id": "w.wohnen.048",
   "de": "Küche",
   "article": "die",
   "plural": "-n",
@@ -1905,7 +1950,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.048",
+  "id": "w.wohnen.049",
   "de": "Bad",
   "article": "das",
   "plural": "-¨er",
@@ -1920,7 +1965,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.049",
+  "id": "w.wohnen.050",
   "de": "Schlafzimmer",
   "article": "das",
   "plural": "-",
@@ -1935,7 +1980,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.050",
+  "id": "w.wohnen.051",
   "de": "Wohnzimmer",
   "article": "das",
   "plural": "-",
@@ -1950,7 +1995,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.051",
+  "id": "w.wohnen.052",
   "de": "Tisch",
   "article": "der",
   "plural": "-e",
@@ -1965,7 +2010,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.052",
+  "id": "w.wohnen.053",
   "de": "Stuhl",
   "article": "der",
   "plural": "-¨e",
@@ -1980,7 +2025,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.053",
+  "id": "w.wohnen.054",
   "de": "Bett",
   "article": "das",
   "plural": "-en",
@@ -1995,7 +2040,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.054",
+  "id": "w.wohnen.055",
   "de": "Schrank",
   "article": "der",
   "plural": "-¨e",
@@ -2010,7 +2055,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.055",
+  "id": "w.wohnen.056",
   "de": "Fenster",
   "article": "das",
   "plural": "-",
@@ -2025,7 +2070,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.056",
+  "id": "w.wohnen.057",
   "de": "Tür",
   "article": "die",
   "plural": "-en",
@@ -2040,7 +2085,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.057",
+  "id": "w.wohnen.058",
   "de": "Lampe",
   "article": "die",
   "plural": "-n",
@@ -2055,7 +2100,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.058",
+  "id": "w.wohnen.059",
   "de": "Garten",
   "article": "der",
   "plural": "-¨",
@@ -2070,7 +2115,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.059",
+  "id": "w.wohnen.060",
   "de": "Treppe",
   "article": "die",
   "plural": "-n",
@@ -2085,7 +2130,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.060",
+  "id": "w.wohnen.061",
   "de": "Aufzug",
   "article": "der",
   "plural": "-¨e",
@@ -2100,7 +2145,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.061",
+  "id": "w.wohnen.062",
   "de": "Dusche",
   "article": "die",
   "plural": "-n",
@@ -2115,7 +2160,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.062",
+  "id": "w.wohnen.063",
   "de": "Toilette",
   "article": "die",
   "plural": "-n",
@@ -2130,7 +2175,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.063",
+  "id": "w.wohnen.064",
   "de": "Kühlschrank",
   "article": "der",
   "plural": "-¨e",
@@ -2145,7 +2190,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.064",
+  "id": "w.wohnen.065",
   "de": "Schlüssel",
   "article": "der",
   "plural": "-",
@@ -2160,7 +2205,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.065",
+  "id": "w.wohnen.066",
   "de": "putzen",
   "article": null,
   "plural": null,
@@ -2175,7 +2220,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.066",
+  "id": "w.wohnen.067",
   "de": "aufräumen",
   "article": null,
   "plural": null,
@@ -2190,7 +2235,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.067",
+  "id": "w.wohnen.068",
   "de": "suchen",
   "article": null,
   "plural": null,
@@ -2205,7 +2250,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.068",
+  "id": "w.wohnen.069",
   "de": "mieten",
   "article": null,
   "plural": null,
@@ -2220,7 +2265,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.069",
+  "id": "w.wohnen.070",
   "de": "hell",
   "article": null,
   "plural": null,
@@ -2235,7 +2280,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.070",
+  "id": "w.wohnen.071",
   "de": "dunkel",
   "article": null,
   "plural": null,
@@ -2250,7 +2295,7 @@
   "forms": null
  },
  {
-  "id": "w.wohnen.071",
+  "id": "w.wohnen.072",
   "de": "möbliert",
   "article": null,
   "plural": null,
@@ -13966,6 +14011,21 @@
  },
  {
   "id": "w.zeit.037",
+  "de": "Zeit",
+  "article": "die",
+  "plural": "-en",
+  "pos": "noun",
+  "en": "time",
+  "theme": "zeit",
+  "level": "A1",
+  "example": {
+   "de": "Am Abend habe ich Zeit.",
+   "en": "In the evening I have time."
+  },
+  "forms": null
+ },
+ {
+  "id": "w.zeit.038",
   "de": "Uhr",
   "article": "die",
   "plural": "-en",
@@ -13980,7 +14040,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.038",
+  "id": "w.zeit.039",
   "de": "Stunde",
   "article": "die",
   "plural": "-n",
@@ -13995,7 +14055,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.039",
+  "id": "w.zeit.040",
   "de": "Minute",
   "article": "die",
   "plural": "-n",
@@ -14010,7 +14070,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.040",
+  "id": "w.zeit.041",
   "de": "Tag",
   "article": "der",
   "plural": "-e",
@@ -14025,7 +14085,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.041",
+  "id": "w.zeit.042",
   "de": "Woche",
   "article": "die",
   "plural": "-n",
@@ -14040,7 +14100,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.042",
+  "id": "w.zeit.043",
   "de": "Monat",
   "article": "der",
   "plural": "-e",
@@ -14055,7 +14115,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.043",
+  "id": "w.zeit.044",
   "de": "Jahr",
   "article": "das",
   "plural": "-e",
@@ -14070,7 +14130,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.044",
+  "id": "w.zeit.045",
   "de": "Morgen",
   "article": "der",
   "plural": "-",
@@ -14085,7 +14145,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.045",
+  "id": "w.zeit.046",
   "de": "Abend",
   "article": "der",
   "plural": "-e",
@@ -14100,7 +14160,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.046",
+  "id": "w.zeit.047",
   "de": "Nacht",
   "article": "die",
   "plural": "-¨e",
@@ -14115,7 +14175,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.047",
+  "id": "w.zeit.048",
   "de": "Mittag",
   "article": "der",
   "plural": "-e",
@@ -14130,7 +14190,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.048",
+  "id": "w.zeit.049",
   "de": "Montag",
   "article": "der",
   "plural": "-e",
@@ -14145,7 +14205,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.049",
+  "id": "w.zeit.050",
   "de": "Dienstag",
   "article": "der",
   "plural": "-e",
@@ -14160,7 +14220,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.050",
+  "id": "w.zeit.051",
   "de": "Mittwoch",
   "article": "der",
   "plural": "-e",
@@ -14175,7 +14235,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.051",
+  "id": "w.zeit.052",
   "de": "Donnerstag",
   "article": "der",
   "plural": "-e",
@@ -14190,7 +14250,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.052",
+  "id": "w.zeit.053",
   "de": "Freitag",
   "article": "der",
   "plural": "-e",
@@ -14205,7 +14265,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.053",
+  "id": "w.zeit.054",
   "de": "Samstag",
   "article": "der",
   "plural": "-e",
@@ -14220,7 +14280,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.054",
+  "id": "w.zeit.055",
   "de": "Sonntag",
   "article": "der",
   "plural": "-e",
@@ -14235,7 +14295,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.055",
+  "id": "w.zeit.056",
   "de": "Termin",
   "article": "der",
   "plural": "-e",
@@ -14250,7 +14310,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.056",
+  "id": "w.zeit.057",
   "de": "Geburtstag",
   "article": "der",
   "plural": "-e",
@@ -14265,7 +14325,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.057",
+  "id": "w.zeit.058",
   "de": "Urlaub",
   "article": "der",
   "plural": "-e",
@@ -14280,7 +14340,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.058",
+  "id": "w.zeit.059",
   "de": "Jahreszeit",
   "article": "die",
   "plural": "-en",
@@ -14295,7 +14355,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.059",
+  "id": "w.zeit.060",
   "de": "Sommer",
   "article": "der",
   "plural": "-",
@@ -14310,7 +14370,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.060",
+  "id": "w.zeit.061",
   "de": "Winter",
   "article": "der",
   "plural": "-",
@@ -14325,7 +14385,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.061",
+  "id": "w.zeit.062",
   "de": "Frühling",
   "article": "der",
   "plural": "-e",
@@ -14340,7 +14400,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.062",
+  "id": "w.zeit.063",
   "de": "Herbst",
   "article": "der",
   "plural": "-e",
@@ -14355,7 +14415,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.063",
+  "id": "w.zeit.064",
   "de": "heute",
   "article": null,
   "plural": null,
@@ -14370,7 +14430,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.064",
+  "id": "w.zeit.065",
   "de": "morgen",
   "article": null,
   "plural": null,
@@ -14385,7 +14445,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.065",
+  "id": "w.zeit.066",
   "de": "gestern",
   "article": null,
   "plural": null,
@@ -14400,7 +14460,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.066",
+  "id": "w.zeit.067",
   "de": "jetzt",
   "article": null,
   "plural": null,
@@ -14415,7 +14475,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.067",
+  "id": "w.zeit.068",
   "de": "immer",
   "article": null,
   "plural": null,
@@ -14430,7 +14490,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.068",
+  "id": "w.zeit.069",
   "de": "oft",
   "article": null,
   "plural": null,
@@ -14445,7 +14505,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.069",
+  "id": "w.zeit.070",
   "de": "manchmal",
   "article": null,
   "plural": null,
@@ -14460,7 +14520,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.070",
+  "id": "w.zeit.071",
   "de": "nie",
   "article": null,
   "plural": null,
@@ -14475,7 +14535,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.071",
+  "id": "w.zeit.072",
   "de": "früh",
   "article": null,
   "plural": null,
@@ -14490,7 +14550,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.072",
+  "id": "w.zeit.073",
   "de": "spät",
   "article": null,
   "plural": null,
@@ -14505,7 +14565,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.073",
+  "id": "w.zeit.074",
   "de": "zuerst",
   "article": null,
   "plural": null,
@@ -14520,7 +14580,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.074",
+  "id": "w.zeit.075",
   "de": "dann",
   "article": null,
   "plural": null,
@@ -14535,7 +14595,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.075",
+  "id": "w.zeit.076",
   "de": "Wie viel Uhr ist es?",
   "article": null,
   "plural": null,
@@ -14550,7 +14610,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.076",
+  "id": "w.zeit.077",
   "de": "um halb acht",
   "article": null,
   "plural": null,
@@ -14565,7 +14625,7 @@
   "forms": null
  },
  {
-  "id": "w.zeit.077",
+  "id": "w.zeit.078",
   "de": "Viertel vor neun",
   "article": null,
   "plural": null,

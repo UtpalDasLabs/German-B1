@@ -285,11 +285,12 @@ export type Meta = {
     listening: number;
     writing: number;
     speaking: number;
+    articles: number;
     /** Everything the spaced-repetition schedule tracks. */
     reviewable: number;
   };
   /** The same counts again, per level, for the level picker. */
-  byLevel: Record<Level, { vocab: number; drills: number; grammar: number; tasks: number }>;
+  byLevel: Record<Level, { vocab: number; drills: number; grammar: number; tasks: number; articles: number }>;
 };
 
 export type Language = 'de' | 'en' | 'both';
@@ -360,6 +361,41 @@ export type ExamResult = {
   duration: number;
 };
 
+
+/* ------------------------------------------------------------- magazine */
+
+/**
+ * One run of article text.
+ *
+ * The article is stored as tokens rather than as a string with markup, because
+ * the parsing happens once in the build script where a word that does not
+ * resolve fails the build. Doing it in the app would mean a typo in an article
+ * showing up as an untappable word a learner never gets an explanation for.
+ */
+export type Token =
+  | { t: 'text'; s: string }
+  /** A word with a dictionary entry behind it; `s` is the inflected surface form. */
+  | { t: 'word'; s: string; id: string }
+  /** A phrase that illustrates a grammar topic; `key` is the topic. */
+  | { t: 'grammar'; s: string; key: string };
+
+export type Article = {
+  id: string;
+  level: Level;
+  /** Vocabulary theme, so the magazine can be browsed the way the path is. */
+  theme: string;
+  title: Bilingual;
+  /** One line that says why this is worth reading, shown in the list. */
+  teaser: Bilingual;
+  /** Realistic reading time, in minutes. */
+  minutes: number;
+  paragraphs: Token[][];
+  /** Plain text per paragraph, for the read-aloud player. */
+  spoken: string[];
+  /** Comprehension questions, asked after reading. */
+  items: Item[];
+};
+
 /** A saved answer to a Schreiben task, so drafts survive a reload. */
 export type Draft = { text: string; at: number };
 
@@ -367,6 +403,10 @@ export type Progress = {
   cards: Record<string, CardProgress>;
   /** Can-do ids the learner has ticked off. These are claims, not scores. */
   canDos: Record<string, boolean>;
+  /** Vocabulary ids saved from the dictionary or an article, id -> epoch ms. */
+  saved: Record<string, number>;
+  /** Magazine articles read, with the comprehension score if the quiz was sat. */
+  articles: Record<string, { at: number; score: number | null }>;
   attempts: ModuleAttempt[];
   exams: ExamResult[];
   drafts: Record<string, Draft>;

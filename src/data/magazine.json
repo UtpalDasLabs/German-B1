@@ -1,0 +1,810 @@
+[
+ {
+  "id": "mag.a1.wohnung",
+  "level": "A1",
+  "theme": "wohnen",
+  "title": {
+   "de": "Meine erste Wohnung",
+   "en": "My first flat"
+  },
+  "teaser": {
+   "de": "Ein Zimmer, eine Küche, ein Bad - und viel zu viele Formulare.",
+   "en": "One room, a kitchen, a bathroom – and far too many forms."
+  },
+  "minutes": 3,
+  "paragraphs": [
+   [
+    {
+     "t": "text",
+     "s": "Ich heiße Amina. Ich komme aus Marokko und ich "
+    },
+    {
+     "t": "grammar",
+     "s": "wohne",
+     "key": "praesens"
+    },
+    {
+     "t": "text",
+     "s": " seit drei Monaten in Leipzig."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Meine "
+    },
+    {
+     "t": "word",
+     "s": "Wohnung",
+     "id": "w.wohnen.041"
+    },
+    {
+     "t": "text",
+     "s": " ist klein. Sie hat ein "
+    },
+    {
+     "t": "word",
+     "s": "Zimmer",
+     "id": "w.wohnen.047"
+    },
+    {
+     "t": "text",
+     "s": ", eine "
+    },
+    {
+     "t": "word",
+     "s": "Küche",
+     "id": "w.wohnen.048"
+    },
+    {
+     "t": "text",
+     "s": " und ein "
+    },
+    {
+     "t": "word",
+     "s": "Bad",
+     "id": "w.wohnen.049"
+    },
+    {
+     "t": "text",
+     "s": ". Das "
+    },
+    {
+     "t": "word",
+     "s": "Fenster",
+     "id": "w.wohnen.056"
+    },
+    {
+     "t": "text",
+     "s": " ist groß, deshalb ist das Zimmer sehr "
+    },
+    {
+     "t": "word",
+     "s": "hell",
+     "id": "w.wohnen.070"
+    },
+    {
+     "t": "text",
+     "s": ". Im Winter ist die "
+    },
+    {
+     "t": "word",
+     "s": "Heizung",
+     "id": "w.wohnen.043"
+    },
+    {
+     "t": "text",
+     "s": " leider nicht gut."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Die "
+    },
+    {
+     "t": "word",
+     "s": "Miete",
+     "id": "w.wohnen.042"
+    },
+    {
+     "t": "text",
+     "s": " ist nicht teuer: 390 Euro. Aber ich "
+    },
+    {
+     "t": "word",
+     "s": "bezahle",
+     "id": "w.einkaufen.059"
+    },
+    {
+     "t": "text",
+     "s": " auch 90 Euro extra. Das ist "
+    },
+    {
+     "t": "word",
+     "s": "Strom",
+     "id": "w.wohnen.044"
+    },
+    {
+     "t": "text",
+     "s": ", "
+    },
+    {
+     "t": "word",
+     "s": "Wasser",
+     "id": "w.essen.046"
+    },
+    {
+     "t": "text",
+     "s": " und "
+    },
+    {
+     "t": "word",
+     "s": "Heizung",
+     "id": "w.wohnen.043"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Meine "
+    },
+    {
+     "t": "word",
+     "s": "Nachbarn",
+     "id": "w.familie.072"
+    },
+    {
+     "t": "text",
+     "s": " sind "
+    },
+    {
+     "t": "word",
+     "s": "nett",
+     "id": "w.adjektive.059"
+    },
+    {
+     "t": "text",
+     "s": ". Frau Köhler wohnt "
+    },
+    {
+     "t": "word",
+     "s": "unten",
+     "id": "w.stadt.049"
+    },
+    {
+     "t": "text",
+     "s": ". Sie hat einen "
+    },
+    {
+     "t": "word",
+     "s": "Hund",
+     "id": "w.familie.070"
+    },
+    {
+     "t": "text",
+     "s": " und zwei "
+    },
+    {
+     "t": "word",
+     "s": "Katzen",
+     "id": "w.familie.071"
+    },
+    {
+     "t": "text",
+     "s": ". Am "
+    },
+    {
+     "t": "word",
+     "s": "Samstag",
+     "id": "w.zeit.054"
+    },
+    {
+     "t": "text",
+     "s": " sagt sie immer: \"Guten Morgen, Amina!\""
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Ich habe noch keinen "
+    },
+    {
+     "t": "word",
+     "s": "Tisch",
+     "id": "w.wohnen.052"
+    },
+    {
+     "t": "text",
+     "s": " und keinen "
+    },
+    {
+     "t": "word",
+     "s": "Schrank",
+     "id": "w.wohnen.055"
+    },
+    {
+     "t": "text",
+     "s": ". Meine "
+    },
+    {
+     "t": "word",
+     "s": "Kleidung",
+     "id": "w.einkaufen.051"
+    },
+    {
+     "t": "text",
+     "s": " liegt in zwei "
+    },
+    {
+     "t": "word",
+     "s": "Koffern",
+     "id": "w.reisen.037"
+    },
+    {
+     "t": "text",
+     "s": ". Am Wochenende "
+    },
+    {
+     "t": "word",
+     "s": "suche",
+     "id": "w.wohnen.068"
+    },
+    {
+     "t": "text",
+     "s": " ich "
+    },
+    {
+     "t": "word",
+     "s": "Möbel",
+     "id": "w.wohnen.045"
+    },
+    {
+     "t": "text",
+     "s": " auf dem "
+    },
+    {
+     "t": "word",
+     "s": "Markt",
+     "id": "w.einkaufen.039"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ]
+  ],
+  "spoken": [
+   "Ich heiße Amina. Ich komme aus Marokko und ich wohne seit drei Monaten in Leipzig.",
+   "Meine Wohnung ist klein. Sie hat ein Zimmer, eine Küche und ein Bad. Das Fenster ist groß, deshalb ist das Zimmer sehr hell. Im Winter ist die Heizung leider nicht gut.",
+   "Die Miete ist nicht teuer: 390 Euro. Aber ich bezahle auch 90 Euro extra. Das ist Strom, Wasser und Heizung.",
+   "Meine Nachbarn sind nett. Frau Köhler wohnt unten. Sie hat einen Hund und zwei Katzen. Am Samstag sagt sie immer: \"Guten Morgen, Amina!\"",
+   "Ich habe noch keinen Tisch und keinen Schrank. Meine Kleidung liegt in zwei Koffern. Am Wochenende suche ich Möbel auf dem Markt."
+  ],
+  "items": [
+   {
+    "id": "a.mag.a1.wohnung.01",
+    "prompt": "Wie viele Zimmer hat Aminas Wohnung?",
+    "promptEn": "How many rooms does Amina’s flat have?",
+    "options": [
+     "ein Zimmer",
+     "zwei Zimmer",
+     "drei Zimmer",
+     "vier Zimmer"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Im Text: \"Sie hat ein Zimmer, eine Küche und ein Bad.\" Küche und Bad zählen nicht als Zimmer.",
+     "en": "The text says one room plus a kitchen and a bathroom. Kitchen and bathroom are not counted as rooms."
+    }
+   },
+   {
+    "id": "a.mag.a1.wohnung.02",
+    "prompt": "Was bezahlt Amina im Monat insgesamt?",
+    "promptEn": "What does Amina pay in total per month?",
+    "options": [
+     "390 Euro",
+     "480 Euro",
+     "90 Euro",
+     "300 Euro"
+    ],
+    "answer": 1,
+    "why": {
+     "de": "390 Euro Miete plus 90 Euro Nebenkosten sind 480 Euro.",
+     "en": "390 euros rent plus 90 euros service charges makes 480 euros."
+    }
+   },
+   {
+    "id": "a.mag.a1.wohnung.03",
+    "prompt": "Warum ist das Zimmer hell?",
+    "promptEn": "Why is the room bright?",
+    "options": [
+     "Das Fenster ist groß.",
+     "Die Heizung ist gut.",
+     "Die Wohnung ist neu.",
+     "Die Lampe ist neu."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Das Fenster ist groß, deshalb ist das Zimmer sehr hell.\"",
+     "en": "\"Das Fenster ist groß, deshalb ist das Zimmer sehr hell.\""
+    }
+   },
+   {
+    "id": "a.mag.a1.wohnung.04",
+    "prompt": "Was fehlt Amina noch?",
+    "promptEn": "What does Amina still not have?",
+    "options": [
+     "ein Tisch und ein Schrank",
+     "eine Küche",
+     "ein Fenster",
+     "Nachbarn"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Ich habe noch keinen Tisch und keinen Schrank.\"",
+     "en": "\"Ich habe noch keinen Tisch und keinen Schrank.\""
+    }
+   },
+   {
+    "id": "a.mag.a1.wohnung.05",
+    "prompt": "Wo liegt Aminas Kleidung?",
+    "promptEn": "Where are Amina’s clothes?",
+    "options": [
+     "in zwei Koffern",
+     "im Schrank",
+     "auf dem Tisch",
+     "im Bad"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Meine Kleidung liegt in zwei Koffern.\"",
+     "en": "\"Meine Kleidung liegt in zwei Koffern.\""
+    }
+   },
+   {
+    "id": "a.mag.a1.wohnung.06",
+    "prompt": "Wer wohnt unten?",
+    "promptEn": "Who lives downstairs?",
+    "options": [
+     "Frau Köhler",
+     "Amina",
+     "niemand",
+     "zwei Katzen"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Frau Köhler wohnt unten.\"",
+     "en": "\"Frau Köhler wohnt unten.\""
+    }
+   }
+  ]
+ },
+ {
+  "id": "mag.a1.tag",
+  "level": "A1",
+  "theme": "zeit",
+  "title": {
+   "de": "Ein Tag bei der Post",
+   "en": "A day at the post office"
+  },
+  "teaser": {
+   "de": "Halil steht um fünf auf. Warum er den Job trotzdem mag.",
+   "en": "Halil gets up at five. Why he likes the job anyway."
+  },
+  "minutes": 2,
+  "paragraphs": [
+   [
+    {
+     "t": "text",
+     "s": "Halil arbeitet bei der "
+    },
+    {
+     "t": "word",
+     "s": "Post",
+     "id": "w.stadt.037"
+    },
+    {
+     "t": "text",
+     "s": ". Er "
+    },
+    {
+     "t": "grammar",
+     "s": "steht um fünf Uhr auf",
+     "key": "trennbar"
+    },
+    {
+     "t": "text",
+     "s": " - auch am "
+    },
+    {
+     "t": "word",
+     "s": "Samstag",
+     "id": "w.zeit.054"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Zuerst "
+    },
+    {
+     "t": "word",
+     "s": "trinkt",
+     "id": "w.essen.064"
+    },
+    {
+     "t": "text",
+     "s": " er einen "
+    },
+    {
+     "t": "word",
+     "s": "Kaffee",
+     "id": "w.essen.047"
+    },
+    {
+     "t": "text",
+     "s": ". Dann "
+    },
+    {
+     "t": "word",
+     "s": "fährt",
+     "id": "w.verben.038"
+    },
+    {
+     "t": "text",
+     "s": " er mit dem "
+    },
+    {
+     "t": "word",
+     "s": "Fahrrad",
+     "id": "w.verkehr.037"
+    },
+    {
+     "t": "text",
+     "s": " zur "
+    },
+    {
+     "t": "word",
+     "s": "Arbeit",
+     "id": "w.arbeit.044"
+    },
+    {
+     "t": "text",
+     "s": ". Der "
+    },
+    {
+     "t": "word",
+     "s": "Weg",
+     "id": "w.verkehr.046"
+    },
+    {
+     "t": "text",
+     "s": " ist nicht "
+    },
+    {
+     "t": "word",
+     "s": "weit",
+     "id": "w.stadt.050"
+    },
+    {
+     "t": "text",
+     "s": ", nur zehn "
+    },
+    {
+     "t": "word",
+     "s": "Minuten",
+     "id": "w.zeit.040"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Um sechs "
+    },
+    {
+     "t": "word",
+     "s": "beginnt",
+     "id": "w.verben.060"
+    },
+    {
+     "t": "text",
+     "s": " die Arbeit. Halil "
+    },
+    {
+     "t": "word",
+     "s": "nimmt",
+     "id": "w.verben.051"
+    },
+    {
+     "t": "text",
+     "s": " die "
+    },
+    {
+     "t": "word",
+     "s": "Briefe",
+     "id": "w.kommunikation.042"
+    },
+    {
+     "t": "text",
+     "s": " und sortiert sie. Um neun ist "
+    },
+    {
+     "t": "word",
+     "s": "Pause",
+     "id": "w.arbeit.050"
+    },
+    {
+     "t": "text",
+     "s": ". Dann "
+    },
+    {
+     "t": "word",
+     "s": "isst",
+     "id": "w.essen.063"
+    },
+    {
+     "t": "text",
+     "s": " er ein "
+    },
+    {
+     "t": "word",
+     "s": "Brötchen",
+     "id": "w.essen.031"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Am "
+    },
+    {
+     "t": "word",
+     "s": "Mittag",
+     "id": "w.zeit.048"
+    },
+    {
+     "t": "text",
+     "s": " ist er "
+    },
+    {
+     "t": "word",
+     "s": "fertig",
+     "id": "w.adjektive.066"
+    },
+    {
+     "t": "text",
+     "s": ". \"Das ist "
+    },
+    {
+     "t": "word",
+     "s": "gut",
+     "id": "w.adjektive.041"
+    },
+    {
+     "t": "text",
+     "s": "\", sagt er. \"Ich habe am "
+    },
+    {
+     "t": "word",
+     "s": "Abend",
+     "id": "w.zeit.046"
+    },
+    {
+     "t": "text",
+     "s": " "
+    },
+    {
+     "t": "word",
+     "s": "Zeit",
+     "id": "w.zeit.037"
+    },
+    {
+     "t": "text",
+     "s": " für meine "
+    },
+    {
+     "t": "word",
+     "s": "Familie",
+     "id": "w.familie.043"
+    },
+    {
+     "t": "text",
+     "s": ".\" Er hat zwei "
+    },
+    {
+     "t": "word",
+     "s": "Kinder",
+     "id": "w.familie.047"
+    },
+    {
+     "t": "text",
+     "s": ". Sie "
+    },
+    {
+     "t": "word",
+     "s": "spielen",
+     "id": "w.verben.048"
+    },
+    {
+     "t": "text",
+     "s": " gern "
+    },
+    {
+     "t": "word",
+     "s": "Fußball",
+     "id": "w.freizeit.039"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Nur im "
+    },
+    {
+     "t": "word",
+     "s": "Winter",
+     "id": "w.zeit.061"
+    },
+    {
+     "t": "text",
+     "s": " ist die Arbeit "
+    },
+    {
+     "t": "word",
+     "s": "schwer",
+     "id": "w.adjektive.056"
+    },
+    {
+     "t": "text",
+     "s": ". Es ist "
+    },
+    {
+     "t": "word",
+     "s": "kalt",
+     "id": "w.adjektive.052"
+    },
+    {
+     "t": "text",
+     "s": " und oft "
+    },
+    {
+     "t": "word",
+     "s": "dunkel",
+     "id": "w.wohnen.071"
+    },
+    {
+     "t": "text",
+     "s": ". Aber im "
+    },
+    {
+     "t": "word",
+     "s": "Sommer",
+     "id": "w.zeit.060"
+    },
+    {
+     "t": "text",
+     "s": " "
+    },
+    {
+     "t": "grammar",
+     "s": "fährt er gern mit dem Fahrrad",
+     "key": "praesens"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ]
+  ],
+  "spoken": [
+   "Halil arbeitet bei der Post. Er steht um fünf Uhr auf - auch am Samstag.",
+   "Zuerst trinkt er einen Kaffee. Dann fährt er mit dem Fahrrad zur Arbeit. Der Weg ist nicht weit, nur zehn Minuten.",
+   "Um sechs beginnt die Arbeit. Halil nimmt die Briefe und sortiert sie. Um neun ist Pause. Dann isst er ein Brötchen.",
+   "Am Mittag ist er fertig. \"Das ist gut\", sagt er. \"Ich habe am Abend Zeit für meine Familie.\" Er hat zwei Kinder. Sie spielen gern Fußball.",
+   "Nur im Winter ist die Arbeit schwer. Es ist kalt und oft dunkel. Aber im Sommer fährt er gern mit dem Fahrrad."
+  ],
+  "items": [
+   {
+    "id": "a.mag.a1.tag.01",
+    "prompt": "Wann steht Halil auf?",
+    "promptEn": "When does Halil get up?",
+    "options": [
+     "um fünf Uhr",
+     "um sechs Uhr",
+     "um neun Uhr",
+     "am Mittag"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Er steht um fünf Uhr auf.\"",
+     "en": "\"Er steht um fünf Uhr auf.\""
+    }
+   },
+   {
+    "id": "a.mag.a1.tag.02",
+    "prompt": "Wie kommt Halil zur Arbeit?",
+    "promptEn": "How does Halil get to work?",
+    "options": [
+     "mit dem Fahrrad",
+     "mit dem Bus",
+     "mit dem Auto",
+     "zu Fuß"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Dann fährt er mit dem Fahrrad zur Arbeit.\"",
+     "en": "\"Dann fährt er mit dem Fahrrad zur Arbeit.\""
+    }
+   },
+   {
+    "id": "a.mag.a1.tag.03",
+    "prompt": "Warum findet Halil die Arbeit gut?",
+    "promptEn": "Why does Halil like the job?",
+    "options": [
+     "Am Abend hat er Zeit für die Familie.",
+     "Er verdient viel Geld.",
+     "Die Arbeit ist leicht.",
+     "Er arbeitet nicht am Samstag."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Ich habe am Abend Zeit für meine Familie.\"",
+     "en": "\"Ich habe am Abend Zeit für meine Familie.\""
+    }
+   },
+   {
+    "id": "a.mag.a1.tag.04",
+    "prompt": "Wann ist die Arbeit schwer?",
+    "promptEn": "When is the work hard?",
+    "options": [
+     "im Winter",
+     "im Sommer",
+     "am Samstag",
+     "am Mittag"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Nur im Winter ist die Arbeit schwer. Es ist kalt und oft dunkel.\"",
+     "en": "\"Nur im Winter ist die Arbeit schwer. Es ist kalt und oft dunkel.\""
+    }
+   },
+   {
+    "id": "a.mag.a1.tag.05",
+    "prompt": "Wie lange braucht Halil zur Arbeit?",
+    "promptEn": "How long does Halil take to get to work?",
+    "options": [
+     "zehn Minuten",
+     "eine Stunde",
+     "fünf Minuten",
+     "eine halbe Stunde"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Der Weg ist nicht weit, nur zehn Minuten.\"",
+     "en": "\"Der Weg ist nicht weit, nur zehn Minuten.\""
+    }
+   }
+  ]
+ }
+]

@@ -1,10 +1,12 @@
 /**
- * The B1-Trainer app mark: a speech bubble reading "B1", set inside a
+ * The Deutsch-Trainer app mark: a speech bubble reading "DE", set inside a
  * black/red/gold ring.
  *
- * The bubble is the point. This exam is not a quiz about a country, it is a
- * language certificate, and three of its four modules are about understanding
- * and producing speech. The ring is the only national reference, and it is
+ * The bubble is the point. What this app teaches is not a quiz about a country,
+ * it is a language, and most of what a learner has to do with it is understand
+ * and produce speech. The mark says "DE" rather than a level, because the app
+ * covers A1 to C1 and an icon that named one of them would be wrong on four
+ * screens out of five. The ring is the only national reference, and it is
  * deliberately abstract: this is an original mark, not a state emblem and not
  * connected to the Goethe-Institut, telc or the BAMF.
  */
@@ -20,23 +22,21 @@ export const COLOURS = {
 const { black: BLACK, ink: INK, red: RED, gold: GOLD, cream: CREAM } = COLOURS;
 
 /**
- * A bold geometric "B", drawn in a 114x150 box with the counters as holes.
- * `fill-rule="evenodd"` is what turns the two inner loops into openings.
+ * A bold geometric "D", drawn in a 110x150 box with the counter as a hole.
+ * `fill-rule="evenodd"` is what turns the inner loop into an opening.
  */
-const B_PATH =
-  'M0 0 L58 0 C88 0 108 16 108 40 C108 56 99 68 84 74 ' +
-  'C102 79 114 92 114 111 C114 137 93 150 60 150 L0 150 Z ' +
-  'M30 26 L56 26 C70 26 78 32 78 42 C78 52 70 58 56 58 L30 58 Z ' +
-  'M30 90 L58 90 C74 90 83 97 83 108 C83 119 74 125 58 125 L30 125 Z';
+const D_PATH =
+  'M0 0 L50 0 C92 0 110 30 110 75 C110 120 92 150 50 150 L0 150 Z ' +
+  'M30 27 L48 27 C72 27 80 44 80 75 C80 106 72 123 48 123 L30 123 Z';
 
-/** A bold "1" with an angled flag, drawn on the same 150-unit baseline. */
-const ONE_PATH = 'M8 46 L50 18 L74 18 L74 150 L42 150 L42 56 L20 68 Z';
+/** A bold "E" with three bars, drawn on the same 150-unit baseline. */
+const E_PATH = 'M0 0 L90 0 L90 27 L30 27 L30 60 L82 60 L82 86 L30 86 L30 123 L92 123 L92 150 L0 150 Z';
 
-/** The wordmark: cream "B", gold "1" - the flag colours doing the work. */
+/** The wordmark: cream "D", gold "E" - the flag colours doing the work. */
 function wordmark() {
   return `
-  <path d="${B_PATH}" fill="${CREAM}" fill-rule="evenodd"/>
-  <g transform="translate(140 0)"><path d="${ONE_PATH}" fill="${GOLD}"/></g>`;
+  <path d="${D_PATH}" fill="${CREAM}" fill-rule="evenodd"/>
+  <g transform="translate(134 0)"><path d="${E_PATH}" fill="${GOLD}"/></g>`;
 }
 
 /**

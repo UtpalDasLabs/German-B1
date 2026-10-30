@@ -7,9 +7,9 @@ import type { Language } from './types';
  */
 const strings = {
   en: {
-    appName: 'B1-Trainer',
-    appSubtitle: 'Zertifikat Deutsch B1',
-    tagline: 'Everything the B1 exam asks of you',
+    appName: 'Deutsch-Trainer',
+    appSubtitle: 'A1 bis C1',
+    tagline: 'From your first sentence to fluent German',
 
     // tabs
     tabHome: 'Home',
@@ -151,6 +151,17 @@ const strings = {
     selfCheckSpeaking: 'Mark your own answer',
 
     // levels and the course
+    magazineTitle: 'Magazine',
+    magazineSub: 'Short articles at your level. Tap any highlighted word for its meaning.',
+    tapWordHint: 'Blue words open the dictionary; underlined phrases open the grammar.',
+    listenWhileReading: 'Listen while reading',
+    articleQuiz: 'Questions on the article',
+    openGrammar: 'Read the full topic',
+    close: 'Close',
+    wordOfDay: 'Word of the day',
+    todayPlan: 'Your plan for today',
+    todayPlanSub: 'Three things, in order. Nothing else is needed today.',
+    planMinutes: 'min',
     levelTitle: 'Your level',
     levelSub: 'Everything in the app is scoped to this: the deck, the goals and the exam.',
     levelChange: 'Change level',
@@ -177,11 +188,11 @@ const strings = {
 
     // placement
     placementTitle: 'Where should you start?',
-    placementSub: 'Twenty questions, three minutes. It only suggests a level \u2013 you can change it whenever you like.',
+    placementSub: 'Four questions per level. It only suggests a starting point \u2013 you can change it whenever you like.',
     placementStart: 'Take the placement test',
     placementSkip: 'Skip \u2013 I know my level',
     placementResult: 'We suggest',
-    placementResultSub: 'This is a suggestion from twenty questions, not a certificate.',
+    placementResultSub: 'A suggestion from a handful of questions, not a certificate.',
     placementAccept: 'Start at this level',
     placementAgain: 'Try again',
     placementScore: 'correct',
@@ -295,7 +306,7 @@ const strings = {
     androidStep2: 'Tap “Install app”, or “Add to Home screen” on older versions.',
     androidStep3: 'Tap “Install”. The bear appears on your home screen.',
     desktopStep1: 'Look for the install icon at the end of the address bar.',
-    desktopStep2: 'Or open the browser menu and choose “Install B1-Trainer”.',
+    desktopStep2: 'Or open the browser menu and choose “Install Deutsch-Trainer”.',
 
     // onboarding
     skip: 'Skip',
@@ -319,9 +330,9 @@ const strings = {
   },
 
   de: {
-    appName: 'B1-Trainer',
-    appSubtitle: 'Zertifikat Deutsch B1',
-    tagline: 'Alles, was die B1-Prüfung verlangt',
+    appName: 'Deutsch-Trainer',
+    appSubtitle: 'A1 bis C1',
+    tagline: 'Vom ersten Satz bis zum fließenden Deutsch',
 
     tabHome: 'Start',
     tabWords: 'Wörter',
@@ -452,6 +463,17 @@ const strings = {
     recordNote: 'Die App nimmt dich nicht auf. Sprich trotzdem laut - stilles Lesen trainiert nichts.',
     selfCheckSpeaking: 'Eigene Antwort bewerten',
     // Niveaus und Kurs
+    magazineTitle: 'Magazin',
+    magazineSub: 'Kurze Artikel auf deinem Niveau. Tippe ein markiertes Wort an.',
+    tapWordHint: 'Blaue Wörter öffnen das Wörterbuch, unterstrichene Stellen die Grammatik.',
+    listenWhileReading: 'Mitlesen und hören',
+    articleQuiz: 'Fragen zum Artikel',
+    openGrammar: 'Ganzes Thema lesen',
+    close: 'Schließen',
+    wordOfDay: 'Wort des Tages',
+    todayPlan: 'Dein Plan für heute',
+    todayPlanSub: 'Drei Dinge, der Reihe nach. Mehr braucht es heute nicht.',
+    planMinutes: 'Min.',
     levelTitle: 'Dein Niveau',
     levelSub: 'Alles in der App richtet sich danach: der Stapel, die Ziele und die Prüfung.',
     levelChange: 'Niveau wechseln',
@@ -478,11 +500,11 @@ const strings = {
 
     // Einstufung
     placementTitle: 'Wo solltest du anfangen?',
-    placementSub: 'Zwanzig Fragen, drei Minuten. Es ist nur ein Vorschlag \u2013 ändern kannst du es jederzeit.',
+    placementSub: 'Vier Fragen pro Niveau. Es ist nur ein Vorschlag \u2013 ändern kannst du es jederzeit.',
     placementStart: 'Einstufungstest machen',
     placementSkip: 'Überspringen \u2013 ich kenne mein Niveau',
     placementResult: 'Wir schlagen vor',
-    placementResultSub: 'Das ist ein Vorschlag aus zwanzig Fragen, kein Zertifikat.',
+    placementResultSub: 'Ein Vorschlag aus wenigen Fragen, kein Zertifikat.',
     placementAccept: 'Auf diesem Niveau anfangen',
     placementAgain: 'Noch einmal',
     placementScore: 'richtig',
@@ -594,7 +616,7 @@ const strings = {
     androidStep2: 'Tippe auf „App installieren“, in älteren Versionen „Zum Startbildschirm hinzufügen“.',
     androidStep3: 'Tippe auf „Installieren“. Der Bär erscheint auf deinem Startbildschirm.',
     desktopStep1: 'Suche das Installationssymbol am Ende der Adressleiste.',
-    desktopStep2: 'Oder öffne das Browsermenü und wähle „B1-Trainer installieren“.',
+    desktopStep2: 'Oder öffne das Browsermenü und wähle „Deutsch-Trainer installieren“.',
 
     skip: 'Überspringen',
     next: 'Weiter',

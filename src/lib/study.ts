@@ -6,9 +6,11 @@ import rawReading from '@/data/reading.json';
 import rawListening from '@/data/listening.json';
 import rawWriting from '@/data/writing.json';
 import rawSpeaking from '@/data/speaking.json';
+import rawMagazine from '@/data/magazine.json';
 
 import type {
   AreaKey,
+  Article,
   CardProgress,
   Drill,
   GrammarTopic,
@@ -34,6 +36,7 @@ export const reading = rawReading as unknown as ReadingTask[];
 export const listening = rawListening as unknown as ListeningTask[];
 export const writing = rawWriting as unknown as WritingTask[];
 export const speaking = rawSpeaking as unknown as SpeakingTask[];
+export const magazine = rawMagazine as unknown as Article[];
 
 export const themes: VocabTheme[] = meta.themes;
 export const levels = meta.levels;
@@ -103,6 +106,25 @@ export function grammarIn(scope: Scope): GrammarTopic[] {
 export function themesIn(scope: Scope): VocabTheme[] {
   const live = new Set(vocabIn(scope).map((v) => v.theme));
   return themes.filter((t) => live.has(t.key));
+}
+
+/* --------------------------------------------------------------- magazine */
+
+/**
+ * Articles the scope covers, easiest first.
+ *
+ * Reading below your level is useful in a way that answering questions below
+ * your level is not - it is how fluency gets built - so the magazine always
+ * offers the lower levels even when the deck does not.
+ */
+export function articlesIn(scope: Scope): Article[] {
+  return magazine
+    .filter((a) => levelRank(a.level) <= levelRank(scope.level))
+    .sort((a, b) => levelRank(a.level) - levelRank(b.level) || a.minutes - b.minutes);
+}
+
+export function articleById(id: string): Article | undefined {
+  return magazine.find((a) => a.id === id);
 }
 
 /* ----------------------------------------------------------------- course */
