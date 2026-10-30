@@ -5011,6 +5011,470 @@
   ]
  },
  {
+  "key": "adjektivnomen",
+  "title": {
+   "de": "Adjektive als Nomen",
+   "en": "Adjectives used as nouns"
+  },
+  "summary": {
+   "de": "der Angestellte, etwas Neues, nichts Wichtiges: sie behalten ihre Adjektivendung.",
+   "en": "der Angestellte, etwas Neues, nichts Wichtiges – they keep their adjective ending."
+  },
+  "icon": "🏷️",
+  "level": "B2",
+  "order": 39,
+  "body": {
+   "en": [
+    "German turns adjectives into nouns constantly, and the resulting word keeps behaving like an adjective. \"der Angestellte\" is really \"der angestellte [Mann]\" with the noun left out, which is why it is der Angestellte but ein Angestellter.",
+    "That is the whole difficulty. The ending changes with the article exactly as an adjective’s would: der Deutsche, ein Deutscher, die Deutsche, eine Deutsche, die Deutschen, viele Deutsche.",
+    "After etwas, nichts, viel and wenig the adjective is capitalised and takes -es: etwas Neues, nichts Wichtiges, viel Schönes. After alles it takes -e: alles Gute.",
+    "This is also how German makes abstract nouns on the spot: das Wesentliche, das Ganze, im Großen und Ganzen, das Beste daran. Written German is full of them and they are rarely taught.",
+    "A small set refer to people and are worth knowing as a group: der/die Angestellte, Beamte, Verwandte, Bekannte, Erwachsene, Jugendliche, Deutsche, Arbeitslose, Selbstständige."
+   ],
+   "de": [
+    "Das Deutsche macht ständig Nomen aus Adjektiven, und das Ergebnis verhält sich weiter wie ein Adjektiv. \"der Angestellte\" ist eigentlich \"der angestellte [Mann]\" ohne das Nomen - deshalb der Angestellte, aber ein Angestellter.",
+    "Genau darin liegt die Schwierigkeit: Die Endung richtet sich nach dem Artikel wie bei jedem Adjektiv.",
+    "Nach etwas, nichts, viel und wenig schreibt man groß und hängt -es an: etwas Neues, nichts Wichtiges. Nach alles steht -e: alles Gute.",
+    "So bildet das Deutsche auch spontan Abstrakta: das Wesentliche, das Ganze, im Großen und Ganzen.",
+    "Eine kleine Gruppe bezeichnet Personen und lohnt als Block: der/die Angestellte, Beamte, Verwandte, Bekannte, Erwachsene, Jugendliche, Deutsche, Arbeitslose."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "der Angestellte",
+     "en": "der Angestellte"
+    },
+    "head": [
+     "",
+     "mit der/die",
+     "mit ein/eine",
+     "ohne Artikel"
+    ],
+    "rows": [
+     [
+      "maskulin",
+      "der Angestellte",
+      "ein Angestellter",
+      "Angestellter"
+     ],
+     [
+      "feminin",
+      "die Angestellte",
+      "eine Angestellte",
+      "Angestellte"
+     ],
+     [
+      "Plural",
+      "die Angestellten",
+      "–",
+      "Angestellte"
+     ],
+     [
+      "Dativ Sg. m.",
+      "dem Angestellten",
+      "einem Angestellten",
+      "Angestelltem"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Nach etwas, nichts, alles",
+     "en": "After etwas, nichts, alles"
+    },
+    "head": [
+     "Wort",
+     "Endung",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "etwas",
+      "-es",
+      "etwas Neues"
+     ],
+     [
+      "nichts",
+      "-es",
+      "nichts Wichtiges"
+     ],
+     [
+      "viel / wenig",
+      "-es",
+      "viel Gutes"
+     ],
+     [
+      "alles",
+      "-e",
+      "alles Gute"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Ein Angestellter der Firma hat das gemeldet.",
+    "en": "An employee of the company reported it."
+   },
+   {
+    "de": "Das Wesentliche steht im letzten Absatz.",
+    "en": "The essential point is in the last paragraph."
+   },
+   {
+    "de": "Es hat sich nichts Grundlegendes geändert.",
+    "en": "Nothing fundamental has changed."
+   },
+   {
+    "de": "Im Großen und Ganzen hat es funktioniert.",
+    "en": "By and large it worked."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "ein Angestellte",
+    "right": "ein Angestellter",
+    "why": {
+     "de": "Nach ein fehlt dem Artikel die Endung, also trägt sie das Adjektiv: -er.",
+     "en": "After ein the article carries no ending, so the adjective does: -er."
+    }
+   },
+   {
+    "wrong": "etwas Neue",
+    "right": "etwas Neues",
+    "why": {
+     "de": "Nach etwas steht -es, und das Wort wird großgeschrieben.",
+     "en": "After etwas the ending is -es, and the word is capitalised."
+    }
+   },
+   {
+    "wrong": "alles Gutes",
+    "right": "alles Gute",
+    "why": {
+     "de": "alles ist die Ausnahme: -e, nicht -es.",
+     "en": "alles is the exception: -e, not -es."
+    }
+   }
+  ]
+ },
+ {
+  "key": "verbenpraep",
+  "title": {
+   "de": "Verben mit fester Präposition",
+   "en": "Verbs with a fixed preposition"
+  },
+  "summary": {
+   "de": "warten auf, sich freuen über, bestehen aus: die Präposition gehört zum Verb und lässt sich nicht ableiten.",
+   "en": "warten auf, sich freuen über, bestehen aus – the preposition belongs to the verb and cannot be worked out."
+  },
+  "icon": "🔗",
+  "level": "B2",
+  "order": 40,
+  "body": {
+   "en": [
+    "A large number of German verbs come with a preposition attached, and the pairing is arbitrary. You wait auf something, think an something, ask nach something; none of these follows from the meaning.",
+    "The preposition also fixes the case, and this is where most errors happen: auf, über and für take the accusative; mit, nach, von, aus and zu take the dative; an and in take either, and you simply have to learn which per verb (denken an + accusative, teilnehmen an + dative).",
+    "The same verb with a different preposition is a different verb: bestehen aus (consist of), bestehen auf (insist on), bestehen in (consist in). Treat each pairing as its own vocabulary item, not as a verb plus a choice.",
+    "Several pairs differ only in register or nuance: sich freuen auf (looking forward, future) against sich freuen über (pleased about, now). Getting this wrong is not a grammar mistake, it is a meaning mistake.",
+    "When the object is a clause rather than a thing, the preposition becomes a da-compound and points forward: \"Ich freue mich darauf, dich zu sehen.\" That is the B1 topic da- and wo-, and it only works once the pairings themselves are known."
+   ],
+   "de": [
+    "Sehr viele deutsche Verben kommen mit fester Präposition, und die Verbindung ist willkürlich. Man wartet auf etwas, denkt an etwas, fragt nach etwas - nichts davon folgt aus der Bedeutung.",
+    "Die Präposition legt zugleich den Kasus fest, und dort passieren die meisten Fehler: auf, über und für mit Akkusativ; mit, nach, von, aus und zu mit Dativ; an und in je nach Verb (denken an + Akkusativ, teilnehmen an + Dativ).",
+    "Dasselbe Verb mit anderer Präposition ist ein anderes Verb: bestehen aus, bestehen auf, bestehen in. Lerne jede Verbindung als eigene Vokabel.",
+    "Manche Paare unterscheiden sich nur in der Nuance: sich freuen auf (Vorfreude) gegen sich freuen über (jetzt). Das ist kein Grammatikfehler, sondern ein Bedeutungsfehler.",
+    "Steht statt eines Objekts ein Nebensatz, wird die Präposition zum da-Kompositum und zeigt nach vorn: \"Ich freue mich darauf, dich zu sehen.\""
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Mit Akkusativ",
+     "en": "With the accusative"
+    },
+    "head": [
+     "Verb",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "warten auf",
+      "Ich warte auf den Bescheid."
+     ],
+     [
+      "sich freuen auf / über",
+      "Ich freue mich auf den Urlaub."
+     ],
+     [
+      "denken an",
+      "Ich denke oft an die Zeit."
+     ],
+     [
+      "sich erinnern an",
+      "Erinnerst du dich an ihn?"
+     ],
+     [
+      "sich kümmern um",
+      "Er kümmert sich um die Kinder."
+     ],
+     [
+      "sich interessieren für",
+      "Sie interessiert sich für Technik."
+     ],
+     [
+      "sich ärgern über",
+      "Ich ärgere mich über den Lärm."
+     ],
+     [
+      "sich bewerben um",
+      "Ich bewerbe mich um die Stelle."
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Mit Dativ",
+     "en": "With the dative"
+    },
+    "head": [
+     "Verb",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "bestehen aus",
+      "Die Prüfung besteht aus vier Teilen."
+     ],
+     [
+      "teilnehmen an",
+      "Ich nehme an dem Kurs teil."
+     ],
+     [
+      "fragen nach",
+      "Sie fragte nach dem Weg."
+     ],
+     [
+      "gehören zu",
+      "Das gehört zu meinen Aufgaben."
+     ],
+     [
+      "abhängen von",
+      "Das hängt vom Wetter ab."
+     ],
+     [
+      "sich beschäftigen mit",
+      "Ich beschäftige mich mit dem Thema."
+     ],
+     [
+      "leiden unter",
+      "Viele leiden unter dem Druck."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Der Preis hängt von der Menge ab.",
+    "en": "The price depends on the quantity."
+   },
+   {
+    "de": "Ich bewerbe mich um eine Stelle in der Verwaltung.",
+    "en": "I am applying for a post in administration."
+   },
+   {
+    "de": "Die Kommission besteht aus sieben Personen.",
+    "en": "The committee consists of seven people."
+   },
+   {
+    "de": "Er besteht auf einer schriftlichen Zusage.",
+    "en": "He insists on a written commitment."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich warte für den Bus.",
+    "right": "Ich warte auf den Bus.",
+    "why": {
+     "de": "warten geht mit auf, auch wenn das Englische \"for\" nahelegt.",
+     "en": "warten takes auf, whatever the English \"for\" suggests."
+    }
+   },
+   {
+    "wrong": "Ich nehme an den Kurs teil.",
+    "right": "Ich nehme an dem Kurs teil.",
+    "why": {
+     "de": "teilnehmen an verlangt den Dativ, nicht den Akkusativ.",
+     "en": "teilnehmen an takes the dative, not the accusative."
+    }
+   },
+   {
+    "wrong": "Die Prüfung besteht auf vier Teilen.",
+    "right": "Die Prüfung besteht aus vier Teilen.",
+    "why": {
+     "de": "bestehen aus = sich zusammensetzen; bestehen auf = beharren.",
+     "en": "bestehen aus = to be made up of; bestehen auf = to insist."
+    }
+   }
+  ]
+ },
+ {
+  "key": "relativ2",
+  "title": {
+   "de": "Relativsätze, zweite Runde",
+   "en": "Relative clauses, second round"
+  },
+  "summary": {
+   "de": "Mit Präposition, im Genitiv, und was/wo statt der: die Fälle, die B1 auslässt.",
+   "en": "With a preposition, in the genitive, and was/wo instead of der – the cases B1 leaves out."
+  },
+  "icon": "🧷",
+  "level": "B2",
+  "order": 41,
+  "body": {
+   "en": [
+    "B1 teaches der/die/das as a relative pronoun. B2 is the rest of the system, and it is where written German actually lives.",
+    "With a preposition, the preposition comes first and the pronoun follows in the case that preposition governs: \"der Kollege, mit dem ich arbeite\", \"das Thema, über das wir gesprochen haben\". Never strand the preposition at the end the way English does.",
+    "The genitive relative is dessen (masculine and neuter) and deren (feminine and plural), and it replaces a possessive: \"die Frau, deren Auto hier steht\". No article follows it: deren Auto, not deren das Auto.",
+    "was is the relative pronoun after a neuter indefinite - alles, etwas, nichts, das, vieles - and after a whole clause: \"Er kam zu spät, was niemanden überraschte.\"",
+    "wo and its compounds (worauf, worüber, womit) replace a preposition plus was, and wo also serves for places: \"die Stadt, wo ich aufgewachsen bin\" is as correct as \"in der ich aufgewachsen bin\" and sounds lighter."
+   ],
+   "de": [
+    "B1 lehrt der/die/das als Relativpronomen. B2 ist der Rest des Systems - und dort spielt sich geschriebenes Deutsch ab.",
+    "Mit Präposition steht diese zuerst, das Pronomen folgt im passenden Kasus: \"der Kollege, mit dem ich arbeite\". Die Präposition ans Ende zu stellen wie im Englischen geht nicht.",
+    "Das Genitivrelativ ist dessen (maskulin, neutral) und deren (feminin, Plural) und ersetzt ein Possessivum: \"die Frau, deren Auto hier steht\". Danach folgt kein Artikel.",
+    "was steht nach neutralen Unbestimmten - alles, etwas, nichts, das, vieles - und nach einem ganzen Satz: \"Er kam zu spät, was niemanden überraschte.\"",
+    "wo und seine Komposita (worauf, worüber, womit) ersetzen Präposition plus was; wo dient außerdem für Orte."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Relativpronomen",
+     "en": "Relative pronouns"
+    },
+    "head": [
+     "Kasus",
+     "maskulin",
+     "feminin",
+     "neutral",
+     "Plural"
+    ],
+    "rows": [
+     [
+      "Nominativ",
+      "der",
+      "die",
+      "das",
+      "die"
+     ],
+     [
+      "Akkusativ",
+      "den",
+      "die",
+      "das",
+      "die"
+     ],
+     [
+      "Dativ",
+      "dem",
+      "der",
+      "dem",
+      "denen"
+     ],
+     [
+      "Genitiv",
+      "dessen",
+      "deren",
+      "dessen",
+      "deren"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Wann was, wann wo-",
+     "en": "When was, when wo-"
+    },
+    "head": [
+     "Bezug",
+     "Pronomen",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "alles, etwas, nichts",
+      "was",
+      "alles, was du brauchst"
+     ],
+     [
+      "ein ganzer Satz",
+      "was",
+      "Er schwieg, was alles sagte."
+     ],
+     [
+      "Präposition + was",
+      "wo- + Präp.",
+      "das, worüber wir sprachen"
+     ],
+     [
+      "Ort",
+      "wo",
+      "die Stadt, wo ich wohne"
+     ],
+     [
+      "Person/Sache",
+      "der/die/das",
+      "der Mann, der dort steht"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Das ist der Kollege, mit dem ich das Projekt mache.",
+    "en": "That is the colleague I am doing the project with."
+   },
+   {
+    "de": "Die Firma, deren Angebot wir angenommen haben, sitzt in Essen.",
+    "en": "The company whose quote we accepted is based in Essen."
+   },
+   {
+    "de": "Alles, was dort steht, ist belegt.",
+    "en": "Everything written there is substantiated."
+   },
+   {
+    "de": "Er sagte nichts, worüber sich alle wunderten.",
+    "en": "He said nothing, which surprised everyone."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "der Kollege, den ich arbeite mit",
+    "right": "der Kollege, mit dem ich arbeite",
+    "why": {
+     "de": "Die Präposition steht vorn, nicht am Satzende.",
+     "en": "The preposition goes in front, not at the end."
+    }
+   },
+   {
+    "wrong": "die Frau, deren das Auto hier steht",
+    "right": "die Frau, deren Auto hier steht",
+    "why": {
+     "de": "Nach dessen und deren folgt kein Artikel.",
+     "en": "No article follows dessen or deren."
+    }
+   },
+   {
+    "wrong": "Alles, das du brauchst",
+    "right": "Alles, was du brauchst",
+    "why": {
+     "de": "Nach alles, etwas und nichts steht was.",
+     "en": "After alles, etwas and nichts the pronoun is was."
+    }
+   }
+  ]
+ },
+ {
   "key": "konzessiv",
   "title": {
    "de": "Einräumen auf hohem Niveau",
@@ -5022,7 +5486,7 @@
   },
   "icon": "🌀",
   "level": "C1",
-  "order": 39,
+  "order": 42,
   "body": {
    "en": [
     "German has a whole shelf of concessive constructions above obwohl, and C1 texts use them constantly. They all mean roughly \"even though\", and they differ in register and in how emphatic the concession is.",
@@ -5131,7 +5595,7 @@
   },
   "icon": "⚙️",
   "level": "C1",
-  "order": 40,
+  "order": 43,
   "body": {
    "en": [
     "A Funktionsverbgefüge is a fixed pairing of a near-empty verb with a noun that carries the meaning: etwas in Betracht ziehen (= erwägen), zur Anwendung kommen (= angewendet werden), eine Entscheidung treffen (= entscheiden).",
@@ -5294,7 +5758,7 @@
   },
   "icon": "🧱",
   "level": "C1",
-  "order": 41,
+  "order": 44,
   "body": {
    "en": [
     "At C1 you will meet words nobody taught you, in a text you cannot pause. The only workable strategy is to read the parts, and German is unusually generous about this because its word formation is regular.",
@@ -5455,7 +5919,7 @@
   },
   "icon": "🧵",
   "level": "C1",
-  "order": 42,
+  "order": 45,
   "body": {
    "en": [
     "At C1 the complaint on a Schreiben script is rarely about grammar. It is that the text is a list of correct sentences rather than an argument, and the fix is cohesion.",
@@ -5573,6 +6037,491 @@
     "why": {
      "de": "Drei Sätze mit \"Ich\" auf Position 1 lesen sich als Liste, nicht als Argument.",
      "en": "Three sentences starting with \"Ich\" read as a list, not an argument."
+    }
+   }
+  ]
+ },
+ {
+  "key": "kollokationen",
+  "title": {
+   "de": "Kollokationen: welches Verb zu welchem Nomen",
+   "en": "Collocations: which verb goes with which noun"
+  },
+  "summary": {
+   "de": "Eine Entscheidung trifft man, ein Urteil fällt man. Beides heißt entscheiden, nur eines ist richtig.",
+   "en": "You treffen a decision and fällen a verdict. Both mean deciding; only one is right each time."
+  },
+  "icon": "🤝",
+  "level": "C1",
+  "order": 46,
+  "body": {
+   "en": [
+    "By C1 the grammar is rarely what gives a learner away. The collocations are. \"Ich habe eine Entscheidung gemacht\" is grammatically flawless and immediately marks you as a non-native, because a decision in German is getroffen, never gemacht.",
+    "These pairings are not derivable and not quite idioms either - they are simply which word German happens to use. The only approach is to learn the pair rather than the two words.",
+    "The verbs that collocate most widely are worth knowing as a set: treffen (Entscheidung, Vereinbarung, Maßnahmen), fällen (Urteil, Entscheidung in a legal sense), stellen (Frage, Antrag, Bedingung), erheben (Anspruch, Einspruch, Vorwurf, Gebühren), leisten (Beitrag, Arbeit, Widerstand, Hilfe), üben (Kritik, Druck, Verzicht), ziehen (Schluss, Bilanz, Vergleich, Konsequenzen).",
+    "Adjective-plus-noun pairs matter just as much: ein triftiger Grund, ein schwerwiegender Fehler, eine herbe Niederlage, eine rege Beteiligung, erhebliche Zweifel. German will usually accept \"großer\" but a native would not write it.",
+    "Intensifiers are collocational too, and getting them wrong sounds odd rather than wrong: schwer verletzt, streng verboten, dringend nötig, bitter nötig, hochgradig umstritten. \"Sehr verletzt\" is not how it is said."
+   ],
+   "de": [
+    "Auf C1 verrät selten noch die Grammatik, sondern die Kollokation. \"Ich habe eine Entscheidung gemacht\" ist grammatisch fehlerfrei und sofort als nicht-muttersprachlich erkennbar: Eine Entscheidung wird getroffen, nie gemacht.",
+    "Diese Verbindungen sind nicht ableitbar und auch keine Redewendungen - es ist schlicht das Wort, das das Deutsche nimmt. Man lernt das Paar, nicht die zwei Wörter.",
+    "Die verbindungsfreudigsten Verben lohnen als Block: treffen (Entscheidung, Vereinbarung, Maßnahmen), fällen (Urteil), stellen (Frage, Antrag, Bedingung), erheben (Anspruch, Einspruch, Vorwurf), leisten (Beitrag, Widerstand, Hilfe), üben (Kritik, Druck), ziehen (Schluss, Bilanz, Vergleich).",
+    "Ebenso wichtig sind Adjektiv-Nomen-Paare: ein triftiger Grund, ein schwerwiegender Fehler, eine herbe Niederlage, erhebliche Zweifel.",
+    "Auch Verstärker sind kollokativ: schwer verletzt, streng verboten, dringend nötig, hochgradig umstritten. \"Sehr verletzt\" sagt man nicht."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Verb und Nomen",
+     "en": "Verb and noun"
+    },
+    "head": [
+     "Nomen",
+     "Verb",
+     "nicht"
+    ],
+    "rows": [
+     [
+      "eine Entscheidung",
+      "treffen",
+      "machen"
+     ],
+     [
+      "ein Urteil",
+      "fällen",
+      "machen"
+     ],
+     [
+      "eine Frage",
+      "stellen",
+      "fragen / machen"
+     ],
+     [
+      "einen Antrag",
+      "stellen",
+      "machen"
+     ],
+     [
+      "Kritik",
+      "üben",
+      "machen"
+     ],
+     [
+      "einen Beitrag",
+      "leisten",
+      "machen"
+     ],
+     [
+      "Widerstand",
+      "leisten",
+      "geben"
+     ],
+     [
+      "einen Schluss",
+      "ziehen",
+      "nehmen"
+     ],
+     [
+      "Anspruch",
+      "erheben",
+      "nehmen"
+     ],
+     [
+      "eine Vereinbarung",
+      "treffen",
+      "machen"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Adjektiv und Verstärker",
+     "en": "Adjective and intensifier"
+    },
+    "head": [
+     "Verbindung",
+     "statt"
+    ],
+    "rows": [
+     [
+      "ein triftiger Grund",
+      "ein guter Grund"
+     ],
+     [
+      "erhebliche Zweifel",
+      "große Zweifel"
+     ],
+     [
+      "ein schwerwiegender Fehler",
+      "ein großer Fehler"
+     ],
+     [
+      "schwer verletzt",
+      "sehr verletzt"
+     ],
+     [
+      "streng verboten",
+      "sehr verboten"
+     ],
+     [
+      "dringend nötig",
+      "sehr nötig"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Das Gericht hat sein Urteil gefällt.",
+    "en": "The court has delivered its verdict."
+   },
+   {
+    "de": "Daran wurde erhebliche Kritik geübt.",
+    "en": "Considerable criticism was levelled at that."
+   },
+   {
+    "de": "Daraus lässt sich kein Schluss ziehen.",
+    "en": "No conclusion can be drawn from that."
+   },
+   {
+    "de": "Für eine Ausnahme gibt es keinen triftigen Grund.",
+    "en": "There is no cogent reason for an exception."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Ich habe eine Entscheidung gemacht.",
+    "right": "Ich habe eine Entscheidung getroffen.",
+    "why": {
+     "de": "Eine Entscheidung wird getroffen. Grammatisch ist beides richtig, üblich nur eines.",
+     "en": "A decision is getroffen. Both are grammatical; only one is said."
+    }
+   },
+   {
+    "wrong": "Er hat Kritik gemacht.",
+    "right": "Er hat Kritik geübt.",
+    "why": {
+     "de": "Kritik übt man.",
+     "en": "Criticism is geübt."
+    }
+   },
+   {
+    "wrong": "Sie wurde sehr verletzt.",
+    "right": "Sie wurde schwer verletzt.",
+    "why": {
+     "de": "Der feste Verstärker ist schwer, nicht sehr.",
+     "en": "The fixed intensifier is schwer, not sehr."
+    }
+   }
+  ]
+ },
+ {
+  "key": "emphase",
+  "title": {
+   "de": "Betonen ohne lauter zu werden",
+   "en": "Emphasis without raising your voice"
+  },
+  "summary": {
+   "de": "\"Was mich stört, ist …\", das Vorfeld, und die Partikel, die ein Wort heraushebt.",
+   "en": "\"Was mich stört, ist …\", the first position, and the particles that lift one word out."
+  },
+  "icon": "❗",
+  "level": "C1",
+  "order": 47,
+  "body": {
+   "en": [
+    "English emphasises with stress and with \"it is X that\". German has a stricter word order and compensates with structure, and at C1 the examiners are listening for exactly this.",
+    "The cleft is the workhorse: \"Was mich stört, ist der Ton\" puts der Ton under a spotlight that \"Der Ton stört mich\" does not. Variants: \"Wer das entschieden hat, ist …\", \"Worum es geht, ist …\".",
+    "The first position in the sentence is itself emphatic, and anything can go there: an object (\"Diesen Punkt halte ich für zentral\"), an adverbial, even a subordinate clause. Fronting an object is a strong move and feels formal.",
+    "es as a placeholder in first position lets you delay the real subject and build suspense: \"Es fehlt vor allem an Personal\", \"Es war der Zeitpunkt, der alles entschied\".",
+    "Focus particles pick out one element: sogar, selbst, gerade, ausgerechnet, nur, erst. They sit immediately before what they emphasise and moving them changes the meaning: \"Nur er hat das gesagt\" against \"Er hat nur das gesagt\".",
+    "Finally, negation can emphasise: \"nicht unerheblich\", \"nicht ohne Grund\", \"keineswegs\". The double negative is a deliberate understatement and a very German way of making a strong claim quietly."
+   ],
+   "de": [
+    "Das Englische betont mit Akzent und mit \"it is X that\". Das Deutsche hat eine strengere Wortstellung und gleicht das mit Struktur aus - und genau darauf hören Prüfer auf C1.",
+    "Der Spaltsatz ist das Arbeitspferd: \"Was mich stört, ist der Ton\" stellt der Ton in ein Licht, das \"Der Ton stört mich\" nicht erzeugt.",
+    "Die erste Position ist selbst schon betont, und dort kann alles stehen: ein Objekt (\"Diesen Punkt halte ich für zentral\"), eine Angabe, auch ein ganzer Nebensatz.",
+    "es als Platzhalter im Vorfeld verzögert das eigentliche Subjekt: \"Es fehlt vor allem an Personal.\"",
+    "Fokuspartikeln heben ein Element heraus: sogar, selbst, gerade, ausgerechnet, nur, erst. Sie stehen direkt davor, und ihre Stellung ändert die Bedeutung: \"Nur er hat das gesagt\" gegen \"Er hat nur das gesagt\".",
+    "Auch die Verneinung betont: \"nicht unerheblich\", \"nicht ohne Grund\", \"keineswegs\" - ein bewusstes Understatement, mit dem man leise stark behauptet."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Dasselbe, verschieden betont",
+     "en": "The same thing, emphasised differently"
+    },
+    "head": [
+     "Form",
+     "Beispiel",
+     "Wirkung"
+    ],
+    "rows": [
+     [
+      "neutral",
+      "Der Ton stört mich.",
+      "Aussage"
+     ],
+     [
+      "Spaltsatz",
+      "Was mich stört, ist der Ton.",
+      "hebt den Ton heraus"
+     ],
+     [
+      "Vorfeld",
+      "Den Ton finde ich schwierig.",
+      "formell, kontrastiv"
+     ],
+     [
+      "es-Vorfeld",
+      "Es ist der Ton, der stört.",
+      "verzögert, baut auf"
+     ],
+     [
+      "Partikel",
+      "Gerade der Ton stört.",
+      "genau dieses und nichts anderes"
+     ],
+     [
+      "Litotes",
+      "Der Ton ist nicht unproblematisch.",
+      "leise, aber deutlich"
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Fokuspartikeln",
+     "en": "Focus particles"
+    },
+    "head": [
+     "Partikel",
+     "Sinn",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "sogar",
+      "mehr als erwartet",
+      "Sogar der Chef kam."
+     ],
+     [
+      "selbst",
+      "wie sogar, gehobener",
+      "Selbst Fachleute irren sich."
+     ],
+     [
+      "gerade",
+      "genau dieses",
+      "Gerade darum geht es."
+     ],
+     [
+      "ausgerechnet",
+      "ironisch: genau dieses",
+      "Ausgerechnet heute!"
+     ],
+     [
+      "nur",
+      "nicht mehr als",
+      "Nur zwei haben geantwortet."
+     ],
+     [
+      "erst",
+      "später als erwartet",
+      "Er kam erst um zehn."
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Was mich daran stört, ist nicht die Höhe, sondern die Begründung.",
+    "en": "What bothers me about it is not the amount but the justification."
+   },
+   {
+    "de": "Es fehlt vor allem an ausgebildetem Personal.",
+    "en": "What is missing above all is trained staff."
+   },
+   {
+    "de": "Gerade darin liegt das Problem.",
+    "en": "That is precisely where the problem lies."
+   },
+   {
+    "de": "Der Einwand ist nicht unberechtigt.",
+    "en": "The objection is not without justification."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Es ist der Ton was mich stört.",
+    "right": "Es ist der Ton, der mich stört.",
+    "why": {
+     "de": "Nach einem bestimmten Nomen steht der/die/das, nicht was.",
+     "en": "After a definite noun the pronoun is der/die/das, not was."
+    }
+   },
+   {
+    "wrong": "Er hat nur das gesagt. (gemeint: niemand sonst)",
+    "right": "Nur er hat das gesagt.",
+    "why": {
+     "de": "Die Partikel steht vor dem, was sie heraushebt. Ihre Stellung ist die Bedeutung.",
+     "en": "The particle precedes what it emphasises. Its position is the meaning."
+    }
+   }
+  ]
+ },
+ {
+  "key": "hedging",
+  "title": {
+   "de": "Wie sicher bist du dir?",
+   "en": "How sure are you?"
+  },
+  "summary": {
+   "de": "dürfte, mag sein, vermutlich, eher: die Abstufungen zwischen Behauptung und Vermutung.",
+   "en": "dürfte, mag sein, vermutlich, eher – the gradations between a claim and a guess."
+  },
+  "icon": "🎚️",
+  "level": "C1",
+  "order": 48,
+  "body": {
+   "en": [
+    "At C1 what separates a strong text from a weak one is often not the claim but the hedging. Saying something flatly that you cannot support is the fastest way to lose an examiner; saying it with the right amount of distance is the skill being tested.",
+    "The modal verbs carry most of it, and in this use they say nothing about permission or ability. dürfte is the most useful and the least taught: \"Das dürfte der Grund sein\" means \"that is probably the reason\" with real confidence behind it. müsste is similar but inferential: \"Er müsste längst da sein.\"",
+    "können and mögen weaken: \"Das kann stimmen\" is open, \"Das mag stimmen\" concedes while signalling you are about to disagree. werden expresses a confident assumption about now: \"Sie wird im Stau stehen.\"",
+    "Adverbs grade it finely: zweifellos, sicherlich, höchstwahrscheinlich, vermutlich, womöglich, angeblich, vorgeblich. The last two are not hedges at all - angeblich marks a claim as someone else’s and signals doubt.",
+    "Softening a judgement: eher, tendenziell, im Großen und Ganzen, weitgehend, in gewissem Maße, nicht unbedingt. \"Das ist eher unwahrscheinlich\" is weaker than \"unwahrscheinlich\" and far more usable in an argument you may have to defend.",
+    "The mirror skill is noticing hedges when reading. A text saying \"dürfte\", \"offenbar\" and \"angeblich\" is making much weaker claims than one saying \"ist\", and C1 reading questions are frequently about exactly that difference."
+   ],
+   "de": [
+    "Auf C1 unterscheidet oft nicht die Behauptung einen starken von einem schwachen Text, sondern die Abtönung. Etwas rundheraus zu behaupten, was man nicht belegen kann, kostet am schnellsten Punkte.",
+    "Den größten Teil tragen die Modalverben, und sie sagen hier nichts über Erlaubnis oder Fähigkeit. dürfte ist das nützlichste und am wenigsten gelehrte: \"Das dürfte der Grund sein\" heißt \"wahrscheinlich\" mit Nachdruck. müsste schließt: \"Er müsste längst da sein.\"",
+    "können und mögen schwächen ab: \"Das kann stimmen\" ist offen, \"Das mag stimmen\" räumt ein und kündigt den Widerspruch an. werden drückt eine sichere Vermutung über jetzt aus.",
+    "Adverbien stufen fein ab: zweifellos, sicherlich, höchstwahrscheinlich, vermutlich, womöglich, angeblich. Die letzten markieren fremde Behauptungen und signalisieren Zweifel.",
+    "Urteile abschwächen: eher, tendenziell, im Großen und Ganzen, weitgehend, in gewissem Maße, nicht unbedingt.",
+    "Die Gegenfähigkeit ist, Abtönung beim Lesen zu bemerken. Ein Text mit \"dürfte\", \"offenbar\" und \"angeblich\" behauptet viel weniger als einer mit \"ist\"."
+   ]
+  },
+  "tables": [
+   {
+    "caption": {
+     "de": "Von sicher zu unsicher",
+     "en": "From certain to uncertain"
+    },
+    "head": [
+     "Ausdruck",
+     "Sicherheit",
+     "Beispiel"
+    ],
+    "rows": [
+     [
+      "zweifellos",
+      "sehr hoch",
+      "Das ist zweifellos richtig."
+     ],
+     [
+      "dürfte",
+      "hoch",
+      "Das dürfte der Grund sein."
+     ],
+     [
+      "wird wohl",
+      "hoch",
+      "Sie wird wohl im Stau stehen."
+     ],
+     [
+      "vermutlich",
+      "mittel",
+      "Vermutlich war es ein Versehen."
+     ],
+     [
+      "könnte",
+      "offen",
+      "Es könnte auch anders sein."
+     ],
+     [
+      "mag sein",
+      "einräumend",
+      "Das mag sein, ändert aber nichts."
+     ],
+     [
+      "angeblich",
+      "fremde Behauptung",
+      "Angeblich war niemand informiert."
+     ]
+    ]
+   },
+   {
+    "caption": {
+     "de": "Urteile abschwächen",
+     "en": "Softening a judgement"
+    },
+    "head": [
+     "Ausdruck",
+     "Wirkung"
+    ],
+    "rows": [
+     [
+      "eher",
+      "Tendenz statt Festlegung"
+     ],
+     [
+      "tendenziell",
+      "im Trend, nicht im Einzelfall"
+     ],
+     [
+      "weitgehend",
+      "fast ganz, aber nicht ganz"
+     ],
+     [
+      "in gewissem Maße",
+      "teilweise, vorsichtig"
+     ],
+     [
+      "nicht unbedingt",
+      "Widerspruch ohne Härte"
+     ],
+     [
+      "bedingt",
+      "nur unter Bedingungen"
+     ]
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "de": "Der Rückgang dürfte mehrere Ursachen haben.",
+    "en": "The decline probably has several causes."
+   },
+   {
+    "de": "Das mag im Einzelfall zutreffen, ist aber nicht verallgemeinerbar.",
+    "en": "That may be true in individual cases but cannot be generalised."
+   },
+   {
+    "de": "Angeblich lagen die Zahlen seit Monaten vor.",
+    "en": "The figures had allegedly been available for months."
+   },
+   {
+    "de": "Ich halte das eher für unwahrscheinlich.",
+    "en": "I consider that rather unlikely."
+   }
+  ],
+  "pitfalls": [
+   {
+    "wrong": "Das dürfte der Grund sein dürfen.",
+    "right": "Das dürfte der Grund sein.",
+    "why": {
+     "de": "dürfte ist hier Konjunktiv II von dürfen in rein vermutender Bedeutung, nicht Erlaubnis.",
+     "en": "dürfte here is Konjunktiv II of dürfen in a purely inferential sense, not permission."
+    }
+   },
+   {
+    "wrong": "Angeblich stimmt das, und ich bin sicher.",
+    "right": "Angeblich stimmt das – belegt ist es nicht.",
+    "why": {
+     "de": "angeblich signalisiert Zweifel. Es mit Sicherheit zu kombinieren widerspricht sich.",
+     "en": "angeblich signals doubt. Combining it with certainty contradicts itself."
     }
    }
   ]

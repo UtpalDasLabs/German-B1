@@ -478,4 +478,279 @@ export const B2_GRAMMAR = [
       ['Er hat den Termin ___ vergessen.', ['wohl', 'mal', 'denn', 'ja'], 0, 'wohl drückt eine Vermutung aus.', 'wohl expresses an assumption.'],
     ],
   },
+
+  {
+    key: 'adjektivnomen',
+    level: 'B2',
+    icon: '\u{1F3F7}️',
+    title: { de: 'Adjektive als Nomen', en: 'Adjectives used as nouns' },
+    summary: {
+      de: 'der Angestellte, etwas Neues, nichts Wichtiges: sie behalten ihre Adjektivendung.',
+      en: 'der Angestellte, etwas Neues, nichts Wichtiges – they keep their adjective ending.',
+    },
+    body: {
+      en: [
+        'German turns adjectives into nouns constantly, and the resulting word keeps behaving like an adjective. "der Angestellte" is really "der angestellte [Mann]" with the noun left out, which is why it is der Angestellte but ein Angestellter.',
+        'That is the whole difficulty. The ending changes with the article exactly as an adjective’s would: der Deutsche, ein Deutscher, die Deutsche, eine Deutsche, die Deutschen, viele Deutsche.',
+        'After etwas, nichts, viel and wenig the adjective is capitalised and takes -es: etwas Neues, nichts Wichtiges, viel Schönes. After alles it takes -e: alles Gute.',
+        'This is also how German makes abstract nouns on the spot: das Wesentliche, das Ganze, im Großen und Ganzen, das Beste daran. Written German is full of them and they are rarely taught.',
+        'A small set refer to people and are worth knowing as a group: der/die Angestellte, Beamte, Verwandte, Bekannte, Erwachsene, Jugendliche, Deutsche, Arbeitslose, Selbstständige.',
+      ],
+      de: [
+        'Das Deutsche macht ständig Nomen aus Adjektiven, und das Ergebnis verhält sich weiter wie ein Adjektiv. "der Angestellte" ist eigentlich "der angestellte [Mann]" ohne das Nomen - deshalb der Angestellte, aber ein Angestellter.',
+        'Genau darin liegt die Schwierigkeit: Die Endung richtet sich nach dem Artikel wie bei jedem Adjektiv.',
+        'Nach etwas, nichts, viel und wenig schreibt man groß und hängt -es an: etwas Neues, nichts Wichtiges. Nach alles steht -e: alles Gute.',
+        'So bildet das Deutsche auch spontan Abstrakta: das Wesentliche, das Ganze, im Großen und Ganzen.',
+        'Eine kleine Gruppe bezeichnet Personen und lohnt als Block: der/die Angestellte, Beamte, Verwandte, Bekannte, Erwachsene, Jugendliche, Deutsche, Arbeitslose.',
+      ],
+    },
+    tables: [
+      {
+        caption: { de: 'der Angestellte', en: 'der Angestellte' },
+        head: ['', 'mit der/die', 'mit ein/eine', 'ohne Artikel'],
+        rows: [
+          ['maskulin', 'der Angestellte', 'ein Angestellter', 'Angestellter'],
+          ['feminin', 'die Angestellte', 'eine Angestellte', 'Angestellte'],
+          ['Plural', 'die Angestellten', '–', 'Angestellte'],
+          ['Dativ Sg. m.', 'dem Angestellten', 'einem Angestellten', 'Angestelltem'],
+        ],
+      },
+      {
+        caption: { de: 'Nach etwas, nichts, alles', en: 'After etwas, nichts, alles' },
+        head: ['Wort', 'Endung', 'Beispiel'],
+        rows: [
+          ['etwas', '-es', 'etwas Neues'],
+          ['nichts', '-es', 'nichts Wichtiges'],
+          ['viel / wenig', '-es', 'viel Gutes'],
+          ['alles', '-e', 'alles Gute'],
+        ],
+      },
+    ],
+    examples: [
+      { de: 'Ein Angestellter der Firma hat das gemeldet.', en: 'An employee of the company reported it.' },
+      { de: 'Das Wesentliche steht im letzten Absatz.', en: 'The essential point is in the last paragraph.' },
+      { de: 'Es hat sich nichts Grundlegendes geändert.', en: 'Nothing fundamental has changed.' },
+      { de: 'Im Großen und Ganzen hat es funktioniert.', en: 'By and large it worked.' },
+    ],
+    pitfalls: [
+      {
+        wrong: 'ein Angestellte',
+        right: 'ein Angestellter',
+        why: {
+          de: 'Nach ein fehlt dem Artikel die Endung, also trägt sie das Adjektiv: -er.',
+          en: 'After ein the article carries no ending, so the adjective does: -er.',
+        },
+      },
+      {
+        wrong: 'etwas Neue',
+        right: 'etwas Neues',
+        why: {
+          de: 'Nach etwas steht -es, und das Wort wird großgeschrieben.',
+          en: 'After etwas the ending is -es, and the word is capitalised.',
+        },
+      },
+      {
+        wrong: 'alles Gutes',
+        right: 'alles Gute',
+        why: {
+          de: 'alles ist die Ausnahme: -e, nicht -es.',
+          en: 'alles is the exception: -e, not -es.',
+        },
+      },
+    ],
+    drills: [
+      ['___ Angestellter hat sich beschwert.', ['Ein', 'Eine', 'Der', 'Einen'], 0, 'ein + -er beim Maskulinum.', 'ein plus -er in the masculine.'],
+      ['Ich wünsche dir alles ___.', ['Gute', 'Gutes', 'Guten', 'gut'], 0, 'Nach alles steht -e.', 'After alles the ending is -e.'],
+      ['Es gibt nichts ___ zu berichten.', ['Neues', 'Neue', 'Neuen', 'neu'], 0, 'Nach nichts steht -es, großgeschrieben.', 'After nichts the ending is -es, capitalised.'],
+      ['Sprechen Sie bitte mit ___ Angestellten.', ['dem', 'der', 'den', 'des'], 0, 'Dativ maskulin: dem Angestellten.', 'Masculine dative: dem Angestellten.'],
+      ['___ Wesentliche fehlt im Bericht.', ['Das', 'Der', 'Die', 'Dem'], 0, 'Abstrakta aus Adjektiven sind neutral.', 'Abstract nouns from adjectives are neuter.'],
+      ['Viele ___ arbeiten in Teilzeit.', ['Deutsche', 'Deutschen', 'Deutscher', 'Deutsches'], 0, 'Nach viele steht die starke Pluralendung -e.', 'After viele comes the strong plural ending -e.'],
+    ],
+  },
+
+  {
+    key: 'verbenpraep',
+    level: 'B2',
+    icon: '\u{1F517}',
+    title: { de: 'Verben mit fester Präposition', en: 'Verbs with a fixed preposition' },
+    summary: {
+      de: 'warten auf, sich freuen über, bestehen aus: die Präposition gehört zum Verb und lässt sich nicht ableiten.',
+      en: 'warten auf, sich freuen über, bestehen aus – the preposition belongs to the verb and cannot be worked out.',
+    },
+    body: {
+      en: [
+        'A large number of German verbs come with a preposition attached, and the pairing is arbitrary. You wait auf something, think an something, ask nach something; none of these follows from the meaning.',
+        'The preposition also fixes the case, and this is where most errors happen: auf, über and für take the accusative; mit, nach, von, aus and zu take the dative; an and in take either, and you simply have to learn which per verb (denken an + accusative, teilnehmen an + dative).',
+        'The same verb with a different preposition is a different verb: bestehen aus (consist of), bestehen auf (insist on), bestehen in (consist in). Treat each pairing as its own vocabulary item, not as a verb plus a choice.',
+        'Several pairs differ only in register or nuance: sich freuen auf (looking forward, future) against sich freuen über (pleased about, now). Getting this wrong is not a grammar mistake, it is a meaning mistake.',
+        'When the object is a clause rather than a thing, the preposition becomes a da-compound and points forward: "Ich freue mich darauf, dich zu sehen." That is the B1 topic da- and wo-, and it only works once the pairings themselves are known.',
+      ],
+      de: [
+        'Sehr viele deutsche Verben kommen mit fester Präposition, und die Verbindung ist willkürlich. Man wartet auf etwas, denkt an etwas, fragt nach etwas - nichts davon folgt aus der Bedeutung.',
+        'Die Präposition legt zugleich den Kasus fest, und dort passieren die meisten Fehler: auf, über und für mit Akkusativ; mit, nach, von, aus und zu mit Dativ; an und in je nach Verb (denken an + Akkusativ, teilnehmen an + Dativ).',
+        'Dasselbe Verb mit anderer Präposition ist ein anderes Verb: bestehen aus, bestehen auf, bestehen in. Lerne jede Verbindung als eigene Vokabel.',
+        'Manche Paare unterscheiden sich nur in der Nuance: sich freuen auf (Vorfreude) gegen sich freuen über (jetzt). Das ist kein Grammatikfehler, sondern ein Bedeutungsfehler.',
+        'Steht statt eines Objekts ein Nebensatz, wird die Präposition zum da-Kompositum und zeigt nach vorn: "Ich freue mich darauf, dich zu sehen."',
+      ],
+    },
+    tables: [
+      {
+        caption: { de: 'Mit Akkusativ', en: 'With the accusative' },
+        head: ['Verb', 'Beispiel'],
+        rows: [
+          ['warten auf', 'Ich warte auf den Bescheid.'],
+          ['sich freuen auf / über', 'Ich freue mich auf den Urlaub.'],
+          ['denken an', 'Ich denke oft an die Zeit.'],
+          ['sich erinnern an', 'Erinnerst du dich an ihn?'],
+          ['sich kümmern um', 'Er kümmert sich um die Kinder.'],
+          ['sich interessieren für', 'Sie interessiert sich für Technik.'],
+          ['sich ärgern über', 'Ich ärgere mich über den Lärm.'],
+          ['sich bewerben um', 'Ich bewerbe mich um die Stelle.'],
+        ],
+      },
+      {
+        caption: { de: 'Mit Dativ', en: 'With the dative' },
+        head: ['Verb', 'Beispiel'],
+        rows: [
+          ['bestehen aus', 'Die Prüfung besteht aus vier Teilen.'],
+          ['teilnehmen an', 'Ich nehme an dem Kurs teil.'],
+          ['fragen nach', 'Sie fragte nach dem Weg.'],
+          ['gehören zu', 'Das gehört zu meinen Aufgaben.'],
+          ['abhängen von', 'Das hängt vom Wetter ab.'],
+          ['sich beschäftigen mit', 'Ich beschäftige mich mit dem Thema.'],
+          ['leiden unter', 'Viele leiden unter dem Druck.'],
+        ],
+      },
+    ],
+    examples: [
+      { de: 'Der Preis hängt von der Menge ab.', en: 'The price depends on the quantity.' },
+      { de: 'Ich bewerbe mich um eine Stelle in der Verwaltung.', en: 'I am applying for a post in administration.' },
+      { de: 'Die Kommission besteht aus sieben Personen.', en: 'The committee consists of seven people.' },
+      { de: 'Er besteht auf einer schriftlichen Zusage.', en: 'He insists on a written commitment.' },
+    ],
+    pitfalls: [
+      {
+        wrong: 'Ich warte für den Bus.',
+        right: 'Ich warte auf den Bus.',
+        why: {
+          de: 'warten geht mit auf, auch wenn das Englische "for" nahelegt.',
+          en: 'warten takes auf, whatever the English "for" suggests.',
+        },
+      },
+      {
+        wrong: 'Ich nehme an den Kurs teil.',
+        right: 'Ich nehme an dem Kurs teil.',
+        why: {
+          de: 'teilnehmen an verlangt den Dativ, nicht den Akkusativ.',
+          en: 'teilnehmen an takes the dative, not the accusative.',
+        },
+      },
+      {
+        wrong: 'Die Prüfung besteht auf vier Teilen.',
+        right: 'Die Prüfung besteht aus vier Teilen.',
+        why: {
+          de: 'bestehen aus = sich zusammensetzen; bestehen auf = beharren.',
+          en: 'bestehen aus = to be made up of; bestehen auf = to insist.',
+        },
+      },
+    ],
+    drills: [
+      ['Ich warte ___ den Bescheid.', ['auf', 'für', 'nach', 'um'], 0, 'warten auf + Akkusativ.', 'warten auf + accusative.'],
+      ['Das hängt ___ Wetter ab.', ['vom', 'auf das', 'über das', 'für das'], 0, 'abhängen von + Dativ.', 'abhängen von + dative.'],
+      ['Sie nimmt ___ Kurs teil.', ['an dem', 'an den', 'am den', 'auf dem'], 0, 'teilnehmen an + Dativ.', 'teilnehmen an + dative.'],
+      ['Die Jury besteht ___ fünf Personen.', ['aus', 'auf', 'in', 'von'], 0, 'Zusammensetzung: bestehen aus.', 'Composition: bestehen aus.'],
+      ['Ich bewerbe mich ___ die Stelle.', ['um', 'für', 'auf', 'an'], 0, 'sich bewerben um + Akkusativ.', 'sich bewerben um + accusative.'],
+      ['Viele leiden ___ dem Druck.', ['unter', 'über', 'an', 'von'], 0, 'leiden unter + Dativ.', 'leiden unter + dative.'],
+    ],
+  },
+
+  {
+    key: 'relativ2',
+    level: 'B2',
+    icon: '\u{1F9F7}',
+    title: { de: 'Relativsätze, zweite Runde', en: 'Relative clauses, second round' },
+    summary: {
+      de: 'Mit Präposition, im Genitiv, und was/wo statt der: die Fälle, die B1 auslässt.',
+      en: 'With a preposition, in the genitive, and was/wo instead of der – the cases B1 leaves out.',
+    },
+    body: {
+      en: [
+        'B1 teaches der/die/das as a relative pronoun. B2 is the rest of the system, and it is where written German actually lives.',
+        'With a preposition, the preposition comes first and the pronoun follows in the case that preposition governs: "der Kollege, mit dem ich arbeite", "das Thema, über das wir gesprochen haben". Never strand the preposition at the end the way English does.',
+        'The genitive relative is dessen (masculine and neuter) and deren (feminine and plural), and it replaces a possessive: "die Frau, deren Auto hier steht". No article follows it: deren Auto, not deren das Auto.',
+        'was is the relative pronoun after a neuter indefinite - alles, etwas, nichts, das, vieles - and after a whole clause: "Er kam zu spät, was niemanden überraschte."',
+        'wo and its compounds (worauf, worüber, womit) replace a preposition plus was, and wo also serves for places: "die Stadt, wo ich aufgewachsen bin" is as correct as "in der ich aufgewachsen bin" and sounds lighter.',
+      ],
+      de: [
+        'B1 lehrt der/die/das als Relativpronomen. B2 ist der Rest des Systems - und dort spielt sich geschriebenes Deutsch ab.',
+        'Mit Präposition steht diese zuerst, das Pronomen folgt im passenden Kasus: "der Kollege, mit dem ich arbeite". Die Präposition ans Ende zu stellen wie im Englischen geht nicht.',
+        'Das Genitivrelativ ist dessen (maskulin, neutral) und deren (feminin, Plural) und ersetzt ein Possessivum: "die Frau, deren Auto hier steht". Danach folgt kein Artikel.',
+        'was steht nach neutralen Unbestimmten - alles, etwas, nichts, das, vieles - und nach einem ganzen Satz: "Er kam zu spät, was niemanden überraschte."',
+        'wo und seine Komposita (worauf, worüber, womit) ersetzen Präposition plus was; wo dient außerdem für Orte.',
+      ],
+    },
+    tables: [
+      {
+        caption: { de: 'Relativpronomen', en: 'Relative pronouns' },
+        head: ['Kasus', 'maskulin', 'feminin', 'neutral', 'Plural'],
+        rows: [
+          ['Nominativ', 'der', 'die', 'das', 'die'],
+          ['Akkusativ', 'den', 'die', 'das', 'die'],
+          ['Dativ', 'dem', 'der', 'dem', 'denen'],
+          ['Genitiv', 'dessen', 'deren', 'dessen', 'deren'],
+        ],
+      },
+      {
+        caption: { de: 'Wann was, wann wo-', en: 'When was, when wo-' },
+        head: ['Bezug', 'Pronomen', 'Beispiel'],
+        rows: [
+          ['alles, etwas, nichts', 'was', 'alles, was du brauchst'],
+          ['ein ganzer Satz', 'was', 'Er schwieg, was alles sagte.'],
+          ['Präposition + was', 'wo- + Präp.', 'das, worüber wir sprachen'],
+          ['Ort', 'wo', 'die Stadt, wo ich wohne'],
+          ['Person/Sache', 'der/die/das', 'der Mann, der dort steht'],
+        ],
+      },
+    ],
+    examples: [
+      { de: 'Das ist der Kollege, mit dem ich das Projekt mache.', en: 'That is the colleague I am doing the project with.' },
+      { de: 'Die Firma, deren Angebot wir angenommen haben, sitzt in Essen.', en: 'The company whose quote we accepted is based in Essen.' },
+      { de: 'Alles, was dort steht, ist belegt.', en: 'Everything written there is substantiated.' },
+      { de: 'Er sagte nichts, worüber sich alle wunderten.', en: 'He said nothing, which surprised everyone.' },
+    ],
+    pitfalls: [
+      {
+        wrong: 'der Kollege, den ich arbeite mit',
+        right: 'der Kollege, mit dem ich arbeite',
+        why: {
+          de: 'Die Präposition steht vorn, nicht am Satzende.',
+          en: 'The preposition goes in front, not at the end.',
+        },
+      },
+      {
+        wrong: 'die Frau, deren das Auto hier steht',
+        right: 'die Frau, deren Auto hier steht',
+        why: {
+          de: 'Nach dessen und deren folgt kein Artikel.',
+          en: 'No article follows dessen or deren.',
+        },
+      },
+      {
+        wrong: 'Alles, das du brauchst',
+        right: 'Alles, was du brauchst',
+        why: {
+          de: 'Nach alles, etwas und nichts steht was.',
+          en: 'After alles, etwas and nichts the pronoun is was.',
+        },
+      },
+    ],
+    drills: [
+      ['Das ist der Kollege, ___ ich arbeite.', ['mit dem', 'mit den', 'den mit', 'dem mit'], 0, 'mit + Dativ, Präposition zuerst.', 'mit + dative, preposition first.'],
+      ['Die Firma, ___ Angebot wir annahmen, sitzt in Essen.', ['deren', 'dessen', 'derer', 'deren das'], 0, 'die Firma ist feminin: deren, ohne Artikel.', 'die Firma is feminine: deren, no article.'],
+      ['Alles, ___ du sagst, stimmt.', ['was', 'das', 'welches', 'dem'], 0, 'Nach alles steht was.', 'After alles the pronoun is was.'],
+      ['Das Thema, ___ wir sprachen, ist heikel.', ['über das', 'worüber das', 'das über', 'über dem'], 0, 'sprechen über + Akkusativ.', 'sprechen über + accusative.'],
+      ['Er kam zu spät, ___ niemanden überraschte.', ['was', 'das', 'welches', 'wer'], 0, 'Bezug auf den ganzen Satz: was.', 'Referring to the whole clause: was.'],
+      ['Die Leute, ___ ich geschrieben habe, antworten nicht.', ['denen', 'die', 'der', 'deren'], 0, 'schreiben + Dativ, Plural: denen.', 'schreiben takes the dative; plural: denen.'],
+    ],
+  },
 ];

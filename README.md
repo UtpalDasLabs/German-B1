@@ -21,14 +21,14 @@ and shares its design system and its spaced-repetition engine.
 
 | | A1 | A2 | B1 | B2 | C1 | total |
 |---|---|---|---|---|---|---|
-| **Words** | 464 | 357 | 642 | 170 | 88 | 1,721 |
-| **Grammar topics** | 10 | 9 | 14 | 6 | 4 | 43 |
-| **Grammar drills** | 80 | 76 | 98 | 36 | 24 | 314 |
-| **Exam tasks** | 5 | 4 | 31 | 4 | 4 | 48 |
-| **Magazine articles** | 2 | 2 | 1 | 1 | 1 | 7 |
-| **Course units** | 6 | 6 | 8 | 5 | 4 | 29 |
+| **Words** | 464 | 357 | 642 | 352 | 216 | **2,031** |
+| **Grammar topics** | 10 | 9 | 14 | 9 | 7 | **49** |
+| **Grammar drills** | 80 | 76 | 98 | 54 | 42 | **350** |
+| **Exam tasks** | 5 | 4 | 31 | 4 | 4 | **48** |
+| **Magazine articles** | 2 | 2 | 1 | 2 | 2 | **9** |
+| **Course units** | 6 | 6 | 8 | 7 | 6 | **33** |
 
-That is **2,035 items on the spaced-repetition schedule**, **98 can-do goals**,
+That is **2,381 items on the spaced-repetition schedule**, **111 can-do goals**,
 and a **full mock exam at every level** — one task in each of Lesen, Hören,
 Schreiben and Sprechen, at A1, A2, B1, B2 and C1.
 
@@ -48,7 +48,9 @@ Schreiben and Sprechen, at A1, A2, B1, B2 and C1.
 - **A placement test** built from the grammar drills themselves, because a
   drill tagged B1 is by construction a question only a B1 learner should get
   right. It places you on a ladder rather than an average, and "I do not know"
-  is a first-class answer.
+  is a first-class answer. It asks four questions per level that has drills, so
+  it got longer on its own as B2 and C1 filled out – twelve questions became
+  twenty without a line of code changing.
 - **A dictionary** over the whole corpus, searchable in German or English, with
   the article, plural, verb forms, an example and pronunciation. Deliberately
   not scoped to your level: a dictionary that hides the word you just met is

@@ -15,7 +15,8 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2"
    ]
   },
   {
@@ -33,7 +34,8 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2"
    ]
   },
   {
@@ -71,7 +73,8 @@
     "A1",
     "A2",
     "B1",
-    "B2"
+    "B2",
+    "C1"
    ]
   },
   {
@@ -108,7 +111,8 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2"
    ]
   },
   {
@@ -144,7 +148,8 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2"
    ]
   },
   {
@@ -162,7 +167,8 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2"
    ]
   },
   {
@@ -180,7 +186,8 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2"
    ]
   },
   {
@@ -199,7 +206,8 @@
     "A1",
     "A2",
     "B1",
-    "B2"
+    "B2",
+    "C1"
    ]
   },
   {
@@ -236,7 +244,8 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2"
    ]
   },
   {
@@ -314,7 +323,8 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2"
    ]
   },
   {
@@ -332,7 +342,9 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2",
+    "C1"
    ]
   },
   {
@@ -350,7 +362,9 @@
    "levels": [
     "A1",
     "A2",
-    "B1"
+    "B1",
+    "B2",
+    "C1"
    ]
   },
   {
@@ -387,7 +401,8 @@
     "A1",
     "A2",
     "B1",
-    "B2"
+    "B2",
+    "C1"
    ]
   },
   {
@@ -403,7 +418,8 @@
     "en": "Noun-verb collocations: grown-up German instead of textbook German."
    },
    "levels": [
-    "B1"
+    "B1",
+    "B2"
    ]
   },
   {
@@ -1813,6 +1829,103 @@
    "level": "B2",
    "n": 5,
    "title": {
+    "de": "Die Feinmechanik",
+    "en": "The fine mechanics"
+   },
+   "icon": "⚙️",
+   "blurb": {
+    "de": "Adjektive als Nomen und Verben mit fester Präposition: zwei Quellen stiller Fehler.",
+    "en": "Adjectives used as nouns, and verbs with a fixed preposition: two sources of quiet errors."
+   },
+   "canDos": [
+    {
+     "id": "cd.b2.5.1",
+     "text": {
+      "de": "Ich schreibe \"ein Angestellter\" und \"etwas Neues\" ohne nachzudenken.",
+      "en": "I write \"ein Angestellter\" and \"etwas Neues\" without having to think."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.b2.5.2",
+     "text": {
+      "de": "Ich kenne die Präposition, die zu einem Verb gehört, und ihren Kasus.",
+      "en": "I know the preposition that goes with a verb, and its case."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.b2.5.3",
+     "text": {
+      "de": "Ich bilde Abstrakta aus Adjektiven: das Wesentliche, das Entscheidende.",
+      "en": "I form abstract nouns from adjectives: das Wesentliche, das Entscheidende."
+     },
+     "area": "schreiben"
+    }
+   ],
+   "themes": [
+    "verben",
+    "adjektive"
+   ],
+   "grammar": [
+    "adjektivnomen",
+    "verbenpraep"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "b2.6",
+   "level": "B2",
+   "n": 6,
+   "title": {
+    "de": "Lange Sätze bauen",
+    "en": "Building long sentences"
+   },
+   "icon": "🧷",
+   "blurb": {
+    "de": "Relativsätze mit Präposition, im Genitiv und mit was: die Fälle, die B1 auslässt.",
+    "en": "Relative clauses with a preposition, in the genitive and with was: the cases B1 leaves out."
+   },
+   "canDos": [
+    {
+     "id": "cd.b2.6.1",
+     "text": {
+      "de": "Ich stelle die Präposition vor das Relativpronomen, nicht ans Satzende.",
+      "en": "I put the preposition before the relative pronoun, not at the end."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.b2.6.2",
+     "text": {
+      "de": "Ich benutze dessen und deren richtig, ohne Artikel dahinter.",
+      "en": "I use dessen and deren correctly, with no article after them."
+     },
+     "area": "grammatik"
+    },
+    {
+     "id": "cd.b2.6.3",
+     "text": {
+      "de": "Ich verliere in einem langen Schachtelsatz den Bezug nicht.",
+      "en": "I do not lose the thread in a long nested sentence."
+     },
+     "area": "lesen"
+    }
+   ],
+   "themes": [
+    "konnektoren",
+    "behoerden"
+   ],
+   "grammar": [
+    "relativ2"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "b2.7",
+   "level": "B2",
+   "n": 7,
+   "title": {
     "de": "Argumentieren und abwägen",
     "en": "Arguing and weighing up"
    },
@@ -1823,7 +1936,7 @@
    },
    "canDos": [
     {
-     "id": "cd.b2.5.1",
+     "id": "cd.b2.7.1",
      "text": {
       "de": "Ich kann einen Forumsbeitrag schreiben, der auf die Gegenseite eingeht.",
       "en": "I can write a forum post that engages with the other side."
@@ -1831,7 +1944,7 @@
      "area": "schreiben"
     },
     {
-     "id": "cd.b2.5.2",
+     "id": "cd.b2.7.2",
      "text": {
       "de": "Ich kann einen Vortrag halten und danach Rückfragen beantworten.",
       "en": "I can give a presentation and then answer follow-up questions."
@@ -1839,7 +1952,7 @@
      "area": "sprechen"
     },
     {
-     "id": "cd.b2.5.3",
+     "id": "cd.b2.7.3",
      "text": {
       "de": "Ich kann eine Schwäche meiner eigenen Position selbst benennen.",
       "en": "I can name a weakness in my own position myself."
@@ -1847,7 +1960,7 @@
      "area": "sprechen"
     },
     {
-     "id": "cd.b2.5.4",
+     "id": "cd.b2.7.4",
      "text": {
       "de": "Ich erkenne, was aus einem Text folgt und was nur darin steht.",
       "en": "I can tell what follows from a text and what is merely in it."
@@ -2022,6 +2135,111 @@
    "level": "C1",
    "n": 4,
    "title": {
+    "de": "Das richtige Wort zum richtigen Wort",
+    "en": "The right word for the right word"
+   },
+   "icon": "🤝",
+   "blurb": {
+    "de": "Kollokationen: eine Entscheidung trifft man, ein Urteil fällt man.",
+    "en": "Collocations: you treffen a decision and fällen a verdict."
+   },
+   "canDos": [
+    {
+     "id": "cd.c1.4.1",
+     "text": {
+      "de": "Ich schreibe \"eine Entscheidung treffen\", nicht \"machen\".",
+      "en": "I write \"eine Entscheidung treffen\", not \"machen\"."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.c1.4.2",
+     "text": {
+      "de": "Ich lerne Verb und Nomen als Paar, nicht als zwei Wörter.",
+      "en": "I learn verb and noun as a pair, not as two words."
+     },
+     "area": "wortschatz"
+    },
+    {
+     "id": "cd.c1.4.3",
+     "text": {
+      "de": "Mein Deutsch klingt nicht mehr übersetzt, auch wenn es grammatisch schon lange stimmte.",
+      "en": "My German no longer sounds translated, even where the grammar was right all along."
+     },
+     "area": "sprechen"
+    }
+   ],
+   "themes": [
+    "nomenverben",
+    "wirtschaft"
+   ],
+   "grammar": [
+    "kollokationen"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "c1.5",
+   "level": "C1",
+   "n": 5,
+   "title": {
+    "de": "Betonen und abtönen",
+    "en": "Emphasis and hedging"
+   },
+   "icon": "🎚️",
+   "blurb": {
+    "de": "Ein Wort herausheben, und sagen, wie sicher man sich ist.",
+    "en": "Lifting one word out, and saying how sure you are."
+   },
+   "canDos": [
+    {
+     "id": "cd.c1.5.1",
+     "text": {
+      "de": "Ich hebe mit \"Was mich stört, ist …\" hervor, statt lauter zu werden.",
+      "en": "I emphasise with \"Was mich stört, ist …\" instead of getting louder."
+     },
+     "area": "schreiben"
+    },
+    {
+     "id": "cd.c1.5.2",
+     "text": {
+      "de": "Ich kann eine Behauptung so abstufen, dass ich sie verteidigen kann.",
+      "en": "I can grade a claim so that I am able to defend it."
+     },
+     "area": "sprechen"
+    },
+    {
+     "id": "cd.c1.5.3",
+     "text": {
+      "de": "Ich merke an \"dürfte\" und \"angeblich\", wie stark ein Text sich festlegt.",
+      "en": "I notice from \"dürfte\" and \"angeblich\" how far a text commits itself."
+     },
+     "area": "lesen"
+    },
+    {
+     "id": "cd.c1.5.4",
+     "text": {
+      "de": "Ich höre an der Fokuspartikel, worauf es jemandem ankommt.",
+      "en": "I hear from the focus particle what someone is actually getting at."
+     },
+     "area": "hoeren"
+    }
+   ],
+   "themes": [
+    "kommunikation",
+    "wissenschaft"
+   ],
+   "grammar": [
+    "emphase",
+    "hedging"
+   ],
+   "tasks": []
+  },
+  {
+   "key": "c1.6",
+   "level": "C1",
+   "n": 6,
+   "title": {
     "de": "Aus Sätzen einen Text machen",
     "en": "Turning sentences into a text"
    },
@@ -2032,7 +2250,7 @@
    },
    "canDos": [
     {
-     "id": "cd.c1.4.1",
+     "id": "cd.c1.6.1",
      "text": {
       "de": "Ich nehme Vorheriges mit einer Nominalphrase wieder auf, nicht mit \"das\".",
       "en": "I take up what came before with a noun phrase, not with \"das\"."
@@ -2040,7 +2258,7 @@
      "area": "schreiben"
     },
     {
-     "id": "cd.c1.4.2",
+     "id": "cd.c1.6.2",
      "text": {
       "de": "Ich setze auf Position 1 den Anschluss, nicht die neue Information.",
       "en": "I put the link in first position, not the new information."
@@ -2048,7 +2266,7 @@
      "area": "schreiben"
     },
     {
-     "id": "cd.c1.4.3",
+     "id": "cd.c1.6.3",
      "text": {
       "de": "Ich erkenne, worauf sich ein da-Kompositum im Text bezieht.",
       "en": "I can tell what a da-compound refers to in a text."
@@ -2056,7 +2274,7 @@
      "area": "lesen"
     },
     {
-     "id": "cd.c1.4.4",
+     "id": "cd.c1.6.4",
      "text": {
       "de": "Mein Text liest sich als Argumentation, nicht als Liste richtiger Sätze.",
       "en": "My text reads as an argument, not a list of correct sentences."
@@ -2127,15 +2345,15 @@
   }
  },
  "counts": {
-  "vocab": 1721,
-  "drills": 314,
-  "grammar": 43,
+  "vocab": 2031,
+  "drills": 350,
+  "grammar": 49,
   "reading": 13,
   "listening": 10,
   "writing": 13,
   "speaking": 12,
-  "articles": 7,
-  "reviewable": 2035
+  "articles": 9,
+  "reviewable": 2381
  },
  "byLevel": {
   "A1": {
@@ -2160,18 +2378,18 @@
    "articles": 1
   },
   "B2": {
-   "vocab": 170,
-   "drills": 36,
-   "grammar": 6,
+   "vocab": 352,
+   "drills": 54,
+   "grammar": 9,
    "tasks": 4,
-   "articles": 1
+   "articles": 2
   },
   "C1": {
-   "vocab": 88,
-   "drills": 24,
-   "grammar": 4,
+   "vocab": 216,
+   "drills": 42,
+   "grammar": 7,
    "tasks": 4,
-   "articles": 1
+   "articles": 2
   }
  }
 }

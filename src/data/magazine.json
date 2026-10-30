@@ -1681,7 +1681,7 @@
     {
      "t": "word",
      "s": "Produktivität",
-     "id": "w.arbeit.074"
+     "id": "w.arbeit.080"
     },
     {
      "t": "text",
@@ -1705,7 +1705,7 @@
     {
      "t": "word",
      "s": "Differenz",
-     "id": "w.arbeit.072"
+     "id": "w.arbeit.078"
     },
     {
      "t": "text",
@@ -1714,7 +1714,7 @@
     {
      "t": "word",
      "s": "Arbeitsbelastung",
-     "id": "w.arbeit.081"
+     "id": "w.arbeit.087"
     },
     {
      "t": "text",
@@ -1743,7 +1743,7 @@
     {
      "t": "word",
      "s": "Umland",
-     "id": "w.arbeit.073"
+     "id": "w.arbeit.079"
     },
     {
      "t": "text",
@@ -1782,7 +1782,7 @@
     {
      "t": "word",
      "s": "Unzufriedenheit",
-     "id": "w.arbeit.075"
+     "id": "w.arbeit.081"
     },
     {
      "t": "text",
@@ -1791,7 +1791,7 @@
     {
      "t": "word",
      "s": "Entfernung",
-     "id": "w.arbeit.071"
+     "id": "w.arbeit.077"
     },
     {
      "t": "text",
@@ -1820,7 +1820,7 @@
     {
      "t": "word",
      "s": "Entfernung",
-     "id": "w.arbeit.071"
+     "id": "w.arbeit.077"
     },
     {
      "t": "text",
@@ -1838,7 +1838,7 @@
     {
      "t": "word",
      "s": "nachvollziehbar",
-     "id": "w.wissenschaft.031"
+     "id": "w.wissenschaft.034"
     },
     {
      "t": "text",
@@ -1853,7 +1853,7 @@
     {
      "t": "word",
      "s": "Wohnort",
-     "id": "w.arbeit.069"
+     "id": "w.arbeit.075"
     },
     {
      "t": "text",
@@ -1871,7 +1871,7 @@
     {
      "t": "word",
      "s": "Anwesenheit",
-     "id": "w.arbeit.070"
+     "id": "w.arbeit.076"
     },
     {
      "t": "text",
@@ -1889,7 +1889,7 @@
     {
      "t": "word",
      "s": "erwähnt",
-     "id": "w.kommunikation.070"
+     "id": "w.kommunikation.075"
     },
     {
      "t": "text",
@@ -2027,7 +2027,7 @@
     {
      "t": "word",
      "s": "Direktheit",
-     "id": "w.kommunikation.073"
+     "id": "w.kommunikation.086"
     },
     {
      "t": "text",
@@ -2104,7 +2104,7 @@
     {
      "t": "word",
      "s": "Verwechslung",
-     "id": "w.kommunikation.074"
+     "id": "w.kommunikation.087"
     },
     {
      "t": "text",
@@ -2164,7 +2164,7 @@
     {
      "t": "word",
      "s": "Abwertung",
-     "id": "w.kommunikation.075"
+     "id": "w.kommunikation.088"
     },
     {
      "t": "text",
@@ -2324,6 +2324,737 @@
     "why": {
      "de": "\"… sie fehlen zuerst, wenn man unter Druck spricht. Genau dann wirkt man am schroffsten.\"",
      "en": "\"… they are the first thing to go when you speak under pressure. That is exactly when you come across as most brusque.\""
+    }
+   }
+  ]
+ },
+ {
+  "id": "mag.b2.anerkennung",
+  "level": "B2",
+  "theme": "arbeit",
+  "title": {
+   "de": "Drei Jahre bis zum eigenen Beruf",
+   "en": "Three years back to your own profession"
+  },
+  "teaser": {
+   "de": "Warum ausgebildete Fachkräfte in Deutschland Regale einräumen.",
+   "en": "Why trained professionals end up stacking shelves in Germany."
+  },
+  "minutes": 6,
+  "paragraphs": [
+   [
+    {
+     "t": "text",
+     "s": "Es gibt einen "
+    },
+    {
+     "t": "word",
+     "s": "Fachkräftemangel",
+     "id": "w.arbeit.089"
+    },
+    {
+     "t": "text",
+     "s": ", über den täglich berichtet wird, und es gibt Menschen mit genau diesen "
+    },
+    {
+     "t": "word",
+     "s": "Qualifikationen",
+     "id": "w.arbeit.069"
+    },
+    {
+     "t": "text",
+     "s": ", die in Lagerhallen arbeiten. Beides gleichzeitig ist kein Zufall, sondern das Ergebnis eines "
+    },
+    {
+     "t": "word",
+     "s": "Verfahrens",
+     "id": "w.wissenschaft.018"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Wer einen im "
+    },
+    {
+     "t": "word",
+     "s": "Ausland",
+     "id": "w.reisen.044"
+    },
+    {
+     "t": "text",
+     "s": " erworbenen "
+    },
+    {
+     "t": "word",
+     "s": "Abschluss",
+     "id": "w.bildung.041"
+    },
+    {
+     "t": "text",
+     "s": " nutzen will, braucht die "
+    },
+    {
+     "t": "word",
+     "s": "Anerkennung",
+     "id": "w.bildung.056"
+    },
+    {
+     "t": "text",
+     "s": ". "
+    },
+    {
+     "t": "grammar",
+     "s": "Die zuständige Stelle vergleicht die Ausbildung mit der deutschen",
+     "key": "passiversatz"
+    },
+    {
+     "t": "text",
+     "s": " und stellt fest, ob sie gleichwertig ist. Bei reglementierten "
+    },
+    {
+     "t": "word",
+     "s": "Berufen",
+     "id": "w.familie.055"
+    },
+    {
+     "t": "text",
+     "s": " - Pflege, Medizin, Lehramt - geht es ohne nicht."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Das "
+    },
+    {
+     "t": "word",
+     "s": "Verfahren",
+     "id": "w.wissenschaft.018"
+    },
+    {
+     "t": "text",
+     "s": " selbst ist nicht das Problem. Problematisch sind die "
+    },
+    {
+     "t": "word",
+     "s": "Voraussetzungen",
+     "id": "w.arbeit.055"
+    },
+    {
+     "t": "text",
+     "s": ": beglaubigte Übersetzungen aller "
+    },
+    {
+     "t": "word",
+     "s": "Unterlagen",
+     "id": "w.bildung.057"
+    },
+    {
+     "t": "text",
+     "s": ", oft Dokumente, die im Herkunftsland längst nicht mehr ausgestellt werden, dazu "
+    },
+    {
+     "t": "word",
+     "s": "Gebühren",
+     "id": "w.behoerden.042"
+    },
+    {
+     "t": "text",
+     "s": " im dreistelligen Bereich und "
+    },
+    {
+     "t": "word",
+     "s": "Bearbeitungszeiten",
+     "id": "w.behoerden.052"
+    },
+    {
+     "t": "text",
+     "s": " von vielen Monaten."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Wird die "
+    },
+    {
+     "t": "word",
+     "s": "Gleichwertigkeit",
+     "id": "w.arbeit.070"
+    },
+    {
+     "t": "text",
+     "s": " nur teilweise "
+    },
+    {
+     "t": "word",
+     "s": "festgestellt",
+     "id": "w.wissenschaft.020"
+    },
+    {
+     "t": "text",
+     "s": ", folgt eine Anpassungsqualifizierung: Kurse, Praktika, eine Prüfung. Sinnvoll, wenn sie angeboten wird. "
+    },
+    {
+     "t": "grammar",
+     "s": "Dass sie in manchen Bundesländern kaum existiert, macht den Bescheid zu einer Sackgasse",
+     "key": "nebensaetze"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Dazu kommt ein Zirkelschluss, den viele erst spät bemerken: Für die "
+    },
+    {
+     "t": "word",
+     "s": "Anerkennung",
+     "id": "w.bildung.056"
+    },
+    {
+     "t": "text",
+     "s": " braucht man häufig Deutsch auf B2, für den Sprachkurs auf B2 braucht man Zeit, und Zeit hat nur, wer nicht in "
+    },
+    {
+     "t": "word",
+     "s": "Vollzeit",
+     "id": "w.arbeit.072"
+    },
+    {
+     "t": "text",
+     "s": " in einem Aushilfsjob arbeitet - den man annimmt, weil die Anerkennung fehlt."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Die "
+    },
+    {
+     "t": "word",
+     "s": "Reformen",
+     "id": "w.arbeit.073"
+    },
+    {
+     "t": "text",
+     "s": " der letzten Jahre haben "
+    },
+    {
+     "t": "word",
+     "s": "Fristen",
+     "id": "w.behoerden.041"
+    },
+    {
+     "t": "text",
+     "s": " verkürzt und Teilanerkennungen erleichtert. Was sie nicht verändert haben, ist die "
+    },
+    {
+     "t": "word",
+     "s": "Beweislast",
+     "id": "w.arbeit.071"
+    },
+    {
+     "t": "text",
+     "s": ": Sie liegt vollständig bei der Person, die anerkannt werden will, und sie beginnt mit Papieren aus einem Land, das sie vielleicht fluchtartig verlassen hat."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Dass daran "
+    },
+    {
+     "t": "word",
+     "s": "Kritik",
+     "id": "w.kommunikation.065"
+    },
+    {
+     "t": "text",
+     "s": " "
+    },
+    {
+     "t": "word",
+     "s": "geübt",
+     "id": "w.bildung.037"
+    },
+    {
+     "t": "text",
+     "s": " wird, überrascht niemanden. Bemerkenswert ist eher, wie selten die Debatte über den Fachkräftemangel diesen Punkt erreicht."
+    }
+   ]
+  ],
+  "spoken": [
+   "Es gibt einen Fachkräftemangel, über den täglich berichtet wird, und es gibt Menschen mit genau diesen Qualifikationen, die in Lagerhallen arbeiten. Beides gleichzeitig ist kein Zufall, sondern das Ergebnis eines Verfahrens.",
+   "Wer einen im Ausland erworbenen Abschluss nutzen will, braucht die Anerkennung. Die zuständige Stelle vergleicht die Ausbildung mit der deutschen und stellt fest, ob sie gleichwertig ist. Bei reglementierten Berufen - Pflege, Medizin, Lehramt - geht es ohne nicht.",
+   "Das Verfahren selbst ist nicht das Problem. Problematisch sind die Voraussetzungen: beglaubigte Übersetzungen aller Unterlagen, oft Dokumente, die im Herkunftsland längst nicht mehr ausgestellt werden, dazu Gebühren im dreistelligen Bereich und Bearbeitungszeiten von vielen Monaten.",
+   "Wird die Gleichwertigkeit nur teilweise festgestellt, folgt eine Anpassungsqualifizierung: Kurse, Praktika, eine Prüfung. Sinnvoll, wenn sie angeboten wird. Dass sie in manchen Bundesländern kaum existiert, macht den Bescheid zu einer Sackgasse.",
+   "Dazu kommt ein Zirkelschluss, den viele erst spät bemerken: Für die Anerkennung braucht man häufig Deutsch auf B2, für den Sprachkurs auf B2 braucht man Zeit, und Zeit hat nur, wer nicht in Vollzeit in einem Aushilfsjob arbeitet - den man annimmt, weil die Anerkennung fehlt.",
+   "Die Reformen der letzten Jahre haben Fristen verkürzt und Teilanerkennungen erleichtert. Was sie nicht verändert haben, ist die Beweislast: Sie liegt vollständig bei der Person, die anerkannt werden will, und sie beginnt mit Papieren aus einem Land, das sie vielleicht fluchtartig verlassen hat.",
+   "Dass daran Kritik geübt wird, überrascht niemanden. Bemerkenswert ist eher, wie selten die Debatte über den Fachkräftemangel diesen Punkt erreicht."
+  ],
+  "items": [
+   {
+    "id": "a.mag.b2.anerkennung.01",
+    "prompt": "Was ist laut Text das eigentliche Problem am Anerkennungsverfahren?",
+    "promptEn": "What, per the text, is the real problem with the recognition procedure?",
+    "options": [
+     "die Voraussetzungen, nicht das Verfahren selbst",
+     "die Dauer der Prüfung",
+     "die fehlende Rechtsgrundlage",
+     "die Haltung der Arbeitgeber"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Das Verfahren selbst ist nicht das Problem. Problematisch sind die Voraussetzungen.\"",
+     "en": "\"The procedure itself is not the problem. The requirements are.\""
+    }
+   },
+   {
+    "id": "a.mag.b2.anerkennung.02",
+    "prompt": "Wann wird eine Anpassungsqualifizierung nötig?",
+    "promptEn": "When does an adaptation qualification become necessary?",
+    "options": [
+     "wenn die Gleichwertigkeit nur teilweise festgestellt wird",
+     "wenn der Abschluss abgelehnt wird",
+     "bei allen reglementierten Berufen",
+     "wenn die Übersetzung fehlt"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Wird die Gleichwertigkeit nur teilweise festgestellt, folgt eine Anpassungsqualifizierung.\"",
+     "en": "\"If equivalence is only partly established, an adaptation course follows.\""
+    }
+   },
+   {
+    "id": "a.mag.b2.anerkennung.03",
+    "prompt": "Worin besteht der im Text beschriebene Zirkelschluss?",
+    "promptEn": "What is the circular trap the text describes?",
+    "options": [
+     "Anerkennung braucht Deutsch, Deutsch braucht Zeit, Zeit hat nur, wer nicht Vollzeit aushilft.",
+     "Ohne Arbeit kein Visum, ohne Visum keine Arbeit.",
+     "Ohne Wohnung keine Anmeldung, ohne Anmeldung keine Wohnung.",
+     "Ohne Praktikum keine Stelle, ohne Stelle kein Praktikum."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "Der Text beschreibt die Kette Anerkennung – B2 – Zeit – Aushilfsjob.",
+     "en": "The text describes the chain recognition – B2 – time – stopgap job."
+    }
+   },
+   {
+    "id": "a.mag.b2.anerkennung.04",
+    "prompt": "Was haben die Reformen laut Text NICHT geändert?",
+    "promptEn": "What have the reforms, per the text, NOT changed?",
+    "options": [
+     "die Beweislast",
+     "die Fristen",
+     "die Teilanerkennung",
+     "die Gebühren"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Was sie nicht verändert haben, ist die Beweislast.\"",
+     "en": "\"What they have not changed is the burden of proof.\""
+    }
+   },
+   {
+    "id": "a.mag.b2.anerkennung.05",
+    "prompt": "Welche Haltung nimmt der Schlussabsatz ein?",
+    "promptEn": "What stance does the final paragraph take?",
+    "options": [
+     "Er findet nicht die Kritik bemerkenswert, sondern dass die Debatte diesen Punkt kaum erreicht.",
+     "Er hält die Kritik für übertrieben.",
+     "Er fordert die Abschaffung des Verfahrens.",
+     "Er lobt die Reformen."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Bemerkenswert ist eher, wie selten die Debatte … diesen Punkt erreicht.\"",
+     "en": "\"What is remarkable is rather how rarely the debate reaches this point.\""
+    }
+   },
+   {
+    "id": "a.mag.b2.anerkennung.06",
+    "prompt": "Warum stehen Fachkräftemangel und Lagerarbeit laut Text nebeneinander?",
+    "promptEn": "Why do a skills shortage and warehouse work coexist, per the text?",
+    "options": [
+     "Es ist das Ergebnis eines Verfahrens, kein Zufall.",
+     "Die Betroffenen wollen nicht in ihrem Beruf arbeiten.",
+     "Die Qualifikationen passen nicht zum Bedarf.",
+     "Die Arbeitgeber zahlen zu wenig."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Beides gleichzeitig ist kein Zufall, sondern das Ergebnis eines Verfahrens.\"",
+     "en": "\"The two together are no coincidence but the result of a procedure.\""
+    }
+   }
+  ]
+ },
+ {
+  "id": "mag.c1.statistik",
+  "level": "C1",
+  "theme": "wissenschaft",
+  "title": {
+   "de": "Der Durchschnitt, der nichts erklärt",
+   "en": "The average that explains nothing"
+  },
+  "teaser": {
+   "de": "Wie eine korrekte Zahl eine falsche Geschichte erzählen kann.",
+   "en": "How a correct figure can tell a false story."
+  },
+  "minutes": 7,
+  "paragraphs": [
+   [
+    {
+     "t": "text",
+     "s": "Die häufigste "
+    },
+    {
+     "t": "word",
+     "s": "Verzerrung",
+     "id": "w.wissenschaft.046"
+    },
+    {
+     "t": "text",
+     "s": " in der öffentlichen Debatte ist keine Lüge. Sie ist ein korrekt berechneter "
+    },
+    {
+     "t": "word",
+     "s": "Durchschnitt",
+     "id": "w.wissenschaft.001"
+    },
+    {
+     "t": "text",
+     "s": ", der die "
+    },
+    {
+     "t": "word",
+     "s": "Schere",
+     "id": "w.wirtschaft.048"
+    },
+    {
+     "t": "text",
+     "s": " "
+    },
+    {
+     "t": "word",
+     "s": "verschleiert",
+     "id": "w.verben.137"
+    },
+    {
+     "t": "text",
+     "s": ", aus der er entstanden ist."
+    }
+   ],
+   [
+    {
+     "t": "grammar",
+     "s": "So verlässlich eine Zahl auch sein mag",
+     "key": "konzessiv"
+    },
+    {
+     "t": "text",
+     "s": ", sie beantwortet nur die Frage, die ihr gestellt wurde. \"Die Mieten sind um vier Prozent gestiegen\" ist "
+    },
+    {
+     "t": "word",
+     "s": "zutreffend",
+     "id": "w.adjektive.112"
+    },
+    {
+     "t": "text",
+     "s": " und sagt nichts darüber, ob das für Bestandsmieten oder Neuvermietungen gilt - und genau darin liegt in diesem Fall der ganze "
+    },
+    {
+     "t": "word",
+     "s": "Sachverhalt",
+     "id": "w.wissenschaft.043"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Ein zweiter "
+    },
+    {
+     "t": "word",
+     "s": "Trugschluss",
+     "id": "w.wissenschaft.047"
+    },
+    {
+     "t": "text",
+     "s": " ist verbreiteter und schwerer zu bemerken. Wer freiwillig an einer Erhebung teilnimmt, ist nicht repräsentativ; Betriebe, die sich für einen Modellversuch melden, funktionierten meist schon vorher gut. Die "
+    },
+    {
+     "t": "word",
+     "s": "Aussagekraft",
+     "id": "w.wissenschaft.050"
+    },
+    {
+     "t": "text",
+     "s": " solcher Studien ist "
+    },
+    {
+     "t": "word",
+     "s": "bedingt",
+     "id": "w.wissenschaft.063"
+    },
+    {
+     "t": "text",
+     "s": ", auch wenn die "
+    },
+    {
+     "t": "word",
+     "s": "Methode",
+     "id": "w.wissenschaft.002"
+    },
+    {
+     "t": "text",
+     "s": " selbst sauber ist."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Hinzu kommt die "
+    },
+    {
+     "t": "word",
+     "s": "Gewichtung",
+     "id": "w.wissenschaft.044"
+    },
+    {
+     "t": "text",
+     "s": ". Ob man den "
+    },
+    {
+     "t": "word",
+     "s": "Anteil",
+     "id": "w.wissenschaft.013"
+    },
+    {
+     "t": "text",
+     "s": " an allen Haushalten misst oder an den betroffenen, verändert das Ergebnis um ein Vielfaches, ohne dass eine einzige Zahl falsch wäre. "
+    },
+    {
+     "t": "grammar",
+     "s": "Dass beide Darstellungen korrekt sind, macht die Auswahl zur eigentlichen Aussage",
+     "key": "textkohaesion"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Daraus folgt kein "
+    },
+    {
+     "t": "word",
+     "s": "Misstrauen",
+     "id": "w.wissenschaft.036"
+    },
+    {
+     "t": "text",
+     "s": " gegen Statistik - das wäre der bequemste und dümmste Schluss. Es folgt eine kleine Liste von Fragen: Woran wurde gemessen? Wer ist nicht enthalten? Was wäre die Zahl bei anderer "
+    },
+    {
+     "t": "word",
+     "s": "Gewichtung",
+     "id": "w.wissenschaft.044"
+    },
+    {
+     "t": "text",
+     "s": "? Und: Wer hat die Erhebung in "
+    },
+    {
+     "t": "word",
+     "s": "Auftrag",
+     "id": "w.arbeit.074"
+    },
+    {
+     "t": "text",
+     "s": " gegeben?"
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Die letzte Frage ist die unbeliebteste, weil sie nach "
+    },
+    {
+     "t": "word",
+     "s": "Motiven",
+     "id": "w.wissenschaft.038"
+    },
+    {
+     "t": "text",
+     "s": " klingt. Sie ist trotzdem berechtigt, und zwar ohne "
+    },
+    {
+     "t": "word",
+     "s": "Unterstellung",
+     "id": "w.wissenschaft.037"
+    },
+    {
+     "t": "text",
+     "s": ": Auftraggeber bestimmen die "
+    },
+    {
+     "t": "word",
+     "s": "Fragestellung",
+     "id": "w.wissenschaft.004"
+    },
+    {
+     "t": "text",
+     "s": ", und die Fragestellung bestimmt, was überhaupt sichtbar werden kann."
+    }
+   ],
+   [
+    {
+     "t": "text",
+     "s": "Eine Zahl zu "
+    },
+    {
+     "t": "word",
+     "s": "hinterfragen",
+     "id": "w.medien.061"
+    },
+    {
+     "t": "text",
+     "s": " heißt nicht, sie abzulehnen. Es heißt, sie dorthin zurückzuführen, wo sie entstanden ist - und dort ist sie fast immer interessanter als in der "
+    },
+    {
+     "t": "word",
+     "s": "Schlagzeile",
+     "id": "w.medien.055"
+    },
+    {
+     "t": "text",
+     "s": "."
+    }
+   ]
+  ],
+  "spoken": [
+   "Die häufigste Verzerrung in der öffentlichen Debatte ist keine Lüge. Sie ist ein korrekt berechneter Durchschnitt, der die Schere verschleiert, aus der er entstanden ist.",
+   "So verlässlich eine Zahl auch sein mag, sie beantwortet nur die Frage, die ihr gestellt wurde. \"Die Mieten sind um vier Prozent gestiegen\" ist zutreffend und sagt nichts darüber, ob das für Bestandsmieten oder Neuvermietungen gilt - und genau darin liegt in diesem Fall der ganze Sachverhalt.",
+   "Ein zweiter Trugschluss ist verbreiteter und schwerer zu bemerken. Wer freiwillig an einer Erhebung teilnimmt, ist nicht repräsentativ; Betriebe, die sich für einen Modellversuch melden, funktionierten meist schon vorher gut. Die Aussagekraft solcher Studien ist bedingt, auch wenn die Methode selbst sauber ist.",
+   "Hinzu kommt die Gewichtung. Ob man den Anteil an allen Haushalten misst oder an den betroffenen, verändert das Ergebnis um ein Vielfaches, ohne dass eine einzige Zahl falsch wäre. Dass beide Darstellungen korrekt sind, macht die Auswahl zur eigentlichen Aussage.",
+   "Daraus folgt kein Misstrauen gegen Statistik - das wäre der bequemste und dümmste Schluss. Es folgt eine kleine Liste von Fragen: Woran wurde gemessen? Wer ist nicht enthalten? Was wäre die Zahl bei anderer Gewichtung? Und: Wer hat die Erhebung in Auftrag gegeben?",
+   "Die letzte Frage ist die unbeliebteste, weil sie nach Motiven klingt. Sie ist trotzdem berechtigt, und zwar ohne Unterstellung: Auftraggeber bestimmen die Fragestellung, und die Fragestellung bestimmt, was überhaupt sichtbar werden kann.",
+   "Eine Zahl zu hinterfragen heißt nicht, sie abzulehnen. Es heißt, sie dorthin zurückzuführen, wo sie entstanden ist - und dort ist sie fast immer interessanter als in der Schlagzeile."
+  ],
+  "items": [
+   {
+    "id": "a.mag.c1.statistik.01",
+    "prompt": "Wie beschreibt der Text die häufigste Verzerrung?",
+    "promptEn": "How does the text describe the commonest distortion?",
+    "options": [
+     "ein korrekt berechneter Durchschnitt, der die Spannweite verschleiert",
+     "eine bewusste Fälschung von Daten",
+     "ein Rechenfehler in der Erhebung",
+     "eine zu kleine Stichprobe"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Sie ist ein korrekt berechneter Durchschnitt, der die Schere verschleiert …\"",
+     "en": "\"It is a correctly calculated average that obscures the gap it came from.\""
+    }
+   },
+   {
+    "id": "a.mag.c1.statistik.02",
+    "prompt": "Was ist das Problem mit freiwilliger Teilnahme an Erhebungen?",
+    "promptEn": "What is the problem with voluntary participation?",
+    "options": [
+     "Die Teilnehmenden sind nicht repräsentativ.",
+     "Die Daten werden unsauber erhoben.",
+     "Die Stichprobe ist zu klein.",
+     "Die Methode ist fehlerhaft."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Wer freiwillig an einer Erhebung teilnimmt, ist nicht repräsentativ.\"",
+     "en": "\"Those who take part voluntarily are not representative.\""
+    }
+   },
+   {
+    "id": "a.mag.c1.statistik.03",
+    "prompt": "Was sagt der Text über die Gewichtung?",
+    "promptEn": "What does the text say about weighting?",
+    "options": [
+     "Beide Darstellungen können korrekt sein, und die Auswahl ist dann die eigentliche Aussage.",
+     "Eine der beiden Darstellungen ist immer falsch.",
+     "Gewichtung spielt nur bei kleinen Stichproben eine Rolle.",
+     "Gewichtung lässt sich objektiv festlegen."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Dass beide Darstellungen korrekt sind, macht die Auswahl zur eigentlichen Aussage.\"",
+     "en": "\"That both presentations are correct makes the choice the actual statement.\""
+    }
+   },
+   {
+    "id": "a.mag.c1.statistik.04",
+    "prompt": "Welchen Schluss lehnt der Text ausdrücklich ab?",
+    "promptEn": "Which conclusion does the text explicitly reject?",
+    "options": [
+     "Misstrauen gegen Statistik überhaupt",
+     "das Nachfragen nach dem Auftraggeber",
+     "den Vergleich von Bestandsmieten und Neuvermietungen",
+     "die Verwendung von Durchschnittswerten"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Daraus folgt kein Misstrauen gegen Statistik – das wäre der bequemste und dümmste Schluss.\"",
+     "en": "\"No distrust of statistics follows from this – that would be the laziest and stupidest conclusion.\""
+    }
+   },
+   {
+    "id": "a.mag.c1.statistik.05",
+    "prompt": "Warum hält der Text die Frage nach dem Auftraggeber für berechtigt?",
+    "promptEn": "Why does the text consider the question about who commissioned it legitimate?",
+    "options": [
+     "Auftraggeber bestimmen die Fragestellung, und die bestimmt, was sichtbar wird.",
+     "Auftraggeber verfälschen in der Regel die Daten.",
+     "Ohne Auftraggeber gibt es keine Erhebung.",
+     "Die Finanzierung muss offengelegt werden."
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Auftraggeber bestimmen die Fragestellung, und die Fragestellung bestimmt, was überhaupt sichtbar werden kann.\"",
+     "en": "\"Commissioners determine the question, and the question determines what can become visible at all.\""
+    }
+   },
+   {
+    "id": "a.mag.c1.statistik.06",
+    "prompt": "Was bedeutet \"eine Zahl hinterfragen\" nach dem Schlussabsatz?",
+    "promptEn": "What does \"questioning a figure\" mean per the final paragraph?",
+    "options": [
+     "sie dorthin zurückführen, wo sie entstanden ist",
+     "sie abzulehnen",
+     "sie neu zu berechnen",
+     "sie mit anderen Zahlen zu vergleichen"
+    ],
+    "answer": 0,
+    "why": {
+     "de": "\"Es heißt, sie dorthin zurückzuführen, wo sie entstanden ist.\"",
+     "en": "\"It means tracing it back to where it came from.\""
     }
    }
   ]

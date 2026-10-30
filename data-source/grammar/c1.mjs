@@ -343,4 +343,276 @@ export const C1_GRAMMAR = [
       ['Die Methode ist umstritten. ___ sind die Ergebnisse brauchbar.', ['Gleichwohl', 'Dadurch', 'Deshalb', 'Insofern'], 0, 'Konzessiver Anschluss: trotzdem.', 'A concessive link: nevertheless.'],
     ],
   },
+
+  {
+    key: 'kollokationen',
+    level: 'C1',
+    icon: '\u{1F91D}',
+    title: { de: 'Kollokationen: welches Verb zu welchem Nomen', en: 'Collocations: which verb goes with which noun' },
+    summary: {
+      de: 'Eine Entscheidung trifft man, ein Urteil fällt man. Beides heißt entscheiden, nur eines ist richtig.',
+      en: 'You treffen a decision and fällen a verdict. Both mean deciding; only one is right each time.',
+    },
+    body: {
+      en: [
+        'By C1 the grammar is rarely what gives a learner away. The collocations are. "Ich habe eine Entscheidung gemacht" is grammatically flawless and immediately marks you as a non-native, because a decision in German is getroffen, never gemacht.',
+        'These pairings are not derivable and not quite idioms either - they are simply which word German happens to use. The only approach is to learn the pair rather than the two words.',
+        'The verbs that collocate most widely are worth knowing as a set: treffen (Entscheidung, Vereinbarung, Maßnahmen), fällen (Urteil, Entscheidung in a legal sense), stellen (Frage, Antrag, Bedingung), erheben (Anspruch, Einspruch, Vorwurf, Gebühren), leisten (Beitrag, Arbeit, Widerstand, Hilfe), üben (Kritik, Druck, Verzicht), ziehen (Schluss, Bilanz, Vergleich, Konsequenzen).',
+        'Adjective-plus-noun pairs matter just as much: ein triftiger Grund, ein schwerwiegender Fehler, eine herbe Niederlage, eine rege Beteiligung, erhebliche Zweifel. German will usually accept "großer" but a native would not write it.',
+        'Intensifiers are collocational too, and getting them wrong sounds odd rather than wrong: schwer verletzt, streng verboten, dringend nötig, bitter nötig, hochgradig umstritten. "Sehr verletzt" is not how it is said.',
+      ],
+      de: [
+        'Auf C1 verrät selten noch die Grammatik, sondern die Kollokation. "Ich habe eine Entscheidung gemacht" ist grammatisch fehlerfrei und sofort als nicht-muttersprachlich erkennbar: Eine Entscheidung wird getroffen, nie gemacht.',
+        'Diese Verbindungen sind nicht ableitbar und auch keine Redewendungen - es ist schlicht das Wort, das das Deutsche nimmt. Man lernt das Paar, nicht die zwei Wörter.',
+        'Die verbindungsfreudigsten Verben lohnen als Block: treffen (Entscheidung, Vereinbarung, Maßnahmen), fällen (Urteil), stellen (Frage, Antrag, Bedingung), erheben (Anspruch, Einspruch, Vorwurf), leisten (Beitrag, Widerstand, Hilfe), üben (Kritik, Druck), ziehen (Schluss, Bilanz, Vergleich).',
+        'Ebenso wichtig sind Adjektiv-Nomen-Paare: ein triftiger Grund, ein schwerwiegender Fehler, eine herbe Niederlage, erhebliche Zweifel.',
+        'Auch Verstärker sind kollokativ: schwer verletzt, streng verboten, dringend nötig, hochgradig umstritten. "Sehr verletzt" sagt man nicht.',
+      ],
+    },
+    tables: [
+      {
+        caption: { de: 'Verb und Nomen', en: 'Verb and noun' },
+        head: ['Nomen', 'Verb', 'nicht'],
+        rows: [
+          ['eine Entscheidung', 'treffen', 'machen'],
+          ['ein Urteil', 'fällen', 'machen'],
+          ['eine Frage', 'stellen', 'fragen / machen'],
+          ['einen Antrag', 'stellen', 'machen'],
+          ['Kritik', 'üben', 'machen'],
+          ['einen Beitrag', 'leisten', 'machen'],
+          ['Widerstand', 'leisten', 'geben'],
+          ['einen Schluss', 'ziehen', 'nehmen'],
+          ['Anspruch', 'erheben', 'nehmen'],
+          ['eine Vereinbarung', 'treffen', 'machen'],
+        ],
+      },
+      {
+        caption: { de: 'Adjektiv und Verstärker', en: 'Adjective and intensifier' },
+        head: ['Verbindung', 'statt'],
+        rows: [
+          ['ein triftiger Grund', 'ein guter Grund'],
+          ['erhebliche Zweifel', 'große Zweifel'],
+          ['ein schwerwiegender Fehler', 'ein großer Fehler'],
+          ['schwer verletzt', 'sehr verletzt'],
+          ['streng verboten', 'sehr verboten'],
+          ['dringend nötig', 'sehr nötig'],
+        ],
+      },
+    ],
+    examples: [
+      { de: 'Das Gericht hat sein Urteil gefällt.', en: 'The court has delivered its verdict.' },
+      { de: 'Daran wurde erhebliche Kritik geübt.', en: 'Considerable criticism was levelled at that.' },
+      { de: 'Daraus lässt sich kein Schluss ziehen.', en: 'No conclusion can be drawn from that.' },
+      { de: 'Für eine Ausnahme gibt es keinen triftigen Grund.', en: 'There is no cogent reason for an exception.' },
+    ],
+    pitfalls: [
+      {
+        wrong: 'Ich habe eine Entscheidung gemacht.',
+        right: 'Ich habe eine Entscheidung getroffen.',
+        why: {
+          de: 'Eine Entscheidung wird getroffen. Grammatisch ist beides richtig, üblich nur eines.',
+          en: 'A decision is getroffen. Both are grammatical; only one is said.',
+        },
+      },
+      {
+        wrong: 'Er hat Kritik gemacht.',
+        right: 'Er hat Kritik geübt.',
+        why: {
+          de: 'Kritik übt man.',
+          en: 'Criticism is geübt.',
+        },
+      },
+      {
+        wrong: 'Sie wurde sehr verletzt.',
+        right: 'Sie wurde schwer verletzt.',
+        why: {
+          de: 'Der feste Verstärker ist schwer, nicht sehr.',
+          en: 'The fixed intensifier is schwer, not sehr.',
+        },
+      },
+    ],
+    drills: [
+      ['Wir haben eine Entscheidung ___.', ['getroffen', 'gemacht', 'genommen', 'gestellt'], 0, 'eine Entscheidung treffen.', 'eine Entscheidung treffen.'],
+      ['Das Gericht hat ein Urteil ___.', ['gefällt', 'getroffen', 'gemacht', 'gegeben'], 0, 'ein Urteil fällen.', 'ein Urteil fällen.'],
+      ['Daran wurde scharfe Kritik ___.', ['geübt', 'gemacht', 'gegeben', 'gestellt'], 0, 'Kritik üben.', 'Kritik üben.'],
+      ['Daraus lässt sich kein Schluss ___.', ['ziehen', 'nehmen', 'machen', 'treffen'], 0, 'einen Schluss ziehen.', 'einen Schluss ziehen.'],
+      ['Dafür gibt es keinen ___ Grund.', ['triftigen', 'großen', 'starken', 'schweren'], 0, 'Feste Verbindung: ein triftiger Grund.', 'Fixed pairing: ein triftiger Grund.'],
+      ['Zwei Personen wurden ___ verletzt.', ['schwer', 'sehr', 'stark', 'hoch'], 0, 'schwer verletzt ist die feste Verbindung.', 'schwer verletzt is the fixed pairing.'],
+    ],
+  },
+
+  {
+    key: 'emphase',
+    level: 'C1',
+    icon: '❗',
+    title: { de: 'Betonen ohne lauter zu werden', en: 'Emphasis without raising your voice' },
+    summary: {
+      de: '"Was mich stört, ist …", das Vorfeld, und die Partikel, die ein Wort heraushebt.',
+      en: '"Was mich stört, ist …", the first position, and the particles that lift one word out.',
+    },
+    body: {
+      en: [
+        'English emphasises with stress and with "it is X that". German has a stricter word order and compensates with structure, and at C1 the examiners are listening for exactly this.',
+        'The cleft is the workhorse: "Was mich stört, ist der Ton" puts der Ton under a spotlight that "Der Ton stört mich" does not. Variants: "Wer das entschieden hat, ist …", "Worum es geht, ist …".',
+        'The first position in the sentence is itself emphatic, and anything can go there: an object ("Diesen Punkt halte ich für zentral"), an adverbial, even a subordinate clause. Fronting an object is a strong move and feels formal.',
+        'es as a placeholder in first position lets you delay the real subject and build suspense: "Es fehlt vor allem an Personal", "Es war der Zeitpunkt, der alles entschied".',
+        'Focus particles pick out one element: sogar, selbst, gerade, ausgerechnet, nur, erst. They sit immediately before what they emphasise and moving them changes the meaning: "Nur er hat das gesagt" against "Er hat nur das gesagt".',
+        'Finally, negation can emphasise: "nicht unerheblich", "nicht ohne Grund", "keineswegs". The double negative is a deliberate understatement and a very German way of making a strong claim quietly.',
+      ],
+      de: [
+        'Das Englische betont mit Akzent und mit "it is X that". Das Deutsche hat eine strengere Wortstellung und gleicht das mit Struktur aus - und genau darauf hören Prüfer auf C1.',
+        'Der Spaltsatz ist das Arbeitspferd: "Was mich stört, ist der Ton" stellt der Ton in ein Licht, das "Der Ton stört mich" nicht erzeugt.',
+        'Die erste Position ist selbst schon betont, und dort kann alles stehen: ein Objekt ("Diesen Punkt halte ich für zentral"), eine Angabe, auch ein ganzer Nebensatz.',
+        'es als Platzhalter im Vorfeld verzögert das eigentliche Subjekt: "Es fehlt vor allem an Personal."',
+        'Fokuspartikeln heben ein Element heraus: sogar, selbst, gerade, ausgerechnet, nur, erst. Sie stehen direkt davor, und ihre Stellung ändert die Bedeutung: "Nur er hat das gesagt" gegen "Er hat nur das gesagt".',
+        'Auch die Verneinung betont: "nicht unerheblich", "nicht ohne Grund", "keineswegs" - ein bewusstes Understatement, mit dem man leise stark behauptet.',
+      ],
+    },
+    tables: [
+      {
+        caption: { de: 'Dasselbe, verschieden betont', en: 'The same thing, emphasised differently' },
+        head: ['Form', 'Beispiel', 'Wirkung'],
+        rows: [
+          ['neutral', 'Der Ton stört mich.', 'Aussage'],
+          ['Spaltsatz', 'Was mich stört, ist der Ton.', 'hebt den Ton heraus'],
+          ['Vorfeld', 'Den Ton finde ich schwierig.', 'formell, kontrastiv'],
+          ['es-Vorfeld', 'Es ist der Ton, der stört.', 'verzögert, baut auf'],
+          ['Partikel', 'Gerade der Ton stört.', 'genau dieses und nichts anderes'],
+          ['Litotes', 'Der Ton ist nicht unproblematisch.', 'leise, aber deutlich'],
+        ],
+      },
+      {
+        caption: { de: 'Fokuspartikeln', en: 'Focus particles' },
+        head: ['Partikel', 'Sinn', 'Beispiel'],
+        rows: [
+          ['sogar', 'mehr als erwartet', 'Sogar der Chef kam.'],
+          ['selbst', 'wie sogar, gehobener', 'Selbst Fachleute irren sich.'],
+          ['gerade', 'genau dieses', 'Gerade darum geht es.'],
+          ['ausgerechnet', 'ironisch: genau dieses', 'Ausgerechnet heute!'],
+          ['nur', 'nicht mehr als', 'Nur zwei haben geantwortet.'],
+          ['erst', 'später als erwartet', 'Er kam erst um zehn.'],
+        ],
+      },
+    ],
+    examples: [
+      { de: 'Was mich daran stört, ist nicht die Höhe, sondern die Begründung.', en: 'What bothers me about it is not the amount but the justification.' },
+      { de: 'Es fehlt vor allem an ausgebildetem Personal.', en: 'What is missing above all is trained staff.' },
+      { de: 'Gerade darin liegt das Problem.', en: 'That is precisely where the problem lies.' },
+      { de: 'Der Einwand ist nicht unberechtigt.', en: 'The objection is not without justification.' },
+    ],
+    pitfalls: [
+      {
+        wrong: 'Es ist der Ton was mich stört.',
+        right: 'Es ist der Ton, der mich stört.',
+        why: {
+          de: 'Nach einem bestimmten Nomen steht der/die/das, nicht was.',
+          en: 'After a definite noun the pronoun is der/die/das, not was.',
+        },
+      },
+      {
+        wrong: 'Er hat nur das gesagt. (gemeint: niemand sonst)',
+        right: 'Nur er hat das gesagt.',
+        why: {
+          de: 'Die Partikel steht vor dem, was sie heraushebt. Ihre Stellung ist die Bedeutung.',
+          en: 'The particle precedes what it emphasises. Its position is the meaning.',
+        },
+      },
+    ],
+    drills: [
+      ['___ mich stört, ist der Ton.', ['Was', 'Das', 'Welches', 'Wie'], 0, 'Der Spaltsatz beginnt mit was.', 'The cleft begins with was.'],
+      ['Es ist der Zeitpunkt, ___ alles entschied.', ['der', 'was', 'welches', 'den'], 0, 'Bestimmtes Nomen: der.', 'A definite noun: der.'],
+      ['___ darin liegt das Problem.', ['Gerade', 'Nur', 'Erst', 'Sogar'], 0, 'gerade hebt "genau dieses" hervor.', 'gerade picks out "precisely this".'],
+      ['Niemand sonst war dafür: ___ er hat zugestimmt.', ['nur', 'erst', 'sogar', 'gerade'], 0, 'nur vor dem Subjekt grenzt die Person ab.', 'nur before the subject restricts who it was.'],
+      ['Der Vorwurf ist nicht ___.', ['unbegründet', 'begründet', 'ungerecht sehr', 'kein Grund'], 0, 'Litotes: nicht + Negativadjektiv heißt leise "doch".', 'Litotes: nicht plus a negative adjective quietly means "actually yes".'],
+      ['___ fehlt es an Personal.', ['Es', 'Das', 'Dort', 'Man'], 0, 'es als Platzhalter im Vorfeld.', 'es as a placeholder in first position.'],
+    ],
+  },
+
+  {
+    key: 'hedging',
+    level: 'C1',
+    icon: '\u{1F39A}️',
+    title: { de: 'Wie sicher bist du dir?', en: 'How sure are you?' },
+    summary: {
+      de: 'dürfte, mag sein, vermutlich, eher: die Abstufungen zwischen Behauptung und Vermutung.',
+      en: 'dürfte, mag sein, vermutlich, eher – the gradations between a claim and a guess.',
+    },
+    body: {
+      en: [
+        'At C1 what separates a strong text from a weak one is often not the claim but the hedging. Saying something flatly that you cannot support is the fastest way to lose an examiner; saying it with the right amount of distance is the skill being tested.',
+        'The modal verbs carry most of it, and in this use they say nothing about permission or ability. dürfte is the most useful and the least taught: "Das dürfte der Grund sein" means "that is probably the reason" with real confidence behind it. müsste is similar but inferential: "Er müsste längst da sein."',
+        'können and mögen weaken: "Das kann stimmen" is open, "Das mag stimmen" concedes while signalling you are about to disagree. werden expresses a confident assumption about now: "Sie wird im Stau stehen."',
+        'Adverbs grade it finely: zweifellos, sicherlich, höchstwahrscheinlich, vermutlich, womöglich, angeblich, vorgeblich. The last two are not hedges at all - angeblich marks a claim as someone else’s and signals doubt.',
+        'Softening a judgement: eher, tendenziell, im Großen und Ganzen, weitgehend, in gewissem Maße, nicht unbedingt. "Das ist eher unwahrscheinlich" is weaker than "unwahrscheinlich" and far more usable in an argument you may have to defend.',
+        'The mirror skill is noticing hedges when reading. A text saying "dürfte", "offenbar" and "angeblich" is making much weaker claims than one saying "ist", and C1 reading questions are frequently about exactly that difference.',
+      ],
+      de: [
+        'Auf C1 unterscheidet oft nicht die Behauptung einen starken von einem schwachen Text, sondern die Abtönung. Etwas rundheraus zu behaupten, was man nicht belegen kann, kostet am schnellsten Punkte.',
+        'Den größten Teil tragen die Modalverben, und sie sagen hier nichts über Erlaubnis oder Fähigkeit. dürfte ist das nützlichste und am wenigsten gelehrte: "Das dürfte der Grund sein" heißt "wahrscheinlich" mit Nachdruck. müsste schließt: "Er müsste längst da sein."',
+        'können und mögen schwächen ab: "Das kann stimmen" ist offen, "Das mag stimmen" räumt ein und kündigt den Widerspruch an. werden drückt eine sichere Vermutung über jetzt aus.',
+        'Adverbien stufen fein ab: zweifellos, sicherlich, höchstwahrscheinlich, vermutlich, womöglich, angeblich. Die letzten markieren fremde Behauptungen und signalisieren Zweifel.',
+        'Urteile abschwächen: eher, tendenziell, im Großen und Ganzen, weitgehend, in gewissem Maße, nicht unbedingt.',
+        'Die Gegenfähigkeit ist, Abtönung beim Lesen zu bemerken. Ein Text mit "dürfte", "offenbar" und "angeblich" behauptet viel weniger als einer mit "ist".',
+      ],
+    },
+    tables: [
+      {
+        caption: { de: 'Von sicher zu unsicher', en: 'From certain to uncertain' },
+        head: ['Ausdruck', 'Sicherheit', 'Beispiel'],
+        rows: [
+          ['zweifellos', 'sehr hoch', 'Das ist zweifellos richtig.'],
+          ['dürfte', 'hoch', 'Das dürfte der Grund sein.'],
+          ['wird wohl', 'hoch', 'Sie wird wohl im Stau stehen.'],
+          ['vermutlich', 'mittel', 'Vermutlich war es ein Versehen.'],
+          ['könnte', 'offen', 'Es könnte auch anders sein.'],
+          ['mag sein', 'einräumend', 'Das mag sein, ändert aber nichts.'],
+          ['angeblich', 'fremde Behauptung', 'Angeblich war niemand informiert.'],
+        ],
+      },
+      {
+        caption: { de: 'Urteile abschwächen', en: 'Softening a judgement' },
+        head: ['Ausdruck', 'Wirkung'],
+        rows: [
+          ['eher', 'Tendenz statt Festlegung'],
+          ['tendenziell', 'im Trend, nicht im Einzelfall'],
+          ['weitgehend', 'fast ganz, aber nicht ganz'],
+          ['in gewissem Maße', 'teilweise, vorsichtig'],
+          ['nicht unbedingt', 'Widerspruch ohne Härte'],
+          ['bedingt', 'nur unter Bedingungen'],
+        ],
+      },
+    ],
+    examples: [
+      { de: 'Der Rückgang dürfte mehrere Ursachen haben.', en: 'The decline probably has several causes.' },
+      { de: 'Das mag im Einzelfall zutreffen, ist aber nicht verallgemeinerbar.', en: 'That may be true in individual cases but cannot be generalised.' },
+      { de: 'Angeblich lagen die Zahlen seit Monaten vor.', en: 'The figures had allegedly been available for months.' },
+      { de: 'Ich halte das eher für unwahrscheinlich.', en: 'I consider that rather unlikely.' },
+    ],
+    pitfalls: [
+      {
+        wrong: 'Das dürfte der Grund sein dürfen.',
+        right: 'Das dürfte der Grund sein.',
+        why: {
+          de: 'dürfte ist hier Konjunktiv II von dürfen in rein vermutender Bedeutung, nicht Erlaubnis.',
+          en: 'dürfte here is Konjunktiv II of dürfen in a purely inferential sense, not permission.',
+        },
+      },
+      {
+        wrong: 'Angeblich stimmt das, und ich bin sicher.',
+        right: 'Angeblich stimmt das – belegt ist es nicht.',
+        why: {
+          de: 'angeblich signalisiert Zweifel. Es mit Sicherheit zu kombinieren widerspricht sich.',
+          en: 'angeblich signals doubt. Combining it with certainty contradicts itself.',
+        },
+      },
+    ],
+    drills: [
+      ['Der Rückgang ___ mehrere Ursachen haben.', ['dürfte', 'darf', 'durfte', 'müsste dürfen'], 0, 'dürfte als starke Vermutung.', 'dürfte as a confident assumption.'],
+      ['Das ___ stimmen, ändert aber nichts.', ['mag', 'muss', 'will', 'soll'], 0, 'mögen räumt ein und kündigt den Widerspruch an.', 'mögen concedes and announces the pushback.'],
+      ['___ waren die Zahlen längst bekannt.', ['Angeblich', 'Zweifellos', 'Sicherlich', 'Offensichtlich'], 0, 'Fremde Behauptung mit Zweifel.', 'Someone else’s claim, with doubt attached.'],
+      ['Ich halte das ___ für unwahrscheinlich.', ['eher', 'ganz', 'völlig', 'zweifellos'], 0, 'eher schwächt das Urteil ab.', 'eher softens the judgement.'],
+      ['Sie ___ im Stau stehen – anders ist die Verspätung nicht zu erklären.', ['wird wohl', 'wird werden', 'möchte', 'soll wohl'], 0, 'werden + wohl für die sichere Vermutung über jetzt.', 'werden plus wohl for a confident assumption about now.'],
+      ['Der Befund ist ___ übertragbar.', ['nur bedingt', 'nur unbedingt', 'bedingt nicht', 'unbedingt nur'], 0, 'bedingt heißt: nur unter Einschränkungen.', 'bedingt means: only with qualifications.'],
+    ],
+  },
 ];

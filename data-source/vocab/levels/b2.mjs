@@ -51,6 +51,8 @@ export const B2 = {
 
   wissenschaft: {
     nouns: [
+      ['der Durchschnitt', '-e', 'average', 'Der Durchschnitt verschleiert die Spannweite.', 'The average obscures the range.'],
+      ['die Methode', '-n', 'method', 'Die Methode ist sauber, die Auswahl nicht.', 'The method is sound, the selection is not.'],
       ['die Studie', '-n', 'study', 'Eine aktuelle Studie widerspricht dem.', 'A recent study contradicts that.'],
       ['die Fragestellung', '-en', 'the question under investigation', 'Die Fragestellung ist zu weit gefasst.', 'The question under investigation is too broadly framed.'],
       ['der Beleg', '-e', 'piece of evidence', 'Dafür gibt es keinen Beleg.', 'There is no evidence for that.'],
@@ -70,6 +72,7 @@ export const B2 = {
       ['die Perspektive', '-n', 'perspective', 'Aus dieser Perspektive sieht es anders aus.', 'From this perspective it looks different.'],
     ],
     verbs: [
+      ['feststellen', null, 'to establish, determine', 'Festgestellt wurde nur die Teilgleichwertigkeit.', 'Only partial equivalence was established.'],
       ['belegen', null, 'to substantiate', 'Die Zahlen belegen das nicht.', 'The figures do not substantiate that.'],
       ['hinweisen', 'weist hin · wies hin · hat hingewiesen', 'to point out', 'Ich möchte darauf hinweisen, dass …', 'I would like to point out that …'],
       ['vermuten', null, 'to suspect, assume', 'Man vermutet einen Zusammenhang.', 'A connection is suspected.'],
@@ -121,10 +124,19 @@ export const B2 = {
       ['die Genesung', 'ohne Plural', 'recovery', 'Die Genesung dauert mehrere Monate.', 'Recovery takes several months.'],
       ['das Gesundheitswesen', 'ohne Plural', 'the health system', 'Das Gesundheitswesen steht unter Druck.', 'The health system is under pressure.'],
       ['die Wartezeit', '-en', 'waiting time', 'Die Wartezeit auf einen Termin ist lang.', 'The waiting time for an appointment is long.'],
+      ['die Prävention', 'ohne Plural', 'prevention', 'Prävention ist billiger als Behandlung.', 'Prevention is cheaper than treatment.'],
+      ['die Lebenserwartung', 'ohne Plural', 'life expectancy', 'Die Lebenserwartung hängt stark vom Einkommen ab.', 'Life expectancy depends heavily on income.'],
+      ['die Fachärztin', '-nen', 'specialist (female)', 'Auf einen Termin bei der Fachärztin wartet man Monate.', 'You wait months for an appointment with the specialist.'],
+      ['die Belastungsgrenze', '-n', 'limit of what you can take', 'Viele arbeiten an der Belastungsgrenze.', 'Many work at the limit of what they can take.'],
+      ['der Schlafmangel', 'ohne Plural', 'lack of sleep', 'Schlafmangel wirkt wie Alkohol.', 'Lack of sleep works like alcohol.'],
+      ['die Selbsthilfegruppe', '-n', 'support group', 'Die Selbsthilfegruppe trifft sich monatlich.', 'The support group meets monthly.'],
     ],
     verbs: [
       ['sich auswirken auf', null, 'to affect', 'Schlaf wirkt sich auf alles aus.', 'Sleep affects everything.'],
       ['vorbeugen', null, 'to prevent', 'Bewegung beugt vielem vor.', 'Exercise prevents a lot of things.'],
+    ],
+    adjectives: [
+      ['chronisch', null, 'chronic', 'Die Beschwerden sind chronisch geworden.', 'The complaints have become chronic.'],
     ],
   },
 
@@ -138,6 +150,12 @@ export const B2 = {
       ['die Artenvielfalt', 'ohne Plural', 'biodiversity', 'Die Artenvielfalt nimmt rapide ab.', 'Biodiversity is declining rapidly.'],
       ['der Verbrauchsanstieg', '-e', 'rise in consumption', 'Der Verbrauchsanstieg war nicht vorhergesehen.', 'The rise in consumption was not foreseen.'],
       ['die Umstellung', '-en', 'changeover', 'Die Umstellung kostet Zeit und Geld.', 'The changeover costs time and money.'],
+      ['die Dämmung', '-en', 'insulation', 'Ohne Dämmung heizt man die Straße.', 'Without insulation you heat the street.'],
+      ['die Wärmepumpe', '-n', 'heat pump', 'Eine Wärmepumpe rechnet sich nicht überall.', 'A heat pump does not pay off everywhere.'],
+      ['der Fußabdruck', '-¨e', 'footprint', 'Der größte Posten im Fußabdruck ist das Fliegen.', 'The biggest item in the footprint is flying.'],
+      ['die Anpassung', '-en', 'adaptation', 'Anpassung ersetzt keine Vermeidung.', 'Adaptation does not replace avoidance.'],
+      ['die Hitzewelle', '-n', 'heatwave', 'Hitzewellen treffen Städte härter.', 'Heatwaves hit cities harder.'],
+      ['das Hochwasser', '-', 'flooding', 'Nach dem Hochwasser fehlte das Geld.', 'After the flooding the money was missing.'],
     ],
     verbs: [
       ['belasten', null, 'to burden, pollute', 'Der Verkehr belastet die Luft.', 'Traffic pollutes the air.'],
@@ -166,6 +184,12 @@ export const B2 = {
 
   arbeit: {
     nouns: [
+      ['die Qualifikation', '-en', 'qualification', 'Die Qualifikation wird hier nicht anerkannt.', 'The qualification is not recognised here.'],
+      ['die Gleichwertigkeit', 'ohne Plural', 'equivalence', 'Die Gleichwertigkeit wurde nur teilweise festgestellt.', 'Equivalence was only partly established.'],
+      ['die Beweislast', 'ohne Plural', 'burden of proof', 'Die Beweislast liegt bei der Antragstellerin.', 'The burden of proof lies with the applicant.'],
+      ['die Vollzeit', 'ohne Plural', 'full-time work', 'In Vollzeit bleibt keine Zeit für den Kurs.', 'Working full-time leaves no time for the course.'],
+      ['die Reform', '-en', 'reform', 'Die Reform hat die Fristen verkürzt.', 'The reform shortened the deadlines.'],
+      ['der Auftrag', '-¨e', 'commission, assignment', 'Die Studie wurde im Auftrag des Ministeriums erstellt.', 'The study was produced on behalf of the ministry.'],
       ['der Wohnort', '-e', 'place of residence', 'Der Wohnort entscheidet über den Arbeitsweg.', 'Where you live decides your commute.'],
       ['die Anwesenheit', 'ohne Plural', 'attendance, presence', 'Die Anwesenheit ist nicht verpflichtend.', 'Attendance is not compulsory.'],
       ['die Entfernung', '-en', 'distance', 'Die Entfernung beträgt 40 Kilometer.', 'The distance is 40 kilometres.'],
@@ -205,11 +229,26 @@ export const B2 = {
       ['die Klarheit', 'ohne Plural', 'clarity', 'Zur Klarheit trägt das wenig bei.', 'That contributes little to clarity.'],
       ['der Befehl', '-e', 'order, command', 'Das klang eher wie ein Befehl.', 'That sounded more like an order.'],
       ['die Höflichkeit', 'ohne Plural', 'politeness', 'Höflichkeit ist nicht überall dasselbe.', 'Politeness is not the same thing everywhere.'],
+      ['die Zustimmung', 'ohne Plural', 'agreement, approval', 'Der Vorschlag fand breite Zustimmung.', 'The proposal found broad approval.'],
+      ['die Ablehnung', 'ohne Plural', 'rejection', 'Die Ablehnung kam ohne Begründung.', 'The rejection came without reasons.'],
+      ['der Austausch', 'ohne Plural', 'exchange', 'Der Austausch war offen und ehrlich.', 'The exchange was open and honest.'],
+      ['die Abstimmung', '-en', 'vote, coordination', 'Nach kurzer Abstimmung waren wir uns einig.', 'After brief coordination we agreed.'],
+      ['der Tonfall', '-¨e', 'tone of voice', 'Es war der Tonfall, nicht der Inhalt.', 'It was the tone, not the content.'],
     ],
     verbs: [
       ['erwähnen', null, 'to mention', 'Das wurde nicht erwähnt.', 'That was not mentioned.'],
       ['anmerken', null, 'to remark, note', 'Dazu möchte ich etwas anmerken.', 'I would like to make a remark on that.'],
       ['einräumen', null, 'to concede', 'Das muss ich einräumen.', 'I have to concede that.'],
+    ],
+    phrases: [
+      ['Darf ich kurz einhaken?', null, 'May I come in here briefly?', 'Darf ich kurz einhaken? Das stimmt so nicht.', 'May I come in here? That is not quite right.'],
+      ['Ich sehe das anders.', null, 'I see it differently.', 'Ich sehe das anders, und zwar deshalb: \u2026', 'I see it differently, and here is why: \u2026'],
+      ['Da bin ich ganz bei Ihnen.', null, 'I am entirely with you there.', 'Da bin ich ganz bei Ihnen.', 'I am entirely with you there.'],
+      ['Das lasse ich so nicht stehen.', null, 'I am not letting that stand.', 'Das lasse ich so nicht stehen.', 'I am not letting that stand.'],
+      ['Um es auf den Punkt zu bringen', null, 'To put it in a nutshell', 'Um es auf den Punkt zu bringen: es fehlt Geld.', 'To put it in a nutshell: money is missing.'],
+      ['Wenn ich Sie richtig verstehe', null, 'If I understand you correctly', 'Wenn ich Sie richtig verstehe, geht es um den Termin.', 'If I understand you correctly, it is about the date.'],
+      ['Das führt zu weit.', null, 'That is going too far afield.', 'Das führt hier zu weit.', 'That is going too far afield here.'],
+      ['Ich komme gleich darauf zurück.', null, 'I will come back to that shortly.', 'Ich komme gleich darauf zurück.', 'I will come back to that shortly.'],
     ],
   },
 
@@ -220,6 +259,11 @@ export const B2 = {
       ['die Gelassenheit', 'ohne Plural', 'equanimity', 'Gelassenheit lernt man spät.', 'Equanimity is learnt late.'],
       ['das Unbehagen', 'ohne Plural', 'unease', 'Ein gewisses Unbehagen bleibt.', 'A certain unease remains.'],
       ['die Erleichterung', 'ohne Plural', 'relief', 'Die Erleichterung war deutlich zu spüren.', 'The relief was palpable.'],
+      ['die Zuversicht', 'ohne Plural', 'confidence, optimism', 'Mir fehlt die Zuversicht, ehrlich gesagt.', 'Honestly, I lack the confidence.'],
+      ['die Verunsicherung', 'ohne Plural', 'uncertainty, unsettlement', 'Die Verunsicherung ist groß.', 'The unsettlement is considerable.'],
+      ['der Frust', 'ohne Plural', 'frustration', 'Der Frust sitzt tief.', 'The frustration runs deep.'],
+      ['die Wertschätzung', 'ohne Plural', 'appreciation', 'Es geht um Wertschätzung, nicht um Geld.', 'It is about appreciation, not money.'],
+      ['das Selbstvertrauen', 'ohne Plural', 'self-confidence', 'Mit jedem Gespräch wächst das Selbstvertrauen.', 'Self-confidence grows with every conversation.'],
     ],
     adjectives: [
       ['überfordert', null, 'overwhelmed', 'Ich war schlicht überfordert.', 'I was simply overwhelmed.'],
@@ -228,6 +272,10 @@ export const B2 = {
       ['nachdenklich', null, 'thoughtful, pensive', 'Das hat mich nachdenklich gemacht.', 'That made me thoughtful.'],
       ['empört', null, 'outraged', 'Viele reagierten empört.', 'Many reacted with outrage.'],
       ['begeistert', null, 'enthusiastic', 'Das Publikum war begeistert.', 'The audience was enthusiastic.'],
+      ['dankbar', null, 'grateful', 'Dafür bin ich wirklich dankbar.', 'I am really grateful for that.'],
+      ['misstrauisch', null, 'suspicious', 'Die Leute sind misstrauisch geworden.', 'People have become suspicious.'],
+      ['hilflos', null, 'helpless', 'Man fühlt sich schlicht hilflos.', 'You simply feel helpless.'],
+      ['erschöpft', null, 'exhausted', 'Nach der Schicht bin ich erschöpft.', 'After the shift I am exhausted.'],
     ],
   },
 
@@ -241,6 +289,9 @@ export const B2 = {
       ['die Ehrenamtlichkeit', 'ohne Plural', 'voluntary engagement', 'Ohne Ehrenamtlichkeit ginge wenig.', 'Little would work without volunteers.'],
       ['der Zusammenhalt', 'ohne Plural', 'cohesion', 'Der Zusammenhalt im Viertel ist stark.', 'Cohesion in the neighbourhood is strong.'],
       ['die Verwaltung', '-en', 'administration', 'Die Verwaltung arbeitet noch mit Papier.', 'The administration still works on paper.'],
+      ['der Leerstand', 'ohne Plural', 'vacancy, empty property', 'Leerstand neben Wohnungsnot ist schwer zu erklären.', 'Vacancy alongside a housing shortage is hard to explain.'],
+      ['die Begegnung', '-en', 'encounter', 'Es fehlen Orte der Begegnung.', 'There is a lack of places to meet.'],
+      ['die Beteiligung', '-en', 'participation', 'Die Beteiligung an der Planung war gering.', 'Participation in the planning was low.'],
     ],
   },
 
@@ -252,11 +303,210 @@ export const B2 = {
       ['der Lehrplan', '-¨e', 'curriculum', 'Der Lehrplan wurde überarbeitet.', 'The curriculum was revised.'],
       ['die Nachhilfe', 'ohne Plural', 'private tuition', 'Nachhilfe können sich nicht alle leisten.', 'Not everyone can afford private tuition.'],
       ['der Abschlussgrad', '-e', 'level of qualification', 'Der Abschlussgrad entscheidet über das Gehalt.', 'The level of qualification determines the salary.'],
+      ['die Lernstrategie', '-n', 'learning strategy', 'Ohne Lernstrategie verliert man Zeit.', 'Without a learning strategy you lose time.'],
+      ['die Anstrengung', '-en', 'effort', 'Die Anstrengung hat sich gelohnt.', 'The effort was worth it.'],
+      ['die Anmerkung', '-en', 'comment, note', 'Zwei Anmerkungen zum Text habe ich noch.', 'I have two comments on the text.'],
+      ['die Wiederholung', '-en', 'repetition, revision', 'Ohne Wiederholung bleibt nichts hängen.', 'Without revision nothing sticks.'],
+      ['die Konzentration', 'ohne Plural', 'concentration', 'Die Konzentration lässt nach zwanzig Minuten nach.', 'Concentration drops off after twenty minutes.'],
+      ['der Lernstoff', 'ohne Plural', 'material to be learnt', 'Der Lernstoff ist in drei Wochen nicht zu schaffen.', 'The material cannot be covered in three weeks.'],
     ],
     verbs: [
       ['sich aneignen', null, 'to acquire (a skill)', 'Das habe ich mir selbst angeeignet.', 'I acquired that myself.'],
       ['vermitteln', null, 'to convey, teach', 'Die Schule vermittelt zu wenig davon.', 'School conveys too little of that.'],
       ['scheitern', null, 'to fail', 'Das Projekt ist an der Finanzierung gescheitert.', 'The project failed over the funding.'],
+      ['sich auseinandersetzen mit', null, 'to engage with', 'Mit dem Thema habe ich mich lange auseinandergesetzt.', 'I engaged with the topic for a long time.'],
+      ['nachvollziehen', 'vollzieht nach · vollzog nach · hat nachvollzogen', 'to follow, understand', 'Den Gedankengang kann ich nachvollziehen.', 'I can follow the train of thought.'],
+      ['erschließen', 'erschließt · erschloss · hat erschlossen', 'to work out, deduce', 'Die Bedeutung lässt sich aus dem Kontext erschließen.', 'The meaning can be deduced from the context.'],
+      ['festigen', null, 'to consolidate', 'Wiederholung festigt den Wortschatz.', 'Revision consolidates vocabulary.'],
     ],
   },
+
+  verben: {
+    verbs: [
+      ['betreffen', 'betrifft · betraf · hat betroffen', 'to concern, affect', 'Das betrifft uns alle.', 'That concerns us all.'],
+      ['nachholen', null, 'to catch up on', 'Den Stoff hole ich am Wochenende nach.', 'I will catch up on the material at the weekend.'],
+      ['erwägen', 'erwägt · erwog · hat erwogen', 'to consider', 'Wir erwägen einen Umzug.', 'We are considering moving.'],
+      ['beruhen auf', null, 'to be based on', 'Die Rechnung beruht auf alten Zahlen.', 'The calculation is based on old figures.'],
+      ['sich beziehen auf', 'bezieht sich · bezog sich · hat sich bezogen', 'to refer to', 'Ich beziehe mich auf Ihre Mail.', 'I am referring to your email.'],
+      ['hinnehmen', 'nimmt hin · nahm hin · hat hingenommen', 'to accept, put up with', 'Das müssen wir nicht hinnehmen.', 'We do not have to put up with that.'],
+      ['durchsetzen', null, 'to push through', 'Die Reform wurde gegen Widerstand durchgesetzt.', 'The reform was pushed through against resistance.'],
+      ['verschärfen', null, 'to tighten, aggravate', 'Die Regeln wurden verschärft.', 'The rules were tightened.'],
+      ['entlasten', null, 'to relieve', 'Das entlastet die Kollegen spürbar.', 'That noticeably relieves the colleagues.'],
+      ['erheben', 'erhebt · erhob · hat erhoben', 'to levy, raise', 'Es werden keine Gebühren erhoben.', 'No fees are levied.'],
+      ['gewährleisten', null, 'to guarantee, ensure', 'Die Sicherheit ist gewährleistet.', 'Safety is ensured.'],
+      ['beitragen zu', 'trägt bei · trug bei · hat beigetragen', 'to contribute to', 'Jeder kann dazu beitragen.', 'Everyone can contribute to it.'],
+      ['verdeutlichen', null, 'to make clear', 'Ein Beispiel verdeutlicht das besser.', 'An example makes that clearer.'],
+      ['ausgehen von', 'geht aus · ging aus · ist ausgegangen', 'to assume', 'Ich gehe davon aus, dass es klappt.', 'I assume it will work.'],
+      ['umgehen mit', 'geht um · ging um · ist umgegangen', 'to deal with', 'Sie geht gut mit Kritik um.', 'She deals well with criticism.'],
+      ['anstreben', null, 'to aim for', 'Wir streben eine Einigung an.', 'We are aiming for an agreement.'],
+      ['zurückführen', null, 'to trace back', 'Das führt man auf den Mangel zurück.', 'That is traced back to the shortage.'],
+      ['absehen von', 'sieht ab · sah ab · hat abgesehen', 'to refrain from', 'Von einer Strafe wurde abgesehen.', 'A penalty was waived.'],
+      ['verfügen über', null, 'to have at your disposal', 'Sie verfügt über viel Erfahrung.', 'She has a lot of experience at her disposal.'],
+      ['sich lohnen', null, 'to be worth it', 'Der Aufwand lohnt sich nicht.', 'The effort is not worth it.'],
+      ['bewältigen', null, 'to cope with, manage', 'Die Menge ist kaum zu bewältigen.', 'The volume is barely manageable.'],
+      ['vermitteln zwischen', null, 'to mediate between', 'Sie vermittelt zwischen beiden Seiten.', 'She mediates between the two sides.'],
+      ['einschätzen', null, 'to assess, judge', 'Das kann ich schwer einschätzen.', 'That is hard for me to judge.'],
+      ['hinterlassen', 'hinterlässt · hinterließ · hat hinterlassen', 'to leave behind', 'Er hat einen guten Eindruck hinterlassen.', 'He left a good impression.'],
+      ['sich herausstellen', null, 'to turn out', 'Es hat sich als Irrtum herausgestellt.', 'It turned out to be a mistake.'],
+      ['beanspruchen', null, 'to claim, take up', 'Das beansprucht viel Zeit.', 'That takes up a lot of time.'],
+      ['erfassen', null, 'to record, grasp', 'Die Daten werden automatisch erfasst.', 'The data are recorded automatically.'],
+      ['verankern', null, 'to anchor, enshrine', 'Das ist im Gesetz verankert.', 'That is enshrined in law.'],
+    ],
+  },
+
+  adjektive: {
+    adjectives: [
+      ['umfassend', null, 'comprehensive', 'Eine umfassende Antwort fehlt.', 'A comprehensive answer is missing.'],
+      ['wesentlich', null, 'essential, substantial', 'Das ist der wesentliche Punkt.', 'That is the essential point.'],
+      ['unverzichtbar', null, 'indispensable', 'Dieser Schritt ist unverzichtbar.', 'This step is indispensable.'],
+      ['anspruchsvoll', null, 'demanding', 'Der Job ist anspruchsvoll, aber machbar.', 'The job is demanding but doable.'],
+      ['aufwendig', null, 'laborious, costly', 'Das Verfahren ist zu aufwendig.', 'The procedure is too laborious.'],
+      ['überschaubar', null, 'manageable, limited', 'Der Aufwand bleibt überschaubar.', 'The effort remains manageable.'],
+      ['vielfältig', null, 'varied, diverse', 'Die Gründe sind vielfältig.', 'The reasons are varied.'],
+      ['verlässlich', null, 'dependable', 'Wir brauchen verlässliche Zahlen.', 'We need dependable figures.'],
+      ['angemessen', null, 'appropriate', 'Der Ton war nicht angemessen.', 'The tone was not appropriate.'],
+      ['unzureichend', null, 'inadequate', 'Die Begründung ist unzureichend.', 'The justification is inadequate.'],
+      ['dringlich', null, 'pressing', 'Das ist das dringlichste Problem.', 'That is the most pressing problem.'],
+      ['langfristig', null, 'long-term', 'Langfristig rechnet sich das.', 'In the long term it pays off.'],
+      ['kurzfristig', null, 'short-term, at short notice', 'Kurzfristig ist das nicht zu lösen.', 'That cannot be solved at short notice.'],
+      ['unmittelbar', null, 'immediate, direct', 'Es gibt keinen unmittelbaren Zusammenhang.', 'There is no direct connection.'],
+      ['zahlreich', null, 'numerous', 'Es gab zahlreiche Beschwerden.', 'There were numerous complaints.'],
+      ['offensichtlich', null, 'obvious', 'Der Fehler war offensichtlich.', 'The mistake was obvious.'],
+      ['bedenklich', null, 'worrying', 'Die Entwicklung ist bedenklich.', 'The development is worrying.'],
+      ['gravierend', null, 'serious, grave', 'Das ist ein gravierender Unterschied.', 'That is a serious difference.'],
+      ['zutreffend', null, 'accurate, applicable', 'Die Beschreibung ist zutreffend.', 'The description is accurate.'],
+      ['irreführend', null, 'misleading', 'Die Überschrift ist irreführend.', 'The headline is misleading.'],
+      ['nachteilig', null, 'disadvantageous', 'Das wirkt sich nachteilig aus.', 'That has a disadvantageous effect.'],
+      ['vorrangig', null, 'priority, primarily', 'Das ist vorrangig zu klären.', 'That is to be clarified as a priority.'],
+      ['belastbar', null, 'robust, resilient', 'Die Zahlen sind belastbar.', 'The figures are robust.'],
+      ['durchschnittlich', null, 'average', 'Durchschnittlich dauert es drei Wochen.', 'On average it takes three weeks.'],
+      ['bemerkenswert', null, 'remarkable', 'Das ist bemerkenswert wenig.', 'That is remarkably little.'],
+      ['umfangreich', null, 'extensive', 'Die Unterlagen sind umfangreich.', 'The documents are extensive.'],
+    ],
+  },
+
+  zeit: {
+    nouns: [
+      ['der Verlauf', '-¨e', 'course, progression', 'Im Verlauf des Jahres wurde es besser.', 'Over the course of the year it got better.'],
+      ['der Rückgang', '-¨e', 'decline', 'Der Rückgang begann 2021.', 'The decline began in 2021.'],
+      ['der Anstieg', '-e', 'rise', 'Der Anstieg war steiler als erwartet.', 'The rise was steeper than expected.'],
+      ['der Stillstand', 'ohne Plural', 'standstill', 'Seit Monaten herrscht Stillstand.', 'There has been a standstill for months.'],
+      ['die Verzögerung', '-en', 'delay', 'Die Verzögerung hat mehrere Gründe.', 'The delay has several causes.'],
+      ['die Gleichzeitigkeit', 'ohne Plural', 'simultaneity', 'Die Gleichzeitigkeit beider Krisen ist das Problem.', 'The simultaneity of both crises is the problem.'],
+    ],
+    adverbs: [
+      ['nach und nach', null, 'gradually', 'Nach und nach gewöhnt man sich daran.', 'You gradually get used to it.'],
+      ['im Nachhinein', null, 'in hindsight', 'Im Nachhinein war es richtig.', 'In hindsight it was right.'],
+      ['zeitweise', null, 'at times', 'Zeitweise war es kaum auszuhalten.', 'At times it was barely bearable.'],
+      ['allmählich', null, 'gradually', 'Allmählich wird es besser.', 'It is gradually getting better.'],
+      ['umgehend', null, 'immediately', 'Bitte antworten Sie umgehend.', 'Please reply immediately.'],
+      ['seither', null, 'since then', 'Seither hat sich nichts getan.', 'Nothing has happened since then.'],
+      ['vorerst', null, 'for the time being', 'Vorerst bleibt alles wie es ist.', 'For the time being everything stays as it is.'],
+      ['künftig', null, 'in future', 'Künftig gilt eine neue Regel.', 'In future a new rule applies.'],
+    ],
+  },
+
+  behoerden: {
+    nouns: [
+      ['der Einspruch', '-¨e', 'formal appeal, objection', 'Gegen den Bescheid ist Einspruch möglich.', 'An appeal against the decision is possible.'],
+      ['die Instanz', '-en', 'tier of authority, instance', 'In zweiter Instanz wurde anders entschieden.', 'At the second tier the decision went differently.'],
+      ['die Rechtsgrundlage', '-n', 'legal basis', 'Die Rechtsgrundlage steht im Bescheid.', 'The legal basis is stated in the decision.'],
+      ['die Einwilligung', '-en', 'consent', 'Ohne Einwilligung geht gar nichts.', 'Nothing happens without consent.'],
+      ['die Verpflichtung', '-en', 'obligation', 'Daraus ergibt sich eine Verpflichtung.', 'An obligation arises from that.'],
+      ['der Anspruch', '-¨e', 'entitlement, claim', 'Der Anspruch besteht ab dem ersten Tag.', 'The entitlement exists from day one.'],
+      ['die Befristung', '-en', 'time limit', 'Die Befristung läuft im März aus.', 'The time limit expires in March.'],
+      ['die Ausnahmeregelung', '-en', 'exemption', 'Es gibt eine Ausnahmeregelung für Härtefälle.', 'There is an exemption for hardship cases.'],
+      ['der Härtefall', '-¨e', 'hardship case', 'Als Härtefall wird das anders bewertet.', 'As a hardship case that is assessed differently.'],
+    ],
+    verbs: [
+      ['versagen', null, 'to refuse, deny', 'Die Genehmigung wurde versagt.', 'The permit was refused.'],
+      ['widersprechen einem Bescheid', 'widerspricht · widersprach · hat widersprochen', 'to appeal a decision', 'Sie hat dem Bescheid widersprochen.', 'She appealed the decision.'],
+    ],
+  },
+
+  wohnen: {
+    nouns: [
+      ['die Mieterhöhung', '-en', 'rent increase', 'Die Mieterhöhung kam per Einschreiben.', 'The rent increase came by registered post.'],
+      ['die Modernisierung', '-en', 'modernisation', 'Nach der Modernisierung stieg die Miete.', 'After the modernisation the rent rose.'],
+      ['der Eigenbedarf', 'ohne Plural', 'own use (as grounds for eviction)', 'Gekündigt wurde wegen Eigenbedarfs.', 'Notice was given on grounds of own use.'],
+      ['die Betriebskostenabrechnung', '-en', 'service charge statement', 'Die Betriebskostenabrechnung war fehlerhaft.', 'The service charge statement was wrong.'],
+      ['der Wohnungsmarkt', '-¨e', 'housing market', 'Der Wohnungsmarkt ist angespannt.', 'The housing market is tight.'],
+      ['die Genossenschaft', '-en', 'cooperative', 'Die Wohnung gehört einer Genossenschaft.', 'The flat belongs to a cooperative.'],
+      ['die Instandhaltung', 'ohne Plural', 'maintenance', 'Die Instandhaltung zahlt der Vermieter.', 'The landlord pays for maintenance.'],
+      ['der Schimmel', 'ohne Plural', 'mould', 'Im Bad bildet sich Schimmel.', 'Mould is forming in the bathroom.'],
+    ],
+    verbs: [
+      ['sanieren', null, 'to renovate', 'Das Haus wird komplett saniert.', 'The building is being completely renovated.'],
+      ['räumen', null, 'to vacate', 'Die Wohnung ist bis Ende Mai zu räumen.', 'The flat is to be vacated by the end of May.'],
+    ],
+  },
+
+  essen: {
+    nouns: [
+      ['die Lebensmittelverschwendung', 'ohne Plural', 'food waste', 'Lebensmittelverschwendung ist ein Massenphänomen.', 'Food waste is a mass phenomenon.'],
+      ['die Unverträglichkeit', '-en', 'intolerance', 'Eine Unverträglichkeit ist keine Allergie.', 'An intolerance is not an allergy.'],
+      ['der Anbau', 'ohne Plural', 'cultivation', 'Der Anbau braucht viel Wasser.', 'Cultivation needs a lot of water.'],
+      ['die Haltbarkeit', 'ohne Plural', 'shelf life', 'Die Haltbarkeit ist länger als das Datum sagt.', 'The shelf life is longer than the date says.'],
+    ],
+    adjectives: [
+      ['regional', null, 'regional, local', 'Ich kaufe möglichst regional ein.', 'I buy as locally as possible.'],
+      ['saisonal', null, 'seasonal', 'Saisonal kochen ist billiger.', 'Cooking seasonally is cheaper.'],
+    ],
+  },
+
+  reisen: {
+    nouns: [
+      ['der Massentourismus', 'ohne Plural', 'mass tourism', 'Der Massentourismus verdrängt die Einheimischen.', 'Mass tourism displaces local residents.'],
+      ['die Einheimischen', 'nur Plural', 'local residents', 'Die Einheimischen können sich die Stadt nicht mehr leisten.', 'Local residents can no longer afford the city.'],
+      ['die Reisewarnung', '-en', 'travel warning', 'Für die Region gilt eine Reisewarnung.', 'A travel warning applies to the region.'],
+      ['der Fernverkehr', 'ohne Plural', 'long-distance transport', 'Im Fernverkehr sind die Preise gestiegen.', 'Long-distance fares have risen.'],
+      ['die Erstattung', '-en', 'refund', 'Die Erstattung dauert bis zu sechs Wochen.', 'The refund takes up to six weeks.'],
+    ],
+  },
+
+  verkehr: {
+    nouns: [
+      ['die Verkehrswende', 'ohne Plural', 'transport transition', 'Die Verkehrswende kommt nur langsam voran.', 'The transport transition is progressing slowly.'],
+      ['der Ausbau', 'ohne Plural', 'expansion', 'Der Ausbau des Radwegnetzes stockt.', 'The expansion of the cycle network has stalled.'],
+      ['die Taktung', '-en', 'frequency of service', 'Die Taktung am Wochenende ist schlecht.', 'The weekend service frequency is poor.'],
+      ['die Barrierefreiheit', 'ohne Plural', 'accessibility', 'Barrierefreiheit ist kein Extra.', 'Accessibility is not an extra.'],
+      ['der Lieferverkehr', 'ohne Plural', 'delivery traffic', 'Der Lieferverkehr blockiert den Radweg.', 'Delivery traffic blocks the cycle lane.'],
+    ],
+  },
+
+  familie: {
+    nouns: [
+      ['die Betreuung', 'ohne Plural', 'care, childcare', 'Ohne Betreuung geht niemand arbeiten.', 'Without childcare nobody goes to work.'],
+      ['der Generationenkonflikt', '-e', 'generational conflict', 'Der Generationenkonflikt ist älter als das Wort.', 'The generational conflict is older than the word.'],
+      ['die Angehörigen', 'nur Plural', 'relatives, next of kin', 'Die Pflege der Angehörigen trifft meist Frauen.', 'Caring for relatives mostly falls to women.'],
+      ['das Rollenbild', '-er', 'gender role model', 'Die Rollenbilder ändern sich langsamer als die Gesetze.', 'Role models change more slowly than laws.'],
+    ],
+  },
+
+  freizeit: {
+    nouns: [
+      ['die Vereinsarbeit', 'ohne Plural', 'club work', 'Die Vereinsarbeit trägt mehr, als man denkt.', 'Club work carries more than you think.'],
+      ['die Bildschirmzeit', '-en', 'screen time', 'Die Bildschirmzeit hat sich verdoppelt.', 'Screen time has doubled.'],
+      ['die Geselligkeit', 'ohne Plural', 'sociability', 'Die Geselligkeit fehlt vielen am meisten.', 'Sociability is what many miss most.'],
+    ],
+  },
+
+  nomenverben: {
+    phrases: [
+      ['zur Sprache bringen', null, 'to bring up (a topic)', 'Ich möchte das zur Sprache bringen.', 'I would like to bring that up.'],
+      ['in Betracht ziehen', null, 'to consider', 'Diese Option ziehe ich in Betracht.', 'I am considering this option.'],
+      ['Rücksicht nehmen auf', null, 'to take into consideration', 'Man muss auf die Nachbarn Rücksicht nehmen.', 'You have to take the neighbours into consideration.'],
+      ['zur Verfügung stellen', null, 'to make available', 'Die Unterlagen werden zur Verfügung gestellt.', 'The documents are made available.'],
+      ['Kritik üben an', null, 'to criticise', 'Daran wurde scharfe Kritik geübt.', 'That was sharply criticised.'],
+      ['in Kraft treten', null, 'to come into force', 'Das Gesetz tritt im Juli in Kraft.', 'The law comes into force in July.'],
+      ['Abstand nehmen von', null, 'to refrain from', 'Wir haben davon Abstand genommen.', 'We refrained from it.'],
+      ['Berücksichtigung finden', null, 'to be taken into account', 'Ihre Einwände haben Berücksichtigung gefunden.', 'Your objections were taken into account.'],
+      ['Stellung nehmen zu', null, 'to comment on', 'Dazu möchte ich Stellung nehmen.', 'I would like to comment on that.'],
+      ['eine Rolle spielen bei', null, 'to play a part in', 'Das Geld spielt dabei keine Rolle.', 'Money plays no part in it.'],
+      ['Anspruch erheben auf', null, 'to lay claim to', 'Darauf erhebt niemand Anspruch.', 'Nobody lays claim to that.'],
+      ['unter Druck geraten', null, 'to come under pressure', 'Die Branche ist unter Druck geraten.', 'The sector has come under pressure.'],
+      ['zu dem Schluss kommen', null, 'to reach the conclusion', 'Ich komme zu dem Schluss, dass \u2026', 'I reach the conclusion that \u2026'],
+    ],
+  },
+
 };

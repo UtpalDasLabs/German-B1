@@ -5510,6 +5510,348 @@
   }
  },
  {
+  "id": "g.adjektivnomen.01",
+  "topic": "adjektivnomen",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "___ Angestellter hat sich beschwert.",
+  "promptEn": null,
+  "options": [
+   "Ein",
+   "Eine",
+   "Der",
+   "Einen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "ein + -er beim Maskulinum.",
+   "en": "ein plus -er in the masculine."
+  }
+ },
+ {
+  "id": "g.adjektivnomen.02",
+  "topic": "adjektivnomen",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Ich wünsche dir alles ___.",
+  "promptEn": null,
+  "options": [
+   "Gute",
+   "Gutes",
+   "Guten",
+   "gut"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Nach alles steht -e.",
+   "en": "After alles the ending is -e."
+  }
+ },
+ {
+  "id": "g.adjektivnomen.03",
+  "topic": "adjektivnomen",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Es gibt nichts ___ zu berichten.",
+  "promptEn": null,
+  "options": [
+   "Neues",
+   "Neue",
+   "Neuen",
+   "neu"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Nach nichts steht -es, großgeschrieben.",
+   "en": "After nichts the ending is -es, capitalised."
+  }
+ },
+ {
+  "id": "g.adjektivnomen.04",
+  "topic": "adjektivnomen",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Sprechen Sie bitte mit ___ Angestellten.",
+  "promptEn": null,
+  "options": [
+   "dem",
+   "der",
+   "den",
+   "des"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Dativ maskulin: dem Angestellten.",
+   "en": "Masculine dative: dem Angestellten."
+  }
+ },
+ {
+  "id": "g.adjektivnomen.05",
+  "topic": "adjektivnomen",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "___ Wesentliche fehlt im Bericht.",
+  "promptEn": null,
+  "options": [
+   "Das",
+   "Der",
+   "Die",
+   "Dem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Abstrakta aus Adjektiven sind neutral.",
+   "en": "Abstract nouns from adjectives are neuter."
+  }
+ },
+ {
+  "id": "g.adjektivnomen.06",
+  "topic": "adjektivnomen",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Viele ___ arbeiten in Teilzeit.",
+  "promptEn": null,
+  "options": [
+   "Deutsche",
+   "Deutschen",
+   "Deutscher",
+   "Deutsches"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Nach viele steht die starke Pluralendung -e.",
+   "en": "After viele comes the strong plural ending -e."
+  }
+ },
+ {
+  "id": "g.verbenpraep.01",
+  "topic": "verbenpraep",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Ich warte ___ den Bescheid.",
+  "promptEn": null,
+  "options": [
+   "auf",
+   "für",
+   "nach",
+   "um"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "warten auf + Akkusativ.",
+   "en": "warten auf + accusative."
+  }
+ },
+ {
+  "id": "g.verbenpraep.02",
+  "topic": "verbenpraep",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Das hängt ___ Wetter ab.",
+  "promptEn": null,
+  "options": [
+   "vom",
+   "auf das",
+   "über das",
+   "für das"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "abhängen von + Dativ.",
+   "en": "abhängen von + dative."
+  }
+ },
+ {
+  "id": "g.verbenpraep.03",
+  "topic": "verbenpraep",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Sie nimmt ___ Kurs teil.",
+  "promptEn": null,
+  "options": [
+   "an dem",
+   "an den",
+   "am den",
+   "auf dem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "teilnehmen an + Dativ.",
+   "en": "teilnehmen an + dative."
+  }
+ },
+ {
+  "id": "g.verbenpraep.04",
+  "topic": "verbenpraep",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Die Jury besteht ___ fünf Personen.",
+  "promptEn": null,
+  "options": [
+   "aus",
+   "auf",
+   "in",
+   "von"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Zusammensetzung: bestehen aus.",
+   "en": "Composition: bestehen aus."
+  }
+ },
+ {
+  "id": "g.verbenpraep.05",
+  "topic": "verbenpraep",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Ich bewerbe mich ___ die Stelle.",
+  "promptEn": null,
+  "options": [
+   "um",
+   "für",
+   "auf",
+   "an"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sich bewerben um + Akkusativ.",
+   "en": "sich bewerben um + accusative."
+  }
+ },
+ {
+  "id": "g.verbenpraep.06",
+  "topic": "verbenpraep",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Viele leiden ___ dem Druck.",
+  "promptEn": null,
+  "options": [
+   "unter",
+   "über",
+   "an",
+   "von"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "leiden unter + Dativ.",
+   "en": "leiden unter + dative."
+  }
+ },
+ {
+  "id": "g.relativ2.01",
+  "topic": "relativ2",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Das ist der Kollege, ___ ich arbeite.",
+  "promptEn": null,
+  "options": [
+   "mit dem",
+   "mit den",
+   "den mit",
+   "dem mit"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "mit + Dativ, Präposition zuerst.",
+   "en": "mit + dative, preposition first."
+  }
+ },
+ {
+  "id": "g.relativ2.02",
+  "topic": "relativ2",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Die Firma, ___ Angebot wir annahmen, sitzt in Essen.",
+  "promptEn": null,
+  "options": [
+   "deren",
+   "dessen",
+   "derer",
+   "deren das"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "die Firma ist feminin: deren, ohne Artikel.",
+   "en": "die Firma is feminine: deren, no article."
+  }
+ },
+ {
+  "id": "g.relativ2.03",
+  "topic": "relativ2",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Alles, ___ du sagst, stimmt.",
+  "promptEn": null,
+  "options": [
+   "was",
+   "das",
+   "welches",
+   "dem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Nach alles steht was.",
+   "en": "After alles the pronoun is was."
+  }
+ },
+ {
+  "id": "g.relativ2.04",
+  "topic": "relativ2",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Das Thema, ___ wir sprachen, ist heikel.",
+  "promptEn": null,
+  "options": [
+   "über das",
+   "worüber das",
+   "das über",
+   "über dem"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "sprechen über + Akkusativ.",
+   "en": "sprechen über + accusative."
+  }
+ },
+ {
+  "id": "g.relativ2.05",
+  "topic": "relativ2",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Er kam zu spät, ___ niemanden überraschte.",
+  "promptEn": null,
+  "options": [
+   "was",
+   "das",
+   "welches",
+   "wer"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Bezug auf den ganzen Satz: was.",
+   "en": "Referring to the whole clause: was."
+  }
+ },
+ {
+  "id": "g.relativ2.06",
+  "topic": "relativ2",
+  "level": "B2",
+  "kind": "grammar",
+  "prompt": "Die Leute, ___ ich geschrieben habe, antworten nicht.",
+  "promptEn": null,
+  "options": [
+   "denen",
+   "die",
+   "der",
+   "deren"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "schreiben + Dativ, Plural: denen.",
+   "en": "schreiben takes the dative; plural: denen."
+  }
+ },
+ {
   "id": "g.konzessiv.01",
   "topic": "konzessiv",
   "level": "C1",
@@ -5963,6 +6305,348 @@
   "why": {
    "de": "Konzessiver Anschluss: trotzdem.",
    "en": "A concessive link: nevertheless."
+  }
+ },
+ {
+  "id": "g.kollokationen.01",
+  "topic": "kollokationen",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Wir haben eine Entscheidung ___.",
+  "promptEn": null,
+  "options": [
+   "getroffen",
+   "gemacht",
+   "genommen",
+   "gestellt"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "eine Entscheidung treffen.",
+   "en": "eine Entscheidung treffen."
+  }
+ },
+ {
+  "id": "g.kollokationen.02",
+  "topic": "kollokationen",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Das Gericht hat ein Urteil ___.",
+  "promptEn": null,
+  "options": [
+   "gefällt",
+   "getroffen",
+   "gemacht",
+   "gegeben"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "ein Urteil fällen.",
+   "en": "ein Urteil fällen."
+  }
+ },
+ {
+  "id": "g.kollokationen.03",
+  "topic": "kollokationen",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Daran wurde scharfe Kritik ___.",
+  "promptEn": null,
+  "options": [
+   "geübt",
+   "gemacht",
+   "gegeben",
+   "gestellt"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Kritik üben.",
+   "en": "Kritik üben."
+  }
+ },
+ {
+  "id": "g.kollokationen.04",
+  "topic": "kollokationen",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Daraus lässt sich kein Schluss ___.",
+  "promptEn": null,
+  "options": [
+   "ziehen",
+   "nehmen",
+   "machen",
+   "treffen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "einen Schluss ziehen.",
+   "en": "einen Schluss ziehen."
+  }
+ },
+ {
+  "id": "g.kollokationen.05",
+  "topic": "kollokationen",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Dafür gibt es keinen ___ Grund.",
+  "promptEn": null,
+  "options": [
+   "triftigen",
+   "großen",
+   "starken",
+   "schweren"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Feste Verbindung: ein triftiger Grund.",
+   "en": "Fixed pairing: ein triftiger Grund."
+  }
+ },
+ {
+  "id": "g.kollokationen.06",
+  "topic": "kollokationen",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Zwei Personen wurden ___ verletzt.",
+  "promptEn": null,
+  "options": [
+   "schwer",
+   "sehr",
+   "stark",
+   "hoch"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "schwer verletzt ist die feste Verbindung.",
+   "en": "schwer verletzt is the fixed pairing."
+  }
+ },
+ {
+  "id": "g.emphase.01",
+  "topic": "emphase",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "___ mich stört, ist der Ton.",
+  "promptEn": null,
+  "options": [
+   "Was",
+   "Das",
+   "Welches",
+   "Wie"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Der Spaltsatz beginnt mit was.",
+   "en": "The cleft begins with was."
+  }
+ },
+ {
+  "id": "g.emphase.02",
+  "topic": "emphase",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Es ist der Zeitpunkt, ___ alles entschied.",
+  "promptEn": null,
+  "options": [
+   "der",
+   "was",
+   "welches",
+   "den"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Bestimmtes Nomen: der.",
+   "en": "A definite noun: der."
+  }
+ },
+ {
+  "id": "g.emphase.03",
+  "topic": "emphase",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "___ darin liegt das Problem.",
+  "promptEn": null,
+  "options": [
+   "Gerade",
+   "Nur",
+   "Erst",
+   "Sogar"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "gerade hebt \"genau dieses\" hervor.",
+   "en": "gerade picks out \"precisely this\"."
+  }
+ },
+ {
+  "id": "g.emphase.04",
+  "topic": "emphase",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Niemand sonst war dafür: ___ er hat zugestimmt.",
+  "promptEn": null,
+  "options": [
+   "nur",
+   "erst",
+   "sogar",
+   "gerade"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "nur vor dem Subjekt grenzt die Person ab.",
+   "en": "nur before the subject restricts who it was."
+  }
+ },
+ {
+  "id": "g.emphase.05",
+  "topic": "emphase",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Der Vorwurf ist nicht ___.",
+  "promptEn": null,
+  "options": [
+   "unbegründet",
+   "begründet",
+   "ungerecht sehr",
+   "kein Grund"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Litotes: nicht + Negativadjektiv heißt leise \"doch\".",
+   "en": "Litotes: nicht plus a negative adjective quietly means \"actually yes\"."
+  }
+ },
+ {
+  "id": "g.emphase.06",
+  "topic": "emphase",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "___ fehlt es an Personal.",
+  "promptEn": null,
+  "options": [
+   "Es",
+   "Das",
+   "Dort",
+   "Man"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "es als Platzhalter im Vorfeld.",
+   "en": "es as a placeholder in first position."
+  }
+ },
+ {
+  "id": "g.hedging.01",
+  "topic": "hedging",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Der Rückgang ___ mehrere Ursachen haben.",
+  "promptEn": null,
+  "options": [
+   "dürfte",
+   "darf",
+   "durfte",
+   "müsste dürfen"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "dürfte als starke Vermutung.",
+   "en": "dürfte as a confident assumption."
+  }
+ },
+ {
+  "id": "g.hedging.02",
+  "topic": "hedging",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Das ___ stimmen, ändert aber nichts.",
+  "promptEn": null,
+  "options": [
+   "mag",
+   "muss",
+   "will",
+   "soll"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "mögen räumt ein und kündigt den Widerspruch an.",
+   "en": "mögen concedes and announces the pushback."
+  }
+ },
+ {
+  "id": "g.hedging.03",
+  "topic": "hedging",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "___ waren die Zahlen längst bekannt.",
+  "promptEn": null,
+  "options": [
+   "Angeblich",
+   "Zweifellos",
+   "Sicherlich",
+   "Offensichtlich"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "Fremde Behauptung mit Zweifel.",
+   "en": "Someone else’s claim, with doubt attached."
+  }
+ },
+ {
+  "id": "g.hedging.04",
+  "topic": "hedging",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Ich halte das ___ für unwahrscheinlich.",
+  "promptEn": null,
+  "options": [
+   "eher",
+   "ganz",
+   "völlig",
+   "zweifellos"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "eher schwächt das Urteil ab.",
+   "en": "eher softens the judgement."
+  }
+ },
+ {
+  "id": "g.hedging.05",
+  "topic": "hedging",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Sie ___ im Stau stehen – anders ist die Verspätung nicht zu erklären.",
+  "promptEn": null,
+  "options": [
+   "wird wohl",
+   "wird werden",
+   "möchte",
+   "soll wohl"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "werden + wohl für die sichere Vermutung über jetzt.",
+   "en": "werden plus wohl for a confident assumption about now."
+  }
+ },
+ {
+  "id": "g.hedging.06",
+  "topic": "hedging",
+  "level": "C1",
+  "kind": "grammar",
+  "prompt": "Der Befund ist ___ übertragbar.",
+  "promptEn": null,
+  "options": [
+   "nur bedingt",
+   "nur unbedingt",
+   "bedingt nicht",
+   "unbedingt nur"
+  ],
+  "answer": 0,
+  "why": {
+   "de": "bedingt heißt: nur unter Einschränkungen.",
+   "en": "bedingt means: only with qualifications."
   }
  }
 ]
