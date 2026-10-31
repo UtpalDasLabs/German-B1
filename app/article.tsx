@@ -7,6 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { AnswerOption, type OptionState } from '@/components/AnswerOption';
 import { GENDER_COLORS } from '@/components/Flashcard';
 import { LoadingScreen, useAppReady } from '@/components/Loading';
+import { Meaning } from '@/components/Meaning';
 import { Button, Card, Divider, Screen, Txt } from '@/components/ui';
 import { makeHaptics } from '@/lib/haptics';
 import { say, stopSpeaking } from '@/lib/speech';
@@ -330,9 +331,7 @@ function WordSheet({
           <Ionicons name={saved ? 'star' : 'star-outline'} size={24} color={saved ? colors.xp : colors.textFaint} />
         </Pressable>
       </View>
-      <Txt variant="body" tone="muted">
-        {entry.en}
-      </Txt>
+      <Meaning entry={entry} />
       <Txt variant="caption" tone="faint">
         {entry.level}
         {entry.plural ? ` · Pl. ${entry.plural}` : ''}

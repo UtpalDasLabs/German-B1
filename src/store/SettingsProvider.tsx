@@ -14,6 +14,7 @@ const DEFAULTS: Settings = {
   level: 'B1',
   includeLower: true,
   placed: false,
+  gloss: null,
   examDate: null,
   slowAudio: false,
   onboarded: false,

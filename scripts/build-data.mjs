@@ -22,6 +22,7 @@ import { WRITING } from '../data-source/writing.mjs';
 import { SPEAKING } from '../data-source/speaking.mjs';
 import { MAGAZINE } from '../data-source/magazine.mjs';
 import { CONTRASTS, SHADOW } from '../data-source/pronunciation.mjs';
+import { GLOSS_FILES } from '../data-source/gloss/index.mjs';
 import { A1_READING, A1_LISTENING, A1_WRITING, A1_SPEAKING } from '../data-source/exams/a1.mjs';
 import { A2_READING, A2_LISTENING, A2_WRITING, A2_SPEAKING } from '../data-source/exams/a2.mjs';
 import { B2_READING, B2_LISTENING, B2_WRITING, B2_SPEAKING } from '../data-source/exams/b2.mjs';
@@ -32,6 +33,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'src', 'data');
 
 const problems = [];
+const warnings = [];
 function check(condition, message) {
   if (!condition) problems.push(message);
 }
@@ -526,6 +528,71 @@ const shadow = SHADOW.map((s, i) => {
   return { id, level: s.level, syllables, text, note: s.note };
 });
 
+/* ----------------------------------------------------------------- glosses */
+
+/**
+ * A gloss file is a flat map from vocabulary id to a one-line meaning in
+ * another language. Coverage may be partial - the app falls back to the
+ * English translation - so the build does not demand completeness; it demands
+ * that every id a file claims actually exists, which is the failure that would
+ * otherwise go unnoticed when vocabulary is renumbered.
+ */
+const vocabById = new Map(vocab.map((v) => [v.id, v]));
+const glossLanguages = [];
+const glossFiles = {};
+
+for (const mod of GLOSS_FILES) {
+  const m = mod.meta;
+  check(m?.code && m.name && m.nativeName, `a gloss file is missing code/name/nativeName`);
+  const code = m?.code ?? '?';
+  check(typeof m?.rtl === 'boolean', `gloss ${code}: rtl must be stated explicitly`);
+  check(
+    !glossLanguages.some((g) => g.code === code),
+    `gloss ${code}: two gloss files claim the same language code`,
+  );
+
+  const entries = Object.entries(mod.words ?? {});
+  check(entries.length > 0, `gloss ${code}: no entries`);
+  const covered = Object.fromEntries(LEVELS.map((l) => [l, 0]));
+
+  for (const [id, text] of entries) {
+    const word = vocabById.get(id);
+    if (!word) {
+      problems.push(`gloss ${code}: ${id} is not a vocabulary id`);
+      continue;
+    }
+    if (typeof text !== 'string' || text.trim().length === 0) {
+      problems.push(`gloss ${code}: ${id} (${word.de}) has an empty gloss`);
+      continue;
+    }
+    // A gloss identical to the German headword is usually a copy-paste slip,
+    // but sometimes the honest answer: "Kurs" really is kurs in Turkish and
+    // "Internet" really is internet. So it is reported, not refused.
+    if (text.trim().toLowerCase() === word.de.toLowerCase()) {
+      warnings.push(`gloss ${code}: ${id} repeats the German headword "${word.de}"`);
+    }
+    covered[word.level] += 1;
+  }
+
+  // Coverage is a share of the words at that level, which is what the app
+  // shows the learner; a language at 1.00 for A1 needs no English fallback
+  // anywhere in A1.
+  const coverage = Object.fromEntries(
+    LEVELS.map((l) => [
+      l,
+      byLevelVocabCount(l) === 0 ? 0 : Number((covered[l] / byLevelVocabCount(l)).toFixed(3)),
+    ]),
+  );
+  glossLanguages.push({ code, name: m.name, nativeName: m.nativeName, rtl: m.rtl, coverage });
+  glossFiles[`gloss.${code}.json`] = Object.fromEntries(
+    entries.filter(([id]) => vocabById.has(id)).sort(([a], [b]) => a.localeCompare(b)),
+  );
+}
+
+function byLevelVocabCount(level) {
+  return vocab.filter((v) => v.level === level).length;
+}
+
 /* ------------------------------------------------------------------- meta */
 
 
@@ -570,6 +637,7 @@ const meta = {
     reviewable: vocab.length + drills.length,
   },
   byLevel,
+  glossLanguages,
 };
 
 /* ------------------------------------------------------------------ write */
@@ -592,10 +660,17 @@ const files = {
   'speaking.json': speaking,
   'magazine.json': articles,
   'meta.json': meta,
+  ...glossFiles,
 };
 
 for (const [name, data] of Object.entries(files)) {
   fs.writeFileSync(path.join(OUT, name), JSON.stringify(data, null, 1) + '\n');
+}
+
+if (warnings.length > 0) {
+  console.warn(`${warnings.length} thing(s) worth a second look:`);
+  for (const w of warnings) console.warn('  ! ' + w);
+  console.warn('');
 }
 
 const size = (name) => (fs.statSync(path.join(OUT, name)).size / 1024).toFixed(0);

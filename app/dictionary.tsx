@@ -6,10 +6,12 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { GENDER_COLORS } from '@/components/Flashcard';
 import { LoadingScreen, useAppReady } from '@/components/Loading';
+import { Meaning } from '@/components/Meaning';
 import { Card, Chip, Screen, Txt } from '@/components/ui';
 import { say } from '@/lib/speech';
 import { getTheme, headword, levels, vocab } from '@/lib/study';
 import type { Level, VocabEntry } from '@/lib/types';
+import { useGloss } from '@/lib/useGloss';
 import { useT } from '@/lib/useT';
 import { useProgress } from '@/store/ProgressProvider';
 import { useSettings } from '@/store/SettingsProvider';
@@ -30,6 +32,7 @@ import { useTheme } from '@/theme/ThemeProvider';
 export default function DictionaryScreen() {
   const { colors, space, radius } = useTheme();
   const { t, locale } = useT();
+  const { glossMatches } = useGloss();
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { settings } = useSettings();
@@ -48,6 +51,7 @@ export default function DictionaryScreen() {
       return (
         v.de.toLowerCase().includes(q) ||
         v.en.toLowerCase().includes(q) ||
+        glossMatches(v.id, q) ||
         v.example.de.toLowerCase().includes(q)
       );
     });
@@ -57,7 +61,7 @@ export default function DictionaryScreen() {
     return matches
       .sort((a, b) => rank(a, q) - rank(b, q) || a.de.localeCompare(b.de, 'de'))
       .slice(0, 200);
-  }, [query, level, savedOnly, progress.saved]);
+  }, [query, level, savedOnly, progress.saved, glossMatches]);
 
   const savedCount = Object.keys(progress.saved).length;
 
@@ -204,9 +208,7 @@ function Entry({
           <Txt variant="heading" style={{ color }}>
             {headword(entry)}
           </Txt>
-          <Txt variant="body" tone="muted">
-            {entry.en}
-          </Txt>
+          <Meaning entry={entry} />
         </View>
         <Pressable
           onPress={() => say(headword(entry), slow)}

@@ -321,6 +321,11 @@ const strings = {
     langEn: 'English',
     langBoth: 'Both',
     appearance: 'Appearance',
+    glossLanguage: 'Word meanings in',
+    glossLanguageSub:
+      'The interface stays in German and English. This is the language word meanings are shown in.',
+    glossOff: 'English only',
+    glossFallback: 'the rest in English',
     themeSystem: 'System',
     themeLight: 'Light',
     themeDark: 'Dark',
@@ -690,6 +695,11 @@ const strings = {
     langEn: 'Englisch',
     langBoth: 'Beide',
     appearance: 'Darstellung',
+    glossLanguage: 'Wortbedeutungen auf',
+    glossLanguageSub:
+      'Die Oberfläche bleibt auf Deutsch und Englisch. Dies ist die Sprache der Wortbedeutungen.',
+    glossOff: 'nur Englisch',
+    glossFallback: 'der Rest auf Englisch',
     themeSystem: 'System',
     themeLight: 'Hell',
     themeDark: 'Dunkel',

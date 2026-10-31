@@ -13,6 +13,7 @@ import { GOALS } from '@/lib/goals';
 import { makeHaptics } from '@/lib/haptics';
 import { say } from '@/lib/speech';
 import { filterVocab, orderForStudy } from '@/lib/study';
+import { useGloss } from '@/lib/useGloss';
 import { useScope } from '@/lib/useScope';
 import { useT } from '@/lib/useT';
 import { useProgress } from '@/store/ProgressProvider';
@@ -22,6 +23,7 @@ import { useTheme } from '@/theme/ThemeProvider';
 export default function StudyScreen() {
   const { colors, space, radius } = useTheme();
   const { t } = useT();
+  const { gloss } = useGloss();
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { settings } = useSettings();
@@ -31,17 +33,22 @@ export default function StudyScreen() {
 
   const haptics = useMemo(() => makeHaptics(settings.haptics), [settings.haptics]);
 
-  // Frozen for the session so grading a card does not reshuffle the deck.
+  // Frozen for the session so grading a card does not reshuffle the deck, but
+  // not before the stored settings have loaded: a deck built on the defaults
+  // would stay built on them, so opening /study directly dealt B1 cards to an
+  // A1 learner.
+  const appReady = useAppReady();
   const [seed] = useState(() => Date.now());
   const queue = useMemo(() => {
+    if (!appReady) return [];
     const filtered = filterVocab(scope, progress.cards, {
       theme: params.theme ?? 'all',
       dueOnly: params.mode === 'due',
       trickyOnly: params.mode === 'tricky',
     });
     return orderForStudy(filtered, progress.cards, seed);
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- intentionally frozen
-  }, [seed, params.mode, params.theme]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- frozen once ready
+  }, [appReady, seed, params.mode, params.theme]);
 
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
@@ -84,7 +91,6 @@ export default function StudyScreen() {
     return () => window.removeEventListener('keydown', onKey);
   }, [flipped, decide]);
 
-  const appReady = useAppReady();
   if (!appReady) return <LoadingScreen />;
 
   if (queue.length === 0) {
@@ -186,6 +192,7 @@ export default function StudyScreen() {
               entry={entry}
               flipped={flipped}
               language={settings.language}
+              gloss={gloss(entry.id)}
               onSpeak={(text) => say(text, settings.slowAudio)}
               labels={{
                 tapToFlip: t('tapToFlip'),

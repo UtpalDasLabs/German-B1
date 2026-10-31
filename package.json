@@ -13,7 +13,8 @@
     "typecheck": "tsc --noEmit",
     "icons": "node scripts/build-icons.mjs",
     "test:merge": "node scripts/test-merge.mjs",
-    "test:handoff": "node scripts/test-handoff.mjs"
+    "test:handoff": "node scripts/test-handoff.mjs",
+    "test:gloss": "node scripts/test-gloss.mjs"
   },
   "dependencies": {
     "@expo/metro-runtime": "~57.0.15",

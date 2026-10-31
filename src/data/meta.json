@@ -3638,5 +3638,46 @@
    "tasks": 4,
    "articles": 2
   }
- }
+ },
+ "glossLanguages": [
+  {
+   "code": "tr",
+   "name": "Turkish",
+   "nativeName": "Türkçe",
+   "rtl": false,
+   "coverage": {
+    "A1": 1,
+    "A2": 0,
+    "B1": 0,
+    "B2": 0,
+    "C1": 0
+   }
+  },
+  {
+   "code": "ar",
+   "name": "Arabic",
+   "nativeName": "العربية",
+   "rtl": true,
+   "coverage": {
+    "A1": 1,
+    "A2": 0,
+    "B1": 0,
+    "B2": 0,
+    "C1": 0
+   }
+  },
+  {
+   "code": "ru",
+   "name": "Russian",
+   "nativeName": "Русский",
+   "rtl": false,
+   "coverage": {
+    "A1": 1,
+    "A2": 0,
+    "B1": 0,
+    "B2": 0,
+    "C1": 0
+   }
+  }
+ ]
 }

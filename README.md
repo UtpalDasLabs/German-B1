@@ -83,6 +83,17 @@ Schreiben and Sprechen, at A1, A2, B1, B2 and C1.
 - **Progress that survives** — installable as an app, asks the browser for
   durable storage, exports and imports a backup file, and says in plain words
   what would lose your progress.
+- **Word meanings in your own language** — Turkish, Arabic or Russian, complete
+  across A1, with the English kept underneath. This is deliberately not an
+  interface translation: the chrome stays in German and English, which are the
+  two languages this project can write and proof-read, while the part a learner
+  actually needs in their own language — what *die Voraussetzung* means — is
+  glossed word by word and checkable entry by entry. The dictionary searches
+  the glosses too, so typing *aile* finds *die Familie*. Each language is a
+  separate file fetched the first time it is used, so picking Turkish costs
+  16 KB and picking nothing costs nothing. Outside a language's coverage the
+  app shows the English and says so, with the share covered at your level
+  printed next to the setting.
 - **German, English or both**, light and dark, works offline.
 
 ## Privacy

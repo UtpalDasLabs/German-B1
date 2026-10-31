@@ -273,6 +273,8 @@ export type ExamInfo = ExamFacts & {
 
 export type Meta = {
   themes: VocabTheme[];
+  /** The gloss languages that exist, with their coverage. */
+  glossLanguages: GlossMeta[];
   contrasts: Contrast[];
   shadow: ShadowPhrase[];
   levels: LevelInfo[];
@@ -293,6 +295,30 @@ export type Meta = {
   };
   /** The same counts again, per level, for the level picker. */
   byLevel: Record<Level, { vocab: number; drills: number; grammar: number; tasks: number; articles: number }>;
+};
+
+/**
+ * The language a learner reads word meanings in.
+ *
+ * Deliberately separate from the interface language. A Turkish speaker in
+ * Germany navigates "Daily goal" without difficulty; what they need in Turkish
+ * is what "die Voraussetzung" means. Translating the chrome into dozens of
+ * languages makes the bullet point better and the product worse, because this
+ * app's copy carries argument and voice and degrades badly in machine
+ * translation. A gloss is one or two words with a known referent: tractable,
+ * checkable, and the part that actually matters.
+ */
+export type GlossLanguage = 'tr' | 'ar' | 'ru';
+
+export type GlossMeta = {
+  code: GlossLanguage;
+  /** The language's name in English, for a list an English reader scans. */
+  name: string;
+  /** Its name in itself, which is what a speaker of it looks for. */
+  nativeName: string;
+  rtl: boolean;
+  /** How many vocabulary entries this language covers, per level. */
+  coverage: Record<Level, number>;
 };
 
 export type Language = 'de' | 'en' | 'both';
@@ -318,6 +344,11 @@ export type Settings = {
   includeLower: boolean;
   /** Set once the placement test has been taken, so it is offered only once. */
   placed: boolean;
+  /**
+   * Word meanings in a third language, alongside the German and the English.
+   * null means English only, which is the default and always complete.
+   */
+  gloss: GlossLanguage | null;
   /** ISO yyyy-mm-dd of the planned exam date, or null if undecided. */
   examDate: string | null;
   /** Listening playback rate. Slower is a legitimate crutch early on. */
