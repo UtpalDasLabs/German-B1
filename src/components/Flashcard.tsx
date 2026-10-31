@@ -6,6 +6,7 @@ import Animated, { interpolate, useAnimatedStyle, useDerivedValue, withTiming } 
 import { Txt } from '@/components/ui';
 import { getTheme, headword } from '@/lib/study';
 import type { Language, VocabEntry } from '@/lib/types';
+import type { Gloss } from '@/lib/useGloss';
 import { useTheme } from '@/theme/ThemeProvider';
 
 /**
@@ -42,12 +43,15 @@ export function Flashcard({
   flipped,
   language,
   labels,
+  gloss,
   onSpeak,
 }: {
   entry: VocabEntry;
   flipped: boolean;
   language: Language;
   labels: { tapToFlip: string; answer: string; example: string; playWord: string };
+  /** The meaning in the learner's gloss language, when they picked one. */
+  gloss?: Gloss;
   onSpeak?: (text: string) => void;
 }) {
   const { colors, radius, space } = useTheme();
@@ -127,9 +131,30 @@ export function Flashcard({
           <Txt variant="caption" tone="faint" style={{ textAlign: 'center' }}>
             {headword(entry)}
           </Txt>
-          <Txt variant="title" style={{ textAlign: 'center', color: colors.success }}>
-            {entry.en}
-          </Txt>
+          {/* When a gloss language is set, its line leads and the English
+              moves under it: a learner who asked to read meanings in Turkish
+              should see Turkish first, not have to find it. */}
+          {gloss ? (
+            <>
+              <Txt
+                variant="title"
+                style={{
+                  textAlign: 'center',
+                  color: colors.success,
+                  writingDirection: gloss.rtl ? 'rtl' : 'ltr',
+                }}
+              >
+                {gloss.text}
+              </Txt>
+              <Txt variant="small" tone="muted" style={{ textAlign: 'center' }}>
+                {entry.en}
+              </Txt>
+            </>
+          ) : (
+            <Txt variant="title" style={{ textAlign: 'center', color: colors.success }}>
+              {entry.en}
+            </Txt>
+          )}
 
           {entry.plural || entry.forms ? (
             <View

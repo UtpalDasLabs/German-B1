@@ -38,16 +38,21 @@ export default function DrillScreen() {
   const count = Math.max(1, Number(params.count ?? 10) || 10);
   const goalXp = GOALS[settings.goal].xp;
 
+  // Frozen for the round, but only from the point the stored settings have
+  // loaded - otherwise a round opened directly is drawn from the default level
+  // rather than the learner's.
+  const appReady = useAppReady();
   const [seed, setSeed] = useState(() => Date.now());
   const queue = useMemo(() => {
+    if (!appReady) return [];
     const filtered = filterDrills(scope, progress.cards, {
       topic: params.topic ?? 'all',
       dueOnly: params.mode === 'due',
       trickyOnly: params.mode === 'tricky',
     });
     return orderForStudy(filtered, progress.cards, seed).slice(0, count);
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- frozen for the session
-  }, [seed, params.topic, params.mode, count]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- frozen once ready
+  }, [appReady, seed, params.topic, params.mode, count]);
 
   const [index, setIndex] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
@@ -80,7 +85,6 @@ export default function DrillScreen() {
     setScore(0);
   }, []);
 
-  const appReady = useAppReady();
   if (!appReady) return <LoadingScreen />;
 
   if (queue.length === 0) {

@@ -17,6 +17,7 @@ import {
   requestDurableStorage,
 } from '@/lib/durability';
 import { forecast } from '@/lib/forecast';
+import { glossLanguages, glossMeta } from '@/lib/gloss';
 import {
   areaGroups,
   levelGroups,
@@ -56,6 +57,17 @@ export default function YouScreen() {
   const { settings, update } = useSettings();
   const { progress, reset, restore } = useProgress();
   const scope = useScope();
+
+  // Coverage is stated per level because it is per level: a language complete
+  // at A1 may have nothing at B2, and a learner deserves to know that before
+  // wondering why half their cards are in English.
+  const glossNote = useMemo(() => {
+    const g = glossMeta(settings.gloss);
+    if (g == null) return null;
+    const pct = Math.round((g.coverage[settings.level] ?? 0) * 100);
+    const covered = `${settings.level} · ${pct}%`;
+    return pct >= 100 ? covered : `${covered} — ${t('glossFallback')}`;
+  }, [settings.gloss, settings.level, t]);
   const [persisted, setPersisted] = useState(false);
   const [note, setNote] = useState<string | null>(null);
   const consent = useAnalyticsConsent();
@@ -359,6 +371,13 @@ export default function YouScreen() {
           <Txt variant="overline" tone="faint">
             {t('backup').toUpperCase()}
           </Txt>
+          <Button
+            title={t('syncTitle')}
+            variant="secondary"
+            full
+            icon={<Ionicons name="sync-outline" size={18} color={colors.text} />}
+            onPress={() => router.push('/sync')}
+          />
           <View style={{ flexDirection: 'row', gap: space.sm }}>
             <View style={{ flex: 1 }}>
               <Button
@@ -409,6 +428,37 @@ export default function YouScreen() {
                 />
               ))}
             </View>
+          </View>
+
+          <Divider />
+
+          <View style={{ gap: space.sm }}>
+            <Txt variant="small" tone="muted">
+              {t('glossLanguage')}
+            </Txt>
+            <Txt variant="caption" tone="muted">
+              {t('glossLanguageSub')}
+            </Txt>
+            <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.sm }}>
+              <Chip
+                label={t('glossOff')}
+                active={settings.gloss == null}
+                onPress={() => update({ gloss: null })}
+              />
+              {glossLanguages.map((g) => (
+                <Chip
+                  key={g.code}
+                  label={g.nativeName}
+                  active={settings.gloss === g.code}
+                  onPress={() => update({ gloss: g.code })}
+                />
+              ))}
+            </View>
+            {glossNote ? (
+              <Txt variant="caption" tone="muted">
+                {glossNote}
+              </Txt>
+            ) : null}
           </View>
 
           <Divider />

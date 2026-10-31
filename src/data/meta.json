@@ -457,6 +457,1253 @@
    ]
   }
  ],
+ "contrasts": [
+  {
+   "key": "vokallaenge",
+   "level": "A1",
+   "title": {
+    "de": "Lang oder kurz",
+    "en": "Long or short"
+   },
+   "summary": {
+    "de": "Im Deutschen unterscheidet die Vokallänge Wörter. Stadt und Staat sind nicht dasselbe.",
+    "en": "In German vowel length distinguishes words. Stadt and Staat are not the same."
+   },
+   "tip": {
+    "de": "Kurz heißt auch gespannt loslassen: Der Vokal bricht ab, weil zwei Konsonanten folgen. Lang heißt halten - oft steht ein h oder ein Doppelvokal da, der nicht gesprochen wird, sondern die Länge anzeigt.",
+    "en": "Short also means cut off: the vowel stops because two consonants follow. Long means held - often an h or a doubled vowel is there not to be pronounced but to mark the length."
+   },
+   "pairs": [
+    {
+     "id": "p.vokallaenge.01",
+     "a": "Stadt",
+     "b": "Staat",
+     "aNote": {
+      "de": "kurzes a",
+      "en": "short a"
+     },
+     "bNote": {
+      "de": "langes a",
+      "en": "long a"
+     }
+    },
+    {
+     "id": "p.vokallaenge.02",
+     "a": "Bett",
+     "b": "Beet",
+     "aNote": {
+      "de": "kurzes e",
+      "en": "short e"
+     },
+     "bNote": {
+      "de": "langes e",
+      "en": "long e"
+     }
+    },
+    {
+     "id": "p.vokallaenge.03",
+     "a": "in",
+     "b": "ihn",
+     "aNote": {
+      "de": "kurzes i",
+      "en": "short i"
+     },
+     "bNote": {
+      "de": "langes i",
+      "en": "long i"
+     }
+    },
+    {
+     "id": "p.vokallaenge.04",
+     "a": "Ofen",
+     "b": "offen",
+     "aNote": {
+      "de": "langes o",
+      "en": "long o"
+     },
+     "bNote": {
+      "de": "kurzes o",
+      "en": "short o"
+     }
+    },
+    {
+     "id": "p.vokallaenge.05",
+     "a": "Miete",
+     "b": "Mitte",
+     "aNote": {
+      "de": "langes i",
+      "en": "long i"
+     },
+     "bNote": {
+      "de": "kurzes i",
+      "en": "short i"
+     }
+    },
+    {
+     "id": "p.vokallaenge.06",
+     "a": "Wahl",
+     "b": "Wall",
+     "aNote": {
+      "de": "langes a",
+      "en": "long a"
+     },
+     "bNote": {
+      "de": "kurzes a",
+      "en": "short a"
+     }
+    },
+    {
+     "id": "p.vokallaenge.07",
+     "a": "Weg",
+     "b": "weg",
+     "aNote": {
+      "de": "langes e: der Weg",
+      "en": "long e: der Weg"
+     },
+     "bNote": {
+      "de": "kurzes e: weg sein",
+      "en": "short e: weg sein"
+     }
+    },
+    {
+     "id": "p.vokallaenge.08",
+     "a": "Schal",
+     "b": "Schall",
+     "aNote": {
+      "de": "langes a",
+      "en": "long a"
+     },
+     "bNote": {
+      "de": "kurzes a",
+      "en": "short a"
+     }
+    }
+   ]
+  },
+  {
+   "key": "umlaut-u",
+   "level": "A1",
+   "title": {
+    "de": "u oder ü",
+    "en": "u or ü"
+   },
+   "summary": {
+    "de": "Der häufigste Fehler überhaupt: ü wird zu u, und damit wird aus Müller ein Muller.",
+    "en": "The commonest error of all: ü becomes u, and Müller turns into Muller."
+   },
+   "tip": {
+    "de": "Sprich ein langes i und schiebe dann die Lippen zu einem Kuss nach vorn, ohne die Zunge zu bewegen. Genau das ist ü. Wer von u ausgeht, landet fast nie dort.",
+    "en": "Say a long \"ee\" and then push your lips forward into a kiss without moving your tongue. That is ü. Starting from \"oo\" almost never gets you there."
+   },
+   "pairs": [
+    {
+     "id": "p.umlaut-u.01",
+     "a": "Mutter",
+     "b": "Mütter",
+     "aNote": {
+      "de": "Singular",
+      "en": "singular"
+     },
+     "bNote": {
+      "de": "Plural",
+      "en": "plural"
+     }
+    },
+    {
+     "id": "p.umlaut-u.02",
+     "a": "Bruder",
+     "b": "Brüder",
+     "aNote": {
+      "de": "Singular",
+      "en": "singular"
+     },
+     "bNote": {
+      "de": "Plural",
+      "en": "plural"
+     }
+    },
+    {
+     "id": "p.umlaut-u.03",
+     "a": "musste",
+     "b": "müsste",
+     "aNote": {
+      "de": "Vergangenheit",
+      "en": "past"
+     },
+     "bNote": {
+      "de": "Konjunktiv II",
+      "en": "Konjunktiv II"
+     }
+    },
+    {
+     "id": "p.umlaut-u.04",
+     "a": "Buch",
+     "b": "Bücher",
+     "aNote": {
+      "de": "Singular",
+      "en": "singular"
+     },
+     "bNote": {
+      "de": "Plural",
+      "en": "plural"
+     }
+    },
+    {
+     "id": "p.umlaut-u.05",
+     "a": "Stuhl",
+     "b": "Stühle",
+     "aNote": {
+      "de": "Singular",
+      "en": "singular"
+     },
+     "bNote": {
+      "de": "Plural",
+      "en": "plural"
+     }
+    },
+    {
+     "id": "p.umlaut-u.06",
+     "a": "durfte",
+     "b": "dürfte",
+     "aNote": {
+      "de": "Vergangenheit",
+      "en": "past"
+     },
+     "bNote": {
+      "de": "Vermutung",
+      "en": "assumption"
+     }
+    },
+    {
+     "id": "p.umlaut-u.07",
+     "a": "Mull",
+     "b": "Müll",
+     "aNote": {
+      "de": "Stoff",
+      "en": "gauze"
+     },
+     "bNote": {
+      "de": "Abfall",
+      "en": "rubbish"
+     }
+    }
+   ]
+  },
+  {
+   "key": "umlaut-o",
+   "level": "A2",
+   "title": {
+    "de": "o oder ö",
+    "en": "o or ö"
+   },
+   "summary": {
+    "de": "schon und schön sind zwei Wörter, und der Unterschied trägt den ganzen Satz.",
+    "en": "schon and schön are two words, and the difference carries the whole sentence."
+   },
+   "tip": {
+    "de": "Sprich ein e wie in \"Beet\" und runde dann die Lippen, ohne die Zunge zu verschieben. Das ist ö. Von o aus kommt man nicht hin.",
+    "en": "Say the vowel in \"bay\" and then round your lips without moving your tongue. That is ö. You cannot get there from \"oh\"."
+   },
+   "pairs": [
+    {
+     "id": "p.umlaut-o.01",
+     "a": "schon",
+     "b": "schön",
+     "aNote": {
+      "de": "bereits",
+      "en": "already"
+     },
+     "bNote": {
+      "de": "hübsch",
+      "en": "beautiful"
+     }
+    },
+    {
+     "id": "p.umlaut-o.02",
+     "a": "Ofen",
+     "b": "öfter",
+     "aNote": {
+      "de": "o",
+      "en": "o"
+     },
+     "bNote": {
+      "de": "ö",
+      "en": "ö"
+     }
+    },
+    {
+     "id": "p.umlaut-o.03",
+     "a": "konnte",
+     "b": "könnte",
+     "aNote": {
+      "de": "Vergangenheit",
+      "en": "past"
+     },
+     "bNote": {
+      "de": "Konjunktiv II",
+      "en": "Konjunktiv II"
+     }
+    },
+    {
+     "id": "p.umlaut-o.04",
+     "a": "Tochter",
+     "b": "Töchter",
+     "aNote": {
+      "de": "Singular",
+      "en": "singular"
+     },
+     "bNote": {
+      "de": "Plural",
+      "en": "plural"
+     }
+    },
+    {
+     "id": "p.umlaut-o.05",
+     "a": "Hofe",
+     "b": "Höfe",
+     "aNote": {
+      "de": "Dativ Singular",
+      "en": "dative singular"
+     },
+     "bNote": {
+      "de": "Plural",
+      "en": "plural"
+     }
+    },
+    {
+     "id": "p.umlaut-o.06",
+     "a": "Sohn",
+     "b": "Söhne",
+     "aNote": {
+      "de": "Singular",
+      "en": "singular"
+     },
+     "bNote": {
+      "de": "Plural",
+      "en": "plural"
+     }
+    }
+   ]
+  },
+  {
+   "key": "umlaut-a",
+   "level": "A2",
+   "title": {
+    "de": "a, ä oder e",
+    "en": "a, ä or e"
+   },
+   "summary": {
+    "de": "ä klingt wie ein e, nicht wie ein a - deshalb hört man den Plural oft nicht.",
+    "en": "ä sounds like an e, not like an a – which is why the plural often goes unheard."
+   },
+   "tip": {
+    "de": "Langes ä ist praktisch ein langes e. Der Unterschied zwischen Bären und Beeren ist im Alltag minimal; der zwischen Vater und Väter ist es nicht.",
+    "en": "Long ä is practically a long e. The difference between Bären and Beeren is tiny in everyday speech; the one between Vater and Väter is not."
+   },
+   "pairs": [
+    {
+     "id": "p.umlaut-a.01",
+     "a": "Vater",
+     "b": "Väter",
+     "aNote": {
+      "de": "Singular",
+      "en": "singular"
+     },
+     "bNote": {
+      "de": "Plural",
+      "en": "plural"
+     }
+    },
+    {
+     "id": "p.umlaut-a.02",
+     "a": "Garten",
+     "b": "Gärten",
+     "aNote": {
+      "de": "Singular",
+      "en": "singular"
+     },
+     "bNote": {
+      "de": "Plural",
+      "en": "plural"
+     }
+    },
+    {
+     "id": "p.umlaut-a.03",
+     "a": "Stadt",
+     "b": "Städte",
+     "aNote": {
+      "de": "Singular",
+      "en": "singular"
+     },
+     "bNote": {
+      "de": "Plural",
+      "en": "plural"
+     }
+    },
+    {
+     "id": "p.umlaut-a.04",
+     "a": "Mantel",
+     "b": "Mäntel",
+     "aNote": {
+      "de": "Singular",
+      "en": "singular"
+     },
+     "bNote": {
+      "de": "Plural",
+      "en": "plural"
+     }
+    },
+    {
+     "id": "p.umlaut-a.05",
+     "a": "Gast",
+     "b": "Gäste",
+     "aNote": {
+      "de": "Singular",
+      "en": "singular"
+     },
+     "bNote": {
+      "de": "Plural",
+      "en": "plural"
+     }
+    },
+    {
+     "id": "p.umlaut-a.06",
+     "a": "Hand",
+     "b": "Hände",
+     "aNote": {
+      "de": "Singular",
+      "en": "singular"
+     },
+     "bNote": {
+      "de": "Plural",
+      "en": "plural"
+     }
+    }
+   ]
+  },
+  {
+   "key": "ch",
+   "level": "A2",
+   "title": {
+    "de": "ich-Laut und ach-Laut",
+    "en": "The two ch sounds"
+   },
+   "summary": {
+    "de": "ch hat zwei Aussprachen, und welche gilt, entscheidet der Vokal davor.",
+    "en": "ch has two pronunciations, and the vowel before it decides which."
+   },
+   "tip": {
+    "de": "Nach a, o, u und au kommt der raue ach-Laut hinten im Hals. Nach allem anderen - i, e, ä, ö, ü, ei, eu und nach Konsonanten - kommt der weiche ich-Laut vorn, wie ein geflüstertes \"hj\". Es gibt keine Ausnahme, die man lernen müsste.",
+    "en": "After a, o, u and au comes the rough ach sound at the back of the throat. After everything else – i, e, ä, ö, ü, ei, eu and after consonants – comes the soft ich sound at the front, like a whispered \"hy\". There is no exception to memorise."
+   },
+   "pairs": [
+    {
+     "id": "p.ch.01",
+     "a": "ich",
+     "b": "ach",
+     "aNote": {
+      "de": "weich, vorn",
+      "en": "soft, front"
+     },
+     "bNote": {
+      "de": "rau, hinten",
+      "en": "rough, back"
+     }
+    },
+    {
+     "id": "p.ch.02",
+     "a": "Bücher",
+     "b": "Buch",
+     "aNote": {
+      "de": "weich",
+      "en": "soft"
+     },
+     "bNote": {
+      "de": "rau",
+      "en": "rough"
+     }
+    },
+    {
+     "id": "p.ch.03",
+     "a": "Nächte",
+     "b": "Nacht",
+     "aNote": {
+      "de": "weich",
+      "en": "soft"
+     },
+     "bNote": {
+      "de": "rau",
+      "en": "rough"
+     }
+    },
+    {
+     "id": "p.ch.04",
+     "a": "Löcher",
+     "b": "Loch",
+     "aNote": {
+      "de": "weich",
+      "en": "soft"
+     },
+     "bNote": {
+      "de": "rau",
+      "en": "rough"
+     }
+    },
+    {
+     "id": "p.ch.05",
+     "a": "Küche",
+     "b": "Kuchen",
+     "aNote": {
+      "de": "weich: Küche",
+      "en": "soft: kitchen"
+     },
+     "bNote": {
+      "de": "rau: Kuchen",
+      "en": "rough: cake"
+     }
+    },
+    {
+     "id": "p.ch.06",
+     "a": "Kirche",
+     "b": "Kirsche",
+     "aNote": {
+      "de": "ch",
+      "en": "ch"
+     },
+     "bNote": {
+      "de": "sch",
+      "en": "sch"
+     }
+    },
+    {
+     "id": "p.ch.07",
+     "a": "München",
+     "b": "machen",
+     "aNote": {
+      "de": "weich",
+      "en": "soft"
+     },
+     "bNote": {
+      "de": "rau",
+      "en": "rough"
+     }
+    }
+   ]
+  },
+  {
+   "key": "auslaut",
+   "level": "B1",
+   "title": {
+    "de": "Auslautverhärtung",
+    "en": "Final devoicing"
+   },
+   "summary": {
+    "de": "Am Wortende wird b zu p, d zu t und g zu k. Rad und Rat klingen gleich.",
+    "en": "At the end of a word b becomes p, d becomes t and g becomes k. Rad and Rat sound identical."
+   },
+   "tip": {
+    "de": "Das ist kein Fehler, den man vermeiden soll, sondern eine Regel, die man anwenden muss. Wer \"Rad\" mit hörbarem d spricht, klingt falsch. Der Unterschied kehrt im Plural zurück: Räder gegen Räte.",
+    "en": "This is not an error to avoid but a rule to apply. Saying \"Rad\" with an audible d sounds wrong. The difference returns in the plural: Räder against Räte."
+   },
+   "pairs": [
+    {
+     "id": "p.auslaut.01",
+     "a": "Rad",
+     "b": "Räder",
+     "aNote": {
+      "de": "klingt wie Rat",
+      "en": "sounds like Rat"
+     },
+     "bNote": {
+      "de": "hier hört man das d",
+      "en": "here you hear the d"
+     }
+    },
+    {
+     "id": "p.auslaut.02",
+     "a": "Hund",
+     "b": "Hunde",
+     "aNote": {
+      "de": "klingt wie Hunt",
+      "en": "sounds like Hunt"
+     },
+     "bNote": {
+      "de": "hier hört man das d",
+      "en": "here you hear the d"
+     }
+    },
+    {
+     "id": "p.auslaut.03",
+     "a": "Tag",
+     "b": "Tage",
+     "aNote": {
+      "de": "klingt wie Tak",
+      "en": "sounds like Tak"
+     },
+     "bNote": {
+      "de": "hier hört man das g",
+      "en": "here you hear the g"
+     }
+    },
+    {
+     "id": "p.auslaut.04",
+     "a": "halb",
+     "b": "halbe",
+     "aNote": {
+      "de": "klingt wie halp",
+      "en": "sounds like halp"
+     },
+     "bNote": {
+      "de": "hier hört man das b",
+      "en": "here you hear the b"
+     }
+    },
+    {
+     "id": "p.auslaut.05",
+     "a": "Weg",
+     "b": "Wege",
+     "aNote": {
+      "de": "klingt wie Wek",
+      "en": "sounds like Wek"
+     },
+     "bNote": {
+      "de": "hier hört man das g",
+      "en": "here you hear the g"
+     }
+    },
+    {
+     "id": "p.auslaut.06",
+     "a": "Kind",
+     "b": "Kinder",
+     "aNote": {
+      "de": "klingt wie Kint",
+      "en": "sounds like Kint"
+     },
+     "bNote": {
+      "de": "hier hört man das d",
+      "en": "here you hear the d"
+     }
+    }
+   ]
+  },
+  {
+   "key": "zischlaute",
+   "level": "A2",
+   "title": {
+    "de": "s, z und sch",
+    "en": "s, z and sch"
+   },
+   "summary": {
+    "de": "z ist immer ts, s am Wortanfang vor Vokal ist stimmhaft, und st- am Anfang ist scht-.",
+    "en": "z is always ts, s before a vowel at the start of a word is voiced, and initial st- is scht-."
+   },
+   "tip": {
+    "de": "Drei Regeln, die zusammen fast alles abdecken: z = ts, nie wie ein englisches z. s vor Vokal am Wortanfang summt (Sonne). sp- und st- am Wortanfang sind schp- und scht- (Stadt, spielen) - in der Wortmitte dagegen nicht (Fenster).",
+    "en": "Three rules that cover almost everything: z = ts, never an English z. s before a vowel at the start of a word buzzes (Sonne). Initial sp- and st- are shp- and sht- (Stadt, spielen) – but not in the middle of a word (Fenster)."
+   },
+   "pairs": [
+    {
+     "id": "p.zischlaute.01",
+     "a": "Zeit",
+     "b": "seit",
+     "aNote": {
+      "de": "ts",
+      "en": "ts"
+     },
+     "bNote": {
+      "de": "z wie im Englischen",
+      "en": "English-style z"
+     }
+    },
+    {
+     "id": "p.zischlaute.02",
+     "a": "zahlen",
+     "b": "Salon",
+     "aNote": {
+      "de": "ts am Anfang",
+      "en": "ts at the start"
+     },
+     "bNote": {
+      "de": "stimmhaftes s",
+      "en": "voiced s"
+     }
+    },
+    {
+     "id": "p.zischlaute.03",
+     "a": "Stadt",
+     "b": "Fenster",
+     "aNote": {
+      "de": "scht- am Anfang",
+      "en": "sht- at the start"
+     },
+     "bNote": {
+      "de": "st in der Mitte",
+      "en": "st in the middle"
+     }
+    },
+    {
+     "id": "p.zischlaute.04",
+     "a": "spielen",
+     "b": "Wespe",
+     "aNote": {
+      "de": "schp- am Anfang",
+      "en": "shp- at the start"
+     },
+     "bNote": {
+      "de": "sp in der Mitte",
+      "en": "sp in the middle"
+     }
+    },
+    {
+     "id": "p.zischlaute.05",
+     "a": "Sonne",
+     "b": "Tasse",
+     "aNote": {
+      "de": "stimmhaft",
+      "en": "voiced"
+     },
+     "bNote": {
+      "de": "stimmlos",
+      "en": "voiceless"
+     }
+    },
+    {
+     "id": "p.zischlaute.06",
+     "a": "weiß",
+     "b": "Weise",
+     "aNote": {
+      "de": "scharfes s",
+      "en": "sharp s"
+     },
+     "bNote": {
+      "de": "stimmhaftes s",
+      "en": "voiced s"
+     }
+    }
+   ]
+  },
+  {
+   "key": "r-vokalisiert",
+   "level": "B1",
+   "title": {
+    "de": "Das verschwindende r",
+    "en": "The disappearing r"
+   },
+   "summary": {
+    "de": "Am Silbenende wird r kein Konsonant mehr, sondern ein Vokal. Vater endet auf ein schwaches a.",
+    "en": "At the end of a syllable r stops being a consonant and becomes a vowel. Vater ends in a weak a."
+   },
+   "tip": {
+    "de": "Vor einem Vokal rollt oder reibt das r (rot, Brot). Nach einem Vokal wird es zu einem kurzen a-Laut: Vater klingt wie \"Fata\", Uhr wie \"Ua\". Wer das r dort ausspricht, klingt vorgelesen.",
+    "en": "Before a vowel the r is rolled or scraped (rot, Brot). After a vowel it turns into a short a-sound: Vater sounds like \"Fata\", Uhr like \"Ooa\". Pronouncing the r there sounds like reading aloud."
+   },
+   "pairs": [
+    {
+     "id": "p.r-vokalisiert.01",
+     "a": "rot",
+     "b": "Tor",
+     "aNote": {
+      "de": "r vor Vokal: deutlich",
+      "en": "r before a vowel: audible"
+     },
+     "bNote": {
+      "de": "r am Ende: wie ein a",
+      "en": "r at the end: like an a"
+     }
+    },
+    {
+     "id": "p.r-vokalisiert.02",
+     "a": "Reise",
+     "b": "Uhr",
+     "aNote": {
+      "de": "deutliches r",
+      "en": "audible r"
+     },
+     "bNote": {
+      "de": "vokalisiert",
+      "en": "vocalised"
+     }
+    },
+    {
+     "id": "p.r-vokalisiert.03",
+     "a": "Brot",
+     "b": "Vater",
+     "aNote": {
+      "de": "deutliches r",
+      "en": "audible r"
+     },
+     "bNote": {
+      "de": "vokalisiert",
+      "en": "vocalised"
+     }
+    },
+    {
+     "id": "p.r-vokalisiert.04",
+     "a": "Frage",
+     "b": "Bier",
+     "aNote": {
+      "de": "deutliches r",
+      "en": "audible r"
+     },
+     "bNote": {
+      "de": "vokalisiert",
+      "en": "vocalised"
+     }
+    }
+   ]
+  }
+ ],
+ "shadow": [
+  {
+   "id": "sh.01",
+   "level": "A1",
+   "syllables": [
+    {
+     "text": "Ich ",
+     "stress": false
+    },
+    {
+     "text": "kom",
+     "stress": true
+    },
+    {
+     "text": "me aus Ma",
+     "stress": false
+    },
+    {
+     "text": "rok",
+     "stress": true
+    },
+    {
+     "text": "ko.",
+     "stress": false
+    }
+   ],
+   "text": "Ich komme aus Marokko.",
+   "note": {
+    "de": "Wortakzent auf der ersten Silbe von kommen.",
+    "en": "Word stress on the first syllable of kommen."
+   }
+  },
+  {
+   "id": "sh.02",
+   "level": "A1",
+   "syllables": [
+    {
+     "text": "Wie ",
+     "stress": false
+    },
+    {
+     "text": "spät",
+     "stress": true
+    },
+    {
+     "text": " ist es, ",
+     "stress": false
+    },
+    {
+     "text": "bit",
+     "stress": true
+    },
+    {
+     "text": "te?",
+     "stress": false
+    }
+   ],
+   "text": "Wie spät ist es, bitte?",
+   "note": {
+    "de": "Die Frage steigt am Ende.",
+    "en": "The question rises at the end."
+   }
+  },
+  {
+   "id": "sh.03",
+   "level": "A1",
+   "syllables": [
+    {
+     "text": "Ich ",
+     "stress": false
+    },
+    {
+     "text": "ste",
+     "stress": true
+    },
+    {
+     "text": "he um ",
+     "stress": false
+    },
+    {
+     "text": "sechs",
+     "stress": true
+    },
+    {
+     "text": " ",
+     "stress": false
+    },
+    {
+     "text": "auf",
+     "stress": true
+    },
+    {
+     "text": ".",
+     "stress": false
+    }
+   ],
+   "text": "Ich stehe um sechs auf.",
+   "note": {
+    "de": "Die trennbare Vorsilbe am Ende trägt einen eigenen Akzent.",
+    "en": "The separable prefix at the end carries its own stress."
+   }
+  },
+  {
+   "id": "sh.04",
+   "level": "A2",
+   "syllables": [
+    {
+     "text": "Könn",
+     "stress": true
+    },
+    {
+     "text": "ten Sie das ",
+     "stress": false
+    },
+    {
+     "text": "bit",
+     "stress": true
+    },
+    {
+     "text": "te wieder",
+     "stress": false
+    },
+    {
+     "text": "ho",
+     "stress": true
+    },
+    {
+     "text": "len?",
+     "stress": false
+    }
+   ],
+   "text": "Könnten Sie das bitte wiederholen?",
+   "note": {
+    "de": "Höflich heißt hier: nicht lauter, sondern flacher.",
+    "en": "Polite here means flatter, not louder."
+   }
+  },
+  {
+   "id": "sh.05",
+   "level": "A2",
+   "syllables": [
+    {
+     "text": "Die ",
+     "stress": false
+    },
+    {
+     "text": "Hei",
+     "stress": true
+    },
+    {
+     "text": "zung funktio",
+     "stress": false
+    },
+    {
+     "text": "niert",
+     "stress": true
+    },
+    {
+     "text": " seit ",
+     "stress": false
+    },
+    {
+     "text": "Mon",
+     "stress": true
+    },
+    {
+     "text": "tag ",
+     "stress": false
+    },
+    {
+     "text": "nicht",
+     "stress": true
+    },
+    {
+     "text": ".",
+     "stress": false
+    }
+   ],
+   "text": "Die Heizung funktioniert seit Montag nicht.",
+   "note": {
+    "de": "nicht am Ende trägt den Satzakzent.",
+    "en": "nicht at the end carries the sentence stress."
+   }
+  },
+  {
+   "id": "sh.06",
+   "level": "B1",
+   "syllables": [
+    {
+     "text": "Meiner ",
+     "stress": false
+    },
+    {
+     "text": "Mei",
+     "stress": true
+    },
+    {
+     "text": "nung nach ist das der ",
+     "stress": false
+    },
+    {
+     "text": "fal",
+     "stress": true
+    },
+    {
+     "text": "sche Weg.",
+     "stress": false
+    }
+   ],
+   "text": "Meiner Meinung nach ist das der falsche Weg.",
+   "note": {
+    "de": "Der Akzent liegt auf falsche, nicht auf Weg.",
+    "en": "The stress is on falsche, not on Weg."
+   }
+  },
+  {
+   "id": "sh.07",
+   "level": "B1",
+   "syllables": [
+    {
+     "text": "Ich ",
+     "stress": false
+    },
+    {
+     "text": "hät",
+     "stress": true
+    },
+    {
+     "text": "te das ",
+     "stress": false
+    },
+    {
+     "text": "an",
+     "stress": true
+    },
+    {
+     "text": "ders ge",
+     "stress": false
+    },
+    {
+     "text": "macht",
+     "stress": true
+    },
+    {
+     "text": ".",
+     "stress": false
+    }
+   ],
+   "text": "Ich hätte das anders gemacht.",
+   "note": {
+    "de": "anders trägt den Kontrast und damit den Akzent.",
+    "en": "anders carries the contrast and so the stress."
+   }
+  },
+  {
+   "id": "sh.08",
+   "level": "B2",
+   "syllables": [
+    {
+     "text": "Das ",
+     "stress": false
+    },
+    {
+     "text": "mag",
+     "stress": true
+    },
+    {
+     "text": " im ",
+     "stress": false
+    },
+    {
+     "text": "Ein",
+     "stress": true
+    },
+    {
+     "text": "zelfall zu",
+     "stress": false
+    },
+    {
+     "text": "tref",
+     "stress": true
+    },
+    {
+     "text": "fen, ",
+     "stress": false
+    },
+    {
+     "text": "lässt",
+     "stress": true
+    },
+    {
+     "text": " sich aber nicht verallge",
+     "stress": false
+    },
+    {
+     "text": "mei",
+     "stress": true
+    },
+    {
+     "text": "nern.",
+     "stress": false
+    }
+   ],
+   "text": "Das mag im Einzelfall zutreffen, lässt sich aber nicht verallgemeinern.",
+   "note": {
+    "de": "Zwei Akzentgipfel: Einzelfall und verallgemeinern.",
+    "en": "Two stress peaks: Einzelfall and verallgemeinern."
+   }
+  },
+  {
+   "id": "sh.09",
+   "level": "B2",
+   "syllables": [
+    {
+     "text": "Da",
+     "stress": false
+    },
+    {
+     "text": "rin",
+     "stress": true
+    },
+    {
+     "text": " liegt das ",
+     "stress": false
+    },
+    {
+     "text": "ei",
+     "stress": true
+    },
+    {
+     "text": "gentliche Pro",
+     "stress": false
+    },
+    {
+     "text": "blem",
+     "stress": true
+    },
+    {
+     "text": ".",
+     "stress": false
+    }
+   ],
+   "text": "Darin liegt das eigentliche Problem.",
+   "note": {
+    "de": "Darin trägt den Akzent, weil es zurückverweist.",
+    "en": "Darin carries the stress because it points back."
+   }
+  },
+  {
+   "id": "sh.10",
+   "level": "C1",
+   "syllables": [
+    {
+     "text": "So über",
+     "stress": false
+    },
+    {
+     "text": "zeu",
+     "stress": true
+    },
+    {
+     "text": "gend das Argu",
+     "stress": false
+    },
+    {
+     "text": "ment",
+     "stress": true
+    },
+    {
+     "text": " auch ",
+     "stress": false
+    },
+    {
+     "text": "klingt",
+     "stress": true
+    },
+    {
+     "text": ", es be",
+     "stress": false
+    },
+    {
+     "text": "ruht",
+     "stress": true
+    },
+    {
+     "text": " auf einer ",
+     "stress": false
+    },
+    {
+     "text": "fal",
+     "stress": true
+    },
+    {
+     "text": "schen ",
+     "stress": false
+    },
+    {
+     "text": "Prä",
+     "stress": true
+    },
+    {
+     "text": "misse.",
+     "stress": false
+    }
+   ],
+   "text": "So überzeugend das Argument auch klingt, es beruht auf einer falschen Prämisse.",
+   "note": {
+    "de": "Der Konzessivsatz fällt, der Hauptsatz hebt wieder an.",
+    "en": "The concessive clause falls; the main clause lifts again."
+   }
+  },
+  {
+   "id": "sh.11",
+   "level": "C1",
+   "syllables": [
+    {
+     "text": "Ich ",
+     "stress": false
+    },
+    {
+     "text": "hal",
+     "stress": true
+    },
+    {
+     "text": "te das ",
+     "stress": false
+    },
+    {
+     "text": "e",
+     "stress": true
+    },
+    {
+     "text": "her für unwahr",
+     "stress": false
+    },
+    {
+     "text": "schein",
+     "stress": true
+    },
+    {
+     "text": "lich.",
+     "stress": false
+    }
+   ],
+   "text": "Ich halte das eher für unwahrscheinlich.",
+   "note": {
+    "de": "eher ist die Abtönung und bekommt deshalb Gewicht.",
+    "en": "eher is the hedge and therefore takes weight."
+   }
+  }
+ ],
  "levels": [
   {
    "key": "A1",
@@ -2391,5 +3638,46 @@
    "tasks": 4,
    "articles": 2
   }
- }
+ },
+ "glossLanguages": [
+  {
+   "code": "tr",
+   "name": "Turkish",
+   "nativeName": "Türkçe",
+   "rtl": false,
+   "coverage": {
+    "A1": 1,
+    "A2": 0,
+    "B1": 0,
+    "B2": 0,
+    "C1": 0
+   }
+  },
+  {
+   "code": "ar",
+   "name": "Arabic",
+   "nativeName": "العربية",
+   "rtl": true,
+   "coverage": {
+    "A1": 1,
+    "A2": 0,
+    "B1": 0,
+    "B2": 0,
+    "C1": 0
+   }
+  },
+  {
+   "code": "ru",
+   "name": "Russian",
+   "nativeName": "Русский",
+   "rtl": false,
+   "coverage": {
+    "A1": 1,
+    "A2": 0,
+    "B1": 0,
+    "B2": 0,
+    "C1": 0
+   }
+  }
+ ]
 }
